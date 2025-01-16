@@ -160,10 +160,13 @@
 		<img class="preload-hidden" src="/sets/ARK-files/icon.png" />
 		<img class="preload-hidden" src="/sets/CYO-files/icon.png" />
 		<img class="preload-hidden" src="/sets/FBI-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KSH-files/icon.png" />
 		<img class="preload-hidden" src="/sets/OPH-files/icon.png" />
 		<img class="preload-hidden" src="/sets/SPQ-files/icon.png" />
 		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
 		<img class="preload-hidden" src="/sets/TYT-files/icon.png" />
+		<img class="preload-hidden" id="bg" src="/sets/666-files/bg.png" />
+		
 		<div class="header">
 		<div class="search-grid">
 			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
@@ -184,6 +187,8 @@
 		<div class="icon"><a href="CYO-spoiler"><img src="sets/CYO-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="FBI-spoiler"><img src="sets/FBI-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="KSH-spoiler"><img src="sets/KSH-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="OPH-spoiler"><img src="sets/OPH-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
@@ -560,7 +565,7 @@
 		}
 		while (images_loaded.includes(false));
 
-		
+		document.body.style.backgroundImage = 'url(' + document.getElementById("bg").src + ')';
 		loadImages();
 	});
 
