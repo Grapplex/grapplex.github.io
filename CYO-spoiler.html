@@ -32,6 +32,7 @@
 		.sidebar-container {
 			width: 80%;
 			max-width: 375px;
+			position: relative;
 		}
 		.sidebar img {
 			vertical-align: middle;
@@ -99,21 +100,15 @@
 			cursor: pointer;
 			border: none;
 			position: absolute;
-			top: 6.5%;
-			left: 8.5%;
+			left: 50%;
+			top: 48%;
 			transform: translate(-50%, -50%);
+			opacity: 0.5;
 		}
 		.flip-btn:hover {
 			background: url('img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
-		}
-		.sidebar .flip-btn {
-			right: 80%;
-			left: 7.8%;
-			top: -4%;
-			transform: none;
-
 		}
 		.icon-bar {
 			display: grid;
@@ -164,7 +159,6 @@
 		<img class="preload-hidden" src="/sets/FBI-files/icon.png" />
 		<img class="preload-hidden" src="/sets/GRU-files/icon.png" />
 		<img class="preload-hidden" src="/sets/KSH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MHQ-files/icon.png" />
 		<img class="preload-hidden" src="/sets/OPH-files/icon.png" />
 		<img class="preload-hidden" src="/sets/QYR-files/icon.png" />
 		<img class="preload-hidden" src="/sets/SPQ-files/icon.png" />
@@ -181,6 +175,7 @@
 			<img class="sg-icon" src="/img/search.png">
 			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
 			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
 			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
 		</div>
 	</div>
@@ -203,8 +198,6 @@
 		<div class="icon"><a href="GRU-spoiler"><img src="sets/GRU-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="KSH-spoiler"><img src="sets/KSH-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="MHQ-spoiler"><img src="sets/MHQ-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="OPH-spoiler"><img src="sets/OPH-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
@@ -388,11 +381,11 @@
 			<div class="container"><img alt="sets\CYO-files\img\100_Face Death.png" id="100" data-flag="@X" onclick="openSidebar('100')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\133_Read the Flames.png" id="133" data-flag="@X" onclick="openSidebar('133')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\166_Witness the Woods.png" id="166" data-flag="@X" onclick="openSidebar('166')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\171_Wipe Out.png" id="171" data-flag="@X" onclick="openSidebar('171')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\174_Unexpected Adversary.png" id="174" data-flag="@X" onclick="openSidebar('174')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\181_Persistent Threat.png" id="181" data-flag="@X" onclick="openSidebar('181')"></div>
@@ -428,61 +421,71 @@
 			<div class="container"><img alt="sets\CYO-files\img\179_Invocation of Inekh.png" id="179" data-flag="@X" onclick="openSidebar('179')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\184_Face the Pit of Despair.png" id="184" data-flag="@X" onclick="openSidebar('184')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\189_Trapped in the Citadel.png" id="189" data-flag="@X" onclick="openSidebar('189')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\197_Critical Decision.png" id="197" data-flag="@X" onclick="openSidebar('197')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\206_Morec, Lord of Nachtwood.png" id="206" data-flag="@X" onclick="openSidebar('206')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\212_Skalathak, Deathless Wyrm.png" id="212" data-flag="@X" onclick="openSidebar('212')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\214_Thuul the Beastmaster.png" id="214" data-flag="@X" onclick="openSidebar('214')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\215_True Chaos.png" id="215" data-flag="@X" onclick="openSidebar('215')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\272_Hargau, Archlich.png" id="272" data-flag="@X" onclick="openSidebar('272')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\215_True Chaos.png" id="215" data-flag="@X" onclick="openSidebar('215')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\212_Skalathak, Deathless Wyrm.png" id="212" data-flag="@X" onclick="openSidebar('212')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\206_Morec, Lord of Nachtwood.png" id="206" data-flag="@X" onclick="openSidebar('206')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\194_Brewers of Destiny.png" id="194" data-flag="@X" onclick="openSidebar('194')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\203_Infernal Templar.png" id="203" data-flag="@X" onclick="openSidebar('203')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\208_Plunge into Adventure.png" id="208" data-flag="@X" onclick="openSidebar('208')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\213_Threshold of Fate.png" id="213" data-flag="@X" onclick="openSidebar('213')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\216_Tyrant's Relic.png" id="216" data-flag="@X" onclick="openSidebar('216')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\218_Will of Chaos.png" id="218" data-flag="@X" onclick="openSidebar('218')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\219_Will of Hargau.png" id="219" data-flag="@X" onclick="openSidebar('219')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\220_Will of Morec.png" id="220" data-flag="@X" onclick="openSidebar('220')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\221_Will of Skalathak.png" id="221" data-flag="@X" onclick="openSidebar('221')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\203_Infernal Templar.png" id="203" data-flag="@X" onclick="openSidebar('203')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\213_Threshold of Fate.png" id="213" data-flag="@X" onclick="openSidebar('213')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\222_Will of Thuul.png" id="222" data-flag="@X" onclick="openSidebar('222')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\192_Accursed Wight.png" id="192" data-flag="@X" onclick="openSidebar('192')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\193_Black Knight of the Deep.png" id="193" data-flag="@X" onclick="openSidebar('193')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\219_Will of Hargau.png" id="219" data-flag="@X" onclick="openSidebar('219')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\218_Will of Chaos.png" id="218" data-flag="@X" onclick="openSidebar('218')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\221_Will of Skalathak.png" id="221" data-flag="@X" onclick="openSidebar('221')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\220_Will of Morec.png" id="220" data-flag="@X" onclick="openSidebar('220')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\196_Citadel Wight.png" id="196" data-flag="@X" onclick="openSidebar('196')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\198_Escape the Lair of the Wyrm.png" id="198" data-flag="@X" onclick="openSidebar('198')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\199_Eternal Alchemist.png" id="199" data-flag="@X" onclick="openSidebar('199')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\200_Firetop Warlord.png" id="200" data-flag="@X" onclick="openSidebar('200')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\193_Black Knight of the Deep.png" id="193" data-flag="@X" onclick="openSidebar('193')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\192_Accursed Wight.png" id="192" data-flag="@X" onclick="openSidebar('192')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\204_Loyalty Does Not Die.png" id="204" data-flag="@X" onclick="openSidebar('204')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\199_Eternal Alchemist.png" id="199" data-flag="@X" onclick="openSidebar('199')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\205_Might of the Wyrm.png" id="205" data-flag="@X" onclick="openSidebar('205')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\210_Seer of Choices.png" id="210" data-flag="@X" onclick="openSidebar('210')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\198_Escape the Lair of the Wyrm.png" id="198" data-flag="@X" onclick="openSidebar('198')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\217_Wandering Wolfcaller.png" id="217" data-flag="@X" onclick="openSidebar('217')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\210_Seer of Choices.png" id="210" data-flag="@X" onclick="openSidebar('210')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\231_Questing Regalia.png" id="231" data-flag="@X" onclick="openSidebar('231')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\228_Aetherflesh Weave.png" id="228" data-flag="@X" onclick="openSidebar('228')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\229_Allure of the Dead.png" id="229" data-flag="@X" onclick="openSidebar('229')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\230_Knee Deep in the Dungeon.png" id="230" data-flag="@X" onclick="openSidebar('230')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\231_Questing Regalia.png" id="231" data-flag="@X" onclick="openSidebar('231')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\232_Wyrm's Breath.png" id="232" data-flag="@X" onclick="openSidebar('232')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\230_Knee Deep in the Dungeon.png" id="230" data-flag="@X" onclick="openSidebar('230')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\195_Child of the Beastmaster.png" id="195" data-flag="@X" onclick="openSidebar('195')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\201_Harbinger of Chaos.png" id="201" data-flag="@X" onclick="openSidebar('201')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\207_Nachtwood Farseeker.png" id="207" data-flag="@X" onclick="openSidebar('207')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\209_Scion of the Wyrm.png" id="209" data-flag="@X" onclick="openSidebar('209')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\211_Servant of the Lich-Lord.png" id="211" data-flag="@X" onclick="openSidebar('211')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\201_Harbinger of Chaos.png" id="201" data-flag="@X" onclick="openSidebar('201')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\209_Scion of the Wyrm.png" id="209" data-flag="@X" onclick="openSidebar('209')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\207_Nachtwood Farseeker.png" id="207" data-flag="@X" onclick="openSidebar('207')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\197_Critical Decision.png" id="197" data-flag="@X" onclick="openSidebar('197')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\6_The Traveler.png" id="6" data-flag="@X" onclick="openSidebar('6')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\246_Shield of Day and Night.png" id="246" data-flag="@X" onclick="openSidebar('246')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\247_The Chronicles of Yor-Om.png" id="247" data-flag="@X" onclick="openSidebar('247')"></div>
@@ -500,54 +503,59 @@
 			<div class="container"><img alt="sets\CYO-files\img\239_Captive Wyrmsoul.png" id="239" data-flag="@X" onclick="openSidebar('239')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\240_Guide to Mount Firetop.png" id="240" data-flag="@X" onclick="openSidebar('240')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\244_Pewter Paladin.png" id="244" data-flag="@X" onclick="openSidebar('244')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\253_Idyllic Temple.png" id="253" data-flag="@X" onclick="openSidebar('253')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\259_Screeching Peaks.png" id="259" data-flag="@X" onclick="openSidebar('259')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\252_Fabled Manor.png" id="252" data-flag="@X" onclick="openSidebar('252')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\253_Idyllic Temple.png" id="253" data-flag="@X" onclick="openSidebar('253')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\254_Imposing Den.png" id="254" data-flag="@X" onclick="openSidebar('254')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\259_Screeching Peaks.png" id="259" data-flag="@X" onclick="openSidebar('259')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\260_Verdant Splendor.png" id="260" data-flag="@X" onclick="openSidebar('260')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\255_Mount Elsewhere.png" id="255" data-flag="@X" onclick="openSidebar('255')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\251_Destiny's Horizon.png" id="251" data-flag="@X" onclick="openSidebar('251')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\249_Charred Ruins.png" id="249" data-flag="@X" onclick="openSidebar('249')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\250_Cryptic Tomb.png" id="250" data-flag="@X" onclick="openSidebar('250')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\257_Polder Vista.png" id="257" data-flag="@X" onclick="openSidebar('257')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\258_Promising Trail.png" id="258" data-flag="@X" onclick="openSidebar('258')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\250_Cryptic Tomb.png" id="250" data-flag="@X" onclick="openSidebar('250')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\249_Charred Ruins.png" id="249" data-flag="@X" onclick="openSidebar('249')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\261_Wake of Chaos.png" id="261" data-flag="@X" onclick="openSidebar('261')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\256_Peerless Ascent.png" id="256" data-flag="@X" onclick="openSidebar('256')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\257_Polder Vista.png" id="257" data-flag="@X" onclick="openSidebar('257')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\266_Seaside Citadel.png" id="266" data-flag="@X" onclick="openSidebar('266')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\262_Arcane Sanctum.png" id="262" data-flag="@X" onclick="openSidebar('262')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\263_Crumbling Necropolis.png" id="263" data-flag="@X" onclick="openSidebar('263')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\264_Jungle Shrine.png" id="264" data-flag="@X" onclick="openSidebar('264')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\265_Savage Lands.png" id="265" data-flag="@X" onclick="openSidebar('265')"></div>
-			<div class="container"><img alt="sets\CYO-files\img\266_Seaside Citadel.png" id="266" data-flag="@X" onclick="openSidebar('266')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\264_Jungle Shrine.png" id="264" data-flag="@X" onclick="openSidebar('264')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\255_Mount Elsewhere.png" id="255" data-flag="@X" onclick="openSidebar('255')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\251_Destiny's Horizon.png" id="251" data-flag="@X" onclick="openSidebar('251')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\256_Peerless Ascent.png" id="256" data-flag="@X" onclick="openSidebar('256')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\267_Plains.png" id="267" data-flag="@X" onclick="openSidebar('267')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\268_Island.png" id="268" data-flag="@X" onclick="openSidebar('268')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\269_Swamp.png" id="269" data-flag="@X" onclick="openSidebar('269')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\270_Mountain.png" id="270" data-flag="@X" onclick="openSidebar('270')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\271_Forest.png" id="271" data-flag="@X" onclick="openSidebar('271')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\1t_Drake.png" id="1t" data-flag="@X" onclick="openSidebar('1t')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\2t_Human.png" id="2t" data-flag="@X" onclick="openSidebar('2t')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\3t_Shade.png" id="3t" data-flag="@X" onclick="openSidebar('3t')"></div>
@@ -556,12 +564,15 @@
 			<div class="container"><img alt="sets\CYO-files\img\6t_Beast.png" id="6t" data-flag="@X" onclick="openSidebar('6t')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\7t_Beast Demigod.png" id="7t" data-flag="@X" onclick="openSidebar('7t')"></div>
 			<div class="container"><img alt="sets\CYO-files\img\8t_Treasure.png" id="8t" data-flag="@X" onclick="openSidebar('8t')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="sets\CYO-files\img\9t_Draft Archetypes.png" id="9t" data-flag="@X" onclick="openSidebar('9t')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 	</div>
 </div>
 	<div class="sidebar" id="sidebar">
-		<div class="sidebar-container"><img id="sidebar_img" src="img/er.png"><button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button></div>
+		<div class="sidebar-container">
+			<img id="sidebar_img" src="img/er.png">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
 		<button class="close-btn" onclick="closeSidebar()"></button>
 	</div>
 	<div class="footer"></div>
@@ -571,10 +582,10 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.txt')
-					.then(response => response.text())
-					.then(text => {
-						card_list_stringified = text;
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
 				await fetch('/resources/replacechars.txt')
@@ -583,12 +594,7 @@
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
-				card_list_arrayified = card_list_stringified.split('\\n');
-
-				for (let i = 0; i < card_list_arrayified.length; i++)
-				{
-					card_list_arrayified[i] = card_list_arrayified[i].split('\t');
-				}
+				card_list_arrayified = card_list.cards;
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 		
@@ -704,13 +710,13 @@
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-				let card_name = card_list_arrayified[i][0];
+				let card_name = card_list_arrayified[i].card_name;
 				for (const char of specialchars)
 				{
 					card_name = card_name.replaceAll(char, "");
 				}
 
-				window.location = ('/cards/' + card_list_arrayified[i][11] + '/' + card_list_arrayified[i][4] + '_' + card_name);
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
 			}
 	</script>
 </body>

@@ -32,6 +32,7 @@
 		.sidebar-container {
 			width: 80%;
 			max-width: 375px;
+			position: relative;
 		}
 		.sidebar img {
 			vertical-align: middle;
@@ -99,21 +100,15 @@
 			cursor: pointer;
 			border: none;
 			position: absolute;
-			top: 6.5%;
-			left: 8.5%;
+			left: 50%;
+			top: 48%;
 			transform: translate(-50%, -50%);
+			opacity: 0.5;
 		}
 		.flip-btn:hover {
 			background: url('img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
-		}
-		.sidebar .flip-btn {
-			right: 80%;
-			left: 7.8%;
-			top: -4%;
-			transform: none;
-
 		}
 		.icon-bar {
 			display: grid;
@@ -164,7 +159,6 @@
 		<img class="preload-hidden" src="/sets/FBI-files/icon.png" />
 		<img class="preload-hidden" src="/sets/GRU-files/icon.png" />
 		<img class="preload-hidden" src="/sets/KSH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MHQ-files/icon.png" />
 		<img class="preload-hidden" src="/sets/OPH-files/icon.png" />
 		<img class="preload-hidden" src="/sets/QYR-files/icon.png" />
 		<img class="preload-hidden" src="/sets/SPQ-files/icon.png" />
@@ -181,6 +175,7 @@
 			<img class="sg-icon" src="/img/search.png">
 			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
 			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
 			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
 		</div>
 	</div>
@@ -203,8 +198,6 @@
 		<div class="icon"><a href="GRU-spoiler"><img src="sets/GRU-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="KSH-spoiler"><img src="sets/KSH-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="MHQ-spoiler"><img src="sets/MHQ-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="OPH-spoiler"><img src="sets/OPH-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
@@ -423,11 +416,11 @@
 			<div class="container"><img alt="sets\GRU-files\img\117_Touch of the Otherworld.png" id="117" data-flag="@X" onclick="openSidebar('117')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\158_Weathered Claymore.png" id="158" data-flag="@X" onclick="openSidebar('158')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\197_Wolftamer.png" id="197" data-flag="@X" onclick="openSidebar('197')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\198_Inevitable Fate.png" id="198" data-flag="@X" onclick="openSidebar('198')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\201_Maebh of the Bloody Hand.png" id="201" data-flag="@X" onclick="openSidebar('201')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\202_Meaha's Promise.png" id="202" data-flag="@X" onclick="openSidebar('202')"></div>
@@ -438,11 +431,11 @@
 			<div class="container"><img alt="sets\GRU-files\img\203_Ominous Banshee.png" id="203" data-flag="@X" onclick="openSidebar('203')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\205_Unell's Warleader.png" id="205" data-flag="@X" onclick="openSidebar('205')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\206_Battle Fury.png" id="206" data-flag="@X" onclick="openSidebar('206')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\209_Rigann's Dreaming.png" id="209" data-flag="@X" onclick="openSidebar('209')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\216_Great Hunt of Capal Dú.png" id="216" data-flag="@X" onclick="openSidebar('216')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\220_Fables of Unell.png" id="220" data-flag="@X" onclick="openSidebar('220')"></div>
@@ -458,51 +451,51 @@
 			<div class="container"><img alt="sets\GRU-files\img\222_Stag of High Tara.png" id="222" data-flag="@X" onclick="openSidebar('222')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\212_Otherworld Chariot.png" id="212" data-flag="@X" onclick="openSidebar('212')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\218_Howling Lamentation.png" id="218" data-flag="@X" onclick="openSidebar('218')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="sets\GRU-files\img\223_Cos Teilo, Generous King.png" id="223" data-flag="@X" onclick="openSidebar('223')"></div>
-			<div class="container"><img alt="sets\GRU-files\img\224_Meaha, Onerous Queen.png" id="224" data-flag="@X" onclick="openSidebar('224')"></div>
-			<div class="container"><img alt="sets\GRU-files\img\225_Orflaith the Still.png" id="225" data-flag="@X" onclick="openSidebar('225')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\226_Prophecy of the Hound.png" id="226" data-flag="@X" onclick="openSidebar('226')"></div>
+			<div class="container"><img alt="sets\GRU-files\img\223_Cos Teilo, Generous King.png" id="223" data-flag="@X" onclick="openSidebar('223')"></div>
+			<div class="container"><img alt="sets\GRU-files\img\225_Orflaith the Still.png" id="225" data-flag="@X" onclick="openSidebar('225')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\227_Stone of Destiny.png" id="227" data-flag="@X" onclick="openSidebar('227')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="sets\GRU-files\img\224_Meaha, Onerous Queen.png" id="224" data-flag="@X" onclick="openSidebar('224')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\2_Rigann's Prophecy.png" id="2" data-flag="@X" onclick="openSidebar('2')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\228_The Answerer.png" id="228" data-flag="@X" onclick="openSidebar('228')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\229_Black Coach.png" id="229" data-flag="@X" onclick="openSidebar('229')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\231_Brooch of High Tara.png" id="231" data-flag="@X" onclick="openSidebar('231')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\234_Sceatha's Marvel.png" id="234" data-flag="@X" onclick="openSidebar('234')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\1_Oath to the High King.png" id="1" data-flag="@X" onclick="openSidebar('1')"></div>
-			<div class="container"><img alt="sets\GRU-files\img\7_Counters.png" id="7" data-flag="@X" onclick="openSidebar('7')"></div>
-			<div class="container"><img alt="sets\GRU-files\img\8_GRU Draft Archetypes.png" id="8" data-flag="@X" onclick="openSidebar('8')"></div>
-			<div class="container"><img alt="sets\GRU-files\img\9_Oath Fulfilled.png" id="9" data-flag="@X" onclick="openSidebar('9')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\230_Bloody Handed Idol.png" id="230" data-flag="@X" onclick="openSidebar('230')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\232_Clairseach Harp.png" id="232" data-flag="@X" onclick="openSidebar('232')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\233_Roving Birlinn.png" id="233" data-flag="@X" onclick="openSidebar('233')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\235_War-Tested Chariot.png" id="235" data-flag="@X" onclick="openSidebar('235')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\247_Sea's Edge.png" id="247" data-flag="@X" onclick="openSidebar('247')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\238_Coastline Village.png" id="238" data-flag="@X" onclick="openSidebar('238')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\242_Midnight Dolmens.png" id="242" data-flag="@X" onclick="openSidebar('242')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\240_High King's Hall.png" id="240" data-flag="@X" onclick="openSidebar('240')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\236_Apple Orchard.png" id="236" data-flag="@X" onclick="openSidebar('236')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\239_Giant's Causeway.png" id="239" data-flag="@X" onclick="openSidebar('239')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\243_Naira's Gallows.png" id="243" data-flag="@X" onclick="openSidebar('243')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\248_Slumbering Hill.png" id="248" data-flag="@X" onclick="openSidebar('248')"></div>
@@ -512,12 +505,12 @@
 			<div class="container"><img alt="sets\GRU-files\img\245_Overgrown Wreck.png" id="245" data-flag="@X" onclick="openSidebar('245')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\246_Rugged Burren.png" id="246" data-flag="@X" onclick="openSidebar('246')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\249_Solemn Cloister.png" id="249" data-flag="@X" onclick="openSidebar('249')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\250_Plains.png" id="250" data-flag="@X" onclick="openSidebar('250')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\252_Island.png" id="252" data-flag="@X" onclick="openSidebar('252')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\254_Swamp.png" id="254" data-flag="@X" onclick="openSidebar('254')"></div>
@@ -528,25 +521,28 @@
 			<div class="container"><img alt="sets\GRU-files\img\255_Swamp.png" id="255" data-flag="@X" onclick="openSidebar('255')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\257_Mountain.png" id="257" data-flag="@X" onclick="openSidebar('257')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\259_Forest.png" id="259" data-flag="@X" onclick="openSidebar('259')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\1t_Bird.png" id="1t" data-flag="@X" onclick="openSidebar('1t')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\2t_Spirit Bear.png" id="2t" data-flag="@X" onclick="openSidebar('2t')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\3t_Wolf.png" id="3t" data-flag="@X" onclick="openSidebar('3t')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\4t_Human Warrior.png" id="4t" data-flag="@X" onclick="openSidebar('4t')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\5t_Mistletoe.png" id="5t" data-flag="@X" onclick="openSidebar('5t')"></div>
 			<div class="container"><img alt="sets\GRU-files\img\6t_Spirit.png" id="6t" data-flag="@X" onclick="openSidebar('6t')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="sets\GRU-files\img\7t_GRU Draft Archetypes.png" id="7t" data-flag="@X" onclick="openSidebar('7t')"></div>
+			<div class="container"><img alt="sets\GRU-files\img\8t_Oath Fulfilled.png" id="8t" data-flag="@X" onclick="openSidebar('8t')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 	</div>
 </div>
 	<div class="sidebar" id="sidebar">
-		<div class="sidebar-container"><img id="sidebar_img" src="img/er.png"><button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button></div>
+		<div class="sidebar-container">
+			<img id="sidebar_img" src="img/er.png">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
 		<button class="close-btn" onclick="closeSidebar()"></button>
 	</div>
 	<div class="footer"></div>
@@ -556,10 +552,10 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.txt')
-					.then(response => response.text())
-					.then(text => {
-						card_list_stringified = text;
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
 				await fetch('/resources/replacechars.txt')
@@ -568,12 +564,7 @@
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
-				card_list_arrayified = card_list_stringified.split('\\n');
-
-				for (let i = 0; i < card_list_arrayified.length; i++)
-				{
-					card_list_arrayified[i] = card_list_arrayified[i].split('\t');
-				}
+				card_list_arrayified = card_list.cards;
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 		
@@ -689,13 +680,13 @@
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-				let card_name = card_list_arrayified[i][0];
+				let card_name = card_list_arrayified[i].card_name;
 				for (const char of specialchars)
 				{
 					card_name = card_name.replaceAll(char, "");
 				}
 
-				window.location = ('/cards/' + card_list_arrayified[i][11] + '/' + card_list_arrayified[i][4] + '_' + card_name);
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
 			}
 	</script>
 </body>

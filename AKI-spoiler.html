@@ -32,6 +32,7 @@
 		.sidebar-container {
 			width: 80%;
 			max-width: 375px;
+			position: relative;
 		}
 		.sidebar img {
 			vertical-align: middle;
@@ -99,21 +100,15 @@
 			cursor: pointer;
 			border: none;
 			position: absolute;
-			top: 6.5%;
-			left: 8.5%;
+			left: 50%;
+			top: 48%;
 			transform: translate(-50%, -50%);
+			opacity: 0.5;
 		}
 		.flip-btn:hover {
 			background: url('img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
-		}
-		.sidebar .flip-btn {
-			right: 80%;
-			left: 7.8%;
-			top: -4%;
-			transform: none;
-
 		}
 		.icon-bar {
 			display: grid;
@@ -164,7 +159,6 @@
 		<img class="preload-hidden" src="/sets/FBI-files/icon.png" />
 		<img class="preload-hidden" src="/sets/GRU-files/icon.png" />
 		<img class="preload-hidden" src="/sets/KSH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MHQ-files/icon.png" />
 		<img class="preload-hidden" src="/sets/OPH-files/icon.png" />
 		<img class="preload-hidden" src="/sets/QYR-files/icon.png" />
 		<img class="preload-hidden" src="/sets/SPQ-files/icon.png" />
@@ -181,6 +175,7 @@
 			<img class="sg-icon" src="/img/search.png">
 			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
 			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
 			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
 		</div>
 	</div>
@@ -203,8 +198,6 @@
 		<div class="icon"><a href="GRU-spoiler"><img src="sets/GRU-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="KSH-spoiler"><img src="sets/KSH-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="MHQ-spoiler"><img src="sets/MHQ-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="OPH-spoiler"><img src="sets/OPH-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
@@ -428,11 +421,11 @@
 			<div class="container"><img alt="sets\AKI-files\img\119_Weight of Guilt.png" id="119" data-flag="@X" onclick="openSidebar('119')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\160_Wandering Wiseman.png" id="160" data-flag="@X" onclick="openSidebar('160')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\200_The Wind at Your Back.png" id="200" data-flag="@X" onclick="openSidebar('200')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\210_Emperor's Courtyard.png" id="210" data-flag="@X" onclick="openSidebar('210')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\226_Ritual of Time.png" id="226" data-flag="@X" onclick="openSidebar('226')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\231_Thomil, Craven Sadist.png" id="231" data-flag="@X" onclick="openSidebar('231')"></div>
@@ -448,11 +441,11 @@
 			<div class="container"><img alt="sets\AKI-files\img\216_Guardian of the Tomb.png" id="216" data-flag="@X" onclick="openSidebar('216')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\222_Prince's Tutor.png" id="222" data-flag="@X" onclick="openSidebar('222')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\233_Wanderer's Folly.png" id="233" data-flag="@X" onclick="openSidebar('233')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\212_Empire's End.png" id="212" data-flag="@X" onclick="openSidebar('212')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\223_Profane Incense.png" id="223" data-flag="@X" onclick="openSidebar('223')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\219_Living Archetype.png" id="219" data-flag="@X" onclick="openSidebar('219')"></div>
@@ -468,21 +461,21 @@
 			<div class="container"><img alt="sets\AKI-files\img\204_Architect of Wonders.png" id="204" data-flag="@X" onclick="openSidebar('204')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\220_Patronage of the Arts.png" id="220" data-flag="@X" onclick="openSidebar('220')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\207_Charge into History.png" id="207" data-flag="@X" onclick="openSidebar('207')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\205_Baniphal, Law's Hammer.png" id="205" data-flag="@X" onclick="openSidebar('205')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\209_Emperor Qamurab.png" id="209" data-flag="@X" onclick="openSidebar('209')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\214_Ghazuz, Indolent Worm.png" id="214" data-flag="@X" onclick="openSidebar('214')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\224_Qirauz, Impatient Prince.png" id="224" data-flag="@X" onclick="openSidebar('224')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\227_Sahriuz, Nemesis of Fate.png" id="227" data-flag="@X" onclick="openSidebar('227')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\237_Edicts of Qamurab.png" id="237" data-flag="@X" onclick="openSidebar('237')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\243_Ominous Obelisk.png" id="243" data-flag="@X" onclick="openSidebar('243')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\246_Timeless Heartwood.png" id="246" data-flag="@X" onclick="openSidebar('246')"></div>
@@ -491,57 +484,70 @@
 			<div class="container"><img alt="sets\AKI-files\img\244_Sandstone Overseer.png" id="244" data-flag="@X" onclick="openSidebar('244')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\247_Tower Schematics.png" id="247" data-flag="@X" onclick="openSidebar('247')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\248_Vessel of Indulgence.png" id="248" data-flag="@X" onclick="openSidebar('248')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\7_AKI Draft Archetypes.png" id="7" data-flag="@X" onclick="openSidebar('7')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\8_Judgment.png" id="8" data-flag="@X" onclick="openSidebar('8')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\238_Empty Throne.png" id="238" data-flag="@X" onclick="openSidebar('238')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\239_Hubristic Colossus.png" id="239" data-flag="@X" onclick="openSidebar('239')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\240_Hunter's Chariot.png" id="240" data-flag="@X" onclick="openSidebar('240')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\241_Mace of Command.png" id="241" data-flag="@X" onclick="openSidebar('241')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\245_Temple Mosaic.png" id="245" data-flag="@X" onclick="openSidebar('245')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\257_Sea Harbor.png" id="257" data-flag="@X" onclick="openSidebar('257')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\261_Triumphal Arch.png" id="261" data-flag="@X" onclick="openSidebar('261')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\253_Lion's Passage.png" id="253" data-flag="@X" onclick="openSidebar('253')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\258_Teeming Riverbank.png" id="258" data-flag="@X" onclick="openSidebar('258')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\254_Public Temple.png" id="254" data-flag="@X" onclick="openSidebar('254')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\249_Gilded Sanctum.png" id="249" data-flag="@X" onclick="openSidebar('249')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\250_Imposing Gate.png" id="250" data-flag="@X" onclick="openSidebar('250')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\251_Indulgent Garden.png" id="251" data-flag="@X" onclick="openSidebar('251')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\252_Isolated Bayt.png" id="252" data-flag="@X" onclick="openSidebar('252')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\255_Qanat Pool.png" id="255" data-flag="@X" onclick="openSidebar('255')"></div>
+			<div class="container"><img alt="sets\AKI-files\img\252_Isolated Bayt.png" id="252" data-flag="@X" onclick="openSidebar('252')"></div>
+			<div class="container"><img alt="sets\AKI-files\img\250_Imposing Gate.png" id="250" data-flag="@X" onclick="openSidebar('250')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\256_Ruins of Irum.png" id="256" data-flag="@X" onclick="openSidebar('256')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\260_Tomb of the Forgotten.png" id="260" data-flag="@X" onclick="openSidebar('260')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\259_Temple Complex.png" id="259" data-flag="@X" onclick="openSidebar('259')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\1t_Proud Memories.png" id="1t" data-flag="@X" onclick="openSidebar('1t')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\2t_Soldier.png" id="2t" data-flag="@X" onclick="openSidebar('2t')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\3t_Horror.png" id="3t" data-flag="@X" onclick="openSidebar('3t')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\4t_Incarnation.png" id="4t" data-flag="@X" onclick="openSidebar('4t')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\5t_Sculpture.png" id="5t" data-flag="@X" onclick="openSidebar('5t')"></div>
 			<div class="container"><img alt="sets\AKI-files\img\6t_Treasure.png" id="6t" data-flag="@X" onclick="openSidebar('6t')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="sets\AKI-files\img\7t_AKI Draft Archetypes.png" id="7t" data-flag="@X" onclick="openSidebar('7t')"></div>
+			<div class="container"><img alt="sets\AKI-files\img\8t_Judgment.png" id="8t" data-flag="@X" onclick="openSidebar('8t')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 	</div>
 </div>
 	<div class="sidebar" id="sidebar">
-		<div class="sidebar-container"><img id="sidebar_img" src="img/er.png"><button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button></div>
+		<div class="sidebar-container">
+			<img id="sidebar_img" src="img/er.png">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
 		<button class="close-btn" onclick="closeSidebar()"></button>
 	</div>
 	<div class="footer"></div>
@@ -551,10 +557,10 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.txt')
-					.then(response => response.text())
-					.then(text => {
-						card_list_stringified = text;
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
 				await fetch('/resources/replacechars.txt')
@@ -563,12 +569,7 @@
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
-				card_list_arrayified = card_list_stringified.split('\\n');
-
-				for (let i = 0; i < card_list_arrayified.length; i++)
-				{
-					card_list_arrayified[i] = card_list_arrayified[i].split('\t');
-				}
+				card_list_arrayified = card_list.cards;
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 		
@@ -684,13 +685,13 @@
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-				let card_name = card_list_arrayified[i][0];
+				let card_name = card_list_arrayified[i].card_name;
 				for (const char of specialchars)
 				{
 					card_name = card_name.replaceAll(char, "");
 				}
 
-				window.location = ('/cards/' + card_list_arrayified[i][11] + '/' + card_list_arrayified[i][4] + '_' + card_name);
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
 			}
 	</script>
 </body>

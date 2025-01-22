@@ -32,6 +32,7 @@
 		.sidebar-container {
 			width: 80%;
 			max-width: 375px;
+			position: relative;
 		}
 		.sidebar img {
 			vertical-align: middle;
@@ -99,21 +100,15 @@
 			cursor: pointer;
 			border: none;
 			position: absolute;
-			top: 6.5%;
-			left: 8.5%;
+			left: 50%;
+			top: 48%;
 			transform: translate(-50%, -50%);
+			opacity: 0.5;
 		}
 		.flip-btn:hover {
 			background: url('img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
-		}
-		.sidebar .flip-btn {
-			right: 80%;
-			left: 7.8%;
-			top: -4%;
-			transform: none;
-
 		}
 		.icon-bar {
 			display: grid;
@@ -164,7 +159,6 @@
 		<img class="preload-hidden" src="/sets/FBI-files/icon.png" />
 		<img class="preload-hidden" src="/sets/GRU-files/icon.png" />
 		<img class="preload-hidden" src="/sets/KSH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MHQ-files/icon.png" />
 		<img class="preload-hidden" src="/sets/OPH-files/icon.png" />
 		<img class="preload-hidden" src="/sets/QYR-files/icon.png" />
 		<img class="preload-hidden" src="/sets/SPQ-files/icon.png" />
@@ -181,6 +175,7 @@
 			<img class="sg-icon" src="/img/search.png">
 			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
 			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
 			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
 		</div>
 	</div>
@@ -203,8 +198,6 @@
 		<div class="icon"><a href="GRU-spoiler"><img src="sets/GRU-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="KSH-spoiler"><img src="sets/KSH-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="MHQ-spoiler"><img src="sets/MHQ-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="OPH-spoiler"><img src="sets/OPH-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
@@ -428,11 +421,11 @@
 			<div class="container"><img alt="sets\XSK-files\img\121_Writhing Lasher.png" id="121" data-flag="@X" onclick="openSidebar('121')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\160_Wrack the Brain.png" id="160" data-flag="@X" onclick="openSidebar('160')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\201_Xylosynthetic Husk.png" id="201" data-flag="@X" onclick="openSidebar('201')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\231_Vitho Baun, Artisan of Flesh.png" id="231" data-flag="@X" onclick="openSidebar('231')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\229_Ukarth Ren, Vivisector.png" id="229" data-flag="@X" onclick="openSidebar('229')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\228_Udim, Human Plus.png" id="228" data-flag="@X" onclick="openSidebar('228')"></div>
@@ -448,11 +441,11 @@
 			<div class="container"><img alt="sets\XSK-files\img\220_Patient Zero.png" id="220" data-flag="@X" onclick="openSidebar('220')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\205_Containment Pod.png" id="205" data-flag="@X" onclick="openSidebar('205')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\219_Old Boneless.png" id="219" data-flag="@X" onclick="openSidebar('219')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\206_Emergence Beacon.png" id="206" data-flag="@X" onclick="openSidebar('206')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\207_Entity One.png" id="207" data-flag="@X" onclick="openSidebar('207')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\222_Project Halcyon.png" id="222" data-flag="@X" onclick="openSidebar('222')"></div>
@@ -468,80 +461,88 @@
 			<div class="container"><img alt="sets\XSK-files\img\211_Greater Endomorph.png" id="211" data-flag="@X" onclick="openSidebar('211')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\214_Incubation Vat.png" id="214" data-flag="@X" onclick="openSidebar('214')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\230_Unstable Outcast.png" id="230" data-flag="@X" onclick="openSidebar('230')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\234_Forbidden Catalyst.png" id="234" data-flag="@X" onclick="openSidebar('234')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\235_Hazard Suit.png" id="235" data-flag="@X" onclick="openSidebar('235')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\236_Preservation Jar.png" id="236" data-flag="@X" onclick="openSidebar('236')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\238_Research Notes.png" id="238" data-flag="@X" onclick="openSidebar('238')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\239_Rusted Needle.png" id="239" data-flag="@X" onclick="openSidebar('239')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\1_Test Subject.png" id="1" data-flag="@X" onclick="openSidebar('1')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\7_Diverge.png" id="7" data-flag="@X" onclick="openSidebar('7')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\8_XSK Draft Archetypes.png" id="8" data-flag="@X" onclick="openSidebar('8')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\232_Bone Saw.png" id="232" data-flag="@X" onclick="openSidebar('232')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\233_Circle of the Tyrants.png" id="233" data-flag="@X" onclick="openSidebar('233')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\237_Prototype Endoskeleton.png" id="237" data-flag="@X" onclick="openSidebar('237')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\240_Specimen Jars.png" id="240" data-flag="@X" onclick="openSidebar('240')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\248_Research Mainframe.png" id="248" data-flag="@X" onclick="openSidebar('248')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\249_Specimen Chamber.png" id="249" data-flag="@X" onclick="openSidebar('249')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\245_Dissection Theater.png" id="245" data-flag="@X" onclick="openSidebar('245')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\252_Waste Recycling.png" id="252" data-flag="@X" onclick="openSidebar('252')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\242_Biology Department.png" id="242" data-flag="@X" onclick="openSidebar('242')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\247_Observation Deck.png" id="247" data-flag="@X" onclick="openSidebar('247')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\244_Dimensional Tank.png" id="244" data-flag="@X" onclick="openSidebar('244')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\246_Fluid Refinery.png" id="246" data-flag="@X" onclick="openSidebar('246')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\250_Stasis Cells.png" id="250" data-flag="@X" onclick="openSidebar('250')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\241_Abandoned Terrarium.png" id="241" data-flag="@X" onclick="openSidebar('241')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\243_Curiosity Gallery.png" id="243" data-flag="@X" onclick="openSidebar('243')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\251_Surgeon's Slab.png" id="251" data-flag="@X" onclick="openSidebar('251')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\253_Plains.png" id="253" data-flag="@X" onclick="openSidebar('253')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\254_Island.png" id="254" data-flag="@X" onclick="openSidebar('254')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\255_Swamp.png" id="255" data-flag="@X" onclick="openSidebar('255')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\256_Mountain.png" id="256" data-flag="@X" onclick="openSidebar('256')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\257_Forest.png" id="257" data-flag="@X" onclick="openSidebar('257')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\1t_Survivor.png" id="1t" data-flag="@X" onclick="openSidebar('1t')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\2t_Germ.png" id="2t" data-flag="@X" onclick="openSidebar('2t')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\3t_Fungus Insect Mutant.png" id="3t" data-flag="@X" onclick="openSidebar('3t')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\4t_Human Horror.png" id="4t" data-flag="@X" onclick="openSidebar('4t')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\5t_Human Splinter.png" id="5t" data-flag="@X" onclick="openSidebar('5t')"></div>
 			<div class="container"><img alt="sets\XSK-files\img\6t_Mutant.png" id="6t" data-flag="@X" onclick="openSidebar('6t')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="sets\XSK-files\img\7t_Diverge.png" id="7t" data-flag="@X" onclick="openSidebar('7t')"></div>
+			<div class="container"><img alt="sets\XSK-files\img\8t_XSK Draft Archetypes.png" id="8t" data-flag="@X" onclick="openSidebar('8t')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 	</div>
 </div>
 	<div class="sidebar" id="sidebar">
-		<div class="sidebar-container"><img id="sidebar_img" src="img/er.png"><button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button></div>
+		<div class="sidebar-container">
+			<img id="sidebar_img" src="img/er.png">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
 		<button class="close-btn" onclick="closeSidebar()"></button>
 	</div>
 	<div class="footer"></div>
@@ -551,10 +552,10 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.txt')
-					.then(response => response.text())
-					.then(text => {
-						card_list_stringified = text;
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
 				await fetch('/resources/replacechars.txt')
@@ -563,12 +564,7 @@
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
-				card_list_arrayified = card_list_stringified.split('\\n');
-
-				for (let i = 0; i < card_list_arrayified.length; i++)
-				{
-					card_list_arrayified[i] = card_list_arrayified[i].split('\t');
-				}
+				card_list_arrayified = card_list.cards;
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 		
@@ -684,13 +680,13 @@
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-				let card_name = card_list_arrayified[i][0];
+				let card_name = card_list_arrayified[i].card_name;
 				for (const char of specialchars)
 				{
 					card_name = card_name.replaceAll(char, "");
 				}
 
-				window.location = ('/cards/' + card_list_arrayified[i][11] + '/' + card_list_arrayified[i][4] + '_' + card_name);
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
 			}
 	</script>
 </body>

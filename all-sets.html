@@ -7,8 +7,12 @@
 	</head>
 	<style>
 		@font-face {
-		  font-family: Beleren;
-		  src: url('/resources/beleren.ttf');
+			font-family: 'Beleren Small Caps';
+			src: url('/resources/beleren-caps.ttf');
+		}
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
 		}
 		body {
 			font-family: 'Helvetica', 'Arial', sans-serif;
@@ -16,6 +20,7 @@
 			margin: 0px;
 			background-color: #f3f3f3;
 			font-size: 20px;
+			padding-bottom: 30px;
 		}
 		a {
 			text-decoration: none;
@@ -26,8 +31,7 @@
 			max-width: 1000px;
 			display: grid;
 			grid-template-columns: 1fr;
-			padding-top: 50px;
-			padding-bottom: 40px;
+			padding-top: 20px;
 			margin: auto;
 		}
 		.set-header-row {
@@ -65,6 +69,12 @@
 			letter-spacing: .02em;
 			font-size: 22px;
 		}
+		.set-group {
+			font-family: Beleren Small Caps;
+			text-align: center;
+			font-size: 40px;
+			padding-top: 20px;
+		}
 	</style>
 	<body>
 		<div class="header">
@@ -73,154 +83,149 @@
 			<img class="sg-icon" src="/img/search.png">
 			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
 			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
 			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
 		</div>
-	</div>
-		<div class="set-table">
-		<div class="set-header-row">
-			<div></div> <!-- empty div for spacing -->
-			<div>NAME</div>
-			<div>CODE</div>
-			<div>CARDS</div>
-		</div>
-	
-		<a href="/sets/666" class="set-row"> 
-			<img src="/sets/666-files/icon.png">
-			<div class="set-title">Circles of Bocacius</div>
-			<div>666</div>
-			<div>277</div>
-		</a>
+	</div>			<div class="set-group"></div>
 		
-		<a href="/sets/90S" class="set-row"> 
-			<img src="/sets/90S-files/icon.png">
-			<div class="set-title">Rath and Storm</div>
-			<div>90S</div>
-			<div>274</div>
-		</a>
+			<div class="set-table">
+			<div class="set-header-row">
+				<div></div> <!-- empty div for spacing -->
+				<div>NAME</div>
+				<div>CODE</div>
+				<div>CARDS</div>
+			</div>
 		
-		<a href="/sets/AKI" class="set-row"> 
-			<img src="/sets/AKI-files/icon.png">
-			<div class="set-title">Akkadi: Empire’s End</div>
-			<div>AKI</div>
-			<div>269</div>
-		</a>
+			<a href="/sets/666" class="set-row"> 
+				<img src="/sets/666-files/icon.png">
+				<div class="set-title">Circles of Bocacius</div>
+				<div>666</div>
+				<div>261</div>
+			</a>
+			
+			<a href="/sets/90S" class="set-row"> 
+				<img src="/sets/90S-files/icon.png">
+				<div class="set-title">Rath and Storm</div>
+				<div>90S</div>
+				<div>261</div>
+			</a>
+			
+			<a href="/sets/AKI" class="set-row"> 
+				<img src="/sets/AKI-files/icon.png">
+				<div class="set-title">Akkadi: Empire’s End</div>
+				<div>AKI</div>
+				<div>261</div>
+			</a>
+			
+			<a href="/sets/ARK" class="set-row"> 
+				<img src="/sets/ARK-files/icon.png">
+				<div class="set-title">Cults of Arkoph</div>
+				<div>ARK</div>
+				<div>261</div>
+			</a>
+			
+			<a href="/sets/CYO" class="set-row"> 
+				<img src="/sets/CYO-files/icon.png">
+				<div class="set-title">Chronicles of Yor-Om</div>
+				<div>CYO</div>
+				<div>267</div>
+			</a>
+			
+			<a href="/sets/ELO" class="set-row"> 
+				<img src="/sets/ELO-files/icon.png">
+				<div class="set-title">Eldraine: Sacred Oath</div>
+				<div>ELO</div>
+				<div>252</div>
+			</a>
+			
+			<a href="/sets/FBI" class="set-row"> 
+				<img src="/sets/FBI-files/icon.png">
+				<div class="set-title">Project Starlight</div>
+				<div>FBI</div>
+				<div>261</div>
+			</a>
+			
+			<a href="/sets/GRU" class="set-row"> 
+				<img src="/sets/GRU-files/icon.png">
+				<div class="set-title">Great Raid of Ulaith</div>
+				<div>GRU</div>
+				<div>249</div>
+			</a>
+			
+			<a href="/sets/KSH" class="set-row"> 
+				<img src="/sets/KSH-files/icon.png">
+				<div class="set-title">Kushab: Gods’ Blood</div>
+				<div>KSH</div>
+				<div>261</div>
+			</a>
+			
+			<a href="/sets/OPH" class="set-row"> 
+				<img src="/sets/OPH-files/icon.png">
+				<div class="set-title">Arkoph: Crisis of Faith</div>
+				<div>OPH</div>
+				<div>261</div>
+			</a>
+			
+			<a href="/sets/QYR" class="set-row"> 
+				<img src="/sets/QYR-files/icon.png">
+				<div class="set-title">Dreams of Quyrash</div>
+				<div>QYR</div>
+				<div>247</div>
+			</a>
+			
+			<a href="/sets/SPQ" class="set-row"> 
+				<img src="/sets/SPQ-files/icon.png">
+				<div class="set-title">Avicta: Ave Imperator</div>
+				<div>SPQ</div>
+				<div>261</div>
+			</a>
+			
+			<a href="/sets/SSF" class="set-row"> 
+				<img src="/sets/SSF-files/icon.png">
+				<div class="set-title">Shamtar: Search for Fire</div>
+				<div>SSF</div>
+				<div>259</div>
+			</a>
+			
+			<a href="/sets/TGS" class="set-row"> 
+				<img src="/sets/TGS-files/icon.png">
+				<div class="set-title">Tales from the Grave in Space</div>
+				<div>TGS</div>
+				<div>272</div>
+			</a>
+			
+			<a href="/sets/TYT" class="set-row"> 
+				<img src="/sets/TYT-files/icon.png">
+				<div class="set-title">Depths of Tytheus</div>
+				<div>TYT</div>
+				<div>261</div>
+			</a>
+			
+			<a href="/sets/XCO" class="set-row"> 
+				<img src="/sets/XCO-files/icon.png">
+				<div class="set-title">Skies Over San Xalco</div>
+				<div>XCO</div>
+				<div>256</div>
+			</a>
+			
+			<a href="/sets/XSK" class="set-row"> 
+				<img src="/sets/XSK-files/icon.png">
+				<div class="set-title">Experiments of Skand</div>
+				<div>XSK</div>
+				<div>252</div>
+			</a>
+			</div>
 		
-		<a href="/sets/ARK" class="set-row"> 
-			<img src="/sets/ARK-files/icon.png">
-			<div class="set-title">Cults of Arkoph</div>
-			<div>ARK</div>
-			<div>279</div>
-		</a>
-		
-		<a href="/sets/CYO" class="set-row"> 
-			<img src="/sets/CYO-files/icon.png">
-			<div class="set-title">Chronicles of Yor-Om</div>
-			<div>CYO</div>
-			<div>280</div>
-		</a>
-		
-		<a href="/sets/ELO" class="set-row"> 
-			<img src="/sets/ELO-files/icon.png">
-			<div class="set-title">Eldraine: Sacred Oath</div>
-			<div>ELO</div>
-			<div>269</div>
-		</a>
-		
-		<a href="/sets/FBI" class="set-row"> 
-			<img src="/sets/FBI-files/icon.png">
-			<div class="set-title">Project Starlight</div>
-			<div>FBI</div>
-			<div>276</div>
-		</a>
-		
-		<a href="/sets/GRU" class="set-row"> 
-			<img src="/sets/GRU-files/icon.png">
-			<div class="set-title">Great Raid of Ulaith</div>
-			<div>GRU</div>
-			<div>268</div>
-		</a>
-		
-		<a href="/sets/KSH" class="set-row"> 
-			<img src="/sets/KSH-files/icon.png">
-			<div class="set-title">Kushab: Gods’ Blood</div>
-			<div>KSH</div>
-			<div>279</div>
-		</a>
-		
-		<a href="/sets/MHQ" class="set-row"> 
-			<img src="/sets/MHQ-files/icon.png">
-			<div class="set-title">Modern Horizons: Triumph of Qirauz</div>
-			<div>MHQ</div>
-			<div>304</div>
-		</a>
-		
-		<a href="/sets/OPH" class="set-row"> 
-			<img src="/sets/OPH-files/icon.png">
-			<div class="set-title">Arkoph: Crisis of Faith</div>
-			<div>OPH</div>
-			<div>267</div>
-		</a>
-		
-		<a href="/sets/QYR" class="set-row"> 
-			<img src="/sets/QYR-files/icon.png">
-			<div class="set-title">Dreams of Quyrash</div>
-			<div>QYR</div>
-			<div>264</div>
-		</a>
-		
-		<a href="/sets/SPQ" class="set-row"> 
-			<img src="/sets/SPQ-files/icon.png">
-			<div class="set-title">Avicta: Ave Imperator</div>
-			<div>SPQ</div>
-			<div>281</div>
-		</a>
-		
-		<a href="/sets/SSF" class="set-row"> 
-			<img src="/sets/SSF-files/icon.png">
-			<div class="set-title">Shamtar: Search for Fire</div>
-			<div>SSF</div>
-			<div>273</div>
-		</a>
-		
-		<a href="/sets/TGS" class="set-row"> 
-			<img src="/sets/TGS-files/icon.png">
-			<div class="set-title">Tales from the Grave in Space</div>
-			<div>TGS</div>
-			<div>291</div>
-		</a>
-		
-		<a href="/sets/TYT" class="set-row"> 
-			<img src="/sets/TYT-files/icon.png">
-			<div class="set-title">Depths of Tytheus</div>
-			<div>TYT</div>
-			<div>278</div>
-		</a>
-		
-		<a href="/sets/XCO" class="set-row"> 
-			<img src="/sets/XCO-files/icon.png">
-			<div class="set-title">Skies Over San Xalco</div>
-			<div>XCO</div>
-			<div>268</div>
-		</a>
-		
-		<a href="/sets/XSK" class="set-row"> 
-			<img src="/sets/XSK-files/icon.png">
-			<div class="set-title">Experiments of Skand</div>
-			<div>XSK</div>
-			<div>265</div>
-		</a>
-		
-		</div>
 	<script>
 		let card_list_arrayified = [];
 		let specialchars = "";
 		let displayStyle = "";
 
 		document.addEventListener("DOMContentLoaded", async function () {
-			await fetch('/lists/all-cards.txt')
-					.then(response => response.text())
-					.then(text => {
-						card_list_stringified = text;
+			await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
 				await fetch('/resources/replacechars.txt')
@@ -229,12 +234,7 @@
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
-				card_list_arrayified = card_list_stringified.split('\\n');
-
-				for (let i = 0; i < card_list_arrayified.length; i++)
-				{
-					card_list_arrayified[i] = card_list_arrayified[i].split('\t');
-				}
+				card_list_arrayified = card_list.cards;
 
 		});
 
@@ -255,13 +255,13 @@
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-				let card_name = card_list_arrayified[i][0];
+				let card_name = card_list_arrayified[i].card_name;
 				for (const char of specialchars)
 				{
 					card_name = card_name.replaceAll(char, "");
 				}
 
-				window.location = ('/cards/' + card_list_arrayified[i][11] + '/' + card_list_arrayified[i][4] + '_' + card_name);
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
 			}
 	</script>
 </body>

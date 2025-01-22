@@ -32,6 +32,7 @@
 		.sidebar-container {
 			width: 80%;
 			max-width: 375px;
+			position: relative;
 		}
 		.sidebar img {
 			vertical-align: middle;
@@ -99,21 +100,15 @@
 			cursor: pointer;
 			border: none;
 			position: absolute;
-			top: 6.5%;
-			left: 8.5%;
+			left: 50%;
+			top: 48%;
 			transform: translate(-50%, -50%);
+			opacity: 0.5;
 		}
 		.flip-btn:hover {
 			background: url('img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
-		}
-		.sidebar .flip-btn {
-			right: 80%;
-			left: 7.8%;
-			top: -4%;
-			transform: none;
-
 		}
 		.icon-bar {
 			display: grid;
@@ -164,7 +159,6 @@
 		<img class="preload-hidden" src="/sets/FBI-files/icon.png" />
 		<img class="preload-hidden" src="/sets/GRU-files/icon.png" />
 		<img class="preload-hidden" src="/sets/KSH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MHQ-files/icon.png" />
 		<img class="preload-hidden" src="/sets/OPH-files/icon.png" />
 		<img class="preload-hidden" src="/sets/QYR-files/icon.png" />
 		<img class="preload-hidden" src="/sets/SPQ-files/icon.png" />
@@ -181,6 +175,7 @@
 			<img class="sg-icon" src="/img/search.png">
 			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
 			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
 			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
 		</div>
 	</div>
@@ -203,8 +198,6 @@
 		<div class="icon"><a href="GRU-spoiler"><img src="sets/GRU-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="KSH-spoiler"><img src="sets/KSH-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="MHQ-spoiler"><img src="sets/MHQ-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="OPH-spoiler"><img src="sets/OPH-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
@@ -443,11 +436,11 @@
 			<div class="container"><img alt="sets\SPQ-files\img\130_Youthful Contender.png" id="130" data-flag="@X" onclick="openSidebar('130')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\170_Turn to Slag.png" id="170" data-flag="@X" onclick="openSidebar('170')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\216_Where All Roads Lead.png" id="216" data-flag="@X" onclick="openSidebar('216')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\225_Gilded Heir.png" id="225" data-flag="@X" onclick="openSidebar('225')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\218_Ars Longa, Vita Brevis.png" id="218" data-flag="@X" onclick="openSidebar('218')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\230_Necrodominance.png" id="230" data-flag="@X" onclick="openSidebar('230')"></div>
@@ -463,86 +456,86 @@
 			<div class="container"><img alt="sets\SPQ-files\img\231_Praetorian Guard.png" id="231" data-flag="@X" onclick="openSidebar('231')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\227_Legion Signifer.png" id="227" data-flag="@X" onclick="openSidebar('227')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\235_Stoic Lictor.png" id="235" data-flag="@X" onclick="openSidebar('235')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\228_Loquacious Consul.png" id="228" data-flag="@X" onclick="openSidebar('228')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\219_Beast Tamer.png" id="219" data-flag="@X" onclick="openSidebar('219')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\220_Bulwark Murmillo.png" id="220" data-flag="@X" onclick="openSidebar('220')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\241_Veteran Champion.png" id="241" data-flag="@X" onclick="openSidebar('241')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\217_Arena Veteran.png" id="217" data-flag="@X" onclick="openSidebar('217')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\221_Caesar, Legion's Emperor.png" id="221" data-flag="@X" onclick="openSidebar('221')"></div>
-			<div class="container"><img alt="sets\SPQ-files\img\224_Gaio, Princeps of the Dead.png" id="224" data-flag="@X" onclick="openSidebar('224')"></div>
-			<div class="container"><img alt="sets\SPQ-files\img\226_Hamilbas, Master of Warfare.png" id="226" data-flag="@X" onclick="openSidebar('226')"></div>
-			<div class="container"><img alt="sets\SPQ-files\img\236_Sullo, Praetorian Consul.png" id="236" data-flag="@X" onclick="openSidebar('236')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\237_Tomura, Barbarian Queen.png" id="237" data-flag="@X" onclick="openSidebar('237')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="sets\SPQ-files\img\236_Sullo, Praetorian Consul.png" id="236" data-flag="@X" onclick="openSidebar('236')"></div>
+			<div class="container"><img alt="sets\SPQ-files\img\226_Hamilbas, Master of Warfare.png" id="226" data-flag="@X" onclick="openSidebar('226')"></div>
+			<div class="container"><img alt="sets\SPQ-files\img\224_Gaio, Princeps of the Dead.png" id="224" data-flag="@X" onclick="openSidebar('224')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\1_Decimation of Fraulia.png" id="1" data-flag="@X" onclick="openSidebar('1')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\243_Colosseum Arbiter.png" id="243" data-flag="@X" onclick="openSidebar('243')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\244_Imperial Eternus.png" id="244" data-flag="@X" onclick="openSidebar('244')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\245_Quincunx Patera.png" id="245" data-flag="@X" onclick="openSidebar('245')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\246_Shield of Oil and Water.png" id="246" data-flag="@X" onclick="openSidebar('246')"></div>
-			<div class="container"><img alt="sets\SPQ-files\img\9_Gladius.png" id="9" data-flag="@X" onclick="openSidebar('9')"></div>
-			<div class="container"><img alt="sets\SPQ-files\img\10_Pilum.png" id="10" data-flag="@X" onclick="openSidebar('10')"></div>
-			<div class="container"><img alt="sets\SPQ-files\img\11_Scutum.png" id="11" data-flag="@X" onclick="openSidebar('11')"></div>
-			<div class="container"><img alt="sets\SPQ-files\img\14_Glory.png" id="14" data-flag="@X" onclick="openSidebar('14')"></div>
-			<div class="container"><img alt="sets\SPQ-files\img\15_Imperium.png" id="15" data-flag="@X" onclick="openSidebar('15')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\242_Border-Carver Gladius.png" id="242" data-flag="@X" onclick="openSidebar('242')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\247_Silver Centurion.png" id="247" data-flag="@X" onclick="openSidebar('247')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\248_Thermae Guardian.png" id="248" data-flag="@X" onclick="openSidebar('248')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\249_Urn of Plenty.png" id="249" data-flag="@X" onclick="openSidebar('249')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\250_Winged Victory.png" id="250" data-flag="@X" onclick="openSidebar('250')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\260_Stoic Frigidarium.png" id="260" data-flag="@X" onclick="openSidebar('260')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\254_Opulent Domus.png" id="254" data-flag="@X" onclick="openSidebar('254')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\259_Shadowed Lararium.png" id="259" data-flag="@X" onclick="openSidebar('259')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\257_Sacred Templum.png" id="257" data-flag="@X" onclick="openSidebar('257')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\253_Imperial Villa.png" id="253" data-flag="@X" onclick="openSidebar('253')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\251_Emperor's Domus.png" id="251" data-flag="@X" onclick="openSidebar('251')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\252_Glorious Forum.png" id="252" data-flag="@X" onclick="openSidebar('252')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\255_Planned Amphitheatre.png" id="255" data-flag="@X" onclick="openSidebar('255')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\256_Ruins of Empire.png" id="256" data-flag="@X" onclick="openSidebar('256')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\258_Seat of the Princeps.png" id="258" data-flag="@X" onclick="openSidebar('258')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\261_Triumphant Arch.png" id="261" data-flag="@X" onclick="openSidebar('261')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\262_Plains.png" id="262" data-flag="@X" onclick="openSidebar('262')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\263_Island.png" id="263" data-flag="@X" onclick="openSidebar('263')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\264_Swamp.png" id="264" data-flag="@X" onclick="openSidebar('264')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\265_Mountain.png" id="265" data-flag="@X" onclick="openSidebar('265')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\266_Forest.png" id="266" data-flag="@X" onclick="openSidebar('266')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\1t_Advisor.png" id="1t" data-flag="@X" onclick="openSidebar('1t')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\2t_Warrior.png" id="2t" data-flag="@X" onclick="openSidebar('2t')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\3t_Zombie.png" id="3t" data-flag="@X" onclick="openSidebar('3t')"></div>
@@ -551,12 +544,20 @@
 			<div class="container"><img alt="sets\SPQ-files\img\6t_Elephant.png" id="6t" data-flag="@X" onclick="openSidebar('6t')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\7t_Soldier.png" id="7t" data-flag="@X" onclick="openSidebar('7t')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\8t_Construct.png" id="8t" data-flag="@X" onclick="openSidebar('8t')"></div>
+			<div class="container"><img alt="sets\SPQ-files\img\9t_Gladius.png" id="9t" data-flag="@X" onclick="openSidebar('9t')"></div>
+			<div class="container"><img alt="sets\SPQ-files\img\10t_Pilum.png" id="10t" data-flag="@X" onclick="openSidebar('10t')"></div>
+			<div class="container"><img alt="sets\SPQ-files\img\11t_Scutum.png" id="11t" data-flag="@X" onclick="openSidebar('11t')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\12t_Statue.png" id="12t" data-flag="@X" onclick="openSidebar('12t')"></div>
 			<div class="container"><img alt="sets\SPQ-files\img\13t_Treasure.png" id="13t" data-flag="@X" onclick="openSidebar('13t')"></div>
+			<div class="container"><img alt="sets\SPQ-files\img\14t_Glory.png" id="14t" data-flag="@X" onclick="openSidebar('14t')"></div>
+			<div class="container"><img alt="sets\SPQ-files\img\15t_Imperium.png" id="15t" data-flag="@X" onclick="openSidebar('15t')"></div>
 	</div>
 </div>
 	<div class="sidebar" id="sidebar">
-		<div class="sidebar-container"><img id="sidebar_img" src="img/er.png"><button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button></div>
+		<div class="sidebar-container">
+			<img id="sidebar_img" src="img/er.png">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
 		<button class="close-btn" onclick="closeSidebar()"></button>
 	</div>
 	<div class="footer"></div>
@@ -566,10 +567,10 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.txt')
-					.then(response => response.text())
-					.then(text => {
-						card_list_stringified = text;
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
 				await fetch('/resources/replacechars.txt')
@@ -578,12 +579,7 @@
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
-				card_list_arrayified = card_list_stringified.split('\\n');
-
-				for (let i = 0; i < card_list_arrayified.length; i++)
-				{
-					card_list_arrayified[i] = card_list_arrayified[i].split('\t');
-				}
+				card_list_arrayified = card_list.cards;
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 		
@@ -699,13 +695,13 @@
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-				let card_name = card_list_arrayified[i][0];
+				let card_name = card_list_arrayified[i].card_name;
 				for (const char of specialchars)
 				{
 					card_name = card_name.replaceAll(char, "");
 				}
 
-				window.location = ('/cards/' + card_list_arrayified[i][11] + '/' + card_list_arrayified[i][4] + '_' + card_name);
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
 			}
 	</script>
 </body>

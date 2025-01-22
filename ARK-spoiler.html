@@ -32,6 +32,7 @@
 		.sidebar-container {
 			width: 80%;
 			max-width: 375px;
+			position: relative;
 		}
 		.sidebar img {
 			vertical-align: middle;
@@ -99,21 +100,15 @@
 			cursor: pointer;
 			border: none;
 			position: absolute;
-			top: 6.5%;
-			left: 8.5%;
+			left: 50%;
+			top: 48%;
 			transform: translate(-50%, -50%);
+			opacity: 0.5;
 		}
 		.flip-btn:hover {
 			background: url('img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
-		}
-		.sidebar .flip-btn {
-			right: 80%;
-			left: 7.8%;
-			top: -4%;
-			transform: none;
-
 		}
 		.icon-bar {
 			display: grid;
@@ -164,7 +159,6 @@
 		<img class="preload-hidden" src="/sets/FBI-files/icon.png" />
 		<img class="preload-hidden" src="/sets/GRU-files/icon.png" />
 		<img class="preload-hidden" src="/sets/KSH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MHQ-files/icon.png" />
 		<img class="preload-hidden" src="/sets/OPH-files/icon.png" />
 		<img class="preload-hidden" src="/sets/QYR-files/icon.png" />
 		<img class="preload-hidden" src="/sets/SPQ-files/icon.png" />
@@ -179,6 +173,7 @@
 			<img class="sg-icon" src="/img/search.png">
 			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
 			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
 			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
 		</div>
 	</div>
@@ -201,8 +196,6 @@
 		<div class="icon"><a href="GRU-spoiler"><img src="sets/GRU-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="KSH-spoiler"><img src="sets/KSH-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="MHQ-spoiler"><img src="sets/MHQ-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="OPH-spoiler"><img src="sets/OPH-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
@@ -391,101 +384,101 @@
 			<div class="container"><img alt="sets\ARK-files\img\99_Yog's Flagellant.png" id="99" data-flag="@X" onclick="openSidebar('99')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\133_Zealous Witchfinder.png" id="133" data-flag="@X" onclick="openSidebar('133')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\166_Wretched Mendicant.png" id="166" data-flag="@X" onclick="openSidebar('166')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\207_Procession of Souls.png" id="207" data-flag="@X" onclick="openSidebar('207')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\168_The Black Goat of Weepwood.png" id="168" data-flag="@X" onclick="openSidebar('168')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\175_Carnival of Chaos.png" id="175" data-flag="@X" onclick="openSidebar('175')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\201_Kristana, the Blood Gyre.png" id="201" data-flag="@X" onclick="openSidebar('201')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\174_Cardinal Sin.png" id="174" data-flag="@X" onclick="openSidebar('174')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\210_Saint Goustun the Fair.png" id="210" data-flag="@X" onclick="openSidebar('210')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\202_Lord of the Woods.png" id="202" data-flag="@X" onclick="openSidebar('202')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\187_Delowe, Jester of Geesh.png" id="187" data-flag="@X" onclick="openSidebar('187')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\227_Wrack the Mind.png" id="227" data-flag="@X" onclick="openSidebar('227')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\223_Theonomarch Zofiya Cek.png" id="223" data-flag="@X" onclick="openSidebar('223')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\182_Confluence of Yog.png" id="182" data-flag="@X" onclick="openSidebar('182')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\179_Confluence of Corvash.png" id="179" data-flag="@X" onclick="openSidebar('179')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\176_Change and Be Merry.png" id="176" data-flag="@X" onclick="openSidebar('176')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\181_Confluence of Vo'Radh.png" id="181" data-flag="@X" onclick="openSidebar('181')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\177_The Coming of the Eagle.png" id="177" data-flag="@X" onclick="openSidebar('177')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\211_Savage Sacrament.png" id="211" data-flag="@X" onclick="openSidebar('211')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\215_Shrine of Inner Shadows.png" id="215" data-flag="@X" onclick="openSidebar('215')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\180_Confluence of Geesh.png" id="180" data-flag="@X" onclick="openSidebar('180')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\217_Shrine of Shifting Flame.png" id="217" data-flag="@X" onclick="openSidebar('217')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\178_Confluence of Akhillos.png" id="178" data-flag="@X" onclick="openSidebar('178')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\214_Shrine of Hushed Prayer.png" id="214" data-flag="@X" onclick="openSidebar('214')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\222_Teachings of Corvash.png" id="222" data-flag="@X" onclick="openSidebar('222')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\213_Shrine of Boundless Mirth.png" id="213" data-flag="@X" onclick="openSidebar('213')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\221_Summoned Shapestealer.png" id="221" data-flag="@X" onclick="openSidebar('221')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\216_Shrine of Martyred Blood.png" id="216" data-flag="@X" onclick="openSidebar('216')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\184_Coven's Offering.png" id="184" data-flag="@X" onclick="openSidebar('184')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\167_Avram Von, Hellseeker.png" id="167" data-flag="@X" onclick="openSidebar('167')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\171_Cacophony of Flesh.png" id="171" data-flag="@X" onclick="openSidebar('171')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\192_Flense the Mind.png" id="192" data-flag="@X" onclick="openSidebar('192')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\190_Fiercehallow Borderpost.png" id="190" data-flag="@X" onclick="openSidebar('190')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\197_Hallowdark Borderpost.png" id="197" data-flag="@X" onclick="openSidebar('197')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\186_Darkrot Borderpost.png" id="186" data-flag="@X" onclick="openSidebar('186')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\195_Ghiacci, the Great Joker.png" id="195" data-flag="@X" onclick="openSidebar('195')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\196_Gore Omen.png" id="196" data-flag="@X" onclick="openSidebar('196')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\191_Fiery Penance.png" id="191" data-flag="@X" onclick="openSidebar('191')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\200_Iskanter, Blighted Bishop.png" id="200" data-flag="@X" onclick="openSidebar('200')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\203_Lurking Witch.png" id="203" data-flag="@X" onclick="openSidebar('203')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\209_Rotwater Borderpost.png" id="209" data-flag="@X" onclick="openSidebar('209')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\220_The Stolen Shape.png" id="220" data-flag="@X" onclick="openSidebar('220')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\198_Hand of the Eagle.png" id="198" data-flag="@X" onclick="openSidebar('198')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\218_Solemn Heresiarch.png" id="218" data-flag="@X" onclick="openSidebar('218')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\224_Twisted Fealty.png" id="224" data-flag="@X" onclick="openSidebar('224')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\219_Soul of Wit.png" id="219" data-flag="@X" onclick="openSidebar('219')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\225_Waterfierce Borderpost.png" id="225" data-flag="@X" onclick="openSidebar('225')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\204_Metropolite Dmitry XII.png" id="204" data-flag="@X" onclick="openSidebar('204')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\172_Callous Chaplain.png" id="172" data-flag="@X" onclick="openSidebar('172')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\194_Forbidden Goliath.png" id="194" data-flag="@X" onclick="openSidebar('194')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\169_Blessing of Geesh.png" id="169" data-flag="@X" onclick="openSidebar('169')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\173_Captive Beastman.png" id="173" data-flag="@X" onclick="openSidebar('173')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\170_Blood and Thunder.png" id="170" data-flag="@X" onclick="openSidebar('170')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\193_Folk Ritual.png" id="193" data-flag="@X" onclick="openSidebar('193')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\208_Ritual of the Woods.png" id="208" data-flag="@X" onclick="openSidebar('208')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\183_Costumed Cultist.png" id="183" data-flag="@X" onclick="openSidebar('183')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\189_Disciple of Blood.png" id="189" data-flag="@X" onclick="openSidebar('189')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\188_Devout Harrier.png" id="188" data-flag="@X" onclick="openSidebar('188')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\212_Shambling Sanctuary.png" id="212" data-flag="@X" onclick="openSidebar('212')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\226_Weepwood Null.png" id="226" data-flag="@X" onclick="openSidebar('226')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\205_Mischievous Troupe.png" id="205" data-flag="@X" onclick="openSidebar('205')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\206_Obsessive Alchemist.png" id="206" data-flag="@X" onclick="openSidebar('206')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\199_Impulsive Inquisitor.png" id="199" data-flag="@X" onclick="openSidebar('199')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\173_Procession of Souls.png" id="173" data-flag="@X" onclick="openSidebar('173')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\192_The Black Goat of Weepwood.png" id="192" data-flag="@X" onclick="openSidebar('192')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\217_Carnival of Chaos.png" id="217" data-flag="@X" onclick="openSidebar('217')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\184_Kristana, the Blood Gyre.png" id="184" data-flag="@X" onclick="openSidebar('184')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\204_Cardinal Sin.png" id="204" data-flag="@X" onclick="openSidebar('204')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\174_Saint Goustun the Fair.png" id="174" data-flag="@X" onclick="openSidebar('174')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\196_Lord of the Woods.png" id="196" data-flag="@X" onclick="openSidebar('196')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\221_Delowe, Jester of Geesh.png" id="221" data-flag="@X" onclick="openSidebar('221')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\190_Wrack the Mind.png" id="190" data-flag="@X" onclick="openSidebar('190')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\214_Theonomarch Zofiya Cek.png" id="214" data-flag="@X" onclick="openSidebar('214')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\168_Confluence of Yog.png" id="168" data-flag="@X" onclick="openSidebar('168')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\193_Confluence of Corvash.png" id="193" data-flag="@X" onclick="openSidebar('193')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\218_Change and Be Merry.png" id="218" data-flag="@X" onclick="openSidebar('218')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\180_Confluence of Vo'Radh.png" id="180" data-flag="@X" onclick="openSidebar('180')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\205_The Coming of the Eagle.png" id="205" data-flag="@X" onclick="openSidebar('205')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\175_Savage Sacrament.png" id="175" data-flag="@X" onclick="openSidebar('175')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\199_Shrine of Inner Shadows.png" id="199" data-flag="@X" onclick="openSidebar('199')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\219_Confluence of Geesh.png" id="219" data-flag="@X" onclick="openSidebar('219')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\186_Shrine of Shifting Flame.png" id="186" data-flag="@X" onclick="openSidebar('186')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\206_Confluence of Akhillos.png" id="206" data-flag="@X" onclick="openSidebar('206')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\177_Shrine of Hushed Prayer.png" id="177" data-flag="@X" onclick="openSidebar('177')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\200_Teachings of Corvash.png" id="200" data-flag="@X" onclick="openSidebar('200')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\225_Shrine of Boundless Mirth.png" id="225" data-flag="@X" onclick="openSidebar('225')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\188_Summoned Shapestealer.png" id="188" data-flag="@X" onclick="openSidebar('188')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\213_Shrine of Martyred Blood.png" id="213" data-flag="@X" onclick="openSidebar('213')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\169_Coven's Offering.png" id="169" data-flag="@X" onclick="openSidebar('169')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\191_Avram Von, Hellseeker.png" id="191" data-flag="@X" onclick="openSidebar('191')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\216_Cacophony of Flesh.png" id="216" data-flag="@X" onclick="openSidebar('216')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\182_Flense the Mind.png" id="182" data-flag="@X" onclick="openSidebar('182')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\208_Fiercehallow Borderpost.png" id="208" data-flag="@X" onclick="openSidebar('208')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\171_Hallowdark Borderpost.png" id="171" data-flag="@X" onclick="openSidebar('171')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\194_Darkrot Borderpost.png" id="194" data-flag="@X" onclick="openSidebar('194')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\222_Ghiacci, the Great Joker.png" id="222" data-flag="@X" onclick="openSidebar('222')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\183_Gore Omen.png" id="183" data-flag="@X" onclick="openSidebar('183')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\209_Fiery Penance.png" id="209" data-flag="@X" onclick="openSidebar('209')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\172_Iskanter, Blighted Bishop.png" id="172" data-flag="@X" onclick="openSidebar('172')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\197_Lurking Witch.png" id="197" data-flag="@X" onclick="openSidebar('197')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\224_Rotwater Borderpost.png" id="224" data-flag="@X" onclick="openSidebar('224')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\187_The Stolen Shape.png" id="187" data-flag="@X" onclick="openSidebar('187')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\210_Hand of the Eagle.png" id="210" data-flag="@X" onclick="openSidebar('210')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\178_Solemn Heresiarch.png" id="178" data-flag="@X" onclick="openSidebar('178')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\201_Twisted Fealty.png" id="201" data-flag="@X" onclick="openSidebar('201')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\226_Soul of Wit.png" id="226" data-flag="@X" onclick="openSidebar('226')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\189_Waterfierce Borderpost.png" id="189" data-flag="@X" onclick="openSidebar('189')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\212_Metropolite Dmitry XII.png" id="212" data-flag="@X" onclick="openSidebar('212')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\167_Callous Chaplain.png" id="167" data-flag="@X" onclick="openSidebar('167')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\195_Forbidden Goliath.png" id="195" data-flag="@X" onclick="openSidebar('195')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\215_Blessing of Geesh.png" id="215" data-flag="@X" onclick="openSidebar('215')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\179_Captive Beastman.png" id="179" data-flag="@X" onclick="openSidebar('179')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\203_Blood and Thunder.png" id="203" data-flag="@X" onclick="openSidebar('203')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\170_Folk Ritual.png" id="170" data-flag="@X" onclick="openSidebar('170')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\198_Ritual of the Woods.png" id="198" data-flag="@X" onclick="openSidebar('198')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\220_Costumed Cultist.png" id="220" data-flag="@X" onclick="openSidebar('220')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\181_Disciple of Blood.png" id="181" data-flag="@X" onclick="openSidebar('181')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\207_Devout Harrier.png" id="207" data-flag="@X" onclick="openSidebar('207')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\176_Shambling Sanctuary.png" id="176" data-flag="@X" onclick="openSidebar('176')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\202_Weepwood Null.png" id="202" data-flag="@X" onclick="openSidebar('202')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\223_Mischievous Troupe.png" id="223" data-flag="@X" onclick="openSidebar('223')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\185_Obsessive Alchemist.png" id="185" data-flag="@X" onclick="openSidebar('185')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\211_Impulsive Inquisitor.png" id="211" data-flag="@X" onclick="openSidebar('211')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\228_Acolyte of All Things.png" id="228" data-flag="@X" onclick="openSidebar('228')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\229_Brutal Coven.png" id="229" data-flag="@X" onclick="openSidebar('229')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\232_Initiate of Change.png" id="232" data-flag="@X" onclick="openSidebar('232')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\232_Brutal Coven.png" id="232" data-flag="@X" onclick="openSidebar('232')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\236_Initiate of Change.png" id="236" data-flag="@X" onclick="openSidebar('236')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\230_Cloistered Cultist.png" id="230" data-flag="@X" onclick="openSidebar('230')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\235_Initiate of the Eagle.png" id="235" data-flag="@X" onclick="openSidebar('235')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\231_Initiate of Balance.png" id="231" data-flag="@X" onclick="openSidebar('231')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\234_Initiate of Strength.png" id="234" data-flag="@X" onclick="openSidebar('234')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\236_Laughter of Geesh.png" id="236" data-flag="@X" onclick="openSidebar('236')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\233_Initiate of Fire.png" id="233" data-flag="@X" onclick="openSidebar('233')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\237_Procession of Faith.png" id="237" data-flag="@X" onclick="openSidebar('237')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="sets\ARK-files\img\185_Creation Myth.png" id="185" data-flag="@X" onclick="openSidebar('185')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\234_Initiate of the Eagle.png" id="234" data-flag="@X" onclick="openSidebar('234')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\229_Initiate of Balance.png" id="229" data-flag="@X" onclick="openSidebar('229')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\233_Initiate of Strength.png" id="233" data-flag="@X" onclick="openSidebar('233')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\237_Laughter of Geesh.png" id="237" data-flag="@X" onclick="openSidebar('237')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\231_Initiate of Fire.png" id="231" data-flag="@X" onclick="openSidebar('231')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\235_Procession of Faith.png" id="235" data-flag="@X" onclick="openSidebar('235')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\227_Creation Myth.png" id="227" data-flag="@X" onclick="openSidebar('227')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\239_Crypt of the Eagle.png" id="239" data-flag="@X" onclick="openSidebar('239')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\241_Folk Altar.png" id="241" data-flag="@X" onclick="openSidebar('241')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\246_Shield of Church and State.png" id="246" data-flag="@X" onclick="openSidebar('246')"></div>
@@ -497,15 +490,15 @@
 			<div class="container"><img alt="sets\ARK-files\img\243_Leering Crowcatcher.png" id="243" data-flag="@X" onclick="openSidebar('243')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\245_Rag and Bone Cart.png" id="245" data-flag="@X" onclick="openSidebar('245')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\247_Shriekhorn.png" id="247" data-flag="@X" onclick="openSidebar('247')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\251_Crypt of Lies.png" id="251" data-flag="@X" onclick="openSidebar('251')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\249_Crypt of Filth.png" id="249" data-flag="@X" onclick="openSidebar('249')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\250_Crypt of Growth.png" id="250" data-flag="@X" onclick="openSidebar('250')"></div>
@@ -516,21 +509,26 @@
 			<div class="container"><img alt="sets\ARK-files\img\260_Land's End.png" id="260" data-flag="@X" onclick="openSidebar('260')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\255_Forbidden Library.png" id="255" data-flag="@X" onclick="openSidebar('255')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\259_Imposing Basilica.png" id="259" data-flag="@X" onclick="openSidebar('259')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\258_Hole in the World.png" id="258" data-flag="@X" onclick="openSidebar('258')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\254_Faithbound Cloister.png" id="254" data-flag="@X" onclick="openSidebar('254')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\256_Forsaken Chapel.png" id="256" data-flag="@X" onclick="openSidebar('256')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\248_Congregant's Cathedral.png" id="248" data-flag="@X" onclick="openSidebar('248')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\262_Plains.png" id="262" data-flag="@X" onclick="openSidebar('262')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\264_Island.png" id="264" data-flag="@X" onclick="openSidebar('264')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\266_Swamp.png" id="266" data-flag="@X" onclick="openSidebar('266')"></div>
@@ -541,11 +539,11 @@
 			<div class="container"><img alt="sets\ARK-files\img\267_Swamp.png" id="267" data-flag="@X" onclick="openSidebar('267')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\269_Mountain.png" id="269" data-flag="@X" onclick="openSidebar('269')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\271_Forest.png" id="271" data-flag="@X" onclick="openSidebar('271')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\1t_Human Cleric.png" id="1t" data-flag="@X" onclick="openSidebar('1t')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\2t_Human Cleric.png" id="2t" data-flag="@X" onclick="openSidebar('2t')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\3t_Human Peasant.png" id="3t" data-flag="@X" onclick="openSidebar('3t')"></div>
@@ -554,12 +552,15 @@
 			<div class="container"><img alt="sets\ARK-files\img\6t_Human Wizard.png" id="6t" data-flag="@X" onclick="openSidebar('6t')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\7t_Mutant.png" id="7t" data-flag="@X" onclick="openSidebar('7t')"></div>
 			<div class="container"><img alt="sets\ARK-files\img\8t_Preach.png" id="8t" data-flag="@X" onclick="openSidebar('8t')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="sets\ARK-files\img\9t_ARK Draft Archetypes.png" id="9t" data-flag="@X" onclick="openSidebar('9t')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 	</div>
 </div>
 	<div class="sidebar" id="sidebar">
-		<div class="sidebar-container"><img id="sidebar_img" src="img/er.png"><button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button></div>
+		<div class="sidebar-container">
+			<img id="sidebar_img" src="img/er.png">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
 		<button class="close-btn" onclick="closeSidebar()"></button>
 	</div>
 	<div class="footer"></div>
@@ -569,10 +570,10 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.txt')
-					.then(response => response.text())
-					.then(text => {
-						card_list_stringified = text;
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
 				await fetch('/resources/replacechars.txt')
@@ -581,12 +582,7 @@
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
-				card_list_arrayified = card_list_stringified.split('\\n');
-
-				for (let i = 0; i < card_list_arrayified.length; i++)
-				{
-					card_list_arrayified[i] = card_list_arrayified[i].split('\t');
-				}
+				card_list_arrayified = card_list.cards;
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 		
@@ -702,13 +698,13 @@
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-				let card_name = card_list_arrayified[i][0];
+				let card_name = card_list_arrayified[i].card_name;
 				for (const char of specialchars)
 				{
 					card_name = card_name.replaceAll(char, "");
 				}
 
-				window.location = ('/cards/' + card_list_arrayified[i][11] + '/' + card_list_arrayified[i][4] + '_' + card_name);
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
 			}
 	</script>
 </body>
