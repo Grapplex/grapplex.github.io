@@ -168,6 +168,8 @@
 		<img class="preload-hidden" src="/sets/TYT-files/icon.png" />
 		<img class="preload-hidden" src="/sets/XCO-files/icon.png" />
 		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
+		<img class="preload-hidden" id="bg" src="/sets/TYT-files/bg.png" />
+		
 		<div class="header">
 		<div class="search-grid">
 			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
@@ -591,7 +593,7 @@
 		}
 		while (images_loaded.includes(false));
 
-		
+		document.body.style.backgroundImage = 'url(' + document.getElementById("bg").src + ')';
 		loadImages();
 	});
 
