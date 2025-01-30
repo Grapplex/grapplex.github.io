@@ -34,7 +34,15 @@
 			max-width: 375px;
 			position: relative;
 		}
-		.sidebar img {
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
 		}
@@ -150,24 +158,25 @@
 <body>
 	<img class="preload-hidden" src="/img/dot.png" />
 	<img class="preload-hidden" src="/sets/AKI-files/logo.png" />
-	<img class="preload-hidden" src="/sets/666-files/icon.png" />
-		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
+	<img class="preload-hidden" src="/sets/TYT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/QYR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/XCO-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SSF-files/icon.png" />
 		<img class="preload-hidden" src="/sets/AKI-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MHQ-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ARK-files/icon.png" />
+		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OPH-files/icon.png" />
 		<img class="preload-hidden" src="/sets/CYO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
+		<img class="preload-hidden" src="/sets/HVY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/666-files/icon.png" />
 		<img class="preload-hidden" src="/sets/FBI-files/icon.png" />
 		<img class="preload-hidden" src="/sets/GRU-files/icon.png" />
 		<img class="preload-hidden" src="/sets/KSH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MHQ-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OPH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/QYR-files/icon.png" />
 		<img class="preload-hidden" src="/sets/SPQ-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SSF-files/icon.png" />
 		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TYT-files/icon.png" />
-		<img class="preload-hidden" src="/sets/XCO-files/icon.png" />
 		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
 		<img class="preload-hidden" id="bg" src="/sets/AKI-files/bg.png" />
 		
 		<div class="header">
@@ -182,17 +191,28 @@
 	</div>
 
 	<div class="icon-bar">
-			<div class="icon"><a href="666-spoiler"><img src="sets/666-files/icon.png"></img></a></div>
+			<div class="icon"><a href="TYT-spoiler"><img src="sets/TYT-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="90S-spoiler"><img src="sets/90S-files/icon.png"></img></a></div>
+		<div class="icon"><a href="QYR-spoiler"><img src="sets/QYR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="XCO-spoiler"><img src="sets/XCO-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="SSF-spoiler"><img src="sets/SSF-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="AKI-spoiler"><img src="sets/AKI-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="MHQ-spoiler"><img src="sets/MHQ-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="ARK-spoiler"><img src="sets/ARK-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="90S-spoiler"><img src="sets/90S-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="OPH-spoiler"><img src="sets/OPH-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="CYO-spoiler"><img src="sets/CYO-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="ELO-spoiler"><img src="sets/ELO-files/icon.png"></img></a></div>
+		<div class="icon"><a href="HVY-spoiler"><img src="sets/HVY-files/icon.png"></img></a></div>
+		<div class="icon"><a href="666-spoiler"><img src="sets/666-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="FBI-spoiler"><img src="sets/FBI-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
@@ -200,23 +220,13 @@
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="KSH-spoiler"><img src="sets/KSH-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="MHQ-spoiler"><img src="sets/MHQ-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="OPH-spoiler"><img src="sets/OPH-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="QYR-spoiler"><img src="sets/QYR-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="SPQ-spoiler"><img src="sets/SPQ-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="SSF-spoiler"><img src="sets/SSF-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="TGS-spoiler"><img src="sets/TGS-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="TYT-spoiler"><img src="sets/TYT-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="XCO-spoiler"><img src="sets/XCO-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="XSK-spoiler"><img src="sets/XSK-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="ELO-spoiler"><img src="sets/ELO-files/icon.png"></img></a></div>
 
 		</div>
 		<div class="banner">
@@ -224,331 +234,332 @@
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-				<div class="container"><img alt="sets\AKI-files\img\29_Primacy of Order.png" id="29" data-flag="@X" onclick="openSidebar('29')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\50_Crucius, the Riddle of Silver.png" id="50" data-flag="@X" onclick="openSidebar('50')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\103_Nemesis of Order.png" id="103" data-flag="@X" onclick="openSidebar('103')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\150_Screaming Prophet.png" id="150" data-flag="@X" onclick="openSidebar('150')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\173_Guardian Scourge.png" id="173" data-flag="@X" onclick="openSidebar('173')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\3_Boon of Safety.png" id="3" data-flag="@X" onclick="openSidebar('3')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\42_Anointed Scarab.png" id="42" data-flag="@X" onclick="openSidebar('42')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\83_Beginning of the End.png" id="83" data-flag="@X" onclick="openSidebar('83')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\122_Barkhan Hellkite.png" id="122" data-flag="@X" onclick="openSidebar('122')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\167_Edict of Remembrance.png" id="167" data-flag="@X" onclick="openSidebar('167')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\11_Divine Arbiter.png" id="11" data-flag="@X" onclick="openSidebar('11')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\55_Edict of Oppression.png" id="55" data-flag="@X" onclick="openSidebar('55')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\87_Dark Apotheosis.png" id="87" data-flag="@X" onclick="openSidebar('87')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\126_Edict of Mortality.png" id="126" data-flag="@X" onclick="openSidebar('126')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\170_Epic of Strength.png" id="170" data-flag="@X" onclick="openSidebar('170')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\13_Edict of Immortality.png" id="13" data-flag="@X" onclick="openSidebar('13')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\56_Eldritch Echo.png" id="56" data-flag="@X" onclick="openSidebar('56')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\88_Decadent Barge.png" id="88" data-flag="@X" onclick="openSidebar('88')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\128_Feet of Clay.png" id="128" data-flag="@X" onclick="openSidebar('128')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\172_Golden Harmony.png" id="172" data-flag="@X" onclick="openSidebar('172')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\15_Face Judgment.png" id="15" data-flag="@X" onclick="openSidebar('15')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\65_Palace Sphinx.png" id="65" data-flag="@X" onclick="openSidebar('65')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\90_Edict of Elimination.png" id="90" data-flag="@X" onclick="openSidebar('90')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\132_Graven Ideal.png" id="132" data-flag="@X" onclick="openSidebar('132')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\176_Idyllic Pools.png" id="176" data-flag="@X" onclick="openSidebar('176')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\16_Fated Hero.png" id="16" data-flag="@X" onclick="openSidebar('16')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\67_Pleasure Cruise.png" id="67" data-flag="@X" onclick="openSidebar('67')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\94_Harsh Seraph.png" id="94" data-flag="@X" onclick="openSidebar('94')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\136_Incendiary Rukh.png" id="136" data-flag="@X" onclick="openSidebar('136')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\179_Lord of the Swarm.png" id="179" data-flag="@X" onclick="openSidebar('179')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\20_Hubris of Qirauz.png" id="20" data-flag="@X" onclick="openSidebar('20')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\70_Shapeshifter's Marrow.png" id="70" data-flag="@X" onclick="openSidebar('70')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\97_Inexorable Executioner.png" id="97" data-flag="@X" onclick="openSidebar('97')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\139_Monument Worshipper.png" id="139" data-flag="@X" onclick="openSidebar('139')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\189_Sin.png" id="189" data-flag="@X" onclick="openSidebar('189')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\30_Proud Contender.png" id="30" data-flag="@X" onclick="openSidebar('30')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\77_Unchallenged Lawgiver.png" id="77" data-flag="@X" onclick="openSidebar('77')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\109_Rabisu's Temptation.png" id="109" data-flag="@X" onclick="openSidebar('109')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\149_Scorching Sunset.png" id="149" data-flag="@X" onclick="openSidebar('149')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\191_Stoic Stylite.png" id="191" data-flag="@X" onclick="openSidebar('191')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\31_Qamesh, Ardent Justicar.png" id="31" data-flag="@X" onclick="openSidebar('31')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\78_Visions of Destruction.png" id="78" data-flag="@X" onclick="openSidebar('78')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\114_Sin-Gilded Manticore.png" id="114" data-flag="@X" onclick="openSidebar('114')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\152_Shaba, Cloistered Queen.png" id="152" data-flag="@X" onclick="openSidebar('152')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\197_Unquestioned Iyazta.png" id="197" data-flag="@X" onclick="openSidebar('197')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\1_Angelic Justicar.png" id="1" data-flag="@X" onclick="openSidebar('1')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\44_Arbiter's Mask.png" id="44" data-flag="@X" onclick="openSidebar('44')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\82_Anointed Gravewurm.png" id="82" data-flag="@X" onclick="openSidebar('82')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\121_Artisan of Aggression.png" id="121" data-flag="@X" onclick="openSidebar('121')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\163_Cast in Bronze.png" id="163" data-flag="@X" onclick="openSidebar('163')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\5_Brazen Hireling.png" id="5" data-flag="@X" onclick="openSidebar('5')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\45_Assemble the Relics.png" id="45" data-flag="@X" onclick="openSidebar('45')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\85_Code of Law.png" id="85" data-flag="@X" onclick="openSidebar('85')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\129_Game of War.png" id="129" data-flag="@X" onclick="openSidebar('129')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\166_Devouring Ammit.png" id="166" data-flag="@X" onclick="openSidebar('166')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\17_Gilded Cataphract.png" id="17" data-flag="@X" onclick="openSidebar('17')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\47_Brutal Inspiration.png" id="47" data-flag="@X" onclick="openSidebar('47')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\86_Condemn to Damnation.png" id="86" data-flag="@X" onclick="openSidebar('86')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\133_Gurnal's Faithful.png" id="133" data-flag="@X" onclick="openSidebar('133')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\168_Emperor's Visage.png" id="168" data-flag="@X" onclick="openSidebar('168')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\19_Honored Epitaph.png" id="19" data-flag="@X" onclick="openSidebar('19')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\49_Contemplative Falconer.png" id="49" data-flag="@X" onclick="openSidebar('49')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\89_Delver of the Forbidden.png" id="89" data-flag="@X" onclick="openSidebar('89')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\137_Liar's Crown.png" id="137" data-flag="@X" onclick="openSidebar('137')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\169_Endless Procession.png" id="169" data-flag="@X" onclick="openSidebar('169')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\21_Infallible Dictate.png" id="21" data-flag="@X" onclick="openSidebar('21')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\52_Desperate Escape.png" id="52" data-flag="@X" onclick="openSidebar('52')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\91_Emperor's Envoy.png" id="91" data-flag="@X" onclick="openSidebar('91')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\138_Midnight Ambusher.png" id="138" data-flag="@X" onclick="openSidebar('138')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\177_Isolated Idol.png" id="177" data-flag="@X" onclick="openSidebar('177')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\22_Inter.png" id="22" data-flag="@X" onclick="openSidebar('22')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\59_Ghallil Leviathan.png" id="59" data-flag="@X" onclick="openSidebar('59')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\96_Illicit Trade.png" id="96" data-flag="@X" onclick="openSidebar('96')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\141_Mural of Tranquility.png" id="141" data-flag="@X" onclick="openSidebar('141')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\178_Library Elder.png" id="178" data-flag="@X" onclick="openSidebar('178')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\23_Midnight Patrol.png" id="23" data-flag="@X" onclick="openSidebar('23')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\60_Hand of Qamurab.png" id="60" data-flag="@X" onclick="openSidebar('60')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\99_Iyazta Stylite.png" id="99" data-flag="@X" onclick="openSidebar('99')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\143_Passionate Architect.png" id="143" data-flag="@X" onclick="openSidebar('143')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\181_Monumental Advantage.png" id="181" data-flag="@X" onclick="openSidebar('181')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\25_Outcast Pariah.png" id="25" data-flag="@X" onclick="openSidebar('25')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\62_Merciless Judge.png" id="62" data-flag="@X" onclick="openSidebar('62')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\105_Posthumous Sentence.png" id="105" data-flag="@X" onclick="openSidebar('105')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\147_Riddle of the Sands.png" id="147" data-flag="@X" onclick="openSidebar('147')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\184_Outrider of Akaddi.png" id="184" data-flag="@X" onclick="openSidebar('184')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\28_Paragon of Justice.png" id="28" data-flag="@X" onclick="openSidebar('28')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\68_Preserve in Stone.png" id="68" data-flag="@X" onclick="openSidebar('68')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\110_Ravenous Zulufaa.png" id="110" data-flag="@X" onclick="openSidebar('110')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\148_The Rise of Qamurab.png" id="148" data-flag="@X" onclick="openSidebar('148')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\185_Ritual of Incense.png" id="185" data-flag="@X" onclick="openSidebar('185')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\35_Shaba's Visage.png" id="35" data-flag="@X" onclick="openSidebar('35')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\69_Ritual of Honey.png" id="69" data-flag="@X" onclick="openSidebar('69')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\112_Scholar of the Worm.png" id="112" data-flag="@X" onclick="openSidebar('112')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\151_Seer of Ghazuz.png" id="151" data-flag="@X" onclick="openSidebar('151')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\194_Thrashing Demolisher.png" id="194" data-flag="@X" onclick="openSidebar('194')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\37_Temple Vigil.png" id="37" data-flag="@X" onclick="openSidebar('37')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\73_Swift Zulufaa.png" id="73" data-flag="@X" onclick="openSidebar('73')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\115_Stark Warning.png" id="115" data-flag="@X" onclick="openSidebar('115')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\153_Shaba's Indulgence.png" id="153" data-flag="@X" onclick="openSidebar('153')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\195_Tower of Hubris.png" id="195" data-flag="@X" onclick="openSidebar('195')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\40_Wretched Supplication.png" id="40" data-flag="@X" onclick="openSidebar('40')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\76_Tyrant's Remorse.png" id="76" data-flag="@X" onclick="openSidebar('76')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\120_Worm's Evangel.png" id="120" data-flag="@X" onclick="openSidebar('120')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\158_Venomous Manticore.png" id="158" data-flag="@X" onclick="openSidebar('158')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\196_Unjustly Condemned.png" id="196" data-flag="@X" onclick="openSidebar('196')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\2_Bloodied Hands.png" id="2" data-flag="@X" onclick="openSidebar('2')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\41_Accomplished Smith.png" id="41" data-flag="@X" onclick="openSidebar('41')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\81_Absolute Decree.png" id="81" data-flag="@X" onclick="openSidebar('81')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\123_Bread and Circuses.png" id="123" data-flag="@X" onclick="openSidebar('123')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\161_Amulet of Harbaz.png" id="161" data-flag="@X" onclick="openSidebar('161')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\4_Border Clash.png" id="4" data-flag="@X" onclick="openSidebar('4')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\43_Apprehend by Force.png" id="43" data-flag="@X" onclick="openSidebar('43')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\84_Chase Down.png" id="84" data-flag="@X" onclick="openSidebar('84')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\124_Coiling Fresco.png" id="124" data-flag="@X" onclick="openSidebar('124')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\162_Attentive Learner.png" id="162" data-flag="@X" onclick="openSidebar('162')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\6_Caravan Camel.png" id="6" data-flag="@X" onclick="openSidebar('6')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\46_Blissful Ignorance.png" id="46" data-flag="@X" onclick="openSidebar('46')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\92_Ghazuz's Inititate.png" id="92" data-flag="@X" onclick="openSidebar('92')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\125_Devotee of Ghazuz.png" id="125" data-flag="@X" onclick="openSidebar('125')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\164_Crafter of Wonders.png" id="164" data-flag="@X" onclick="openSidebar('164')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\7_Caught Stealing.png" id="7" data-flag="@X" onclick="openSidebar('7')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\48_Capricious Ibis.png" id="48" data-flag="@X" onclick="openSidebar('48')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\93_Guilty Blood.png" id="93" data-flag="@X" onclick="openSidebar('93')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\127_Endless Construction.png" id="127" data-flag="@X" onclick="openSidebar('127')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\165_Devious Depiction.png" id="165" data-flag="@X" onclick="openSidebar('165')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\8_Dakazhi Keeneye.png" id="8" data-flag="@X" onclick="openSidebar('8')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\51_Depart from the City.png" id="51" data-flag="@X" onclick="openSidebar('51')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\95_Hungry Shadow.png" id="95" data-flag="@X" onclick="openSidebar('95')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\130_Gather in Awe.png" id="130" data-flag="@X" onclick="openSidebar('130')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\171_Ethics of Violence.png" id="171" data-flag="@X" onclick="openSidebar('171')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\9_Dakazhi Outrider.png" id="9" data-flag="@X" onclick="openSidebar('9')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\53_Dour Thiefcatcher.png" id="53" data-flag="@X" onclick="openSidebar('53')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\98_Initiate of Gurnal.png" id="98" data-flag="@X" onclick="openSidebar('98')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\131_Gnawing Impatience.png" id="131" data-flag="@X" onclick="openSidebar('131')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\174_Hidden Magics.png" id="174" data-flag="@X" onclick="openSidebar('174')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\10_Devoted Supplicant.png" id="10" data-flag="@X" onclick="openSidebar('10')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\54_Edict of Banishing.png" id="54" data-flag="@X" onclick="openSidebar('54')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\100_Killing Blow.png" id="100" data-flag="@X" onclick="openSidebar('100')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\134_Gurnal's Rage.png" id="134" data-flag="@X" onclick="openSidebar('134')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\175_Icon of Sin.png" id="175" data-flag="@X" onclick="openSidebar('175')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\12_Doom of the Unwary.png" id="12" data-flag="@X" onclick="openSidebar('12')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\57_Empty Promises.png" id="57" data-flag="@X" onclick="openSidebar('57')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\101_Land of the Dead.png" id="101" data-flag="@X" onclick="openSidebar('101')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\135_Hippodrome Champion.png" id="135" data-flag="@X" onclick="openSidebar('135')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\180_Might of Gurnal.png" id="180" data-flag="@X" onclick="openSidebar('180')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\14_Expel.png" id="14" data-flag="@X" onclick="openSidebar('14')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\58_Fragmentary Stele.png" id="58" data-flag="@X" onclick="openSidebar('58')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\102_Motif of Reluctance.png" id="102" data-flag="@X" onclick="openSidebar('102')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\140_Motif of Confusion.png" id="140" data-flag="@X" onclick="openSidebar('140')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\182_Motif of Serenity.png" id="182" data-flag="@X" onclick="openSidebar('182')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\18_Harrier Rukh.png" id="18" data-flag="@X" onclick="openSidebar('18')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\61_Marble Marvel.png" id="61" data-flag="@X" onclick="openSidebar('61')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\104_Pestilent Swarm.png" id="104" data-flag="@X" onclick="openSidebar('104')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\142_No Prayer for the Dying.png" id="142" data-flag="@X" onclick="openSidebar('142')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\183_Myth of Destruction.png" id="183" data-flag="@X" onclick="openSidebar('183')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\24_Motif of Abundance.png" id="24" data-flag="@X" onclick="openSidebar('24')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\63_Monument to Wisdom.png" id="63" data-flag="@X" onclick="openSidebar('63')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\106_Priestess of Ghazuz.png" id="106" data-flag="@X" onclick="openSidebar('106')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\144_Pensive Harpist.png" id="144" data-flag="@X" onclick="openSidebar('144')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\186_Ruthless Cobra.png" id="186" data-flag="@X" onclick="openSidebar('186')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\26_Palace Caracal.png" id="26" data-flag="@X" onclick="openSidebar('26')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\64_Motif of Indecision.png" id="64" data-flag="@X" onclick="openSidebar('64')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\107_Purveyor of Lies.png" id="107" data-flag="@X" onclick="openSidebar('107')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\145_Qamurab's Legion.png" id="145" data-flag="@X" onclick="openSidebar('145')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\187_Sandstorm Caller.png" id="187" data-flag="@X" onclick="openSidebar('187')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\27_Palace Menagerie.png" id="27" data-flag="@X" onclick="openSidebar('27')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\66_Penitent Supplication.png" id="66" data-flag="@X" onclick="openSidebar('66')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\108_Qamurab's Executioner.png" id="108" data-flag="@X" onclick="openSidebar('108')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\146_Recant the Truth.png" id="146" data-flag="@X" onclick="openSidebar('146')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\188_Scholar of Harbaz.png" id="188" data-flag="@X" onclick="openSidebar('188')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\32_Qamurab's Enforcer.png" id="32" data-flag="@X" onclick="openSidebar('32')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\71_Squawking Psychopomp.png" id="71" data-flag="@X" onclick="openSidebar('71')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\111_Rebellious Dreamer.png" id="111" data-flag="@X" onclick="openSidebar('111')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\154_Shrine's Devotion.png" id="154" data-flag="@X" onclick="openSidebar('154')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\190_Somber Philosopher.png" id="190" data-flag="@X" onclick="openSidebar('190')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\33_Regal Bearing.png" id="33" data-flag="@X" onclick="openSidebar('33')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\72_Study the Cuneiform.png" id="72" data-flag="@X" onclick="openSidebar('72')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\113_Shadow of Remorse.png" id="113" data-flag="@X" onclick="openSidebar('113')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\155_Somber Stargazer.png" id="155" data-flag="@X" onclick="openSidebar('155')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\192_Survey the Kingdom.png" id="192" data-flag="@X" onclick="openSidebar('192')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\34_Scapegoat's Departure.png" id="34" data-flag="@X" onclick="openSidebar('34')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\74_Territorial Rukh.png" id="74" data-flag="@X" onclick="openSidebar('74')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\116_Summary Sentence.png" id="116" data-flag="@X" onclick="openSidebar('116')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\156_Temple Architect.png" id="156" data-flag="@X" onclick="openSidebar('156')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\193_Tale of Clear Skies.png" id="193" data-flag="@X" onclick="openSidebar('193')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\36_Stern Justicar.png" id="36" data-flag="@X" onclick="openSidebar('36')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\75_Tyrant of the Waterways.png" id="75" data-flag="@X" onclick="openSidebar('75')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\117_Temple of the Worm.png" id="117" data-flag="@X" onclick="openSidebar('117')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\157_Threaten the Moneylenders.png" id="157" data-flag="@X" onclick="openSidebar('157')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\198_Vaunted Trireme.png" id="198" data-flag="@X" onclick="openSidebar('198')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\38_Voracious Pest.png" id="38" data-flag="@X" onclick="openSidebar('38')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\79_Wayside Idol.png" id="79" data-flag="@X" onclick="openSidebar('79')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\118_Tormented Occultist.png" id="118" data-flag="@X" onclick="openSidebar('118')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\159_Votary of the Worm.png" id="159" data-flag="@X" onclick="openSidebar('159')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\199_Wandering Iyazta.png" id="199" data-flag="@X" onclick="openSidebar('199')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\39_Wisdom of Sahriuz.png" id="39" data-flag="@X" onclick="openSidebar('39')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\80_Wisdom of the Gods.png" id="80" data-flag="@X" onclick="openSidebar('80')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\119_Weight of Guilt.png" id="119" data-flag="@X" onclick="openSidebar('119')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\160_Wandering Wiseman.png" id="160" data-flag="@X" onclick="openSidebar('160')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\200_The Wind at Your Back.png" id="200" data-flag="@X" onclick="openSidebar('200')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\210_Emperor's Courtyard.png" id="210" data-flag="@X" onclick="openSidebar('210')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\226_Ritual of Time.png" id="226" data-flag="@X" onclick="openSidebar('226')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\231_Thomil, Craven Sadist.png" id="231" data-flag="@X" onclick="openSidebar('231')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\230_Temple to Ghazuz.png" id="230" data-flag="@X" onclick="openSidebar('230')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\228_Shaba's Monument.png" id="228" data-flag="@X" onclick="openSidebar('228')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\213_Enforced Humility.png" id="213" data-flag="@X" onclick="openSidebar('213')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\232_Unwinding Constrictor.png" id="232" data-flag="@X" onclick="openSidebar('232')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\225_Remorseful General.png" id="225" data-flag="@X" onclick="openSidebar('225')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\215_Great Library of Ghazuz.png" id="215" data-flag="@X" onclick="openSidebar('215')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\221_Prince's Benevolence.png" id="221" data-flag="@X" onclick="openSidebar('221')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\211_Emperor's Hand.png" id="211" data-flag="@X" onclick="openSidebar('211')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\208_Dakazhi Judge.png" id="208" data-flag="@X" onclick="openSidebar('208')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\216_Guardian of the Tomb.png" id="216" data-flag="@X" onclick="openSidebar('216')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\222_Prince's Tutor.png" id="222" data-flag="@X" onclick="openSidebar('222')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\233_Wanderer's Folly.png" id="233" data-flag="@X" onclick="openSidebar('233')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\212_Empire's End.png" id="212" data-flag="@X" onclick="openSidebar('212')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\223_Profane Incense.png" id="223" data-flag="@X" onclick="openSidebar('223')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\219_Living Archetype.png" id="219" data-flag="@X" onclick="openSidebar('219')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\201_Ancient Epiphany.png" id="201" data-flag="@X" onclick="openSidebar('201')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\218_Incendiary Intercessor.png" id="218" data-flag="@X" onclick="openSidebar('218')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\203_Ancient Judge.png" id="203" data-flag="@X" onclick="openSidebar('203')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\229_Stoic Watcher.png" id="229" data-flag="@X" onclick="openSidebar('229')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\217_Herald of the Old Ways.png" id="217" data-flag="@X" onclick="openSidebar('217')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\234_Wild Inspiration.png" id="234" data-flag="@X" onclick="openSidebar('234')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\235_Winged Justice.png" id="235" data-flag="@X" onclick="openSidebar('235')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\206_Capital Decree.png" id="206" data-flag="@X" onclick="openSidebar('206')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\202_Ancient Etchings.png" id="202" data-flag="@X" onclick="openSidebar('202')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\204_Architect of Wonders.png" id="204" data-flag="@X" onclick="openSidebar('204')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\220_Patronage of the Arts.png" id="220" data-flag="@X" onclick="openSidebar('220')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\207_Charge into History.png" id="207" data-flag="@X" onclick="openSidebar('207')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\205_Baniphal, Law's Hammer.png" id="205" data-flag="@X" onclick="openSidebar('205')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\209_Emperor Qamurab.png" id="209" data-flag="@X" onclick="openSidebar('209')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\214_Ghazuz, Indolent Worm.png" id="214" data-flag="@X" onclick="openSidebar('214')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\224_Qirauz, Impatient Prince.png" id="224" data-flag="@X" onclick="openSidebar('224')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\227_Sahriuz, Nemesis of Fate.png" id="227" data-flag="@X" onclick="openSidebar('227')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\237_Edicts of Qamurab.png" id="237" data-flag="@X" onclick="openSidebar('237')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\243_Ominous Obelisk.png" id="243" data-flag="@X" onclick="openSidebar('243')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\246_Timeless Heartwood.png" id="246" data-flag="@X" onclick="openSidebar('246')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\236_Bronze Bastion.png" id="236" data-flag="@X" onclick="openSidebar('236')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\242_Monument to the Emperor.png" id="242" data-flag="@X" onclick="openSidebar('242')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\244_Sandstone Overseer.png" id="244" data-flag="@X" onclick="openSidebar('244')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\247_Tower Schematics.png" id="247" data-flag="@X" onclick="openSidebar('247')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\248_Vessel of Indulgence.png" id="248" data-flag="@X" onclick="openSidebar('248')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\238_Empty Throne.png" id="238" data-flag="@X" onclick="openSidebar('238')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\239_Hubristic Colossus.png" id="239" data-flag="@X" onclick="openSidebar('239')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\240_Hunter's Chariot.png" id="240" data-flag="@X" onclick="openSidebar('240')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\241_Mace of Command.png" id="241" data-flag="@X" onclick="openSidebar('241')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\245_Temple Mosaic.png" id="245" data-flag="@X" onclick="openSidebar('245')"></div>
-			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\257_Sea Harbor.png" id="257" data-flag="@X" onclick="openSidebar('257')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\261_Triumphal Arch.png" id="261" data-flag="@X" onclick="openSidebar('261')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\253_Lion's Passage.png" id="253" data-flag="@X" onclick="openSidebar('253')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\258_Teeming Riverbank.png" id="258" data-flag="@X" onclick="openSidebar('258')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\254_Public Temple.png" id="254" data-flag="@X" onclick="openSidebar('254')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\249_Gilded Sanctum.png" id="249" data-flag="@X" onclick="openSidebar('249')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\251_Indulgent Garden.png" id="251" data-flag="@X" onclick="openSidebar('251')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\255_Qanat Pool.png" id="255" data-flag="@X" onclick="openSidebar('255')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\252_Isolated Bayt.png" id="252" data-flag="@X" onclick="openSidebar('252')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\250_Imposing Gate.png" id="250" data-flag="@X" onclick="openSidebar('250')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\256_Ruins of Irum.png" id="256" data-flag="@X" onclick="openSidebar('256')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\260_Tomb of the Forgotten.png" id="260" data-flag="@X" onclick="openSidebar('260')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\259_Temple Complex.png" id="259" data-flag="@X" onclick="openSidebar('259')"></div>
-			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\1t_Proud Memories.png" id="1t" data-flag="@X" onclick="openSidebar('1t')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\2t_Soldier.png" id="2t" data-flag="@X" onclick="openSidebar('2t')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\3t_Horror.png" id="3t" data-flag="@X" onclick="openSidebar('3t')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\4t_Incarnation.png" id="4t" data-flag="@X" onclick="openSidebar('4t')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\5t_Sculpture.png" id="5t" data-flag="@X" onclick="openSidebar('5t')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\6t_Treasure.png" id="6t" data-flag="@X" onclick="openSidebar('6t')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\7t_AKI Draft Archetypes.png" id="7t" data-flag="@X" onclick="openSidebar('7t')"></div>
-			<div class="container"><img alt="sets\AKI-files\img\8t_Judgment.png" id="8t" data-flag="@X" onclick="openSidebar('8t')"></div>
-			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+				<div class="container"><img alt="sets\AKI-files\img\29_Primacy of Order.png" id="29_Primacy of Order" data-flag="@X" onclick="openSidebar('29_Primacy of Order',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\50_Crucius, the Riddle of Silver.png" id="50_Crucius, the Riddle of Silver" data-flag="@X" onclick="openSidebar('50_Crucius, the Riddle of Silver',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\103_Nemesis of Order.png" id="103_Nemesis of Order" data-flag="@X" onclick="openSidebar('103_Nemesis of Order',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\150_Screaming Prophet.png" id="150_Screaming Prophet" data-flag="@X" onclick="openSidebar('150_Screaming Prophet',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\173_Guardian Scourge.png" id="173_Guardian Scourge" data-flag="@X" onclick="openSidebar('173_Guardian Scourge',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\3_Boon of Safety.png" id="3_Boon of Safety" data-flag="@X" onclick="openSidebar('3_Boon of Safety',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\42_Anointed Scarab.png" id="42_Anointed Scarab" data-flag="@X" onclick="openSidebar('42_Anointed Scarab',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\83_Beginning of the End.png" id="83_Beginning of the End" data-flag="@X" onclick="openSidebar('83_Beginning of the End',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\122_Barkhan Hellkite.png" id="122_Barkhan Hellkite" data-flag="@X" onclick="openSidebar('122_Barkhan Hellkite',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\167_Edict of Remembrance.png" id="167_Edict of Remembrance" data-flag="@X" onclick="openSidebar('167_Edict of Remembrance',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\11_Divine Arbiter.png" id="11_Divine Arbiter" data-flag="@X" onclick="openSidebar('11_Divine Arbiter',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\55_Edict of Oppression.png" id="55_Edict of Oppression" data-flag="@X" onclick="openSidebar('55_Edict of Oppression',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\87_Dark Apotheosis.png" id="87_Dark Apotheosis" data-flag="@X" onclick="openSidebar('87_Dark Apotheosis',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\126_Edict of Mortality.png" id="126_Edict of Mortality" data-flag="@X" onclick="openSidebar('126_Edict of Mortality',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\170_Epic of Strength.png" id="170_Epic of Strength" data-flag="@X" onclick="openSidebar('170_Epic of Strength',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\13_Edict of Immortality.png" id="13_Edict of Immortality" data-flag="@X" onclick="openSidebar('13_Edict of Immortality',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\56_Eldritch Echo.png" id="56_Eldritch Echo" data-flag="@X" onclick="openSidebar('56_Eldritch Echo',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\88_Decadent Barge.png" id="88_Decadent Barge" data-flag="@X" onclick="openSidebar('88_Decadent Barge',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\128_Feet of Clay.png" id="128_Feet of Clay" data-flag="@X" onclick="openSidebar('128_Feet of Clay',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\172_Golden Harmony.png" id="172_Golden Harmony" data-flag="@X" onclick="openSidebar('172_Golden Harmony',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\15_Face Judgment.png" id="15_Face Judgment" data-flag="@X" onclick="openSidebar('15_Face Judgment',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\65_Palace Sphinx.png" id="65_Palace Sphinx" data-flag="@X" onclick="openSidebar('65_Palace Sphinx',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\90_Edict of Elimination.png" id="90_Edict of Elimination" data-flag="@X" onclick="openSidebar('90_Edict of Elimination',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\132_Graven Ideal.png" id="132_Graven Ideal" data-flag="@X" onclick="openSidebar('132_Graven Ideal',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\176_Idyllic Pools.png" id="176_Idyllic Pools" data-flag="@X" onclick="openSidebar('176_Idyllic Pools',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\16_Fated Hero.png" id="16_Fated Hero" data-flag="@X" onclick="openSidebar('16_Fated Hero',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\67_Pleasure Cruise.png" id="67_Pleasure Cruise" data-flag="@X" onclick="openSidebar('67_Pleasure Cruise',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\94_Harsh Seraph.png" id="94_Harsh Seraph" data-flag="@X" onclick="openSidebar('94_Harsh Seraph',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\136_Incendiary Rukh.png" id="136_Incendiary Rukh" data-flag="@X" onclick="openSidebar('136_Incendiary Rukh',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\179_Lord of the Swarm.png" id="179_Lord of the Swarm" data-flag="@X" onclick="openSidebar('179_Lord of the Swarm',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\20_Hubris of Qirauz.png" id="20_Hubris of Qirauz" data-flag="@X" onclick="openSidebar('20_Hubris of Qirauz',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\70_Shapeshifter's Marrow.png" id="70_Shapeshifters Marrow" data-flag="@X" onclick="openSidebar('70_Shapeshifters Marrow',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\97_Inexorable Executioner.png" id="97_Inexorable Executioner" data-flag="@X" onclick="openSidebar('97_Inexorable Executioner',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\139_Monument Worshipper.png" id="139_Monument Worshipper" data-flag="@X" onclick="openSidebar('139_Monument Worshipper',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\189_Sin.png" id="189_Sin" data-flag="@X" onclick="openSidebar('189_Sin',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\30_Proud Contender.png" id="30_Proud Contender" data-flag="@X" onclick="openSidebar('30_Proud Contender',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\77_Unchallenged Lawgiver.png" id="77_Unchallenged Lawgiver" data-flag="@X" onclick="openSidebar('77_Unchallenged Lawgiver',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\109_Rabisu's Temptation.png" id="109_Rabisus Temptation" data-flag="@X" onclick="openSidebar('109_Rabisus Temptation',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\149_Scorching Sunset.png" id="149_Scorching Sunset" data-flag="@X" onclick="openSidebar('149_Scorching Sunset',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\191_Stoic Stylite.png" id="191_Stoic Stylite" data-flag="@X" onclick="openSidebar('191_Stoic Stylite',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\31_Qamesh, Ardent Justicar.png" id="31_Qamesh, Ardent Justicar" data-flag="@X" onclick="openSidebar('31_Qamesh, Ardent Justicar',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\78_Visions of Destruction.png" id="78_Visions of Destruction" data-flag="@X" onclick="openSidebar('78_Visions of Destruction',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\114_Sin-Gilded Manticore.png" id="114_Sin-Gilded Manticore" data-flag="@X" onclick="openSidebar('114_Sin-Gilded Manticore',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\152_Shaba, Cloistered Queen.png" id="152_Shaba, Cloistered Queen" data-flag="@X" onclick="openSidebar('152_Shaba, Cloistered Queen',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\197_Unquestioned Iyazta.png" id="197_Unquestioned Iyazta" data-flag="@X" onclick="openSidebar('197_Unquestioned Iyazta',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\1_Angelic Justicar.png" id="1_Angelic Justicar" data-flag="@X" onclick="openSidebar('1_Angelic Justicar',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\44_Arbiter's Mask.png" id="44_Arbiters Mask" data-flag="@X" onclick="openSidebar('44_Arbiters Mask',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\82_Anointed Gravewurm.png" id="82_Anointed Gravewurm" data-flag="@X" onclick="openSidebar('82_Anointed Gravewurm',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\121_Artisan of Aggression.png" id="121_Artisan of Aggression" data-flag="@X" onclick="openSidebar('121_Artisan of Aggression',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\163_Cast in Bronze.png" id="163_Cast in Bronze" data-flag="@X" onclick="openSidebar('163_Cast in Bronze',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\5_Brazen Hireling.png" id="5_Brazen Hireling" data-flag="@X" onclick="openSidebar('5_Brazen Hireling',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\45_Assemble the Relics.png" id="45_Assemble the Relics" data-flag="@X" onclick="openSidebar('45_Assemble the Relics',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\85_Code of Law.png" id="85_Code of Law" data-flag="@X" onclick="openSidebar('85_Code of Law',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\129_Game of War.png" id="129_Game of War" data-flag="@X" onclick="openSidebar('129_Game of War',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\166_Devouring Ammit.png" id="166_Devouring Ammit" data-flag="@X" onclick="openSidebar('166_Devouring Ammit',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\17_Gilded Cataphract.png" id="17_Gilded Cataphract" data-flag="@X" onclick="openSidebar('17_Gilded Cataphract',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\47_Brutal Inspiration.png" id="47_Brutal Inspiration" data-flag="@X" onclick="openSidebar('47_Brutal Inspiration',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\86_Condemn to Damnation.png" id="86_Condemn to Damnation" data-flag="@X" onclick="openSidebar('86_Condemn to Damnation',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\133_Gurnal's Faithful.png" id="133_Gurnals Faithful" data-flag="@X" onclick="openSidebar('133_Gurnals Faithful',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\168_Emperor's Visage.png" id="168_Emperors Visage" data-flag="@X" onclick="openSidebar('168_Emperors Visage',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\19_Honored Epitaph.png" id="19_Honored Epitaph" data-flag="@X" onclick="openSidebar('19_Honored Epitaph',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\49_Contemplative Falconer.png" id="49_Contemplative Falconer" data-flag="@X" onclick="openSidebar('49_Contemplative Falconer',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\89_Delver of the Forbidden.png" id="89_Delver of the Forbidden" data-flag="@X" onclick="openSidebar('89_Delver of the Forbidden',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\137_Liar's Crown.png" id="137_Liars Crown" data-flag="@X" onclick="openSidebar('137_Liars Crown',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\169_Endless Procession.png" id="169_Endless Procession" data-flag="@X" onclick="openSidebar('169_Endless Procession',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\21_Infallible Dictate.png" id="21_Infallible Dictate" data-flag="@X" onclick="openSidebar('21_Infallible Dictate',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\52_Desperate Escape.png" id="52_Desperate Escape" data-flag="@X" onclick="openSidebar('52_Desperate Escape',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\91_Emperor's Envoy.png" id="91_Emperors Envoy" data-flag="@X" onclick="openSidebar('91_Emperors Envoy',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\138_Midnight Ambusher.png" id="138_Midnight Ambusher" data-flag="@X" onclick="openSidebar('138_Midnight Ambusher',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\177_Isolated Idol.png" id="177_Isolated Idol" data-flag="@X" onclick="openSidebar('177_Isolated Idol',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\22_Inter.png" id="22_Inter" data-flag="@X" onclick="openSidebar('22_Inter',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\59_Ghallil Leviathan.png" id="59_Ghallil Leviathan" data-flag="@X" onclick="openSidebar('59_Ghallil Leviathan',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\96_Illicit Trade.png" id="96_Illicit Trade" data-flag="@X" onclick="openSidebar('96_Illicit Trade',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\141_Mural of Tranquility.png" id="141_Mural of Tranquility" data-flag="@X" onclick="openSidebar('141_Mural of Tranquility',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\178_Library Elder.png" id="178_Library Elder" data-flag="@X" onclick="openSidebar('178_Library Elder',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\23_Midnight Patrol.png" id="23_Midnight Patrol" data-flag="@X" onclick="openSidebar('23_Midnight Patrol',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\60_Hand of Qamurab.png" id="60_Hand of Qamurab" data-flag="@X" onclick="openSidebar('60_Hand of Qamurab',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\99_Iyazta Stylite.png" id="99_Iyazta Stylite" data-flag="@X" onclick="openSidebar('99_Iyazta Stylite',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\143_Passionate Architect.png" id="143_Passionate Architect" data-flag="@X" onclick="openSidebar('143_Passionate Architect',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\181_Monumental Advantage.png" id="181_Monumental Advantage" data-flag="@X" onclick="openSidebar('181_Monumental Advantage',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\25_Outcast Pariah.png" id="25_Outcast Pariah" data-flag="@X" onclick="openSidebar('25_Outcast Pariah',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\62_Merciless Judge.png" id="62_Merciless Judge" data-flag="@X" onclick="openSidebar('62_Merciless Judge',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\105_Posthumous Sentence.png" id="105_Posthumous Sentence" data-flag="@X" onclick="openSidebar('105_Posthumous Sentence',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\147_Riddle of the Sands.png" id="147_Riddle of the Sands" data-flag="@X" onclick="openSidebar('147_Riddle of the Sands',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\184_Outrider of Akaddi.png" id="184_Outrider of Akaddi" data-flag="@X" onclick="openSidebar('184_Outrider of Akaddi',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\28_Paragon of Justice.png" id="28_Paragon of Justice" data-flag="@X" onclick="openSidebar('28_Paragon of Justice',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\68_Preserve in Stone.png" id="68_Preserve in Stone" data-flag="@X" onclick="openSidebar('68_Preserve in Stone',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\110_Ravenous Zulufaa.png" id="110_Ravenous Zulufaa" data-flag="@X" onclick="openSidebar('110_Ravenous Zulufaa',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\148_The Rise of Qamurab.png" id="148_The Rise of Qamurab" data-flag="@X" onclick="openSidebar('148_The Rise of Qamurab',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\185_Ritual of Incense.png" id="185_Ritual of Incense" data-flag="@X" onclick="openSidebar('185_Ritual of Incense',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\35_Shaba's Visage.png" id="35_Shabas Visage" data-flag="@X" onclick="openSidebar('35_Shabas Visage',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\69_Ritual of Honey.png" id="69_Ritual of Honey" data-flag="@X" onclick="openSidebar('69_Ritual of Honey',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\112_Scholar of the Worm.png" id="112_Scholar of the Worm" data-flag="@X" onclick="openSidebar('112_Scholar of the Worm',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\151_Seer of Ghazuz.png" id="151_Seer of Ghazuz" data-flag="@X" onclick="openSidebar('151_Seer of Ghazuz',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\194_Thrashing Demolisher.png" id="194_Thrashing Demolisher" data-flag="@X" onclick="openSidebar('194_Thrashing Demolisher',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\37_Temple Vigil.png" id="37_Temple Vigil" data-flag="@X" onclick="openSidebar('37_Temple Vigil',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\73_Swift Zulufaa.png" id="73_Swift Zulufaa" data-flag="@X" onclick="openSidebar('73_Swift Zulufaa',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\115_Stark Warning.png" id="115_Stark Warning" data-flag="@X" onclick="openSidebar('115_Stark Warning',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\153_Shaba's Indulgence.png" id="153_Shabas Indulgence" data-flag="@X" onclick="openSidebar('153_Shabas Indulgence',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\195_Tower of Hubris.png" id="195_Tower of Hubris" data-flag="@X" onclick="openSidebar('195_Tower of Hubris',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\40_Wretched Supplication.png" id="40_Wretched Supplication" data-flag="@X" onclick="openSidebar('40_Wretched Supplication',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\76_Tyrant's Remorse.png" id="76_Tyrants Remorse" data-flag="@X" onclick="openSidebar('76_Tyrants Remorse',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\120_Worm's Evangel.png" id="120_Worms Evangel" data-flag="@X" onclick="openSidebar('120_Worms Evangel',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\158_Venomous Manticore.png" id="158_Venomous Manticore" data-flag="@X" onclick="openSidebar('158_Venomous Manticore',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\196_Unjustly Condemned.png" id="196_Unjustly Condemned" data-flag="@X" onclick="openSidebar('196_Unjustly Condemned',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\2_Bloodied Hands.png" id="2_Bloodied Hands" data-flag="@X" onclick="openSidebar('2_Bloodied Hands',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\41_Accomplished Smith.png" id="41_Accomplished Smith" data-flag="@X" onclick="openSidebar('41_Accomplished Smith',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\81_Absolute Decree.png" id="81_Absolute Decree" data-flag="@X" onclick="openSidebar('81_Absolute Decree',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\123_Bread and Circuses.png" id="123_Bread and Circuses" data-flag="@X" onclick="openSidebar('123_Bread and Circuses',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\161_Amulet of Harbaz.png" id="161_Amulet of Harbaz" data-flag="@X" onclick="openSidebar('161_Amulet of Harbaz',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\4_Border Clash.png" id="4_Border Clash" data-flag="@X" onclick="openSidebar('4_Border Clash',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\43_Apprehend by Force.png" id="43_Apprehend by Force" data-flag="@X" onclick="openSidebar('43_Apprehend by Force',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\84_Chase Down.png" id="84_Chase Down" data-flag="@X" onclick="openSidebar('84_Chase Down',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\124_Coiling Fresco.png" id="124_Coiling Fresco" data-flag="@X" onclick="openSidebar('124_Coiling Fresco',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\162_Attentive Learner.png" id="162_Attentive Learner" data-flag="@X" onclick="openSidebar('162_Attentive Learner',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\6_Caravan Camel.png" id="6_Caravan Camel" data-flag="@X" onclick="openSidebar('6_Caravan Camel',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\46_Blissful Ignorance.png" id="46_Blissful Ignorance" data-flag="@X" onclick="openSidebar('46_Blissful Ignorance',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\92_Ghazuz's Inititate.png" id="92_Ghazuzs Inititate" data-flag="@X" onclick="openSidebar('92_Ghazuzs Inititate',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\125_Devotee of Ghazuz.png" id="125_Devotee of Ghazuz" data-flag="@X" onclick="openSidebar('125_Devotee of Ghazuz',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\164_Crafter of Wonders.png" id="164_Crafter of Wonders" data-flag="@X" onclick="openSidebar('164_Crafter of Wonders',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\7_Caught Stealing.png" id="7_Caught Stealing" data-flag="@X" onclick="openSidebar('7_Caught Stealing',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\48_Capricious Ibis.png" id="48_Capricious Ibis" data-flag="@X" onclick="openSidebar('48_Capricious Ibis',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\93_Guilty Blood.png" id="93_Guilty Blood" data-flag="@X" onclick="openSidebar('93_Guilty Blood',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\127_Endless Construction.png" id="127_Endless Construction" data-flag="@X" onclick="openSidebar('127_Endless Construction',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\165_Devious Depiction.png" id="165_Devious Depiction" data-flag="@X" onclick="openSidebar('165_Devious Depiction',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\8_Dakazhi Keeneye.png" id="8_Dakazhi Keeneye" data-flag="@X" onclick="openSidebar('8_Dakazhi Keeneye',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\51_Depart from the City.png" id="51_Depart from the City" data-flag="@X" onclick="openSidebar('51_Depart from the City',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\95_Hungry Shadow.png" id="95_Hungry Shadow" data-flag="@X" onclick="openSidebar('95_Hungry Shadow',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\130_Gather in Awe.png" id="130_Gather in Awe" data-flag="@X" onclick="openSidebar('130_Gather in Awe',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\171_Ethics of Violence.png" id="171_Ethics of Violence" data-flag="@X" onclick="openSidebar('171_Ethics of Violence',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\9_Dakazhi Outrider.png" id="9_Dakazhi Outrider" data-flag="@X" onclick="openSidebar('9_Dakazhi Outrider',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\53_Dour Thiefcatcher.png" id="53_Dour Thiefcatcher" data-flag="@X" onclick="openSidebar('53_Dour Thiefcatcher',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\98_Initiate of Gurnal.png" id="98_Initiate of Gurnal" data-flag="@X" onclick="openSidebar('98_Initiate of Gurnal',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\131_Gnawing Impatience.png" id="131_Gnawing Impatience" data-flag="@X" onclick="openSidebar('131_Gnawing Impatience',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\174_Hidden Magics.png" id="174_Hidden Magics" data-flag="@X" onclick="openSidebar('174_Hidden Magics',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\10_Devoted Supplicant.png" id="10_Devoted Supplicant" data-flag="@X" onclick="openSidebar('10_Devoted Supplicant',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\54_Edict of Banishing.png" id="54_Edict of Banishing" data-flag="@X" onclick="openSidebar('54_Edict of Banishing',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\100_Killing Blow.png" id="100_Killing Blow" data-flag="@X" onclick="openSidebar('100_Killing Blow',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\134_Gurnal's Rage.png" id="134_Gurnals Rage" data-flag="@X" onclick="openSidebar('134_Gurnals Rage',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\175_Icon of Sin.png" id="175_Icon of Sin" data-flag="@X" onclick="openSidebar('175_Icon of Sin',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\12_Doom of the Unwary.png" id="12_Doom of the Unwary" data-flag="@X" onclick="openSidebar('12_Doom of the Unwary',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\57_Empty Promises.png" id="57_Empty Promises" data-flag="@X" onclick="openSidebar('57_Empty Promises',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\101_Land of the Dead.png" id="101_Land of the Dead" data-flag="@X" onclick="openSidebar('101_Land of the Dead',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\135_Hippodrome Champion.png" id="135_Hippodrome Champion" data-flag="@X" onclick="openSidebar('135_Hippodrome Champion',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\180_Might of Gurnal.png" id="180_Might of Gurnal" data-flag="@X" onclick="openSidebar('180_Might of Gurnal',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\14_Expel.png" id="14_Expel" data-flag="@X" onclick="openSidebar('14_Expel',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\58_Fragmentary Stele.png" id="58_Fragmentary Stele" data-flag="@X" onclick="openSidebar('58_Fragmentary Stele',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\102_Motif of Reluctance.png" id="102_Motif of Reluctance" data-flag="@X" onclick="openSidebar('102_Motif of Reluctance',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\140_Motif of Confusion.png" id="140_Motif of Confusion" data-flag="@X" onclick="openSidebar('140_Motif of Confusion',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\182_Motif of Serenity.png" id="182_Motif of Serenity" data-flag="@X" onclick="openSidebar('182_Motif of Serenity',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\18_Harrier Rukh.png" id="18_Harrier Rukh" data-flag="@X" onclick="openSidebar('18_Harrier Rukh',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\61_Marble Marvel.png" id="61_Marble Marvel" data-flag="@X" onclick="openSidebar('61_Marble Marvel',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\104_Pestilent Swarm.png" id="104_Pestilent Swarm" data-flag="@X" onclick="openSidebar('104_Pestilent Swarm',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\142_No Prayer for the Dying.png" id="142_No Prayer for the Dying" data-flag="@X" onclick="openSidebar('142_No Prayer for the Dying',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\183_Myth of Destruction.png" id="183_Myth of Destruction" data-flag="@X" onclick="openSidebar('183_Myth of Destruction',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\24_Motif of Abundance.png" id="24_Motif of Abundance" data-flag="@X" onclick="openSidebar('24_Motif of Abundance',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\63_Monument to Wisdom.png" id="63_Monument to Wisdom" data-flag="@X" onclick="openSidebar('63_Monument to Wisdom',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\106_Priestess of Ghazuz.png" id="106_Priestess of Ghazuz" data-flag="@X" onclick="openSidebar('106_Priestess of Ghazuz',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\144_Pensive Harpist.png" id="144_Pensive Harpist" data-flag="@X" onclick="openSidebar('144_Pensive Harpist',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\186_Ruthless Cobra.png" id="186_Ruthless Cobra" data-flag="@X" onclick="openSidebar('186_Ruthless Cobra',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\26_Palace Caracal.png" id="26_Palace Caracal" data-flag="@X" onclick="openSidebar('26_Palace Caracal',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\64_Motif of Indecision.png" id="64_Motif of Indecision" data-flag="@X" onclick="openSidebar('64_Motif of Indecision',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\107_Purveyor of Lies.png" id="107_Purveyor of Lies" data-flag="@X" onclick="openSidebar('107_Purveyor of Lies',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\145_Qamurab's Legion.png" id="145_Qamurabs Legion" data-flag="@X" onclick="openSidebar('145_Qamurabs Legion',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\187_Sandstorm Caller.png" id="187_Sandstorm Caller" data-flag="@X" onclick="openSidebar('187_Sandstorm Caller',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\27_Palace Menagerie.png" id="27_Palace Menagerie" data-flag="@X" onclick="openSidebar('27_Palace Menagerie',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\66_Penitent Supplication.png" id="66_Penitent Supplication" data-flag="@X" onclick="openSidebar('66_Penitent Supplication',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\108_Qamurab's Executioner.png" id="108_Qamurabs Executioner" data-flag="@X" onclick="openSidebar('108_Qamurabs Executioner',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\146_Recant the Truth.png" id="146_Recant the Truth" data-flag="@X" onclick="openSidebar('146_Recant the Truth',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\188_Scholar of Harbaz.png" id="188_Scholar of Harbaz" data-flag="@X" onclick="openSidebar('188_Scholar of Harbaz',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\32_Qamurab's Enforcer.png" id="32_Qamurabs Enforcer" data-flag="@X" onclick="openSidebar('32_Qamurabs Enforcer',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\71_Squawking Psychopomp.png" id="71_Squawking Psychopomp" data-flag="@X" onclick="openSidebar('71_Squawking Psychopomp',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\111_Rebellious Dreamer.png" id="111_Rebellious Dreamer" data-flag="@X" onclick="openSidebar('111_Rebellious Dreamer',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\154_Shrine's Devotion.png" id="154_Shrines Devotion" data-flag="@X" onclick="openSidebar('154_Shrines Devotion',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\190_Somber Philosopher.png" id="190_Somber Philosopher" data-flag="@X" onclick="openSidebar('190_Somber Philosopher',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\33_Regal Bearing.png" id="33_Regal Bearing" data-flag="@X" onclick="openSidebar('33_Regal Bearing',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\72_Study the Cuneiform.png" id="72_Study the Cuneiform" data-flag="@X" onclick="openSidebar('72_Study the Cuneiform',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\113_Shadow of Remorse.png" id="113_Shadow of Remorse" data-flag="@X" onclick="openSidebar('113_Shadow of Remorse',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\155_Somber Stargazer.png" id="155_Somber Stargazer" data-flag="@X" onclick="openSidebar('155_Somber Stargazer',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\192_Survey the Kingdom.png" id="192_Survey the Kingdom" data-flag="@X" onclick="openSidebar('192_Survey the Kingdom',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\34_Scapegoat's Departure.png" id="34_Scapegoats Departure" data-flag="@X" onclick="openSidebar('34_Scapegoats Departure',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\74_Territorial Rukh.png" id="74_Territorial Rukh" data-flag="@X" onclick="openSidebar('74_Territorial Rukh',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\116_Summary Sentence.png" id="116_Summary Sentence" data-flag="@X" onclick="openSidebar('116_Summary Sentence',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\156_Temple Architect.png" id="156_Temple Architect" data-flag="@X" onclick="openSidebar('156_Temple Architect',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\193_Tale of Clear Skies.png" id="193_Tale of Clear Skies" data-flag="@X" onclick="openSidebar('193_Tale of Clear Skies',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\36_Stern Justicar.png" id="36_Stern Justicar" data-flag="@X" onclick="openSidebar('36_Stern Justicar',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\75_Tyrant of the Waterways.png" id="75_Tyrant of the Waterways" data-flag="@X" onclick="openSidebar('75_Tyrant of the Waterways',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\117_Temple of the Worm.png" id="117_Temple of the Worm" data-flag="@X" onclick="openSidebar('117_Temple of the Worm',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\157_Threaten the Moneylenders.png" id="157_Threaten the Moneylenders" data-flag="@X" onclick="openSidebar('157_Threaten the Moneylenders',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\198_Vaunted Trireme.png" id="198_Vaunted Trireme" data-flag="@X" onclick="openSidebar('198_Vaunted Trireme',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\38_Voracious Pest.png" id="38_Voracious Pest" data-flag="@X" onclick="openSidebar('38_Voracious Pest',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\79_Wayside Idol.png" id="79_Wayside Idol" data-flag="@X" onclick="openSidebar('79_Wayside Idol',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\118_Tormented Occultist.png" id="118_Tormented Occultist" data-flag="@X" onclick="openSidebar('118_Tormented Occultist',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\159_Votary of the Worm.png" id="159_Votary of the Worm" data-flag="@X" onclick="openSidebar('159_Votary of the Worm',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\199_Wandering Iyazta.png" id="199_Wandering Iyazta" data-flag="@X" onclick="openSidebar('199_Wandering Iyazta',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\39_Wisdom of Sahriuz.png" id="39_Wisdom of Sahriuz" data-flag="@X" onclick="openSidebar('39_Wisdom of Sahriuz',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\80_Wisdom of the Gods.png" id="80_Wisdom of the Gods" data-flag="@X" onclick="openSidebar('80_Wisdom of the Gods',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\119_Weight of Guilt.png" id="119_Weight of Guilt" data-flag="@X" onclick="openSidebar('119_Weight of Guilt',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\160_Wandering Wiseman.png" id="160_Wandering Wiseman" data-flag="@X" onclick="openSidebar('160_Wandering Wiseman',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\200_The Wind at Your Back.png" id="200_The Wind at Your Back" data-flag="@X" onclick="openSidebar('200_The Wind at Your Back',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\210_Emperor's Courtyard.png" id="210_Emperors Courtyard" data-flag="@X" onclick="openSidebar('210_Emperors Courtyard',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\226_Ritual of Time.png" id="226_Ritual of Time" data-flag="@X" onclick="openSidebar('226_Ritual of Time',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\231_Thomil, Craven Sadist.png" id="231_Thomil, Craven Sadist" data-flag="@X" onclick="openSidebar('231_Thomil, Craven Sadist',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\230_Temple to Ghazuz.png" id="230_Temple to Ghazuz" data-flag="@X" onclick="openSidebar('230_Temple to Ghazuz',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\228_Shaba's Monument.png" id="228_Shabas Monument" data-flag="@X" onclick="openSidebar('228_Shabas Monument',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\213_Enforced Humility.png" id="213_Enforced Humility" data-flag="@X" onclick="openSidebar('213_Enforced Humility',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\232_Unwinding Constrictor.png" id="232_Unwinding Constrictor" data-flag="@X" onclick="openSidebar('232_Unwinding Constrictor',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\225_Remorseful General.png" id="225_Remorseful General" data-flag="@X" onclick="openSidebar('225_Remorseful General',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\215_Great Library of Ghazuz.png" id="215_Great Library of Ghazuz" data-flag="@X" onclick="openSidebar('215_Great Library of Ghazuz',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\221_Prince's Benevolence.png" id="221_Princes Benevolence" data-flag="@X" onclick="openSidebar('221_Princes Benevolence',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\211_Emperor's Hand.png" id="211_Emperors Hand" data-flag="@X" onclick="openSidebar('211_Emperors Hand',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\208_Dakazhi Judge.png" id="208_Dakazhi Judge" data-flag="@X" onclick="openSidebar('208_Dakazhi Judge',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\216_Guardian of the Tomb.png" id="216_Guardian of the Tomb" data-flag="@X" onclick="openSidebar('216_Guardian of the Tomb',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\222_Prince's Tutor.png" id="222_Princes Tutor" data-flag="@X" onclick="openSidebar('222_Princes Tutor',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\233_Wanderer's Folly.png" id="233_Wanderers Folly" data-flag="@X" onclick="openSidebar('233_Wanderers Folly',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\212_Empire's End.png" id="212_Empires End" data-flag="@X" onclick="openSidebar('212_Empires End',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\223_Profane Incense.png" id="223_Profane Incense" data-flag="@X" onclick="openSidebar('223_Profane Incense',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\219_Living Archetype.png" id="219_Living Archetype" data-flag="@X" onclick="openSidebar('219_Living Archetype',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\201_Ancient Epiphany.png" id="201_Ancient Epiphany" data-flag="@X" onclick="openSidebar('201_Ancient Epiphany',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\218_Incendiary Intercessor.png" id="218_Incendiary Intercessor" data-flag="@X" onclick="openSidebar('218_Incendiary Intercessor',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\203_Ancient Judge.png" id="203_Ancient Judge" data-flag="@X" onclick="openSidebar('203_Ancient Judge',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\229_Stoic Watcher.png" id="229_Stoic Watcher" data-flag="@X" onclick="openSidebar('229_Stoic Watcher',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\217_Herald of the Old Ways.png" id="217_Herald of the Old Ways" data-flag="@X" onclick="openSidebar('217_Herald of the Old Ways',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\234_Wild Inspiration.png" id="234_Wild Inspiration" data-flag="@X" onclick="openSidebar('234_Wild Inspiration',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\235_Winged Justice.png" id="235_Winged Justice" data-flag="@X" onclick="openSidebar('235_Winged Justice',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\206_Capital Decree.png" id="206_Capital Decree" data-flag="@X" onclick="openSidebar('206_Capital Decree',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\202_Ancient Etchings.png" id="202_Ancient Etchings" data-flag="@X" onclick="openSidebar('202_Ancient Etchings',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\204_Architect of Wonders.png" id="204_Architect of Wonders" data-flag="@X" onclick="openSidebar('204_Architect of Wonders',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\220_Patronage of the Arts.png" id="220_Patronage of the Arts" data-flag="@X" onclick="openSidebar('220_Patronage of the Arts',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\207_Charge into History.png" id="207_Charge into History" data-flag="@X" onclick="openSidebar('207_Charge into History',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\205_Baniphal, Law's Hammer.png" id="205_Baniphal, Laws Hammer" data-flag="@X" onclick="openSidebar('205_Baniphal, Laws Hammer',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\209_Emperor Qamurab.png" id="209_Emperor Qamurab" data-flag="@X" onclick="openSidebar('209_Emperor Qamurab',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\214_Ghazuz, Indolent Worm.png" id="214_Ghazuz, Indolent Worm" data-flag="@X" onclick="openSidebar('214_Ghazuz, Indolent Worm',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\224_Qirauz, Impatient Prince.png" id="224_Qirauz, Impatient Prince" data-flag="@X" onclick="openSidebar('224_Qirauz, Impatient Prince',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\227_Sahriuz, Nemesis of Fate.png" id="227_Sahriuz, Nemesis of Fate" data-flag="@X" onclick="openSidebar('227_Sahriuz, Nemesis of Fate',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\237_Edicts of Qamurab.png" id="237_Edicts of Qamurab" data-flag="@X" onclick="openSidebar('237_Edicts of Qamurab',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\243_Ominous Obelisk.png" id="243_Ominous Obelisk" data-flag="@X" onclick="openSidebar('243_Ominous Obelisk',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\246_Timeless Heartwood.png" id="246_Timeless Heartwood" data-flag="@X" onclick="openSidebar('246_Timeless Heartwood',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\236_Bronze Bastion.png" id="236_Bronze Bastion" data-flag="@X" onclick="openSidebar('236_Bronze Bastion',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\242_Monument to the Emperor.png" id="242_Monument to the Emperor" data-flag="@X" onclick="openSidebar('242_Monument to the Emperor',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\244_Sandstone Overseer.png" id="244_Sandstone Overseer" data-flag="@X" onclick="openSidebar('244_Sandstone Overseer',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\247_Tower Schematics.png" id="247_Tower Schematics" data-flag="@X" onclick="openSidebar('247_Tower Schematics',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\248_Vessel of Indulgence.png" id="248_Vessel of Indulgence" data-flag="@X" onclick="openSidebar('248_Vessel of Indulgence',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\238_Empty Throne.png" id="238_Empty Throne" data-flag="@X" onclick="openSidebar('238_Empty Throne',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\239_Hubristic Colossus.png" id="239_Hubristic Colossus" data-flag="@X" onclick="openSidebar('239_Hubristic Colossus',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\240_Hunter's Chariot.png" id="240_Hunters Chariot" data-flag="@X" onclick="openSidebar('240_Hunters Chariot',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\241_Mace of Command.png" id="241_Mace of Command" data-flag="@X" onclick="openSidebar('241_Mace of Command',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\245_Temple Mosaic.png" id="245_Temple Mosaic" data-flag="@X" onclick="openSidebar('245_Temple Mosaic',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\257_Sea Harbor.png" id="257_Sea Harbor" data-flag="@X" onclick="openSidebar('257_Sea Harbor',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\261_Triumphal Arch.png" id="261_Triumphal Arch" data-flag="@X" onclick="openSidebar('261_Triumphal Arch',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\253_Lion's Passage.png" id="253_Lions Passage" data-flag="@X" onclick="openSidebar('253_Lions Passage',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\258_Teeming Riverbank.png" id="258_Teeming Riverbank" data-flag="@X" onclick="openSidebar('258_Teeming Riverbank',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\254_Public Temple.png" id="254_Public Temple" data-flag="@X" onclick="openSidebar('254_Public Temple',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\249_Gilded Sanctum.png" id="249_Gilded Sanctum" data-flag="@X" onclick="openSidebar('249_Gilded Sanctum',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\251_Indulgent Garden.png" id="251_Indulgent Garden" data-flag="@X" onclick="openSidebar('251_Indulgent Garden',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\255_Qanat Pool.png" id="255_Qanat Pool" data-flag="@X" onclick="openSidebar('255_Qanat Pool',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\252_Isolated Bayt.png" id="252_Isolated Bayt" data-flag="@X" onclick="openSidebar('252_Isolated Bayt',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\250_Imposing Gate.png" id="250_Imposing Gate" data-flag="@X" onclick="openSidebar('250_Imposing Gate',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\256_Ruins of Irum.png" id="256_Ruins of Irum" data-flag="@X" onclick="openSidebar('256_Ruins of Irum',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\260_Tomb of the Forgotten.png" id="260_Tomb of the Forgotten" data-flag="@X" onclick="openSidebar('260_Tomb of the Forgotten',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\259_Temple Complex.png" id="259_Temple Complex" data-flag="@X" onclick="openSidebar('259_Temple Complex',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\1t_Proud Memories.png" id="1t_Proud Memories" data-flag="@X" onclick="openSidebar('1t_Proud Memories',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\2t_Soldier.png" id="2t_Soldier" data-flag="@X" onclick="openSidebar('2t_Soldier',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\3t_Horror.png" id="3t_Horror" data-flag="@X" onclick="openSidebar('3t_Horror',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\4t_Incarnation.png" id="4t_Incarnation" data-flag="@X" onclick="openSidebar('4t_Incarnation',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\5t_Sculpture.png" id="5t_Sculpture" data-flag="@X" onclick="openSidebar('5t_Sculpture',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\6t_Treasure.png" id="6t_Treasure" data-flag="@X" onclick="openSidebar('6t_Treasure',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\7t_AKI Draft Archetypes.png" id="7t_AKI Draft Archetypes" data-flag="@X" onclick="openSidebar('7t_AKI Draft Archetypes',false)"></div>
+			<div class="container"><img alt="sets\AKI-files\img\8t_Judgment.png" id="8t_Judgment" data-flag="@X" onclick="openSidebar('8t_Judgment',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
 	</div>
 </div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" src="img/er.png">
+			<img id="sidebar_img" class="sidebar-img" src="img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
 		<button class="close-btn" onclick="closeSidebar()"></button>
@@ -636,17 +647,51 @@
 		document.getElementById('sidebar').style.top = height + '%';
 	}
 
+	let horizontal = false;
+
 	function imgFlip(num) {
 		tmp = document.getElementById(num).src;
 		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
 		document.getElementById(num).dataset.alt_src = tmp;
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		if (horizontal && rotated_img.style.display == 'none')
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
 	}
 
-	function openSidebar(id) {
+	function openSidebar(id, h=false) {
+		horizontal = h;
 		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
 		
 		document.getElementById('sidebar').style.display = 'grid';
-		document.getElementById('sidebar_img').src = document.getElementById(id).src;
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+
+		if (horizontal)
+		{
+			rotated_img.src = document.getElementById(id).src;
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
 		if (document.getElementById(id).dataset.alt_src)
 		{
 			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;

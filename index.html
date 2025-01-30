@@ -258,6 +258,10 @@
 									<a href="CYO-spoiler"><div class="set-icon"><img src="sets/CYO-files/icon.png" title="Chronicles of Yor-Om"></img></div>
 									<div class="set-icon-name">Chronicles of Yor-Om</div></a>
 								</div>
+				<div class="set-icon-container">
+									<a href="HVY-spoiler"><div class="set-icon"><img src="sets/HVY-files/icon.png" title="Heavy Thunder"></img></div>
+									<div class="set-icon-name">Heavy Thunder</div></a>
+								</div>
 									</div>
 							<div class="set-group">Other sets</div>
 							<div class="preview-container">
@@ -372,7 +376,7 @@
 				img.id = "cotd";
 
 
-				img.src = '/sets/' + card_stats.set + '-files/img/' + card_stats.number + '_' + card_stats.card_name + (card_stats.shape.includes('double') ? '_front' : '') + '.png';
+				img.src = '/sets/' + card_stats.set + '-files/img/' + card_stats.number + '_' + card_stats.card_name + (card_stats.shape.includes('double') ? '_front' : '') + '.' + card_stats.image_type;
 
 				a.append(img);
 				document.getElementById("cotd-image").append(a);

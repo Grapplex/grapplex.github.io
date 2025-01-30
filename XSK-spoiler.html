@@ -34,7 +34,15 @@
 			max-width: 375px;
 			position: relative;
 		}
-		.sidebar img {
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
 		}
@@ -150,24 +158,25 @@
 <body>
 	<img class="preload-hidden" src="/img/dot.png" />
 	<img class="preload-hidden" src="/sets/XSK-files/logo.png" />
-	<img class="preload-hidden" src="/sets/666-files/icon.png" />
-		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
+	<img class="preload-hidden" src="/sets/TYT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/QYR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/XCO-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SSF-files/icon.png" />
 		<img class="preload-hidden" src="/sets/AKI-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MHQ-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ARK-files/icon.png" />
+		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OPH-files/icon.png" />
 		<img class="preload-hidden" src="/sets/CYO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
+		<img class="preload-hidden" src="/sets/HVY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/666-files/icon.png" />
 		<img class="preload-hidden" src="/sets/FBI-files/icon.png" />
 		<img class="preload-hidden" src="/sets/GRU-files/icon.png" />
 		<img class="preload-hidden" src="/sets/KSH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MHQ-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OPH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/QYR-files/icon.png" />
 		<img class="preload-hidden" src="/sets/SPQ-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SSF-files/icon.png" />
 		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TYT-files/icon.png" />
-		<img class="preload-hidden" src="/sets/XCO-files/icon.png" />
 		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
 		<img class="preload-hidden" id="bg" src="/sets/XSK-files/bg.png" />
 		
 		<div class="header">
@@ -182,17 +191,28 @@
 	</div>
 
 	<div class="icon-bar">
-			<div class="icon"><a href="666-spoiler"><img src="sets/666-files/icon.png"></img></a></div>
+			<div class="icon"><a href="TYT-spoiler"><img src="sets/TYT-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="90S-spoiler"><img src="sets/90S-files/icon.png"></img></a></div>
+		<div class="icon"><a href="QYR-spoiler"><img src="sets/QYR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="XCO-spoiler"><img src="sets/XCO-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="SSF-spoiler"><img src="sets/SSF-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="AKI-spoiler"><img src="sets/AKI-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="MHQ-spoiler"><img src="sets/MHQ-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="ARK-spoiler"><img src="sets/ARK-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="90S-spoiler"><img src="sets/90S-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="OPH-spoiler"><img src="sets/OPH-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="CYO-spoiler"><img src="sets/CYO-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="ELO-spoiler"><img src="sets/ELO-files/icon.png"></img></a></div>
+		<div class="icon"><a href="HVY-spoiler"><img src="sets/HVY-files/icon.png"></img></a></div>
+		<div class="icon"><a href="666-spoiler"><img src="sets/666-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="FBI-spoiler"><img src="sets/FBI-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
@@ -200,23 +220,13 @@
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="KSH-spoiler"><img src="sets/KSH-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="MHQ-spoiler"><img src="sets/MHQ-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="OPH-spoiler"><img src="sets/OPH-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="QYR-spoiler"><img src="sets/QYR-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="SPQ-spoiler"><img src="sets/SPQ-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="SSF-spoiler"><img src="sets/SSF-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="TGS-spoiler"><img src="sets/TGS-files/icon.png"></img></a></div>
 		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="TYT-spoiler"><img src="sets/TYT-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
-		<div class="icon"><a href="XCO-spoiler"><img src="sets/XCO-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="img/dot.png"></img></div>
 		<div class="icon"><a href="XSK-spoiler"><img src="sets/XSK-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="ELO-spoiler"><img src="sets/ELO-files/icon.png"></img></a></div>
 
 		</div>
 		<div class="banner">
@@ -224,326 +234,327 @@
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-				<div class="container"><img alt="sets\XSK-files\img\40_Transhumanism.png" id="40" data-flag="@X" onclick="openSidebar('40')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\76_Stolen Spark.png" id="76" data-flag="@X" onclick="openSidebar('76')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\104_More Human Than Human.png" id="104" data-flag="@X" onclick="openSidebar('104')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\159_Warp Vision.png" id="159" data-flag="@X" onclick="openSidebar('159')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\199_War Nerve.png" id="199" data-flag="@X" onclick="openSidebar('199')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\2_Advanced Genomics.png" id="2" data-flag="@X" onclick="openSidebar('2')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\66_Scientific Method.png" id="66" data-flag="@X" onclick="openSidebar('66')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\90_Devourer of Flesh.png" id="90" data-flag="@X" onclick="openSidebar('90')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\126_Cephalic Monstrosity.png" id="126" data-flag="@X" onclick="openSidebar('126')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\162_Aleph, Mutant Primus.png" id="162" data-flag="@X" onclick="openSidebar('162')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\3_Alpha's Awakening.png" id="3" data-flag="@X" onclick="openSidebar('3')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\68_Secrets of Biology.png" id="68" data-flag="@X" onclick="openSidebar('68')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\97_Experimental Overseer.png" id="97" data-flag="@X" onclick="openSidebar('97')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\129_Eruption of Flesh.png" id="129" data-flag="@X" onclick="openSidebar('129')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\164_Anabolic Infusion.png" id="164" data-flag="@X" onclick="openSidebar('164')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\4_Aspect of Exaptation.png" id="4" data-flag="@X" onclick="openSidebar('4')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\69_Security Failsafe.png" id="69" data-flag="@X" onclick="openSidebar('69')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\102_Lives Unlived.png" id="102" data-flag="@X" onclick="openSidebar('102')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\131_Field Analyst.png" id="131" data-flag="@X" onclick="openSidebar('131')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\169_Decontamination Unit.png" id="169" data-flag="@X" onclick="openSidebar('169')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\9_Emergency Countdown.png" id="9" data-flag="@X" onclick="openSidebar('9')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\70_Self-Experimenter.png" id="70" data-flag="@X" onclick="openSidebar('70')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\109_Perfected Weapon.png" id="109" data-flag="@X" onclick="openSidebar('109')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\137_Hyperevolution.png" id="137" data-flag="@X" onclick="openSidebar('137')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\173_Fossil Record.png" id="173" data-flag="@X" onclick="openSidebar('173')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\16_Growth-Vat Subject.png" id="16" data-flag="@X" onclick="openSidebar('16')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\71_Sensory Perception.png" id="71" data-flag="@X" onclick="openSidebar('71')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\112_Ren's Grand Design.png" id="112" data-flag="@X" onclick="openSidebar('112')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\153_Taxidermied Hellkite.png" id="153" data-flag="@X" onclick="openSidebar('153')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\176_Fused Amalgam.png" id="176" data-flag="@X" onclick="openSidebar('176')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\34_Spliced Seraph.png" id="34" data-flag="@X" onclick="openSidebar('34')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\73_Sightless Shambler.png" id="73" data-flag="@X" onclick="openSidebar('73')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\114_Savage Extraction.png" id="114" data-flag="@X" onclick="openSidebar('114')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\154_Telomere Charger.png" id="154" data-flag="@X" onclick="openSidebar('154')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\185_Orthogenesis.png" id="185" data-flag="@X" onclick="openSidebar('185')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\36_Sterile Conditions.png" id="36" data-flag="@X" onclick="openSidebar('36')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\74_Sonorous Cetacean.png" id="74" data-flag="@X" onclick="openSidebar('74')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\117_Stunted Runt.png" id="117" data-flag="@X" onclick="openSidebar('117')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\158_Wandering Ganglia.png" id="158" data-flag="@X" onclick="openSidebar('158')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\187_Persistent Sporecap.png" id="187" data-flag="@X" onclick="openSidebar('187')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\7_Crawling Lab-Rat.png" id="7" data-flag="@X" onclick="openSidebar('7')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\42_Baun's Opus.png" id="42" data-flag="@X" onclick="openSidebar('42')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\85_Breach Responder.png" id="85" data-flag="@X" onclick="openSidebar('85')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\122_Acrid Spores.png" id="122" data-flag="@X" onclick="openSidebar('122')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\165_Apex Experiment.png" id="165" data-flag="@X" onclick="openSidebar('165')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\12_Extraction Squad.png" id="12" data-flag="@X" onclick="openSidebar('12')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\43_Caul Tyrant.png" id="43" data-flag="@X" onclick="openSidebar('43')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\86_Cannibal Brood.png" id="86" data-flag="@X" onclick="openSidebar('86')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\123_Atavistic Snapper.png" id="123" data-flag="@X" onclick="openSidebar('123')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\168_Commune with the Flesh.png" id="168" data-flag="@X" onclick="openSidebar('168')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\14_Genome Tester.png" id="14" data-flag="@X" onclick="openSidebar('14')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\44_Chittering Metamorph.png" id="44" data-flag="@X" onclick="openSidebar('44')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\88_Chitinous Filth.png" id="88" data-flag="@X" onclick="openSidebar('88')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\128_Duality of Man.png" id="128" data-flag="@X" onclick="openSidebar('128')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\172_Exponential Ravager.png" id="172" data-flag="@X" onclick="openSidebar('172')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\18_Herd Immunity.png" id="18" data-flag="@X" onclick="openSidebar('18')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\48_Dessicated Apostle.png" id="48" data-flag="@X" onclick="openSidebar('48')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\89_Decompression.png" id="89" data-flag="@X" onclick="openSidebar('89')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\133_Gastric Expansion.png" id="133" data-flag="@X" onclick="openSidebar('133')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\178_Grafted Centipede.png" id="178" data-flag="@X" onclick="openSidebar('178')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\21_Irradiated Inspector.png" id="21" data-flag="@X" onclick="openSidebar('21')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\49_Engineered Lamprey.png" id="49" data-flag="@X" onclick="openSidebar('49')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\91_Dig Through Gore.png" id="91" data-flag="@X" onclick="openSidebar('91')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\135_Hormonal Overdose.png" id="135" data-flag="@X" onclick="openSidebar('135')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\180_Improve Upon Nature.png" id="180" data-flag="@X" onclick="openSidebar('180')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\23_Overwhelmed Patrol.png" id="23" data-flag="@X" onclick="openSidebar('23')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\51_Everchange.png" id="51" data-flag="@X" onclick="openSidebar('51')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\95_Excarnate.png" id="95" data-flag="@X" onclick="openSidebar('95')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\136_Host Vessel.png" id="136" data-flag="@X" onclick="openSidebar('136')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\181_Meltdown Responder.png" id="181" data-flag="@X" onclick="openSidebar('181')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\27_Quality Control.png" id="27" data-flag="@X" onclick="openSidebar('27')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\56_Hardwired Subject.png" id="56" data-flag="@X" onclick="openSidebar('56')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\98_Frantic Disembowelment.png" id="98" data-flag="@X" onclick="openSidebar('98')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\142_Many Hands.png" id="142" data-flag="@X" onclick="openSidebar('142')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\182_Mycoid Marrowsucker.png" id="182" data-flag="@X" onclick="openSidebar('182')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\28_Quarantine Breach.png" id="28" data-flag="@X" onclick="openSidebar('28')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\57_Iron Lung.png" id="57" data-flag="@X" onclick="openSidebar('57')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\105_Mycoid Hive.png" id="105" data-flag="@X" onclick="openSidebar('105')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\143_Medulla Thrasher.png" id="143" data-flag="@X" onclick="openSidebar('143')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\184_Not Yet Dead.png" id="184" data-flag="@X" onclick="openSidebar('184')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\31_Security Personnel.png" id="31" data-flag="@X" onclick="openSidebar('31')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\58_March of Evolution.png" id="58" data-flag="@X" onclick="openSidebar('58')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\106_New Flesh.png" id="106" data-flag="@X" onclick="openSidebar('106')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\145_Prototype Prosthetic.png" id="145" data-flag="@X" onclick="openSidebar('145')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\188_Phytosymbiont.png" id="188" data-flag="@X" onclick="openSidebar('188')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\32_Silent Observation.png" id="32" data-flag="@X" onclick="openSidebar('32')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\59_Membranous Maiden.png" id="59" data-flag="@X" onclick="openSidebar('59')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\108_Penitent Gorger.png" id="108" data-flag="@X" onclick="openSidebar('108')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\146_Puncture Fiend.png" id="146" data-flag="@X" onclick="openSidebar('146')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\189_Planes Beyond.png" id="189" data-flag="@X" onclick="openSidebar('189')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\33_Sinuous Supplicant.png" id="33" data-flag="@X" onclick="openSidebar('33')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\65_Overcomplicate.png" id="65" data-flag="@X" onclick="openSidebar('65')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\113_Rupture Fiend.png" id="113" data-flag="@X" onclick="openSidebar('113')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\150_Show of Strength.png" id="150" data-flag="@X" onclick="openSidebar('150')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\197_Synthetic Hulk.png" id="197" data-flag="@X" onclick="openSidebar('197')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\39_Synthetic Limb.png" id="39" data-flag="@X" onclick="openSidebar('39')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\75_Specimen Capture.png" id="75" data-flag="@X" onclick="openSidebar('75')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\119_Vestige of Humanity.png" id="119" data-flag="@X" onclick="openSidebar('119')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\155_Tissue Harvesting.png" id="155" data-flag="@X" onclick="openSidebar('155')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\198_Vascular Burst.png" id="198" data-flag="@X" onclick="openSidebar('198')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\41_Under the Knife.png" id="41" data-flag="@X" onclick="openSidebar('41')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\81_Vivisection.png" id="81" data-flag="@X" onclick="openSidebar('81')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\120_Viral Progessor.png" id="120" data-flag="@X" onclick="openSidebar('120')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\161_Yawning Maw.png" id="161" data-flag="@X" onclick="openSidebar('161')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\200_Writhing Meat.png" id="200" data-flag="@X" onclick="openSidebar('200')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\5_Brutish Bivalve.png" id="5" data-flag="@X" onclick="openSidebar('5')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\45_Cranial Restructuring.png" id="45" data-flag="@X" onclick="openSidebar('45')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\82_Ardent Experimenter.png" id="82" data-flag="@X" onclick="openSidebar('82')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\124_Autopsy.png" id="124" data-flag="@X" onclick="openSidebar('124')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\163_Allele Grafter.png" id="163" data-flag="@X" onclick="openSidebar('163')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\6_Chitinous Exoskeleton.png" id="6" data-flag="@X" onclick="openSidebar('6')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\46_Critical Analysis.png" id="46" data-flag="@X" onclick="openSidebar('46')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\83_Artful Dissection.png" id="83" data-flag="@X" onclick="openSidebar('83')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\125_Burning Viscera.png" id="125" data-flag="@X" onclick="openSidebar('125')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\166_Basal Chiasm.png" id="166" data-flag="@X" onclick="openSidebar('166')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\8_Decontaminate.png" id="8" data-flag="@X" onclick="openSidebar('8')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\47_Cystic Piper.png" id="47" data-flag="@X" onclick="openSidebar('47')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\84_Augmented Specimen.png" id="84" data-flag="@X" onclick="openSidebar('84')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\127_Crisis Response.png" id="127" data-flag="@X" onclick="openSidebar('127')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\167_Bifurcated Behemoth.png" id="167" data-flag="@X" onclick="openSidebar('167')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\10_Escaped Experiment.png" id="10" data-flag="@X" onclick="openSidebar('10')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\50_Enhanced Skeleton.png" id="50" data-flag="@X" onclick="openSidebar('50')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\87_Careless Researcher.png" id="87" data-flag="@X" onclick="openSidebar('87')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\130_Facility Breach.png" id="130" data-flag="@X" onclick="openSidebar('130')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\170_Disentangle.png" id="170" data-flag="@X" onclick="openSidebar('170')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\11_Experimental Collapse.png" id="11" data-flag="@X" onclick="openSidebar('11')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\52_Failed Experiment.png" id="52" data-flag="@X" onclick="openSidebar('52')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\92_Empty Husk.png" id="92" data-flag="@X" onclick="openSidebar('92')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\132_Flayed Prodigy.png" id="132" data-flag="@X" onclick="openSidebar('132')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\171_Durable Host.png" id="171" data-flag="@X" onclick="openSidebar('171')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\13_Fatalistic Escapee.png" id="13" data-flag="@X" onclick="openSidebar('13')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\53_Feral Remnants.png" id="53" data-flag="@X" onclick="openSidebar('53')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\93_Enhanced Carapace.png" id="93" data-flag="@X" onclick="openSidebar('93')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\134_Grim Parazoan.png" id="134" data-flag="@X" onclick="openSidebar('134')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\174_Fruiting Body.png" id="174" data-flag="@X" onclick="openSidebar('174')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\15_Gnarled Lichenthrope.png" id="15" data-flag="@X" onclick="openSidebar('15')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\54_Gruesome Surgery.png" id="54" data-flag="@X" onclick="openSidebar('54')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\94_Error Threshold.png" id="94" data-flag="@X" onclick="openSidebar('94')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\138_Infected Insurrectionist.png" id="138" data-flag="@X" onclick="openSidebar('138')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\175_Fungal Growth.png" id="175" data-flag="@X" onclick="openSidebar('175')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\17_Hazard Researcher.png" id="17" data-flag="@X" onclick="openSidebar('17')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\55_Hapless Hybrid.png" id="55" data-flag="@X" onclick="openSidebar('55')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\96_Expendable Captive.png" id="96" data-flag="@X" onclick="openSidebar('96')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\139_Intercostal Abomination.png" id="139" data-flag="@X" onclick="openSidebar('139')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\177_Genetic Waste.png" id="177" data-flag="@X" onclick="openSidebar('177')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\19_Impassive Observer.png" id="19" data-flag="@X" onclick="openSidebar('19')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\60_Mire in Mucus.png" id="60" data-flag="@X" onclick="openSidebar('60')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\99_Harvest for Parts.png" id="99" data-flag="@X" onclick="openSidebar('99')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\140_Lymphatic Burst.png" id="140" data-flag="@X" onclick="openSidebar('140')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\179_Hydroponic Spurt.png" id="179" data-flag="@X" onclick="openSidebar('179')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\20_Invasive Augmentation.png" id="20" data-flag="@X" onclick="openSidebar('20')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\61_Miserable Hybrid.png" id="61" data-flag="@X" onclick="openSidebar('61')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\100_Heartbeat in the Brain.png" id="100" data-flag="@X" onclick="openSidebar('100')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\141_Malingering Brute.png" id="141" data-flag="@X" onclick="openSidebar('141')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\183_Mycoid Progenitor.png" id="183" data-flag="@X" onclick="openSidebar('183')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\22_Lance Open.png" id="22" data-flag="@X" onclick="openSidebar('22')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\62_Moxilus Hulk.png" id="62" data-flag="@X" onclick="openSidebar('62')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\101_Larval Hybrid.png" id="101" data-flag="@X" onclick="openSidebar('101')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\144_Meltdown Klaxon.png" id="144" data-flag="@X" onclick="openSidebar('144')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\186_Parasitic Urge.png" id="186" data-flag="@X" onclick="openSidebar('186')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\24_Passive Broodsire.png" id="24" data-flag="@X" onclick="openSidebar('24')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\63_Obsessive Grafter.png" id="63" data-flag="@X" onclick="openSidebar('63')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\103_Mind Flense.png" id="103" data-flag="@X" onclick="openSidebar('103')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\147_Radical Restructuring.png" id="147" data-flag="@X" onclick="openSidebar('147')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\190_Run Afoul.png" id="190" data-flag="@X" onclick="openSidebar('190')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\25_Prison Break.png" id="25" data-flag="@X" onclick="openSidebar('25')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\64_Ocular Enhancement.png" id="64" data-flag="@X" onclick="openSidebar('64')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\107_Ocular Abscess.png" id="107" data-flag="@X" onclick="openSidebar('107')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\148_Rampaging Prototype.png" id="148" data-flag="@X" onclick="openSidebar('148')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\191_Shambling Nest.png" id="191" data-flag="@X" onclick="openSidebar('191')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\26_Proof of Concept.png" id="26" data-flag="@X" onclick="openSidebar('26')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\67_Scuttling Lasher.png" id="67" data-flag="@X" onclick="openSidebar('67')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\110_Perilous Analyst.png" id="110" data-flag="@X" onclick="openSidebar('110')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\149_Sclerotic Stalker.png" id="149" data-flag="@X" onclick="openSidebar('149')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\192_Silken Warning.png" id="192" data-flag="@X" onclick="openSidebar('192')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\29_Recycled Upgrade.png" id="29" data-flag="@X" onclick="openSidebar('29')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\72_Serum Injection.png" id="72" data-flag="@X" onclick="openSidebar('72')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\111_Reconstitute.png" id="111" data-flag="@X" onclick="openSidebar('111')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\151_Sporebone Shambler.png" id="151" data-flag="@X" onclick="openSidebar('151')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\193_Skinless Seer.png" id="193" data-flag="@X" onclick="openSidebar('193')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\30_Screaming Rebirth.png" id="30" data-flag="@X" onclick="openSidebar('30')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\77_Strip Back.png" id="77" data-flag="@X" onclick="openSidebar('77')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\115_Secrets of the Flesh.png" id="115" data-flag="@X" onclick="openSidebar('115')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\152_Taste for Blood.png" id="152" data-flag="@X" onclick="openSidebar('152')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\194_Skittering Predator.png" id="194" data-flag="@X" onclick="openSidebar('194')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\35_Sprawling Mass.png" id="35" data-flag="@X" onclick="openSidebar('35')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\78_Synaptic Tampering.png" id="78" data-flag="@X" onclick="openSidebar('78')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\116_Sinewed Evangel.png" id="116" data-flag="@X" onclick="openSidebar('116')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\156_Twisted Shambler.png" id="156" data-flag="@X" onclick="openSidebar('156')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\195_Specimen Selection.png" id="195" data-flag="@X" onclick="openSidebar('195')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\37_Stretched Aberration.png" id="37" data-flag="@X" onclick="openSidebar('37')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\79_Tyranny and Mutation.png" id="79" data-flag="@X" onclick="openSidebar('79')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\118_Unequal Twins.png" id="118" data-flag="@X" onclick="openSidebar('118')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\157_Voracious Specimen.png" id="157" data-flag="@X" onclick="openSidebar('157')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\196_Synapse Parasite.png" id="196" data-flag="@X" onclick="openSidebar('196')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\38_Sudden Symbiote.png" id="38" data-flag="@X" onclick="openSidebar('38')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\80_Vat Skulker.png" id="80" data-flag="@X" onclick="openSidebar('80')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\121_Writhing Lasher.png" id="121" data-flag="@X" onclick="openSidebar('121')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\160_Wrack the Brain.png" id="160" data-flag="@X" onclick="openSidebar('160')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\201_Xylosynthetic Husk.png" id="201" data-flag="@X" onclick="openSidebar('201')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\231_Vitho Baun, Artisan of Flesh.png" id="231" data-flag="@X" onclick="openSidebar('231')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\229_Ukarth Ren, Vivisector.png" id="229" data-flag="@X" onclick="openSidebar('229')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\228_Udim, Human Plus.png" id="228" data-flag="@X" onclick="openSidebar('228')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\227_Sush Kur, Sporebreeder.png" id="227" data-flag="@X" onclick="openSidebar('227')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\215_It From Beyond.png" id="215" data-flag="@X" onclick="openSidebar('215')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\224_Repeat Subject.png" id="224" data-flag="@X" onclick="openSidebar('224')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\209_Flayed Chorus.png" id="209" data-flag="@X" onclick="openSidebar('209')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\217_Medical Torture.png" id="217" data-flag="@X" onclick="openSidebar('217')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\203_Brutal Fusion.png" id="203" data-flag="@X" onclick="openSidebar('203')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\226_Subject Selection.png" id="226" data-flag="@X" onclick="openSidebar('226')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\210_Grafted Glider.png" id="210" data-flag="@X" onclick="openSidebar('210')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\213_Hyperstasis.png" id="213" data-flag="@X" onclick="openSidebar('213')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\220_Patient Zero.png" id="220" data-flag="@X" onclick="openSidebar('220')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\205_Containment Pod.png" id="205" data-flag="@X" onclick="openSidebar('205')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\219_Old Boneless.png" id="219" data-flag="@X" onclick="openSidebar('219')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\206_Emergence Beacon.png" id="206" data-flag="@X" onclick="openSidebar('206')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\207_Entity One.png" id="207" data-flag="@X" onclick="openSidebar('207')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\222_Project Halcyon.png" id="222" data-flag="@X" onclick="openSidebar('222')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\216_Kuth Von, Hypergeneticist.png" id="216" data-flag="@X" onclick="openSidebar('216')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\218_Nemesis, Imperfect Form.png" id="218" data-flag="@X" onclick="openSidebar('218')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\212_Hashua, Security Chief.png" id="212" data-flag="@X" onclick="openSidebar('212')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\208_Ethical Violation.png" id="208" data-flag="@X" onclick="openSidebar('208')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\221_Project Gamal-III.png" id="221" data-flag="@X" onclick="openSidebar('221')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\225_Specimen Alpha.png" id="225" data-flag="@X" onclick="openSidebar('225')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\202_Amniotic Chamber.png" id="202" data-flag="@X" onclick="openSidebar('202')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\204_Cold Slab.png" id="204" data-flag="@X" onclick="openSidebar('204')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\223_Reassembled Semblance.png" id="223" data-flag="@X" onclick="openSidebar('223')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\211_Greater Endomorph.png" id="211" data-flag="@X" onclick="openSidebar('211')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\214_Incubation Vat.png" id="214" data-flag="@X" onclick="openSidebar('214')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\230_Unstable Outcast.png" id="230" data-flag="@X" onclick="openSidebar('230')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\234_Forbidden Catalyst.png" id="234" data-flag="@X" onclick="openSidebar('234')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\235_Hazard Suit.png" id="235" data-flag="@X" onclick="openSidebar('235')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\236_Preservation Jar.png" id="236" data-flag="@X" onclick="openSidebar('236')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\238_Research Notes.png" id="238" data-flag="@X" onclick="openSidebar('238')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\239_Rusted Needle.png" id="239" data-flag="@X" onclick="openSidebar('239')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\1_Test Subject.png" id="1" data-flag="@X" onclick="openSidebar('1')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\232_Bone Saw.png" id="232" data-flag="@X" onclick="openSidebar('232')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\233_Circle of the Tyrants.png" id="233" data-flag="@X" onclick="openSidebar('233')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\237_Prototype Endoskeleton.png" id="237" data-flag="@X" onclick="openSidebar('237')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\240_Specimen Jars.png" id="240" data-flag="@X" onclick="openSidebar('240')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\248_Research Mainframe.png" id="248" data-flag="@X" onclick="openSidebar('248')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\249_Specimen Chamber.png" id="249" data-flag="@X" onclick="openSidebar('249')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\245_Dissection Theater.png" id="245" data-flag="@X" onclick="openSidebar('245')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\252_Waste Recycling.png" id="252" data-flag="@X" onclick="openSidebar('252')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\242_Biology Department.png" id="242" data-flag="@X" onclick="openSidebar('242')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\247_Observation Deck.png" id="247" data-flag="@X" onclick="openSidebar('247')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\244_Dimensional Tank.png" id="244" data-flag="@X" onclick="openSidebar('244')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\246_Fluid Refinery.png" id="246" data-flag="@X" onclick="openSidebar('246')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\250_Stasis Cells.png" id="250" data-flag="@X" onclick="openSidebar('250')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\241_Abandoned Terrarium.png" id="241" data-flag="@X" onclick="openSidebar('241')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\243_Curiosity Gallery.png" id="243" data-flag="@X" onclick="openSidebar('243')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\251_Surgeon's Slab.png" id="251" data-flag="@X" onclick="openSidebar('251')"></div>
-			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\253_Plains.png" id="253" data-flag="@X" onclick="openSidebar('253')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\254_Island.png" id="254" data-flag="@X" onclick="openSidebar('254')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\255_Swamp.png" id="255" data-flag="@X" onclick="openSidebar('255')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\256_Mountain.png" id="256" data-flag="@X" onclick="openSidebar('256')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\257_Forest.png" id="257" data-flag="@X" onclick="openSidebar('257')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\1t_Survivor.png" id="1t" data-flag="@X" onclick="openSidebar('1t')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\2t_Germ.png" id="2t" data-flag="@X" onclick="openSidebar('2t')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\3t_Fungus Insect Mutant.png" id="3t" data-flag="@X" onclick="openSidebar('3t')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\4t_Human Horror.png" id="4t" data-flag="@X" onclick="openSidebar('4t')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\5t_Human Splinter.png" id="5t" data-flag="@X" onclick="openSidebar('5t')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\6t_Mutant.png" id="6t" data-flag="@X" onclick="openSidebar('6t')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\7t_Diverge.png" id="7t" data-flag="@X" onclick="openSidebar('7t')"></div>
-			<div class="container"><img alt="sets\XSK-files\img\8t_XSK Draft Archetypes.png" id="8t" data-flag="@X" onclick="openSidebar('8t')"></div>
-			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
-			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+				<div class="container"><img alt="sets\XSK-files\img\40_Transhumanism.png" id="40_Transhumanism" data-flag="@X" onclick="openSidebar('40_Transhumanism',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\76_Stolen Spark.png" id="76_Stolen Spark" data-flag="@X" onclick="openSidebar('76_Stolen Spark',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\104_More Human Than Human.png" id="104_More Human Than Human" data-flag="@X" onclick="openSidebar('104_More Human Than Human',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\159_Warp Vision.png" id="159_Warp Vision" data-flag="@X" onclick="openSidebar('159_Warp Vision',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\199_War Nerve.png" id="199_War Nerve" data-flag="@X" onclick="openSidebar('199_War Nerve',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\2_Advanced Genomics.png" id="2_Advanced Genomics" data-flag="@X" onclick="openSidebar('2_Advanced Genomics',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\66_Scientific Method.png" id="66_Scientific Method" data-flag="@X" onclick="openSidebar('66_Scientific Method',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\90_Devourer of Flesh.png" id="90_Devourer of Flesh" data-flag="@X" onclick="openSidebar('90_Devourer of Flesh',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\126_Cephalic Monstrosity.png" id="126_Cephalic Monstrosity" data-flag="@X" onclick="openSidebar('126_Cephalic Monstrosity',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\162_Aleph, Mutant Primus.png" id="162_Aleph, Mutant Primus" data-flag="@X" onclick="openSidebar('162_Aleph, Mutant Primus',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\3_Alpha's Awakening.png" id="3_Alphas Awakening" data-flag="@X" onclick="openSidebar('3_Alphas Awakening',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\68_Secrets of Biology.png" id="68_Secrets of Biology" data-flag="@X" onclick="openSidebar('68_Secrets of Biology',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\97_Experimental Overseer.png" id="97_Experimental Overseer" data-flag="@X" onclick="openSidebar('97_Experimental Overseer',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\129_Eruption of Flesh.png" id="129_Eruption of Flesh" data-flag="@X" onclick="openSidebar('129_Eruption of Flesh',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\164_Anabolic Infusion.png" id="164_Anabolic Infusion" data-flag="@X" onclick="openSidebar('164_Anabolic Infusion',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\4_Aspect of Exaptation.png" id="4_Aspect of Exaptation" data-flag="@X" onclick="openSidebar('4_Aspect of Exaptation',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\69_Security Failsafe.png" id="69_Security Failsafe" data-flag="@X" onclick="openSidebar('69_Security Failsafe',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\102_Lives Unlived.png" id="102_Lives Unlived" data-flag="@X" onclick="openSidebar('102_Lives Unlived',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\131_Field Analyst.png" id="131_Field Analyst" data-flag="@X" onclick="openSidebar('131_Field Analyst',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\169_Decontamination Unit.png" id="169_Decontamination Unit" data-flag="@X" onclick="openSidebar('169_Decontamination Unit',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\9_Emergency Countdown.png" id="9_Emergency Countdown" data-flag="@X" onclick="openSidebar('9_Emergency Countdown',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\70_Self-Experimenter.png" id="70_Self-Experimenter" data-flag="@X" onclick="openSidebar('70_Self-Experimenter',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\109_Perfected Weapon.png" id="109_Perfected Weapon" data-flag="@X" onclick="openSidebar('109_Perfected Weapon',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\137_Hyperevolution.png" id="137_Hyperevolution" data-flag="@X" onclick="openSidebar('137_Hyperevolution',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\173_Fossil Record.png" id="173_Fossil Record" data-flag="@X" onclick="openSidebar('173_Fossil Record',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\16_Growth-Vat Subject.png" id="16_Growth-Vat Subject" data-flag="@X" onclick="openSidebar('16_Growth-Vat Subject',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\71_Sensory Perception.png" id="71_Sensory Perception" data-flag="@X" onclick="openSidebar('71_Sensory Perception',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\112_Ren's Grand Design.png" id="112_Rens Grand Design" data-flag="@X" onclick="openSidebar('112_Rens Grand Design',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\153_Taxidermied Hellkite.png" id="153_Taxidermied Hellkite" data-flag="@X" onclick="openSidebar('153_Taxidermied Hellkite',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\176_Fused Amalgam.png" id="176_Fused Amalgam" data-flag="@X" onclick="openSidebar('176_Fused Amalgam',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\34_Spliced Seraph.png" id="34_Spliced Seraph" data-flag="@X" onclick="openSidebar('34_Spliced Seraph',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\73_Sightless Shambler.png" id="73_Sightless Shambler" data-flag="@X" onclick="openSidebar('73_Sightless Shambler',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\114_Savage Extraction.png" id="114_Savage Extraction" data-flag="@X" onclick="openSidebar('114_Savage Extraction',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\154_Telomere Charger.png" id="154_Telomere Charger" data-flag="@X" onclick="openSidebar('154_Telomere Charger',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\185_Orthogenesis.png" id="185_Orthogenesis" data-flag="@X" onclick="openSidebar('185_Orthogenesis',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\36_Sterile Conditions.png" id="36_Sterile Conditions" data-flag="@X" onclick="openSidebar('36_Sterile Conditions',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\74_Sonorous Cetacean.png" id="74_Sonorous Cetacean" data-flag="@X" onclick="openSidebar('74_Sonorous Cetacean',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\117_Stunted Runt.png" id="117_Stunted Runt" data-flag="@X" onclick="openSidebar('117_Stunted Runt',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\158_Wandering Ganglia.png" id="158_Wandering Ganglia" data-flag="@X" onclick="openSidebar('158_Wandering Ganglia',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\187_Persistent Sporecap.png" id="187_Persistent Sporecap" data-flag="@X" onclick="openSidebar('187_Persistent Sporecap',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\7_Crawling Lab-Rat.png" id="7_Crawling Lab-Rat" data-flag="@X" onclick="openSidebar('7_Crawling Lab-Rat',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\42_Baun's Opus.png" id="42_Bauns Opus" data-flag="@X" onclick="openSidebar('42_Bauns Opus',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\85_Breach Responder.png" id="85_Breach Responder" data-flag="@X" onclick="openSidebar('85_Breach Responder',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\122_Acrid Spores.png" id="122_Acrid Spores" data-flag="@X" onclick="openSidebar('122_Acrid Spores',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\165_Apex Experiment.png" id="165_Apex Experiment" data-flag="@X" onclick="openSidebar('165_Apex Experiment',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\12_Extraction Squad.png" id="12_Extraction Squad" data-flag="@X" onclick="openSidebar('12_Extraction Squad',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\43_Caul Tyrant.png" id="43_Caul Tyrant" data-flag="@X" onclick="openSidebar('43_Caul Tyrant',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\86_Cannibal Brood.png" id="86_Cannibal Brood" data-flag="@X" onclick="openSidebar('86_Cannibal Brood',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\123_Atavistic Snapper.png" id="123_Atavistic Snapper" data-flag="@X" onclick="openSidebar('123_Atavistic Snapper',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\168_Commune with the Flesh.png" id="168_Commune with the Flesh" data-flag="@X" onclick="openSidebar('168_Commune with the Flesh',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\14_Genome Tester.png" id="14_Genome Tester" data-flag="@X" onclick="openSidebar('14_Genome Tester',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\44_Chittering Metamorph.png" id="44_Chittering Metamorph" data-flag="@X" onclick="openSidebar('44_Chittering Metamorph',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\88_Chitinous Filth.png" id="88_Chitinous Filth" data-flag="@X" onclick="openSidebar('88_Chitinous Filth',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\128_Duality of Man.png" id="128_Duality of Man" data-flag="@X" onclick="openSidebar('128_Duality of Man',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\172_Exponential Ravager.png" id="172_Exponential Ravager" data-flag="@X" onclick="openSidebar('172_Exponential Ravager',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\18_Herd Immunity.png" id="18_Herd Immunity" data-flag="@X" onclick="openSidebar('18_Herd Immunity',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\48_Dessicated Apostle.png" id="48_Dessicated Apostle" data-flag="@X" onclick="openSidebar('48_Dessicated Apostle',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\89_Decompression.png" id="89_Decompression" data-flag="@X" onclick="openSidebar('89_Decompression',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\133_Gastric Expansion.png" id="133_Gastric Expansion" data-flag="@X" onclick="openSidebar('133_Gastric Expansion',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\178_Grafted Centipede.png" id="178_Grafted Centipede" data-flag="@X" onclick="openSidebar('178_Grafted Centipede',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\21_Irradiated Inspector.png" id="21_Irradiated Inspector" data-flag="@X" onclick="openSidebar('21_Irradiated Inspector',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\49_Engineered Lamprey.png" id="49_Engineered Lamprey" data-flag="@X" onclick="openSidebar('49_Engineered Lamprey',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\91_Dig Through Gore.png" id="91_Dig Through Gore" data-flag="@X" onclick="openSidebar('91_Dig Through Gore',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\135_Hormonal Overdose.png" id="135_Hormonal Overdose" data-flag="@X" onclick="openSidebar('135_Hormonal Overdose',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\180_Improve Upon Nature.png" id="180_Improve Upon Nature" data-flag="@X" onclick="openSidebar('180_Improve Upon Nature',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\23_Overwhelmed Patrol.png" id="23_Overwhelmed Patrol" data-flag="@X" onclick="openSidebar('23_Overwhelmed Patrol',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\51_Everchange.png" id="51_Everchange" data-flag="@X" onclick="openSidebar('51_Everchange',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\95_Excarnate.png" id="95_Excarnate" data-flag="@X" onclick="openSidebar('95_Excarnate',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\136_Host Vessel.png" id="136_Host Vessel" data-flag="@X" onclick="openSidebar('136_Host Vessel',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\181_Meltdown Responder.png" id="181_Meltdown Responder" data-flag="@X" onclick="openSidebar('181_Meltdown Responder',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\27_Quality Control.png" id="27_Quality Control" data-flag="@X" onclick="openSidebar('27_Quality Control',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\56_Hardwired Subject.png" id="56_Hardwired Subject" data-flag="@X" onclick="openSidebar('56_Hardwired Subject',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\98_Frantic Disembowelment.png" id="98_Frantic Disembowelment" data-flag="@X" onclick="openSidebar('98_Frantic Disembowelment',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\142_Many Hands.png" id="142_Many Hands" data-flag="@X" onclick="openSidebar('142_Many Hands',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\182_Mycoid Marrowsucker.png" id="182_Mycoid Marrowsucker" data-flag="@X" onclick="openSidebar('182_Mycoid Marrowsucker',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\28_Quarantine Breach.png" id="28_Quarantine Breach" data-flag="@X" onclick="openSidebar('28_Quarantine Breach',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\57_Iron Lung.png" id="57_Iron Lung" data-flag="@X" onclick="openSidebar('57_Iron Lung',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\105_Mycoid Hive.png" id="105_Mycoid Hive" data-flag="@X" onclick="openSidebar('105_Mycoid Hive',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\143_Medulla Thrasher.png" id="143_Medulla Thrasher" data-flag="@X" onclick="openSidebar('143_Medulla Thrasher',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\184_Not Yet Dead.png" id="184_Not Yet Dead" data-flag="@X" onclick="openSidebar('184_Not Yet Dead',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\31_Security Personnel.png" id="31_Security Personnel" data-flag="@X" onclick="openSidebar('31_Security Personnel',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\58_March of Evolution.png" id="58_March of Evolution" data-flag="@X" onclick="openSidebar('58_March of Evolution',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\106_New Flesh.png" id="106_New Flesh" data-flag="@X" onclick="openSidebar('106_New Flesh',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\145_Prototype Prosthetic.png" id="145_Prototype Prosthetic" data-flag="@X" onclick="openSidebar('145_Prototype Prosthetic',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\188_Phytosymbiont.png" id="188_Phytosymbiont" data-flag="@X" onclick="openSidebar('188_Phytosymbiont',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\32_Silent Observation.png" id="32_Silent Observation" data-flag="@X" onclick="openSidebar('32_Silent Observation',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\59_Membranous Maiden.png" id="59_Membranous Maiden" data-flag="@X" onclick="openSidebar('59_Membranous Maiden',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\108_Penitent Gorger.png" id="108_Penitent Gorger" data-flag="@X" onclick="openSidebar('108_Penitent Gorger',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\146_Puncture Fiend.png" id="146_Puncture Fiend" data-flag="@X" onclick="openSidebar('146_Puncture Fiend',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\189_Planes Beyond.png" id="189_Planes Beyond" data-flag="@X" onclick="openSidebar('189_Planes Beyond',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\33_Sinuous Supplicant.png" id="33_Sinuous Supplicant" data-flag="@X" onclick="openSidebar('33_Sinuous Supplicant',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\65_Overcomplicate.png" id="65_Overcomplicate" data-flag="@X" onclick="openSidebar('65_Overcomplicate',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\113_Rupture Fiend.png" id="113_Rupture Fiend" data-flag="@X" onclick="openSidebar('113_Rupture Fiend',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\150_Show of Strength.png" id="150_Show of Strength" data-flag="@X" onclick="openSidebar('150_Show of Strength',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\197_Synthetic Hulk.png" id="197_Synthetic Hulk" data-flag="@X" onclick="openSidebar('197_Synthetic Hulk',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\39_Synthetic Limb.png" id="39_Synthetic Limb" data-flag="@X" onclick="openSidebar('39_Synthetic Limb',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\75_Specimen Capture.png" id="75_Specimen Capture" data-flag="@X" onclick="openSidebar('75_Specimen Capture',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\119_Vestige of Humanity.png" id="119_Vestige of Humanity" data-flag="@X" onclick="openSidebar('119_Vestige of Humanity',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\155_Tissue Harvesting.png" id="155_Tissue Harvesting" data-flag="@X" onclick="openSidebar('155_Tissue Harvesting',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\198_Vascular Burst.png" id="198_Vascular Burst" data-flag="@X" onclick="openSidebar('198_Vascular Burst',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\41_Under the Knife.png" id="41_Under the Knife" data-flag="@X" onclick="openSidebar('41_Under the Knife',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\81_Vivisection.png" id="81_Vivisection" data-flag="@X" onclick="openSidebar('81_Vivisection',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\120_Viral Progessor.png" id="120_Viral Progessor" data-flag="@X" onclick="openSidebar('120_Viral Progessor',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\161_Yawning Maw.png" id="161_Yawning Maw" data-flag="@X" onclick="openSidebar('161_Yawning Maw',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\200_Writhing Meat.png" id="200_Writhing Meat" data-flag="@X" onclick="openSidebar('200_Writhing Meat',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\5_Brutish Bivalve.png" id="5_Brutish Bivalve" data-flag="@X" onclick="openSidebar('5_Brutish Bivalve',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\45_Cranial Restructuring.png" id="45_Cranial Restructuring" data-flag="@X" onclick="openSidebar('45_Cranial Restructuring',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\82_Ardent Experimenter.png" id="82_Ardent Experimenter" data-flag="@X" onclick="openSidebar('82_Ardent Experimenter',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\124_Autopsy.png" id="124_Autopsy" data-flag="@X" onclick="openSidebar('124_Autopsy',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\163_Allele Grafter.png" id="163_Allele Grafter" data-flag="@X" onclick="openSidebar('163_Allele Grafter',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\6_Chitinous Exoskeleton.png" id="6_Chitinous Exoskeleton" data-flag="@X" onclick="openSidebar('6_Chitinous Exoskeleton',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\46_Critical Analysis.png" id="46_Critical Analysis" data-flag="@X" onclick="openSidebar('46_Critical Analysis',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\83_Artful Dissection.png" id="83_Artful Dissection" data-flag="@X" onclick="openSidebar('83_Artful Dissection',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\125_Burning Viscera.png" id="125_Burning Viscera" data-flag="@X" onclick="openSidebar('125_Burning Viscera',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\166_Basal Chiasm.png" id="166_Basal Chiasm" data-flag="@X" onclick="openSidebar('166_Basal Chiasm',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\8_Decontaminate.png" id="8_Decontaminate" data-flag="@X" onclick="openSidebar('8_Decontaminate',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\47_Cystic Piper.png" id="47_Cystic Piper" data-flag="@X" onclick="openSidebar('47_Cystic Piper',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\84_Augmented Specimen.png" id="84_Augmented Specimen" data-flag="@X" onclick="openSidebar('84_Augmented Specimen',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\127_Crisis Response.png" id="127_Crisis Response" data-flag="@X" onclick="openSidebar('127_Crisis Response',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\167_Bifurcated Behemoth.png" id="167_Bifurcated Behemoth" data-flag="@X" onclick="openSidebar('167_Bifurcated Behemoth',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\10_Escaped Experiment.png" id="10_Escaped Experiment" data-flag="@X" onclick="openSidebar('10_Escaped Experiment',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\50_Enhanced Skeleton.png" id="50_Enhanced Skeleton" data-flag="@X" onclick="openSidebar('50_Enhanced Skeleton',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\87_Careless Researcher.png" id="87_Careless Researcher" data-flag="@X" onclick="openSidebar('87_Careless Researcher',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\130_Facility Breach.png" id="130_Facility Breach" data-flag="@X" onclick="openSidebar('130_Facility Breach',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\170_Disentangle.png" id="170_Disentangle" data-flag="@X" onclick="openSidebar('170_Disentangle',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\11_Experimental Collapse.png" id="11_Experimental Collapse" data-flag="@X" onclick="openSidebar('11_Experimental Collapse',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\52_Failed Experiment.png" id="52_Failed Experiment" data-flag="@X" onclick="openSidebar('52_Failed Experiment',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\92_Empty Husk.png" id="92_Empty Husk" data-flag="@X" onclick="openSidebar('92_Empty Husk',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\132_Flayed Prodigy.png" id="132_Flayed Prodigy" data-flag="@X" onclick="openSidebar('132_Flayed Prodigy',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\171_Durable Host.png" id="171_Durable Host" data-flag="@X" onclick="openSidebar('171_Durable Host',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\13_Fatalistic Escapee.png" id="13_Fatalistic Escapee" data-flag="@X" onclick="openSidebar('13_Fatalistic Escapee',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\53_Feral Remnants.png" id="53_Feral Remnants" data-flag="@X" onclick="openSidebar('53_Feral Remnants',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\93_Enhanced Carapace.png" id="93_Enhanced Carapace" data-flag="@X" onclick="openSidebar('93_Enhanced Carapace',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\134_Grim Parazoan.png" id="134_Grim Parazoan" data-flag="@X" onclick="openSidebar('134_Grim Parazoan',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\174_Fruiting Body.png" id="174_Fruiting Body" data-flag="@X" onclick="openSidebar('174_Fruiting Body',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\15_Gnarled Lichenthrope.png" id="15_Gnarled Lichenthrope" data-flag="@X" onclick="openSidebar('15_Gnarled Lichenthrope',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\54_Gruesome Surgery.png" id="54_Gruesome Surgery" data-flag="@X" onclick="openSidebar('54_Gruesome Surgery',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\94_Error Threshold.png" id="94_Error Threshold" data-flag="@X" onclick="openSidebar('94_Error Threshold',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\138_Infected Insurrectionist.png" id="138_Infected Insurrectionist" data-flag="@X" onclick="openSidebar('138_Infected Insurrectionist',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\175_Fungal Growth.png" id="175_Fungal Growth" data-flag="@X" onclick="openSidebar('175_Fungal Growth',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\17_Hazard Researcher.png" id="17_Hazard Researcher" data-flag="@X" onclick="openSidebar('17_Hazard Researcher',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\55_Hapless Hybrid.png" id="55_Hapless Hybrid" data-flag="@X" onclick="openSidebar('55_Hapless Hybrid',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\96_Expendable Captive.png" id="96_Expendable Captive" data-flag="@X" onclick="openSidebar('96_Expendable Captive',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\139_Intercostal Abomination.png" id="139_Intercostal Abomination" data-flag="@X" onclick="openSidebar('139_Intercostal Abomination',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\177_Genetic Waste.png" id="177_Genetic Waste" data-flag="@X" onclick="openSidebar('177_Genetic Waste',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\19_Impassive Observer.png" id="19_Impassive Observer" data-flag="@X" onclick="openSidebar('19_Impassive Observer',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\60_Mire in Mucus.png" id="60_Mire in Mucus" data-flag="@X" onclick="openSidebar('60_Mire in Mucus',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\99_Harvest for Parts.png" id="99_Harvest for Parts" data-flag="@X" onclick="openSidebar('99_Harvest for Parts',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\140_Lymphatic Burst.png" id="140_Lymphatic Burst" data-flag="@X" onclick="openSidebar('140_Lymphatic Burst',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\179_Hydroponic Spurt.png" id="179_Hydroponic Spurt" data-flag="@X" onclick="openSidebar('179_Hydroponic Spurt',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\20_Invasive Augmentation.png" id="20_Invasive Augmentation" data-flag="@X" onclick="openSidebar('20_Invasive Augmentation',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\61_Miserable Hybrid.png" id="61_Miserable Hybrid" data-flag="@X" onclick="openSidebar('61_Miserable Hybrid',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\100_Heartbeat in the Brain.png" id="100_Heartbeat in the Brain" data-flag="@X" onclick="openSidebar('100_Heartbeat in the Brain',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\141_Malingering Brute.png" id="141_Malingering Brute" data-flag="@X" onclick="openSidebar('141_Malingering Brute',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\183_Mycoid Progenitor.png" id="183_Mycoid Progenitor" data-flag="@X" onclick="openSidebar('183_Mycoid Progenitor',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\22_Lance Open.png" id="22_Lance Open" data-flag="@X" onclick="openSidebar('22_Lance Open',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\62_Moxilus Hulk.png" id="62_Moxilus Hulk" data-flag="@X" onclick="openSidebar('62_Moxilus Hulk',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\101_Larval Hybrid.png" id="101_Larval Hybrid" data-flag="@X" onclick="openSidebar('101_Larval Hybrid',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\144_Meltdown Klaxon.png" id="144_Meltdown Klaxon" data-flag="@X" onclick="openSidebar('144_Meltdown Klaxon',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\186_Parasitic Urge.png" id="186_Parasitic Urge" data-flag="@X" onclick="openSidebar('186_Parasitic Urge',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\24_Passive Broodsire.png" id="24_Passive Broodsire" data-flag="@X" onclick="openSidebar('24_Passive Broodsire',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\63_Obsessive Grafter.png" id="63_Obsessive Grafter" data-flag="@X" onclick="openSidebar('63_Obsessive Grafter',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\103_Mind Flense.png" id="103_Mind Flense" data-flag="@X" onclick="openSidebar('103_Mind Flense',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\147_Radical Restructuring.png" id="147_Radical Restructuring" data-flag="@X" onclick="openSidebar('147_Radical Restructuring',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\190_Run Afoul.png" id="190_Run Afoul" data-flag="@X" onclick="openSidebar('190_Run Afoul',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\25_Prison Break.png" id="25_Prison Break" data-flag="@X" onclick="openSidebar('25_Prison Break',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\64_Ocular Enhancement.png" id="64_Ocular Enhancement" data-flag="@X" onclick="openSidebar('64_Ocular Enhancement',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\107_Ocular Abscess.png" id="107_Ocular Abscess" data-flag="@X" onclick="openSidebar('107_Ocular Abscess',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\148_Rampaging Prototype.png" id="148_Rampaging Prototype" data-flag="@X" onclick="openSidebar('148_Rampaging Prototype',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\191_Shambling Nest.png" id="191_Shambling Nest" data-flag="@X" onclick="openSidebar('191_Shambling Nest',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\26_Proof of Concept.png" id="26_Proof of Concept" data-flag="@X" onclick="openSidebar('26_Proof of Concept',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\67_Scuttling Lasher.png" id="67_Scuttling Lasher" data-flag="@X" onclick="openSidebar('67_Scuttling Lasher',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\110_Perilous Analyst.png" id="110_Perilous Analyst" data-flag="@X" onclick="openSidebar('110_Perilous Analyst',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\149_Sclerotic Stalker.png" id="149_Sclerotic Stalker" data-flag="@X" onclick="openSidebar('149_Sclerotic Stalker',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\192_Silken Warning.png" id="192_Silken Warning" data-flag="@X" onclick="openSidebar('192_Silken Warning',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\29_Recycled Upgrade.png" id="29_Recycled Upgrade" data-flag="@X" onclick="openSidebar('29_Recycled Upgrade',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\72_Serum Injection.png" id="72_Serum Injection" data-flag="@X" onclick="openSidebar('72_Serum Injection',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\111_Reconstitute.png" id="111_Reconstitute" data-flag="@X" onclick="openSidebar('111_Reconstitute',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\151_Sporebone Shambler.png" id="151_Sporebone Shambler" data-flag="@X" onclick="openSidebar('151_Sporebone Shambler',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\193_Skinless Seer.png" id="193_Skinless Seer" data-flag="@X" onclick="openSidebar('193_Skinless Seer',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\30_Screaming Rebirth.png" id="30_Screaming Rebirth" data-flag="@X" onclick="openSidebar('30_Screaming Rebirth',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\77_Strip Back.png" id="77_Strip Back" data-flag="@X" onclick="openSidebar('77_Strip Back',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\115_Secrets of the Flesh.png" id="115_Secrets of the Flesh" data-flag="@X" onclick="openSidebar('115_Secrets of the Flesh',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\152_Taste for Blood.png" id="152_Taste for Blood" data-flag="@X" onclick="openSidebar('152_Taste for Blood',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\194_Skittering Predator.png" id="194_Skittering Predator" data-flag="@X" onclick="openSidebar('194_Skittering Predator',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\35_Sprawling Mass.png" id="35_Sprawling Mass" data-flag="@X" onclick="openSidebar('35_Sprawling Mass',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\78_Synaptic Tampering.png" id="78_Synaptic Tampering" data-flag="@X" onclick="openSidebar('78_Synaptic Tampering',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\116_Sinewed Evangel.png" id="116_Sinewed Evangel" data-flag="@X" onclick="openSidebar('116_Sinewed Evangel',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\156_Twisted Shambler.png" id="156_Twisted Shambler" data-flag="@X" onclick="openSidebar('156_Twisted Shambler',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\195_Specimen Selection.png" id="195_Specimen Selection" data-flag="@X" onclick="openSidebar('195_Specimen Selection',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\37_Stretched Aberration.png" id="37_Stretched Aberration" data-flag="@X" onclick="openSidebar('37_Stretched Aberration',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\79_Tyranny and Mutation.png" id="79_Tyranny and Mutation" data-flag="@X" onclick="openSidebar('79_Tyranny and Mutation',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\118_Unequal Twins.png" id="118_Unequal Twins" data-flag="@X" onclick="openSidebar('118_Unequal Twins',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\157_Voracious Specimen.png" id="157_Voracious Specimen" data-flag="@X" onclick="openSidebar('157_Voracious Specimen',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\196_Synapse Parasite.png" id="196_Synapse Parasite" data-flag="@X" onclick="openSidebar('196_Synapse Parasite',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\38_Sudden Symbiote.png" id="38_Sudden Symbiote" data-flag="@X" onclick="openSidebar('38_Sudden Symbiote',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\80_Vat Skulker.png" id="80_Vat Skulker" data-flag="@X" onclick="openSidebar('80_Vat Skulker',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\121_Writhing Lasher.png" id="121_Writhing Lasher" data-flag="@X" onclick="openSidebar('121_Writhing Lasher',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\160_Wrack the Brain.png" id="160_Wrack the Brain" data-flag="@X" onclick="openSidebar('160_Wrack the Brain',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\201_Xylosynthetic Husk.png" id="201_Xylosynthetic Husk" data-flag="@X" onclick="openSidebar('201_Xylosynthetic Husk',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\231_Vitho Baun, Artisan of Flesh.png" id="231_Vitho Baun, Artisan of Flesh" data-flag="@X" onclick="openSidebar('231_Vitho Baun, Artisan of Flesh',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\229_Ukarth Ren, Vivisector.png" id="229_Ukarth Ren, Vivisector" data-flag="@X" onclick="openSidebar('229_Ukarth Ren, Vivisector',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\228_Udim, Human Plus.png" id="228_Udim, Human Plus" data-flag="@X" onclick="openSidebar('228_Udim, Human Plus',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\227_Sush Kur, Sporebreeder.png" id="227_Sush Kur, Sporebreeder" data-flag="@X" onclick="openSidebar('227_Sush Kur, Sporebreeder',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\215_It From Beyond.png" id="215_It From Beyond" data-flag="@X" onclick="openSidebar('215_It From Beyond',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\224_Repeat Subject.png" id="224_Repeat Subject" data-flag="@X" onclick="openSidebar('224_Repeat Subject',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\209_Flayed Chorus.png" id="209_Flayed Chorus" data-flag="@X" onclick="openSidebar('209_Flayed Chorus',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\217_Medical Torture.png" id="217_Medical Torture" data-flag="@X" onclick="openSidebar('217_Medical Torture',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\203_Brutal Fusion.png" id="203_Brutal Fusion" data-flag="@X" onclick="openSidebar('203_Brutal Fusion',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\226_Subject Selection.png" id="226_Subject Selection" data-flag="@X" onclick="openSidebar('226_Subject Selection',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\210_Grafted Glider.png" id="210_Grafted Glider" data-flag="@X" onclick="openSidebar('210_Grafted Glider',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\213_Hyperstasis.png" id="213_Hyperstasis" data-flag="@X" onclick="openSidebar('213_Hyperstasis',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\220_Patient Zero.png" id="220_Patient Zero" data-flag="@X" onclick="openSidebar('220_Patient Zero',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\205_Containment Pod.png" id="205_Containment Pod" data-flag="@X" onclick="openSidebar('205_Containment Pod',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\219_Old Boneless.png" id="219_Old Boneless" data-flag="@X" onclick="openSidebar('219_Old Boneless',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\206_Emergence Beacon.png" id="206_Emergence Beacon" data-flag="@X" onclick="openSidebar('206_Emergence Beacon',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\207_Entity One.png" id="207_Entity One" data-flag="@X" onclick="openSidebar('207_Entity One',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\222_Project Halcyon.png" id="222_Project Halcyon" data-flag="@X" onclick="openSidebar('222_Project Halcyon',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\216_Kuth Von, Hypergeneticist.png" id="216_Kuth Von, Hypergeneticist" data-flag="@X" onclick="openSidebar('216_Kuth Von, Hypergeneticist',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\218_Nemesis, Imperfect Form.png" id="218_Nemesis, Imperfect Form" data-flag="@X" onclick="openSidebar('218_Nemesis, Imperfect Form',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\212_Hashua, Security Chief.png" id="212_Hashua, Security Chief" data-flag="@X" onclick="openSidebar('212_Hashua, Security Chief',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\208_Ethical Violation.png" id="208_Ethical Violation" data-flag="@X" onclick="openSidebar('208_Ethical Violation',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\221_Project Gamal-III.png" id="221_Project Gamal-III" data-flag="@X" onclick="openSidebar('221_Project Gamal-III',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\225_Specimen Alpha.png" id="225_Specimen Alpha" data-flag="@X" onclick="openSidebar('225_Specimen Alpha',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\202_Amniotic Chamber.png" id="202_Amniotic Chamber" data-flag="@X" onclick="openSidebar('202_Amniotic Chamber',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\204_Cold Slab.png" id="204_Cold Slab" data-flag="@X" onclick="openSidebar('204_Cold Slab',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\223_Reassembled Semblance.png" id="223_Reassembled Semblance" data-flag="@X" onclick="openSidebar('223_Reassembled Semblance',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\211_Greater Endomorph.png" id="211_Greater Endomorph" data-flag="@X" onclick="openSidebar('211_Greater Endomorph',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\214_Incubation Vat.png" id="214_Incubation Vat" data-flag="@X" onclick="openSidebar('214_Incubation Vat',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\230_Unstable Outcast.png" id="230_Unstable Outcast" data-flag="@X" onclick="openSidebar('230_Unstable Outcast',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\234_Forbidden Catalyst.png" id="234_Forbidden Catalyst" data-flag="@X" onclick="openSidebar('234_Forbidden Catalyst',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\235_Hazard Suit.png" id="235_Hazard Suit" data-flag="@X" onclick="openSidebar('235_Hazard Suit',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\236_Preservation Jar.png" id="236_Preservation Jar" data-flag="@X" onclick="openSidebar('236_Preservation Jar',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\238_Research Notes.png" id="238_Research Notes" data-flag="@X" onclick="openSidebar('238_Research Notes',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\239_Rusted Needle.png" id="239_Rusted Needle" data-flag="@X" onclick="openSidebar('239_Rusted Needle',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\1_Test Subject.png" id="1_Test Subject" data-flag="@X" onclick="openSidebar('1_Test Subject',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\232_Bone Saw.png" id="232_Bone Saw" data-flag="@X" onclick="openSidebar('232_Bone Saw',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\233_Circle of the Tyrants.png" id="233_Circle of the Tyrants" data-flag="@X" onclick="openSidebar('233_Circle of the Tyrants',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\237_Prototype Endoskeleton.png" id="237_Prototype Endoskeleton" data-flag="@X" onclick="openSidebar('237_Prototype Endoskeleton',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\240_Specimen Jars.png" id="240_Specimen Jars" data-flag="@X" onclick="openSidebar('240_Specimen Jars',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\248_Research Mainframe.png" id="248_Research Mainframe" data-flag="@X" onclick="openSidebar('248_Research Mainframe',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\249_Specimen Chamber.png" id="249_Specimen Chamber" data-flag="@X" onclick="openSidebar('249_Specimen Chamber',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\245_Dissection Theater.png" id="245_Dissection Theater" data-flag="@X" onclick="openSidebar('245_Dissection Theater',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\252_Waste Recycling.png" id="252_Waste Recycling" data-flag="@X" onclick="openSidebar('252_Waste Recycling',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\242_Biology Department.png" id="242_Biology Department" data-flag="@X" onclick="openSidebar('242_Biology Department',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\247_Observation Deck.png" id="247_Observation Deck" data-flag="@X" onclick="openSidebar('247_Observation Deck',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\244_Dimensional Tank.png" id="244_Dimensional Tank" data-flag="@X" onclick="openSidebar('244_Dimensional Tank',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\246_Fluid Refinery.png" id="246_Fluid Refinery" data-flag="@X" onclick="openSidebar('246_Fluid Refinery',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\250_Stasis Cells.png" id="250_Stasis Cells" data-flag="@X" onclick="openSidebar('250_Stasis Cells',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\241_Abandoned Terrarium.png" id="241_Abandoned Terrarium" data-flag="@X" onclick="openSidebar('241_Abandoned Terrarium',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\243_Curiosity Gallery.png" id="243_Curiosity Gallery" data-flag="@X" onclick="openSidebar('243_Curiosity Gallery',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\251_Surgeon's Slab.png" id="251_Surgeons Slab" data-flag="@X" onclick="openSidebar('251_Surgeons Slab',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\253_Plains.png" id="253_Plains" data-flag="@X" onclick="openSidebar('253_Plains',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\254_Island.png" id="254_Island" data-flag="@X" onclick="openSidebar('254_Island',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\255_Swamp.png" id="255_Swamp" data-flag="@X" onclick="openSidebar('255_Swamp',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\256_Mountain.png" id="256_Mountain" data-flag="@X" onclick="openSidebar('256_Mountain',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\257_Forest.png" id="257_Forest" data-flag="@X" onclick="openSidebar('257_Forest',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\1t_Survivor.png" id="1t_Survivor" data-flag="@X" onclick="openSidebar('1t_Survivor',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\2t_Germ.png" id="2t_Germ" data-flag="@X" onclick="openSidebar('2t_Germ',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\3t_Fungus Insect Mutant.png" id="3t_Fungus Insect Mutant" data-flag="@X" onclick="openSidebar('3t_Fungus Insect Mutant',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\4t_Human Horror.png" id="4t_Human Horror" data-flag="@X" onclick="openSidebar('4t_Human Horror',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\5t_Human Splinter.png" id="5t_Human Splinter" data-flag="@X" onclick="openSidebar('5t_Human Splinter',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\6t_Mutant.png" id="6t_Mutant" data-flag="@X" onclick="openSidebar('6t_Mutant',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\7t_Diverge.png" id="7t_Diverge" data-flag="@X" onclick="openSidebar('7t_Diverge',false)"></div>
+			<div class="container"><img alt="sets\XSK-files\img\8t_XSK Draft Archetypes.png" id="8t_XSK Draft Archetypes" data-flag="@X" onclick="openSidebar('8t_XSK Draft Archetypes',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
 	</div>
 </div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" src="img/er.png">
+			<img id="sidebar_img" class="sidebar-img" src="img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
 		<button class="close-btn" onclick="closeSidebar()"></button>
@@ -631,17 +642,51 @@
 		document.getElementById('sidebar').style.top = height + '%';
 	}
 
+	let horizontal = false;
+
 	function imgFlip(num) {
 		tmp = document.getElementById(num).src;
 		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
 		document.getElementById(num).dataset.alt_src = tmp;
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		if (horizontal && rotated_img.style.display == 'none')
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
 	}
 
-	function openSidebar(id) {
+	function openSidebar(id, h=false) {
+		horizontal = h;
 		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
 		
 		document.getElementById('sidebar').style.display = 'grid';
-		document.getElementById('sidebar_img').src = document.getElementById(id).src;
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+
+		if (horizontal)
+		{
+			rotated_img.src = document.getElementById(id).src;
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
 		if (document.getElementById(id).dataset.alt_src)
 		{
 			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
