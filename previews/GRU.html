@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/GRU-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>GRU visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/GRU-files/logo.png" />
+	<img class="preload-hidden" src="/sets/TYT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/QYR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/XCO-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SSF-files/icon.png" />
+		<img class="preload-hidden" src="/sets/AKI-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MHQ-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ARK-files/icon.png" />
+		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OPH-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CYO-files/icon.png" />
+		<img class="preload-hidden" src="/sets/HVY-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CLG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/OVR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/666-files/icon.png" />
+		<img class="preload-hidden" src="/sets/FBI-files/icon.png" />
+		<img class="preload-hidden" src="/sets/GRU-files/icon.png" />
+		<img class="preload-hidden" src="/sets/KSH-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SPQ-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
+		<img class="preload-hidden" id="bg" src="/sets/GRU-files/bg.png" />
+		
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="TYT"><img src="/sets/TYT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="QYR"><img src="/sets/QYR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="XCO"><img src="/sets/XCO-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SSF"><img src="/sets/SSF-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="AKI"><img src="/sets/AKI-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="MHQ"><img src="/sets/MHQ-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ARK"><img src="/sets/ARK-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="90S"><img src="/sets/90S-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="OPH"><img src="/sets/OPH-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="CYO"><img src="/sets/CYO-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="HVY"><img src="/sets/HVY-files/icon.png"></img></a></div>
+		<div class="icon"><a href="CLG"><img src="/sets/CLG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="OVR"><img src="/sets/OVR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="666"><img src="/sets/666-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="FBI"><img src="/sets/FBI-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="GRU"><img src="/sets/GRU-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="KSH"><img src="/sets/KSH-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SPQ"><img src="/sets/SPQ-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TGS"><img src="/sets/TGS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="XSK"><img src="/sets/XSK-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ELO"><img src="/sets/ELO-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/GRU-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\GRU-files\img\33_Rigann, Thread Cutter.png" id="33_Rigann, Thread Cutter" data-flag="@X" onclick="openSidebar('33_Rigann, Thread Cutter',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\44_Annan, Wry Voyager.png" id="44_Annan, Wry Voyager" data-flag="@X" onclick="openSidebar('44_Annan, Wry Voyager',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\86_Capal Dú, High King.png" id="86_Capal Dú, High King" data-flag="@X" onclick="openSidebar('86_Capal Dú, High King',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\136_Luth, Forge's Fire.png" id="136_Luth, Forges Fire" data-flag="@X" onclick="openSidebar('136_Luth, Forges Fire',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\191_Unell, the Wanderer.png" id="191_Unell, the Wanderer" data-flag="@X" onclick="openSidebar('191_Unell, the Wanderer',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\8_Destiny's End.png" id="8_Destinys End" data-flag="@X" onclick="openSidebar('8_Destinys End',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\42_Across the Sea.png" id="42_Across the Sea" data-flag="@X" onclick="openSidebar('42_Across the Sea',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\87_Chieftan of the Black Horse.png" id="87_Chieftan of the Black Horse" data-flag="@X" onclick="openSidebar('87_Chieftan of the Black Horse',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\120_Balar, the Burning Eye.png" id="120_Balar, the Burning Eye" data-flag="@X" onclick="openSidebar('120_Balar, the Burning Eye',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\159_An-Drim Exemplar.png" id="159_An-Drim Exemplar" data-flag="@X" onclick="openSidebar('159_An-Drim Exemplar',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\11_Fehr Maun Marksman.png" id="11_Fehr Maun Marksman" data-flag="@X" onclick="openSidebar('11_Fehr Maun Marksman',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\47_Bloody Handed Seer.png" id="47_Bloody Handed Seer" data-flag="@X" onclick="openSidebar('47_Bloody Handed Seer',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\88_Ciara, Blood Witch.png" id="88_Ciara, Blood Witch" data-flag="@X" onclick="openSidebar('88_Ciara, Blood Witch',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\135_Inexorable Assault.png" id="135_Inexorable Assault" data-flag="@X" onclick="openSidebar('135_Inexorable Assault',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\164_Deep-Forest Prowler.png" id="164_Deep-Forest Prowler" data-flag="@X" onclick="openSidebar('164_Deep-Forest Prowler',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\18_Knight of Cos Teilo.png" id="18_Knight of Cos Teilo" data-flag="@X" onclick="openSidebar('18_Knight of Cos Teilo',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\60_Oath of Memory.png" id="60_Oath of Memory" data-flag="@X" onclick="openSidebar('60_Oath of Memory',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\89_Ciara's Disciple.png" id="89_Ciaras Disciple" data-flag="@X" onclick="openSidebar('89_Ciaras Disciple',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\139_Make a Break for It.png" id="139_Make a Break for It" data-flag="@X" onclick="openSidebar('139_Make a Break for It',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\175_Journey Home.png" id="175_Journey Home" data-flag="@X" onclick="openSidebar('175_Journey Home',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\23_Oath of Humility.png" id="23_Oath of Humility" data-flag="@X" onclick="openSidebar('23_Oath of Humility',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\62_Otherworldly Dreams.png" id="62_Otherworldly Dreams" data-flag="@X" onclick="openSidebar('62_Otherworldly Dreams',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\90_Cross from Beyond.png" id="90_Cross from Beyond" data-flag="@X" onclick="openSidebar('90_Cross from Beyond',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\144_Oath of Pursuit.png" id="144_Oath of Pursuit" data-flag="@X" onclick="openSidebar('144_Oath of Pursuit',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\176_Life Anew.png" id="176_Life Anew" data-flag="@X" onclick="openSidebar('176_Life Anew',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\31_Quiet Reverence.png" id="31_Quiet Reverence" data-flag="@X" onclick="openSidebar('31_Quiet Reverence',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\68_Rigann's Denial.png" id="68_Riganns Denial" data-flag="@X" onclick="openSidebar('68_Riganns Denial',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\101_Maebh's Ritual.png" id="101_Maebhs Ritual" data-flag="@X" onclick="openSidebar('101_Maebhs Ritual',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\148_Queen of the Si.png" id="148_Queen of the Si" data-flag="@X" onclick="openSidebar('148_Queen of the Si',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\179_March Across Ulaith.png" id="179_March Across Ulaith" data-flag="@X" onclick="openSidebar('179_March Across Ulaith',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\32_Reaver of Tur Aun.png" id="32_Reaver of Tur Aun" data-flag="@X" onclick="openSidebar('32_Reaver of Tur Aun',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\73_Shoreline Sovereign.png" id="73_Shoreline Sovereign" data-flag="@X" onclick="openSidebar('73_Shoreline Sovereign',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\107_Oath of Negation.png" id="107_Oath of Negation" data-flag="@X" onclick="openSidebar('107_Oath of Negation',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\152_Sea's Wrath.png" id="152_Seas Wrath" data-flag="@X" onclick="openSidebar('152_Seas Wrath',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\185_Oath of the Wilds.png" id="185_Oath of the Wilds" data-flag="@X" onclick="openSidebar('185_Oath of the Wilds',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\3_An-Drim Cavalry.png" id="3_An-Drim Cavalry" data-flag="@X" onclick="openSidebar('3_An-Drim Cavalry',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\45_Behind the Veil.png" id="45_Behind the Veil" data-flag="@X" onclick="openSidebar('45_Behind the Veil',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\81_After the Storm.png" id="81_After the Storm" data-flag="@X" onclick="openSidebar('81_After the Storm',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\125_Bog Swine.png" id="125_Bog Swine" data-flag="@X" onclick="openSidebar('125_Bog Swine',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\160_Ar Dacha Stalwart.png" id="160_Ar Dacha Stalwart" data-flag="@X" onclick="openSidebar('160_Ar Dacha Stalwart',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\5_Aspiring Hero.png" id="5_Aspiring Hero" data-flag="@X" onclick="openSidebar('5_Aspiring Hero',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\48_Consult the Oillipheist.png" id="48_Consult the Oillipheist" data-flag="@X" onclick="openSidebar('48_Consult the Oillipheist',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\85_Bloody Handed Cultist.png" id="85_Bloody Handed Cultist" data-flag="@X" onclick="openSidebar('85_Bloody Handed Cultist',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\129_Dolmen of the Si.png" id="129_Dolmen of the Si" data-flag="@X" onclick="openSidebar('129_Dolmen of the Si',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\162_Bull-Rush of Culaigh.png" id="162_Bull-Rush of Culaigh" data-flag="@X" onclick="openSidebar('162_Bull-Rush of Culaigh',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\9_Divine Spear.png" id="9_Divine Spear" data-flag="@X" onclick="openSidebar('9_Divine Spear',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\49_Council of Ravens.png" id="49_Council of Ravens" data-flag="@X" onclick="openSidebar('49_Council of Ravens',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\92_Druid's Sickle.png" id="92_Druids Sickle" data-flag="@X" onclick="openSidebar('92_Druids Sickle',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\131_Duun Cutpurse.png" id="131_Duun Cutpurse" data-flag="@X" onclick="openSidebar('131_Duun Cutpurse',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\172_Inspiring Brigand.png" id="172_Inspiring Brigand" data-flag="@X" onclick="openSidebar('172_Inspiring Brigand',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\12_Fehr Maun Tactician.png" id="12_Fehr Maun Tactician" data-flag="@X" onclick="openSidebar('12_Fehr Maun Tactician',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\52_Devouring Mist.png" id="52_Devouring Mist" data-flag="@X" onclick="openSidebar('52_Devouring Mist',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\96_Invoke the Black Horse.png" id="96_Invoke the Black Horse" data-flag="@X" onclick="openSidebar('96_Invoke the Black Horse',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\137_Luth's Ire.png" id="137_Luths Ire" data-flag="@X" onclick="openSidebar('137_Luths Ire',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\174_Joint Eater.png" id="174_Joint Eater" data-flag="@X" onclick="openSidebar('174_Joint Eater',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\13_Guardian Fenoderee.png" id="13_Guardian Fenoderee" data-flag="@X" onclick="openSidebar('13_Guardian Fenoderee',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\53_Fehr Maun Dredger.png" id="53_Fehr Maun Dredger" data-flag="@X" onclick="openSidebar('53_Fehr Maun Dredger',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\97_Keening Maiden.png" id="97_Keening Maiden" data-flag="@X" onclick="openSidebar('97_Keening Maiden',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\138_Luth's Judgement.png" id="138_Luths Judgement" data-flag="@X" onclick="openSidebar('138_Luths Judgement',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\178_Lurking Dobharchú.png" id="178_Lurking Dobharchú" data-flag="@X" onclick="openSidebar('178_Lurking Dobharchú',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\15_Humble Beginnings.png" id="15_Humble Beginnings" data-flag="@X" onclick="openSidebar('15_Humble Beginnings',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\55_The Great Game.png" id="55_The Great Game" data-flag="@X" onclick="openSidebar('55_The Great Game',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\99_Lost to Time.png" id="99_Lost to Time" data-flag="@X" onclick="openSidebar('99_Lost to Time',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\140_Martial Sluagh.png" id="140_Martial Sluagh" data-flag="@X" onclick="openSidebar('140_Martial Sluagh',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\183_Oath of Serenity.png" id="183_Oath of Serenity" data-flag="@X" onclick="openSidebar('183_Oath of Serenity',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\19_Legion of Annan.png" id="19_Legion of Annan" data-flag="@X" onclick="openSidebar('19_Legion of Annan',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\57_Lake Guardian.png" id="57_Lake Guardian" data-flag="@X" onclick="openSidebar('57_Lake Guardian',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\100_Luth's Favored.png" id="100_Luths Favored" data-flag="@X" onclick="openSidebar('100_Luths Favored',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\143_Oath of Destruction.png" id="143_Oath of Destruction" data-flag="@X" onclick="openSidebar('143_Oath of Destruction',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\184_Oath of Sorrows.png" id="184_Oath of Sorrows" data-flag="@X" onclick="openSidebar('184_Oath of Sorrows',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\20_Luth's Prodigy.png" id="20_Luths Prodigy" data-flag="@X" onclick="openSidebar('20_Luths Prodigy',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\64_Ponder the Ogham.png" id="64_Ponder the Ogham" data-flag="@X" onclick="openSidebar('64_Ponder the Ogham',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\109_Oath of Resurrection.png" id="109_Oath of Resurrection" data-flag="@X" onclick="openSidebar('109_Oath of Resurrection',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\146_Padraig, Bear of Tur Aun.png" id="146_Padraig, Bear of Tur Aun" data-flag="@X" onclick="openSidebar('146_Padraig, Bear of Tur Aun',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\188_Relentless Clash.png" id="188_Relentless Clash" data-flag="@X" onclick="openSidebar('188_Relentless Clash',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\26_Oath of Silence.png" id="26_Oath of Silence" data-flag="@X" onclick="openSidebar('26_Oath of Silence',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\67_Raven-Caller.png" id="67_Raven-Caller" data-flag="@X" onclick="openSidebar('67_Raven-Caller',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\110_Oath of Storytelling.png" id="110_Oath of Storytelling" data-flag="@X" onclick="openSidebar('110_Oath of Storytelling',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\147_Patience of Annan.png" id="147_Patience of Annan" data-flag="@X" onclick="openSidebar('147_Patience of Annan',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\189_Roving Bard.png" id="189_Roving Bard" data-flag="@X" onclick="openSidebar('189_Roving Bard',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\28_Priest of Annan.png" id="28_Priest of Annan" data-flag="@X" onclick="openSidebar('28_Priest of Annan',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\69_Rigann's Seer.png" id="69_Riganns Seer" data-flag="@X" onclick="openSidebar('69_Riganns Seer',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\114_Rigann's Herald.png" id="114_Riganns Herald" data-flag="@X" onclick="openSidebar('114_Riganns Herald',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\151_Sacred Menhir.png" id="151_Sacred Menhir" data-flag="@X" onclick="openSidebar('151_Sacred Menhir',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\192_Unite the Kingdoms.png" id="192_Unite the Kingdoms" data-flag="@X" onclick="openSidebar('192_Unite the Kingdoms',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\35_Spirit Ring.png" id="35_Spirit Ring" data-flag="@X" onclick="openSidebar('35_Spirit Ring',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\70_Salmon of Wisdom.png" id="70_Salmon of Wisdom" data-flag="@X" onclick="openSidebar('70_Salmon of Wisdom',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\115_Rigann's Scion.png" id="115_Riganns Scion" data-flag="@X" onclick="openSidebar('115_Riganns Scion',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\153_Steed of Annan.png" id="153_Steed of Annan" data-flag="@X" onclick="openSidebar('153_Steed of Annan',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\194_Wandering Raider.png" id="194_Wandering Raider" data-flag="@X" onclick="openSidebar('194_Wandering Raider',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\36_Stormfront.png" id="36_Stormfront" data-flag="@X" onclick="openSidebar('36_Stormfront',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\76_Tur Aun Mystic.png" id="76_Tur Aun Mystic" data-flag="@X" onclick="openSidebar('76_Tur Aun Mystic',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\118_Unstoppable Cateran.png" id="118_Unstoppable Cateran" data-flag="@X" onclick="openSidebar('118_Unstoppable Cateran',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\156_Unell's Charger.png" id="156_Unells Charger" data-flag="@X" onclick="openSidebar('156_Unells Charger',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\195_Wild-Song Chanter.png" id="195_Wild-Song Chanter" data-flag="@X" onclick="openSidebar('195_Wild-Song Chanter',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\41_Youthful Hurler.png" id="41_Youthful Hurler" data-flag="@X" onclick="openSidebar('41_Youthful Hurler',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\78_Wash Downriver.png" id="78_Wash Downriver" data-flag="@X" onclick="openSidebar('78_Wash Downriver',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\119_Warmonger of Duun.png" id="119_Warmonger of Duun" data-flag="@X" onclick="openSidebar('119_Warmonger of Duun',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\157_Unell's Summons.png" id="157_Unells Summons" data-flag="@X" onclick="openSidebar('157_Unells Summons',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\196_Wolf of Usraigh.png" id="196_Wolf of Usraigh" data-flag="@X" onclick="openSidebar('196_Wolf of Usraigh',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\4_Ar Dacha Braggart.png" id="4_Ar Dacha Braggart" data-flag="@X" onclick="openSidebar('4_Ar Dacha Braggart',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\43_An-Drim Tidecaller.png" id="43_An-Drim Tidecaller" data-flag="@X" onclick="openSidebar('43_An-Drim Tidecaller',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\82_An-Drim Brigand.png" id="82_An-Drim Brigand" data-flag="@X" onclick="openSidebar('82_An-Drim Brigand',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\121_Barrow Watcher.png" id="121_Barrow Watcher" data-flag="@X" onclick="openSidebar('121_Barrow Watcher',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\161_Break the Oath.png" id="161_Break the Oath" data-flag="@X" onclick="openSidebar('161_Break the Oath',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\6_Bard of Duun.png" id="6_Bard of Duun" data-flag="@X" onclick="openSidebar('6_Bard of Duun',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\46_Blind Phantasm.png" id="46_Blind Phantasm" data-flag="@X" onclick="openSidebar('46_Blind Phantasm',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\83_Ar Dacha Bloodletter.png" id="83_Ar Dacha Bloodletter" data-flag="@X" onclick="openSidebar('83_Ar Dacha Bloodletter',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\122_Becoming the Hound.png" id="122_Becoming the Hound" data-flag="@X" onclick="openSidebar('122_Becoming the Hound',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\163_Calm Before the Storm.png" id="163_Calm Before the Storm" data-flag="@X" onclick="openSidebar('163_Calm Before the Storm',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\7_Bones of the Past.png" id="7_Bones of the Past" data-flag="@X" onclick="openSidebar('7_Bones of the Past',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\50_Craven Haunter.png" id="50_Craven Haunter" data-flag="@X" onclick="openSidebar('50_Craven Haunter',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\84_Bloody Handed Coven.png" id="84_Bloody Handed Coven" data-flag="@X" onclick="openSidebar('84_Bloody Handed Coven',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\123_Blade of Fehr Maun.png" id="123_Blade of Fehr Maun" data-flag="@X" onclick="openSidebar('123_Blade of Fehr Maun',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\165_Duun Raider.png" id="165_Duun Raider" data-flag="@X" onclick="openSidebar('165_Duun Raider',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\10_Face the Mighty.png" id="10_Face the Mighty" data-flag="@X" onclick="openSidebar('10_Face the Mighty',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\51_Crow's Knowledge.png" id="51_Crows Knowledge" data-flag="@X" onclick="openSidebar('51_Crows Knowledge',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\91_Crow's Feast.png" id="91_Crows Feast" data-flag="@X" onclick="openSidebar('91_Crows Feast',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\124_Bloody Handed Novitiate.png" id="124_Bloody Handed Novitiate" data-flag="@X" onclick="openSidebar('124_Bloody Handed Novitiate',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\166_Fehr Maun Reaver.png" id="166_Fehr Maun Reaver" data-flag="@X" onclick="openSidebar('166_Fehr Maun Reaver',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\14_Hero of Ar Dacha.png" id="14_Hero of Ar Dacha" data-flag="@X" onclick="openSidebar('14_Hero of Ar Dacha',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\54_Fox's Guile.png" id="54_Foxs Guile" data-flag="@X" onclick="openSidebar('54_Foxs Guile',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\93_Etched Epitaph.png" id="93_Etched Epitaph" data-flag="@X" onclick="openSidebar('93_Etched Epitaph',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\126_Brash Upstart.png" id="126_Brash Upstart" data-flag="@X" onclick="openSidebar('126_Brash Upstart',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\167_Foggy Dew.png" id="167_Foggy Dew" data-flag="@X" onclick="openSidebar('167_Foggy Dew',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\16_Ill-Fated Raven.png" id="16_Ill-Fated Raven" data-flag="@X" onclick="openSidebar('16_Ill-Fated Raven',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\56_Honored Raven.png" id="56_Honored Raven" data-flag="@X" onclick="openSidebar('56_Honored Raven',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\94_Feast of Skulls.png" id="94_Feast of Skulls" data-flag="@X" onclick="openSidebar('94_Feast of Skulls',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\127_Canny Swordmaster.png" id="127_Canny Swordmaster" data-flag="@X" onclick="openSidebar('127_Canny Swordmaster',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\168_Handmaid of Cos Teilo.png" id="168_Handmaid of Cos Teilo" data-flag="@X" onclick="openSidebar('168_Handmaid of Cos Teilo',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\17_Keening Psychopomp.png" id="17_Keening Psychopomp" data-flag="@X" onclick="openSidebar('17_Keening Psychopomp',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\58_Marsh Light.png" id="58_Marsh Light" data-flag="@X" onclick="openSidebar('58_Marsh Light',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\95_Hawthorn Witch.png" id="95_Hawthorn Witch" data-flag="@X" onclick="openSidebar('95_Hawthorn Witch',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\128_Coastal Storm.png" id="128_Coastal Storm" data-flag="@X" onclick="openSidebar('128_Coastal Storm',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\169_Hungry Forager.png" id="169_Hungry Forager" data-flag="@X" onclick="openSidebar('169_Hungry Forager',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\21_Menhir's Might.png" id="21_Menhirs Might" data-flag="@X" onclick="openSidebar('21_Menhirs Might',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\59_Northern Storm.png" id="59_Northern Storm" data-flag="@X" onclick="openSidebar('59_Northern Storm',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\98_Loathsome Dullahan.png" id="98_Loathsome Dullahan" data-flag="@X" onclick="openSidebar('98_Loathsome Dullahan',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\130_Dreams of the Black Horse.png" id="130_Dreams of the Black Horse" data-flag="@X" onclick="openSidebar('130_Dreams of the Black Horse',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\170_Impenetrable Oaks.png" id="170_Impenetrable Oaks" data-flag="@X" onclick="openSidebar('170_Impenetrable Oaks',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\22_Noble Savage.png" id="22_Noble Savage" data-flag="@X" onclick="openSidebar('22_Noble Savage',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\61_Oath of Remembrance.png" id="61_Oath of Remembrance" data-flag="@X" onclick="openSidebar('61_Oath of Remembrance',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\102_Midnight Bloom.png" id="102_Midnight Bloom" data-flag="@X" onclick="openSidebar('102_Midnight Bloom',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\132_Fervent Raiders.png" id="132_Fervent Raiders" data-flag="@X" onclick="openSidebar('132_Fervent Raiders',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\171_In the Wild Woods.png" id="171_In the Wild Woods" data-flag="@X" onclick="openSidebar('171_In the Wild Woods',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\24_Oath of Penance.png" id="24_Oath of Penance" data-flag="@X" onclick="openSidebar('24_Oath of Penance',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\63_Otherworldly Protection.png" id="63_Otherworldly Protection" data-flag="@X" onclick="openSidebar('63_Otherworldly Protection',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\103_Monarch of Night.png" id="103_Monarch of Night" data-flag="@X" onclick="openSidebar('103_Monarch of Night',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\133_Frenzy of Battle.png" id="133_Frenzy of Battle" data-flag="@X" onclick="openSidebar('133_Frenzy of Battle',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\173_Into the Barrow Mounds.png" id="173_Into the Barrow Mounds" data-flag="@X" onclick="openSidebar('173_Into the Barrow Mounds',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\25_Oath of Purity.png" id="25_Oath of Purity" data-flag="@X" onclick="openSidebar('25_Oath of Purity',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\65_Prepare a Voyage.png" id="65_Prepare a Voyage" data-flag="@X" onclick="openSidebar('65_Prepare a Voyage',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\104_Mournful Muse.png" id="104_Mournful Muse" data-flag="@X" onclick="openSidebar('104_Mournful Muse',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\134_Hand of the Black Horse.png" id="134_Hand of the Black Horse" data-flag="@X" onclick="openSidebar('134_Hand of the Black Horse',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\177_Lord of the Glens.png" id="177_Lord of the Glens" data-flag="@X" onclick="openSidebar('177_Lord of the Glens',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\27_Placid Cattle.png" id="27_Placid Cattle" data-flag="@X" onclick="openSidebar('27_Placid Cattle',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\66_Punishment of Seantas.png" id="66_Punishment of Seantas" data-flag="@X" onclick="openSidebar('66_Punishment of Seantas',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\105_Night-Wreathed Raider.png" id="105_Night-Wreathed Raider" data-flag="@X" onclick="openSidebar('105_Night-Wreathed Raider',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\141_Night's Herd.png" id="141_Nights Herd" data-flag="@X" onclick="openSidebar('141_Nights Herd',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\180_Moonlight Raid.png" id="180_Moonlight Raid" data-flag="@X" onclick="openSidebar('180_Moonlight Raid',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\29_Proud Stalwart.png" id="29_Proud Stalwart" data-flag="@X" onclick="openSidebar('29_Proud Stalwart',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\71_Scourge of the Seas.png" id="71_Scourge of the Seas" data-flag="@X" onclick="openSidebar('71_Scourge of the Seas',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\106_Night's Edict.png" id="106_Nights Edict" data-flag="@X" onclick="openSidebar('106_Nights Edict',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\142_Oath of Celebration.png" id="142_Oath of Celebration" data-flag="@X" onclick="openSidebar('142_Oath of Celebration',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\181_Nimble Scrambler.png" id="181_Nimble Scrambler" data-flag="@X" onclick="openSidebar('181_Nimble Scrambler',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\30_Puca's Blessing.png" id="30_Pucas Blessing" data-flag="@X" onclick="openSidebar('30_Pucas Blessing',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\72_Shoreline Shrieker.png" id="72_Shoreline Shrieker" data-flag="@X" onclick="openSidebar('72_Shoreline Shrieker',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\108_Oath of Pilgrimage.png" id="108_Oath of Pilgrimage" data-flag="@X" onclick="openSidebar('108_Oath of Pilgrimage',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\145_Otherworld Stalker.png" id="145_Otherworld Stalker" data-flag="@X" onclick="openSidebar('145_Otherworld Stalker',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\182_Oath of Might.png" id="182_Oath of Might" data-flag="@X" onclick="openSidebar('182_Oath of Might',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\34_Si of the Heaths.png" id="34_Si of the Heaths" data-flag="@X" onclick="openSidebar('34_Si of the Heaths',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\74_Sinister Bodach.png" id="74_Sinister Bodach" data-flag="@X" onclick="openSidebar('74_Sinister Bodach',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\111_Oath of Vengeance.png" id="111_Oath of Vengeance" data-flag="@X" onclick="openSidebar('111_Oath of Vengeance',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\149_Rise to the Occasion.png" id="149_Rise to the Occasion" data-flag="@X" onclick="openSidebar('149_Rise to the Occasion',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\186_Ornery Badger.png" id="186_Ornery Badger" data-flag="@X" onclick="openSidebar('186_Ornery Badger',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\37_Take Up the Cause.png" id="37_Take Up the Cause" data-flag="@X" onclick="openSidebar('37_Take Up the Cause',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\75_Teller of Truths.png" id="75_Teller of Truths" data-flag="@X" onclick="openSidebar('75_Teller of Truths',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\112_Plague of Par Holon.png" id="112_Plague of Par Holon" data-flag="@X" onclick="openSidebar('112_Plague of Par Holon',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\150_Roving Galloglas.png" id="150_Roving Galloglas" data-flag="@X" onclick="openSidebar('150_Roving Galloglas',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\187_Reclusive Druid.png" id="187_Reclusive Druid" data-flag="@X" onclick="openSidebar('187_Reclusive Druid',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\38_Towering Paragon.png" id="38_Towering Paragon" data-flag="@X" onclick="openSidebar('38_Towering Paragon',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\77_Unell's Stag.png" id="77_Unells Stag" data-flag="@X" onclick="openSidebar('77_Unells Stag',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\113_Relentless Galloglas.png" id="113_Relentless Galloglas" data-flag="@X" onclick="openSidebar('113_Relentless Galloglas',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\154_Swords Raised.png" id="154_Swords Raised" data-flag="@X" onclick="openSidebar('154_Swords Raised',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\190_Tur Aun Rover.png" id="190_Tur Aun Rover" data-flag="@X" onclick="openSidebar('190_Tur Aun Rover',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\39_Tur Aun Trapper.png" id="39_Tur Aun Trapper" data-flag="@X" onclick="openSidebar('39_Tur Aun Trapper',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\79_Winter's Cut.png" id="79_Winters Cut" data-flag="@X" onclick="openSidebar('79_Winters Cut',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\116_Solemn Caoineag.png" id="116_Solemn Caoineag" data-flag="@X" onclick="openSidebar('116_Solemn Caoineag',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\155_Tur Aun Brawler.png" id="155_Tur Aun Brawler" data-flag="@X" onclick="openSidebar('155_Tur Aun Brawler',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\193_Victorious Galloglas.png" id="193_Victorious Galloglas" data-flag="@X" onclick="openSidebar('193_Victorious Galloglas',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\40_Urgent Exorcism.png" id="40_Urgent Exorcism" data-flag="@X" onclick="openSidebar('40_Urgent Exorcism',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\80_Yew-Tree Omen.png" id="80_Yew-Tree Omen" data-flag="@X" onclick="openSidebar('80_Yew-Tree Omen',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\117_Touch of the Otherworld.png" id="117_Touch of the Otherworld" data-flag="@X" onclick="openSidebar('117_Touch of the Otherworld',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\158_Weathered Claymore.png" id="158_Weathered Claymore" data-flag="@X" onclick="openSidebar('158_Weathered Claymore',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\197_Wolftamer.png" id="197_Wolftamer" data-flag="@X" onclick="openSidebar('197_Wolftamer',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\198_Inevitable Fate.png" id="198_Inevitable Fate" data-flag="@X" onclick="openSidebar('198_Inevitable Fate',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\201_Maebh of the Bloody Hand.png" id="201_Maebh of the Bloody Hand" data-flag="@X" onclick="openSidebar('201_Maebh of the Bloody Hand',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\202_Meaha's Promise.png" id="202_Meahas Promise" data-flag="@X" onclick="openSidebar('202_Meahas Promise',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\204_Naira, Vindictive Sluagh.png" id="204_Naira, Vindictive Sluagh" data-flag="@X" onclick="openSidebar('204_Naira, Vindictive Sluagh',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\207_Glorious Raid.png" id="207_Glorious Raid" data-flag="@X" onclick="openSidebar('207_Glorious Raid',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\199_Rigann's Blackguard.png" id="199_Riganns Blackguard" data-flag="@X" onclick="openSidebar('199_Riganns Blackguard',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\200_Barrow Mounds.png" id="200_Barrow Mounds" data-flag="@X" onclick="openSidebar('200_Barrow Mounds',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\203_Ominous Banshee.png" id="203_Ominous Banshee" data-flag="@X" onclick="openSidebar('203_Ominous Banshee',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\205_Unell's Warleader.png" id="205_Unells Warleader" data-flag="@X" onclick="openSidebar('205_Unells Warleader',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\206_Battle Fury.png" id="206_Battle Fury" data-flag="@X" onclick="openSidebar('206_Battle Fury',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\209_Rigann's Dreaming.png" id="209_Riganns Dreaming" data-flag="@X" onclick="openSidebar('209_Riganns Dreaming',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\211_Annan's Voyage.png" id="211_Annans Voyage" data-flag="@X" onclick="openSidebar('211_Annans Voyage',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\216_Great Hunt of Capal Dú.png" id="216_Great Hunt of Capal Dú" data-flag="@X" onclick="openSidebar('216_Great Hunt of Capal Dú',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\219_Luth's Decree.png" id="219_Luths Decree" data-flag="@X" onclick="openSidebar('219_Luths Decree',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\220_Fables of Unell.png" id="220_Fables of Unell" data-flag="@X" onclick="openSidebar('220_Fables of Unell',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\210_Seantas, Hound of Ulaith.png" id="210_Seantas, Hound of Ulaith" data-flag="@X" onclick="openSidebar('210_Seantas, Hound of Ulaith',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\213_Siofra the Changeling.png" id="213_Siofra the Changeling" data-flag="@X" onclick="openSidebar('213_Siofra the Changeling',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\214_Falniss, Fated Hound.png" id="214_Falniss, Fated Hound" data-flag="@X" onclick="openSidebar('214_Falniss, Fated Hound',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\217_Ellein Trechend.png" id="217_Ellein Trechend" data-flag="@X" onclick="openSidebar('217_Ellein Trechend',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\221_The Oillipheist.png" id="221_The Oillipheist" data-flag="@X" onclick="openSidebar('221_The Oillipheist',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\208_An-Drim Mourncaller.png" id="208_An-Drim Mourncaller" data-flag="@X" onclick="openSidebar('208_An-Drim Mourncaller',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\212_Otherworld Chariot.png" id="212_Otherworld Chariot" data-flag="@X" onclick="openSidebar('212_Otherworld Chariot',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\215_Fearr Gorta.png" id="215_Fearr Gorta" data-flag="@X" onclick="openSidebar('215_Fearr Gorta',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\218_Howling Lamentation.png" id="218_Howling Lamentation" data-flag="@X" onclick="openSidebar('218_Howling Lamentation',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\222_Stag of High Tara.png" id="222_Stag of High Tara" data-flag="@X" onclick="openSidebar('222_Stag of High Tara',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\223_Cos Teilo, Generous King.png" id="223_Cos Teilo, Generous King" data-flag="@X" onclick="openSidebar('223_Cos Teilo, Generous King',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\224_Meaha, Onerous Queen.png" id="224_Meaha, Onerous Queen" data-flag="@X" onclick="openSidebar('224_Meaha, Onerous Queen',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\225_Orflaith the Still.png" id="225_Orflaith the Still" data-flag="@X" onclick="openSidebar('225_Orflaith the Still',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\226_Prophecy of the Hound.png" id="226_Prophecy of the Hound" data-flag="@X" onclick="openSidebar('226_Prophecy of the Hound',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\227_Stone of Destiny.png" id="227_Stone of Destiny" data-flag="@X" onclick="openSidebar('227_Stone of Destiny',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\2_Rigann's Prophecy.png" id="2_Riganns Prophecy" data-flag="@X" onclick="openSidebar('2_Riganns Prophecy',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\228_The Answerer.png" id="228_The Answerer" data-flag="@X" onclick="openSidebar('228_The Answerer',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\229_Black Coach.png" id="229_Black Coach" data-flag="@X" onclick="openSidebar('229_Black Coach',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\231_Brooch of High Tara.png" id="231_Brooch of High Tara" data-flag="@X" onclick="openSidebar('231_Brooch of High Tara',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\234_Sceatha's Marvel.png" id="234_Sceathas Marvel" data-flag="@X" onclick="openSidebar('234_Sceathas Marvel',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\1_Oath to the High King.png" id="1_Oath to the High King" data-flag="@X" onclick="openSidebar('1_Oath to the High King',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\230_Bloody Handed Idol.png" id="230_Bloody Handed Idol" data-flag="@X" onclick="openSidebar('230_Bloody Handed Idol',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\232_Clairseach Harp.png" id="232_Clairseach Harp" data-flag="@X" onclick="openSidebar('232_Clairseach Harp',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\233_Roving Birlinn.png" id="233_Roving Birlinn" data-flag="@X" onclick="openSidebar('233_Roving Birlinn',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\235_War-Tested Chariot.png" id="235_War-Tested Chariot" data-flag="@X" onclick="openSidebar('235_War-Tested Chariot',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\247_Sea's Edge.png" id="247_Seas Edge" data-flag="@X" onclick="openSidebar('247_Seas Edge',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\238_Coastline Village.png" id="238_Coastline Village" data-flag="@X" onclick="openSidebar('238_Coastline Village',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\242_Midnight Dolmens.png" id="242_Midnight Dolmens" data-flag="@X" onclick="openSidebar('242_Midnight Dolmens',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\240_High King's Hall.png" id="240_High Kings Hall" data-flag="@X" onclick="openSidebar('240_High Kings Hall',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\236_Apple Orchard.png" id="236_Apple Orchard" data-flag="@X" onclick="openSidebar('236_Apple Orchard',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\239_Giant's Causeway.png" id="239_Giants Causeway" data-flag="@X" onclick="openSidebar('239_Giants Causeway',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\243_Naira's Gallows.png" id="243_Nairas Gallows" data-flag="@X" onclick="openSidebar('243_Nairas Gallows',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\248_Slumbering Hill.png" id="248_Slumbering Hill" data-flag="@X" onclick="openSidebar('248_Slumbering Hill',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\237_Causeway Coast.png" id="237_Causeway Coast" data-flag="@X" onclick="openSidebar('237_Causeway Coast',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\241_High Tara.png" id="241_High Tara" data-flag="@X" onclick="openSidebar('241_High Tara',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\244_Otherworld Altar.png" id="244_Otherworld Altar" data-flag="@X" onclick="openSidebar('244_Otherworld Altar',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\245_Overgrown Wreck.png" id="245_Overgrown Wreck" data-flag="@X" onclick="openSidebar('245_Overgrown Wreck',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\246_Rugged Burren.png" id="246_Rugged Burren" data-flag="@X" onclick="openSidebar('246_Rugged Burren',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\249_Solemn Cloister.png" id="249_Solemn Cloister" data-flag="@X" onclick="openSidebar('249_Solemn Cloister',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\250_Plains.png" id="250_Plains" data-flag="@X" onclick="openSidebar('250_Plains',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\252_Island.png" id="252_Island" data-flag="@X" onclick="openSidebar('252_Island',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\254_Swamp.png" id="254_Swamp" data-flag="@X" onclick="openSidebar('254_Swamp',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\256_Mountain.png" id="256_Mountain" data-flag="@X" onclick="openSidebar('256_Mountain',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\258_Forest.png" id="258_Forest" data-flag="@X" onclick="openSidebar('258_Forest',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\259_Forest.png" id="259_Forest" data-flag="@X" onclick="openSidebar('259_Forest',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\257_Mountain.png" id="257_Mountain" data-flag="@X" onclick="openSidebar('257_Mountain',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\255_Swamp.png" id="255_Swamp" data-flag="@X" onclick="openSidebar('255_Swamp',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\253_Island.png" id="253_Island" data-flag="@X" onclick="openSidebar('253_Island',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\251_Plains.png" id="251_Plains" data-flag="@X" onclick="openSidebar('251_Plains',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="token" class="anchor"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\7t_GRU Draft Archetypes.png" id="7t_GRU Draft Archetypes" data-flag="@X" onclick="openSidebar('7t_GRU Draft Archetypes',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\8t_Oath Fulfilled.png" id="8t_Oath Fulfilled" data-flag="@X" onclick="openSidebar('8t_Oath Fulfilled',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\1t_Bird.png" id="1t_Bird" data-flag="@X" onclick="openSidebar('1t_Bird',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\2t_Spirit Bear.png" id="2t_Spirit Bear" data-flag="@X" onclick="openSidebar('2t_Spirit Bear',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\3t_Wolf.png" id="3t_Wolf" data-flag="@X" onclick="openSidebar('3t_Wolf',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\5t_Mistletoe.png" id="5t_Mistletoe" data-flag="@X" onclick="openSidebar('5t_Mistletoe',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\4t_Human Warrior.png" id="4t_Human Warrior" data-flag="@X" onclick="openSidebar('4t_Human Warrior',false)"></div>
+			<div class="container"><img alt="/sets\GRU-files\img\6t_Spirit.png" id="6t_Spirit" data-flag="@X" onclick="openSidebar('6t_Spirit',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		document.body.style.backgroundImage = 'url(' + document.getElementById("bg").src + ')';
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
