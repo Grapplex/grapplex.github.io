@@ -1577,8 +1577,8 @@
             "type": "Sorcery \u2014 Interstellar",
             "number": 59,
             "color_identity": "U",
-            "cost": "{3}{U}",
-            "rules_text": "Create a token that's a copy of target creature you control.",
+            "cost": "{2}{U}",
+            "rules_text": "Return target creature to its owner's hand. You may have creatures you control become copies of that creature until end of turn.",
             "flavor_text": "[i]\u201cHello, me? It's me. Me's dead.\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -2644,7 +2644,7 @@
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
-            "shape": "normal",
+            "shape": "battle",
             "set": "TGS",
             "loyalty": "3",
             "artist": "Pierre Santamaria",
@@ -2876,7 +2876,7 @@
             "cost": "{1}{R}",
             "rules_text": "When Klaxular Architects enters the battlefield, you may discard a card. If you don't, choose one. If you do, choose both.\n\u2022 Warpjump. [i](You may reveal and cast an Interstellar card you own from outside the game.)[/i]\n\u2022 Create a Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]",
             "flavor_text": "[i][/i]",
-            "pt": "2/1",
+            "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "TGS",
@@ -3359,10 +3359,10 @@
             "type": "Creature \u2014 Alien Mutant",
             "number": 160,
             "color_identity": "G",
-            "cost": "{2}{G}",
-            "rules_text": "Mindmeld 1 [i](At the beginning of combat, you may tap this to give another target creature +1/+1 and the following abilities until end of turn.)[/i]\nThis creature attacks each combat if able.\nYou may play an additional land on each of your turns.",
+            "cost": "{2}{G}{G}",
+            "rules_text": "Mindmeld 2 [i](At the beginning of combat, you may tap this to give another target creature +2/+2 and the following abilities until end of turn.)[/i]\nThis creature attacks each combat if able.\nYou may play an additional land on each of your turns.",
             "flavor_text": "[i][/i]",
-            "pt": "3/2",
+            "pt": "4/2",
             "special_text": "",
             "shape": "normal",
             "set": "TGS",
@@ -3485,10 +3485,10 @@
             "type": "Creature \u2014 Human Ranger",
             "number": 145,
             "color_identity": "G",
-            "cost": "{2}{G}",
+            "cost": "{1}{G}",
             "rules_text": "Mindmeld 1 [i](At the beginning of combat, you may tap this to give another target creature +1/+1 and the following abilities until end of turn.)[/i]\nThis creature can't be blocked by creatures with power 2 or less.",
             "flavor_text": "[i][/i]",
-            "pt": "3/2",
+            "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "TGS",
@@ -4538,7 +4538,7 @@
             "set": "TGS",
             "loyalty": "",
             "artist": "Vadim Sadovski",
-            "notes": ""
+            "notes": "!group token\n!sort 08"
         },
         {
             "card_name": "Amphibious Adventurer",
@@ -4736,7 +4736,7 @@
             "set": "TGS",
             "loyalty": "",
             "artist": "Steven Griffin",
-            "notes": ""
+            "notes": "!group token\n!sort 01"
         },
         {
             "card_name": "Treasure",
@@ -4754,7 +4754,7 @@
             "set": "TGS",
             "loyalty": "",
             "artist": "Mark A. Wickart",
-            "notes": ""
+            "notes": "!group token\n!sort 07"
         },
         {
             "card_name": "Ape",
@@ -4772,7 +4772,7 @@
             "set": "TGS",
             "loyalty": "",
             "artist": "Andr\u00e9 Mata",
-            "notes": ""
+            "notes": "!group token\n!sort 06"
         },
         {
             "card_name": "Captain Flash Byrn",
@@ -4988,7 +4988,7 @@
             "set": "TGS",
             "loyalty": "",
             "artist": "Eric Joyner",
-            "notes": ""
+            "notes": "!group token\n!sort 05"
         },
         {
             "card_name": "Stellar Nocturnus",
@@ -5042,7 +5042,7 @@
             "set": "TGS",
             "loyalty": "",
             "artist": "Jason Edmiston",
-            "notes": ""
+            "notes": "!group token\n!sort 02"
         },
         {
             "card_name": "Tenacity Engine",
@@ -5078,7 +5078,7 @@
             "set": "TGS",
             "loyalty": "",
             "artist": "Ian Kennedy",
-            "notes": ""
+            "notes": "!group token\n!sort 03"
         },
         {
             "card_name": "Swamp",
@@ -5168,7 +5168,7 @@
             "set": "TGS",
             "loyalty": "",
             "artist": "William Stout",
-            "notes": "!tag bundle\n!exportname Apoblap Fobosian Warlord (bundle promo)\n!group promo\n!sort 1"
+            "notes": "!tag bundle\n!exportname Apoblap Fobosian Warlord (bundle promo)\n!group promo\n!sort 01"
         },
         {
             "card_name": "Villain",
@@ -5186,7 +5186,7 @@
             "set": "TGS",
             "loyalty": "",
             "artist": "Paul Gulacy",
-            "notes": ""
+            "notes": "!group token\n!sort 04"
         },
         {
             "card_name": "All Yesterday's Tomorrows",
