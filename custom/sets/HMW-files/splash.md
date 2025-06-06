@@ -4,7 +4,9 @@
 
 **Skand: Heavy Metal War** picks up where [Experiments of Skand](https://grapplex.github.io/previews/XSK) left off. Ukarth Ren has fled the plane using the planeswalker spark his dark experiments sought to breed. But in his absence, his former lieutenants vie for control. Torn between the animal, the mineral, and the vegetable, the factions lead by Ren's seconds in command have grown more savage, more bloodthirsty, and infinitely less merciful in their experiments. Skand is riven by conflict. By infighting. By a Heavy Metal War.
 
-<img style="float: right" width="200" height="353" src="https://i.ibb.co/Wp6QSYDM/booster.png "HMW booster"/>
+<p style="text-align: right">
+<img width="200" height="353" src="https://i.ibb.co/Wp6QSYDM/booster.png "HMW booster"/>
+</p>
 
 Skand: Heavy Metal War features several new and returning mechanics, including gene counters; host and augment (previously seen in Unstable); and emerge (previously seen in Eldritch Moon and Experiments of Skand). Double-faced cards make up a core mechanical component of the set, with three different DFC mechanics reflecting the core conflict of the world. Kuth Von's flesh-based hypergenomics are represented by modal host-or-augment cards, allowing you to augment a front-face Host with a back-face Augment. Sush Kur's vegetable fiefdom is depicted through transforming Fungus creatures, the mycocyst infection showing itself when enough spore counters are amassed on the transforming card. And Vitho Baun's embrace of the cold mineral strength of steel comes across in creatures which return to the battlefield transformed upon dying, their bionic implants now usable as equipment. 
 
