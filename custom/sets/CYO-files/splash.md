@@ -4,7 +4,7 @@
 
 Welcome, traveler, to the lands of Yor-Om. A realm beset by peril but rich in opportunity. A world soaked in fantasy and adventure. A manifold path awaiting your choices as you make your way through its twisting tale. Will you bend the knee to the great Thuul the Beastmaster and her animalistic legions? Will you seek out the skeletal wyrm Skalathak and end his undying reign of terror? Will you face the onslaught of Chaos or risk life against unlife as you hunt the archlich Hargau? All of these paths and more await you, traveler, as the land of Yor-Om invites you to choose your own adventure.
 
-**Chronicles of Yor-Om is a draftable premier set using Play Boosters, containing 271 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, 5 three-colour taplands, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of Hargau, Archlich.
+**Chronicles of Yor-Om** is a draftable premier set using Play Boosters, containing 271 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, 5 three-colour taplands, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of Hargau, Archlich.
 
 ##Mechanics
 
