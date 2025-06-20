@@ -1,4 +1,4 @@
-![TAL logo](%logo% "Ulaith: Cos Teilo's Feast")
+<img src="https://grapplex.github.io/sets/TAL-files/logo.png" alt="Ulaith: Cos Teilo's Feast" width="500" height="262">
 
 **<p style="text-align: center;">Tír gan scéalta, is é tír gan anam.</p>**
 
@@ -10,7 +10,7 @@ Ulaith is an ancient realm, presently divided into five *seachteadh*, or provinc
 
 ##Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/4wcVHmzW/booster.png "TAL booster"/>The mechanics of **Ulaith: Cos Teilo's Feast** include:
+<img align="left" width="200" height="353" style="margin:10px" src="https://i.ibb.co/4wcVHmzW/booster.png "TAL booster"/>The mechanics of **Ulaith: Cos Teilo's Feast** include:
 
 **Geas:** The geas is a sacred vow or taboo to the people of Ulaith; to swear a geas invites great power while its terms are upheld, and great shame and tragedy if ever broken. A creature with geas can be cast for an additional amount of generic mana to enter the battlefield with additional +1/+1 counters, or accrue counters by attacking unblocked. Measure how best to honour your geas and flourish.
 
