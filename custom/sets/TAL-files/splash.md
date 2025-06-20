@@ -1,0 +1,23 @@
+![TAL logo](%logo% "Ulaith: Cos Teilo's Feast")
+
+**<p style="text-align: center;">Tír gan scéalta, is é tír gan anam.</p>**
+
+Fáilte romhaibh, a chairde, go Féasta Cos Teilo. **Ulaith: Cos Teilo's Feast** is a celebration of the High King of Ulaith. A man for whom the title is a duty, not a luxury, Cos Teilo is entering the twilight of his years, the fiery sense of justice and communal righteousness burning no less brightly in his heart than it did in his youth. Opening the feasting-halls of High Tara to heroes, bards, travellers, and champions from across the land of Ulaith, Cos Teilo wishes to celebrate the story-telling and poetry of the nation, encouraging feasters to compete for the champion's share of the banquet, an honour known as the curadhmhír.
+
+Ulaith is an ancient realm, presently divided into five *seachteadh*, or provinces; Ar Dacha, Dún, An-Drim, Tur Aun, and Fehr Maun. Each of these has a tánaiste (chieftain) who answers to the High King, a figurehead chosen among all the citizenry of Ulaith to be the guiding hand keeping the seachteadh united and their petty wars brief and minor. To challenge a Tánaiste is a risk that may invite doom or glory; the challenge the High King invites only death. Cos Teilo, however, has known little challenge over his reign, his fair and just hand elevating the poor and the disadvantaged and limiting the power of the greedy and the rash. It is for this reason that his feasting table is seen as a place of honour and of high culture, and to share in his tales seen as the pinnacle of the bard's art.
+
+**Ulaith: Cos Teilo's Feast** is a draftable premier set using Play Boosters, containing 266 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of Inherit the Earth, while all boosters have a chance of containing a serialised Headliner Irish-language version of Orflaith, Storied Traveler. Additionally, wildcard slots in each play booster have a chance to contain a card from the Leabhar Cos Teilo bonus sheet—these bonus cards depict moments in the high king's life which have formed the basis for his plentiful tales, and use a new showcase frame to collect token-makers and enchantments from across Magic's history.
+
+##Mechanics
+
+<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/4wcVHmzW/booster.png "TAL booster"/>The mechanics of **Ulaith: Cos Teilo's Feast** include:
+
+**Geas:** The geas is a sacred vow or taboo to the people of Ulaith; to swear a geas invites great power while its terms are upheld, and great shame and tragedy if ever broken. A creature with geas can be cast for an additional amount of generic mana to enter the battlefield with additional +1/+1 counters, or accrue counters by attacking unblocked. Measure how best to honour your geas and flourish.
+
+**Scribe:** Poetry and song flows in the blood of Ulaith. To scribe N, you simply need to spend N or more mana in a turn on spells or abilities, in order to trigger abilities which care about this. Value your activated abilities highly and hold onto an expensive spell for an explosive flurry of storytelling.
+
+**Touching the Otherworld:** The land of Tír Tharlar, the land beyond the sea, is the Otherworld of Ulaith, a realm of gods and spirits, of sinister magic and unknowable power. Touching past the veil between worlds is a terrible risk, fraught with hubris and potential. To touch the Otherworld, you need only have an enchantment, a token, or a Spirit enter the battlefield under your control; some cards will check if this has happened at all, while some will trigger each time it happens individually.
+
+**Sagas:** Great stories are told over red ale and golden mead. Sagas exist in two forms; standalone cards, and the back face of transforming creatures. These double-faced creatures represent the stories told by or about great adventurers and heroes over the feasting table, and allow your creatures to provide additional advantages after death. One cycle of legendary Gods even return to their front face as their tale is told, their presence extending beyond a single recanting of their legacy.
+
+**Communion:** Some spirits in the Otherworld exert a particularly powerful presence; including those which represent the collective history and culture of the five remaining seachteadh, or provinces, of Ulaith. A creature with communion can be cast from the graveyard for its communion cost, returning to play as an enchantment and not a creature, its essence persisting again.
