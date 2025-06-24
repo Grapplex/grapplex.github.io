@@ -183,7 +183,7 @@
 		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
 		<img class="preload-hidden" id="bg" src="/sets/PFG-files/bg.png" />
-		
+
 		<div class="header">
 		<div class="search-grid">
 			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
@@ -248,18 +248,18 @@
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-				<div class="container"><img alt="/sets\PFG-files\img\263_Plains.png" id="263_Plains" data-flag="@X" onclick="openSidebar('263_Plains',false)"></div>
-			<div class="container"><img alt="/sets\PFG-files\img\264_Island.png" id="264_Island" data-flag="@X" onclick="openSidebar('264_Island',false)"></div>
-			<div class="container"><img alt="/sets\PFG-files\img\265_Swamp.png" id="265_Swamp" data-flag="@X" onclick="openSidebar('265_Swamp',false)"></div>
-			<div class="container"><img alt="/sets\PFG-files\img\266_Mountain.png" id="266_Mountain" data-flag="@X" onclick="openSidebar('266_Mountain',false)"></div>
-			<div class="container"><img alt="/sets\PFG-files\img\267_Forest.png" id="267_Forest" data-flag="@X" onclick="openSidebar('267_Forest',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img alt="/sets\PFG-files\img\263_Plains.png" id="263_Plains" data-flag="@X" onclick="openSidebar('263_Plains',false)"></div>
+				<div class="container"><img alt="/sets\PFG-files\img\264_Island.png" id="264_Island" data-flag="@X" onclick="openSidebar('264_Island',false)"></div>
+				<div class="container"><img alt="/sets\PFG-files\img\265_Swamp.png" id="265_Swamp" data-flag="@X" onclick="openSidebar('265_Swamp',false)"></div>
+				<div class="container"><img alt="/sets\PFG-files\img\266_Mountain.png" id="266_Mountain" data-flag="@X" onclick="openSidebar('266_Mountain',false)"></div>
+				<div class="container"><img alt="/sets\PFG-files\img\267_Forest.png" id="267_Forest" data-flag="@X" onclick="openSidebar('267_Forest',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 	</div>
-</div>
+	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
 			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
@@ -290,7 +290,7 @@
 				card_list_arrayified = card_list.cards;
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
-		
+
 		let images_loaded = [];
 
 		do {
@@ -380,7 +380,7 @@
 	function openSidebar(id, h = false) {
 		horizontal = h;
 		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
-		
+
 		document.getElementById('sidebar').style.display = 'grid';
 
 		const rotated_img = document.getElementById('sidebar_h_img');
@@ -411,7 +411,7 @@
 			document.getElementById('sidebar-flip-btn').style.display = 'none';
 		}
 		document.getElementById('main-content').style.width = '60%';
-		
+
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
 		setSidebarTop();
@@ -422,7 +422,7 @@
 
 		document.getElementById('sidebar').style.display = 'none';
 		document.getElementById('main-content').style.width = '100%';
-		
+
 
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
