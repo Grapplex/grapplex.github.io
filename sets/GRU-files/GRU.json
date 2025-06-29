@@ -3,13 +3,14 @@
     "formats": "",
     "trimmed": "y",
     "image_type": "png",
+    "draft_structure": "play booster",
     "cards": [
         {
             "card_name": "GRU Draft Archetypes",
             "color": "",
             "rarity": "common",
             "type": "",
-            "number": 7,
+            "number": 8,
             "color_identity": "WUBRG",
             "cost": "",
             "rules_text": "{W}{U} DESTINY Your creatures are meant for more. Seek their destiny and thrive.\n{U}{B} TAPPING Your coven of witches can conjure powerful magic together through tap effects.\n{B}{R} SPIRITS Call upon the Aos Si of the Otherworld and lead a Spirit army.\n{R}{G} RAID Go forth, warrior, and conquer. Attack and reap the benefits.\n{G}{W} ATTACK Lead an army and benefit when you attack with three or more creatures.\n{W}{B} OATHS Your word is sacred. Stick to your sworn Oaths and be rewarded.\n{B}{G} LIFEGAIN Seek immortality, or at least seek to outlast your opponents.\n{G}{U} STRENGTH Only the strongest can reach the top. Focus on power 4 or greater and let might make right.\n{U}{R} TACTICS Manage your attacks with support: Vehicles, abilities, and combat tricks will see you succeed.\n{R}{W} GRAVEYARD The memories of the dead will lead you to victory; use your graveyard as a resource to win.[i]",
@@ -20,7 +21,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Bassem Khaled",
-            "notes": ""
+            "notes": "!group token\n!sort 08"
         },
         {
             "card_name": "Solemn Caoineag",
@@ -275,14 +276,14 @@
             "notes": ""
         },
         {
-            "card_name": "Duun Raider",
+            "card_name": "D\u00fan Raider",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Warrior",
             "number": 165,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Duun Raider has haste as long as you control another creature with power 4 or greater.",
+            "rules_text": "D\u00fan Raider has haste as long as you control another creature with power 4 or greater.",
             "flavor_text": "[i]\u201cStrike fast, strike well, and be gone before your last arrow lands.\u201d[/i]",
             "pt": "3/3",
             "special_text": "",
@@ -1733,14 +1734,14 @@
             "notes": ""
         },
         {
-            "card_name": "Warmonger of Duun",
+            "card_name": "Warmonger of D\u00fan",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Berserker",
             "number": 119,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "{1}, Sacrifice a creature: Warmonger of Duun swears an Oath [i](Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on this creature.)[/i]",
+            "rules_text": "{1}, Sacrifice a creature: Warmonger of D\u00fan swears an Oath [i](Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on this creature.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -2111,14 +2112,14 @@
             "notes": ""
         },
         {
-            "card_name": "Duun Cutpurse",
+            "card_name": "D\u00fan Cutpurse",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rogue",
             "number": 131,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "When Duun Cutpurse enters the battlefield, discard up to two cards, then draw that many cards.",
+            "rules_text": "When D\u00fan Cutpurse enters the battlefield, discard up to two cards, then draw that many cards.",
             "flavor_text": "[i]\u201cI swear, that money was just [/i]resting [i]in my purse.\u201d[/i]",
             "pt": "2/1",
             "special_text": "",
@@ -2568,7 +2569,7 @@
             "number": 195,
             "color_identity": "G",
             "cost": "{5}{G}{G}",
-            "rules_text": "When Wild-Song Chanter enters the battlefield, create three 2/2 green Wolf creature tokens.\nWhenever a creature enters under you control, you gain 1 life.",
+            "rules_text": "When Wild-Song Chanter enters the battlefield, create three 2/2 green Wolf creature tokens.\nWhenever a creature you control enters the battlefield, you gain 1 life.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -2936,7 +2937,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Maria S",
-            "notes": ""
+            "notes": "!group clear"
         },
         {
             "card_name": "Clairseach Harp",
@@ -2947,7 +2948,7 @@
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "{T}, Tap an untapped creature you control: Add one mana of any color.",
-            "flavor_text": "[i]With strings of fine silver and a frame carved from a single piece of yew, the harps of Duun are particularly prized.[/i]",
+            "flavor_text": "[i]With strings of fine silver and a frame carved from a single piece of yew, the harps of D\u00fan are particularly prized.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -2990,7 +2991,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Quentin Gillet",
-            "notes": ""
+            "notes": "!group otherland\n!sort 09"
         },
         {
             "card_name": "High Tara",
@@ -3008,7 +3009,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Arnaud Kleindienst",
-            "notes": ""
+            "notes": "!group otherland\n!sort 06"
         },
         {
             "card_name": "Otherworld Altar",
@@ -3026,7 +3027,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Sebastian Horoszko",
-            "notes": ""
+            "notes": "!group otherland\n!sort 07"
         },
         {
             "card_name": "Rugged Burren",
@@ -3044,7 +3045,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Reza Afshar",
-            "notes": ""
+            "notes": "!group otherland\n!sort 10"
         },
         {
             "card_name": "Overgrown Wreck",
@@ -3062,7 +3063,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Reza Afshar",
-            "notes": ""
+            "notes": "!group otherland\n!sort 08"
         },
         {
             "card_name": "The Answerer",
@@ -3159,7 +3160,7 @@
             "color": "",
             "rarity": "common",
             "type": "",
-            "number": 8,
+            "number": 7,
             "color_identity": "C",
             "cost": "",
             "rules_text": "When you have fulfilled an Oath, you can place the exiled card here.",
@@ -3170,7 +3171,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Tara Solbrig",
-            "notes": ""
+            "notes": "!group token\n!sort 07"
         },
         {
             "card_name": "Plains",
@@ -3235,7 +3236,7 @@
             "color_identity": "R",
             "cost": "",
             "rules_text": "",
-            "flavor_text": "[i]The high cliffs of Duun make it the perfect location for fortifications\u2014and for bandits' lairs.[/i]",
+            "flavor_text": "[i]The high cliffs of D\u00fan make it the perfect location for fortifications\u2014and for bandits' lairs.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -3317,7 +3318,7 @@
             "notes": ""
         },
         {
-            "card_name": "Bard of Duun",
+            "card_name": "Bard of D\u00fan",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Bard",
@@ -3327,8 +3328,8 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Destiny [i](Whenever this creature becomes tapped, put a destined counter on it. Stop at three.)[/i]\nBard of Duun gets +3/+0 as long as it has three or more destined counters on it.\n",
-            "shape": "leveler",
+            "special_text": "",
+            "shape": "normal",
             "set": "GRU",
             "loyalty": "",
             "artist": "Vassilios Bayiokos",
@@ -3368,7 +3369,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Bassem Khaled",
-            "notes": ""
+            "notes": "!group token\n!sort 01"
         },
         {
             "card_name": "Spirit",
@@ -3386,7 +3387,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Artem Demura",
-            "notes": ""
+            "notes": "!group token\n!sort 06"
         },
         {
             "card_name": "Teller of Truths",
@@ -3512,7 +3513,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Alessandro Taini",
-            "notes": ""
+            "notes": "!group token\n!sort 04"
         },
         {
             "card_name": "Luth's Favored",
@@ -3584,7 +3585,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Agata Ledzwa",
-            "notes": ""
+            "notes": "!group token\n!sort 05"
         },
         {
             "card_name": "Maebh of the Bloody Hand",
@@ -3692,7 +3693,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Pablo Munoz Gomez",
-            "notes": ""
+            "notes": "!group token\n!sort 03"
         },
         {
             "card_name": "Chieftan of the Black Horse",
@@ -3782,7 +3783,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Evan Winston",
-            "notes": ""
+            "notes": "!group token\n!sort 02"
         },
         {
             "card_name": "The Oillipheist",
@@ -4340,7 +4341,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Roger Creus Dorico",
-            "notes": ""
+            "notes": "!group otherland\n!sort 01"
         },
         {
             "card_name": "Coastline Village",
@@ -4358,7 +4359,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Pete Amachree",
-            "notes": ""
+            "notes": "!group otherland\n!sort 02"
         },
         {
             "card_name": "Midnight Dolmens",
@@ -4376,7 +4377,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Roger Creus Dorico",
-            "notes": ""
+            "notes": "!group otherland\n!sort 03"
         },
         {
             "card_name": "High King's Hall",
@@ -4394,7 +4395,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Pete Amachree",
-            "notes": ""
+            "notes": "!group otherland\n!sort 04"
         },
         {
             "card_name": "Apple Orchard",
@@ -4412,7 +4413,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Crissy Prentice",
-            "notes": ""
+            "notes": "!group otherland\n!sort 05"
         },
         {
             "card_name": "Oath of Humility",
@@ -4538,7 +4539,7 @@
             "set": "GRU",
             "loyalty": "",
             "artist": "Cuddens M",
-            "notes": ""
+            "notes": "!group clear"
         },
         {
             "card_name": "Slumbering Hill",
@@ -4811,5 +4812,5 @@
             "notes": ""
         }
     ],
-    "version": 1
+    "version": 2
 }
