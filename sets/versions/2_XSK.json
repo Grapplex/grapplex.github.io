@@ -1,7 +1,9 @@
 ﻿{
     "name": "Experiments of Skand",
     "formats": "",
-    "trimmed": "y",
+    "trimmed": "n",
+    "image_type": "png",
+    "draft_structure": "play booster",
     "cards": [
         {
             "card_name": "Perilous Analyst",
@@ -12,11 +14,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "When Perilous Analyst dies, target creature an opponent controls gets -1/-1 until end of turn.",
+            "flavor_text": "[i]\u201cNo, no, after you. I insist.\u201d[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Alvaro Martin",
             "notes": ""
         },
         {
@@ -27,12 +31,14 @@
             "number": 121,
             "color_identity": "B",
             "cost": "{3}{B}",
-            "rules_text": "Emerge {4}{B}{B} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]\nWrithing Lasher enters the battlefield with a +1/+1 counter on it if it emerged.",
+            "rules_text": "Emerge {4}{B}{B} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]\nWrithing Lasher enters the battlefield with a +1/+1 counter on it if it emerged.",
+            "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jakub Bazyluk",
             "notes": ""
         },
         {
@@ -44,11 +50,13 @@
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "{B}, Exile a card from a graveyard: Empty Husk gets +1/+1 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Cleo Naturin",
             "notes": ""
         },
         {
@@ -60,11 +68,13 @@
             "color_identity": "B",
             "cost": "{4}{B}",
             "rules_text": "Unequal Twins enters the battlefield with two +1/+1 counters on it.\n{1}, Remove a +1/+1 counter from Unequal Twins: Each opponent loses 1 life and you gain 1 life.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Anton Tareev",
             "notes": ""
         },
         {
@@ -76,11 +86,13 @@
             "color_identity": "B",
             "cost": "{5}{B}",
             "rules_text": "Augmented Specimen enters the battlefield with four +1/+1 counters on it.\nRemove two +1/+1 counters from Augmented Specimen: Augmented Specimen gets +4/+4 until end of turn.",
+            "flavor_text": "[i]On Skand, his implants are worth more than his life.[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Michael Pedro",
             "notes": ""
         },
         {
@@ -92,11 +104,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "When Synapse Parasite dies, draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Dave Melvin",
             "notes": ""
         },
         {
@@ -108,11 +122,13 @@
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "{G}, Sacrifice Shambling Nest: Create three tapped 1/1 green Fungus Insect Mutant creature tokens.",
+            "flavor_text": "[i]Sush Kur's fungal experiments soon bore fruit. Sickly, pallid, toxic fruit.[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jacob Hlavsa",
             "notes": ""
         },
         {
@@ -124,11 +140,13 @@
             "color_identity": "G",
             "cost": "{4}{G}",
             "rules_text": "Bifurcated Behemoth can only be blocked by exactly two creatures.",
+            "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Francesco LorenzettiPRO",
             "notes": ""
         },
         {
@@ -140,11 +158,13 @@
             "color_identity": "G",
             "cost": "{4}{G}",
             "rules_text": "Trample\nWhen Genetic Waste enters the battlefield, you may sacrifice a creature. If you do, put two +1/+1 counters on Genetic Waste.",
+            "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jean-Baptiste Reynaud",
             "notes": ""
         },
         {
@@ -156,11 +176,13 @@
             "color_identity": "G",
             "cost": "{5}{G}",
             "rules_text": "Whenever a player sacrifices a permanent, put a +1/+1 counter on Durable Host. This ability triggers only once each turn.",
+            "flavor_text": "[i][/i]",
             "pt": "6/6",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Bogdan Rezunenko",
             "notes": ""
         },
         {
@@ -171,12 +193,14 @@
             "number": 141,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "Haste\n{2}{R}: Diverge 3/3 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 3/3 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "rules_text": "Haste\n{2}{R}: Diverge 3/3 [i](If this creature isn't a Mutant, its base power and toughness become 3/3 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ger\u00f3nimo Ribaya",
             "notes": ""
         },
         {
@@ -188,11 +212,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Sclerotic Stalker has menace as long as you control two or more Mutants.\nWhenever Sclerotic Stalker deals combat damage to a player, put a +1/+1 counter on it.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Santiago Betancur",
             "notes": ""
         },
         {
@@ -203,12 +229,14 @@
             "number": 148,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "{4}{R}: Diverge 6/3 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 6/3 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "rules_text": "{4}{R}: Diverge 6/3 [i](If this creature isn't a Mutant, its base power and toughness become 6/3 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "DOFRESH",
             "notes": ""
         },
         {
@@ -220,11 +248,13 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "{T}, Sacrifice Sporebone Shambler: Add {C}{C}{C}. Spend this mana only to cast a noncreature spell.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Wheezus",
             "notes": ""
         },
         {
@@ -236,11 +266,13 @@
             "color_identity": "R",
             "cost": "{4}{R}",
             "rules_text": "When Flayed Prodigy enters the battlefield, it deals damage equal to the number of Mutants you control to target player or planeswalker.",
+            "flavor_text": "[i][/i]",
             "pt": "5/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Scott Hegarty",
             "notes": ""
         },
         {
@@ -252,11 +284,13 @@
             "color_identity": "R",
             "cost": "{5}{R}",
             "rules_text": "",
+            "flavor_text": "[i]By tinkering with genetic code and powerful mutagens, the bioformers of Skand have populated the plane with half-creatures and anatomical nightmares which should not be.[/i]",
             "pt": "8/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Roman Sachnow",
             "notes": ""
         },
         {
@@ -267,12 +301,14 @@
             "number": 63,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Flying\n{4}{U}: Diverge 4/4 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 4/4 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "rules_text": "Flying\n{4}{U}: Diverge 4/4 [i](If this creature isn't a Mutant, its base power and toughness become 4/4 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "flavor_text": "[i]Charity begins at home.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ivan Khotenov",
             "notes": ""
         },
         {
@@ -284,11 +320,13 @@
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Flying\nWhenever Miserable Hybrid attacks, up to one other Mutant you control gains flying until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Cleo Naturin",
             "notes": ""
         },
         {
@@ -299,12 +337,14 @@
             "number": 80,
             "color_identity": "U",
             "cost": "{4}{U}",
-            "rules_text": "Emerge {5}{U} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]\nWhen Vat Skulker enters the battlefield, if it emerged, draw a card.",
+            "rules_text": "Emerge {5}{U} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]\nWhen Vat Skulker enters the battlefield, if it emerged, draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "3/5",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Max Elmberg Sj\u00f6holm",
             "notes": ""
         },
         {
@@ -316,11 +356,13 @@
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "",
+            "flavor_text": "[i]Some of Ren's most debased, disfigured creations are let loose from their cages en masse to provide what he calls \u201cevolutionary pressure\u201d\u2014or what others might call bloodsport.[/i]",
             "pt": "2/5",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Roman Sachnow",
             "notes": ""
         },
         {
@@ -331,12 +373,14 @@
             "number": 15,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "{1}: Diverge 2/2 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 2/2 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "rules_text": "{1}: Diverge 2/2 [i](If this creature isn't a Mutant, its base power and toughness become 2/2 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ivan Khotenov",
             "notes": ""
         },
         {
@@ -347,12 +391,14 @@
             "number": 37,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "Flying\nWhenever Stretched Aberration deals combat damage to an opponent, you may return it to its owner\u2019s hand.",
+            "rules_text": "Flying\nWhenever Stretched Aberration deals combat damage to an opponent, you may return it to its owner's hand.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Roman Sachnow",
             "notes": ""
         },
         {
@@ -363,12 +409,14 @@
             "number": 13,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Fatalistic Escapee has first strike as long as it\u2019s your turn.",
+            "rules_text": "Fatalistic Escapee has first strike as long as it's your turn.",
+            "flavor_text": "[i]Captives in Ren's sprawling labs dream of freedom\u2014of clear skies, clean water, the open air. None know the truth, that there is nothing left of the world outside of their confines.[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Flavio Greco Paglia",
             "notes": ""
         },
         {
@@ -380,11 +428,13 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Lifelink\nWhenever Hazard Researcher becomes the target of a spell or ability you control, it gets +1/+1 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Simone Rizzo",
             "notes": ""
         },
         {
@@ -395,12 +445,14 @@
             "number": 24,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Flying\nWhen Passive Broodsire enters the battlefield, if you\u2019ve cast a noncreature spell this turn, create a 1/1 colorless Survivor creature token.",
+            "rules_text": "Flying\nWhen Passive Broodsire enters the battlefield, if you've cast a noncreature spell this turn, create a 1/1 colorless Survivor creature token.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Asya Yordanova",
             "notes": ""
         },
         {
@@ -411,12 +463,14 @@
             "number": 38,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "You may cast Sudden Symbiote as though it had flash as long as you\u2019ve cast a noncreature spell this turn.",
+            "rules_text": "You may cast Sudden Symbiote as though it had flash as long as you've cast a noncreature spell this turn.",
+            "flavor_text": "[i]\u201cProject Sunflower tore through its shackles and ate three of my assistants. I can't afford to keep replacing shackles like this.\u201d\n\u2014Kuth Von, hypergeneticist[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Sebastian Leon-Silva",
             "notes": ""
         },
         {
@@ -428,11 +482,13 @@
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "When Impassive Observer enters the battlefield, target creature you control gains indestructible until end of turn.",
+            "flavor_text": "[i]\u201cDay 47: Subject AX-12 is adapting well to the serum. Begin mass production.\nDay 48: Subject AX-12 ruptured overnight. Prepping AX-13.\u201d[/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Vladimir Matyukhin",
             "notes": ""
         },
         {
@@ -444,11 +500,13 @@
             "color_identity": "W",
             "cost": "{4}{W}",
             "rules_text": "",
+            "flavor_text": "[i]Under the auspices of Ren's chief hypergeneticist Kuth Von, generations of specimens have been crossbred and hybridized as much out of curiosity as scientific endeavor.[/i]",
             "pt": "2/9",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Roman Sachnow",
             "notes": ""
         },
         {
@@ -459,12 +517,14 @@
             "number": 5,
             "color_identity": "W",
             "cost": "{4}{W}",
-            "rules_text": "Vigilance\nEmerge {5}{W} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]",
+            "rules_text": "Vigilance\nEmerge {5}{W} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ki Woong Kim",
             "notes": ""
         },
         {
@@ -475,12 +535,14 @@
             "number": 11,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Destroy target creature if it attacked during its controller\u2019s last turn or if one of its abilities was activated during its controller\u2019s last turn.",
+            "rules_text": "Destroy target creature if it attacked during its controller's last turn or if one of its abilities was activated during its controller's last turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Kim Seung-jin",
             "notes": ""
         },
         {
@@ -491,12 +553,14 @@
             "number": 6,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Enchant creature\nEnchanted creature can\u2019t attack or block, can\u2019t diverge, and can\u2019t be sacrificed to pay for spells\u2019 costs.",
+            "rules_text": "Enchant creature\nEnchanted creature can't attack or block, can't diverge, and can't be sacrificed to pay for spells' costs.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Max Elmberg Sj\u00f6holm",
             "notes": ""
         },
         {
@@ -508,11 +572,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Destroy target Aura, Equipment, or Mutant.",
+            "flavor_text": "[i]Ren's subjects are frequently recycled bodily\u2014organs, implants, and tissues torn down to be used again.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Nadine Oestreich",
             "notes": ""
         },
         {
@@ -524,11 +590,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Exile target enchantment. You gain 3 life.",
+            "flavor_text": "[i]Wet blood and hot pus may be viscerally disturbing, but Skand's scientists soon find themselves more unnerved by the implications of bleached whiteness.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Lucas Leger",
             "notes": ""
         },
         {
@@ -540,11 +608,13 @@
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "When Security Personnel enters the battlefield, if it had a spell implanted into it, creatures you control get +1/+1 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "David Bocquillon Carrasco",
             "notes": ""
         },
         {
@@ -556,11 +626,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "When Irradiated Inspector enters the battlefield, look at the top three cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest into your graveyard.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ninja Jo",
             "notes": ""
         },
         {
@@ -572,11 +644,13 @@
             "color_identity": "W",
             "cost": "{W}{W}",
             "rules_text": "When Genome Tester enters the battlefield, look at the top five cards of your library. You may reveal a card with implant from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Piotr Foksowicz",
             "notes": ""
         },
         {
@@ -587,12 +661,14 @@
             "number": 7,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Flash\nEmerge {1}{W}{W} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]",
+            "rules_text": "Flash\nEmerge {1}{W}{W} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Mikl\u00f3s Ligeti",
             "notes": ""
         },
         {
@@ -603,12 +679,14 @@
             "number": 12,
             "color_identity": "W",
             "cost": "{3}{W}",
-            "rules_text": "Flash\nWhen Extraction Squad enters the battlefield, you may return up to two target creatures you control to their owners\u2019 hands.",
+            "rules_text": "Flash\nWhen Extraction Squad enters the battlefield, you may return up to two target creatures you control to their owners' hands.",
+            "flavor_text": "[i]\u201cWhat's it this time?\u201d\n\u201cProject Alpha ate some of the new recruits.\u201d[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Mateusz Katzig",
             "notes": ""
         },
         {
@@ -620,11 +698,13 @@
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Flying\nWhen Sinuous Supplicant enters the battlefield, return target nonland permanent card with mana value 2 or less from your graveyard to the battlefield.",
+            "flavor_text": "[i][/i]",
             "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ivan Stan",
             "notes": ""
         },
         {
@@ -636,11 +716,13 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "This spell costs {1} less to cast if a creature you control died this turn.\nCreate two 1/1 colorless Survivor creature tokens, then put a +1/+1 counter on target creature you control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Piotr Foksowicz",
             "notes": ""
         },
         {
@@ -652,11 +734,13 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Create an X/X black Germ creature token, where X is the number of creatures you control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Christophe Young",
             "notes": ""
         },
         {
@@ -668,11 +752,13 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When Quality Control enters the battlefield, exile target nonland permanent an opponent controls until Quality Control leaves the battlefield. If that permanent was a creature, you gain X life, where X is the number of creature types it had, up to a maximum of 5.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Eldar Zakirov",
             "notes": ""
         },
         {
@@ -684,11 +770,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Create a 1/1 colorless Survivor creature token, then put a +1/+1 counter on each Survivor you control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jarrad Lajeunesse",
             "notes": ""
         },
         {
@@ -700,11 +788,13 @@
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Equipped creature has first strike and \u201c{1}{W}, Unattach Synthetic Limb: This creature gains indestructible until end of turn.\u201d\nEquip {2}",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "G. Matsikas",
             "notes": ""
         },
         {
@@ -715,12 +805,14 @@
             "number": 32,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "Your opponents can\u2019t cast noncreature spells this turn.\nImplant {2}{W} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "Your opponents can't cast noncreature spells this turn.\nImplant {2}{W} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "InnerSpirit",
             "notes": ""
         },
         {
@@ -731,12 +823,14 @@
             "number": 45,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Target creature gets +0/+3 until end of turn. Then target player mills X cards, where X is that creature\u2019s toughness.",
+            "rules_text": "Target creature gets +0/+3 until end of turn. Then target player mills X cards, where X is that creature's toughness.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Santiago Betancur",
             "notes": ""
         },
         {
@@ -748,11 +842,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Choose one \u2014\n\u2022 Counter target noncreature spell.\n\u2022 Counter target creature spell if it has a spell implanted into it.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Eleonora Fristachi",
             "notes": ""
         },
         {
@@ -764,11 +860,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Counter target spell unless its controller pays {2}. If you control a creature with three or more creature types, instead counter that spell unless its controller pays {4}.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ivan Khotenov",
             "notes": ""
         },
         {
@@ -779,12 +877,14 @@
             "number": 79,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Enchant creature\nEnchanted creature\u2019s base power is 0. If it\u2019s a Mutant, instead its base power is 4.",
+            "rules_text": "Enchant creature\nEnchanted creature's base power is 0. If it's a Mutant, instead its base power is 4.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ivan Stan",
             "notes": ""
         },
         {
@@ -795,12 +895,14 @@
             "number": 54,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "This spell costs {1} less to cast if it targets a Mutant.\nReturn target creature to its owner\u2019s hand. ",
+            "rules_text": "This spell costs {1} less to cast if it targets a Mutant.\nReturn target creature to its owner's hand.",
+            "flavor_text": "[i]Under the guidance of master splicer Vitho Baun, dull blades and dirty needles cut, stitch, and maim an endless supply of flesh.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Giulia Gentilini",
             "notes": ""
         },
         {
@@ -811,12 +913,14 @@
             "number": 46,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Enchant creature\nWhen Critical Analysis enters the battlefield, tap enchanted creature if there are five or more cards in its controller\u2019s graveyard. \nEnchanted creature doesn\u2019t untap during its controller\u2019s untap step.",
+            "rules_text": "Enchant creature\nWhen Critical Analysis enters the battlefield, tap enchanted creature if there are five or more cards in its controller's graveyard. \nEnchanted creature doesn't untap during its controller's untap step.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Sergey Grechanyuk",
             "notes": ""
         },
         {
@@ -827,12 +931,14 @@
             "number": 51,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Draw a card.\nImplant {1}{U} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "Draw a card.\nImplant {1}{U} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Carlo Spagnola",
             "notes": ""
         },
         {
@@ -843,12 +949,14 @@
             "number": 48,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "{U}{U}: Diverge 2/2 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 2/2 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]\nAs long as Dessicated Apostle is a Mutant, creatures you control with three or more creature types have ward {2}.",
+            "rules_text": "{U}{U}: Diverge 2/2 [i](If this creature isn't a Mutant, its base power and toughness become 2/2 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]\nAs long as Dessicated Apostle is a Mutant, creatures you control with three or more creature types have ward {2}.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Lorenzo Napoli",
             "notes": ""
         },
         {
@@ -860,11 +968,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Whenever Hardwired Subject becomes the target of a spell or ability you control, untap it.\n{T}: Untap target permanent not named Hardwired Subject. Activate only as a sorcery.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Martin Nancekievill",
             "notes": ""
         },
         {
@@ -876,11 +986,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Whenever Engineered Lamprey becomes the target of a spell or ability you control, you may pay {U}. If you do, draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jean-Baptiste Reynaud",
             "notes": ""
         },
         {
@@ -892,11 +1004,13 @@
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "Flying\nOther Mutants you control have flying.",
+            "flavor_text": "[i]\u201cVitho, he's in the vents again.\u201d\n\u201cLeave him. If he survives, we can learn from him.\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Biagio D'Alessandro",
             "notes": ""
         },
         {
@@ -907,12 +1021,14 @@
             "number": 42,
             "color_identity": "U",
             "cost": "{4}{U}",
-            "rules_text": "{12}{U}: Diverge 8/8. This ability costs {X} less to activate, where X is the greatest number of cards in an opponent\u2019s graveyard. [i](If this creature isn\u2019t a Mutant, its base power and toughness become 8/8 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "rules_text": "{12}{U}: Diverge 8/8. This ability costs {X} less to activate, where X is the greatest number of cards in an opponent's graveyard. [i](If this creature isn't a Mutant, its base power and toughness become 8/8 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jim Brady",
             "notes": ""
         },
         {
@@ -924,11 +1040,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Flash\nWhen Membranous Maiden enters the battlefield, any number of target creatures you control each get +0/+1 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Mike Franchina",
             "notes": ""
         },
         {
@@ -940,11 +1058,13 @@
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "Whenever Caul Tyrant becomes the target of a spell or ability you control, each opponent mills three cards.\n{1}{U}: Another target creature you control gets +0/+2 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "George Pricope-Galan",
             "notes": ""
         },
         {
@@ -955,12 +1075,14 @@
             "number": 65,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Counter target spell with mana value less than or equal to the number of cards in its controller\u2019s graveyard.",
+            "rules_text": "Counter target spell with mana value less than or equal to the number of cards in its controller's graveyard.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Uros Sljivic",
             "notes": ""
         },
         {
@@ -972,11 +1094,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Look at the top five cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. If the revealed card has three or more creature types, you gain 2 life.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Giulia Gentilini",
             "notes": ""
         },
         {
@@ -987,12 +1111,14 @@
             "number": 58,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "Tap all creatures target player controls. Those creatures don\u2019t untap during that player\u2019s next untap step. Mutants you control gain hexproof until end of turn.",
+            "rules_text": "Tap all creatures target player controls. Those creatures don't untap during that player's next untap step. Mutants you control gain hexproof until end of turn.",
+            "flavor_text": "[i]\u201cLord Ren speaks of his secret plan as though it has a single, finite goal. True perfection knows no end point.\u201d\n\u2014Kuth Von[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Mike Franchina",
             "notes": ""
         },
         {
@@ -1004,11 +1130,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Whenever equipped creature deals combat damage to a player, that player exiles the top card of their library and you draw a card.\nEquip {2}",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Harrison Magby",
             "notes": ""
         },
         {
@@ -1020,11 +1148,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Enchant creature\nEnchanted creature gets -1/-1, has deathtouch, and has \u201cwhen this creature dies, you draw a card and you lose 1 life.\u201d",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Milkshaketragedy",
             "notes": ""
         },
         {
@@ -1035,12 +1165,14 @@
             "number": 99,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Each player sacrifices a creature.\nImplant {2}{B} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "Each player sacrifices a creature.\nImplant {2}{B} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Z Teng",
             "notes": ""
         },
         {
@@ -1052,11 +1184,13 @@
             "color_identity": "B",
             "cost": "{4}{B}",
             "rules_text": "Destroy target creature. Put a +1/+1 counter on up to one target creature.",
+            "flavor_text": "[i]Mutation begets refutation.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Dominik Mayer\nDominik Mayer",
             "notes": ""
         },
         {
@@ -1068,11 +1202,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "As an additional cost to cast this spell, remove two counters from a permanent you control or pay 2 life.\nDraw two cards.",
+            "flavor_text": "[i]Ukarth Ren has tested the limits of biology for generations in his quest to reclaim his lost spark.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Hakob Minasian",
             "notes": ""
         },
         {
@@ -1084,11 +1220,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "When Enhanced Carapace enters the battlefield, put a +1/+1 counter on target creature.\nWhenever a creature dies, if it had any counters on it, put a +1/+1 counter on equipped creature.\nEquip {1}",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "A. Shipwright",
             "notes": ""
         },
         {
@@ -1099,12 +1237,14 @@
             "number": 100,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "As an additional cost to cast this spell, you may exile a creature card from your graveyard.\nDestroy target creature or enchantment an opponent controls. If the additional cost wasn\u2019t paid, you lose life equal to that permanent\u2019s mana value.",
+            "rules_text": "As an additional cost to cast this spell, you may exile a creature card from your graveyard.\nDestroy target creature or enchantment an opponent controls. If the additional cost wasn't paid, you lose life equal to that permanent's mana value.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Mike Franchina",
             "notes": ""
         },
         {
@@ -1115,12 +1255,14 @@
             "number": 120,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "Emerge {2}{B} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]\nWhen Viral Progessor enters the battlefield, if it emerged, target opponent sacrifices a creature or enchantment.",
+            "rules_text": "Emerge {2}{B} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]\nWhen Viral Progessor enters the battlefield, if it emerged, target opponent sacrifices a creature or enchantment.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Victor Shevchenko",
             "notes": ""
         },
         {
@@ -1131,12 +1273,14 @@
             "number": 88,
             "color_identity": "B",
             "cost": "{3}{B}",
-            "rules_text": "Emerge {5}{B} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]\nYou may cast Chitinous Filth from your graveyard for its emerge cost.",
+            "rules_text": "Emerge {5}{B} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]\nYou may cast Chitinous Filth from your graveyard for its emerge cost.",
+            "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Mike Franchina",
             "notes": ""
         },
         {
@@ -1148,11 +1292,13 @@
             "color_identity": "B",
             "cost": "{3}{B}{B}",
             "rules_text": "Emerge costs you pay cost {1} less.\nWhenever a creature enters the battlefield under your control, if it emerged, draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Eidorian",
             "notes": ""
         },
         {
@@ -1164,11 +1310,13 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "{1}{B}, Exile a creature card from your graveyard: Each opponent loses 2 life.",
+            "flavor_text": "[i]\u201cLeave them to it. It saves on gruel.\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Veronika Kozlova",
             "notes": ""
         },
         {
@@ -1180,11 +1328,13 @@
             "color_identity": "B",
             "cost": "{1}{B}{B}",
             "rules_text": "{B}, Sacrifice a creature: Mycoid Hive gets +2/+2 until end of turn. If the sacrificed creature was a Survivor, Mycoid Hive gains menace until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Mia Siergiejew",
             "notes": ""
         },
         {
@@ -1196,11 +1346,13 @@
             "color_identity": "B",
             "cost": "{B}{B}",
             "rules_text": "Remove all counters from target permanent. Then if that permanent is a creature, it gets -3/-3 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Wang Jie",
             "notes": ""
         },
         {
@@ -1212,11 +1364,13 @@
             "color_identity": "B",
             "cost": "{4}{B}",
             "rules_text": "Put target creature card from a graveyard onto the battlefield under your control. That creature is a Mutant in addition to its other types.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jim Brady",
             "notes": ""
         },
         {
@@ -1228,11 +1382,13 @@
             "color_identity": "B",
             "cost": "{1}{B}{B}",
             "rules_text": "All creatures with no counters on them get -2/-2 until end of turn.",
+            "flavor_text": "[i]Intestines exposed by violent thrusts.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Francesco Lorenzetti",
             "notes": ""
         },
         {
@@ -1244,11 +1400,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. If the chosen card had three or more creature types, each opponent mills three cards.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Faisal Al Ghassany",
             "notes": ""
         },
         {
@@ -1259,12 +1417,14 @@
             "number": 91,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
-            "rules_text": "Search your library for a card, put that card into your hand, then shuffle.\nImplant\u2014{2}{B}{B}, Pay 3 life [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "Search your library for a card, put that card into your hand, then shuffle.\nImplant\u2014{2}{B}{B}, Pay 3 life [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Todd Ulrich",
             "notes": ""
         },
         {
@@ -1276,11 +1436,13 @@
             "color_identity": "B",
             "cost": "{X}{B}{B}",
             "rules_text": "As an additional cost to cast this spell, remove any number of counters from among permanents you control. This spell costs {1} less to cast for each counter removed this way.\nExcarnate deals X damage to target player and you gain X life.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Cloxboy DerKlox",
             "notes": ""
         },
         {
@@ -1291,12 +1453,14 @@
             "number": 125,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Burning Viscera deals 2 damage to any target.\nImplant {3}{R} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "Burning Viscera deals 2 damage to any target.\nImplant {3}{R} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Rex Beck",
             "notes": ""
         },
         {
@@ -1307,12 +1471,14 @@
             "number": 140,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "This spell costs {1} less to cast if you\u2019ve cast another noncreature spell this turn.\nLymphatic Burst deals 4 damage to any target.",
+            "rules_text": "This spell costs {1} less to cast if you've cast another noncreature spell this turn.\nLymphatic Burst deals 4 damage to any target.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Juk Kuj",
             "notes": ""
         },
         {
@@ -1323,12 +1489,14 @@
             "number": 130,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. If you control a Mutant, Facility Breach deals 3 damage to that creature\u2019s owner.",
+            "rules_text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. If you control a Mutant, Facility Breach deals 3 damage to that creature's owner.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Justin Jean-Vernet",
             "notes": ""
         },
         {
@@ -1340,11 +1508,13 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Taste for Blood deals 1 damage to target opponent. Creatures you control get +2/+0 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Izabella Pudlowska",
             "notes": ""
         },
         {
@@ -1356,11 +1526,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Enchant creature you control.\nEnchanted creature is a 3/3 Mutant with trample.\nWhen enchanted creature dies, draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Isis Sangare",
             "notes": ""
         },
         {
@@ -1372,11 +1544,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Up to two target creatures each get +2/+1 until end of turn.",
+            "flavor_text": "[i]Triple-sealed airlock doors surround Ren's most volatile labs, with armed guards ready to terminate any experiment that gets out of hand.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jay Li",
             "notes": ""
         },
         {
@@ -1387,12 +1561,14 @@
             "number": 144,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Choose one \u2014\n\u2022 Destroy target artifact.\n\u2022 Up to two target creatures can\u2019t block this turn.",
+            "rules_text": "Choose one \u2014\n\u2022 Destroy target artifact.\n\u2022 Up to two target creatures can't block this turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Giulia Gentilini",
             "notes": ""
         },
         {
@@ -1403,12 +1579,14 @@
             "number": 160,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "Discard a card. If you do, draw a card.\nImplant {R} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "Discard a card. If you do, draw a card.\nImplant {R} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ivan Stan",
             "notes": ""
         },
         {
@@ -1419,12 +1597,14 @@
             "number": 123,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "{1}{R}: Diverge 2/1 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 2/1 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]\nAs long as Atavistic Snapper is a Mutant, it has first strike.",
+            "rules_text": "{1}{R}: Diverge 2/1 [i](If this creature isn't a Mutant, its base power and toughness become 2/1 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]\nAs long as Atavistic Snapper is a Mutant, it has first strike.",
+            "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Lorenzo Napoli",
             "notes": ""
         },
         {
@@ -1436,11 +1616,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Whenever you cast a noncreature spell, you may pay {1}. If you do, create a 1/1 colorless Survivor creature token.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Georgi Apostolov",
             "notes": ""
         },
         {
@@ -1451,12 +1633,14 @@
             "number": 136,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "{4}{R}{R}: Diverge 6/4 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 6/4 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]\nAs long as Host Vessel is a Mutant, noncreature spells you cast cost {1} less to cast.",
+            "rules_text": "{4}{R}{R}: Diverge 6/4 [i](If this creature isn't a Mutant, its base power and toughness become 6/4 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]\nAs long as Host Vessel is a Mutant, noncreature spells you cast cost {1} less to cast.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Mike Franchina",
             "notes": ""
         },
         {
@@ -1468,11 +1652,13 @@
             "color_identity": "R",
             "cost": "{4}{R}",
             "rules_text": "Whenever you sacrifice a permanent, Yawning Maw deals 2 damage to each opponent.",
+            "flavor_text": "[i]\u201cHey, where did he get that from?\u201d[/i]",
             "pt": "5/4",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Mike Franchina",
             "notes": ""
         },
         {
@@ -1484,11 +1670,13 @@
             "color_identity": "R",
             "cost": "{4}{R}",
             "rules_text": "Medulla Thrasher enters the battlefield with four +1/+1 counters on it.\n{1}, Remove two +1/+1 counters from Medulla Thrasher: Exile the top card of your library. You may play it this turn.",
+            "flavor_text": "[i]\u201cWe've bred it with an additional brain stem. It doesn't help the specimen, but sometimes we need a spare brain stem.\u201d[/i]",
             "pt": "0/0",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Mia Siergiejew",
             "notes": ""
         },
         {
@@ -1500,11 +1688,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "As an additional cost to cast this spell, remove any number of counters from among permanents you control.\nAcrid Spores deals X damage to each creature, where X is the number of counters removed to cast this spell.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "\nRoman Sachnow",
             "notes": ""
         },
         {
@@ -1516,11 +1706,13 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Gastric Expansion deals 2 damage to each non-Mutant creature.",
+            "flavor_text": "[i]Wanted: Volunteers for genetic experimentation. Must have the stomach for the job.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Maik Beiersdorf",
             "notes": ""
         },
         {
@@ -1532,11 +1724,13 @@
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "{1}, Sacrifice a permanent: Put a +1/+1 counter on equipped creature.\nEquip {1}",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Martin de Diego",
             "notes": ""
         },
         {
@@ -1548,11 +1742,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. That creature attacks this turn if able.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Niek Schlosser",
             "notes": ""
         },
         {
@@ -1564,11 +1760,13 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Return target instant or sorcery card from your graveyard to your hand. If that card has implant, Tissue Harvesting deals 2 damage to any target. Exile Tissue Harvesting.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Igor Vitkovskiy",
             "notes": ""
         },
         {
@@ -1579,12 +1777,14 @@
             "number": 186,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Target creature you control fights target creature you don\u2019t control.\nWhenever a creature enters the battlefield under your control, if it emerged, you may exile Parasitic Urge from your graveyard and copy it. You may cast the copy.",
+            "rules_text": "Target creature you control fights target creature you don't control.\nWhenever a creature enters the battlefield under your control, if it emerged, you may exile Parasitic Urge from your graveyard and copy it. You may cast the copy.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Graj Deanu",
             "notes": ""
         },
         {
@@ -1596,11 +1796,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Target creature gets +3/+3 until end of turn. If it has three or more creature types, it also gains trample until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jakub Bazyluk",
             "notes": ""
         },
         {
@@ -1612,11 +1814,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Target creature gains deathtouch and trample until end of turn. [i](A creature with deathtouch and trample can assign one point of damage to each blocker and the rest to the defending player or planeswalker.)[/i]",
+            "flavor_text": "[i]It's hard to survive when even your foe's blood can kill.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Occoultya",
             "notes": ""
         },
         {
@@ -1627,12 +1831,14 @@
             "number": 168,
             "color_identity": "G",
             "cost": "{G}",
-            "rules_text": "Look at the top three cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.\nImplant {G} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "Look at the top three cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.\nImplant {G} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jim Brady",
             "notes": ""
         },
         {
@@ -1644,11 +1850,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Target opponent sacrifices a creature with flying.",
+            "flavor_text": "[i]\u201cIf you hang back in the shadows, maybe the doctors won't pick you for the next test. But don't go too far into the dark, though. That's even worse.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Diana Franco",
             "notes": "!tag reprint"
         },
         {
@@ -1660,11 +1868,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Destroy up to one target artifact. Create a 1/1 colorless Survivor creature token.",
+            "flavor_text": "[i]A blinding flash ended the experiment. The subject had survived, but was fused bodily with the lab equipment\u2014equipment much less expendable than them.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ivan Khotenov",
             "notes": ""
         },
         {
@@ -1675,12 +1885,14 @@
             "number": 181,
             "color_identity": "G",
             "cost": "{G}",
-            "rules_text": "Trample, menace\n{7}{G}: Diverge 8/8 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 8/8 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "rules_text": "Trample, menace\n{7}{G}: Diverge 8/8 [i](If this creature isn't a Mutant, its base power and toughness become 8/8 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "David Bocquillon Carrasco",
             "notes": ""
         },
         {
@@ -1691,12 +1903,14 @@
             "number": 200,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Creatures you control with three or more creature types have trample.\n{3}{G}: Diverge 4/4 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 4/4 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "rules_text": "Creatures you control with three or more creature types have trample.\n{3}{G}: Diverge 4/4 [i](If this creature isn't a Mutant, its base power and toughness become 4/4 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jay Li",
             "notes": ""
         },
         {
@@ -1708,11 +1922,13 @@
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "When Mycoid Marrowsucker enters the battlefield, you may exile a creature card from your graveyard. When you do, put a +1/+1 counter on Mycoid Marrowsucker and you gain 2 life.",
+            "flavor_text": "[i]Sush Kur's fungal program began with a single spore, and has grown beyond her greatest expectations.[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Evgeny Ostapets",
             "notes": ""
         },
         {
@@ -1724,11 +1940,13 @@
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "{T}: For each creature you control, choose one of its creature types not already chosen. Add an amount of {G} equal to the number of types chosen this way.",
+            "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jean-Baptiste Reynaud",
             "notes": ""
         },
         {
@@ -1739,12 +1957,14 @@
             "number": 178,
             "color_identity": "G",
             "cost": "{4}{G}",
-            "rules_text": "Reach\nEmerge {5}{G}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]\nWhen Grafted Centipede enters the battlefield, if it emerged, destroy target creature with flying.",
+            "rules_text": "Reach\nEmerge {5}{G}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]\nWhen Grafted Centipede enters the battlefield, if it emerged, destroy target creature with flying.",
+            "flavor_text": "[i][/i]",
             "pt": "5/4",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ivan Stan",
             "notes": ""
         },
         {
@@ -1756,11 +1976,13 @@
             "color_identity": "G",
             "cost": "{4}{G}{G}",
             "rules_text": "Trample\nWhen Exponential Ravager enters the battlefield, you may sacrifice any number of creatures. Put X +1/+1 counters on Exponential Ravager, where X is the total power of creatures sacrificed this way.",
+            "flavor_text": "[i][/i]",
             "pt": "6/6",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Diana Franco",
             "notes": ""
         },
         {
@@ -1771,12 +1993,14 @@
             "number": 197,
             "color_identity": "G",
             "cost": "{X}{G}",
-            "rules_text": "Emerge {X}{G}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]\nSynthetic Hulk enters the battlefield with X +1/+1 counters on it.",
+            "rules_text": "Emerge {X}{G}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]\nSynthetic Hulk enters the battlefield with X +1/+1 counters on it.",
+            "flavor_text": "[i][/i]",
             "pt": "0/0",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Esuthio",
             "notes": ""
         },
         {
@@ -1787,12 +2011,14 @@
             "number": 165,
             "color_identity": "G",
             "cost": "{7}{G}{G}",
-            "rules_text": "Trample\nEmerge {9}{G}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]\nYou may sacrifice up to two creatures to pay Apex Experiment\u2019s emerge cost.",
+            "rules_text": "Trample\nEmerge {9}{G}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]\nYou may sacrifice up to two creatures to pay Apex Experiment's emerge cost.",
+            "flavor_text": "[i][/i]",
             "pt": "10/10",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Victor Ferraz",
             "notes": ""
         },
         {
@@ -1804,11 +2030,13 @@
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "You may reveal a land card you own from outside the game and put it onto the battlefield tapped.",
+            "flavor_text": "[i]Aeons had passed since Ukarth Ren had known the multiverse. Would he have a home to return to, or would he need to shape yet another world anew?[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Markus Brackelmann",
             "notes": ""
         },
         {
@@ -1820,11 +2048,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "{1}, Sacrifice a creature: Put a +1/+1 counter on target creature you control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Richard Abderson",
             "notes": ""
         },
         {
@@ -1836,11 +2066,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Target creature gets +1/+1 and gains reach until end of turn. Untap it.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Pedro H. Cardoso",
             "notes": ""
         },
         {
@@ -1851,12 +2083,14 @@
             "number": 184,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Return target permanent card from your graveyard to your hand.\nImplant {2}{G} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "Return target permanent card from your graveyard to your hand.\nImplant {2}{G} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ted Arfken",
             "notes": ""
         },
         {
@@ -1868,11 +2102,13 @@
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "Equipped creature gets +2/-1.\nEquip {1}",
+            "flavor_text": "[i]None will ever see them fall ... like everlasting shadows.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Maciej Laszkiewicz",
             "notes": ""
         },
         {
@@ -1883,12 +2119,14 @@
             "number": 237,
             "color_identity": "C",
             "cost": "{6}",
-            "rules_text": "Trample\nEmerge {8} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]",
+            "rules_text": "Trample\nEmerge {8} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]",
+            "flavor_text": "[i]What goes in must come out.[/i]",
             "pt": "5/5",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jenaro Pagan",
             "notes": ""
         },
         {
@@ -1900,11 +2138,13 @@
             "color_identity": "C",
             "cost": "{0}",
             "rules_text": "{T}, Exile a creature card from your graveyard, sacrifice Specimen Jars: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Chris Doretz",
             "notes": ""
         },
         {
@@ -1916,11 +2156,13 @@
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "{T}: Add {C}.\n{T}: Add two mana in any combination of colors. Spend this mana only to activate diverge abilities or to cast a creature spell for its emerge cost.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Domenico Cava",
             "notes": ""
         },
         {
@@ -1932,11 +2174,13 @@
             "color_identity": "B",
             "cost": "",
             "rules_text": "Dissection Theater enters the battlefield tapped.\n{T}: Add {B}.\n{2}{B}, Sacrifice a Laboratory: Return target creature card from your graveyard to your hand.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Yona Lee",
             "notes": ""
         },
         {
@@ -1948,11 +2192,13 @@
             "color_identity": "R",
             "cost": "",
             "rules_text": "Waste Recycling enters the battlefield tapped.\n{T}: Add {R}.\n{2}{R}, Sacrifice a Laboratory: Waste Recycling deals 2 damage to each opponent.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Marina Ortega",
             "notes": ""
         },
         {
@@ -1964,11 +2210,13 @@
             "color_identity": "U",
             "cost": "",
             "rules_text": "Specimen Chamber enters the battlefield tapped.\n{T}: Add {U}.\n{2}{U}, Sacrifice a Laboratory: Target player mills six cards.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Sergey Vasnev",
             "notes": ""
         },
         {
@@ -1980,11 +2228,13 @@
             "color_identity": "W",
             "cost": "",
             "rules_text": "Research Mainframe enters the battlefield tapped.\n{T}: Add {W}.\n{2}{W}, Sacrifice a Laboratory: Target creature you control gains indestructible until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Sebastian Wagner",
             "notes": ""
         },
         {
@@ -1996,11 +2246,13 @@
             "color_identity": "G",
             "cost": "",
             "rules_text": "Biology Department enters the battlefield tapped.\n{T}: Add {G}.\n{2}{G}, Sacrifice a Laboratory: Create a tapped 3/2 green Mutant creature token.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "S Leon N",
             "notes": ""
         },
         {
@@ -2012,11 +2264,13 @@
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Whenever you sacrifice Test Subject, you may search your library for a card named Test Subject, reveal it, put it into your hand, then shuffle.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Veronika Kozlova",
             "notes": ""
         },
         {
@@ -2027,12 +2281,14 @@
             "number": 142,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "Reach\nEmerge {4}{R}{R} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]\nWhen Many Hands enters the battlefield, if it emerged, it deals 3 damage to target creature.",
+            "rules_text": "Reach\nEmerge {4}{R}{R} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]\nWhen Many Hands enters the battlefield, if it emerged, it deals 3 damage to target creature.",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Grigor Georgiev",
             "notes": ""
         },
         {
@@ -2044,11 +2300,13 @@
             "color_identity": "BG",
             "cost": "{2}{B}{G}",
             "rules_text": "Creature cards in your hand have emerge. Their emerge cost is equal to {2} plus their mana cost. [i](For example, a creature card with mana cost {3}{B}{B}{G} would have emerge {5}{B}{B}{G})[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/9",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jaehyeon Lee",
             "notes": ""
         },
         {
@@ -2059,12 +2317,14 @@
             "number": 53,
             "color_identity": "U",
             "cost": "{3}{U}",
-            "rules_text": "Whenever Feral Remnants becomes the target of a spell or ability you control, tap target creature an opponent controls. That creature doesn\u2019t untap during its controller\u2019s next untap step.",
+            "rules_text": "Whenever Feral Remnants becomes the target of a spell or ability you control, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.",
+            "flavor_text": "[i][/i]",
             "pt": "2/4",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Omid Goudarzi",
             "notes": ""
         },
         {
@@ -2076,11 +2336,13 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Target creature gets -2/-2 until end of turn. Create a 1/1 colorless Survivor creature token.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Maxence Burgel",
             "notes": "body horror"
         },
         {
@@ -2092,11 +2354,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "When Enhanced Skeleton enters the battlefield, attach it to target creature you control.\nEquipped creature gets +1/+1. If it has three or more creature types, it gets an additional +1/+1.\nEquip {3}",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Katerina Ladon",
             "notes": ""
         },
         {
@@ -2108,11 +2372,13 @@
             "color_identity": "C",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "token",
             "set": "XSK",
             "loyalty": "",
+            "artist": "David Hartman",
             "notes": ""
         },
         {
@@ -2124,11 +2390,13 @@
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "When Cystic Piper enters the battlefield, target player mills four cards.",
+            "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "John Chen",
             "notes": ""
         },
         {
@@ -2140,11 +2408,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Destroy target creature if its power is greater than its toughness.",
+            "flavor_text": "[i]\u201cThis might hurt a little.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Bo Chen",
             "notes": ""
         },
         {
@@ -2155,12 +2425,14 @@
             "number": 20,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "Put a +1/+1 counter on target creature.\nImplant {W} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "Put a +1/+1 counter on target creature.\nImplant {W} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ilya Nazarov",
             "notes": ""
         },
         {
@@ -2172,11 +2444,13 @@
             "color_identity": "C",
             "cost": "{0}",
             "rules_text": "Equipped creature gets +1/+0.\nEquip {1}",
+            "flavor_text": "[i]\u201cPass me old trusty rusty.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Indar Gunawan",
             "notes": "!tag reprint"
         },
         {
@@ -2188,11 +2462,13 @@
             "color_identity": "B",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "*/*",
             "special_text": "",
             "shape": "token",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Rogier van de Beek",
             "notes": ""
         },
         {
@@ -2204,11 +2480,13 @@
             "color_identity": "WUBRG",
             "cost": "",
             "rules_text": "{W}{U} ENHANCEMENT Target your own creatures to create the perfect specimen.\n{U}{B} MILL The mind is a wonderful thing to waste.\n{B}{R} COUNTERS Experiment on your victims with additional counters.\n{R}{G} SACRIFICE Science demands a heavy price sometimes. Let others pay it.\n{G}{W} IMPLANT Graft strange new abilities onto your creatures.\n{W}{B} GRAVEYARD Not all specimens survive. But all of them serve a purpose.\n{B}{G} EMERGE Use creatures to fuel bigger monsters as the game goes on.\n{G}{U} SPECIATION Embrace variety and be rewarded for multiple creature types.\n{U}{R} MUTANTS Born or created, gather your mutant coterie and thrive.\n{R}{W} SPELLS Some subjects respond well to stimulus. Cast spells and find out.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "token",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Bassem Khaled",
             "notes": ""
         },
         {
@@ -2219,12 +2497,14 @@
             "number": 238,
             "color_identity": "C",
             "cost": "{3}",
-            "rules_text": "Whenever a creature you control enters the battlefield or diverges, note one of its creature types that hasn\u2019t been noted for Research Notes.\n{3}, {T}: Scry X, where X is the number of creature types noted for Research Notes, then draw a card.",
+            "rules_text": "Whenever a creature you control enters the battlefield or diverges, note one of its creature types that hasn't been noted for Research Notes.\n{3}, {T}: Scry X, where X is the number of creature types noted for Research Notes, then draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Marco Wulfr",
             "notes": ""
         },
         {
@@ -2236,11 +2516,13 @@
             "color_identity": "WB",
             "cost": "{W}{B}",
             "rules_text": "Target player loses X life and you gain twice X life, where X is the number of card types among cards in your graveyard.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Yehven Cherenkov",
             "notes": ""
         },
         {
@@ -2252,11 +2534,13 @@
             "color_identity": "RG",
             "cost": "{R}{G}",
             "rules_text": "Whenever you sacrifice a permanent, exile it.\n{2}{R}{G}, {T}, Exile Containment Pod: Containment Pod deals damage to target opponent equal to the number of cards exiled with it. Choose one of those cards at random and put it into your hand.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Anna Petit",
             "notes": ""
         },
         {
@@ -2268,11 +2552,13 @@
             "color_identity": "UB",
             "cost": "{2}{U}{B}",
             "rules_text": "{T}: For each creature you control, choose one of its creature types not already chosen. Target player mills X cards, where X is the number of types chosen this way. You may activate this ability as though Flayed Chorus had haste.",
+            "flavor_text": "[i][/i]",
             "pt": "2/5",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Antonin Herelle",
             "notes": ""
         },
         {
@@ -2284,11 +2570,13 @@
             "color_identity": "WU",
             "cost": "{1}{W}{U}",
             "rules_text": "Flying\nWhenever Grafted Glider becomes the target of a spell or ability you control, you may tap or untap target permanent.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Michael Brandstatter",
             "notes": ""
         },
         {
@@ -2300,11 +2588,13 @@
             "color_identity": "UG",
             "cost": "{G}{U}",
             "rules_text": "Each creature you control with three or more creature types gets +1/+1 and has trample.\n{G}{U}: Choose a creature type. Until end of turn, other creatures you control become that type in addition to their other types.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ivan Stan",
             "notes": ""
         },
         {
@@ -2316,11 +2606,13 @@
             "color_identity": "UR",
             "cost": "{U}{R}",
             "rules_text": "Diverge abilities you activate cost {1} less to activate.\nMutants you control get +1/+1.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ivan Martinez",
             "notes": ""
         },
         {
@@ -2332,11 +2624,13 @@
             "color_identity": "WG",
             "cost": "{G}{W}",
             "rules_text": "Trample\nWhenever a creature enters the battlefield under you control, if a spell was implanted into it, put two +1/+1 counters on Old Boneless.",
+            "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Peter Ocampo",
             "notes": ""
         },
         {
@@ -2348,11 +2642,13 @@
             "color_identity": "BR",
             "cost": "{1}{B}{R}",
             "rules_text": "Whenever a nontoken creature you control dies, if it had counters on it, create an X/X black Germ creature token, where X is the number of counters on that creature.\n{BR}, Sacrifice a Germ: Put a +1/+1 counter on Patient Zero.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Moises Castellanos",
             "notes": ""
         },
         {
@@ -2363,12 +2659,14 @@
             "number": 223,
             "color_identity": "BG",
             "cost": "{B}{G}",
-            "rules_text": "Emerge {3}{B}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]\nWhen Reassembled Semblance enters the battlefield, if it emerged, return target creature card from your graveyard to your hand.",
+            "rules_text": "Emerge {3}{B}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]\nWhen Reassembled Semblance enters the battlefield, if it emerged, return target creature card from your graveyard to your hand.",
+            "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ivan Stan",
             "notes": ""
         },
         {
@@ -2379,12 +2677,14 @@
             "number": 224,
             "color_identity": "WU",
             "cost": "{W}{U}",
-            "rules_text": "You may pay {X} rather than pay the mana cost for spells you cast that target exactly one creature you control, where X is that spell\u2019s mana value.",
+            "rules_text": "You may pay {X} rather than pay the mana cost for spells you cast that target exactly one creature you control, where X is that spell's mana value.",
+            "flavor_text": "[i][/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Tooth Wu",
             "notes": "body horror"
         },
         {
@@ -2396,11 +2696,13 @@
             "color_identity": "WR",
             "cost": "{R}{W}",
             "rules_text": "Whenever you cast a noncreature spell, untap Unstable Outcast.\n{T}: Unstable Outcast deals 1 damage to each opponent and you gain 1 life.",
+            "flavor_text": "[i]Skinless. Faceless. Merciless.[/i]",
             "pt": "0/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Sebastian Barth",
             "notes": ""
         },
         {
@@ -2412,11 +2714,13 @@
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "As an additional cost to cast this spell, sacrifice a creature.\nDraw three cards.",
+            "flavor_text": "[i]No pain, no dignity, no life is spared in Ren's quest to create a new planeswalker spark.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "J\u00falio Rocha",
             "notes": "!tag reprint"
         },
         {
@@ -2428,11 +2732,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Scry 1, then draw a card. If you control a creature with three or more creature types, instead scry 3, then draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Neal Biggs",
             "notes": ""
         },
         {
@@ -2443,12 +2749,14 @@
             "number": 52,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "{4}{U}: Diverge 4/4 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 4/4 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "rules_text": "{4}{U}: Diverge 4/4 [i](If this creature isn't a Mutant, its base power and toughness become 4/4 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Oleg Bulakh",
             "notes": "body horror"
         },
         {
@@ -2459,12 +2767,14 @@
             "number": 108,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "{3}{B}: Diverge 3/3 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 3/3 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]\nAs long as Penitent Gorger is a Mutant, it has lifelink.",
+            "rules_text": "{3}{B}: Diverge 3/3 [i](If this creature isn't a Mutant, its base power and toughness become 3/3 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]\nAs long as Penitent Gorger is a Mutant, it has lifelink.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jakub Bazyluk",
             "notes": ""
         },
         {
@@ -2476,11 +2786,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Rupture Fiend enters the battlefield with either a +1/+1 counter or a menace counter on it chosen at random.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jean-Baptiste Chuat",
             "notes": ""
         },
         {
@@ -2492,11 +2804,13 @@
             "color_identity": "R",
             "cost": "{3}{R}",
             "rules_text": "Puncture Fiend enters the battlefield with either a +1/+1 counter or a haste counter on it chosen at random.",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Nivanh Chanthara",
             "notes": ""
         },
         {
@@ -2507,12 +2821,14 @@
             "number": 193,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Emerge {4}{G}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]\nWhen Skinless Seer enters the battlefield, if it emerged, destroy target artifact or enchantment.",
+            "rules_text": "Emerge {4}{G}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]\nWhen Skinless Seer enters the battlefield, if it emerged, destroy target artifact or enchantment.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Adam Duff",
             "notes": ""
         },
         {
@@ -2523,12 +2839,14 @@
             "number": 194,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Trample\n{3}{G}{G}: Diverge 5/5 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 5/5 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "rules_text": "Trample\n{3}{G}{G}: Diverge 5/5 [i](If this creature isn't a Mutant, its base power and toughness become 5/5 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Todd Ulrich",
             "notes": ""
         },
         {
@@ -2539,12 +2857,14 @@
             "number": 175,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "You may put a land card from your hand onto the battlefield tapped.\nImplant {1}{G} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "You may put a land card from your hand onto the battlefield tapped.\nImplant {1}{G} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Sebastian Barth",
             "notes": ""
         },
         {
@@ -2556,11 +2876,13 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Ardent Experimenter enters the battlefield with a +1/+1 counter on it as long as a player has seven or more cards in their graveyard.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Andre Artefact",
             "notes": ""
         },
         {
@@ -2572,11 +2894,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Flying\nWhenever Hapless Hybrid becomes the target of a spell or ability you control, target player mills two cards.",
+            "flavor_text": "[i]Its desperate buzzing is close enough to speech to drive listeners mad searching for meaning.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Calvin Chua",
             "notes": ""
         },
         {
@@ -2588,11 +2912,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Twisted Shambler has trample as long as it has a counter on it.\n{1}, Sacrifice another creature: Put a +1/+1 counter on Twisted Shambler.",
+            "flavor_text": "[i]\u201cThis one has broken. Bring me another.\u201d\n\u2014Vitho Baun, master splicer[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Santiago Betancur",
             "notes": ""
         },
         {
@@ -2604,11 +2930,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "{1}{G}, Sacrifice Fruiting Body: Return target non-Fungus creature card or card with implant from your graveyard to your hand.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Thomas Bignon",
             "notes": ""
         },
         {
@@ -2620,11 +2948,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Whenever you sacrifice Xylosynthetic Husk, create a 1/1 colorless Survivor creature token.",
+            "flavor_text": "[i]\u201cIs Subject 1105 still alive?\u201d\n\u201cUm ... sort of.\u201d[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ivan Christabel",
             "notes": ""
         },
         {
@@ -2636,11 +2966,13 @@
             "color_identity": "R",
             "cost": "{3}{R}",
             "rules_text": "When Infected Insurrectionist enters the battlefield, return an instant or sorcery card at random from your graveyard to your hand.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Camille Bachmann",
             "notes": ""
         },
         {
@@ -2652,11 +2984,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "As long there are seven or more cards in your graveyard, you may cast this spell as though it had flash.\nCreate two 1/1 colorless Survivor creature tokens.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ivan Khotenov",
             "notes": ""
         },
         {
@@ -2667,12 +3001,14 @@
             "number": 62,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Flash\n{4}{U}: Diverge 3/6 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 3/6 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "rules_text": "Flash\n{4}{U}: Diverge 3/6 [i](If this creature isn't a Mutant, its base power and toughness become 3/6 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Fily Dembele",
             "notes": ""
         },
         {
@@ -2684,11 +3020,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Target player mills three cards, then you return up to two creature cards from your graveyard to your hand.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Yashaswi Karthik",
             "notes": ""
         },
         {
@@ -2699,12 +3037,14 @@
             "number": 75,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Exile target creature, then return it to the battlefield under its owner\u2019s control.",
+            "rules_text": "Exile target creature, then return it to the battlefield under its owner's control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ed Soolia",
             "notes": ""
         },
         {
@@ -2716,11 +3056,13 @@
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Enchant creature\nEnchanted creature gets +1/+1 and has vigilance.\nYou may cast this spell from your graveyard by exiling two other cards from your graveyard in addition to paying its other costs.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Katerina Ladon",
             "notes": ""
         },
         {
@@ -2732,11 +3074,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "As an additional cost to cast this spell, reveal a noncreature, nonland card from your hand or pay {3}.",
+            "flavor_text": "[i]\u201cWe only have a few frames of surveillance to go on. Any witnesses seem to have been digested.\u201d[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Vladimir Matyukhin",
             "notes": ""
         },
         {
@@ -2748,11 +3092,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Flying\nWhenever you cast a noncreature spell, Proof of Concept gets +1/+1 until end of turn. If that spell targets Proof of Concept, instead put a +1/+1 counter on Proof of Concept.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Dirk Wachsmuth",
             "notes": ""
         },
         {
@@ -2763,12 +3109,14 @@
             "number": 30,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "Return target creature card with mana value 3 or less from your graveyard to your hand.\nImplant {1}{W} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "Return target creature card with mana value 3 or less from your graveyard to your hand.\nImplant {1}{W} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Michael Katchan",
             "notes": ""
         },
         {
@@ -2779,12 +3127,14 @@
             "number": 96,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "If Expendable Captive is sacrificed to pay for a creature spell\u2019s emerge cost, that creature enters the battlefield with an additional +1/+1 counter on it.",
+            "rules_text": "If Expendable Captive is sacrificed to pay for a creature spell's emerge cost, that creature enters the battlefield with an additional +1/+1 counter on it.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Wang Jie",
             "notes": ""
         },
         {
@@ -2796,11 +3146,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Larval Hybrid enters the battlefield with two +1/+1 counters on it.\n{1}, Remove a +1/+1 counter from Larval Hybrid: Target player mills three cards.",
+            "flavor_text": "[i][/i]",
             "pt": "0/0",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Tobias Eckerlin",
             "notes": ""
         },
         {
@@ -2811,12 +3163,14 @@
             "number": 116,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Emerge {5}{B} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]\nWhen Sinewed Evangel enters the battlefield, if it emerged, target player mills two cards and loses 2 life.",
+            "rules_text": "Emerge {5}{B} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]\nWhen Sinewed Evangel enters the battlefield, if it emerged, target player mills two cards and loses 2 life.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Carl Johan B\u00e4ckman",
             "notes": ""
         },
         {
@@ -2828,11 +3182,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Target player reveals X cards from their hand, where X is 1 plus the number of card types among cards in all graveyards. You choose one of those cards. That player discards that card.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ga\u00e9tan Weltzer",
             "notes": ""
         },
         {
@@ -2844,11 +3200,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Until end of turn, target creature becomes a 4/4 blue Human Jellyfish Mutant and gains hexproof.",
+            "flavor_text": "[i]\u201cHmm. Needs more dog.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Zi Hao Z",
             "notes": ""
         },
         {
@@ -2860,11 +3218,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Choose one. If you control a creature with three or more creature types as you cast this spell, you may choose both.\n\u2022 Draw two cards, then discard a card.\n\u2022 Target player mills five cards.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jeremy Jozwik",
             "notes": ""
         },
         {
@@ -2876,11 +3236,13 @@
             "color_identity": "UB",
             "cost": "{1}{U}{B}",
             "rules_text": "Target opponent reveals cards from the top of their library until three creature cards are revealed. That player puts all cards revealed this way into their graveyard.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Wang Jie",
             "notes": ""
         },
         {
@@ -2891,12 +3253,14 @@
             "number": 87,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "{3}{B}{B}: Diverge 5/5 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 5/5 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "rules_text": "{3}{B}{B}: Diverge 5/5 [i](If this creature isn't a Mutant, its base power and toughness become 5/5 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Petra Ramesov\u00e1",
             "notes": ""
         },
         {
@@ -2908,11 +3272,13 @@
             "color_identity": "C",
             "cost": "",
             "rules_text": "[i]You can mark a creature that has diverged with this reminder card[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "token",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jacob Hlavsa",
             "notes": ""
         },
         {
@@ -2924,11 +3290,13 @@
             "color_identity": "G",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "token",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jacob Hlavsa",
             "notes": ""
         },
         {
@@ -2939,12 +3307,14 @@
             "number": 179,
             "color_identity": "G",
             "cost": "{G}",
-            "rules_text": "Exile target creature card from a graveyard. When you do, create a 1/1 green Fungus Insect Mutant creature token.\nImplant {G} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "Exile target creature card from a graveyard. When you do, create a 1/1 green Fungus Insect Mutant creature token.\nImplant {G} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Monika Eidintaite",
             "notes": ""
         },
         {
@@ -2955,12 +3325,14 @@
             "number": 183,
             "color_identity": "G",
             "cost": "{3}{G}",
-            "rules_text": "Emerge {6}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]",
+            "rules_text": "Emerge {6}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]",
+            "flavor_text": "[i]In the darkest dungeons, far from the light, a thousand sporecaps bow their heads in reverence.[/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Roman Sachnow",
             "notes": ""
         },
         {
@@ -2971,12 +3343,14 @@
             "number": 163,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "When Allele Grafter enters the battlefield, return another creature you control to its owner\u2019s hand. If that creature had three or more creature types, put a +1/+1 counter on Allele Grafter.",
+            "rules_text": "When Allele Grafter enters the battlefield, return another creature you control to its owner's hand. If that creature had three or more creature types, put a +1/+1 counter on Allele Grafter.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "JB Casacop",
             "notes": ""
         },
         {
@@ -2988,11 +3362,13 @@
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "As an additional cost to cast this spell, sacrifice a creature.\nExile the top two cards of your library. Until the end of your next turn, you may play those cards.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Tim Guo",
             "notes": ""
         },
         {
@@ -3004,11 +3380,13 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Whenever you cast a noncreature spell, put a +1/+1 counter on Grim Parazoan.",
+            "flavor_text": "[i]Some depths should not be plumbed.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Carlo Spagnola",
             "notes": ""
         },
         {
@@ -3020,11 +3398,13 @@
             "color_identity": "R",
             "cost": "{3}{R}",
             "rules_text": "{T}, Sacrifice a creature: Voracious Specimen deals 2 damage to each opponent. If the sacrificed creature was a Mutant, Voracious Specimen deals 3 damage to each opponent instead.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Russell Dongjun Lu",
             "notes": ""
         },
         {
@@ -3036,11 +3416,13 @@
             "color_identity": "W",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Rebecca Hu",
             "notes": ""
         },
         {
@@ -3052,11 +3434,13 @@
             "color_identity": "U",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Tarmo Juhola",
             "notes": ""
         },
         {
@@ -3068,11 +3452,13 @@
             "color_identity": "B",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "DOFRESH",
             "notes": ""
         },
         {
@@ -3084,11 +3470,13 @@
             "color_identity": "R",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Aleksander Rostov",
             "notes": ""
         },
         {
@@ -3100,11 +3488,13 @@
             "color_identity": "G",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Rebecca Hu",
             "notes": ""
         },
         {
@@ -3116,11 +3506,13 @@
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell with at least one creature type not found among creatures you control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Xenia Taufertsh\u00f6fer",
             "notes": ""
         },
         {
@@ -3132,11 +3524,13 @@
             "color_identity": "G",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "token",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Asya Yordanova",
             "notes": ""
         },
         {
@@ -3147,12 +3541,14 @@
             "number": 251,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "When Surgeon\u2019s Slab enters the battlefield, each opponent loses 1 life.\n{T}: Add {C}.",
+            "rules_text": "When Surgeon's Slab enters the battlefield, each opponent loses 1 life.\n{T}: Add {C}.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Piotr Bystry",
             "notes": ""
         },
         {
@@ -3163,12 +3559,14 @@
             "number": 150,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Choose target creature you control and target creature you don\u2019t control. The creature you control gets +1/+1 until end of turn for each counter on it. Then those creatures fight each other.",
+            "rules_text": "Choose target creature you control and target creature you don't control. The creature you control gets +1/+1 until end of turn for each counter on it. Then those creatures fight each other.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Serge Minhulin",
             "notes": "REPRINT (from QYR)"
         },
         {
@@ -3179,12 +3577,14 @@
             "number": 73,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "{3}{U}{U}: Diverge 4/4 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 4/4 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]\nWhen Sightless Shambler diverges, exile target instant or sorcery card from your graveyard. Copy that card. You may cast the copy without paying its mana cost.",
+            "rules_text": "{3}{U}{U}: Diverge 4/4 [i](If this creature isn't a Mutant, its base power and toughness become 4/4 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]\nWhen Sightless Shambler diverges, exile target instant or sorcery card from your graveyard. Copy that card. You may cast the copy without paying its mana cost.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "David Fesl",
             "notes": ""
         },
         {
@@ -3195,12 +3595,14 @@
             "number": 114,
             "color_identity": "B",
             "cost": "{5}{B}",
-            "rules_text": "Exile target creature or planeswalker. Search its controller\u2019s graveyard, hand, and library for all cards with the same name as that permanent and exile them. Then that player shuffles.",
+            "rules_text": "Exile target creature or planeswalker. Search its controller's graveyard, hand, and library for all cards with the same name as that permanent and exile them. Then that player shuffles.",
+            "flavor_text": "[i]At last, Ren's research reclaimed that which he had lost.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Bassem Khaled",
             "notes": ""
         },
         {
@@ -3211,12 +3613,14 @@
             "number": 154,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "{X}{R}: Diverge 1/1 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 1/1 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]\nWhen Telomere Charger diverges, it gets +X/+0 and gains trample until end of turn.",
+            "rules_text": "{X}{R}: Diverge 1/1 [i](If this creature isn't a Mutant, its base power and toughness become 1/1 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]\nWhen Telomere Charger diverges, it gets +X/+0 and gains trample until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Mike Franchina",
             "notes": ""
         },
         {
@@ -3228,11 +3632,13 @@
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "If a permanent you control being put into a graveyard from the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+            "flavor_text": "[i]Born of no mortal womb; bred from forbidden flesh.[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Santiago Betancur",
             "notes": ""
         },
         {
@@ -3244,11 +3650,13 @@
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Choose a creature type from among creatures on the battlefield. Each player who controls a creature of the chosen type draws a card. Then destroy all creatures.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "David Bocquillon Carrasco",
             "notes": ""
         },
         {
@@ -3259,12 +3667,14 @@
             "number": 74,
             "color_identity": "U",
             "cost": "{4}{U}{U}{U}",
-            "rules_text": "Flying\nWhenever Sonorous Cetacean becomes the target of a spell or ability you control, you may return target nonland permanent to its owner\u2019s hand.",
+            "rules_text": "Flying\nWhenever Sonorous Cetacean becomes the target of a spell or ability you control, you may return target nonland permanent to its owner's hand.",
+            "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Marcel Freyer",
             "notes": ""
         },
         {
@@ -3275,12 +3685,14 @@
             "number": 97,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Whenever a creature enters the battlefield under you control, if it emerged and if Experimental Overseer wasn\u2019t sacrificed to pay its emerge cost, you may return Experimental Overseer from your graveyard to the battlefield tapped.",
+            "rules_text": "Whenever a creature enters the battlefield under you control, if it emerged and if Experimental Overseer wasn't sacrificed to pay its emerge cost, you may return Experimental Overseer from your graveyard to the battlefield tapped.",
+            "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Huleeb",
             "notes": ""
         },
         {
@@ -3292,11 +3704,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "For each creature you control, choose one of its creature types not already chosen. Eruption of Flesh deals damage to any target equal to the number of types chosen this way.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Tobias Frank",
             "notes": ""
         },
         {
@@ -3308,11 +3722,13 @@
             "color_identity": "W",
             "cost": "{W}{W}",
             "rules_text": "If one or more counters would be put on a creature or planeswalker you control, that many plus one of each of those kinds of counters are put on that permanent instead.",
+            "flavor_text": "[i]Something more than animal cunning lurked in Specimen Alpha's movements. Ren knew what the beast did not\u2014he had his prize.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Stefan Kopinski",
             "notes": ""
         },
         {
@@ -3324,11 +3740,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Enchant creature\nEnchanted creature gets +X/+X, where X is the number of creatures you control.\n{3}{W}: Return Aspect of Exaptation from your graveyard to your hand. Activate only if you control three or more creatures.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Chris Kotiesen",
             "notes": ""
         },
         {
@@ -3339,12 +3757,14 @@
             "number": 69,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Each opponent mills cards until that player has milled a creature card, a land card, and a noncreature, nonland card.\nImplant {3}{U}{U} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "Each opponent mills cards until that player has milled a creature card, a land card, and a noncreature, nonland card.\nImplant {3}{U}{U} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Stefan Kopinski",
             "notes": ""
         },
         {
@@ -3355,12 +3775,14 @@
             "number": 112,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
-            "rules_text": "Look at the top seven cards of target opponent\u2019s library, exile one of them face down, then put the rest on the bottom of that library in a random order. You may look at and cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.",
+            "rules_text": "Look at the top seven cards of target opponent's library, exile one of them face down, then put the rest on the bottom of that library in a random order. You may look at and cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Veronika Kozlova",
             "notes": ""
         },
         {
@@ -3372,11 +3794,13 @@
             "color_identity": "G",
             "cost": "{X}{G}{G}",
             "rules_text": "Fossil Record costs {1} less to cast for each creature you control with three or more creature types.\nSearch your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Erick Altensleben",
             "notes": ""
         },
         {
@@ -3387,12 +3811,14 @@
             "number": 36,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "Return target nonland permanent card with mana value 1 or less from your graveyard to the battlefield. \nImplant {W}{W} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "Return target nonland permanent card with mana value 1 or less from your graveyard to the battlefield. \nImplant {W}{W} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Derek Jones",
             "notes": ""
         },
         {
@@ -3403,12 +3829,14 @@
             "number": 70,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "{2}{U}{U}: Diverge 1/1 [i](If this creature isn\u2019t a Mutant, its base power and toughness become 1/1 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]\nYou may look at the top card of your library any time.\nYou may cast spells from the top of your library as long as Self-Experimenter is a Mutant.",
+            "rules_text": "{2}{U}{U}: Diverge 1/1 [i](If this creature isn't a Mutant, its base power and toughness become 1/1 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]\nYou may look at the top card of your library any time.\nYou may cast spells from the top of your library as long as Self-Experimenter is a Mutant.",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Benny Kusnoto",
             "notes": ""
         },
         {
@@ -3420,11 +3848,13 @@
             "color_identity": "R",
             "cost": "{R}{R}",
             "rules_text": "At the beginning of combat on your turn, put a +1/+1 counter on another target creature you control.\nCreatures you control with counters on them have haste.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Matt Millard",
             "notes": ""
         },
         {
@@ -3435,12 +3865,14 @@
             "number": 164,
             "color_identity": "G",
             "cost": "{3}{G}{G}",
-            "rules_text": "Double the power and toughness of each creature you control until end of turn.\nImplant {2}{G}{G}{G}{G} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "Double the power and toughness of each creature you control until end of turn.\nImplant {2}{G}{G}{G}{G} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ioan Dumitrescu",
             "notes": ""
         },
         {
@@ -3451,12 +3883,14 @@
             "number": 212,
             "color_identity": "WB",
             "cost": "{W}{B}",
-            "rules_text": "As long as Hashua, Security Chief is untapped, players can\u2019t cast noncreature spells with mana value greater than the number of lands you control.",
+            "rules_text": "As long as Hashua, Security Chief is untapped, players can't cast noncreature spells with mana value greater than the number of lands you control.",
+            "flavor_text": "[i]\u201cWatch your mouth, scientist. I'm the thin line that stands between you succeeding and you being tomorrow's gruel.\u201d[/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Christophe Young",
             "notes": ""
         },
         {
@@ -3468,11 +3902,13 @@
             "color_identity": "WR",
             "cost": "{R}{W}",
             "rules_text": "Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn. If this is the third time this ability has triggered this turn, creatures you control gain haste and vigilance until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jonas Petrauskas",
             "notes": ""
         },
         {
@@ -3483,12 +3919,14 @@
             "number": 226,
             "color_identity": "WG",
             "cost": "{X}{G}{W}",
-            "rules_text": "Create X 1/1 colorless Survivor creature tokens.\nImplant {X}{G}{W} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card\u2019s effects.)[/i]",
+            "rules_text": "Create X 1/1 colorless Survivor creature tokens.\nImplant {X}{G}{W} [i](As you cast a creature spell, you may reveal this card from your hand and pay its implant cost. If you do, that spell gains \u201cWhen this creature enters the battlefield\u201d and this card's effects.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Nick Stath",
             "notes": ""
         },
         {
@@ -3499,12 +3937,14 @@
             "number": 208,
             "color_identity": "BG",
             "cost": "{B}{G}",
-            "rules_text": "Emerge {4}{B}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]\nWhen Ethical Violation enters the battlefield, if it emerged, destroy target permanent.",
+            "rules_text": "Emerge {4}{B}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]\nWhen Ethical Violation enters the battlefield, if it emerged, destroy target permanent.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Vladimir Matyukhin",
             "notes": ""
         },
         {
@@ -3515,12 +3955,14 @@
             "number": 203,
             "color_identity": "RG",
             "cost": "{R}{G}",
-            "rules_text": "As an additional cost to cast this spell, sacrifice a creature.\nTrample, haste\nBrutal Fusion\u2019s power and toughness are each equal to the number of creature cards in your graveyard.",
+            "rules_text": "As an additional cost to cast this spell, sacrifice a creature.\nTrample, haste\nBrutal Fusion's power and toughness are each equal to the number of creature cards in your graveyard.",
+            "flavor_text": "[i][/i]",
             "pt": "*/*",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jo Kubaryi",
             "notes": ""
         },
         {
@@ -3532,11 +3974,13 @@
             "color_identity": "UG",
             "cost": "{3}{G}{G}{U}",
             "rules_text": "At the beginning of your upkeep, choose up to three creature types. Project Gamal-III is the chosen types until the beginning of your next upkeep.\nCreatures you control get +1/+1 for each of their creatures types, to a maximum of +3/+3.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ivan Stan",
             "notes": ""
         },
         {
@@ -3548,11 +3992,13 @@
             "color_identity": "BR",
             "cost": "{3}{B}{R}",
             "rules_text": "For each creature you control, choose one of its creature types not already chosen. Target opponent loses life equal to the number of types chosen this way.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Robert Ritchie",
             "notes": ""
         },
         {
@@ -3564,11 +4010,13 @@
             "color_identity": "U",
             "cost": "{3}{U}{U}",
             "rules_text": "Exile the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand. You may cast a spell from the remaining pile without paying its mana cost.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Andrej ZT",
             "notes": ""
         },
         {
@@ -3579,12 +4027,14 @@
             "number": 90,
             "color_identity": "B",
             "cost": "{5}{B}",
-            "rules_text": "Emerge {6}{B}{B} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]\nWhen Devourer of Flesh enters the battlefield, if it emerged, each player loses half their life, rounded up.",
+            "rules_text": "Emerge {6}{B}{B} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]\nWhen Devourer of Flesh enters the battlefield, if it emerged, each player loses half their life, rounded up.",
+            "flavor_text": "[i]\u201cWe called. It answered.\u201d[/i]",
             "pt": "6/6",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Timofey Razumov",
             "notes": ""
         },
         {
@@ -3596,12 +4046,14 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Destroy target nonenchantment permanent an opponent controls. Its controller reveals cards from the top of their library until they reveal a permanent card that shares a card type with that permanent. They put that card onto the battlefield and the rest on the bottom of their library in a random order.\nImplant {2}{R}",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
-            "notes": ""
+            "artist": "Tom Pleysier",
+            "notes": "FLAG"
         },
         {
             "card_name": "Persistent Sporecap",
@@ -3612,11 +4064,13 @@
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "Implant costs you pay cost {1} less.\nWhen Persistent Sporecap dies, you may exile it. If you do, return up to two target cards from your graveyard to your hand.",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Timofey Razumov",
             "notes": ""
         },
         {
@@ -3628,11 +4082,13 @@
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "Double strike\nWhenever Growth-Vat Subject becomes the target of a spell or ability you control, you may pay {X}, where X is the number of counters on Growth-Vat Subject. If you do, put a +1/+1 counter on Growth-Vat Subject.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Sylvain Lorgeou",
             "notes": ""
         },
         {
@@ -3644,11 +4100,13 @@
             "color_identity": "U",
             "cost": "{3}{U}{U}",
             "rules_text": "Scry X, where X is the number of creatures you control that have three or more creature types, then draw three cards.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "huleeb",
             "notes": ""
         },
         {
@@ -3659,12 +4117,14 @@
             "number": 117,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "If Stunted Runt is sacrificed to pay for a creature spell\u2019s emerge cost, you may pay 2 life. If you do, target player reveals their hand. You choose a nonland card from it. That player discards that card. ",
+            "rules_text": "If Stunted Runt is sacrificed to pay for a creature spell's emerge cost, you may pay 2 life. If you do, target player reveals their hand. You choose a nonland card from it. That player discards that card.",
+            "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Timofey Razumov",
             "notes": ""
         },
         {
@@ -3675,12 +4135,14 @@
             "number": 126,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Whenever Cephalic Monstrosity attacks, you may sacrifice a Mutant. If you do, Cephalic Monstrosity deals damage equal to that Mutant\u2019s power to target player or planeswalker.",
+            "rules_text": "Whenever Cephalic Monstrosity attacks, you may sacrifice a Mutant. If you do, Cephalic Monstrosity deals damage equal to that Mutant's power to target player or planeswalker.",
+            "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ben Garriga",
             "notes": ""
         },
         {
@@ -3691,12 +4153,14 @@
             "number": 185,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
-            "rules_text": "Whenever a creature you control enters the battlefield or diverges, note one of its creature types that hasn\u2019t been noted for Orthogenesis.\nAt the beginning of your upkeep, if eight or more types have been noted for Orthogenesis, you may put a creature card from your hand onto the battlefield. Then if fifteen or more types have been noted for Orthogenesis, you win the game.",
+            "rules_text": "Whenever a creature you control enters the battlefield or diverges, note one of its creature types that hasn't been noted for Orthogenesis.\nAt the beginning of your upkeep, if eight or more types have been noted for Orthogenesis, you may put a creature card from your hand onto the battlefield. Then if fifteen or more types have been noted for Orthogenesis, you win the game.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Sravan NCS",
             "notes": ""
         },
         {
@@ -3708,11 +4172,13 @@
             "color_identity": "B",
             "cost": "{B}{B}",
             "rules_text": "Flying\nWhenever Perfected Weapon deals combat damage to a player, each player loses life equal to the number of counters on it, then put a +1/+1 on Perfected Weapon.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Benny Kusnoto",
             "notes": ""
         },
         {
@@ -3724,11 +4190,13 @@
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "Flying\n{R}: Taxidermied Hellkite gets +1/+0 until end of turn.\n{2}{R}: Mutants you control get +1/+0 until end of turn.",
+            "flavor_text": "[i]Crafted from imperfect memories with ill-fitting flesh, Ren's dragons are a nightmarish reflection of the real thing.[/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Todor Hristov",
             "notes": ""
         },
         {
@@ -3740,11 +4208,13 @@
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "As Advanced Genomics enters the battlefield, choose two creature types.\nCreatures you control get +1/+1 for each of the chosen types they are.",
+            "flavor_text": "[i]Specimen Alpha is Ren's grand opus, the end result of generations of genetic experimentation and crossbreeding.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Qiang Zhou",
             "notes": ""
         },
         {
@@ -3756,11 +4226,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "For each creature you control, choose one of its creature types not already chosen. Search your library for a card with mana value less than or equal to the number of types chosen this way, reveal it, put into your hand, then shuffle.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Martin de Diego",
             "notes": ""
         },
         {
@@ -3772,11 +4244,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Search your library for up to four creature cards with different names and reveal them. An opponent chooses two of those cards. Put the chosen cards into your graveyard and the rest into your hand. Then shuffle.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Finnian MacManus",
             "notes": ""
         },
         {
@@ -3787,12 +4261,14 @@
             "number": 158,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Emerge {X}{R}{R}{R} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature\u2019s mana value.)[/i]\nWhen Wandering Ganglia enters the battlefield, if it emerged, exile the top X cards of your library. You may play those cards until the end of your next turn.",
+            "rules_text": "Emerge {X}{R}{R}{R} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]\nWhen Wandering Ganglia enters the battlefield, if it emerged, exile the top X cards of your library. You may play those cards until the end of your next turn.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Biagio D'Alessandro",
             "notes": ""
         },
         {
@@ -3804,11 +4280,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Decontamination Unit gets +2/+2 as long as you control three or more differently named Laboratories.\n{3}, {T}, Sacrifice a land: Search your library for a basic land card or Laboratory card, put it onto the battlefield tapped, then shuffle.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Simeon Genew",
             "notes": ""
         },
         {
@@ -3820,11 +4298,13 @@
             "color_identity": "UB",
             "cost": "",
             "rules_text": "Dimensional Tank enters the battlefield tapped.\n{T}: Add {U} or {B}.\nWhen Dimensional Tank is put into your graveyard from the battlefield, look at the top card of your library. You may put that card into your graveyard.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Alexey Vorobev",
             "notes": ""
         },
         {
@@ -3835,12 +4315,14 @@
             "number": 247,
             "color_identity": "WU",
             "cost": "",
-            "rules_text": "Observation Deck enters the battlefield tapped.\n{T}: Add {W} or {U}.\nWhen Observation Deck is put into your graveyard from the battlefield, exile target creature you control, then return it to the battlefield under its owner\u2019s control.",
+            "rules_text": "Observation Deck enters the battlefield tapped.\n{T}: Add {W} or {U}.\nWhen Observation Deck is put into your graveyard from the battlefield, exile target creature you control, then return it to the battlefield under its owner's control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Dennis Welling",
             "notes": ""
         },
         {
@@ -3852,11 +4334,13 @@
             "color_identity": "WG",
             "cost": "",
             "rules_text": "Abandoned Terrarium enters the battlefield tapped.\n{T}: Add {G} or {W}.\nWhen Abandoned Terrarium is put into your graveyard from the battlefield, you gain 3 life.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Rom\u00e9o Ducos",
             "notes": ""
         },
         {
@@ -3868,11 +4352,13 @@
             "color_identity": "RG",
             "cost": "",
             "rules_text": "Stasis Cells enters the battlefield tapped.\n{T}: Add {R} or {G}.\nWhen Stasis Cells is put into your graveyard from the battlefield, put a +1/+1 counter on target creature you control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Eric Gagnon",
             "notes": ""
         },
         {
@@ -3884,11 +4370,13 @@
             "color_identity": "BR",
             "cost": "",
             "rules_text": "Fluid Refinery enters the battlefield tapped.\n{T}: Add {B} or {R}.\nWhen Fluid Refinery is put into your graveyard from the battlefield, target opponent loses 2 life.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Dima Tchi",
             "notes": ""
         },
         {
@@ -3899,12 +4387,14 @@
             "number": 34,
             "color_identity": "W",
             "cost": "{5}{W}",
-            "rules_text": "Flying\nWhen Spliced Seraph enters the battlefield, exile target creature and target creature card in a graveyard. Return the exiled cards to the battlefield under their owners\u2019 control when Spliced Seraph leaves the battlefield.",
+            "rules_text": "Flying\nWhen Spliced Seraph enters the battlefield, exile target creature and target creature card in a graveyard. Return the exiled cards to the battlefield under their owners' control when Spliced Seraph leaves the battlefield.",
+            "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ivan Stan",
             "notes": ""
         },
         {
@@ -3916,11 +4406,13 @@
             "color_identity": "G",
             "cost": "{7}{G}{G}{G}",
             "rules_text": "When Fused Amalgam dies, create three 3/3 green Human Horror creature tokens. They have \u201cWhen this creature dies, create three 1/1 green Human Splinter creature tokens.\u201d",
+            "flavor_text": "[i]\u201cRoom for one more.\u201d[/i]",
             "pt": "9/9",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Brenda Bomgardner",
             "notes": ""
         },
         {
@@ -3932,11 +4424,13 @@
             "color_identity": "G",
             "cost": "",
             "rules_text": "When this creature dies, create three 1/1 green Human Splinter creature tokens.",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "token",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Timofey Razumov",
             "notes": ""
         },
         {
@@ -3948,11 +4442,13 @@
             "color_identity": "G",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "token",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Ahmed Afazil",
             "notes": ""
         },
         {
@@ -3963,12 +4459,14 @@
             "number": 236,
             "color_identity": "C",
             "cost": "{3}",
-            "rules_text": "As Preservation Jar enters the battlefield, choose a creature card name.\nActivated abilities of sources with the chosen name can\u2019t be activated unless they\u2019re mana abilities.\nPermanents with the chosen name can\u2019t attack or block.",
+            "rules_text": "As Preservation Jar enters the battlefield, choose a creature card name.\nActivated abilities of sources with the chosen name can't be activated unless they're mana abilities.\nPermanents with the chosen name can't attack or block.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Tobias Frank",
             "notes": ""
         },
         {
@@ -3980,11 +4478,13 @@
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Equipped creature gets +1/+1 and has ward {2} and protection from Mutants.\nEquip {2}\nEquip Scientist {1}",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "David Bocquillon Carrasco",
             "notes": ""
         },
         {
@@ -3996,11 +4496,13 @@
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Equipped creature gets +2/+2.\nWhenever Rusted Needle becomes unattached from a creature, that creature gets -3/-3 until end of turn.\nEquip {1}",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Dani Ferguson",
             "notes": ""
         },
         {
@@ -4011,12 +4513,14 @@
             "number": 216,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
-            "rules_text": "Other creatures you control have \u201c{X}{UR}: Diverge X/X.\u201d [i](If that creature isn\u2019t a Mutant, its base power and toughness become X/X and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "rules_text": "Other creatures you control have \u201c{X}{UR}: Diverge X/X.\u201d [i](If that creature isn't a Mutant, its base power and toughness become X/X and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jakub Bazyluk",
             "notes": ""
         },
         {
@@ -4027,12 +4531,14 @@
             "number": 222,
             "color_identity": "UG",
             "cost": "{1}{G}{U}",
-            "rules_text": "{GU}, {T}, Sacrifice a token: Search your library for a creature card with combined power and toughness equal to 1 plus the sacrificed token\u2019s combined power and toughness, put that card onto the battlefield, then shuffle. Activate only as a sorcery.",
+            "rules_text": "{GU}, {T}, Sacrifice a token: Search your library for a creature card with combined power and toughness equal to 1 plus the sacrificed token's combined power and toughness, put that card onto the battlefield, then shuffle. Activate only as a sorcery.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jeff Brown",
             "notes": ""
         },
         {
@@ -4043,12 +4549,14 @@
             "number": 229,
             "color_identity": "UB",
             "cost": "{2}{U}{B}",
-            "rules_text": "Whenever you sacrifice a nontoken creature, you may exile it. If you do, create a token that\u2019s a copy of that creature, except it\u2019s 2/2.",
+            "rules_text": "Whenever you sacrifice a nontoken creature, you may exile it. If you do, create a token that's a copy of that creature, except it's 2/2.",
+            "flavor_text": "[i]\u201cI will reclaim what was taken from me, if I have to flay this world alive and dig through its organs to find it.\u201d[/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Veronika Kozlova",
             "notes": ""
         },
         {
@@ -4059,12 +4567,14 @@
             "number": 231,
             "color_identity": "WU",
             "cost": "{1}{W}{U}",
-            "rules_text": "{W}{U}, {T}: Choose target creature, then choose one \u2014\n\u2022 Until end of turn, that creature assigns combat damage equal to its toughness rather than its power.\n\u2022 Exile that creature, then return it to the battlefield under its owner\u2019s control.",
+            "rules_text": "{W}{U}, {T}: Choose target creature, then choose one \u2014\n\u2022 Until end of turn, that creature assigns combat damage equal to its toughness rather than its power.\n\u2022 Exile that creature, then return it to the battlefield under its owner's control.",
+            "flavor_text": "[i][/i]",
             "pt": "2/4",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Aaron Beck",
             "notes": ""
         },
         {
@@ -4075,12 +4585,14 @@
             "number": 227,
             "color_identity": "RG",
             "cost": "{1}{R}{G}",
-            "rules_text": "When Sush Kur, Sporebreeder enters the battlefield, put a spore counter on each other creature you control.\n{R}{G}, Sacrifice a creature with a spore counter on it: Create X 1/1 green Fungus Insect Mutant creature tokens, where X is the sacrificed creature\u2019s power. Activate only as a sorcery.",
+            "rules_text": "When Sush Kur, Sporebreeder enters the battlefield, put a spore counter on each other creature you control.\n{R}{G}, Sacrifice a creature with a spore counter on it: Create X 1/1 green Fungus Insect Mutant creature tokens, where X is the sacrificed creature's power. Activate only as a sorcery.",
+            "flavor_text": "[i][/i]",
             "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jerome Morris",
             "notes": ""
         },
         {
@@ -4091,12 +4603,14 @@
             "number": 40,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
-            "rules_text": "When Transhumanism enters the battlefield, each player may put a +1/+1 counter on up to one creature.\nEach creature can\u2019t attack unless its power or toughness is higher than its base power or toughness.",
+            "rules_text": "When Transhumanism enters the battlefield, each player may put a +1/+1 counter on up to one creature.\nEach creature can't attack unless its power or toughness is higher than its base power or toughness.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Danny Chan",
             "notes": ""
         },
         {
@@ -4107,12 +4621,14 @@
             "number": 76,
             "color_identity": "U",
             "cost": "{U}{U}",
-            "rules_text": "Enchant creature or planeswalker\nWhen Stolen Spark enters the battlefield, if enchanted permanent isn\u2019t a planeswalker, put three loyalty counters on it and it becomes a legendary planeswalker with \u201c[+1]: Scry 1.\u201d and \u201c[-3]: Draw a card.\u201d [i](It\u2019s no longer a creature.)[/i]",
+            "rules_text": "Enchant creature or planeswalker\nWhen Stolen Spark enters the battlefield, if enchanted permanent isn't a planeswalker, put three loyalty counters on it and it becomes a legendary planeswalker with \u201c[+1]: Scry 1.\u201d and \u201c[-3]: Draw a card.\u201d [i](It's no longer a creature.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Cedric Cunanan",
             "notes": ""
         },
         {
@@ -4124,11 +4640,13 @@
             "color_identity": "B",
             "cost": "{6}{B}",
             "rules_text": "Put all Human cards from all graveyards onto the battlefield under your control.",
+            "flavor_text": "[i]\u201cI am the jigsaw man\nI turn the world around with a skeleton hand\u201d\n\u2014Found scrawled in Holding Cell WZ95[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Francesco Mammetti",
             "notes": ""
         },
         {
@@ -4139,12 +4657,14 @@
             "number": 159,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
-            "rules_text": "Exile your graveyard. Until end of turn, you may cast spells from among the exiled cards. When you cast a spell this way, it deals damage to you equal to the number of spells you\u2019ve cast this turn.",
+            "rules_text": "Exile your graveyard. Until end of turn, you may cast spells from among the exiled cards. When you cast a spell this way, it deals damage to you equal to the number of spells you've cast this turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Alexey Kruglov",
             "notes": ""
         },
         {
@@ -4156,11 +4676,13 @@
             "color_identity": "G",
             "cost": "{X}{G}{G}",
             "rules_text": "Double the power of each of up to X target creatures until end of turn. If seven or more green mana was spent to cast this spell, those creatures gain trample until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Curt C. Smith",
             "notes": ""
         },
         {
@@ -4172,11 +4694,13 @@
             "color_identity": "WUBRG",
             "cost": "{3}{G}{W}",
             "rules_text": "When It From Beyond enters the battlefield, exile all cards from graveyards.\nSpells you cast cost {W} less to cast if you own a white card in exile. The same is true for {U} and blue, {B} and black, {R} and red, and {G} and green.",
+            "flavor_text": "[i][/i]",
             "pt": "4/5",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Tom Latka",
             "notes": ""
         },
         {
@@ -4187,12 +4711,14 @@
             "number": 206,
             "color_identity": "WB",
             "cost": "{1}{W}{B}",
-            "rules_text": "{T}, Exile a creature card from your graveyard: Choose target card in your graveyard. You may cast that card this turn if its mana value is less than or equal to the exiled card\u2019s.",
+            "rules_text": "{T}, Exile a creature card from your graveyard: Choose target card in your graveyard. You may cast that card this turn if its mana value is less than or equal to the exiled card's.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Junyu Zhu",
             "notes": ""
         },
         {
@@ -4204,11 +4730,13 @@
             "color_identity": "BR",
             "cost": "{2}{B}{R}",
             "rules_text": "As Udim, Human Plus enters the battlefield, you may pay any amount of life.\nUdim, Human Plus enters the battlefield tapped with a number of +1/+1 counters on it equal to the life paid.",
+            "flavor_text": "[i][/i]",
             "pt": "0/0",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Jeff \"Reed\" Miller",
             "notes": ""
         },
         {
@@ -4220,11 +4748,13 @@
             "color_identity": "WR",
             "cost": "{2}{R}{W}",
             "rules_text": "Whenever a source you control deals damage to an opponent, put a +1/+1 counter on Nemesis, Imperfect Form.\nRemove three +1/+1 counters from Nemesis: Exile the top two cards of your library. Until the end of your next turn, you may play those cards. Instant and sorcery spells you cast this way have lifelink.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Sherbakov Stanislav",
             "notes": ""
         },
         {
@@ -4235,12 +4765,14 @@
             "number": 225,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
-            "rules_text": "{2}{U}{R}: Diverge 3/12 or 9/3{ }{ }{(}{I}{f}{ }{t}{h}{i}{s}{ }{c}{r}{e}{a}{t}{u}{r}{e}{ }{i}{s}{n}{\u2019}{t}{ }{a}{ }{M}{u}{t}{a}{n}{t}{,}{ }{i}{t}{s}{ }{b}{a}{s}{e}{ }{p}{o}{w}{e}{r}{ }{a}{n}{d}{ }{t}{o}{u}{g}{h}{n}{e}{s}{s}{ }{b}{e}{c}{o}{m}{e}{ }{y}{o}{u}{r}{ }{c}{h}{o}{i}{c}{e}{ }{o}{f}{ }{31}{2}{ }{o}{r}{ }9/3 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)\nWhen Specimen Alpha diverges, discard your hand and draw three cards.",
+            "rules_text": "{2}{U}{R}: Diverge 3/12 or 9/3 [i](If this creature isn't a Mutant, its base power and toughness become your choice of 3/12 or 9/3 and it becomes a Mutant in addition to its other types. Diverge only as a sorcery.)[/i]\nWhen Specimen Alpha diverges, discard your hand and draw three cards.",
+            "flavor_text": "[i]The pinnacle of Ukarth Ren's grand schemes, a beast bred to die so that he might live.[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "XSK",
             "loyalty": "",
+            "artist": "Wolfram Neuer",
             "notes": ""
         }
     ]
