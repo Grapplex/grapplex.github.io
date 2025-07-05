@@ -1,4 +1,4 @@
-![OVR logo](%logo% "Overlay")
+<img src="https://grapplex.github.io/sets/OVR-files/logo.png" alt="Overlay" width="400" height="261">
 
 **<p style="text-align: center;">Worlds collide. A saga ends.</p>**
 
