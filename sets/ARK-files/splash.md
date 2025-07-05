@@ -13,7 +13,7 @@ Join us, little lamb, as we make merry in the many Cults of Arkoph.
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/jhXLGFh/Booster.png "90S booster"/>**Rath and Storm** is built around the secretive and heretical sects infesting the theocratic plane of Arkoph. Preach the holy word of the Sacred Eagle. Proliferate the many blessings of the laughing god Geesh. Make occult sacrifices to the wild power of Corvash. Invoke the shifting power of Vo'Radh. And celebrate dark sacraments in the name of Yog.
+<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/jhXLGFh/Booster.png "ARK booster"/>**Cults of Arkoph** is built around the secretive and heretical sects infesting the theocratic plane of Arkoph. Preach the holy word of the Sacred Eagle. Proliferate the many blessings of the laughing god Geesh. Make occult sacrifices to the wild power of Corvash. Invoke the shifting power of Vo'Radh. And celebrate dark sacraments in the name of Yog.
 
 **Preach:** Preach is a keyword action involving a creature. When a creature preaches, you make a choice--either put a +1/+1 counter on it, or create an equipment token attached to it with "Equipped creature has prowess" and equip 2. Make your choice between immediate power or tomorrow's potential.
 

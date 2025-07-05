@@ -8,7 +8,7 @@ Worlds of possibility float in utter isolation like scattered jewels upon a pall
 
 ##Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/w7SdfJF/booster.png" "TGS booster"/>The mechanics of **Tales from the Grave in Space** include:
+<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/w7SdfJF/Booster.png "ARK booster"/>The mechanics of **Tales from the Grave in Space** include:
 
 **Mindmeld:** Let me teach the secrets of the Fobosian brain-beam. Creatures with mindmeld can lend their strength and talents to your attacks. Mindmeld is static ability which allows you to tap a mindmeld creature at the beginning of combat to grant a temporary stat boost to another creature, as well as giving it the mindmeld creature's relevant abilities--load up some interesting attack triggers on your evasive attackers, or pile up stat boosts on your best blocker, the choice of how to mash those brains together is yours.
 ​
