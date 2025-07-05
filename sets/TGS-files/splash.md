@@ -1,19 +1,17 @@
-<img src="https://grapplex.github.io/sets/SPQ-files/logo.png" alt="Avicta: Ave Imperator" width="471" height="291">
+<img src="https://grapplex.github.io/sets/TGS-files/logo.png" alt="Tales from the Grave in Space" width="520" height="306">
 
-**<p style="text-align: center;">Those who are about to die salute you.</p>**
+**<p style="text-align: center;">Beyond time. Beyond space. Beyond our SFX budget.</p>**
 
-All roads lead to Avicta. Gleaming marble and bloodstained earth alike form the capital of the great Avictan Empire, its legions pushing ever outwards in provinces north, south, east and west, while its scheming political classes entertain the population with savage bloodsport in the arena. Avicta is a culture of glory and history; of war and ruthlessness. It knows days of gold and days of rust and iron. In the wake of the questionable death of Emperor Gaio, his successor Caesar has taken the imperial laurels and seeks to expand his realm with little regard to mercy or diplomacy. 
+Worlds of possibility float in utter isolation like scattered jewels upon a pall of velvet. Join the brash space captain Flash Byrn, a man who puts the fool in foolhardy, as he careens those glittering jewels across the night sky like snooker balls. Joined by the dry and cutting Tura the Motorpsycho and piloting the impossible spacecraft *Paradise Seven* (after *Paradise Six* was lost in a freak parallel parking accident), Flash bumbles his way across an infinite galaxy of rampaging robotrons, scurrilous scientist, and alliterative aliens as he bring you... *Tales from the Grave in Space!* 
 
-All roads lead to Avicta, but some are paved with marbled glory. Others, with nothing but death.
-
-**Avicta: Ave Imperator** is a draftable premier set using Draft Boosters, containing 266 cards (20 mythic rares, 60 rares, 80 uncommons, 101 commons, and 5 basic lands). 
+**Tales from the Grave in Space** is a draftable premier set using Play Boosters, containing 281 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, 10 basic land-rarity taplands and 10 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of Apoblap, Fobosian Warlord, while boosters have a chance to contain the promotional headliner card, a serialised alternate-art All Yesterday's Tomorrows.
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/6YQYwY0/Booster.png "SPQ booster"/>The mechanics of **Avicta: Ave Imperator** include:
+<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/w7SdfJF/Booster.png "TGS booster"/>The mechanics of **Tales from the Grave in Space** include:
 
-**Imperium:** Take control of the empire and pursue your enemies with the strength of the legions. When a card instructs you to take imperium, you assume a game state which continues until the next time you end a turn without either casting a creature spell or attacking. While you hold imperium, each creature you cast enters the battlefield with an additional +1/+1 counter, pressing your advantage ever further; additionally, some other cards will power up during this state in a threshold effect. Grab the reins of power and command the empire.
+**Mindmeld:** Let me teach the secrets of the Fobosian brain-beam. Creatures with mindmeld can lend their strength and talents to your attacks. Mindmeld is static ability which allows you to tap a mindmeld creature at the beginning of combat to grant a temporary stat boost to another creature, as well as giving it the mindmeld creature's relevant abilities--load up some interesting attack triggers on your evasive attackers, or pile up stat boosts on your best blocker, the choice of how to mash those brains together is yours.
 
-**Arms:** Both gladiator and legionary alike must hold fast to their sword, spear, and shield. Arms tokens represent a range of equipment, created by a variety of card effects in order to keep your creatures equipped--a creature can only hold one Arms at a time, so choose wisely between the defensive scutum, aggressive gladius, or balanced pilum.
+**Refine:** No technology is so advanced that a hapless gremulon can't turn it into a paperweight. Refine functions similar to exploit from the *Dragons of Tarkir* expansion, allowing you to sacrifice an artifact when a creature with refine enters the battlefield, triggering an ability when you do so. Many of these creatures are also artifacts themselves, offering some modality if you need it to sacrifice itself in a pinch for a spell effect.
 
-**Glory:** Though your life may be short in the grand arena of Avicta, or its many battlefields in the provincial limes, true glory lasts forever. Glory is a creature keyword tied to a new type of player counter--each time a creature you control with glory attacks, you gain a glory counter. These counters can then be spent on the activated abilities of creatures with glory. Press your attack and keep your options open, choosing which of your creatures has taken the moment to seize eternal glory.
+**Warpjump & Interstellar:** We thought space was the final frontier. Then we discovered hyperspace. Functioning similarly to Lessons and Learn from the *Strixhaven: School of Mages* expansion, Interstellar spells can be cast from outside the game whenever an effect instructs you to warpjump. However, be warned, the window to hyperspace is unstable--when you warpjump you will need to cast the spell then and there, so be sure to think of Interstellar spells as powerful and flexible late-game finishers.
