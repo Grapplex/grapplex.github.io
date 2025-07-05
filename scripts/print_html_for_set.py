@@ -322,7 +322,14 @@ def generateHTML(code):
 	a {
 		cursor: pointer;
 	}
-</style>
+  p {
+    width: 100%;
+  }
+  p img {
+    display: block;
+    margin: auto;
+  }
+</style></style>
 <body>
 	'''
 	
