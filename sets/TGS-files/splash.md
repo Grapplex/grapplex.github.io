@@ -6,7 +6,7 @@ Worlds of possibility float in utter isolation like scattered jewels upon a pall
 
 **Tales from the Grave in Space** is a draftable premier set using Play Boosters, containing 281 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, 10 basic land-rarity taplands and 10 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of Apoblap, Fobosian Warlord, while boosters have a chance to contain the promotional headliner card, a serialised alternate-art All Yesterday's Tomorrows.
 
-##Mechanics
+###Mechanics
 
 <img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/w7SdfJF/Booster.png "ARK booster"/>The mechanics of **Tales from the Grave in Space** include:
 
