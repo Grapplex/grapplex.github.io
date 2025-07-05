@@ -2,6 +2,8 @@
     "name": "Akkadi: Empire\u2019s End",
     "formats": "",
     "trimmed": "y",
+    "image_type": "png",
+    "draft_structure": "play booster",
     "cards": [
         {
             "card_name": "Timeless Heartwood",
@@ -11,12 +13,14 @@
             "number": 246,
             "color_identity": "C",
             "cost": "{5}",
-            "rules_text": "When Timeless Heartwood enters the battlefield, search your library for a card named Heart of the Sea or a card named Soul of Fire, reveal it, shuffle, then put it on top of your library.\nTap artifacts you control named Eternity\u2019s Horizon, Heart of the Sea, Bones of the Earth, Soul of Fire, and Timeless Heartwood: Target player loses the game.",
+            "rules_text": "When Timeless Heartwood enters the battlefield, search your library for a card named Heart of the Sea or a card named Soul of Fire, reveal it, shuffle, then put it on top of your library.\nTap artifacts you control named Eternity's Horizon, Heart of the Sea, Bones of the Earth, Soul of Fire, and Timeless Heartwood: Target player loses the game.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Pyro Helfier",
             "notes": ""
         },
         {
@@ -27,12 +31,14 @@
             "number": 188,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "When Scholar of Harbaz enters the battlefield, it studies. [i](Reveal the top card of your library. Put that card into your hand if it\u2019s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "rules_text": "When Scholar of Harbaz enters the battlefield, it studies. [i](Reveal the top card of your library. Put that card into your hand if it's a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Sean Zhang",
             "notes": ""
         },
         {
@@ -44,11 +50,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Arbitrate. [i](You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)[/i]\nDraw a card.",
+            "flavor_text": "[i]\u201cAll this should be yours, Qirauz. It will be.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": ""
         },
         {
@@ -56,31 +64,35 @@
             "color": "",
             "rarity": "common",
             "type": "",
-            "number": 8,
+            "number": 7,
             "color_identity": "C",
             "cost": "",
             "rules_text": "\nAt the beginning of your upkeep, for each judgment counter you have, choose one \u2014\n\u2022 [b]Penance [/b]\u2014 You lose 1 life.\n\u2022 [b]Tithe [/b]\u2014 Target opponent creates a tapped Treasure token.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "token",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Roman Kuteynikov",
+            "notes": "!group token\n!sort 07"
         },
         {
             "card_name": "Emperor's Hand",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
-            "number": 211,
+            "number": 202,
             "color_identity": "WU",
             "cost": "{W}{U}",
-            "rules_text": "Whenever Emperor\u2019s Hand deals combat damage to an opponent, that player gets that many judgment counters. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "rules_text": "Whenever Emperor's Hand deals combat damage to an opponent, that player gets that many judgment counters. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i]Clad in the finest armor, emperor Qamurab's guard act as soldiers, police, and jury.[/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Alvaro Estrada",
             "notes": ""
         },
         {
@@ -88,15 +100,17 @@
             "color": "UB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
-            "number": 208,
+            "number": 204,
             "color_identity": "UB",
             "cost": "{U}{B}",
             "rules_text": "When Dakazhi Judge enters the battlefield, each player gets a judgment counter.\n{1}{U}{B}, {T}: Arbitrate. [i](You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Joel Chaim Holtzman",
             "notes": ""
         },
         {
@@ -104,15 +118,17 @@
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
-            "number": 222,
+            "number": 211,
             "color_identity": "RG",
             "cost": "{R}{G}",
-            "rules_text": "When Prince\u2019s Tutor enters the battlefield, it studies. [i](Reveal the top card of your library. Put that card into your hand if it\u2019s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]\nWhenever another creature you control studies, put a +1/+1 counter on Prince\u2019s Tutor.",
+            "rules_text": "When Prince's Tutor enters the battlefield, it studies. [i](Reveal the top card of your library. Put that card into your hand if it's a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]\nWhenever another creature you control studies, put a +1/+1 counter on Prince's Tutor.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Alexandra Filipek",
             "notes": ""
         },
         {
@@ -120,15 +136,17 @@
             "color": "WB",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 206,
+            "number": 217,
             "color_identity": "WB",
             "cost": "{1}{W}{B}",
             "rules_text": "Destroy target creature. Its controller gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i]Qamurab's law is absolute. It knows no nuance, no mercy, no reprieve.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Jeremy Bennison",
             "notes": ""
         },
         {
@@ -140,11 +158,13 @@
             "color_identity": "UR",
             "cost": "{U}{R}",
             "rules_text": "Sculptures you control get +1/+1.\nEngrave 3\u2014{3}{U}{R} [i](If you cast this spell for {3}{U}{R}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Maciej Drabik",
             "notes": ""
         },
         {
@@ -152,15 +172,17 @@
             "color": "BG",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 202,
+            "number": 222,
             "color_identity": "BG",
             "cost": "{1}{B}{G}",
             "rules_text": "Engrave 3\u2014{3}{B}{G} [i](If you cast this spell for {3}{B}{G}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]\nDraw a card for each creature you control with a +1/+1 counter on it. Those creatures gain haste and menace until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "William Riffault",
             "notes": ""
         },
         {
@@ -168,15 +190,17 @@
             "color": "UG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Artificer",
-            "number": 204,
+            "number": 228,
             "color_identity": "UG",
             "cost": "{1}{G}{U}",
             "rules_text": "Spells you cast for their engrave cost and artifact spells you cast cost {1} less to cast.",
+            "flavor_text": "[i]Emperor Qamurab intends for the cities of Akaddi to last forever, and funds lavish works to endure the aeons.[/i]",
             "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Andrew Palyanov",
             "notes": ""
         },
         {
@@ -188,43 +212,49 @@
             "color_identity": "C",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "0/0",
             "special_text": "",
             "shape": "token",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Javorav Studio",
+            "notes": "!group token\n!sort 05"
         },
         {
             "card_name": "AKI Draft Archetypes",
             "color": "",
             "rarity": "common",
             "type": "",
-            "number": 7,
+            "number": 8,
             "color_identity": "WUBRG",
             "cost": "",
-            "rules_text": "{W}{U} JUDGMENT TAPOUT Cast judgment upon your foes with strong control effects.\n{U}{B} ARBITRATE Move judgment and +1/+1 counters, and justice is yours to decide.\n{B}{R} SPELLSLINGER Cast noncreature spells to boost your board presence.\n{R}{G} STUDY Your creatures can research new spells or grow stronger.\n{G}{W} SACRIFICE Your loss is no one\u2019s gain. Sacrifice creatures and Treasures for profit. \n{W}{B} JUDGMENT CONTROL Wait patiently to pass judgment upon the enemy.\n{B}{G} +1/+1 COUNTERS  Grow your creatures through study and engraving.\n{G}{U} ARTIFACTS Build monuments and engrave your legacy with artifact spells.\n{U}{R} SCULPTURES The living statuary of Akaddi is yours to command.\n{R}{W} HARMONY Attack with both artifact and nonartifact creatures for bonuses.",
+            "rules_text": "{W}{U} JUDGMENT TAPOUT Cast judgment upon your foes with strong control effects.\n{U}{B} ARBITRATE Move judgment and +1/+1 counters, and justice is yours to decide.\n{B}{R} SPELLSLINGER Cast noncreature spells to boost your board presence.\n{R}{G} STUDY Your creatures can research new spells or grow stronger.\n{G}{W} SACRIFICE Your loss is no one's gain. Sacrifice creatures and Treasures for profit. \n{W}{B} JUDGMENT CONTROL Wait patiently to pass judgment upon the enemy.\n{B}{G} +1/+1 COUNTERS Grow your creatures through study and engraving.\n{G}{U} ARTIFACTS Build monuments and engrave your legacy with artifact spells.\n{U}{R} SCULPTURES The living statuary of Akaddi is yours to command.\n{R}{W} HARMONY Attack with both artifact and nonartifact creatures for bonuses.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "token",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "",
+            "notes": "!group token\n!sort 08"
         },
         {
             "card_name": "Empire's End",
             "color": "WB",
             "rarity": "mythic",
             "type": "Sorcery",
-            "number": 212,
+            "number": 218,
             "color_identity": "WB",
             "cost": "{3}{W}{B}",
             "rules_text": "Each player exiles all nonland permanent cards from their graveyard, then sacrifices all nonland permanents they control, then puts all cards they exiled this way onto the battlefield.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Samat Khovtioonkij",
             "notes": ""
         },
         {
@@ -236,11 +266,13 @@
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "Choose one \u2014\n\u2022 Search your library for an artifact card, reveal it, put it into your hand, then shuffle.\n\u2022 Reveal an artifact card you own from outside the game and put it into your hand.",
+            "flavor_text": "[i]Combined, the royal treasures held great power.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Satine Zillah",
             "notes": ""
         },
         {
@@ -252,11 +284,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Exile the top two cards of your library. Until the end of your next turn, you may play those cards.",
+            "flavor_text": "[i]Prince Qirauz ached for the throne of Akaddi, his birthright. As a man of peace he could not stomach overthrowing his father by force. Surely there was another way...[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Ryan Moulton",
             "notes": ""
         },
         {
@@ -268,11 +302,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "You may put a land card from your hand onto the battlefield.\nArbitrate. [i](You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)[/i]",
+            "flavor_text": "[i]\u201cThis is all yours, my son. I merely steward it until the day you are ready.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Michael Mendiola",
             "notes": ""
         },
         {
@@ -284,11 +320,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Target creature gets +2/+2 and gains vigilance until end of turn.",
+            "flavor_text": "[i]\u201cThere are secrets, Qirauz, hidden in your father's treasuries.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Sara Han",
             "notes": ""
         },
         {
@@ -300,11 +338,13 @@
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "Exile target spell.",
+            "flavor_text": "[i]Qirauz paused for a moment, struck by visions of his kingdom's demise. Was the throne worth the risk? But his hesitation was merely momentary, and he uttered the words that would move time itself.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Vincent M\u00e9nard",
             "notes": ""
         },
         {
@@ -316,11 +356,13 @@
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Defender",
+            "flavor_text": "[i]Each night as his father slept, Qirauz gazed longingly at the royal throne. It would be his one day, but one day would never be soon enough.[/i]",
             "pt": "0/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Amanieu Rebu",
             "notes": ""
         },
         {
@@ -332,11 +374,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Return up to two target creature cards from your graveyard to your hand.",
+            "flavor_text": "[i]The ritual completed, Qirauz opened his eyes\u2014or what was left of them. His glorious empire stretched for miles around him; miles of ash, dust, and bone.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": ""
         },
         {
@@ -348,11 +392,13 @@
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "For each judgment counter each player has, that player sacrifices a creature.",
+            "flavor_text": "[i]Qirauz's impatience leered mockingly back at him from the empty eye sockets of his people. His ritual had left him the skeleton king of an empire of the dead.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Sabin Boykinov",
             "notes": ""
         },
         {
@@ -360,15 +406,17 @@
             "color": "UB",
             "rarity": "mythic",
             "type": "Sorcery",
-            "number": 226,
+            "number": 205,
             "color_identity": "UB",
             "cost": "{1}{U}{U}{B}",
             "rules_text": "Take an extra turn after this one. You get five judgment counters. Exile Ritual of Time.",
+            "flavor_text": "[i]The five relics were gathered, their power growing with their proximity. With the right words, Qirauz would be thrown forward in time, ready to accept his long-awaited coronation.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Esteban Ariza",
             "notes": ""
         },
         {
@@ -380,11 +428,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "{1}, Remove a counter from a creature you control: Hungry Shadow gets +2/+1 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Mateusz Twardoch",
             "notes": ""
         },
         {
@@ -395,12 +445,14 @@
             "number": 108,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Menace\nWhen Qamurab\u2019s Executioner enters the battlefield, target opponent gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "rules_text": "Menace\nWhen Qamurab's Executioner enters the battlefield, target opponent gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Joel Chaim Holtzman",
             "notes": ""
         },
         {
@@ -412,11 +464,13 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Initiate of Gurnal has deathtouch as long as an opponent has a judgment counter.",
+            "flavor_text": "[i]\u201cWhat the emperor has decreed, the gods have given their blessing.\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Pierre Raveneau",
             "notes": ""
         },
         {
@@ -427,12 +481,14 @@
             "number": 111,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "At the beginning of your end step, put a +1/+1 counter on Rebellious Dreamer if you\u2019ve cast a noncreature spell this turn.",
+            "rules_text": "At the beginning of your end step, put a +1/+1 counter on Rebellious Dreamer if you've cast a noncreature spell this turn.",
+            "flavor_text": "[i]When tyrants rise, so does dissent.[/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Mateusz Twardoch",
             "notes": ""
         },
         {
@@ -444,11 +500,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "When Purveyor of Lies enters the battlefield, you draw a card and you lose 1 life.",
+            "flavor_text": "[i]\u201cHeed the Worm above all things, be they truth, justice, or the good of all.\u201d[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Erikas Perl",
             "notes": ""
         },
         {
@@ -460,11 +518,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Flash\nWhen Tormented Occultist enters the battlefield, if you cast it during your main phase, target opponent gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Aurore Folny",
             "notes": ""
         },
         {
@@ -476,11 +536,13 @@
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "{2}{B}, Exile Pestilent Swarm from your graveyard: Put a +1/+1 counter on each creature you control. Activate only as a sorcery.",
+            "flavor_text": "[i][/i]",
             "pt": "4/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Oleg Fedorov",
             "notes": ""
         },
         {
@@ -492,11 +554,13 @@
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "Menace\nWhen Priestess of Ghazuz enters the battlefield, arbitrate. [i](You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": ""
         },
         {
@@ -507,12 +571,14 @@
             "number": 92,
             "color_identity": "B",
             "cost": "{4}{B}",
-            "rules_text": "Menace\nWhen Ghazuz\u2019s Inititate enters the battlefield, it studies. [i](Reveal the top card of your library. Put that card into your hand if it\u2019s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "rules_text": "Menace\nWhen Ghazuz's Inititate enters the battlefield, it studies. [i](Reveal the top card of your library. Put that card into your hand if it's a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Pierre Raveneau",
             "notes": ""
         },
         {
@@ -524,11 +590,13 @@
             "color_identity": "B",
             "cost": "{5}{B}",
             "rules_text": "This spell costs {1} less to cast for each creature you control with a +1/+1 counter on it.\n{2}{B}: Shadow of Remorse gets +1/+1 and gains menace until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Feig Felipe P\u00e9rez",
             "notes": ""
         },
         {
@@ -540,11 +608,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Sacrifice Ruthless Cobra: Put a +1/+1 counter on target creature you control. Activate only as a sorcery.",
+            "flavor_text": "[i]The laws of Akaddi, though harsh, at least allow deliberation before a death sentence.[/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Aurore Folny",
             "notes": ""
         },
         {
@@ -555,12 +625,14 @@
             "number": 162,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "When Attentive Learner enters the battlefield, it studies. [i](Reveal the top card of your library. Put that card into your hand if it\u2019s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "rules_text": "When Attentive Learner enters the battlefield, it studies. [i](Reveal the top card of your library. Put that card into your hand if it's a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": ""
         },
         {
@@ -571,12 +643,14 @@
             "number": 177,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Isolated Idol\u2019s power and toughness are each equal to the highest mana value among artifacts you control.",
+            "rules_text": "Isolated Idol's power and toughness are each equal to the highest mana value among artifacts you control.",
+            "flavor_text": "[i]Before Ghazuz's influence overtook the emperor's court, the old gods defined everyday life. Now their statues stand untended and unworshipped.[/i]",
             "pt": "*/*",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Anastasia Balakchina",
             "notes": ""
         },
         {
@@ -588,11 +662,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Prevent all combat damage that would be dealt to creatures this turn.\nEngrave 2\u2014{3}{G} [i](If you cast this spell for {3}{G}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimilaino Haematinon Nigro",
             "notes": ""
         },
         {
@@ -604,11 +680,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Engrave 3\u2014{3}{G} [i](If you cast this spell for {3}{G}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]\nPut a +1/+1 counter on each creature you control with a +1/+1 counter on it.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Aidin Salsabili",
             "notes": ""
         },
         {
@@ -620,11 +698,13 @@
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "When Crafter of Wonders enters the battlefield, put a +1/+1 counter on target creature you control.\nEach creature you control with a +1/+1 counter on it has trample.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Vitaly Lamkov",
             "notes": ""
         },
         {
@@ -635,12 +715,14 @@
             "number": 190,
             "color_identity": "G",
             "cost": "{3}{G}",
-            "rules_text": "Trample\nWhen Somber Philosopher enters the battlefield, it studies. [i](Reveal the top card of your library. Put that card into your hand if it\u2019s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "rules_text": "Trample\nWhen Somber Philosopher enters the battlefield, it studies. [i](Reveal the top card of your library. Put that card into your hand if it's a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Sean Samuels",
             "notes": ""
         },
         {
@@ -651,12 +733,14 @@
             "number": 199,
             "color_identity": "G",
             "cost": "{4}{G}",
-            "rules_text": "Wandering Iyazta enters the battlefield with a +1/+1 counter on it if you\u2019ve sacrificed a permanent this turn.",
+            "rules_text": "Wandering Iyazta enters the battlefield with a +1/+1 counter on it if you've sacrificed a permanent this turn.",
+            "flavor_text": "[i]The iyaztas are remnants of the wild divinity of Akaddi, spirits from a time before cities and laws.[/i]",
             "pt": "5/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Omid Goudarzi",
             "notes": ""
         },
         {
@@ -668,11 +752,13 @@
             "color_identity": "G",
             "cost": "{5}{G}",
             "rules_text": "{3}{G}: Put a +1/+1 counter on another target creature. Activate only as a sorcery.",
+            "flavor_text": "[i]A monument built not to commemorate something, but to warn against it.[/i]",
             "pt": "6/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Mateusz Twardoch",
             "notes": ""
         },
         {
@@ -684,11 +770,13 @@
             "color_identity": "G",
             "cost": "{5}{G}",
             "rules_text": "Vigilance, reach",
+            "flavor_text": "[i]In the harsh deserts beyond order's reach, more than just the winds howl through the storm.[/i]",
             "pt": "5/5",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Riyahd Cassiem",
             "notes": ""
         },
         {
@@ -700,11 +788,13 @@
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "When Wandering Wiseman enters the battlefield, put a +1/+1 counter on up to one target Sculpture you control.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Sean Samuels",
             "notes": ""
         },
         {
@@ -716,11 +806,13 @@
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Engrave 2\u2014{2}{R} [i](If you cast this spell for {2}{R}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)[/i]\nUp to one creature you control gets +1/+0 and gains haste until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Aidin Salsabili",
             "notes": ""
         },
         {
@@ -732,11 +824,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Create two 1/1 white Soldier creature tokens.",
+            "flavor_text": "[i]\u201cThey march in perfect lockstep, brother beside brother. Let their harmonious advance be an inspiration.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Haider Wahab",
             "notes": ""
         },
         {
@@ -747,12 +841,14 @@
             "number": 155,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "When Somber Stargazer enters the battlefield, you may discard a card. If you do, Somber Stargazer studies. [i](Reveal the top card of your library. Put that card into your hand if it\u2019s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "rules_text": "When Somber Stargazer enters the battlefield, you may discard a card. If you do, Somber Stargazer studies. [i](Reveal the top card of your library. Put that card into your hand if it's a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Joel Chaim Holtzman",
             "notes": ""
         },
         {
@@ -764,11 +860,13 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Whenever you attack with an artifact creature and a nonartifact creature, Temple Architect gets +1/+0 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Joan Francesc Oliveras Pallerols",
             "notes": ""
         },
         {
@@ -780,11 +878,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Discard up to two cards, then draw that many cards.\nEngrave 2\u2014{3}{R} [i](If you cast this spell for {3}{R}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimilaino Haematinon Nigro",
             "notes": ""
         },
         {
@@ -795,12 +895,14 @@
             "number": 125,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "Haste\nWhen Devotee of Ghazuz enters the battlefield, it studies. [i](Reveal the top card of your library. Put that card into your hand if it\u2019s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "rules_text": "Haste\nWhen Devotee of Ghazuz enters the battlefield, it studies. [i](Reveal the top card of your library. Put that card into your hand if it's a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Martin Deschambault",
             "notes": ""
         },
         {
@@ -812,11 +914,13 @@
             "color_identity": "R",
             "cost": "{3}{R}",
             "rules_text": "When Pensive Harpist enters the battlefield, create a 0/0 Sculpture artifact creature token. It gets +2/+1 and gains haste until end of turn.",
+            "flavor_text": "[i]Her melodies live briefly in the warm air, catching the ear but fading quickly.[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Eugene Fasano",
             "notes": ""
         },
         {
@@ -828,11 +932,13 @@
             "color_identity": "R",
             "cost": "{4}{R}",
             "rules_text": "Whenever you cast a noncreature spell, Hippodrome Champion gains haste and menace until end of turn.",
+            "flavor_text": "[i]Influenced by tales from distant lands, Qamurab has provided chariot races and grand circuses for his people for a generation.[/i]",
             "pt": "5/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Nadia Hurianova",
             "notes": ""
         },
         {
@@ -844,11 +950,13 @@
             "color_identity": "R",
             "cost": "{4}{R}",
             "rules_text": "When Votary of the Worm enters the battlefield, you may exile a noncreature card from your graveyard. If you do, Votary of the Worm deals 3 damage to target player or planeswalker.",
+            "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Anastasia Balakchina",
             "notes": ""
         },
         {
@@ -860,11 +968,13 @@
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "{T}: The next artifact spell you cast this turn, or the next spell you cast for its engrave cost you cast this turn costs {1} less to cast.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Martin Deschambault",
             "notes": ""
         },
         {
@@ -876,11 +986,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "When Dour Thiefcatcher enters the battlefield, each opponent gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Hassan Chenari",
             "notes": ""
         },
         {
@@ -892,11 +1004,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Flying\nSquawking Psychopomp enters the battlefield with a +1/+1 counter on it if mana from an artifact was spent to cast it.",
+            "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Bastien Lecouffe Deharme",
             "notes": ""
         },
         {
@@ -908,11 +1022,13 @@
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Draw a card.\nEngrave 2\u2014{1}{U}{U} [i](If you cast this spell for {1}{U}{U}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": ""
         },
         {
@@ -924,11 +1040,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Flying\nWhenever Territorial Rukh blocks a creature, you may remove a counter from that creature.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Guilherme Batista",
             "notes": ""
         },
         {
@@ -940,11 +1058,13 @@
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Flying",
+            "flavor_text": "[i]Not all art is carved from immobile stone or painted on immutable plaster.[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Alvaro Estrada",
             "notes": ""
         },
         {
@@ -956,11 +1076,13 @@
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Flying\nWhen Capricious Ibis enters the battlefield, look at the top three cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Zoltan Pogonyi",
             "notes": ""
         },
         {
@@ -972,11 +1094,13 @@
             "color_identity": "U",
             "cost": "{4}{U}",
             "rules_text": "When Tyrant of the Waterways enters the battlefield, choose one \u2014\n\u2022 Put a +1/+1 counter on Tyrant of the Waterways.\n\u2022 Scry 2.",
+            "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Sean Richardson",
             "notes": ""
         },
         {
@@ -988,11 +1112,13 @@
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Scry 2, then draw two cards.\nEngrave 3\u2014{5}{U} [i](If you cast this spell for {5}{U}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": ""
         },
         {
@@ -1004,11 +1130,13 @@
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "When Devoted Supplicant dies, each opponent gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Hassan Chenari",
             "notes": ""
         },
         {
@@ -1020,11 +1148,13 @@
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Flying\nSacrifice Palace Menagerie: Target creature gains lifelink until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Jeszika Le Vye",
             "notes": ""
         },
         {
@@ -1036,11 +1166,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "When Stern Justicar enters the battlefield, each opponent gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "David Cobos",
             "notes": ""
         },
         {
@@ -1051,12 +1183,14 @@
             "number": 26,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Palace Caracal has first strike and lifelink as long as it\u2019s attacking.",
+            "rules_text": "Palace Caracal has first strike and lifelink as long as it's attacking.",
+            "flavor_text": "[i]The Edicts of Qumurab protect the imperial granaries from most thieves, but the cats take care of the smallest.[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Aurore Folny",
             "notes": ""
         },
         {
@@ -1068,11 +1202,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Flying\nWhen Harrier Rukh enters the battlefield, you may put a stun counter on target creature. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Kenneth Solis",
             "notes": ""
         },
         {
@@ -1083,12 +1219,14 @@
             "number": 32,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Qamurab\u2019s Enforcer gets +1/+1 and has lifelink as long as an opponent has a judgment counter.",
+            "rules_text": "Qamurab's Enforcer gets +1/+1 and has lifelink as long as an opponent has a judgment counter.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Joel Chaim Holtzman",
             "notes": ""
         },
         {
@@ -1099,12 +1237,14 @@
             "number": 38,
             "color_identity": "W",
             "cost": "{3}{W}",
-            "rules_text": "This spell costs {1} less to cast as long as you\u2019ve sacrificed a permanent this turn.\nFlying",
+            "rules_text": "This spell costs {1} less to cast as long as you've sacrificed a permanent this turn.\nFlying",
+            "flavor_text": "[i]\u201cCherish the laws I hand down. I provide a sense of order above that which nature understands.\u201d\n\u2014Emperor Qamurab[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Bigball Gao",
             "notes": ""
         },
         {
@@ -1116,11 +1256,13 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Create two 1/1 white Soldier creature tokens. If an opponent has two or more judgment counters, instead create three of those tokens.",
+            "flavor_text": "[i]\u201cAkaddi will grow. The sands, and those who cling to them, will be swept aside.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Lauris Stephani",
             "notes": ""
         },
         {
@@ -1131,12 +1273,14 @@
             "number": 8,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Vigilance\nDakazhi Keeneye has first strike as long as it\u2019s attacking.",
+            "rules_text": "Vigilance\nDakazhi Keeneye has first strike as long as it's attacking.",
+            "flavor_text": "[i]Dakazhi, oldest of the cities that grew into the present Akaddi, still retains a strong regional identity and proud martial tradition. [/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Joel Chaim Holtzman",
             "notes": ""
         },
         {
@@ -1148,11 +1292,13 @@
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "You may cast this spell as though it had flash as long as an opponent has a judgment counter.\nWhen Doom of the Unwary enters the battlefield, target creature you control gets +2/+2 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": ""
         },
         {
@@ -1164,11 +1310,13 @@
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Whenever you attack with an artifact creature and a nonartifact creature, Dakazhi Outrider gains first strike until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": ""
         },
         {
@@ -1180,11 +1328,13 @@
             "color_identity": "W",
             "cost": "{5}{W}",
             "rules_text": "Vigilance\nAt the beginning of combat on your turn, up to one other creature you control gains vigilance until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "3/6",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Bruno Balixa",
             "notes": ""
         },
         {
@@ -1196,11 +1346,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Choose target attacking or blocking creature or target planeswalker. Its controller gets a judgment counter, then Bloodied Hands deals damage to that permanent equal to twice the number of judgment counters its controller has. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Pietro Nume",
             "notes": ""
         },
         {
@@ -1211,12 +1363,14 @@
             "number": 7,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Enchant creature\nWhen Caught Stealing enters the battlefield, enchanted creature\u2019s controller gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]\nEnchanted creature can\u2019t attack or block.",
+            "rules_text": "Enchant creature\nWhen Caught Stealing enters the battlefield, enchanted creature's controller gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]\nEnchanted creature can't attack or block.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": ""
         },
         {
@@ -1228,11 +1382,13 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Exile target tapped creature.",
+            "flavor_text": "[i]\u201cLet those who are without regard for their fellow citizen learn to live alone.\u201d\n\u2014Edict of Qamurab[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": "!tag reprint"
         },
         {
@@ -1244,11 +1400,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Until end of turn, target creature gains first strike, lifelink, indestructible, and \u201cwhenever this creature deals combat damage to an opponent, that player gets a judgment counter\u201d. Untap it. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Anton Vitus",
             "notes": ""
         },
         {
@@ -1260,11 +1418,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Enchant creature\nEnchanted creature gets +1/+1 and has vigilance.\nSacrifice Regal Bearing: Enchanted creature gains indestructible until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Louis LaurentPRO",
             "notes": ""
         },
         {
@@ -1276,11 +1436,13 @@
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "{1}, Sacrifice Motif of Abundance: You gain 4 life.\nWhen Motif of Abundance is put into a graveyard from the battlefield, you may pay {W}. If you do, draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Vadim Tougeron",
             "notes": ""
         },
         {
@@ -1292,11 +1454,13 @@
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "Destroy target artifact, enchantment, or attacking creature.",
+            "flavor_text": "[i]\u201cOn the first day of the new moon, one shall be chosen to take up the sins of the city and bring them with him into exile.\u201d\n\u2014Edict of Qamurab[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": ""
         },
         {
@@ -1308,11 +1472,13 @@
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "",
+            "flavor_text": "[i]Although she seldom dabbles in public affairs, preferring to remain a private patron of the arts, the empress Shaba has been stranger to commissioning deified statues in her likeness.[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Haider Wahab",
             "notes": ""
         },
         {
@@ -1323,12 +1489,14 @@
             "number": 5,
             "color_identity": "W",
             "cost": "{W}{W}",
-            "rules_text": "Brazen Hireling has first strike as long as you\u2019ve sacrificed a permanent this turn.",
+            "rules_text": "Brazen Hireling has first strike as long as you've sacrificed a permanent this turn.",
+            "flavor_text": "[i]Qamurab's edicts were not put in place effortlessly, and soldiers from far-flung kingdoms were paid generously to enforce his regime.[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Mariusz Kozik",
             "notes": ""
         },
         {
@@ -1339,12 +1507,14 @@
             "number": 28,
             "color_identity": "W",
             "cost": "{W}{W}",
-            "rules_text": "When Paragon of Justice dies, create a 0/0 Sculpture artifact creature token and put X +1/+1 counters on it, where X is Paragon of Justice\u2019s power.",
+            "rules_text": "When Paragon of Justice dies, create a 0/0 Sculpture artifact creature token and put X +1/+1 counters on it, where X is Paragon of Justice's power.",
+            "flavor_text": "[i]\u201cI strive to be fair, to be just, and to be kind. But most of all\u2014to be remembered.\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Pierre Raveneau",
             "notes": ""
         },
         {
@@ -1355,12 +1525,14 @@
             "number": 23,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Flash\nWhen Midnight Patrol enters the battlefield, return up to one other permanent you control to its owner\u2019s hand.",
+            "rules_text": "Flash\nWhen Midnight Patrol enters the battlefield, return up to one other permanent you control to its owner's hand.",
+            "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Faraz Shanyar",
             "notes": ""
         },
         {
@@ -1371,12 +1543,14 @@
             "number": 17,
             "color_identity": "W",
             "cost": "{3}{W}",
-            "rules_text": "Whenever you attack with an artifact creature and a nonartifact creature, put a  +1/+1 counter on target attacking creature you control.",
+            "rules_text": "Whenever you attack with an artifact creature and a nonartifact creature, put a +1/+1 counter on target attacking creature you control.",
+            "flavor_text": "[i]His ostentatious armor gleams brightly in the desert sun, blinding his foes for a decisive charge. Or so he says.[/i]",
             "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Joan Francesc Oliveras Pallerols",
             "notes": ""
         },
         {
@@ -1387,12 +1561,14 @@
             "number": 1,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
-            "rules_text": "Flying\nWhen Angelic Justicar enters the battlefield, each opponent gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]\nAngelic Justicar gets +1/+1 as long as you\u2019ve sacrificed a permanent this turn.",
+            "rules_text": "Flying\nWhen Angelic Justicar enters the battlefield, each opponent gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]\nAngelic Justicar gets +1/+1 as long as you've sacrificed a permanent this turn.",
+            "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Anthony Z Studio",
             "notes": ""
         },
         {
@@ -1404,11 +1580,13 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Vigilance\nOutcast Pariah has ward {X}, where X is the greatest number of judgment counters an opponent has. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {X}.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Aurore Folny",
             "notes": ""
         },
         {
@@ -1420,11 +1598,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "You gain 2 life.\nDraw a card.\nEngrave 2\u2014{3}{W} [i](If you cast this spell for {3}{W}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Davey Baker",
             "notes": ""
         },
         {
@@ -1435,12 +1615,14 @@
             "number": 22,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "Destroy target nonland permanent if its mana value is 1 or less. If you\u2019ve sacrificed a permanent this turn, instead destroy that permanent if its mana value is 3 or less.",
+            "rules_text": "Destroy target nonland permanent if its mana value is 1 or less. If you've sacrificed a permanent this turn, instead destroy that permanent if its mana value is 3 or less.",
+            "flavor_text": "[i]The stillness of the grave allows for perhaps too much introspection.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Martin Deschambault",
             "notes": ""
         },
         {
@@ -1451,12 +1633,14 @@
             "number": 37,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
-            "rules_text": "When Temple Vigil enters the battlefield, exile target nonland permanent an opponent controls until Temple Vigil leaves the battlefield. That permanent\u2019s controller gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "rules_text": "When Temple Vigil enters the battlefield, exile target nonland permanent an opponent controls until Temple Vigil leaves the battlefield. That permanent's controller gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Danny Han",
             "notes": ""
         },
         {
@@ -1468,11 +1652,13 @@
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "Target player gets a judgment counter, then you create a number of 1/1 white Soldier creature tokens equal to the number of judgment counters that player has. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Anastasia Balakchina",
             "notes": ""
         },
         {
@@ -1484,11 +1670,13 @@
             "color_identity": "C",
             "cost": "{0}",
             "rules_text": "Whenever another artifact enters the battlefield under your control, put a charge counter on Bronze Bastion.\nEquipped creature gets +1/+1 for each charge counter on Bronze Bastion.\nEquip {3}",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Taek Hyun Lee",
             "notes": ""
         },
         {
@@ -1500,11 +1688,13 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Flash\nWhen Infallible Dictate enters the battlefield, counter target spell unless its controller pays {1}.\nNoncreature spells cost {1} more to cast.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Pierre Deschamps",
             "notes": ""
         },
         {
@@ -1515,12 +1705,14 @@
             "number": 79,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Defender\nWayside Idol can attack as though it didn\u2019t have defender as long as defending player has a judgment counter.",
+            "rules_text": "Defender\nWayside Idol can attack as though it didn't have defender as long as defending player has a judgment counter.",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Erikas Perl",
             "notes": ""
         },
         {
@@ -1532,11 +1724,13 @@
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "Counter target spell.\nArbitrate. [i](You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Andrea Casciaro",
             "notes": ""
         },
         {
@@ -1547,12 +1741,14 @@
             "number": 54,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Target spell\u2019s controller gets a judgment counter. Then counter that spell unless its controller pays {2} for each judgment counter they have.",
+            "rules_text": "Target spell's controller gets a judgment counter. Then counter that spell unless its controller pays {2} for each judgment counter they have.",
+            "flavor_text": "[i]\u201cShould a man break into a home, he shall be hanged from that home's rafters.\u201d\n\u2014Edict of Qamurab[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Nikos Gaitanopoulos",
             "notes": ""
         },
         {
@@ -1563,12 +1759,14 @@
             "number": 66,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Enchant creature\nWhen Penitent Supplication enters the battlefield, tap enchanted creature.\nEnchanted creature doesn\u2019t untap during its controller\u2019s untap step as long as its controller has a judgment counter.",
+            "rules_text": "Enchant creature\nWhen Penitent Supplication enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step as long as its controller has a judgment counter.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Halil Ural",
             "notes": ""
         },
         {
@@ -1580,11 +1778,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Draw two cards, then discard a card unless you get a judgment counter. [i](At the beginning of your upkeep, for each judgment counter, you lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": ""
         },
         {
@@ -1596,11 +1796,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Choose one \u2014\n\u2022 Scry 3.\n\u2022 Scry 1, then draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Amun-Ptah-Khepera",
             "notes": ""
         },
         {
@@ -1611,12 +1813,14 @@
             "number": 51,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Return target nonland permanent to its owner\u2019s hand. If that player has two or more judgment counters, instead put that permanent on top of its owner\u2019s library.",
+            "rules_text": "Return target nonland permanent to its owner's hand. If that player has two or more judgment counters, instead put that permanent on top of its owner's library.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": ""
         },
         {
@@ -1628,11 +1832,13 @@
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Engrave 2\u2014{3}{U} [i](If you cast this spell for {3}{U}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)[/i]\nUp to one creature you control gets +0/+3 and gains hexproof until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Reza Sohrabi",
             "notes": ""
         },
         {
@@ -1644,11 +1850,13 @@
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "{1}, Sacrifice Motif of Indecision: Tap target creature. Put a stun counter on it.\nWhen Motif of Indecision is put into a graveyard from the battlefield, you may pay {U}. If you do, draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Ludovic Petiot",
             "notes": ""
         },
         {
@@ -1660,11 +1868,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Enchant creature\nEnchanted creature loses all abilities and gets -X/-0, where X is the number of judgment counters its controller has.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Pierre Raveneau",
             "notes": ""
         },
         {
@@ -1675,12 +1885,14 @@
             "number": 52,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Return target creature to its owner\u2019s hand. If you controlled that creature, each opponent gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "rules_text": "Return target creature to its owner's hand. If you controlled that creature, each opponent gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Faraz Shanyar",
             "notes": ""
         },
         {
@@ -1692,11 +1904,13 @@
             "color_identity": "U",
             "cost": "{U}{U}",
             "rules_text": "The first noncreature spell each opponent casts each turn costs {1} more to cast for each judgment counter that player has.",
+            "flavor_text": "[i]\u201cIf one should blind the eye of another, they shall blind his eye in turn.\u201d\n\u2014Edict of Qamurab[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": ""
         },
         {
@@ -1708,11 +1922,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Each creature you control with a +1/+1 counter on it has flying.\nEngrave 2\u2014{3}{U}{U} [i](If you cast this spell for {3}{U}{U}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Joel Chaim Holtzman",
             "notes": ""
         },
         {
@@ -1724,11 +1940,13 @@
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "Flash\nWhen Swift Zulufaa enters the battlefield, move any number of counters from target creature onto another target creature.",
+            "flavor_text": "[i]Seldom-spotted creatures, the zulufaa prowls the rivers around Akaddi, snatching prey with its powerful jaws.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Kurtis DawePRO",
             "notes": ""
         },
         {
@@ -1740,11 +1958,13 @@
             "color_identity": "U",
             "cost": "{3}{U}{U}",
             "rules_text": "Flash\nThis spell costs {1} less to cast if the player whose turn it is has a judgment counter.",
+            "flavor_text": "[i]\u201cI shall pull it in with a mere fishhook and tie down its wretched tongue.\u201d\n\u2014Emperor Qamurab[/i]",
             "pt": "5/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Quentin Castel",
             "notes": ""
         },
         {
@@ -1756,11 +1976,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "As long as any opponent has two or more judgment counters, Hand of Qamurab is a 5/5 Chimera creature.\n{2}{U}: Scry 1.",
+            "flavor_text": "[i]For those who continually flout his laws, the emperor retains a special breed of executioner.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "YW Tang",
             "notes": ""
         },
         {
@@ -1772,11 +1994,13 @@
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Other Sculpture creatures you control get +1/+1.",
+            "flavor_text": "[i]Its ancient eye sockets gaze out upon freshly-carved works with the silent approval of an aloof father.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Martin Deschambault",
             "notes": ""
         },
         {
@@ -1787,12 +2011,14 @@
             "number": 47,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "Counter target spell. Distribute X +1/+1 counters among Sculptures you control, where X is that spell\u2019s mana value.",
+            "rules_text": "Counter target spell. Distribute X +1/+1 counters among Sculptures you control, where X is that spell's mana value.",
+            "flavor_text": "[i]There is blood, sweat, and tears in all art, though it need not be that of the artist.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": ""
         },
         {
@@ -1803,12 +2029,14 @@
             "number": 76,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "When Tyrant\u2019s Remorse enters the battlefield, target player gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]\nAt the beginning of each opponent\u2019s upkeep, that player mills four cards for each judgment counter they have.",
+            "rules_text": "When Tyrant's Remorse enters the battlefield, target player gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]\nAt the beginning of each opponent's upkeep, that player mills four cards for each judgment counter they have.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Victor Hugo Harmatiuk",
             "notes": ""
         },
         {
@@ -1819,12 +2047,14 @@
             "number": 68,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Enchant creature\nEnchanted creature loses all abilities and is a colorless Sculpture artifact creature with base power and toughness 0/0. Put a +1/+1 counter on it. ",
+            "rules_text": "Enchant creature\nEnchanted creature loses all abilities and is a colorless Sculpture artifact creature with base power and toughness 0/0. Put a +1/+1 counter on it.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Haider Wahab",
             "notes": ""
         },
         {
@@ -1836,11 +2066,13 @@
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Equipped gets +1/+1 and has \u201cwhenever this creature deals combat damage to an opponent, that player gets a judgment counter.\u201d [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]\nEquip {2}",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Ammar Raad Fahad",
             "notes": ""
         },
         {
@@ -1852,11 +2084,13 @@
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "This spell costs {1} less to cast if it targets a permanent whose controller has a judgment counter.\nDestroy target creature or planeswalker.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Mateusz Twardoch",
             "notes": ""
         },
         {
@@ -1868,11 +2102,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "As an additional cost to cast this spell, you may remove a counter from a permanent you control.\nTarget creature gets -2/-2 until end of turn. If the additional cost was paid, that creature gets -3/-3 until end of turn instead.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Shamine Athena King",
             "notes": ""
         },
         {
@@ -1884,11 +2120,13 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Target creature gets -3/-3 until end of turn. If that creature would die this turn, exile it instead.\nEngrave 2\u2014{4}{B} [i](If you cast this spell for {4}{B}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Tobias Schmutz",
             "notes": ""
         },
         {
@@ -1900,11 +2138,13 @@
             "color_identity": "B",
             "cost": "{4}{B}",
             "rules_text": "Exile target creature, planeswalker, or enchantment an opponent controls.",
+            "flavor_text": "[i]Akaddi tradition holds that to pierce a man's heart kills not just the body but the soul as well.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Martin Deschambault",
             "notes": ""
         },
         {
@@ -1916,11 +2156,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Draw two cards. You get a judgment counter. [i](At the beginning of your upkeep, for each judgment counter, you lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Pierre Raveneau",
             "notes": ""
         },
         {
@@ -1932,11 +2174,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Target player discards two cards. That player gets a judgment counter for each card type among cards discarded this way. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Faraz Shanyar",
             "notes": ""
         },
         {
@@ -1948,11 +2192,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "{1}, Sacrifice Motif of Reluctance: Target creature gets +2/-1 until end of turn. Activate only as a sorcery.\nWhen Motif of Reluctance is put into a graveyard from the battlefield, you may pay {B}. If you do, draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Nate Baerwald",
             "notes": ""
         },
         {
@@ -1964,11 +2210,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Engrave 1\u2014{1}{B} [i](If you cast this spell for {1}{B}, create a 0/0 Sculpture artifact creature token, then distribute a +1/+1 counter among Sculptures you control.)[/i]\nEach player sacrifices a creature.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimiliano Haematinon Nigro",
             "notes": ""
         },
         {
@@ -1979,12 +2227,14 @@
             "number": 112,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "{1}, {T}, Sacrifice an artifact or creature: Scholar of the Worm studies. [i](Reveal the top card of your library. Put that card into your hand if it\u2019s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "rules_text": "{1}, {T}, Sacrifice an artifact or creature: Scholar of the Worm studies. [i](Reveal the top card of your library. Put that card into your hand if it's a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Bastien Lecouffe Derhame",
             "notes": ""
         },
         {
@@ -1995,12 +2245,14 @@
             "number": 120,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "When Worm\u2019s Evangel enters the battlefield, target creature you don\u2019t control gets -X/-X end of turn, where X is the number of judgment counters its controller has.",
+            "rules_text": "When Worm's Evangel enters the battlefield, target creature you don't control gets -X/-X end of turn, where X is the number of judgment counters its controller has.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Anastasia Balakchina",
             "notes": ""
         },
         {
@@ -2012,11 +2264,13 @@
             "color_identity": "B",
             "cost": "{B}{B}",
             "rules_text": "You may cast Delver of the Forbidden from your graveyard. If you do, when it enters the battlefield, you get a judgment counter. [i](At the beginning of your upkeep, for each judgment counter, you lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Zven Hwan",
             "notes": ""
         },
         {
@@ -2028,11 +2282,13 @@
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "Whenever you cast a noncreature spell, up to one target creature gets -1/-1 until end of turn.",
+            "flavor_text": "[i]In a zulufaa's bite\n\u2014Dakhazi expression meaning\n\u201cin a split second\u201d[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Kurtis DawePRO",
             "notes": ""
         },
         {
@@ -2044,11 +2300,13 @@
             "color_identity": "B",
             "cost": "{3}{B}{B}",
             "rules_text": "Anointed Gravewurm enters the battlefield with a number of +1/+1 counters on it equal to the number of creature cards in all graveyards.\nYou may cast Anointed Gravewurm from your graveyard by discarding two cards in addition to paying its other costs.",
+            "flavor_text": "[i][/i]",
             "pt": "2/0",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Federico Cimini",
             "notes": ""
         },
         {
@@ -2060,11 +2318,13 @@
             "color_identity": "B",
             "cost": "{3}{B}{B}",
             "rules_text": "Flying\nWhen Harsh Seraph enters the battlefield, each opponent gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]\nWhenever an opponent loses life or whenever you sacrifice an artifact, put a +1/+1 counter on Harsh Seraph. This ability triggers only once each turn.",
+            "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Victor Titov",
             "notes": ""
         },
         {
@@ -2075,12 +2335,14 @@
             "number": 91,
             "color_identity": "B",
             "cost": "{4}{B}",
-            "rules_text": "When Emperor\u2019s Envoy enters the battlefield, each opponent gets a judgment counter. Then each opponent with three or more judgment counters sacrifices a creature.",
+            "rules_text": "When Emperor's Envoy enters the battlefield, each opponent gets a judgment counter. Then each opponent with three or more judgment counters sacrifices a creature.",
+            "flavor_text": "[i]The law of Qamurab knows no boundary.[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Dima Goryainov",
             "notes": ""
         },
         {
@@ -2091,12 +2353,14 @@
             "number": 86,
             "color_identity": "B",
             "cost": "{3}{B}",
-            "rules_text": "Exile target creature. Its controller gets a judgment counter. If that creature\u2019s power was greater than its mana value, instead its controller gets two judgment counters. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "rules_text": "Exile target creature. Its controller gets a judgment counter. If that creature's power was greater than its mana value, instead its controller gets two judgment counters. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Dominik Mayer",
             "notes": ""
         },
         {
@@ -2107,12 +2371,14 @@
             "number": 105,
             "color_identity": "B",
             "cost": "{3}{B}",
-            "rules_text": "Exile target creature card from a graveyard. Create a token that\u2019s a copy of it, except it\u2019s a 3/3 black Zombie.",
+            "rules_text": "Exile target creature card from a graveyard. Create a token that's a copy of it, except it's a 3/3 black Zombie.",
+            "flavor_text": "[i]In his monomaniacal approach, Qamurab has appointed wizards to raise the dead so that more than one life sentence can be carried out.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Mikl\u00f3s Ligeti",
             "notes": ""
         },
         {
@@ -2124,11 +2390,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Choose one \u2014\n\u2022 Remove up to two counters from target permanent. You gain 2 life.\n\u2022 Target creature gets -2/-2 until end of turn. You gain 2 life.",
+            "flavor_text": "[i]No dissent. No mercy.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Tobias Schmutz",
             "notes": ""
         },
         {
@@ -2140,11 +2408,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "As an additional cost to cast this spell, you may sacrifice a creature. If you do, copy it.\nChoose a nonland card name. Target player reveals their hand and discards all cards with that name.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Martin Deschambault",
             "notes": ""
         },
         {
@@ -2156,11 +2426,13 @@
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "This spell costs {2} less to cast as long as any opponent has three or more judgment counters.\nSearch your library for a card, put that card into your hand, then shuffle.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Sergey Vasnev",
             "notes": ""
         },
         {
@@ -2172,11 +2444,13 @@
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "When Tower Schematics enters the battlefield, arbitrate. [i](You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)[/i]\n{T}, Remove a counter from a permanent you control: Exile up to two target cards from a single graveyard.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Haider Wahab",
             "notes": ""
         },
         {
@@ -2188,11 +2462,13 @@
             "color_identity": "R",
             "cost": "{3}{R}",
             "rules_text": "This spell costs {1} less to cast if an opponent has gained life this turn.\nBread and Circuses deals 4 damage to any target.",
+            "flavor_text": "[i]\u201cKeep them entertained. Idle hands are a dangerous weapon.\u201d\n\u2014Emperor Qamurab[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Luis Medina",
             "notes": ""
         },
         {
@@ -2203,12 +2479,14 @@
             "number": 146,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "Recant the Truth deals 2 damage to target creature or planeswalker. That permanent\u2019s controller gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "rules_text": "Recant the Truth deals 2 damage to target creature or planeswalker. That permanent's controller gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i]\u201cYour guilt is a foregone conclusion.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Joel Chaim Holtzman",
             "notes": ""
         },
         {
@@ -2220,11 +2498,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. You get a judgment counter. [i](At the beginning of your upkeep, for each judgment counter, you lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Ryan Teo",
             "notes": ""
         },
         {
@@ -2236,11 +2516,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Creatures you control get +2/+0 until end of turn.\nEngrave 3\u2014{4}{R} [i](If you cast this spell for {4}{R}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Luis Medina",
             "notes": ""
         },
         {
@@ -2252,11 +2534,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Enchant creature\nEnchanted creature gets +2/+2.\nEngrave 2\u2014{3}{R} [i](If you cast this spell for {3}{R}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Kenneth Solis",
             "notes": ""
         },
         {
@@ -2267,12 +2551,14 @@
             "number": 130,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Target creature gets +2/+0 and gains first strike until end of turn. If it\u2019s a Sculpture, it gets an additional +1/+1 until end of turn.",
+            "rules_text": "Target creature gets +2/+0 and gains first strike until end of turn. If it's a Sculpture, it gets an additional +1/+1 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Anastasia Balakchina",
             "notes": ""
         },
         {
@@ -2283,12 +2569,14 @@
             "number": 140,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "{1}, Sacrifice Motif of Confusion: Up to two target creatures can\u2019t block this turn.\nWhen Motif of Confusion is put into a graveyard from the battlefield, you may pay {R}. If you do, draw a card.",
+            "rules_text": "{1}, Sacrifice Motif of Confusion: Up to two target creatures can't block this turn.\nWhen Motif of Confusion is put into a graveyard from the battlefield, you may pay {R}. If you do, draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Ishan Verma",
             "notes": ""
         },
         {
@@ -2300,11 +2588,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "No Prayer for the Dying deals 1 damage to each opponent and each creature and planeswalker they control. If a permanent dealt damage this way would be put into a graveyard this turn, exile it instead.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Pietro Nume",
             "notes": ""
         },
         {
@@ -2316,11 +2606,13 @@
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Engrave 1\u2014{2}{R} [i](If you cast this spell for {2}{R}, create a 0/0 Sculpture artifact creature token, then distribute a +1/+1 counter among Sculptures you control.)[/i]\nMural of Tranquility deals damage to any target equal to the number of artifact creatures you control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Meliksah Kaya",
             "notes": ""
         },
         {
@@ -2332,11 +2624,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Engrave 2\u2014{3}{R} [i](If you cast this spell for {3}{R}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i]Though worship of the old gods is waning, the fertility god Gurnal still attracts devoted prayer.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Bastien Lecouffe Deharme",
             "notes": ""
         },
         {
@@ -2347,12 +2641,14 @@
             "number": 151,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "{T}, Discard a card: Seer of Ghazuz studies. [i](Reveal the top card of your library. Put that card into your hand if it\u2019s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "rules_text": "{T}, Discard a card: Seer of Ghazuz studies. [i](Reveal the top card of your library. Put that card into your hand if it's a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Aurore Folny",
             "notes": ""
         },
         {
@@ -2364,11 +2660,13 @@
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "Whenever you put one or more counters on a creature you control, exile the top card of your library. You may play that card until the end of your next turn.",
+            "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Jack Huang",
             "notes": ""
         },
         {
@@ -2380,11 +2678,13 @@
             "color_identity": "R",
             "cost": "{4}{R}",
             "rules_text": "Whenever a creature you control studies, Venomous Manticore deals 3 damage to target opponent.",
+            "flavor_text": "[i]Though he offers his devotees much wisdom, the great worm Ghazuz is quick to punish mistakes. [/i]",
             "pt": "5/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Alexander \"Minze\" Th\u00fcmler",
             "notes": ""
         },
         {
@@ -2396,11 +2696,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Sculptures you control have haste and menace.\nEngrave 3\u2014{4}{R}{R} [i](If you cast this spell for {4}{R}{R}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Bastien Lecouffe Deharme",
             "notes": ""
         },
         {
@@ -2412,11 +2714,13 @@
             "color_identity": "R",
             "cost": "{3}{R}",
             "rules_text": "Flash\nMidnight Ambusher costs {1} less to cast for each noncreature spell cast this turn.",
+            "flavor_text": "[i]Walk softly, and know that no stick is big enough.[/i]",
             "pt": "4/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Daniele Bulgaro",
             "notes": ""
         },
         {
@@ -2428,11 +2732,13 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "The Rise of Qamurab deals 2 damage to each creature and each planeswalker.\nEngrave 3\u2014{3}{R}{R} [i](If you cast this spell for {3}{R}{R}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Siavosh Houshmandi",
             "notes": ""
         },
         {
@@ -2443,12 +2749,14 @@
             "number": 137,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "This spell costs {1} less to cast if it targets a player with a judgment counter or a permanent controlled by a player with a judgment counter.\nLiar\u2019s Crown deals 3 damage to any target.",
+            "rules_text": "This spell costs {1} less to cast if it targets a player with a judgment counter or a permanent controlled by a player with a judgment counter.\nLiar's Crown deals 3 damage to any target.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Anato Finnstark",
             "notes": ""
         },
         {
@@ -2459,12 +2767,14 @@
             "number": 129,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Engrave 2\u2014{1}{R}{R} [i](If you cast this spell for {1}{R}{R}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)[/i]\nSacrifice a creature. Game of War deals damage equal to the sacrificed creature\u2019s power to any target.",
+            "rules_text": "Engrave 2\u2014{1}{R}{R} [i](If you cast this spell for {1}{R}{R}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)[/i]\nSacrifice a creature. Game of War deals damage equal to the sacrificed creature's power to any target.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Jed Baldovino",
             "notes": ""
         },
         {
@@ -2476,11 +2786,13 @@
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Equipped creature has lifelink and \u201c{T}: Put a +1/+1 counter on this creature.\u201d\nEquip {2}",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Okan Simsek",
             "notes": ""
         },
         {
@@ -2491,12 +2803,14 @@
             "number": 147,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Until end of turn, target creature\u2019s base power and toughness become either 6/1 or 1/6.",
+            "rules_text": "Until end of turn, target creature's base power and toughness become either 6/1 or 1/6.",
+            "flavor_text": "[i]\u201cMove as swiftly and as unpredictably as the dunes beneath the wind.\u201d\n\u2014Baniphal, Akaddi general[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Jim Ling",
             "notes": ""
         },
         {
@@ -2508,11 +2822,13 @@
             "color_identity": "R",
             "cost": "{3}{R}",
             "rules_text": "Choose one \u2014\n\u2022 Return target instant or sorcery card from your graveyard to your hand.\n\u2022 Destroy target nonbasic land.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Keren He",
             "notes": ""
         },
         {
@@ -2523,12 +2839,14 @@
             "number": 171,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Target creature you control studies. Then it fights target creature you don\u2019t control. [i](Reveal the top card of your library. Put that card into your hand if it\u2019s a noncreature, nonland card. Otherwise, put a +1/+1 counter on that creature, then put the card on the top or bottom of your library.)[/i]",
+            "rules_text": "Target creature you control studies. Then it fights target creature you don't control. [i](Reveal the top card of your library. Put that card into your hand if it's a noncreature, nonland card. Otherwise, put a +1/+1 counter on that creature, then put the card on the top or bottom of your library.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Midjourney Rando",
             "notes": ""
         },
         {
@@ -2540,11 +2858,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Myth of Destruction deals damage to target creature with flying equal to the greatest power among creatures you control.",
+            "flavor_text": "[i]\u201cBehold the emperor; the giver of law, the tamer of chaos, the slayer of monsters. Hear his word and kneel.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Alexandra Melnikova",
             "notes": ""
         },
         {
@@ -2556,11 +2876,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Untap target creature you control. Put two +1/+1 counters on it.",
+            "flavor_text": "[i]Bordering the wide, shallow Ghallil Sea, the sprawling city of Akaddi is difficult to attack unexpectedly.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Andrea Casciaro",
             "notes": ""
         },
         {
@@ -2572,11 +2894,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Equipped creature gets +2/+2 and has trample.\nEquip {3}",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Manel da Selva",
             "notes": ""
         },
         {
@@ -2588,11 +2912,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Engrave 2\u2014{3}{G} [i](If you cast this spell for {3}{G}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)[/i]\nUp to one creature you control gets +0/+2 and gains reach until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Kristina Giblin",
             "notes": ""
         },
         {
@@ -2604,11 +2930,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "{1}, Sacrifice Motif of Serenity: Destroy target noncreature artifact or noncreature enchantment.\nWhen Motif of Serenity is put into a graveyard from the battlefield, you may pay {G}. If you do, draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Ishan Verma",
             "notes": ""
         },
         {
@@ -2620,11 +2948,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Engrave 3\u2014{2}{G}{G} [i](If you cast this spell for {2}{G}{G}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]\nCreate a 0/0 Sculpture artifact creature token, then put a +1/+1 counter on a Sculpture you control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Siavosh Houshmandi",
             "notes": ""
         },
         {
@@ -2636,11 +2966,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Trample\nCrew 1 [i](Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Martin Deschambault",
             "notes": ""
         },
         {
@@ -2651,12 +2983,14 @@
             "number": 178,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "When Library Elder enters the battlefield, it studies. [i](Reveal the top card of your library. Put that card into your hand if it\u2019s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]\nEach creature you control with a +1/+1 counter on it has trample.",
+            "rules_text": "When Library Elder enters the battlefield, it studies. [i](Reveal the top card of your library. Put that card into your hand if it's a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]\nEach creature you control with a +1/+1 counter on it has trample.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Pierre Raveneau",
             "notes": ""
         },
         {
@@ -2667,12 +3001,14 @@
             "number": 184,
             "color_identity": "G",
             "cost": "{3}{G}",
-            "rules_text": "Trample\nWhenever Outrider of Akaddi deals combat damage to an opponent, it studies. [i](Reveal the top card of your library. Put that card into your hand if it\u2019s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "rules_text": "Trample\nWhenever Outrider of Akaddi deals combat damage to an opponent, it studies. [i](Reveal the top card of your library. Put that card into your hand if it's a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Mariusz Kozik",
             "notes": ""
         },
         {
@@ -2684,11 +3020,13 @@
             "color_identity": "G",
             "cost": "{3}{G}{G}",
             "rules_text": "Trample\nWhenever Devouring Ammit attacks, you may exile two target cards from a single graveyard. If you exile two cards that share a card type this way, put a +1/+1 counter on Devouring Ammit.",
+            "flavor_text": "[i][/i]",
             "pt": "5/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "N. C.",
             "notes": ""
         },
         {
@@ -2700,11 +3038,13 @@
             "color_identity": "G",
             "cost": "{4}{G}{G}",
             "rules_text": "When Thrashing Demolisher enters the battlefield, destroy target noncreature artifact, noncreature enchantment, or nonbasic land.",
+            "flavor_text": "[i]No legal edict or code of ethics can contain the true chaos of nature.[/i]",
             "pt": "6/5",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Marc Simonetti",
             "notes": ""
         },
         {
@@ -2716,11 +3056,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Engrave X\u2014{X}{G}{G} [i](If you cast this spell for {X}{G}{G}, create a 0/0 Sculpture artifact creature token, then distribute X +1/+1 counters among Sculptures you control.)[/i]\nLook at a number of card from the top of your library equal to the greatest power among creatures you control. Put one of those cards into your hand and the rest on the bottom of your library in a random order.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Cyrus Rouhani",
             "notes": ""
         },
         {
@@ -2732,11 +3074,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Reach\nUnjustly Condemned enters the battlefield with a +1/+1 counter on it for each other creature you control with a +1/+1 counter on it.",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Constan Lerois",
             "notes": ""
         },
         {
@@ -2748,11 +3092,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "When Tower of Hubris enters the battlefield, search your library for a land card, reveal it, put it into your hand, then shuffle.\n{1}, {T}: Put a land card from your hand onto the battlefield tapped.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Iker Paz",
             "notes": ""
         },
         {
@@ -2764,11 +3110,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "At the beginning of your end step, put a +1/+1 counter on each creature you control that had a counter put on it this turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Davey Baker",
             "notes": ""
         },
         {
@@ -2780,11 +3128,13 @@
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Each artifact creature you control enters the battlefield with an additional +1/+1 counter on it.\nEngrave 5\u2014{8} [i](If you cast this spell for {8}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute five +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Siavosh Houshmandi",
             "notes": ""
         },
         {
@@ -2796,11 +3146,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Engrave 2\u2014{1}{G}{G} [i](If you cast this spell for {1}{G}{G}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)[/i]\nUntil end of turn, target creature gains trample and gets +X/+X, where X is the number of creatures you control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Ali Saffari",
             "notes": ""
         },
         {
@@ -2812,11 +3164,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Return target permanent card or card with engrave from your graveyard to your hand.",
+            "flavor_text": "[i]\u201cIf one steals the fruits of another, let him be starved unto death.\u201d\n\u2014Edict of Qamurab[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Alexander \"Minze\" Th\u00fcmler",
             "notes": ""
         },
         {
@@ -2824,15 +3178,17 @@
             "color": "BR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
-            "number": 216,
+            "number": 207,
             "color_identity": "BR",
             "cost": "{B}{R}",
             "rules_text": "Whenever you cast a noncreature spell, each opponent loses 1 life.",
+            "flavor_text": "[i]Emperor Qamurab, like his father before him, has invested vast resources into the temple complex that will serve as the family mausoleum.[/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Ricardo Lima",
             "notes": ""
         },
         {
@@ -2840,15 +3196,17 @@
             "color": "WG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Scorpion",
-            "number": 233,
+            "number": 215,
             "color_identity": "WG",
             "cost": "{1}{G}{W}",
-            "rules_text": "Whenever you sacrifice another permanent for the first time each turn, put a +1/+1 counter on Wanderer\u2019s Folly and you gain 2 life.",
+            "rules_text": "Whenever you sacrifice another permanent for the first time each turn, put a +1/+1 counter on Wanderer's Folly and you gain 2 life.",
+            "flavor_text": "[i]The laws of Akaddi may be harsh, but those who venture beyond the cities find the wilderness no more forgiving. [/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Ricardo Lima",
             "notes": ""
         },
         {
@@ -2856,15 +3214,17 @@
             "color": "WR",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 207,
+            "number": 225,
             "color_identity": "WR",
             "cost": "{R}{W}",
             "rules_text": "Whenever you attack with an artifact creature and a nonartifact creature, Charge into History deals 2 damage to target player or planeswalker.\nEngrave 3\u2014{3}{R}{W} [i](If you cast this spell for {3}{R}{W}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Edouard Groult",
             "notes": ""
         },
         {
@@ -2875,12 +3235,14 @@
             "number": 240,
             "color_identity": "C",
             "cost": "{3}",
-            "rules_text": "Whenever Hunter\u2019s Chariot becomes crewed for the first time each turn, put a +1/+1 counter on up to one creature that crewed it.\nCrew 3 [i](Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]",
+            "rules_text": "Whenever Hunter's Chariot becomes crewed for the first time each turn, put a +1/+1 counter on up to one creature that crewed it.\nCrew 3 [i](Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Kamen Anev",
             "notes": ""
         },
         {
@@ -2892,11 +3254,13 @@
             "color_identity": "C",
             "cost": "{6}",
             "rules_text": "Trample\nEngrave 3\u2014{8} [i](If you cast this spell for {8}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Sean Samuels",
             "notes": ""
         },
         {
@@ -2908,11 +3272,13 @@
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Equipped creature gets +2/+2.\nEquip {3}",
+            "flavor_text": "[i]Although intended for ceremonial purposes and as a mark of office, the skull-faced maces favored by Qamurab's advisors are as brutal as they look.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Sven Bybee",
             "notes": ""
         },
         {
@@ -2924,12 +3290,14 @@
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice Temple Complex: Search your library for a land card, put that card onto the battlefield tapped, then shuffle.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Milo\u0161 Radojkic\u0301",
+            "notes": "!group otherland\n!sort 12"
         },
         {
             "card_name": "Temple Mosaic",
@@ -2940,11 +3308,13 @@
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Temple Mosaic enters the battlefield with a charge counter on it.\n{T}: You may remove a charge counter from Temple Mosaic. If you do, add one mana of any color. Otherwise, add {C}.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Tyler Smith",
             "notes": ""
         },
         {
@@ -2956,12 +3326,14 @@
             "color_identity": "WU",
             "cost": "",
             "rules_text": "Sea Harbor enters the battlefield tapped.\n{T}: Add {W} or {U}.\n{4}, {T}: Scry 1.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Iker Paz",
+            "notes": "!group otherland\n!sort 06"
         },
         {
             "card_name": "Triumphal Arch",
@@ -2972,12 +3344,14 @@
             "color_identity": "UB",
             "cost": "",
             "rules_text": "Triumphal Arch enters the battlefield tapped.\n{T}: Add {U} or {B}.\n{4}, {T}: Scry 1.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Jorge Barrero",
+            "notes": "!group otherland\n!sort 07"
         },
         {
             "card_name": "Lion's Passage",
@@ -2987,13 +3361,15 @@
             "number": 253,
             "color_identity": "BR",
             "cost": "",
-            "rules_text": "Lion\u2019s Passage enters the battlefield tapped.\n{T}: Add {B} or {R}.\n{4}, {T}: Scry 1.",
+            "rules_text": "Lion's Passage enters the battlefield tapped.\n{T}: Add {B} or {R}.\n{4}, {T}: Scry 1.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Rudy Parfaite",
+            "notes": "!group otherland\n!sort 08"
         },
         {
             "card_name": "Teeming Riverbank",
@@ -3004,12 +3380,14 @@
             "color_identity": "RG",
             "cost": "",
             "rules_text": "Teeming Riverbank enters the battlefield tapped.\n{T}: Add {R} or {G}.\n{4}, {T}: Scry 1.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Anda Sung",
+            "notes": "!group otherland\n!sort 09"
         },
         {
             "card_name": "Public Temple",
@@ -3020,27 +3398,31 @@
             "color_identity": "WG",
             "cost": "",
             "rules_text": "Public Temple enters the battlefield tapped.\n{T}: Add {G} or {W}.\n{4}, {T}: Scry 1.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Nadia Hurianova",
+            "notes": "!group otherland\n!sort 10"
         },
         {
             "card_name": "Emperor Qamurab",
             "color": "UBRG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Noble",
-            "number": 209,
+            "number": 232,
             "color_identity": "UBRG",
             "cost": "{U}{B}{R}{G}",
             "rules_text": "At the beginning of combat each turn, creatures you control gain first strike until end of turn if an opponent controls a creature with first strike or has a creature card with first strike in their graveyard. The same is true for flying, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, protection, reach, trample, and vigilance.",
+            "flavor_text": "[i][/i]",
             "pt": "2/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Matias Cabezas Montoya",
             "notes": ""
         },
         {
@@ -3048,15 +3430,17 @@
             "color": "WUBG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Angel Soldier",
-            "number": 205,
+            "number": 231,
             "color_identity": "WUBG",
             "cost": "{G}{W}{U}{B}",
-            "rules_text": "Flying, lifelink\nWhenever a player shuffles, you may look at the top card of that player\u2019s library. If you do, you may exile that card.\nBaniphal, Law\u2019s Hammer gets +1/+1 for each mana value among cards exiled with it.",
+            "rules_text": "Flying, lifelink\nWhenever a player shuffles, you may look at the top card of that player's library. If you do, you may exile that card.\nBaniphal, Law's Hammer gets +1/+1 for each mana value among cards exiled with it.",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Alvaro Estrada",
             "notes": ""
         },
         {
@@ -3064,15 +3448,17 @@
             "color": "WBRG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Demon",
-            "number": 214,
+            "number": 233,
             "color_identity": "WBRG",
             "cost": "{B}{R}{G}{W}",
             "rules_text": "Whenever a player casts a spell during a turn other than their own, that player draws a card, then put a +1/+1 counter on Ghazuz, Indolent Worm and it deals damage equal to its power to that player.",
+            "flavor_text": "[i]\u201cThere is power to be had, young prince. Do not content yourself to wait for it.\u201d[/i]",
             "pt": "2/5",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Massimilaino Haematinon Nigro",
             "notes": ""
         },
         {
@@ -3080,15 +3466,17 @@
             "color": "WUBR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Lammasu",
-            "number": 227,
+            "number": 235,
             "color_identity": "WUBR",
             "cost": "{W}{U}{B}{R}",
             "rules_text": "Flying\nWhenever a player casts a spell, counter it. That player reveals cards from the top of their library until they reveal a card that shares a type with the countered spell. That player may cast that card without paying its mana cost. Then the player shuffles. This ability triggers only once per player each turn.",
+            "flavor_text": "[i][/i]",
             "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Saeed Jalabi",
             "notes": ""
         },
         {
@@ -3096,15 +3484,17 @@
             "color": "WURG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Noble",
-            "number": 224,
+            "number": 234,
             "color_identity": "WURG",
             "cost": "{R}{G}{W}{U}",
             "rules_text": "Each other creature has base power and toughness 2/2.\nIf a land is tapped for two or more mana, it produces only one of that mana instead.",
+            "flavor_text": "[i]Tired of his father's harsh rule, the idealistic prince yearns for his inheritance.[/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Joan Francesc Oliveras Pallerols",
             "notes": ""
         },
         {
@@ -3116,12 +3506,14 @@
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "token",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Cristian Gonzalez",
+            "notes": "!group token\n!sort 06"
         },
         {
             "card_name": "Divine Arbiter",
@@ -3132,11 +3524,13 @@
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Flying, vigilance\nDivine Arbiter has lifelink as long as an opponent has three or more judgment counters.\nWhenever Divine Arbiter enters the battlefield or attacks, target opponent gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Carlos Quevedo",
             "notes": ""
         },
         {
@@ -3148,12 +3542,14 @@
             "color_identity": "W",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "token",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Faraz Shanyar",
+            "notes": "!group token\n!sort 02"
         },
         {
             "card_name": "Edicts of Qamurab",
@@ -3164,11 +3560,13 @@
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Whenever a player draws a card except the first one they draw in each of their draw steps, or casts a spell during a turn other than their own, that player gets a judgment counter. [i](At the beginning of their upkeep, for each judgment counter, they lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Yi Wei",
             "notes": ""
         },
         {
@@ -3179,13 +3577,15 @@
             "number": 252,
             "color_identity": "UR",
             "cost": "",
-            "rules_text": "[i]({T}: Add {U} or {R}.)[/i]\nAs Isolated Bayt enters the battlefield, you may get a judgment counter. If you don\u2019t, it enters the battlefield tapped. [i](At the beginning of your upkeep, for each judgment counter, you lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "rules_text": "[i]({T}: Add {U} or {R}.)[/i]\nAs Isolated Bayt enters the battlefield, you may get a judgment counter. If you don't, it enters the battlefield tapped. [i](At the beginning of your upkeep, for each judgment counter, you lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Alyn Spiller",
+            "notes": "!group otherland\n!sort 04"
         },
         {
             "card_name": "Gilded Sanctum",
@@ -3195,13 +3595,15 @@
             "number": 249,
             "color_identity": "WB",
             "cost": "",
-            "rules_text": "[i]({T}: Add {W} or {B}.)[/i]\nAs Gilded Sanctum enters the battlefield, you may get a judgment counter. If you don\u2019t, it enters the battlefield tapped. [i](At the beginning of your upkeep, for each judgment counter, you lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "rules_text": "[i]({T}: Add {W} or {B}.)[/i]\nAs Gilded Sanctum enters the battlefield, you may get a judgment counter. If you don't, it enters the battlefield tapped. [i](At the beginning of your upkeep, for each judgment counter, you lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Mircea Nicula",
+            "notes": "!group otherland\n!sort 01"
         },
         {
             "card_name": "Imposing Gate",
@@ -3211,13 +3613,15 @@
             "number": 250,
             "color_identity": "WR",
             "cost": "",
-            "rules_text": "[i]({T}: Add {R} or {W}.)[/i]\nAs Imposing Gate enters the battlefield, you may get a judgment counter. If you don\u2019t, it enters the battlefield tapped. [i](At the beginning of your upkeep, for each judgment counter, you lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "rules_text": "[i]({T}: Add {R} or {W}.)[/i]\nAs Imposing Gate enters the battlefield, you may get a judgment counter. If you don't, it enters the battlefield tapped. [i](At the beginning of your upkeep, for each judgment counter, you lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Beno\u00eet Fleury",
+            "notes": "!group otherland\n!sort 05"
         },
         {
             "card_name": "Qanat Pool",
@@ -3227,13 +3631,15 @@
             "number": 255,
             "color_identity": "UG",
             "cost": "",
-            "rules_text": "[i]({T}: Add {G} or {U}.)[/i]\nAs Qanat Pool enters the battlefield, you may get a judgment counter. If you don\u2019t, it enters the battlefield tapped. [i](At the beginning of your upkeep, for each judgment counter, you lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "rules_text": "[i]({T}: Add {G} or {U}.)[/i]\nAs Qanat Pool enters the battlefield, you may get a judgment counter. If you don't, it enters the battlefield tapped. [i](At the beginning of your upkeep, for each judgment counter, you lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Leah Augustine",
+            "notes": "!group otherland\n!sort 03"
         },
         {
             "card_name": "Indulgent Garden",
@@ -3243,13 +3649,15 @@
             "number": 251,
             "color_identity": "BG",
             "cost": "",
-            "rules_text": "[i]({T}: Add {B} or {G}.)[/i]\nAs Indulgent Garden enters the battlefield, you may get a judgment counter. If you don\u2019t, it enters the battlefield tapped. [i](At the beginning of your upkeep, for each judgment counter, you lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "rules_text": "[i]({T}: Add {B} or {G}.)[/i]\nAs Indulgent Garden enters the battlefield, you may get a judgment counter. If you don't, it enters the battlefield tapped. [i](At the beginning of your upkeep, for each judgment counter, you lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Tobias Schmutz",
+            "notes": "!group otherland\n!sort 02"
         },
         {
             "card_name": "Ruins of Irum",
@@ -3260,12 +3668,14 @@
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{T}, Sacrifice Ruins of Irum: Destroy target nonbasic land if its controller controls three or more nonbasic lands as you activate this ability.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Alyn Spiller",
+            "notes": "!group otherland\n!sort 11"
         },
         {
             "card_name": "Dark Apotheosis",
@@ -3276,11 +3686,13 @@
             "color_identity": "B",
             "cost": "{3}{B}{B}",
             "rules_text": "Put target nonland permanent card from a graveyard onto the battlefield under your control.",
+            "flavor_text": "[i]The young prince felt his skinless fingers clench into a fist. His impatience and greed had cost him everything\u2014had cost his entire world everything.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Geunjoo Baik",
             "notes": ""
         },
         {
@@ -3288,15 +3700,17 @@
             "color": "BR",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Thomil",
-            "number": 231,
+            "number": 209,
             "color_identity": "BR",
             "cost": "{2}{B}{R}",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Destroy up to one target artifact. If its mana value was 2 or less, put a loyalty counter on Thomil, Craven Sadist.\n[-X]: Target creature gets -X/-X until end of turn.\n[-6]: Create a 7/7 black Demon creature token with flying and trample.",
             "shape": "planeswalker",
             "set": "AKI",
             "loyalty": "4",
+            "artist": "Luis Medina",
             "notes": ""
         },
         {
@@ -3308,11 +3722,13 @@
             "color_identity": "BG",
             "cost": "{2}{B}{G}",
             "rules_text": "Whenever a creature enters the battlefield under your control, you gain life equal to its toughness.\nWhenever a creature an opponent controls dies, that player loses life equal to its toughness.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Hazem Ameen",
             "notes": ""
         },
         {
@@ -3320,15 +3736,17 @@
             "color": "UR",
             "rarity": "mythic",
             "type": "Sorcery",
-            "number": 201,
+            "number": 219,
             "color_identity": "UR",
             "cost": "{X}{U}{R}",
             "rules_text": "Target opponent chooses instant or sorcery. Search your library for any number of cards of the chosen type with total mana value X or less, exile them, then shuffle. You may cast those cards without paying their mana costs.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Hazem Ameen",
             "notes": ""
         },
         {
@@ -3336,15 +3754,17 @@
             "color": "WR",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Advisor",
-            "number": 218,
+            "number": 226,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
-            "rules_text": "Whenever a noncreature source you control deals damage to an opponent, you gain that much life.\n{T}: Exile target instant or sorcery card with mana value less than or equal to the amount of life you\u2019ve gained this turn from your graveyard. Until end of turn, you may cast that card.",
+            "rules_text": "Whenever a noncreature source you control deals damage to an opponent, you gain that much life.\n{T}: Exile target instant or sorcery card with mana value less than or equal to the amount of life you've gained this turn from your graveyard. Until end of turn, you may cast that card.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Gabriel Bulik",
             "notes": ""
         },
         {
@@ -3352,15 +3772,17 @@
             "color": "WG",
             "rarity": "mythic",
             "type": "Artifact",
-            "number": 228,
+            "number": 214,
             "color_identity": "WG",
             "cost": "{G}{W}",
-            "rules_text": "Whenever a permanent you control is put into a graveyard from the battlefield, note its card types.\n{1}: Until end of turn, Shaba\u2019s Monument becomes a Sculpture artifact creature with vigilance and \u201cShaba\u2019s Monument\u2019s power and toughness are each equal to twice the number of types noted for it.\u201d",
+            "rules_text": "Whenever a permanent you control is put into a graveyard from the battlefield, note its card types.\n{1}: Until end of turn, Shaba's Monument becomes a Sculpture artifact creature with vigilance and \u201cShaba's Monument's power and toughness are each equal to twice the number of types noted for it.\u201d",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Hazem Ameen",
             "notes": ""
         },
         {
@@ -3368,15 +3790,17 @@
             "color": "UG",
             "rarity": "mythic",
             "type": "Creature \u2014 Lammasu",
-            "number": 219,
+            "number": 230,
             "color_identity": "UG",
             "cost": "{3}{G}{U}",
             "rules_text": "As Living Archetype enters the battlefield, each player mills five cards. You may exile two creature cards from among cards milled this way. If you do, Living Archetype enters the battlefield enters the battlefield as a copy of one of those cards with a number of additional +1/+1 counters on it equal to the power of the other card.",
+            "flavor_text": "[i][/i]",
             "pt": "0/0",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Gus Zhou",
             "notes": ""
         },
         {
@@ -3384,15 +3808,17 @@
             "color": "WU",
             "rarity": "mythic",
             "type": "Enchantment",
-            "number": 210,
+            "number": 201,
             "color_identity": "WU",
             "cost": "{W}{U}",
             "rules_text": "At the beginning of your upkeep and whenever you cast a spell, arbitrate. [i](You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Benoit Bourgerie",
             "notes": ""
         },
         {
@@ -3400,15 +3826,17 @@
             "color": "RG",
             "rarity": "mythic",
             "type": "Enchantment",
-            "number": 230,
+            "number": 212,
             "color_identity": "RG",
             "cost": "{R}{G}",
-            "rules_text": "{RG}, Sacrifice a creature: Add {R}{G} and put a blood counter on Temple to Ghazuz.\nAs long as Temple to Ghazuz has three or more blood counters on it, it\u2019s a land with \u201c{T}: Add {R}{G}.\u201d [i](It\u2019s no longer an enchantment.)[/i]",
+            "rules_text": "{RG}, Sacrifice a creature: Add {R}{G} and put a blood counter on Temple to Ghazuz.\nAs long as Temple to Ghazuz has three or more blood counters on it, it's a land with \u201c{T}: Add {R}{G}.\u201d [i](It's no longer an enchantment.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Benoit Bourgerie",
             "notes": ""
         },
         {
@@ -3420,11 +3848,13 @@
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "At the beginning of your precombat main phase, exile all noncreature, nonland cards from all graveyards, then choose a card at random from among cards exiled with Screaming Prophet. You may cast that card without paying its mana cost.",
+            "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Bastien Lecouffe Derhame",
             "notes": ""
         },
         {
@@ -3436,11 +3866,13 @@
             "color_identity": "G",
             "cost": "{2}{G}{G}{G}",
             "rules_text": "Trample\nIf an effect would create one or more tokens under your control, you may instead put that many +1/+1 counters on Sin.\nWhenever Sin attacks, create two 1/1 green Incarnation creature tokens.",
+            "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Jeremy Bennison",
             "notes": ""
         },
         {
@@ -3452,11 +3884,13 @@
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "Crucius, the Riddle of Silver enters the battlefield with a number of loyalty counters on it equal to the number of artifacts you control.\n[+1]: Create a Clue token.\n[-1]: Put two +1/+1 counters on target artifact you control. It becomes a 0/0 Sculpture creature in addition to its other types.\n[-X]: Search your library for a card with mana value X or less, reveal it, put it into your hand, then shuffle.",
             "shape": "planeswalker",
             "set": "AKI",
             "loyalty": "0",
+            "artist": "Piotr Gajda",
             "notes": ""
         },
         {
@@ -3467,12 +3901,14 @@
             "number": 103,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Nemesis of Order enters the battlefield with seven sin counters on it.\nAt the beginning of your upkeep, you draw a card, you lose 1 life, and remove a sin counter from Nemesis of Order.\nAs long as Nemesis of Order has a sin counter on it, you can\u2019t win the game and your opponents can\u2019t lose the game.",
+            "rules_text": "Nemesis of Order enters the battlefield with seven sin counters on it.\nAt the beginning of your upkeep, you draw a card, you lose 1 life, and remove a sin counter from Nemesis of Order.\nAs long as Nemesis of Order has a sin counter on it, you can't win the game and your opponents can't lose the game.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Michael MacRae\nMichael MacRae",
             "notes": ""
         },
         {
@@ -3483,12 +3919,14 @@
             "number": 29,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
-            "rules_text": "Flying\nWhenever an opponent casts a spell during your turn, return up to one target permanent card with mana value less than or equal to that spell\u2019s mana value from your graveyard to the battlefield.",
+            "rules_text": "Flying\nWhenever an opponent casts a spell during your turn, return up to one target permanent card with mana value less than or equal to that spell's mana value from your graveyard to the battlefield.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Bill Nuwen",
             "notes": ""
         },
         {
@@ -3499,12 +3937,14 @@
             "number": 70,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "At the beginning of each opponent\u2019s upkeep, that player reveals the top card of their library. If it\u2019s a creature card, the player puts the card into their graveyard and Shapeshifter\u2019s Marrow becomes a copy of that card. [i](If it does, it loses this ability.)[/i]",
+            "rules_text": "At the beginning of each opponent's upkeep, that player reveals the top card of their library. If it's a creature card, the player puts the card into their graveyard and Shapeshifter's Marrow becomes a copy of that card. [i](If it does, it loses this ability.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Grace Liu",
             "notes": "!tag reprint"
         },
         {
@@ -3516,11 +3956,13 @@
             "color_identity": "U",
             "cost": "{3}{U}{U}",
             "rules_text": "When Palace Sphinx enters the battlefield, each opponent gets a judgment counter.\nAt the beginning of your upkeep, choose target opponent. For each judgment counter that player has, they choose one from among flying, vigilance, prowess, or hexproof. Palace Sphinx has the chosen abilities until your next turn.",
+            "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Simon-Pierre Bernard",
             "notes": ""
         },
         {
@@ -3532,11 +3974,13 @@
             "color_identity": "B",
             "cost": "{4}{B}",
             "rules_text": "Menace\nWhen Iyazta Stylite dies, you may exile it from your graveyard. If you do, return target creature card with lesser mana value from your graveyard to the battlefield tapped.",
+            "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Pablo Munoz Gomez",
             "notes": ""
         },
         {
@@ -3548,11 +3992,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "When Inexorable Executioner enters the battlefield, you may remove a judgment counter from an opponent. If you do, target creature gets -3/-3 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Zven Hwan",
             "notes": ""
         },
         {
@@ -3564,11 +4010,13 @@
             "color_identity": "R",
             "cost": "{3}{R}",
             "rules_text": "When Feet of Clay enters the battlefield, choose a basic land type.\nNonbasic lands are the chosen type.",
+            "flavor_text": "[i]\u201cBeware the illusion of strength, Qamurab. No empire can last forever.\u201d\n\u2014Sahriuz, Nemesis of Fate[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "C-Reo Hsu",
             "notes": ""
         },
         {
@@ -3580,11 +4028,13 @@
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Fated Hero gets +1/+1 and has vigilance as long an opponent controls a creature with power 3 or greater.\nFated Hero gets +1/+1 and has first strike as long an opponent controls a creature with toughness 3 or greater.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Faraz Shanyar",
             "notes": ""
         },
         {
@@ -3596,11 +4046,13 @@
             "color_identity": "R",
             "cost": "{1}{R}{R}",
             "rules_text": "Flying, haste\nIncendiary Rukh gets +1/+1 for each judgment counter each opponent has.\nAt the beginning of your upkeep, if Incendiary Rukh is in your graveyard, you may remove a judgment counter from an opponent. If you do, you may cast Incendiary Rukh from your graveyard this turn.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Anato Finnstark",
             "notes": ""
         },
         {
@@ -3612,11 +4064,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Edict of Mortality deal 3 damage to any target. If this spell was engraved, Edict of Mortality deals 7 damage instead.\nEngrave 3\u2014{3}{R}{R} [i](If you cast this spell for {3}{R}{R}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Vladimir Manyukhin",
             "notes": ""
         },
         {
@@ -3628,11 +4082,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Return target permanent card from your graveyard to your hand. If this spell was engraved, instead return two target permanent cards from your graveyard to your hand.\nEngrave 3\u2014{3}{G}{G} [i](If you cast this spell for {3}{G}{G}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Othon Nikolaidis",
             "notes": ""
         },
         {
@@ -3643,12 +4099,14 @@
             "number": 179,
             "color_identity": "G",
             "cost": "{5}{G}{G}",
-            "rules_text": "Reach, haste\nWhen Lord of the Swarm dies, if it wasn\u2019t sacrificed, create six tokens that are copies of it, except they\u2019re 1/1.",
+            "rules_text": "Reach, haste\nWhen Lord of the Swarm dies, if it wasn't sacrificed, create six tokens that are copies of it, except they're 1/1.",
+            "flavor_text": "[i]Its progeny are as numerous and inescapable as the desert sands.[/i]",
             "pt": "6/6",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Ricardo Lima",
             "notes": ""
         },
         {
@@ -3660,11 +4118,13 @@
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "Exile target nonland permanent. If its mana value was 3 or greater, you get a judgment counter. [i](At the beginning of your upkeep, for each judgment counter, you lose 1 life or choose an opponent to create a Treasure.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Louiz Brito",
             "notes": ""
         },
         {
@@ -3676,11 +4136,13 @@
             "color_identity": "U",
             "cost": "{4}{U}",
             "rules_text": "Flying, ward {7}\nWhenever Unchallenged Lawgiver deals combat damage to an opponent, double the number of each kind of counter on target permanent or that target player has.",
+            "flavor_text": "[i][/i]",
             "pt": "3/6",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Yigit Koroglu",
             "notes": ""
         },
         {
@@ -3692,11 +4154,13 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Target creature gets -3/-3 until end of turn. If this spell was engraved, instead each creature gets -3/-3 until end of turn.\nEngrave 3\u2014{3}{B}{B} [i](If you cast this spell for {3}{B}{B}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Roxana Hinganescu",
             "notes": ""
         },
         {
@@ -3708,11 +4172,13 @@
             "color_identity": "R",
             "cost": "{R}{R}",
             "rules_text": "First strike\nWhenever you attack with an artifact creature and a nonartifact creature, Monument Worshipper gains double strike until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Dominik Mayer",
             "notes": ""
         },
         {
@@ -3724,11 +4190,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "If a nonland source you control would produce mana, it produces that mana plus an additional {G}.",
+            "flavor_text": "[i]\u201cA lawful world is bright, clean, and sparkling, like a diamond plucked from a wadi stream.\u201d\n\u2014Emperor Qamurab[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Paul de Leon",
             "notes": ""
         },
         {
@@ -3740,11 +4208,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Counter target spell, activated ability, or triggered ability that targets you or a permanent you control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Igor Burlakov",
             "notes": ""
         },
         {
@@ -3756,11 +4226,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "As an additional cost to cast this spell, you may remove a judgment counter from an opponent.\nDraw two cards. If the additional cost was paid, instead draw three cards.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Chang-Wei Chen",
             "notes": ""
         },
         {
@@ -3771,12 +4243,14 @@
             "number": 109,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "As an additional cost to cast this spell, you may pay {1}{B} any number of times. Copy it for each time the additional cost was paid.\nChoose a nonland permanent type. Each opponent sacrifices a permanent of that type. If they can\u2019t, they lose 2 life.",
+            "rules_text": "As an additional cost to cast this spell, you may pay {1}{B} any number of times. Copy it for each time the additional cost was paid.\nChoose a nonland permanent type. Each opponent sacrifices a permanent of that type. If they can't, they lose 2 life.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Paolo Giandoso",
             "notes": ""
         },
         {
@@ -3788,11 +4262,13 @@
             "color_identity": "R",
             "cost": "{1}{R}{R}",
             "rules_text": "Destroy all artifacts.",
+            "flavor_text": "[i]Empires, like the sun, must fall just as readily as they rise.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Soheil Hooshmandi",
             "notes": ""
         },
         {
@@ -3804,11 +4280,13 @@
             "color_identity": "G",
             "cost": "{X}{G}",
             "rules_text": "Haste\nGuardian Scourge enters the battlefield with a number of +1/+1 counters on it equal to X or to the greatest number of counters on a permanent an opponent controls, whichever is greater.",
+            "flavor_text": "[i][/i]",
             "pt": "0/0",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Alvaro Estrada",
             "notes": ""
         },
         {
@@ -3820,11 +4298,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Your life total becomes equal to half your starting life total. If this spell was engraved, instead your life total becomes equal to your starting life total.\nEngrave 3\u2014{3}{W}{W} [i](If you cast this spell for {3}{W}{W}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Elena Valero",
             "notes": ""
         },
         {
@@ -3836,11 +4316,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Each opponent mills eight cards. If this spell was engraved, instead each opponent mills thirty cards.\nEngrave 3\u2014{3}{U}{U} [i](If you cast this spell for {3}{U}{U}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Vladimir Manyukhin",
             "notes": ""
         },
         {
@@ -3852,11 +4334,13 @@
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "Flying\nIf an effect would create one or more noncreature tokens under your control, it creates twice that many of those tokens instead and you lose 1 life for each token created this way.",
+            "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Bartek Fedyczak",
             "notes": ""
         },
         {
@@ -3867,12 +4351,14 @@
             "number": 152,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "{X}, Exile a creature card with mana value X from your graveyard: Create a token that\u2019s a copy of the exiled card, except it\u2019s a Sculpture artifact creature and has haste. Sacrifice it at the beginning of the next end step.",
+            "rules_text": "{X}, Exile a creature card with mana value X from your graveyard: Create a token that's a copy of the exiled card, except it's a Sculpture artifact creature and has haste. Sacrifice it at the beginning of the next end step.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Yaroslav Odnorogov",
             "notes": ""
         },
         {
@@ -3883,12 +4369,14 @@
             "number": 197,
             "color_identity": "G",
             "cost": "{X}{X}{G}",
-            "rules_text": "X can\u2019t be 0.\nWhen Unquestioned Iyazta enters the battlefield, you may search your library for a green creature card with mana value X or less, put it onto the battlefield, then shuffle.",
+            "rules_text": "X can't be 0.\nWhen Unquestioned Iyazta enters the battlefield, you may search your library for a green creature card with mana value X or less, put it onto the battlefield, then shuffle.",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Aur\u00e9lien Morini\u00e8re",
             "notes": ""
         },
         {
@@ -3896,15 +4384,17 @@
             "color": "WU",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 213,
+            "number": 203,
             "color_identity": "WU",
             "cost": "{1}{W}{U}",
-            "rules_text": "When Enforced Humility enters the battlefield, each opponent gets a judgment counter.\nCreatures can\u2019t attack you unless their controller pays {X} for each creature they control that\u2019s attacking you, where X is the number of judgment counters they have.",
+            "rules_text": "When Enforced Humility enters the battlefield, each opponent gets a judgment counter.\nCreatures can't attack you unless their controller pays {X} for each creature they control that's attacking you, where X is the number of judgment counters they have.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Helder Almeida",
             "notes": ""
         },
         {
@@ -3912,15 +4402,17 @@
             "color": "UB",
             "rarity": "rare",
             "type": "Creature \u2014 Snake",
-            "number": 232,
+            "number": 206,
             "color_identity": "UB",
             "cost": "{U}{B}",
-            "rules_text": "If one or more counters would be put on a permanent you don\u2019t control, you may have that many plus one of each of those kinds of counters be put on that permanent instead.\nIf a player would get one or more counters, you may have that player get that many plus one of each of those kinds of counters instead.",
+            "rules_text": "If one or more counters would be put on a permanent you don't control, you may have that many plus one of each of those kinds of counters be put on that permanent instead.\nIf a player would get one or more counters, you may have that player get that many plus one of each of those kinds of counters instead.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Eden West",
             "notes": ""
         },
         {
@@ -3928,15 +4420,17 @@
             "color": "BR",
             "rarity": "rare",
             "type": "Creature \u2014 Human Soldier",
-            "number": 225,
+            "number": 208,
             "color_identity": "BR",
             "cost": "{1}{B}{R}",
             "rules_text": "Instant and sorcery spells you control and permanents you control have deathtouch.\nWhenever a creature dies, Remorseful General deals 1 damage to each player.",
+            "flavor_text": "[i]A life of peerless prowess is a life of endless penance.[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Omid Goudarzi",
             "notes": ""
         },
         {
@@ -3944,15 +4438,17 @@
             "color": "RG",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 215,
+            "number": 210,
             "color_identity": "RG",
             "cost": "{1}{R}{G}",
-            "rules_text": "At the beginning of combat on your turn, target creature you control with the lowest power studies. [i](Reveal the top card of your library. Put that card into your hand if it\u2019s a noncreature, nonland card. Otherwise, put a +1/+1 counter on that creature, then put the card on the top or bottom of your library.)[/i]",
+            "rules_text": "At the beginning of combat on your turn, target creature you control with the lowest power studies. [i](Reveal the top card of your library. Put that card into your hand if it's a noncreature, nonland card. Otherwise, put a +1/+1 counter on that creature, then put the card on the top or bottom of your library.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Historic AI",
             "notes": ""
         },
         {
@@ -3960,15 +4456,17 @@
             "color": "WG",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 221,
+            "number": 213,
             "color_identity": "WG",
             "cost": "{3}{G}{W}",
             "rules_text": "Destroy up to one target artifact, up to one target enchantment, and up to one target land. Each player who controlled a permanent destroyed this way may search their library for a permanent card that shares a type with it, put it onto the battlefield, then shuffle.",
+            "flavor_text": "[i]Qirauz understood the value of order, but chafed at the tyranny by which his father pursued it.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Joan Francesc Oliveras Pallerols",
             "notes": ""
         },
         {
@@ -3976,15 +4474,17 @@
             "color": "WB",
             "rarity": "rare",
             "type": "Creature \u2014 Lammasu",
-            "number": 203,
+            "number": 216,
             "color_identity": "WB",
             "cost": "{2}{W}{B}",
             "rules_text": "Flying\nSacrifice a creature: Arbitrate. [i](You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Yannick Dubeau",
             "notes": ""
         },
         {
@@ -3992,15 +4492,17 @@
             "color": "UR",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 234,
+            "number": 221,
             "color_identity": "UR",
             "cost": "{2}{U}{R}",
-            "rules_text": "Whenever you cast a noncreature spell, create a 0/0 Sculpture artifact creature token and put X +1/+1 counters on it, where X is that spell\u2019s mana value.",
+            "rules_text": "Whenever you cast a noncreature spell, create a 0/0 Sculpture artifact creature token and put X +1/+1 counters on it, where X is that spell's mana value.",
+            "flavor_text": "[i]\u201cWhat law does nature know? None but what she sets herself.\u201d\n\u2014Sahriuz, Nemesis of Fate[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Mai Al-Arabi",
             "notes": ""
         },
         {
@@ -4008,15 +4510,17 @@
             "color": "BG",
             "rarity": "rare",
             "type": "Creature \u2014 Nephilim",
-            "number": 229,
+            "number": 224,
             "color_identity": "BG",
             "cost": "{1}{B}{G}",
-            "rules_text": "Flying, vigilance\nWhenever a creatures enters the battlefield, if its power is greater than Stoic Watcher\u2019s, put a +1/+1 counter on Stoic Watcher.\nWhenever a creature dies, if its toughness is greater than Stoic Watcher\u2019s, put a +1/+1 counter on Stoic Watcher.",
+            "rules_text": "Flying, vigilance\nWhenever a creatures enters the battlefield, if its power is greater than Stoic Watcher's, put a +1/+1 counter on Stoic Watcher.\nWhenever a creature dies, if its toughness is greater than Stoic Watcher's, put a +1/+1 counter on Stoic Watcher.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Kyle Pearson",
             "notes": ""
         },
         {
@@ -4024,15 +4528,17 @@
             "color": "WR",
             "rarity": "rare",
             "type": "Artifact Creature \u2014 Sculpture",
-            "number": 235,
+            "number": 227,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
             "rules_text": "Haste\nWhenever you attack with an artifact creature and a nonartifact creature, creatures you control gain flying until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Ivan Sevic",
             "notes": ""
         },
         {
@@ -4040,15 +4546,17 @@
             "color": "UG",
             "rarity": "rare",
             "type": "Creature \u2014 Human Cleric",
-            "number": 217,
+            "number": 229,
             "color_identity": "UG",
             "cost": "{1}{G}{U}",
-            "rules_text": "{X}, {T}, Sacrifice Herald of the Old Ways: Search your library for a Lammasu, Manticore, Nephilim, or Sphinx card with mana value X or less, put it onto the battlefield, then shuffle. If X is 6 or more, create a token that\u2019s a copy of that card.",
+            "rules_text": "{X}, {T}, Sacrifice Herald of the Old Ways: Search your library for a Lammasu, Manticore, Nephilim, or Sphinx card with mana value X or less, put it onto the battlefield, then shuffle. If X is 6 or more, create a token that's a copy of that card.",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Helder Almeida",
             "notes": ""
         },
         {
@@ -4060,11 +4568,13 @@
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "{T}: Add {C}. Put a charge counter on Ominous Obelisk.\n{T}, Remove any number of charge counters from Ominous Obelisk: Add {C} for each charge counter removed this way.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Sercan \u00d6zyurt",
             "notes": ""
         },
         {
@@ -4076,11 +4586,13 @@
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{3}: Put a charge counter on Tomb of the Forgotten. Then if Tomb of the Forgotten has ten or more charge counters on it, sacrifice it. If you do, create ten 2/2 black Horror creature tokens.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Sercan \u00d6zyurt",
             "notes": ""
         },
         {
@@ -4092,11 +4604,13 @@
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "As Qamesh, Ardent Justicar enters the battlefield, choose law or order.\n\u2022 Law \u2014 Noncreature spells cost {1} more to cast.\n\u2022 Order \u2014 Creatures your opponents control enter the battlefield tapped.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Joan Francesc Oliveras Pallerols",
             "notes": ""
         },
         {
@@ -4108,11 +4622,13 @@
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "When you cast your next spell this turn, copy that spell. You may choose new targets for the copy. [i](A copy of a permanent spell becomes a token.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Faraz Shanyar",
             "notes": ""
         },
         {
@@ -4123,12 +4639,14 @@
             "number": 88,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "Whenever Decadent Barge enters the battlefield or attacks, exile the top two cards of each opponent\u2019s library.\nDecadent Barge\u2019s power and toughness are each equal to the number of cards exiled with it.\nCrew 3",
+            "rules_text": "Whenever Decadent Barge enters the battlefield or attacks, exile the top two cards of each opponent's library.\nDecadent Barge's power and toughness are each equal to the number of cards exiled with it.\nCrew 3",
+            "flavor_text": "[i][/i]",
             "pt": "*/*",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Martin Deschambault",
             "notes": ""
         },
         {
@@ -4140,11 +4658,13 @@
             "color_identity": "R",
             "cost": "{X}{R}",
             "rules_text": "Graven Ideal deals X damage to any target.\nEngrave X\u2014{X}{X}{R} [i](If you cast this spell for {X}{X}{R}, create a 0/0 Sculpture artifact creature token, then distribute X +1/+1 counters among Sculptures you control.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Anatoly Bezver",
             "notes": ""
         },
         {
@@ -4155,12 +4675,14 @@
             "number": 191,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
-            "rules_text": "Trample\nWhenever Stoic Stylite deals combat damage to an opponent, it studies. [i](Reveal the top card of your library. Put that card into your hand if it\u2019s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "rules_text": "Trample\nWhenever Stoic Stylite deals combat damage to an opponent, it studies. [i](Reveal the top card of your library. Put that card into your hand if it's a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Pierre Raveneau",
             "notes": ""
         },
         {
@@ -4172,11 +4694,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "When Proud Contender dies, exile it. If you do, create a white enchantment token named Proud Memories with \u201cCreatures you control get +1/+1.\u201d",
+            "flavor_text": "[i]\u201cYou see, Qirauz? Even the animals need to know order.\u201d[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Faraz Shanyar",
             "notes": ""
         },
         {
@@ -4187,12 +4711,14 @@
             "number": 42,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Flying\nWhen Anointed Scarab dies, you may pay {X}. If you do, return each other creature with mana value X or less to its owner\u2019s hand.",
+            "rules_text": "Flying\nWhen Anointed Scarab dies, you may pay {X}. If you do, return each other creature with mana value X or less to its owner's hand.",
+            "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Eryk Szczygiel",
             "notes": ""
         },
         {
@@ -4204,11 +4730,13 @@
             "color_identity": "B",
             "cost": "{5}{B}",
             "rules_text": "Target player loses X life and you gain X life, where X is the number of permanents put into graveyards from the battlefield this turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Andrei D",
             "notes": ""
         },
         {
@@ -4220,11 +4748,13 @@
             "color_identity": "R",
             "cost": "{3}{R}{R}",
             "rules_text": "Flying\nWhenever you cast a noncreature spell, Barkhan Hellkite gets +2/+0 until end of turn.\n{1}{R}, Discard a card: Draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Animesh Debnath",
             "notes": ""
         },
         {
@@ -4236,11 +4766,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "At the beginning of your end step, you may sacrifice another permanent. If you do, search your library for a permanent card with the same mana cost as that card plus an additional {1}, put it onto the battlefield, then shuffle. [i](Mana cost includes color. For example, if you sacrifice a permanent with mana cost {2}{W}{B}, search for a permanent with mana cost {3}{W}{B}.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Andrei D",
             "notes": ""
         },
         {
@@ -4252,12 +4784,14 @@
             "color_identity": "G",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "token",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Ricardo Mazuelos Skarnic",
+            "notes": "!group token\n!sort 04"
         },
         {
             "card_name": "Horror",
@@ -4268,12 +4802,14 @@
             "color_identity": "B",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "token",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Dominik Mayer",
+            "notes": "!group token\n!sort 03"
         },
         {
             "card_name": "Epic of Strength",
@@ -4284,11 +4820,13 @@
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "Engrave 3\u2014{5}{G}{G} [i](If you cast this spell for {5}{G}{G}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)[/i]\nDouble the number of +1/+1 counters on each creature you control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AKI",
             "loyalty": "",
+            "artist": "Umut Morkan",
             "notes": ""
         },
         {
@@ -4300,13 +4838,15 @@
             "color_identity": "W",
             "cost": "",
             "rules_text": "Creatures you control get +1/+1.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "token",
             "set": "AKI",
             "loyalty": "",
-            "notes": ""
+            "artist": "David Fortin",
+            "notes": "!group token\n!sort 01"
         }
     ],
-    "version": 1
+    "version": 2
 }
