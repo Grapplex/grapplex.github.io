@@ -1,6 +1,5 @@
 ![AKI logo](%logo% "Akaddi: Empire's End")
 
-
 **<p style="text-align: center;">My word is law; and the law shows no mercy.</p>**
 
 A gemstone shining in a wadi stream, the city-state of Akaddi is the pride of its emperor, Qamurab. Alone, he united the tribes of the desert under one prosperous yoke, and laid down law to tame a land. This empire is his legacy, his masterwork, his life's achievement. But all empires end. This is the story of Akaddi—but it is also the story of much more. Of Tytheus, and the elven kingdom of Blackwater. Of Quyrash, the Golden King, and the dream who dreamt himself. Of San Xalco, of infinite skies and endless nights. Of Shamtar and a fire extinguished before it could burn. 
