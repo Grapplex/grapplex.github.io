@@ -13,7 +13,7 @@ Night time on San Xalco is unlike the bright and cloudless day. Under the boundl
 
 It is into this dichotomy of a world that the warrior planeswalker Orflaith Ó Nal has ventured. A wanderer whose chief drive is simply to add to her infamy and renown, she is drawn to the blank canvas San Xalco represents—its mysteries and its high noons in equal parts. Settling quickly into the routine of life in Fort Charles, she seeks to return to her home plane of Ulaith with stories of triumph and bravery. Instead, before long, her dreams are haunted with visions of bones and dead worlds. Something is calling her to the hot sands beyond civilisation. Something ancient, something malevolent, and something that has sought to enter the sanctuary world of San Xalco for centuries. If this intrusive presence cannot reach out its skeletal hand itself, it will drive Orflaith mad enough to act as its catspaw, digging in the desert at midnight without memory of having left her home. What buried secret is that that lies under the skies of San Xalco?
 
-**Tales from the Grave in Space** is a draftable premier set using Draft Boosters, containing 261 cards (15 mythic rares, 60 rares, 80 uncommons, 101 commons, and 5 basic lands). 
+**Skies Over San Xalco** is a draftable premier set using Draft Boosters, containing 261 cards (15 mythic rares, 60 rares, 80 uncommons, 101 commons, and 5 basic lands). 
 
 ###Mechanics
 
