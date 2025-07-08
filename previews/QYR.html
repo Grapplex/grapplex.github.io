@@ -5,6 +5,10 @@
 	<link rel="stylesheet" href="/resources/header.css">
 	<title>QYR visual preview</title>
 	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
 		body {
 			font-family: Arial, sans-serif;
 			margin: 0;
@@ -82,7 +86,7 @@
 		.banner {
 			width: 100%;
 			height: auto;
-			padding-top: 20px;
+			padding-top: 80px;
 			padding-bottom: 50px;
 		}
 		.logo {
@@ -118,33 +122,40 @@
 			background-size: contain;
 			background-position: center;
 		}
-		.icon-bar {
-			display: grid;
-			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
-			gap: 1px;
-			padding-left: 5%;
-			padding-right: 5%;
-			padding-top: 2%;
-			padding-bottom: 1%;
-			justify-items: center;
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 10%;
+			width: fit-content;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: flex;
+			flex-direction: column;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
 			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
 		}
-		.icon-bar .icon img {
-			width: 90%;
-			max-width: 80px;
-			height: auto;
-			display: block;
-			padding: 5%;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
 		}
-		.icon-bar .dot img {
-			width: 50%;
-			max-width: 65px;
-			height: auto;
-			display: block;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
 		}
 		.preload-hidden {
 			display: none;
@@ -201,53 +212,56 @@
 		</div>
 	</div>
 
-	<div class="icon-bar">
-			<div class="icon"><a href="TYT"><img src="/sets/TYT-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="QYR"><img src="/sets/QYR-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="XCO"><img src="/sets/XCO-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="SSF"><img src="/sets/SSF-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="AKI"><img src="/sets/AKI-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="MHQ"><img src="/sets/MHQ-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="ARK"><img src="/sets/ARK-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="90S"><img src="/sets/90S-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="OPH"><img src="/sets/OPH-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="CYO"><img src="/sets/CYO-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="HVY"><img src="/sets/HVY-files/icon.png"></img></a></div>
-		<div class="icon"><a href="CLG"><img src="/sets/CLG-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="OVR"><img src="/sets/OVR-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="HMW"><img src="/sets/HMW-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="TAL"><img src="/sets/TAL-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="PFG"><img src="/sets/PFG-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="666"><img src="/sets/666-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="FBI"><img src="/sets/FBI-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="GRU"><img src="/sets/GRU-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="KSH"><img src="/sets/KSH-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="SPQ"><img src="/sets/SPQ-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="TGS"><img src="/sets/TGS-files/icon.png"></img></a></div>
-		<div class="icon"><a href="XSK"><img src="/sets/XSK-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="ELO"><img src="/sets/ELO-files/icon.png"></img></a></div>
-
+	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="QYR"><img src="/sets/QYR-files/icon.png">Dreams of Quyrash</a>
+	
+		<a class="set-bar inactive" href="TYT"><img src="/sets/TYT-files/icon.png">Depths of Tytheus</a>
+	
+		<a class="set-bar inactive" href="XCO"><img src="/sets/XCO-files/icon.png">Skies Over San Xalco</a>
+	
+		<a class="set-bar inactive" href="SSF"><img src="/sets/SSF-files/icon.png">Shamtar: Search for Fire</a>
+	
+		<a class="set-bar inactive" href="AKI"><img src="/sets/AKI-files/icon.png">Akaddi: Empire’s End</a>
+	
+		<a class="set-bar inactive" href="MHQ"><img src="/sets/MHQ-files/icon.png">Modern Horizons: Triumph of Qirauz</a>
+	
+		<a class="set-bar inactive" href="ARK"><img src="/sets/ARK-files/icon.png">Cults of Arkoph</a>
+	
+		<a class="set-bar inactive" href="90S"><img src="/sets/90S-files/icon.png">Rath and Storm</a>
+	
+		<a class="set-bar inactive" href="OPH"><img src="/sets/OPH-files/icon.png">Arkoph: Crisis of Faith</a>
+	
+		<a class="set-bar inactive" href="CYO"><img src="/sets/CYO-files/icon.png">Chronicles of Yor-Om</a>
+	
+		<a class="set-bar inactive" href="HVY"><img src="/sets/HVY-files/icon.png">Heavy Thunder</a>
+	
+		<a class="set-bar inactive" href="CLG"><img src="/sets/CLG-files/icon.png">Children of Lesser Gods</a>
+	
+		<a class="set-bar inactive" href="OVR"><img src="/sets/OVR-files/icon.png">Overlay</a>
+	
+		<a class="set-bar inactive" href="HMW"><img src="/sets/HMW-files/icon.png">Skand: Heavy Metal War</a>
+	
+		<a class="set-bar inactive" href="TAL"><img src="/sets/TAL-files/icon.png">Ulaith: Cos Teilo’s Feast</a>
+	
+		<a class="set-bar inactive" href="PFG"><img src="/sets/PFG-files/icon.png">Profondo Giallo</a>
+	
+		<a class="set-bar inactive" href="666"><img src="/sets/666-files/icon.png">Circles of Bocacius</a>
+	
+		<a class="set-bar inactive" href="FBI"><img src="/sets/FBI-files/icon.png">Project Starlight</a>
+	
+		<a class="set-bar inactive" href="GRU"><img src="/sets/GRU-files/icon.png">Great Raid of Ulaith</a>
+	
+		<a class="set-bar inactive" href="KSH"><img src="/sets/KSH-files/icon.png">Kushab: Gods’ Blood</a>
+	
+		<a class="set-bar inactive" href="SPQ"><img src="/sets/SPQ-files/icon.png">Avicta: Ave Imperator</a>
+	
+		<a class="set-bar inactive" href="TGS"><img src="/sets/TGS-files/icon.png">Tales from the Grave in Space</a>
+	
+		<a class="set-bar inactive" href="XSK"><img src="/sets/XSK-files/icon.png">Experiments of Skand</a>
+	
+		<a class="set-bar inactive" href="ELO"><img src="/sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
+	
 		</div>
 		<div class="banner">
 		<img class="logo" src="/sets/QYR-files/logo.png">
@@ -732,6 +746,24 @@
 
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
 	}
 
 	document.getElementById("search").addEventListener("keypress", function(event) {
