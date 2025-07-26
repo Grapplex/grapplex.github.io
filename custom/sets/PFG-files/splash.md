@@ -1,0 +1,23 @@
+<img src="https://grapplex.github.io/sets/PFG-files/logo.png" alt="Profondo Giallo" width="600" height="243">
+
+**<p style="text-align: center;">Lasciami mostrarti tutti i colori del buio.</p>**
+
+Cibavo is a world of vivid colour, of life lived to its fullest. But bright lights will always cast harsh shadows. In truth, the plane of Cibavo is one half of a twin—while it enjoys its time in the sun, its sickly, unborn sibling lurks in the darkness. The waking world of Cibavo is reflected in an unnamed dreamworld, every thought, dream, and emotion echoing in this pallid yellow maelstrom of feeling. The Cibavi are loath to give credence to this dark twin with a proper name, alternately referring to it as the great yellow, the dreamworld, or, most commonly, the duckling. When an emotion takes root in this realm, similar feelings coalesce around it like the layers of pearl over a seed of grit, strengthening a nascent notion until it emerges bodily on Cibavo as a nightmare, an incarnation of fear and disgust. Most of these nightmares are short-lived, lurking in shadows and dispelled by the sunlight, but those strong enough to stalk the living will soon prove that their teeth are no mere daydream.
+
+As such, Cibavo's civilisation has been built around the exorcism of this dreamworld, a whole culture devoted to the sort of catharsis and lived experience that keeps the duckling from feeding on the kind of repressed feelings it thrives upon. Art in all its forms is pursued to the extremes, so that the Cibavi leave nothing unfelt. Violent cinema, vivid paintings, frenzied dancing—all of it grounds emotions in the here and now. To leave nothing on the table leaves no scraps for things that should not be fed. And yet, for every cannibal film, every theatrical slasher, a seed remains in the mind, the shadow of a pigment that will eventually paint a whole new nightmare.
+
+**Profondo Giallo** is a draftable premier set using Play Boosters, containing 276 cards (20 mythic rares, 60 rares, 100 uncommons, 8 commons, 10 basic-rarity dual lands, 5 basic lands, and 1 special rarity card). Bundle purchasers will also obtain a promotional alternate art copy of Solvi di Finecco, L’Assassino, while all boosters have a chance of containing a serialised Headliner retro fim poster version of Feticcio della Strega. Limited formats using Profondo Giallo have an additional rule to handle the special rarity of All the Colors of the Dark—while it can appear in the land slot of booster packs, each player may additionally add a single free copy of the card to their card pool before deckbuilding. This is in addition to any copies obtained in the sealed pool or during the booster draft.
+
+##Mechanics
+
+<img align="right" width="200" height="353" style="margin:15px" src="https://i.ibb.co/Z1HjSPVN/booster.png" "PFG booster"/>The mechanics of **Profondo Giallo** include:
+
+**Throwback:** Cinema is nothing without the allure of the sequel. Throwback is an additional cost that can be paid on some instants and sorceries, allowing you to copy that spell once—use it with cards that care about casting or copying spells in order to double up your bonuses as well as your spell effects.
+
+**Envision:** A true visionary can do wonders with the right source material. When a creature envisions N, you can choose to either put N +1/+1 counters on it, or exile an instant or sorcery card from your graveyard to cast it with a discount of N mana. Most envision abilities trigger only once but look out for some instances that allow you to gain repeated value.
+
+**Tension:** The perpetual fear of the duckling is a self-sustaining feeling. Whenever you attack with one or more creatures with tension, you create a flying Nightmare token that's also tapped and attacking, its size growing with each attacking creature with tension. No matter how many creatures have the keyword, you will only create one token, but by working in unison they can empower a single large flier to trouble your foes.
+
+**Meld:** Returning for a single cycle of double-faced cards, meld allows you to merge two cards together to create a powerful combined effect. One of the cards needed to meld in Profondo Giallo will always be All the Colors of the Dark, but the second card used to combine with it will determine the specific effects of the namesake enchantment when combined. 
+
+**Storm:** A returning mechanic showcased on one cycle of mythic rare cards, storm is a historically powerful effect that massively rewards setting up a single impactful turn. When you cast a spell with storm, for each spell cast before it that turn, you get an additional copy of the storm spell. Maximise the flurry of support spells you can precede your storm payoff with and sweep your opponent away.
