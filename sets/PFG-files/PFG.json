@@ -31,7 +31,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "!landslot\n!group clear1"
+            "notes": "!landslot\n!group clear1\n!sort 01"
         },
         {
             "card_name": "Il Diavolo a Sette Facce",
@@ -95,7 +95,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Wes Benscoter",
-            "notes": ""
+            "notes": "!group clear"
         },
         {
             "card_name": "L'altro Inferno",
@@ -4721,7 +4721,7 @@
             "set": "PFG",
             "loyalty": "",
             "artist": "Dmytro Solonin",
-            "notes": ""
+            "notes": "!group token\n!sort 07"
         },
         {
             "card_name": "PFG Draft Archetypes",
@@ -4739,7 +4739,7 @@
             "set": "PFG",
             "loyalty": "",
             "artist": "Juan Pablo Roldan",
-            "notes": ""
+            "notes": "!group token\n!sort 08"
         },
         {
             "card_name": "Ego Scramble",
@@ -4829,25 +4829,7 @@
             "set": "PFG",
             "loyalty": "",
             "artist": "John Tedrick",
-            "notes": "!group token"
-        },
-        {
-            "card_name": "Profondo Giallo",
-            "color": "",
-            "rarity": "special",
-            "type": "Enchantment",
-            "number": 279,
-            "color_identity": "C",
-            "cost": "",
-            "rules_text": "",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "PFG",
-            "loyalty": "",
-            "artist": "Jeff Kristian",
-            "notes": ""
+            "notes": "!group token\n!sort 06"
         },
         {
             "card_name": "Black Days of Vice",
@@ -5073,7 +5055,7 @@
             "set": "PFG",
             "loyalty": "",
             "artist": "Sean Cruz",
-            "notes": "!landslot\n!tag reprint!landslot\n!tag reprint\n!tag otherland\n!sort 09"
+            "notes": "!landslot\n!tag reprint\n!tag otherland\n!sort 09"
         },
         {
             "card_name": "Nighmare (black)",
@@ -5091,7 +5073,7 @@
             "set": "PFG",
             "loyalty": "",
             "artist": "Vladimir Matyukhin",
-            "notes": "!exportname Nighmare (black)\n!group token"
+            "notes": "!exportname Nighmare (black)\n!group token\n!sort 03"
         },
         {
             "card_name": "Citizen",
@@ -5109,7 +5091,7 @@
             "set": "PFG",
             "loyalty": "",
             "artist": "Oscar Bagalini",
-            "notes": "!group token"
+            "notes": "!group token\n!sort 04"
         },
         {
             "card_name": "Paranoid Soundscape",
@@ -5145,7 +5127,7 @@
             "set": "PFG",
             "loyalty": "",
             "artist": "Anthony Chong Jones",
-            "notes": "!exportname Nightmare (Tension)\n!group token"
+            "notes": "!exportname Nightmare (Tension)\n!group token\n!sort 01"
         },
         {
             "card_name": "Death Calls at All Hours",
@@ -5245,7 +5227,7 @@
             "set": "PFG",
             "loyalty": "",
             "artist": "Wes Benscoter",
-            "notes": "!exportname Nighmare (green)\n!group token"
+            "notes": "!exportname Nighmare (green)\n!group token\n!sort 05"
         },
         {
             "card_name": "Tormented Model",
@@ -5371,7 +5353,7 @@
             "set": "PFG",
             "loyalty": "",
             "artist": "Liu Xiao",
-            "notes": "!exportname Citizen (Tension)\n!group token"
+            "notes": "!exportname Citizen (Tension)\n!group token\n!sort 02"
         },
         {
             "card_name": "Doubt Is the Slow Knife",
@@ -5392,5 +5374,5 @@
             "notes": ""
         }
     ],
-    "version": 3
+    "version": 4
 }
