@@ -2,6 +2,8 @@
     "name": "Project Starlight",
     "formats": "",
     "trimmed": "y",
+    "image_type": "png",
+    "draft_structure": "draft booster",
     "cards": [
         {
             "card_name": "Skulking Operative",
@@ -12,11 +14,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "When Skulking Operative enters the battlefield, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
+            "flavor_text": "[i]\u201cIf one entity made it to our world, there's no telling when, or where, the next breach could come.\u201d[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Sophie Lie",
             "notes": ""
         },
         {
@@ -28,11 +32,13 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "{1}{B}, {T}, Sacrifice another creature or artifact: Surveil 1, then draw a card. [i](To surveil 1, look at the top card of your library. You may put it into your graveyard.)[/i]",
+            "flavor_text": "[i]\u201cIn wine, there is truth. Drink up.\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Andrey Surnov",
             "notes": ""
         },
         {
@@ -43,12 +49,14 @@
             "number": 103,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "When Lurking Slasher dies, target creature you don\u2019t control gets -1/-1 until end of turn.",
+            "rules_text": "When Lurking Slasher dies, target creature you don't control gets -1/-1 until end of turn.",
+            "flavor_text": "[i]In a culture of madness and fear, not every creeping dread is mere paranoia.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -59,12 +67,14 @@
             "number": 102,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "As long as you\u2019ve cast a noncreature spell this turn, Imposing Interceptor gets +1/+1 and has menace.",
+            "rules_text": "As long as you've cast a noncreature spell this turn, Imposing Interceptor gets +1/+1 and has menace.",
+            "flavor_text": "[i]With nothing but a steely glance, agents of Project Starlight can pry secrets from even the most recalcitrant suspect.[/i]",
             "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Andrey Surnov",
             "notes": ""
         },
         {
@@ -76,11 +86,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Regression {1}{B} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nWhen Astral Projection enters the battlefield, each opponent loses 1 life.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Maria Ivanova",
             "notes": ""
         },
         {
@@ -92,11 +104,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Whenever you cast a noncreature spell, each opponent loses 1 life.",
+            "flavor_text": "[i]Chasing the scoop of a lifetime can quickly turn all too literal.[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -108,11 +122,13 @@
             "color_identity": "B",
             "cost": "{5}{B}",
             "rules_text": "This spell costs {3} less to cast if a creature died this turn.\nMenace",
+            "flavor_text": "[i]Deploying rapidly, they clean up the sites of strange incidents so thoroughly that neither the evidence nor the witnesses can be located afterward.[/i]",
             "pt": "5/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Daniel Dana",
             "notes": ""
         },
         {
@@ -124,11 +140,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "{T}: Add {C}. Spend this mana only to cast a Strange creature spell or a creature spell with mana value 5 or greater.",
+            "flavor_text": "[i]Wherever she goes, chill air and a spectral presence follow.[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Samuel Chovan",
             "notes": ""
         },
         {
@@ -139,12 +157,14 @@
             "number": 177,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "When Asset Collector enters the battlefield, create a tapped Evidence token. [i](It\u2019s a Strange artifact with \u201c{T}: Add {C}. If it\u2019s not your turn, you can\u2019t spend this mana to cast spells.\u201d)[/i]\n{6}, Exile Asset Collector from your graveyard: Draw a card.",
+            "rules_text": "When Asset Collector enters the battlefield, create a tapped Evidence token. [i](It's a Strange artifact with \u201c{T}: Add {C}. If it's not your turn, you can't spend this mana to cast spells.\u201d)[/i]\n{6}, Exile Asset Collector from your graveyard: Draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -156,11 +176,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "{4}{G}: Create a tapped 1/1 green and white Citizen creature token.",
+            "flavor_text": "[i]\u201cIt was real good that you did that, dear. A really good thing.\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -172,11 +194,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Flash\nWhen Safehouse Mastermind enters the battlefield, another target Citizen you control gains hexproof until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Majed Al Harbi",
             "notes": ""
         },
         {
@@ -188,11 +212,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Regression {1}{G} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nWhen Uncanny Apparition enters the battlefield, put a +1/+1 counter on another target creature you control.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -204,11 +230,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "{T}: Add {G}.\n{3}{V}: Put a +1/+1 counter on Observation Subject. [i]({V} can be paid with one mana from a Strange source.)[/i]",
+            "flavor_text": "[i]They noted her every ability without considering her potential.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Andrey Surnov",
             "notes": ""
         },
         {
@@ -220,11 +248,13 @@
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "Trample\nWhen Unstoppable Skin-Eater enters the battlefield, you may sacrifice a Citizen. If you do, draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Oleg Kapustin",
             "notes": ""
         },
         {
@@ -236,11 +266,13 @@
             "color_identity": "G",
             "cost": "{4}{G}{G}",
             "rules_text": "Regression {4}{G}{G} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nTrample\nWhen Haunting Remnant enters the battlefield, put a +1/+1 counter on it.",
+            "flavor_text": "[i][/i]",
             "pt": "5/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Huleeb",
             "notes": ""
         },
         {
@@ -252,11 +284,13 @@
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Haste\n{T}, Sacrifice Witness Tamperer: It deals damage equal to its power to any target.",
+            "flavor_text": "[i]\u201cYou didn't see nothing.\u201d[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Evan Lee",
             "notes": ""
         },
         {
@@ -268,11 +302,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Regression {1}{R} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Mike Szabados",
             "notes": ""
         },
         {
@@ -283,12 +319,14 @@
             "number": 138,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Whenever a creature you control dies, you may discard a card. If you do, draw a card. ",
+            "rules_text": "Whenever a creature you control dies, you may discard a card. If you do, draw a card.",
+            "flavor_text": "[i]Those who know the full truth of Project Starlight are often willing to lay down their lives to protect the truth. Those who don't\u2014aren't.[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Jarek Nocon",
             "notes": ""
         },
         {
@@ -299,12 +337,14 @@
             "number": 145,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Regression {2}{R} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nWhen Echo of Agony enters the battlefield, target creature can\u2019t block this turn.",
+            "rules_text": "Regression {2}{R} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nWhen Echo of Agony enters the battlefield, target creature can't block this turn.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Sebastian Meyer",
             "notes": ""
         },
         {
@@ -316,11 +356,13 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "{8}: Brusque Agent deals 4 damage to each opponent.",
+            "flavor_text": "[i]He'll go through anything\u2014and anyone\u2014to find his answers.[/i]",
             "pt": "4/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -332,11 +374,13 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Whenever you cast an instant or sorcery spell or a noncreature Strange spell, Curious Captor deals 1 damage to each opponent.",
+            "flavor_text": "[i]\u201cDon't worry, I'm sure it's nothing I haven't seen bef\u2014oh god.\u201d[/i]",
             "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Daniel Dana",
             "notes": ""
         },
         {
@@ -347,12 +391,14 @@
             "number": 169,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "Menace\nWhen Underground Asset enters the battlefield, up to two target creatures can\u2019t block this turn.",
+            "rules_text": "Menace\nWhen Underground Asset enters the battlefield, up to two target creatures can't block this turn.",
+            "flavor_text": "[i]\u201cCome with me, if you want to learn.\u201d[/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -363,12 +409,14 @@
             "number": 48,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "As long as you\u2019ve drawn a card this turn, Assistant Director has hexproof.",
+            "rules_text": "As long as you've drawn a card this turn, Assistant Director has hexproof.",
+            "flavor_text": "[i]\u201cThere are known knowns, and known unknowns. I deal purely in the realm of unknown unknowns.\u201d[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -380,11 +428,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "{T}: Target player mills two cards.\nWhenever you cast an instant or sorcery spell or a noncreature Strange spell, untap Childhood Friend.",
+            "flavor_text": "[i][/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Insist",
             "notes": ""
         },
         {
@@ -396,11 +446,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Flying, vigilance",
+            "flavor_text": "[i]A shaft of sourceless light held it pinned in mid-air. The agents watched phantom shadows dance across its surface, certain that none would believe their story.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Haoxin Z",
             "notes": ""
         },
         {
@@ -412,11 +464,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Flash\nWhen Suspicious Nighthawk enters the battlefield, surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Justin Gladis",
             "notes": ""
         },
         {
@@ -427,12 +481,14 @@
             "number": 87,
             "color_identity": "U",
             "cost": "{4}{U}",
-            "rules_text": "Ward {2}\nWhenever Wetware Voyager attacks, you may tap two untapped artifacts you control. If you do, Wetware Voyager can\u2019t be blocked this turn.",
+            "rules_text": "Ward {2}\nWhenever Wetware Voyager attacks, you may tap two untapped artifacts you control. If you do, Wetware Voyager can't be blocked this turn.",
+            "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Michael Michera",
             "notes": ""
         },
         {
@@ -443,12 +499,14 @@
             "number": 77,
             "color_identity": "U",
             "cost": "{3}{U}",
-            "rules_text": "Suffering Extrasensor can\u2019t be blocked as long as you\u2019ve cast an instant or sorcery spell or a noncreature Strange spell this turn.",
+            "rules_text": "Suffering Extrasensor can't be blocked as long as you've cast an instant or sorcery spell or a noncreature Strange spell this turn.",
+            "flavor_text": "[i]Riven with constant pain from the voices in his ears, occasionally he understands just enough to evade harm.[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Andrey Surnov",
             "notes": ""
         },
         {
@@ -460,11 +518,13 @@
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "When Suspicious Bystander enters the battlefield, put a +1/+1 counter on another target Citizen you control.",
+            "flavor_text": "[i]Most of the citizens of St. Cahand are entirely unaware of the machinations unfolding around them, but some have seen glimpses of the truth.[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Jasper Zhao",
             "notes": ""
         },
         {
@@ -475,12 +535,14 @@
             "number": 39,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Sullen Operative has lifelink as long as you\u2019ve cast a noncreature spell this turn.",
+            "rules_text": "Sullen Operative has lifelink as long as you've cast a noncreature spell this turn.",
+            "flavor_text": "[i]Recruited as an asset years ago, she waits patiently for each terse order, knowing that months can pass between brief tasks.[/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -492,11 +554,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Pensive Observer has first strike as long as you control an artifact.",
+            "flavor_text": "[i]Agents of Project Starlight seem preternaturally aware, always one step of ahead of those attempting to track them.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -508,11 +572,13 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Vigilance\nSection Chief gets +1/+1 as long as you control an artifact.",
+            "flavor_text": "[i]\u201cIf the myriad agents scouring the world are mere ants, the chiefs are their glutted queens.\u201d\n\u2014Green Door, double agent[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -524,11 +590,13 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Flying\nWhenever you cast a noncreature spell, Unmarked Helicopter becomes an artifact creature until end of turn.\nCrew 1 [i](Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -539,12 +607,14 @@
             "number": 7,
             "color_identity": "W",
             "cost": "{3}{W}",
-            "rules_text": "Create two 1/1 green and white Citizen creature tokens, then distribute two +1/+1 counters among them.\nPsyop {2}{W} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Create two 1/1 green and white Citizen creature tokens, then distribute two +1/+1 counters among them.\nPsyop {2}{W} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Oliver Guiney",
             "notes": ""
         },
         {
@@ -556,11 +626,13 @@
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "Vigilance\nWhenever Grizzled Sleuth attacks, untap up to one target artifact you control.",
+            "flavor_text": "[i]\u201cThere's something in here that someone very dangerous doesn't want us to know about. You first.\u201d[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "John Pacer",
             "notes": ""
         },
         {
@@ -572,11 +644,13 @@
             "color_identity": "W",
             "cost": "{4}{W}",
             "rules_text": "Vigilance\nWhen Survivalist Leader enters the battlefield, create two 1/1 green and white Citizen creature tokens.",
+            "flavor_text": "[i]\u201cOff the grid\u201d does not mean out of sight.[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Huleeb",
             "notes": ""
         },
         {
@@ -587,12 +661,14 @@
             "number": 31,
             "color_identity": "W",
             "cost": "{5}{W}",
-            "rules_text": "When Rendition Agent enters the battlefield, exile target artifact or creature you don\u2019t control until Rendition Agent leaves the battlefield.",
+            "rules_text": "When Rendition Agent enters the battlefield, exile target artifact or creature you don't control until Rendition Agent leaves the battlefield.",
+            "flavor_text": "[i]In a site on no maps, in a room on no blueprints, screams echo that no one will answer.[/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -603,12 +679,14 @@
             "number": 16,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "Creatures you control get +1/+1 until end of turn.\nPsyop {W} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Creatures you control get +1/+1 until end of turn.\nPsyop {W} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -620,11 +698,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Destroy target artifact or enchantment.\nDead drop {2}{W} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "David Mrelashvili",
             "notes": ""
         },
         {
@@ -636,11 +716,13 @@
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Whenever you cast a noncreature spell, you may pay {1}. If you do, Nondescript Agent becomes a 3/2 Human Soldier with first strike and vigilance until end of turn.",
+            "flavor_text": "[i]Always present. Always watching.[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Vellectrum",
             "notes": ""
         },
         {
@@ -652,11 +734,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Whenever an opponent casts a spell during your turn, put a +1/+1 counter on Digitized Sleeper.",
+            "flavor_text": "[i]Starlight's latest generation of sleeper agents are entirely unaware of their own involvement. One code phrase is all that stands between their daily life and deadly consequences.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Mateusz Lenart",
             "notes": ""
         },
         {
@@ -667,12 +751,14 @@
             "number": 4,
             "color_identity": "W",
             "cost": "{W}{W}",
-            "rules_text": "Flying\nAltitude Adaptor gets +1/+1 as long as you\u2019ve cast a noncreature spell this turn.",
+            "rules_text": "Flying\nAltitude Adaptor gets +1/+1 as long as you've cast a noncreature spell this turn.",
+            "flavor_text": "[i]In the wake of the Mount Division's climate experiments, more than just thunder followed the storm.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Rashed AlAkroka",
             "notes": ""
         },
         {
@@ -684,11 +770,13 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Whenever you cast a noncreature spell, you gain 2 life.",
+            "flavor_text": "[i]With each test subject sent through the Starlight Portal comes another intensive clean-up operation.[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Mark Molnar & Gaspar Gombos",
             "notes": ""
         },
         {
@@ -700,11 +788,13 @@
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "When Persuasive Recruiter enters the battlefield, look at the top five cards of your library. You may reveal any number of creature cards with total power 3 or less from among them and put them into your hand. Put the rest on the bottom of your library in a random order.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Eddie Mendoza",
             "notes": ""
         },
         {
@@ -716,11 +806,13 @@
             "color_identity": "W",
             "cost": "{4}{W}",
             "rules_text": "If a source an opponent controls would deal damage to you, prevent 1 of that damage.\nTap two untapped Citizens you control: Until your next turn, Folk Attraction becomes a 5/5 Dinosaur Construct creature with vigilance.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Enzo Minarro",
             "notes": ""
         },
         {
@@ -732,11 +824,13 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "As long as Deep-Cover Turncoat is untapped, it has base power and toughness 1/1 and hexproof from instants.\nWhenever Deep-Cover Turncoat becomes the target of a spell or ability you control, untap it. This ability triggers only once each turn.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -748,11 +842,13 @@
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "Flash\nWhen Clean-Up Operative enters the battlefield, it deals damage to any nonplayer target equal to the damage dealt to you this turn.",
+            "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Khairizal Rahmat",
             "notes": ""
         },
         {
@@ -763,12 +859,14 @@
             "number": 29,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "Exile target creature. At the beginning of the next end step, return it to the battlefield under its owner\u2019s control unless you pay {4}.",
+            "rules_text": "Exile target creature. At the beginning of the next end step, return it to the battlefield under its owner's control unless you pay {4}.",
+            "flavor_text": "[i]A craft full of volunteers crossed the threshold of reality. Only an empty hulk returned.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Tarmo Juhola",
             "notes": ""
         },
         {
@@ -780,11 +878,13 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When Recovered Wreck enters the battlefield, exile target nonland permanent an opponent controls until Recovered Wreck leaves the battlefield.",
+            "flavor_text": "[i]Stored in climate-controlled environs since its discovery, it has perpetually remained searing hot to the touch.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Victor Hugo Harmatiuk",
             "notes": ""
         },
         {
@@ -795,12 +895,14 @@
             "number": 19,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "When Heartless Collateral enters the battlefield, sacrifice it unless you return a creature you control to its owner\u2019s hand.\nCreatures you control get +1/+1.",
+            "rules_text": "When Heartless Collateral enters the battlefield, sacrifice it unless you return a creature you control to its owner's hand.\nCreatures you control get +1/+1.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -811,12 +913,14 @@
             "number": 33,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "Put a +1/+1 counter on each creature you control with power greater than its base power.\nPsyop {W} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Put a +1/+1 counter on each creature you control with power greater than its base power.\nPsyop {W} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Ren\u00e9 Aigner",
             "notes": ""
         },
         {
@@ -827,12 +931,14 @@
             "number": 11,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Each player can\u2019t cast more than one noncreature spell each turn.\nPsyop {W} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Each player can't cast more than one noncreature spell each turn.\nPsyop {W} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Fabio Alencar",
             "notes": ""
         },
         {
@@ -844,11 +950,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Defender, flying\nWhen Transcendent Meditator enters the battlefield, you may return target instant or sorcery card from your graveyard to your hand.",
+            "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -860,11 +968,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Tap target creature and put two stun counters on it. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]\nDead drop {2}{U} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Andrey Surnov",
             "notes": ""
         },
         {
@@ -876,11 +986,13 @@
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Draw a card.\nDead drop {1}{U} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i]Realization dawned. Green Door suddenly understood just how thick the lies had been.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "\u5165\u7279\u6570\u7801 \u89d2\u8272\u57f9\u8bad",
             "notes": ""
         },
         {
@@ -892,11 +1004,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Draw three cards. Then discard two cards unless you discard a card with mana value 5 or greater.",
+            "flavor_text": "[i]Laden with cash, jewels, and other valuable trinkets, the thieves discarded what they thought was useless paperwork, not realizing the value they left behind.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -907,12 +1021,14 @@
             "number": 85,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Return target creature to its owner\u2019s hand.\nSurveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
+            "rules_text": "Return target creature to its owner's hand.\nSurveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
+            "flavor_text": "[i]Not all answers are worth risking the question.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Joanna Mlecz",
             "notes": "!tag reprint"
         },
         {
@@ -924,11 +1040,13 @@
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Equipped creature gets +1/+0 and has \u201cWhenever this creature deals combat damage to a player, surveil 1.\u201d [i](To surveil 1, look at the top card of your library. You may put it into your graveyard.)[/i]\nEquip {3}",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Sami Azaiez",
             "notes": ""
         },
         {
@@ -940,11 +1058,13 @@
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "If you would surveil a number of cards, surveil that many cards plus one instead.",
+            "flavor_text": "[i]No amount of paranoia, no microdose or aural weaponry, nothing the agency tried would break her concentration.[/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Diana Martinez",
             "notes": ""
         },
         {
@@ -956,11 +1076,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "If you look at Experimental Passenger while you surveil, you may reveal it and put it into your hand.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Ninja Jo",
             "notes": ""
         },
         {
@@ -971,12 +1093,14 @@
             "number": 65,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Flying\nWhenever you cast an instant or sorcery spell or a noncreature Strange spell, Parapsychopomp gets +X/+0 until end of turn, where X is that spell\u2019s mana value.",
+            "rules_text": "Flying\nWhenever you cast an instant or sorcery spell or a noncreature Strange spell, Parapsychopomp gets +X/+0 until end of turn, where X is that spell's mana value.",
+            "flavor_text": "[i][/i]",
             "pt": "0/4",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Yashar Kassai",
             "notes": ""
         },
         {
@@ -988,11 +1112,13 @@
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Regression {2}{U}{U} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nWhenever Wistful Ghost enters the battlefield, draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Veronica Volkova",
             "notes": ""
         },
         {
@@ -1004,11 +1130,13 @@
             "color_identity": "U",
             "cost": "{4}{U}",
             "rules_text": "This spell costs {1} less to cast for each artifact you control.\nFlying",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Robert Bonchune",
             "notes": ""
         },
         {
@@ -1020,11 +1148,13 @@
             "color_identity": "U",
             "cost": "{4}{U}",
             "rules_text": "When Syndicate Kingpin enters the battlefield, surveil 1, then draw a card. [i](To surveil 1, look at the top card of your library. You may put it into your graveyard.)[/i]\nWhenever Syndicate Kingpin deals combat damage to a player, you may exile it. If you do, return it to the battlefield at the beginning of your next upkeep.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Denman Rooke",
             "notes": ""
         },
         {
@@ -1035,12 +1165,14 @@
             "number": 60,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Counter target spell that wasn\u2019t cast from its owner\u2019s hand.",
+            "rules_text": "Counter target spell that wasn't cast from its owner's hand.",
+            "flavor_text": "[i]Dirty cash leaves a stark and greasy trail to track.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Ondra Saur",
             "notes": ""
         },
         {
@@ -1052,11 +1184,13 @@
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "As an additional cost to cast this spell, sacrifice an artifact or planeswalker.\nDraw three cards.",
+            "flavor_text": "[i]\u201cWhen the Entity crossed into our world, everything changed. We were no longer alone\u2014and nothing was more terrifying.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Jake Woodruff",
             "notes": ""
         },
         {
@@ -1068,11 +1202,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Surveil 5. [i](Look at the top five cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
+            "flavor_text": "[i]\u201cDon't leave home without at least three dead-hand switches on your person at all times.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Jonah Booth-Remmers",
             "notes": "!tag reprint"
         },
         {
@@ -1083,12 +1219,14 @@
             "number": 52,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Return target spell or creature to its owner\u2019s hand.\nWhen Dead Hand Protocol is put into your graveyard from your library, you may exile it. If you do, permanents you control gain hexproof until end of turn.",
+            "rules_text": "Return target spell or creature to its owner's hand.\nWhen Dead Hand Protocol is put into your graveyard from your library, you may exile it. If you do, permanents you control gain hexproof until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Brady White",
             "notes": ""
         },
         {
@@ -1099,12 +1237,14 @@
             "number": 71,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "This spell costs {1} less to cast if it targets a Strange creature or a creature with mana value 5 or greater.\nEnchant creature\nEnchanted creature gets +1/+0, can\u2019t be blocked, and has \u201cWhenever this creature deals combat damage to a player, draw a card.\u201d",
+            "rules_text": "This spell costs {1} less to cast if it targets a Strange creature or a creature with mana value 5 or greater.\nEnchant creature\nEnchanted creature gets +1/+0, can't be blocked, and has \u201cWhenever this creature deals combat damage to a player, draw a card.\u201d",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -1116,11 +1256,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Tap two untapped artifacts you control: You may tap or untap target creature.",
+            "flavor_text": "[i]The arrival of Entity X was proof of worlds beyond St. Cahand. Project Starlight grew in a thousand directions overnight, seeking to understand the paraphysical magics unleashed in the traveler's wake.[/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Stefano Federico",
             "notes": ""
         },
         {
@@ -1132,11 +1274,13 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Target opponent sacrifices a creature.\nDead drop {2}{B}{B} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -1147,12 +1291,14 @@
             "number": 131,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDestroy target creature, planeswalker, or enchantment you don\u2019t control.",
+            "rules_text": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDestroy target creature, planeswalker, or enchantment you don't control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -1164,11 +1310,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "You draw a card and you lose 1 life.\nDead drop {B} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Charlie Scott",
             "notes": ""
         },
         {
@@ -1179,12 +1327,14 @@
             "number": 132,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "Return target creature card from your graveyard to your hand. You gain life equal to that card\u2019s mana value.",
+            "rules_text": "Return target creature card from your graveyard to your hand. You gain life equal to that card's mana value.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -1195,12 +1345,14 @@
             "number": 91,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "Regression\u2014{1}{B}, Pay 2 life [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nAnguished Revenant can\u2019t block.\nYou may cast Anguished Revenant from your graveyard for its regression cost.",
+            "rules_text": "Regression\u2014{1}{B}, Pay 2 life [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nAnguished Revenant can't block.\nYou may cast Anguished Revenant from your graveyard for its regression cost.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Olya Bossak",
             "notes": ""
         },
         {
@@ -1212,11 +1364,13 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Flash\nWhen Professional Poisoner dies, each opponent loses 1 life.",
+            "flavor_text": "[i]Contrary to urban legend, Starlight agents do not carry doses of poison for suicide in the face of capture, but to take their captors out with them.[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Romana Kendelic",
             "notes": ""
         },
         {
@@ -1228,11 +1382,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "When Viewer of Beyond enters the battlefield, return target Spirit card from your graveyard to your hand.",
+            "flavor_text": "[i]\u201cCan you see the things that float through every moment of your life, the being that form what we call the sky and the air?\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Christian Bravery",
             "notes": ""
         },
         {
@@ -1243,12 +1399,14 @@
             "number": 94,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "When Captured Agent enters the battlefield, target opponent gains control of it.\nCaptured Agent can\u2019t attack or block.\nAt the beginning of your upkeep, you lose 1 life.",
+            "rules_text": "When Captured Agent enters the battlefield, target opponent gains control of it.\nCaptured Agent can't attack or block.\nAt the beginning of your upkeep, you lose 1 life.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -1260,11 +1418,13 @@
             "color_identity": "B",
             "cost": "{5}{B}",
             "rules_text": "This spell costs {2} less to cast for each creature that died this turn.\nMenace\nWhenever one or more other creatures die, put a +1/+1 counter on Sinister Transmission. This ability triggers only once each turn.",
+            "flavor_text": "[i]\u201cAnd now a word from our sponsors.\u201d[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Flavio Greco Paglia",
             "notes": ""
         },
         {
@@ -1276,11 +1436,13 @@
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "Whenever you surveil, you may have each opponent lose X life, where X is the number of cards looked at while survelling this way. Do this only once each turn.",
+            "flavor_text": "[i]The blood on his hands stains his every action.[/i]",
             "pt": "2/5",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Anthony Martin",
             "notes": ""
         },
         {
@@ -1292,11 +1454,13 @@
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "Flying\nWhenever you cast a noncreature spell, Spirits you control get +1/+1 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Christian Bravery",
             "notes": ""
         },
         {
@@ -1308,11 +1472,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Destroy target creature if its controller controls two or more tapped creatures.",
+            "flavor_text": "[i]A single shot may end a life, but the greater damage may be the ripples of doubt and mistrust spreading in its wake.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Torben Lindstr\u00f6m",
             "notes": ""
         },
         {
@@ -1324,11 +1490,13 @@
             "color_identity": "B",
             "cost": "{4}{B}",
             "rules_text": "Return target creature card from your graveyard to the battlefield.",
+            "flavor_text": "[i]Agent Sexton had left early the day before complaining of stifling migraines, but today he seemed like a whole new man.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Fabio Alencar",
             "notes": ""
         },
         {
@@ -1340,11 +1508,13 @@
             "color_identity": "B",
             "cost": "{X}{B}",
             "rules_text": "This spell costs {2} less to cast if a creature died this turn.\nTarget creature gets -X/-X until end of turn. You gain X life.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Zak Harrow",
             "notes": ""
         },
         {
@@ -1356,11 +1526,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Choose a nonland card name. Target player reveals their hand and discards all cards with that name.\nDead drop {1}{B} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Huleeb",
             "notes": ""
         },
         {
@@ -1372,11 +1544,13 @@
             "color_identity": "B",
             "cost": "{3}{B}{B}",
             "rules_text": "Search your library for a card, put it into your hand, then shuffle.\nDead drop {1}{B}{B} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Egor Kayali",
             "notes": ""
         },
         {
@@ -1388,11 +1562,13 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Exile up to three target cards from a single graveyard. If each card exiled this way shares a card type, draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Ren\u00e9 Aigner",
             "notes": ""
         },
         {
@@ -1403,12 +1579,14 @@
             "number": 158,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "This spell can\u2019t be countered.\nNumbers Signal deals 2 damage to any target. ",
+            "rules_text": "This spell can't be countered.\nNumbers Signal deals 2 damage to any target.",
+            "flavor_text": "[i]\u201cTis my delight\non a shining night\nin the season of the year\u201d\n\u2014Intercepted broadcast[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Wiktor \u00d6hman",
             "notes": ""
         },
         {
@@ -1419,12 +1597,14 @@
             "number": 163,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. Create a tapped Evidence token. [i](It\u2019s a Strange artifact with \u201c{T}: Add {C}. If it\u2019s not your turn, you can\u2019t spend this mana to cast spells.\u201d)[/i]",
+            "rules_text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. Create a tapped Evidence token. [i](It's a Strange artifact with \u201c{T}: Add {C}. If it's not your turn, you can't spend this mana to cast spells.\u201d)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "\u00d8rjan Ruttenborg Svendsen",
             "notes": ""
         },
         {
@@ -1435,28 +1615,32 @@
             "number": 149,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Discard up to two cards, then draw that many cards.\nPsyop {R} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Discard up to two cards, then draw that many cards.\nPsyop {R} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Amir and",
             "notes": ""
         },
         {
             "card_name": "Midnight Climax",
             "color": "R",
             "rarity": "common",
-            "type": "Strange Enchantment \u2014 Aua",
+            "type": "Strange Enchantment \u2014 Aura",
             "number": 156,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Enchant creature\nWhen Midnight Climax enters the battlefield, draw a card.\nEnchanted creature gets +1/+1 and has haste.",
+            "flavor_text": "[i]\u201cSubject exhibited significant decrease in both inhibitions and lifespan.\u201d\n\u2014Project notes[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Caio Ferreira",
             "notes": ""
         },
         {
@@ -1467,12 +1651,14 @@
             "number": 141,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "Destroy target artifact.\nPsyop {R} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Destroy target artifact.\nPsyop {R} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -1484,11 +1670,13 @@
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "{6}{R}, Exile Cornered Rat from your graveyard: It deals 2 damage to each opponent.",
+            "flavor_text": "[i]If she goes down, she's taking someone else out with her.[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Olysa Bossak",
             "notes": ""
         },
         {
@@ -1500,11 +1688,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Whenever you cast a spell from exile, Operation Exposer gets +1/+1 until end of turn.",
+            "flavor_text": "[i]So layered and manifold are the covert operations of Project Starlight that it employs agents solely to resolve internal paradoxes.[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Clark Huggins",
             "notes": ""
         },
         {
@@ -1515,12 +1705,14 @@
             "number": 147,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Whenever Fiery Intercessor attacks, add {R}. Until end of turn, you don\u2019t lose this mana as steps and phases end.\n{V}: Fiery Intercessor get +2/+0 until end of turn. [i]({V} can be paid with one mana from a Strange source.)[/i]",
+            "rules_text": "Whenever Fiery Intercessor attacks, add {R}. Until end of turn, you don't lose this mana as steps and phases end.\n{V}: Fiery Intercessor get +2/+0 until end of turn. [i]({V} can be paid with one mana from a Strange source.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Artem Demura",
             "notes": ""
         },
         {
@@ -1532,11 +1724,13 @@
             "color_identity": "R",
             "cost": "{3}{R}",
             "rules_text": "Regression {3}{R} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nWhenever a creature dies, you may exile target instant or sorcery card from your graveyard and copy it. You may cast the copy. [i](You still pay its costs.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Kode LGX",
             "notes": ""
         },
         {
@@ -1548,11 +1742,13 @@
             "color_identity": "R",
             "cost": "{3}{R}",
             "rules_text": "When Amateur Occultist enters the battlefield, you may pay any amount of mana. When you do, Amateur Occultist deals that much damage to any target.",
+            "flavor_text": "[i]In an atmosphere of impending doom, inhibitions are the first casualty.[/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Oleg Kapustin",
             "notes": ""
         },
         {
@@ -1564,11 +1760,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Whenever you cast an instant or sorcery spell or a noncreature Strange spell, you may pay {1}. If you do, put a +1/+1 counter on Wellspring Parahuman.",
+            "flavor_text": "[i]The Wellspring Institute pushes to expand the limits of human potential.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Jose Borges",
             "notes": ""
         },
         {
@@ -1579,12 +1777,14 @@
             "number": 154,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
-            "rules_text": "Regression {3}{R} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nWhenever a creature dies, add {R}. Until end of turn, you don\u2019t lose this mana as steps and phases end.",
+            "rules_text": "Regression {3}{R} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nWhenever a creature dies, add {R}. Until end of turn, you don't lose this mana as steps and phases end.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -1596,11 +1796,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Limited Hangout deals 2 damage to any target.\nDead drop {2}{R} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -1611,12 +1813,14 @@
             "number": 146,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Engineered Gridlock deals 2 damage to each creature.\nPsyop {1}{R} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Engineered Gridlock deals 2 damage to each creature.\nPsyop {1}{R} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Enzo Minarro",
             "notes": ""
         },
         {
@@ -1627,12 +1831,14 @@
             "number": 151,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Target creature you control fights target creature you don\u2019t control. Excess damage that would be dealt to the creature you don\u2019t control is dealt to that creature\u2019s controller instead.",
+            "rules_text": "Target creature you control fights target creature you don't control. Excess damage that would be dealt to the creature you don't control is dealt to that creature's controller instead.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "John Pacer",
             "notes": ""
         },
         {
@@ -1644,11 +1850,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "{2}: Add one mana of any color.\n{2}{V}, {T}: Exile the top card of your library. Until the end of your next turn, you may play that card. [i]({V} can be paid with one mana from a Strange source.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "David Woodman",
             "notes": ""
         },
         {
@@ -1660,11 +1868,13 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Attacking creatures you control get +1/+0.",
+            "flavor_text": "[i]In floors where no stairs reach, in skyscrapers not shown on maps, unmarked rooms creak with growing collections of Starlight's confiscations.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Daniel Dana",
             "notes": ""
         },
         {
@@ -1676,11 +1886,13 @@
             "color_identity": "R",
             "cost": "{1}{R}{R}",
             "rules_text": "Exile target artifact or nonbasic land.",
+            "flavor_text": "[i]The director showed Green Door the schematics for the Starlight Portal, and her eyes darkened.\n\u201cHow can we defend our world from outside if we build an open door to it?\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Jason Cumbers",
             "notes": ""
         },
         {
@@ -1692,11 +1904,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest into your graveyard.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Andrey Surnov",
             "notes": ""
         },
         {
@@ -1708,11 +1922,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nDead drop {1}{G}{G} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -1723,12 +1939,14 @@
             "number": 204,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Destroy target artifact or enchantment. If that permanent\u2019s mana value was 2 or less, create a tapped Evidence token. [i](It\u2019s a Strange artifact with \u201c{T}: Add {C}. If it\u2019s not your turn, you can\u2019t spend this mana to cast spells.\u201d)[/i]",
+            "rules_text": "Destroy target artifact or enchantment. If that permanent's mana value was 2 or less, create a tapped Evidence token. [i](It's a Strange artifact with \u201c{T}: Add {C}. If it's not your turn, you can't spend this mana to cast spells.\u201d)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Pavel Vophira",
             "notes": ""
         },
         {
@@ -1740,11 +1958,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Whenever you cast a Strange creature spell or a creature spell with mana value 5 or greater, put a +1/+1 counter on Extrasensory Exemplar.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Romana Kendelic",
             "notes": ""
         },
         {
@@ -1756,11 +1976,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "When Mirrorweave Mentalist enters the battlefield, create a 1/1 green and white Citizen creature token.\nSacrifice two Citizens: Destroy target artifact or enchantment.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Oleg Kapustino",
             "notes": ""
         },
         {
@@ -1772,11 +1994,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "{7}{G}: Creatures you control get +2/+2 and gain trample until end of turn.",
+            "flavor_text": "[i]The more invasive and oppressive Starlight's clutches grow, the further some are pushed to rebel.[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Victor Hugo Harmatiuk",
             "notes": ""
         },
         {
@@ -1787,12 +2011,14 @@
             "number": 209,
             "color_identity": "G",
             "cost": "{3}{G}",
-            "rules_text": "Shadowed Cabinet\u2019s power is equal to twice the number of Citizens you control.",
+            "rules_text": "Shadowed Cabinet's power is equal to twice the number of Citizens you control.",
+            "flavor_text": "[i]The first to know. The last to go.[/i]",
             "pt": "*/4",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Oliver Guiney",
             "notes": ""
         },
         {
@@ -1804,11 +2030,13 @@
             "color_identity": "G",
             "cost": "{4}{G}",
             "rules_text": "Regression {2}{G}{G} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nWhen Liminal Lurker enters the battlefield, put a +1/+1 counter on each other creature you control.",
+            "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Christian Bravery",
             "notes": ""
         },
         {
@@ -1820,11 +2048,13 @@
             "color_identity": "G",
             "cost": "{4}{G}{G}",
             "rules_text": "Prototype Walker enters the battlefield tapped with three stun counters on it. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]\nTap another untapped creature you control: Untap Prototype Walker. Activate only if Prototype Walker has a counter on it.",
+            "flavor_text": "[i][/i]",
             "pt": "8/8",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Adrian Mihai Marchidan",
             "notes": ""
         },
         {
@@ -1836,11 +2066,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Whenever you cast a Strange creature spell or a creature spell with mana value 5 or greater, you may return Unsuspecting Civilian from your graveyard to your hand.",
+            "flavor_text": "[i]\u201cI walk the streets and see the bustle of normal, everyday life. This is what I joined Starlight to protect, not to endanger.\u201d\n\u2014Green Door, double agent[/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Ricardo Lima",
             "notes": ""
         },
         {
@@ -1852,11 +2084,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Regression {2}{G}{G} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nWhen Lingering Resident enters the battlefield, you may put a land card from your hand onto the battlefield tapped.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Pasquale Scionti",
             "notes": ""
         },
         {
@@ -1868,11 +2102,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Whenever a land enters the battlefield under your control, put a +1/+1 counter on target creature you control.\nWhenever a creature you control with a counter on it dies, you gain 2 life.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Fabio Alencar",
             "notes": ""
         },
         {
@@ -1883,12 +2119,14 @@
             "number": 179,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "When Dubious Proof enters the battlefield, create a tapped Evidence token. [i](It\u2019s a Strange artifact with \u201c{T}: Add {C}. If it\u2019s not your turn, you can\u2019t spend this mana to cast spells.\u201d)[/i]\nCreatures you control enter the battlefield with an additional +1/+1 counter on them for each {V} spent to cast them. [i]({V} can be paid with one mana from a Strange source.)[/i]",
+            "rules_text": "When Dubious Proof enters the battlefield, create a tapped Evidence token. [i](It's a Strange artifact with \u201c{T}: Add {C}. If it's not your turn, you can't spend this mana to cast spells.\u201d)[/i]\nCreatures you control enter the battlefield with an additional +1/+1 counter on them for each {V} spent to cast them. [i]({V} can be paid with one mana from a Strange source.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Pulkit Singh",
             "notes": ""
         },
         {
@@ -1899,12 +2137,14 @@
             "number": 202,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "When Pulsating Pupa dies, if it wasn\u2019t a token, create a token that\u2019s a copy of target creature you control.",
+            "rules_text": "When Pulsating Pupa dies, if it wasn't a token, create a token that's a copy of target creature you control.",
+            "flavor_text": "[i]\u201cIf that's the larval stage, none of us need to see what's coming out.\u201d[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Fabio Alencar",
             "notes": ""
         },
         {
@@ -1916,11 +2156,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Creatures you control have trample.\n{X}{G}, Sacrifice New Brutalism: Target creature gets +X/+X and gains trample until end of turn. Activate only as a sorcery.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Raja Ghosh",
             "notes": ""
         },
         {
@@ -1932,11 +2174,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Return target card from your graveyard to your hand.\nDead drop {3}{G} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Gary Sanchez",
             "notes": ""
         },
         {
@@ -1944,15 +2188,17 @@
             "color": "BR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rogue",
-            "number": 232,
+            "number": 223,
             "color_identity": "BR",
             "cost": "{1}{B}{R}",
             "rules_text": "Whenever a nontoken creatures dies, Hopeless Fugitive deals 1 damage to each opponent.",
+            "flavor_text": "[i]\u201cDon't wait for me. Just remember me.\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -1960,15 +2206,17 @@
             "color": "WU",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Human Illusion",
-            "number": 237,
+            "number": 219,
             "color_identity": "WU",
             "cost": "{1}{W}{U}",
             "rules_text": "Whenever another artifact enters the battlefield under your control, surveil 1 and put a +1/+1 counter on Stalking Simulacrum. [i](To surveil 1, look at the top card of your library. You may put it into your graveyard.)[/i]",
+            "flavor_text": "[i]It can't be reasoned with. It can't be escaped.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -1976,15 +2224,17 @@
             "color": "UB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
-            "number": 225,
+            "number": 221,
             "color_identity": "UB",
             "cost": "{U}{B}",
             "rules_text": "Menace\nWhenever you surveil, put a +1/+1 counter on Deep Operative.",
+            "flavor_text": "[i]Far from home, far from safety, far from the harsh light of scrutiny.[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -1992,15 +2242,17 @@
             "color": "UG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scientist",
-            "number": 230,
+            "number": 238,
             "color_identity": "UG",
             "cost": "{G}{U}",
             "rules_text": "Creature spells you cast that are Strange or have mana value 5 or greater cost {1} less to cast.",
+            "flavor_text": "[i]\u201c21:15. No sign of life. Call it.\u201d\n\u2014Research notes[/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Marek Okon",
             "notes": ""
         },
         {
@@ -2008,15 +2260,17 @@
             "color": "RG",
             "rarity": "uncommon",
             "type": "Strange Creature \u2014 Human Citizen",
-            "number": 223,
+            "number": 225,
             "color_identity": "RG",
             "cost": "{R}{G}",
             "rules_text": "Whenever Cerebral Subject attacks, add one mana of any color.\n{1}{V}: Another target creature you control gets +2/+2 until end of turn. [i]({V} can be paid with one mana from a Strange source.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Andy Lunga",
             "notes": ""
         },
         {
@@ -2024,15 +2278,17 @@
             "color": "WG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
-            "number": 220,
+            "number": 227,
             "color_identity": "WG",
             "cost": "{1}{G}{W}",
             "rules_text": "Whenever a Citizen you control becomes the target of a spell or ability, put a +1/+1 counter on Asset Controller.",
+            "flavor_text": "[i]He sees civilians as little more than pieces in an ever-evolving chess game beyond their imagination.[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Nick Ramsay",
             "notes": ""
         },
         {
@@ -2040,15 +2296,17 @@
             "color": "WB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Detective",
-            "number": 224,
+            "number": 230,
             "color_identity": "WB",
             "cost": "{1}{W}{B}",
             "rules_text": "Lifelink\nWhenever you cast a noncreature spell, creatures you control get +1/+0 until end of turn.",
+            "flavor_text": "[i]He knows nothing of the workings of Project Starlight\u2014only that he is protecting something huge.[/i]",
             "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Wayne Leung Hou-wai",
             "notes": ""
         },
         {
@@ -2056,15 +2314,17 @@
             "color": "UR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scientist",
-            "number": 235,
+            "number": 232,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
             "rules_text": "Whenever you cast an instant or sorcery spell or a noncreature Strange spell, create a 1/1 blue Spirit creature token with flying.",
+            "flavor_text": "[i]He listens for the words between words, teasing out messages lost in broadcast static.[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alvaro Martin",
             "notes": ""
         },
         {
@@ -2072,15 +2332,17 @@
             "color": "BG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
-            "number": 236,
+            "number": 234,
             "color_identity": "BG",
             "cost": "{1}{B}{G}",
-            "rules_text": "Whenever you cast a creature for its regression cost, create a token that\u2019s a copy of it, then sacrifice that token.",
+            "rules_text": "Whenever you cast a creature for its regression cost, create a token that's a copy of it, then sacrifice that token.",
+            "flavor_text": "[i]\u201cThe key to protecting our world is to understand where its borders truly lie\u2014in this life or the next.\u201d[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Airi Pan",
             "notes": ""
         },
         {
@@ -2088,15 +2350,17 @@
             "color": "WR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Advisor",
-            "number": 234,
+            "number": 236,
             "color_identity": "WR",
             "cost": "{R}{W}",
-            "rules_text": "As long as it\u2019s your turn, Scornful Officer has first strike.\nPsyop costs you pay cost {1} less.",
+            "rules_text": "As long as it's your turn, Scornful Officer has first strike.\nPsyop costs you pay cost {1} less.",
+            "flavor_text": "[i]\u201cThe bureau is riddled, like a rotting apple, with worms who believe they're the only ones with all the facts.\u201d\n\u2014Green Door, double agent[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -2108,11 +2372,13 @@
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Sacrifice Surveillance Center: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+            "flavor_text": "[i]There are no places to hide on St. Cahand\u2014one can only hope their secrets go unnoticed, not unseen.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Daniel Dana",
             "notes": ""
         },
         {
@@ -2124,11 +2390,13 @@
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "{1}, {T}: Exile target card from a graveyard.\n{1}, {T}: Add one mana of any color.",
+            "flavor_text": "[i]\u201cTen thousand terminals linked to one vast network, sharing the sum of human knowledge? Impossible.\u201d\n\u2014Green Door, double agent[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Sahaar Chhabra",
             "notes": ""
         },
         {
@@ -2140,11 +2408,13 @@
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "When Interplanar Object enters the battlefield, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]\n{3}, {T}, Sacrifice Interplanar Object: Search your library or graveyard for a land card, reveal it, and put it into your hand. If you searched your library this way, shuffle.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Max Horbatiuk",
             "notes": ""
         },
         {
@@ -2156,11 +2426,13 @@
             "color_identity": "B",
             "cost": "",
             "rules_text": "Ominous Horizon enters the battlefield tapped.\n{T}: Add {B}.\n{2}, {T}: Target creature gets +1/+1 and gains deathtouch until end of turn. Activate only as a sorcery.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Enzo Minarro",
             "notes": ""
         },
         {
@@ -2172,11 +2444,13 @@
             "color_identity": "G",
             "cost": "",
             "rules_text": "Vertical Sprawl enters the battlefield tapped.\n{T}: Add {G}.\n{2}, {T}: Target creature gets +1/+1 and gains trample until end of turn. Activate only as a sorcery.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Enzo Minarro",
             "notes": ""
         },
         {
@@ -2188,11 +2462,13 @@
             "color_identity": "W",
             "cost": "",
             "rules_text": "Urban Expanse enters the battlefield tapped.\n{T}: Add {W}.\n{2}, {T}: Target creature gets +1/+1 and gains first strike until end of turn. Activate only as a sorcery.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Eno Minarro",
             "notes": ""
         },
         {
@@ -2204,11 +2480,13 @@
             "color_identity": "R",
             "cost": "",
             "rules_text": "Neon Lights enters the battlefield tapped.\n{T}: Add {R}.\n{2}, {T}: Target creature gets +1/+1 and gains menace until end of turn. Activate only as a sorcery.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Enzo Minarro",
             "notes": ""
         },
         {
@@ -2220,11 +2498,13 @@
             "color_identity": "U",
             "cost": "",
             "rules_text": "Idyllic Resort enters the battlefield tapped.\n{T}: Add {U}.\n{2}, {T}: Target creature gets +1/+1 and gains flying until end of turn. Activate only as a sorcery.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Eno Minarro",
             "notes": ""
         },
         {
@@ -2236,15 +2516,17 @@
             "color_identity": "U",
             "cost": "",
             "rules_text": "Flying",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "token",
             "set": "FBI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Stephen Arnold",
+            "notes": "!group token\n!sort 04"
         },
         {
-            "card_name": "Citizen",
+            "card_name": "Citizen A",
             "color": "WG",
             "rarity": "common",
             "type": "Token Creature \u2014 Citizen",
@@ -2252,12 +2534,14 @@
             "color_identity": "WG",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "token",
             "set": "FBI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Marianna Yakimova",
+            "notes": "!exportname Citizen A\n!group token\n!sort 07"
         },
         {
             "card_name": "Remote Viewing",
@@ -2268,11 +2552,13 @@
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "You may look at the top card of your library any time.\nOnce each turn, you may cast a noncreature spell from the top of your library.\nTap an untapped Citizen you control: Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Victor Cloux",
             "notes": ""
         },
         {
@@ -2283,13 +2569,15 @@
             "number": 9,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "{T}: Add {C}. If it\u2019s not your turn, you can\u2019t spend this mana to cast spells.",
+            "rules_text": "{T}: Add {C}. If it's not your turn, you can't spend this mana to cast spells.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "token",
             "set": "FBI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Sahaar Chhabra",
+            "notes": "!group token\n!sort 09"
         },
         {
             "card_name": "Regression",
@@ -2299,13 +2587,15 @@
             "number": 2,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "[i]This token can be used to represent a token that\u2019s a copy of a permanent[/i].",
+            "rules_text": "[i]This token can be used to represent a token that's a copy of a permanent[/i].",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "token",
             "set": "FBI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Daniel Zavadil",
+            "notes": "!group token\n!sort 02"
         },
         {
             "card_name": "Ego Death",
@@ -2315,16 +2605,18 @@
             "number": 56,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "When Ego Death enters the battlefield, look at target opponent\u2019s hand and choose a noncreature, nonland card from it. That card phases out and can\u2019t phase in for as long as you control Ego Death.",
+            "rules_text": "When Ego Death enters the battlefield, look at target opponent's hand and choose a noncreature, nonland card from it. That card phases out and can't phase in for as long as you control Ego Death.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Francine Bridge",
             "notes": ""
         },
         {
-            "card_name": "Citizen",
+            "card_name": "Citizen B",
             "color": "WG",
             "rarity": "common",
             "type": "Token Creature \u2014 Citizen",
@@ -2332,12 +2624,14 @@
             "color_identity": "WG",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "token",
             "set": "FBI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Alexander Borodin",
+            "notes": "!exportname Citizen B\n!group token\n!sort 08"
         },
         {
             "card_name": "Do Not Adjust Your Set",
@@ -2348,11 +2642,13 @@
             "color_identity": "B",
             "cost": "{3}{B}{B}{B}",
             "rules_text": "Target opponent may discard a card. You gain control of that player during their next turn. After that turn, that player takes an extra turn.\nExile Do Not Adjust Your Set.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -2360,15 +2656,17 @@
             "color": "WU",
             "rarity": "rare",
             "type": "Artifact \u2014 Vehicle",
-            "number": 238,
+            "number": 220,
             "color_identity": "WU",
             "cost": "{W}{U}",
             "rules_text": "Flying\nWhenever Stealth Craft attacks, target permanent you control gains hexproof and indestructible until your next turn.\nCrew 2 [i](Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Hangar B Productions",
             "notes": ""
         },
         {
@@ -2380,12 +2678,14 @@
             "color_identity": "C",
             "cost": "",
             "rules_text": "{1}, {T}: Target creature gets +1/+1 until end of turn. Activate only as a sorcery.",
+            "flavor_text": "[i]This reminder card can be used to mark a face-down card with psyop.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "token",
             "set": "FBI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Oscar Webb",
+            "notes": "!group token\n!sort 10"
         },
         {
             "card_name": "Entity X",
@@ -2396,27 +2696,31 @@
             "color_identity": "C",
             "cost": "{4}",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Whenever you cast a Strange spell, put a loyalty counter on Entity X and create a 1/1 blue Spirit creature token with flying.\n[-3]: Return target nonland card from your graveyard to your hand if it\u2019s Strange or has mana value 2 or less.\n[-7]: Until the end of your next turn, you may cast any number of spells you own from outside the game. [i](You still pay their costs.)[/i]",
+            "special_text": "Whenever you cast a Strange spell, put a loyalty counter on Entity X and create a 1/1 blue Spirit creature token with flying.\n[-3]: Return target nonland card from your graveyard to your hand if it's Strange or has mana value 2 or less.\n[-7]: Until the end of your next turn, you may cast any number of spells you own from outside the game. [i](You still pay their costs.)[/i]",
             "shape": "planeswalker",
             "set": "FBI",
             "loyalty": "4",
-            "notes": ""
+            "artist": "Chewy Pixels",
+            "notes": "!group clear"
         },
         {
             "card_name": "Green Door, Double Agent",
             "color": "UB",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Advisor",
-            "number": 231,
+            "number": 222,
             "color_identity": "UB",
             "cost": "{U}{B}",
             "rules_text": "Whenever you scry or surveil, you may reveal one of the cards you look at this way. If you do, until the end of your next turn, spells you cast that share a type with the revealed card cost {1} less to cast.",
+            "flavor_text": "[i]\u201cTrust no one.\u201d[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Faraz Shanyar",
             "notes": ""
         },
         {
@@ -2428,11 +2732,13 @@
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "Counter target spell. Create three tapped 1/1 green and white Citizen creature tokens and put a stun counter on each of them. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Insist",
             "notes": ""
         },
         {
@@ -2444,11 +2750,13 @@
             "color_identity": "W",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Miro Vesterinen",
             "notes": ""
         },
         {
@@ -2460,11 +2768,13 @@
             "color_identity": "U",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Nina Vidra",
             "notes": ""
         },
         {
@@ -2476,11 +2786,13 @@
             "color_identity": "B",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Joseph Nickson",
             "notes": ""
         },
         {
@@ -2492,11 +2804,13 @@
             "color_identity": "R",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Damian Stempniewski",
             "notes": ""
         },
         {
@@ -2508,11 +2822,13 @@
             "color_identity": "G",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Damian Stempniewski",
             "notes": ""
         },
         {
@@ -2523,12 +2839,14 @@
             "number": 8,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Breach Containment deals 4 damage to target tapped creature. If you\u2019ve cast another noncreature spell this turn, draw a card.",
+            "rules_text": "Breach Containment deals 4 damage to target tapped creature. If you've cast another noncreature spell this turn, draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Nick Williams",
             "notes": ""
         },
         {
@@ -2539,12 +2857,14 @@
             "number": 5,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Enchant creature\nEnchanted creature can\u2019t attack or block, and its activated abilities can\u2019t be activated.",
+            "rules_text": "Enchant creature\nEnchanted creature can't attack or block, and its activated abilities can't be activated.",
+            "flavor_text": "[i]Project Starlight agents have been known to disappear criminal suspects for their own research needs.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Jose Ramirez",
             "notes": "!tag reprint"
         },
         {
@@ -2556,11 +2876,13 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Put two stun counters on target tapped creature.\nDraw a card.",
+            "flavor_text": "[i]\u201cSince the Entity arrived, things have gotten a little ... stranger worldwide.\u201d\n\u2014Green Door, double agent[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Christian Bravery",
             "notes": ""
         },
         {
@@ -2572,11 +2894,13 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Untap target creature and remove it from combat. You gain life equal to its power.",
+            "flavor_text": "[i]Doubt cuts wounds deeper and longer-lasting than any blade.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "John Pacer",
             "notes": ""
         },
         {
@@ -2588,11 +2912,13 @@
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Equipped creature gets +1/+1 and has vigilance.\nEquip {W}",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Toros Kose",
             "notes": ""
         },
         {
@@ -2604,11 +2930,13 @@
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Flying\n{2}, {T}, Sacrifice Planar Probe: Draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Den Che",
             "notes": ""
         },
         {
@@ -2620,11 +2948,13 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Flash\nWhen Interception Squad enters the battlefield, you may untap target attacking creature and remove it from combat.",
+            "flavor_text": "[i]In and out with surgical precision.[/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Glynn Richards",
             "notes": ""
         },
         {
@@ -2636,11 +2966,13 @@
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "Flash\nWhen Vigilant Vamp enters the battlefield, another target Citizen you control gets +1/+2 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Clark Huggins",
             "notes": ""
         },
         {
@@ -2652,11 +2984,13 @@
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "Choose one \u2014\n\u2022 Counter target spell.\n\u2022 Tap target creature and put a stun counter on it. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Joseph Feely",
             "notes": ""
         },
         {
@@ -2668,11 +3002,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "This spell costs {1} less to cast if you control a Strange creature or a creature with mana value 5 or greater.\nCounter target spell unless its controller pays {3}.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Josh James",
             "notes": ""
         },
         {
@@ -2683,12 +3019,14 @@
             "number": 64,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Exile target creature you control, then return it to the battlefield under its owner\u2019s control.\nDead drop {1}{U} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "rules_text": "Exile target creature you control, then return it to the battlefield under its owner's control.\nDead drop {1}{U} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Lucas Uny",
             "notes": ""
         },
         {
@@ -2700,11 +3038,13 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Until end of turn, target creature has base power and toughness 4/4 and is an artifact in addition to its other types.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Mike Fudge",
             "notes": ""
         },
         {
@@ -2715,12 +3055,14 @@
             "number": 47,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Flash\nWhen Ambush Agent enters the battlefield, target creature you don\u2019t control gets -2/-0 until end of turn.",
+            "rules_text": "Flash\nWhen Ambush Agent enters the battlefield, target creature you don't control gets -2/-0 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Charlie Griak",
             "notes": ""
         },
         {
@@ -2732,11 +3074,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Create two 1/1 blue Spirit creature tokens with flying.",
+            "flavor_text": "[i]Filtering out the incessant noise of the living, the investigator sought to listen to the subtle whispering of those who refuse to let their voices die.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Zak Harrow",
             "notes": ""
         },
         {
@@ -2747,12 +3091,14 @@
             "number": 62,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
-            "rules_text": "Mournful Outcast can\u2019t be blocked.\nWhen Mournful Outcast enters the battlefield, return up to one other target creature to its owner\u2019s hand.",
+            "rules_text": "Mournful Outcast can't be blocked.\nWhen Mournful Outcast enters the battlefield, return up to one other target creature to its owner's hand.",
+            "flavor_text": "[i][/i]",
             "pt": "2/5",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Anna Lem",
             "notes": ""
         },
         {
@@ -2764,11 +3110,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Target creature you control deals damage equal to its power to any nonplayer target.",
+            "flavor_text": "[i]Operatives subjected to the anechoic chamber for too long reported heightened aggression and auditory hallucinations.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Damian Stempniewski",
             "notes": ""
         },
         {
@@ -2779,12 +3127,14 @@
             "number": 210,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Target creature gets +2/+2 until end of turn. Then if it\u2019s your turn, draw a card.",
+            "rules_text": "Target creature gets +2/+2 until end of turn. Then if it's your turn, draw a card.",
+            "flavor_text": "[i]\u201cFeel like a whole new man\u2014or your money back!\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Christian Bravery",
             "notes": ""
         },
         {
@@ -2796,11 +3146,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Destroy target artifact creature or creature with flying.",
+            "flavor_text": "[i]\u201c[/i]Believe[i] you? Bob, if you breathe a word of this, they won't even [/i]recognize[i] you.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alvaro Martin",
             "notes": ""
         },
         {
@@ -2812,11 +3164,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Equipped creature has trample and \u201cWhenever another creature enters the battlefield under you control, this creature gets +1/+1 until end of turn.\u201d\nEquip {2}",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Insist",
             "notes": ""
         },
         {
@@ -2828,11 +3182,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Target creature gets +1/+3 and gains hexproof and reach until end of turn. Untap it.",
+            "flavor_text": "[i]\u201cProbably just another bird near the array again. A really big bird. With a payload.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alice Pepin-Desjardins",
             "notes": ""
         },
         {
@@ -2844,11 +3200,13 @@
             "color_identity": "G",
             "cost": "{4}{G}{G}",
             "rules_text": "This spell costs {1} less for each other creature you control.\nHaste",
+            "flavor_text": "[i]With detectives frequently busy investigating the strange and paranormal, opportunities abound for less unusual crime.[/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Miguel Nogueira",
             "notes": ""
         },
         {
@@ -2860,11 +3218,13 @@
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "Whenever another creature enters the battlefield under your control, Sceptical Observer gets +1/+1 until end of turn.",
+            "flavor_text": "[i]\u201cWhat's the matter, doc? You look like you've seen a ghost.\u201d[/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Yanchong Lim",
             "notes": ""
         },
         {
@@ -2876,11 +3236,13 @@
             "color_identity": "G",
             "cost": "{4}{G}",
             "rules_text": "{5}{G}: Postmortem Sighting gets +3/+2 and gains trample until end of turn.",
+            "flavor_text": "[i]The anger of the vengeful persists long after their grievances.[/i]",
             "pt": "4/5",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Christian Bravery",
             "notes": ""
         },
         {
@@ -2891,12 +3253,14 @@
             "number": 110,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Target opponent reveals their hand. You may choose a nonland card from it. If you do, that player discards that card. If you don\u2019t, that player loses 3 life.",
+            "rules_text": "Target opponent reveals their hand. You may choose a nonland card from it. If you do, that player discards that card. If you don't, that player loses 3 life.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Eder Bilbao",
             "notes": ""
         },
         {
@@ -2908,11 +3272,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Until end of turn, target creature gets +2/+1 and gains deathtouch and \u201cWhenever a creature dies, you gain 1 life.\u201d",
+            "flavor_text": "[i]\u201c...to shreds, you say?\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Christian Bravery",
             "notes": ""
         },
         {
@@ -2923,12 +3289,14 @@
             "number": 119,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Enchant creature\nEnchanted creature gets -2/-2.\nAt the beginning of the upkeep of enchanted creature\u2019s controller, that player loses 2 life.",
+            "rules_text": "Enchant creature\nEnchanted creature gets -2/-2.\nAt the beginning of the upkeep of enchanted creature's controller, that player loses 2 life.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leo Avero",
             "notes": "!tag reprint"
         },
         {
@@ -2940,11 +3308,13 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Until end of turn, target creature gets -2/-2 and gains \u201cAt the beginning of the end step, sacrifice this creature unless you discard a card.\u201d",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Ville Assinen",
             "notes": ""
         },
         {
@@ -2956,11 +3326,13 @@
             "color_identity": "B",
             "cost": "{3}{B}{B}",
             "rules_text": "Exile target creature. Its controller loses 2 life. Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]",
+            "flavor_text": "[i]\u201cI didn't see nothing.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Marcin Jakubowski",
             "notes": ""
         },
         {
@@ -2972,11 +3344,13 @@
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "Regression {2}{B}{B} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nWhenever Visitation of Grief enters the battlefield, target opponent discards a card.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alvaro Martin",
             "notes": ""
         },
         {
@@ -2987,12 +3361,14 @@
             "number": 123,
             "color_identity": "B",
             "cost": "{3}{B}",
-            "rules_text": "Hexproof from Strange [i](This creature can\u2019t be the target of Strange spells or abilities your opponents control.)[/i]",
+            "rules_text": "Hexproof from Strange [i](This creature can't be the target of Strange spells or abilities your opponents control.)[/i]",
+            "flavor_text": "[i]He knows they are listening. He just doesn't know who they are.[/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Oliwia Koz\u0142owska",
             "notes": ""
         },
         {
@@ -3004,11 +3380,13 @@
             "color_identity": "B",
             "cost": "{4}{B}",
             "rules_text": "Create two 2/2 black Detective creature tokens.\nDead drop {2}{B}{B} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "John Pacer",
             "notes": ""
         },
         {
@@ -3019,12 +3397,14 @@
             "number": 152,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Liminal Bolt deals 3 damage to target creature. When that creature dies this turn, add {R}{R}. Until end of turn, you don\u2019t lose this mana as steps and phases end.",
+            "rules_text": "Liminal Bolt deals 3 damage to target creature. When that creature dies this turn, add {R}{R}. Until end of turn, you don't lose this mana as steps and phases end.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Agredo",
             "notes": ""
         },
         {
@@ -3035,12 +3415,14 @@
             "number": 135,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "Baffling Incident deals 1 damage to each creature you don\u2019t control. Creatures you control get +2/+0 until end of turn.",
+            "rules_text": "Baffling Incident deals 1 damage to each creature you don't control. Creatures you control get +2/+0 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Oleg Kapustin",
             "notes": ""
         },
         {
@@ -3052,11 +3434,13 @@
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Target creature gets +1/+0 and gains first strike until end of turn. Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
+            "flavor_text": "[i]Every creaking step took the agent closer to the thing she dreaded the most\u2014the answer.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Zak Harrow",
             "notes": ""
         },
         {
@@ -3067,12 +3451,14 @@
             "number": 144,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "Creatures you control gain trample until end of turn.\nPsyop {R} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Creatures you control gain trample until end of turn.\nPsyop {R} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Nina Vidra",
             "notes": ""
         },
         {
@@ -3084,11 +3470,13 @@
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "Regression {3} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nDigital Entity enters the battlefield with a +1/+1 counter on it.",
+            "flavor_text": "[i][/i]",
             "pt": "0/0",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Aku \u60aa",
             "notes": ""
         },
         {
@@ -3100,11 +3488,13 @@
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "At the beginning of combat on your turn, Domestic Automaton gains your choice of vigilance, menace, or first strike until end of turn.",
+            "flavor_text": "[i]\u201cI think there's a market for it. Just don't advertise exactly how it slices and dices.\u201d[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Flavio Greco Paglia",
             "notes": ""
         },
         {
@@ -3116,11 +3506,13 @@
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Biological Experiment gets +1/+1 for each other creature you control named Biological Experiment and each card in your graveyard named Biological Experiment.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Adrian Marc",
             "notes": ""
         },
         {
@@ -3131,12 +3523,14 @@
             "number": 139,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "Reach\nWhen Containment Engineer enters the battlefield, create a tapped Evidence token. [i](It\u2019s a Strange artifact with \u201c{T}: Add {C}. If it\u2019s not your turn, you can\u2019t spend this mana to cast spells.\u201d)[/i]\nWhen Containment Engineer dies, sacrifice an artifact.",
+            "rules_text": "Reach\nWhen Containment Engineer enters the battlefield, create a tapped Evidence token. [i](It's a Strange artifact with \u201c{T}: Add {C}. If it's not your turn, you can't spend this mana to cast spells.\u201d)[/i]\nWhen Containment Engineer dies, sacrifice an artifact.",
+            "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Marcin Jakubowski",
             "notes": ""
         },
         {
@@ -3148,11 +3542,13 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "As an additional cost to cast this spell, pay {2} or {V}. [i]({V} can be paid with one mana from a Strange source.)[/i]\nMenace",
+            "flavor_text": "[i][/i]",
             "pt": "4/5",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexandr Serebryakov",
             "notes": ""
         },
         {
@@ -3163,12 +3559,14 @@
             "number": 167,
             "color_identity": "R",
             "cost": "{4}{R}",
-            "rules_text": "Menace\nWhenever Shadow on the Threshold attacks, it gets +X/+0 until end of turn, where X is the number of spells you\u2019ve cast this turn.",
+            "rules_text": "Menace\nWhenever Shadow on the Threshold attacks, it gets +X/+0 until end of turn, where X is the number of spells you've cast this turn.",
+            "flavor_text": "[i][/i]",
             "pt": "4/5",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Christian Bravery",
             "notes": ""
         },
         {
@@ -3176,15 +3574,17 @@
             "color": "BG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Bard",
-            "number": 219,
+            "number": 233,
             "color_identity": "BG",
             "cost": "{1}{B}{G}",
             "rules_text": "If a Spirit entering the battlefield or dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+            "flavor_text": "[i]\u201cWelcome, fellow travelers, to another evening of Ghost to Ghost FM.\u201d[/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Flavio Greco Paglia",
             "notes": ""
         },
         {
@@ -3192,15 +3592,17 @@
             "color": "WB",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 221,
+            "number": 229,
             "color_identity": "WB",
             "cost": "{2}{W}{B}",
-            "rules_text": "As Blacklist enters the battlefield, choose a nonland card name, then destroy all creatures with the chosen name.\nSpells with the chosen name can\u2019t be cast.",
+            "rules_text": "As Blacklist enters the battlefield, choose a nonland card name, then destroy all creatures with the chosen name.\nSpells with the chosen name can't be cast.",
+            "flavor_text": "[i]Having leaked the truth about Project Starlight to the public, Green Door knew her days were numbered.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Grzegorz Przybys",
             "notes": ""
         },
         {
@@ -3212,12 +3614,14 @@
             "color_identity": "B",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "token",
             "set": "FBI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Adam Lane",
+            "notes": "!group token\n!sort 06"
         },
         {
             "card_name": "Temporal Voyager",
@@ -3228,11 +3632,13 @@
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "Vigilance\nWhenever an opponent casts a spell with mana value 4 or greater, creatures you control gain indestructible until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Ryan Woodhouse",
             "notes": ""
         },
         {
@@ -3244,11 +3650,13 @@
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Destroy all creatures.\nDead drop {3}{W}{W} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Julien Lepelletier",
             "notes": ""
         },
         {
@@ -3259,12 +3667,14 @@
             "number": 247,
             "color_identity": "C",
             "cost": "{3}",
-            "rules_text": "{4}, {T}: Exile target nonland, nontoken permanent. Its controller creates an X/X colorless Horror creature token, where X is that permanent\u2019s mana value. Activate only as a sorcery.",
+            "rules_text": "{4}, {T}: Exile target nonland, nontoken permanent. Its controller creates an X/X colorless Horror creature token, where X is that permanent's mana value. Activate only as a sorcery.",
+            "flavor_text": "[i]\u201cWhat went through was never the same as what came back out.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Dudar",
             "notes": ""
         },
         {
@@ -3276,12 +3686,14 @@
             "color_identity": "C",
             "cost": "",
             "rules_text": "",
+            "flavor_text": "[i][/i]",
             "pt": "*/*",
             "special_text": "",
             "shape": "token",
             "set": "FBI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Ninja Jo",
+            "notes": "!group token\n!sort 01"
         },
         {
             "card_name": "Chief of Staff",
@@ -3292,11 +3704,13 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "{T}, Tap three untapped Citizens you control: You may put a creature card from your hand onto the battlefield.",
+            "flavor_text": "[i]\u201cI'm afraid the day we prepared for is here. Yes. Deploy it.\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Julia Chernego",
             "notes": ""
         },
         {
@@ -3308,11 +3722,13 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Regression {1}{B} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nWailing Grief enters the battlefield with a +1/+1 counter on it for each creature that died this turn.",
+            "flavor_text": "[i][/i]",
             "pt": "0/0",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Stephen Lindsay",
             "notes": ""
         },
         {
@@ -3323,12 +3739,14 @@
             "number": 12,
             "color_identity": "W",
             "cost": "{W}{W}",
-            "rules_text": "Exile target creature. Its controller gains life equal to its power.\nPsyop {1}{W} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Exile target creature. Its controller gains life equal to its power.\nPsyop {1}{W} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -3339,12 +3757,14 @@
             "number": 51,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "Return all creatures to their owners\u2019 hands.\nPsyop {3}{U} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Return all creatures to their owners' hands.\nPsyop {3}{U} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -3356,11 +3776,13 @@
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "You draw three cards and you lose 3 life.\nDead drop {1}{B}{B} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Alexander Mandradjiev",
             "notes": ""
         },
         {
@@ -3372,11 +3794,13 @@
             "color_identity": "R",
             "cost": "{X}{R}{R}",
             "rules_text": "Causality Burst deals X damage damage divided as you choose among up to two targets. If at least {V}{V}{V} was spent to cast this spell, Causality Burst deals X damage to each of those targets instead. [i]({V} can be paid with one mana from a Strange source.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leonardo Calamati",
             "notes": ""
         },
         {
@@ -3387,12 +3811,14 @@
             "number": 192,
             "color_identity": "G",
             "cost": "{G}",
-            "rules_text": "Regression {2}{G}{G} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nWhen Memories of Violence enters the battlefield, if it\u2019s a token, put four +1/+1 counters on it.",
+            "rules_text": "Regression {2}{G}{G} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nWhen Memories of Violence enters the battlefield, if it's a token, put four +1/+1 counters on it.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Simon Grefback",
             "notes": ""
         },
         {
@@ -3404,11 +3830,13 @@
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Flying, vigilance\nWhenever Rescue Carrier enters the battlefield or attacks, return up to one nonland permanent card with mana value 3 or less from your graveyard to your hand.",
+            "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Hendrik Gericke",
             "notes": ""
         },
         {
@@ -3419,12 +3847,14 @@
             "number": 72,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "Flying\nWhenever you surveil, draw a card and exile the top five cards of each opponent\u2019s library.",
+            "rules_text": "Flying\nWhenever you surveil, draw a card and exile the top five cards of each opponent's library.",
+            "flavor_text": "[i]Although primarily intended for reconnaissance, they are capable of precision strikes when needed.[/i]",
             "pt": "4/5",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Vladimir Matyukhin",
             "notes": ""
         },
         {
@@ -3435,12 +3865,14 @@
             "number": 104,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "Destroy target creature or planeswalker.\nPsyop {1}{B} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Destroy target creature or planeswalker.\nPsyop {1}{B} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -3451,12 +3883,14 @@
             "number": 173,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
-            "rules_text": "Wavefront Radiation deals 4 damage to any target.\nPsyop {R}{R} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Wavefront Radiation deals 4 damage to any target.\nPsyop {R}{R} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -3467,12 +3901,14 @@
             "number": 208,
             "color_identity": "G",
             "cost": "{X}{G}{G}",
-            "rules_text": "Search your library for a green creature card with mana value X or less, put it onto the battlefield, then shuffle.\nPsyop {X}{G} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Search your library for a green creature card with mana value X or less, put it onto the battlefield, then shuffle.\nPsyop {X}{G} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leif Heanzo",
             "notes": ""
         },
         {
@@ -3484,11 +3920,13 @@
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "{W}: Bureau Recruit becomes a Human Detective with base power and toughness 2/2.\n{W}{W}: If Bureau Recruit is a Detective, put a +1/+1 counter on it and it becomes a Human Advisor.\n{W}{W}{W}: If Bureau Recruit is an Advisor, whenever it deals combat damage to an opponent this turn, exile target creature that player controls until Bureau Recruit leaves the battlefield.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Max Bokhan",
             "notes": ""
         },
         {
@@ -3500,11 +3938,13 @@
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "Look at the top seven cards of your library. Put two of them into your hand and the rest on the bottom of your library in a random order.\nDead drop {4}{U}{U} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Nazirull Paijo",
             "notes": ""
         },
         {
@@ -3516,11 +3956,13 @@
             "color_identity": "B",
             "cost": "{1}{B}{B}",
             "rules_text": "All creatures get -2/-2 until end of turn.\nDead drop {2}{B}{B} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "John Pacer",
             "notes": ""
         },
         {
@@ -3531,12 +3973,14 @@
             "number": 155,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Draw a card for each instant and sorcery spell you\u2019ve cast this turn.",
+            "rules_text": "Draw a card for each instant and sorcery spell you've cast this turn.",
+            "flavor_text": "[i]Each volunteer that tested the Starlight Portal leapt blindly into eternity. Most never returned; those that did were changed beyond measure.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Anthony Martin",
             "notes": ""
         },
         {
@@ -3548,11 +3992,13 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Double the power and toughness of each creature you control until end of turn.\nDead drop {1}{G} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Khairizal Rahmat",
             "notes": ""
         },
         {
@@ -3560,15 +4006,17 @@
             "color": "UG",
             "rarity": "rare",
             "type": "Instant",
-            "number": 227,
+            "number": 237,
             "color_identity": "UG",
             "cost": "{2}{G}{U}{U}",
             "rules_text": "Counter target spell. Its controller reveals cards from the top of their library until they reveal a nonland permanent card. That player puts all other cards revealed this way into their graveyard, then you put the permanent card onto the battlefield under your control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Anthony Martin",
             "notes": ""
         },
         {
@@ -3580,11 +4028,13 @@
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Artifacts you control have \u201c{2}, {T}, Sacrifice this artifact: Draw a card.\u201d",
+            "flavor_text": "[i]Through backdoor deals, double agents, and sheer brute force, little happens on St. Cahand without the agents of Project Starlight knowing.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Blacksteinn",
             "notes": ""
         },
         {
@@ -3595,12 +4045,14 @@
             "number": 243,
             "color_identity": "C",
             "cost": "{4}",
-            "rules_text": "Flying, haste\nPsyop {3} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Flying, haste\nPsyop {3} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Daniele Gay",
             "notes": ""
         },
         {
@@ -3608,15 +4060,17 @@
             "color": "WR",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 229,
+            "number": 235,
             "color_identity": "WR",
             "cost": "{2}{R}{W}",
-            "rules_text": "Untap all nonland permanents you control. After this main phase, there is an additional combat phase followed by an additional main phase.\nPsyop {1}{R}{W} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Untap all nonland permanents you control. After this main phase, there is an additional combat phase followed by an additional main phase.\nPsyop {1}{R}{W} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "James Maw",
             "notes": ""
         },
         {
@@ -3624,15 +4078,17 @@
             "color": "UR",
             "rarity": "rare",
             "type": "Strange Enchantment",
-            "number": 222,
+            "number": 231,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
-            "rules_text": "When Cerebral Examination enters the battlefield, exile the top card of each player\u2019s library and a card at random from each player\u2019s graveyard.\nOnce during each of your turns, you may cast a spell from among the cards exiled with Cerebral Examination, and mana of any type can be spent to cast it.",
+            "rules_text": "When Cerebral Examination enters the battlefield, exile the top card of each player's library and a card at random from each player's graveyard.\nOnce during each of your turns, you may cast a spell from among the cards exiled with Cerebral Examination, and mana of any type can be spent to cast it.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Nazirull Paijo",
             "notes": ""
         },
         {
@@ -3640,15 +4096,17 @@
             "color": "BR",
             "rarity": "rare",
             "type": "Artifact",
-            "number": 239,
+            "number": 224,
             "color_identity": "BR",
             "cost": "{B}{R}",
             "rules_text": "Whenever a creature dies, put a volt counter on Unstable Core. \n{T}, Sacrifice Unstable Core: Destroy all nonland permanents with mana value equal to the number of volt counters on Unstable Core.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Unai Mendez",
             "notes": ""
         },
         {
@@ -3656,15 +4114,17 @@
             "color": "WG",
             "rarity": "rare",
             "type": "Strange Enchantment",
-            "number": 233,
+            "number": 228,
             "color_identity": "WG",
             "cost": "{1}{G}{W}",
             "rules_text": "When Multilocation enters the battlefield, create a 1/1 green and white Citizen creature token.\nCreature tokens you control get +1/+1 and have vigilance.",
+            "flavor_text": "[i]\u201cA pleasure to meet me.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Anthony Martin",
             "notes": ""
         },
         {
@@ -3675,12 +4135,14 @@
             "number": 250,
             "color_identity": "BR",
             "cost": "",
-            "rules_text": "Bureau of Discord enters the battlefield tapped.\n{T}: Add {B} or {R}.\n{B}{R}: Bureau of Discord becomes a 2/1 black and red Spirit creature with menace until end of turn. It\u2019s still a land.\nWhenever Bureau of Discord attacks, you may discard a card. If you do, draw a card.",
+            "rules_text": "Bureau of Discord enters the battlefield tapped.\n{T}: Add {B} or {R}.\n{B}{R}: Bureau of Discord becomes a 2/1 black and red Spirit creature with menace until end of turn. It's still a land.\nWhenever Bureau of Discord attacks, you may discard a card. If you do, draw a card.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Raja Ghosh",
             "notes": ""
         },
         {
@@ -3692,11 +4154,13 @@
             "color_identity": "R",
             "cost": "{3}{R}{R}",
             "rules_text": "Flying, haste\nPayload Harrier enters the battlefield with two +1/+1 counters on it.\n{1}{R}, Remove a counter from Payload Harrier: It deals 2 damage to any target.",
+            "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Hendrik Aviation Art",
             "notes": ""
         },
         {
@@ -3708,11 +4172,13 @@
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "Vigilance\n{3}: Put a +1/+1 counter on Hyperbaric Subject. It gains hexproof until end of turn.",
+            "flavor_text": "[i]Trained through unspeakable means for unknowable purposes.[/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Tolga Yahya",
             "notes": ""
         },
         {
@@ -3724,11 +4190,13 @@
             "color_identity": "B",
             "cost": "{3}{B}{B}",
             "rules_text": "When Stormsea Mobilizer enters the battlefield, you lose 3 life and you create three 1/1 black Construct artifact creature tokens with flying.\n{1}{B}, Sacrifice a creature: Draw a card. You gain 1 life.",
+            "flavor_text": "[i][/i]",
             "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Julien Lepelletier",
             "notes": ""
         },
         {
@@ -3740,12 +4208,14 @@
             "color_identity": "B",
             "cost": "",
             "rules_text": "Flying",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "token",
             "set": "FBI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Vassilios Bayiokos",
+            "notes": "!group token\n!sort 05"
         },
         {
             "card_name": "Thoughtcrime",
@@ -3755,12 +4225,14 @@
             "number": 44,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "When Thoughtcrime enters the battlefield, search target player\u2019s hand and/or library for up to four nonbasic cards that share a name and exile them until Thoughtcrime leaves the battlefield. Then if you searched that player\u2019s library this way, that player shuffles. [i](When this leaves the battlefield, shuffle the exiled cards into their owner\u2019s library.)[/i]",
+            "rules_text": "When Thoughtcrime enters the battlefield, search target player's hand and/or library for up to four nonbasic cards that share a name and exile them until Thoughtcrime leaves the battlefield. Then if you searched that player's library this way, that player shuffles. [i](When this leaves the battlefield, shuffle the exiled cards into their owner's library.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Stefano",
             "notes": ""
         },
         {
@@ -3772,11 +4244,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Creatures your opponents control have base power and toughness 0/1 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Evgeny Rodygin",
             "notes": "!tag reprint"
         },
         {
@@ -3787,12 +4261,14 @@
             "number": 126,
             "color_identity": "B",
             "cost": "{1}{B}{B}{B}",
-            "rules_text": "Regression {3}{B}{B} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nFlying\nWhen Vengeful Stalker dies, destroy target creature you don\u2019t control.",
+            "rules_text": "Regression {3}{B}{B} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nFlying\nWhen Vengeful Stalker dies, destroy target creature you don't control.",
+            "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Pasquale Scionti",
             "notes": ""
         },
         {
@@ -3804,11 +4280,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Spells you cast that target Unwitting Patsy cost {1} less to cast and can be cast as though they had flash.\nAbilities you activate that target Unwitting Patsy cost {1} less to activate and can be activated at any time you could cast an instant.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Nazirull Paijo",
             "notes": ""
         },
         {
@@ -3819,12 +4297,14 @@
             "number": 182,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "{T}: Add one mana of any color.\n{V}{V}: Create a token that\u2019s a copy of Engineered Overseer. [i]({V} can be paid with one mana from a Strange source.)[/i]",
+            "rules_text": "{T}: Add one mana of any color.\n{V}{V}: Create a token that's a copy of Engineered Overseer. [i]({V} can be paid with one mana from a Strange source.)[/i]",
+            "flavor_text": "[i]\u201cHello, me. It's me again.\u201d[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Anthony Martin",
             "notes": ""
         },
         {
@@ -3835,12 +4315,14 @@
             "number": 21,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "As long as it\u2019s not your turn, Little Boy Lost isn\u2019t a creature, and it has \u201c{W}, {T}: Target creature you control gains hexproof from the color of your choice until end of turn.\u201d",
+            "rules_text": "As long as it's not your turn, Little Boy Lost isn't a creature, and it has \u201c{W}, {T}: Target creature you control gains hexproof from the color of your choice until end of turn.\u201d",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Lesle Kieu",
             "notes": ""
         },
         {
@@ -3852,11 +4334,13 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "At the beginning of your upkeep, exile the top card of your library.\nDuring any turn in which you have attacked with two more more creatures, you may play cards exiled with Air of Suspicion.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Kyle Enoch",
             "notes": ""
         },
         {
@@ -3867,12 +4351,14 @@
             "number": 38,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
-            "rules_text": "Look at the top seven cards of your library. Put any number of creatures cards from among them with total mana value X or less onto the battlefield, where X is the total mana value of permanents that entered the battlefield under opponents\u2019 control this turn. Put the rest on the bottom of your library in a random order.",
+            "rules_text": "Look at the top seven cards of your library. Put any number of creatures cards from among them with total mana value X or less onto the battlefield, where X is the total mana value of permanents that entered the battlefield under opponents' control this turn. Put the rest on the bottom of your library in a random order.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Roman Lutsenko",
             "notes": ""
         },
         {
@@ -3883,12 +4369,14 @@
             "number": 86,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "Flash\nWhen Unidentified Operative enters the battlefield, counter target spell. If that spell is countered this way, put it into its owner\u2019s hand instead of into that player\u2019s graveyard.",
+            "rules_text": "Flash\nWhen Unidentified Operative enters the battlefield, counter target spell. If that spell is countered this way, put it into its owner's hand instead of into that player's graveyard.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Piotr Pest Piglas",
             "notes": ""
         },
         {
@@ -3900,11 +4388,13 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Face-down permanents you control have \u201c{R}, {T}: This permanent deals 1 damage to target opponent.\u201d",
+            "flavor_text": "[i]Few see the pen that writes history, but many are those who feel its impact.[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Col Price",
             "notes": ""
         },
         {
@@ -3915,12 +4405,14 @@
             "number": 252,
             "color_identity": "WU",
             "cost": "",
-            "rules_text": "Bureau of Entropy enters the battlefield tapped.\n{T}: Add {W} or {U}.\n{1}{W}{U}: Bureau of Entropy becomes a 2/2 white and blue Spirit creature until end of turn. It\u2019s still a land.\nWhenever Bureau of Entropy attacks, target creature you control gains flying until end of turn.",
+            "rules_text": "Bureau of Entropy enters the battlefield tapped.\n{T}: Add {W} or {U}.\n{1}{W}{U}: Bureau of Entropy becomes a 2/2 white and blue Spirit creature until end of turn. It's still a land.\nWhenever Bureau of Entropy attacks, target creature you control gains flying until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Raja Ghosh",
             "notes": ""
         },
         {
@@ -3932,11 +4424,13 @@
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "At the beginning of your upkeep, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]\nSorcery cards in your graveyard have dead drop. The dead drop cost is equal to their mana cost. [i](You may cast a card your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Vlad Frankiv",
             "notes": ""
         },
         {
@@ -3947,12 +4441,14 @@
             "number": 125,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "Whenever a creature dies, exile it.\nUnmarked Van\u2019s power and toughness are each equal to twice the number of cards exiled with it.\nCrew 2 [i](Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]",
+            "rules_text": "Whenever a creature dies, exile it.\nUnmarked Van's power and toughness are each equal to twice the number of cards exiled with it.\nCrew 2 [i](Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "*/*",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Max Bokhan",
             "notes": ""
         },
         {
@@ -3964,11 +4460,13 @@
             "color_identity": "R",
             "cost": "{1}{R}{R}",
             "rules_text": "Night Ablaze deals 3 damage to each nonplayer target.\nDead drop {3}{R} [i](You may cast this from your graveyard for its dead drop cost if an opponent has lost life this turn. Then exile it.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Joseph Feely",
             "notes": ""
         },
         {
@@ -3980,11 +4478,13 @@
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Whenever a land enters the battlefield, you may pay {G}. If you do, Subterranean Terraforming becomes a tapped copy of that land.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Edit Ballai",
             "notes": ""
         },
         {
@@ -3995,13 +4495,15 @@
             "number": 3,
             "color_identity": "C",
             "cost": "{5}",
-            "rules_text": "Until your next turn, your life total can\u2019t change and you gain protection from everything. [i](You can\u2019t pay life to pay costs, or be damaged, targeted, or enchanted by anything.)[/i]\nExile Reality Lacuna.",
+            "rules_text": "Until your next turn, your life total can't change and you gain protection from everything. [i](You can't pay life to pay costs, or be damaged, targeted, or enchanted by anything.)[/i]\nExile Reality Lacuna.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Leonardo Calamati",
+            "notes": "!group clear"
         },
         {
             "card_name": "Potential Vista",
@@ -4012,11 +4514,13 @@
             "color_identity": "C",
             "cost": "",
             "rules_text": "You may play Potential Vista from exile. If you do, it enters the battlefield tapped.\n{T}: Add {C}.",
+            "flavor_text": "[i]It could be anywhere\u2014anywhere but here.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Enzo Minarro",
             "notes": ""
         },
         {
@@ -4028,11 +4532,13 @@
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{X}, {T}: Starlight Contingency becomes a copy of target artifact card in a graveyard with mana value X.",
+            "flavor_text": "[i]A planned community, isolated afresh from a world that no longer finds itself alone.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leonardo Calamati",
             "notes": ""
         },
         {
@@ -4044,11 +4550,13 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "{1}, {T}: Draw a card, then exile a card from your hand.\nAt the beginning of your upkeep, if there are three or more mana values among cards exiled with Entangled Core, you may play cards exiled with Entangled Core this turn. When you cast a spell this way, pay life equal to its mana value rather than paying its mana cost.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Eddie Del Rio",
             "notes": ""
         },
         {
@@ -4059,12 +4567,14 @@
             "number": 25,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Triggered abilities don\u2019t trigger.",
+            "rules_text": "Triggered abilities don't trigger.",
+            "flavor_text": "[i]\u201cBefore the Entity arrived, we thought we knew what \u2018normal' was. But now the very air seems alive with the supernatural.\u201d\n\u2014The Director[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leonardo Calamati",
             "notes": ""
         },
         {
@@ -4076,11 +4586,13 @@
             "color_identity": "C",
             "cost": "",
             "rules_text": "When Epoch Horizon enters the battlefield, exile up to five cards from your graveyard.\n{T}: Add one mana of a color among cards exiled with Epoch Horizon.",
+            "flavor_text": "[i]In times of constant change, when all that is certain is that nothing is for certain, the solidity of the past is a distant comfort.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Liam Tart",
             "notes": ""
         },
         {
@@ -4092,11 +4604,13 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Whenever another creature dies, put a +1/+1 counter on Dissent Silencer. When you do, it deals damage equal to its power to target opponent.",
+            "flavor_text": "[i]\u201cSee to it that word doesn't spread.\u201d\n\u2014The Director[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Helio Frazao",
             "notes": ""
         },
         {
@@ -4108,11 +4622,13 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Each creature spell you cast has regression. The regression cost is equal to its mana cost reduced by {1}. [i](You may choose to cast that spell for its regression cost. If you do, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Elena Alt",
             "notes": ""
         },
         {
@@ -4123,12 +4639,14 @@
             "number": 55,
             "color_identity": "U",
             "cost": "{5}{U}{U}",
-            "rules_text": "Search target opponent\u2019s library for any number of instant and sorcery cards with total mana value 7 or less and exile them. Until end of turn, you may cast those cards without paying their mana costs.",
+            "rules_text": "Search target opponent's library for any number of instant and sorcery cards with total mana value 7 or less and exile them. Until end of turn, you may cast those cards without paying their mana costs.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Saim Mulla",
             "notes": ""
         },
         {
@@ -4139,12 +4657,14 @@
             "number": 112,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
-            "rules_text": "Regression {1}{B}{B} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nMenace\nYou can\u2019t win the game and your opponents can\u2019t lose the game.",
+            "rules_text": "Regression {1}{B}{B} [i](If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)[/i]\nMenace\nYou can't win the game and your opponents can't lose the game.",
+            "flavor_text": "[i][/i]",
             "pt": "6/6",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Victor Cloux",
             "notes": ""
         },
         {
@@ -4156,11 +4676,13 @@
             "color_identity": "G",
             "cost": "{2}{G}{G}{G}",
             "rules_text": "Exile all creatures with flying. For each creature exiled this way, return up to one target permanent card from your graveyard to your hand.\nExile Gravitic Inversion.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Dominik Mayer",
             "notes": ""
         },
         {
@@ -4168,15 +4690,17 @@
             "color": "WUBRG",
             "rarity": "mythic",
             "type": "Strange Enchantment",
-            "number": 226,
+            "number": 239,
             "color_identity": "WUBRG",
             "cost": "{W}{U}{B}{R}{G}",
             "rules_text": "When Enter the Multiverse enters the battlefield, it becomes an Aura with enchant permanent. Search your library for a permanent card with mana value 6 or less, put it onto the battlefield, then shuffle. Put three loyalty counters on that permanent and attach Enter the Multiverse to it.\nEnchanted permanent is a planeswalker with \u201c[+1]: Draw a card.\u201d and \u201c[-5]: Destroy target permanent.\u201d",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Brandon Singletary",
             "notes": ""
         },
         {
@@ -4187,12 +4711,14 @@
             "number": 24,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Whenever a creature you control dies, put a bunker counter on Nuclear Family.\nOther creatures you control with mana value equal to or less than the number of bunker counters on Nuclear Family have indestructible as long as they aren\u2019t attacking or blocking.",
+            "rules_text": "Whenever a creature you control dies, put a bunker counter on Nuclear Family.\nOther creatures you control with mana value equal to or less than the number of bunker counters on Nuclear Family have indestructible as long as they aren't attacking or blocking.",
+            "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Bartosz Miha",
             "notes": ""
         },
         {
@@ -4203,12 +4729,14 @@
             "number": 203,
             "color_identity": "G",
             "cost": "{4}{G}{G}",
-            "rules_text": "Trample\nWhenever a non-Spirit creature you control dies, create a token that\u2019s a copy of it, except it\u2019s a Spirit in addition to its other types.",
+            "rules_text": "Trample\nWhenever a non-Spirit creature you control dies, create a token that's a copy of it, except it's a Spirit in addition to its other types.",
+            "flavor_text": "[i][/i]",
             "pt": "6/6",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Ian Joyner",
             "notes": ""
         },
         {
@@ -4220,11 +4748,13 @@
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "Regression {3}{G}{G}{G}\nWhen Haunting Sylph enters the battlefield, choose two \u2014\n\u2022 Destroy target noncreature, nonland permanent.\n\u2022 You gain 5 life.\n\u2022 Put two +1/+1 counters on a creature you control.",
+            "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Nguyen Dong",
             "notes": ""
         },
         {
@@ -4235,12 +4765,14 @@
             "number": 80,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
-            "rules_text": "Take an extra turn after this one. Exile Temporal Experiment.\nPsyop {1}{U}{U}{U} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it.)[/i]",
+            "rules_text": "Take an extra turn after this one. Exile Temporal Experiment.\nPsyop {1}{U}{U}{U} [i](You may cast this face down for {2} as an artifact with \u201c{1}, {T}: Target creature gets +1/+1 until end of turn. Activate as a sorcery.\u201d Pay its psyop cost as a sorcery to exile then cast it without paying its mana cost.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Gabriel Bulik",
             "notes": ""
         },
         {
@@ -4252,11 +4784,13 @@
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "Whenever you cast an artifact spell, create a 1/1 white Advisor creature token with \u201cWhenever you cast an artifact spell, put a +1/+1 counter on this creature.\u201d",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Enrico Tammek\u00e4nd",
             "notes": ""
         },
         {
@@ -4267,13 +4801,15 @@
             "number": 1,
             "color_identity": "C",
             "cost": "{5}",
-            "rules_text": "You may look at the top card of your library any time.\nYou may play lands and cast spells from the top of your library if they don\u2019t share a card type with a spell you\u2019ve cast this turn.",
+            "rules_text": "You may look at the top card of your library any time.\nYou may play lands and cast spells from the top of your library if they don't share a card type with a spell you've cast this turn.",
+            "flavor_text": "[i]Unseen. Unfeeling. Unknowable.[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Brenda van Vugt",
+            "notes": "!group clear"
         },
         {
             "card_name": "Protect and Survive",
@@ -4284,11 +4820,13 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Permanents you control, your library, your graveyard, and each card in your hand phase out.",
+            "flavor_text": "[i]\u201cIn the face of a changing universe, we will endure.\u201d\n\u2014The Director[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Gabriel Jim\u00e9nez",
             "notes": ""
         },
         {
@@ -4299,12 +4837,14 @@
             "number": 249,
             "color_identity": "WG",
             "cost": "",
-            "rules_text": "Bureau of Deviance enters the battlefield tapped.\n{T}: Add {G} or {W}.\n{G}{W}: Bureau of Deviance becomes a 1/1 green and white Spirit creature with vigilance until end of turn. It\u2019s still a land.\nWhenever Bureau of Deviance attacks, put a +1/+1 counter on it.",
+            "rules_text": "Bureau of Deviance enters the battlefield tapped.\n{T}: Add {G} or {W}.\n{G}{W}: Bureau of Deviance becomes a 1/1 green and white Spirit creature with vigilance until end of turn. It's still a land.\nWhenever Bureau of Deviance attacks, put a +1/+1 counter on it.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Raja Ghosh",
             "notes": ""
         },
         {
@@ -4316,11 +4856,13 @@
             "color_identity": "RG",
             "cost": "",
             "rules_text": "Bureau of Aberrancy enters the battlefield tapped.\n{T}: Add {R} or {G}.\n{2}{R}{G}: Bureau of Aberrancy becomes a 2/3 red and green Spirit creature with trample until end of turn.\nWhenever Bureau of Aberrancy attacks, it gets +1/+0 until end of turn for each other creature you control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Raja Ghosh",
             "notes": ""
         },
         {
@@ -4331,12 +4873,14 @@
             "number": 251,
             "color_identity": "UB",
             "cost": "",
-            "rules_text": "Bureau of Dissonance enters the battlefield tapped.\n{T}: Add {U} or {B}.\n{1}{U}{B}: Bureau of Dissonance becomes a 2/2 blue and black Spirit creature until end of turn. It\u2019s still a land.\nWhenever Bureau of Dissonance attacks, up to one target creature gets -1/-1 until end of turn.",
+            "rules_text": "Bureau of Dissonance enters the battlefield tapped.\n{T}: Add {U} or {B}.\n{1}{U}{B}: Bureau of Dissonance becomes a 2/2 blue and black Spirit creature until end of turn. It's still a land.\nWhenever Bureau of Dissonance attacks, up to one target creature gets -1/-1 until end of turn.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Raja Ghosh",
             "notes": ""
         },
         {
@@ -4344,15 +4888,17 @@
             "color": "RG",
             "rarity": "rare",
             "type": "Strange Sorcery",
-            "number": 228,
+            "number": 226,
             "color_identity": "RG",
             "cost": "{3}{R}{G}",
             "rules_text": "Destroy target creature, target land, and target noncreature, nonland permanent.",
+            "flavor_text": "[i]Entity X's arrival introduced St. Cahand to the idea of worlds beyond theirs. Few were prepared for how treacherous the bridge between them would be.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Kasia Michalak",
             "notes": ""
         },
         {
@@ -4363,12 +4909,14 @@
             "number": 124,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "When Unexplained Obelisk enters the battlefield, exile up to one target card from a graveyard.\n{B}, {T}, Sacrifice Unexplained Obelisk: Exile target opponent\u2019s graveyard. That player loses 1 life for each card type among cards exiled this way.",
+            "rules_text": "When Unexplained Obelisk enters the battlefield, exile up to one target card from a graveyard.\n{B}, {T}, Sacrifice Unexplained Obelisk: Exile target opponent's graveyard. That player loses 1 life for each card type among cards exiled this way.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Andrea J\u00f6rgensen",
             "notes": "REPRINT (from XCO)"
         },
         {
@@ -4380,11 +4928,13 @@
             "color_identity": "G",
             "cost": "{4}{G}{G}",
             "rules_text": "Submersible Behemoth enters the battlefield with a number of +1/+1 counters on it equal to the total power of other creatures you control.",
+            "flavor_text": "[i]The seas of St. Cahand teem with nuclear submarines, though few understand the threat they guard against.[/i]",
             "pt": "0/0",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Jama Jurabaev",
             "notes": ""
         },
         {
@@ -4396,11 +4946,13 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Menace, haste\nYou may cast Returned Voyager from your graveyard as long as a spell you control dealt excess damage to a permanent this turn.",
+            "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "FBI",
             "loyalty": "",
+            "artist": "Leonardo Calamati",
             "notes": ""
         },
         {
@@ -4412,13 +4964,15 @@
             "color_identity": "W",
             "cost": "",
             "rules_text": "Whenever you cast an artifact spell, put a +1/+1 counter on this creature.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "token",
             "set": "FBI",
             "loyalty": "",
-            "notes": ""
+            "artist": "Piotr Arendzikowski",
+            "notes": "!group token\n!sort 03"
         }
     ],
-    "version": 1
+    "version": 2
 }
