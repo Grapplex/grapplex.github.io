@@ -1,6 +1,6 @@
-<img src="https://grapplex.github.io/sets/SMK-files/logo.png" alt="The Big Smoko" width="558" height="345">
+<img src="https://grapplex.github.io/sets/SMK-files/logo.png" alt="The Big Smoko" width="450" height="278">
 
-**<p style="text-align: center;">Welcome the ride of a lifetime.</p>**
+**<p style="text-align: center;">Welcome to the ride of a lifetime.</p>**
 
 Bangayungu, the Stone Mother, is a post-industrial plane cut off from the multiverse not by a lack of access, but by a lack of desire. Flung far from the nearest plane, some have forgotten it entirely, but its vivacious spirit is hard to keep down. A wasteland of endless sand and diesel, fought over by the lawless survivors of a ruined civilisation. Those not willing to embrace speed, carnage, and raw violence have been left behind. There is only the eternal race, the endless piss-up, The Big Smoko.
 
