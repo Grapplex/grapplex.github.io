@@ -62,7 +62,7 @@
 		color: #0492c2;
 	}
 	.select-text {
-		display: flex;
+		display: none;
 		align-items: center;
 		justify-content: left;
 		gap: 8px;
@@ -321,7 +321,17 @@
 	</div>
 
 	<div class="splash-container" id="splash">
-	
+	<p><img src="https://grapplex.github.io/sets/SMK-files/logo.png" alt="The Big Smoko" width="558" height="345"></p>
+<p><strong><p style="text-align: center;">Welcome the ride of a lifetime.</p></strong></p>
+<p>Bangayungu, the Stone Mother, is a post-industrial plane cut off from the multiverse not by a lack of access, but by a lack of desire. Flung far from the nearest plane, some have forgotten it entirely, but its vivacious spirit is hard to keep down. A wasteland of endless sand and diesel, fought over by the lawless survivors of a ruined civilisation. Those not willing to embrace speed, carnage, and raw violence have been left behind. There is only the eternal race, the endless piss-up, The Big Smoko.</p>
+<p>It wasn't always like this. The woolloo orcs remember a dreamtime, before the rise of man and machine, when their Stone Mother was revered and peaceful. But ape became man, man birthed machine, and machine hobbled man. After what has since been dubbed The Oops, much of the plane is now an irradiated mess of oil slicks and red sand, of shining nuclear glass, of twisted steel and sex appeal. From the rad-wastes of the Blackspill, where smokedrinker scavengers embrace a life of speed and violence, to the primitive backwater of the Woop Woop, where mutated oddboys eke out a freakish existence, the allure of the engine is eternal. And in the heart of the desert, worshipped by militant cults, thunderous revs announce the coming of the tyrannical godmachine, the iron beast known only as Akka Dakka...</p>
+<p><strong>The Big Smoko</strong> is a draftable premier set using Play Boosters, containing 266 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of Mr. Sister, while all boosters have a chance of containing a serialised Headliner rust-foil version of Anus Insanus. Additionally, wildcard slots in each play booster have a chance to contain a card from the Death Riders of Bangayungu bonus sheet—these bonus cards depict the many varied personalities vying for power and fame in the Big Smoko, and are legal in Eternal formats.</p>
+<h2>Mechanics</h2>
+<p><img align="right" width="200" height="353" style="margin:15px" src="https://i.ibb.co/mVRXXgx1/booster.png" alt="SMK booster"/>The mechanics of <strong>The Big Smoko</strong> include:</p>
+<p><strong>Races:</strong> True battle is contested on the highway. Race is a new battle subtype. Like all battles, a Race is protected by one of your opponents and defeated when you attack or otherwise damage it until its last defence counter is removed. A race will always tell you what effect it has when the battle enters the battlefield and/or when it is defeated, and may be attacked as though creatures attacking it had haste. Enter the raceway as soon as your creatures hit the table for victory.</p>
+<p><strong>Jury rig:</strong> Ingenuity is vital for survival. Jury rig is an activated ability found on some artifact creatures, allowing them a second lease on life. By paying a card's jury rig cost you can return it from the graveyard to the battlefield, although it's now a vehicle with crew 2 and not a creature; it also returns with a finality counter (you can only rewire the same junker so many times). Aggressive use of early creatures will still allow your biggest bodies to return, supported by smaller crew to get you over the finish line.</p>
+<p><strong>Wither:</strong> Returning from Shadowmoor and Eventide, wither is a creature keyword (for the most part—look out for some spells with wither too) which replaces damage dealt to creatures with -1/-1 counters to represent the harsh realities of a post-apocalyptic world. Coupled with additional -1/-1 counter effects throughout the set, wither will ensure that every combat phase carries a sense of impending doom.</p>
+<p><strong>Smuggle:</strong> Nothing enters or leaves Blackspill openly. Renegades, rogues, rapscallions, and chook-lotto enthusiasts alike trade in contraband and stolen goods at every turn. Smuggle is a keyword action allowing you to move counters between permanents—to smuggle N, move up to N counters from one permanent to another that shares a type with it. Offload your -1/-1 counters onto enemy creatures, turn defence counters on your battles into defence for your opponents instead, shift a finality counter from your jury-rigged vehicle onto their best threat. Possessio is nine-tenths of the word, after all.</p>
 	</div>
 
 	<div class="grid-container" id="grid">
@@ -380,8 +390,8 @@
 					set_list_arrayified.push(card_list_arrayified[i]);
 				}
 			}
-			
-		setCardView();
+					buttons.style.display = 'grid';
+				switchView('splash');
 		});
 
 		document.getElementById("sort-by").onchange = displayChangeListener;
@@ -429,7 +439,7 @@
 			}
 			cardGrid.innerHTML = "";
 
-			if (false)
+			if (true)
 			{
 				let text1 = document.createElement("div");
 				let text2 = document.createElement("div");
