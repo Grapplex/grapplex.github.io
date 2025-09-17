@@ -2353,15 +2353,15 @@
             "number": 147,
             "color_identity": "R",
             "cost": "{5}{R}",
-            "rules_text": "Trample, reach",
-            "flavor_text": "[i]The smokedrinkers worship the biggest, the loudest, and the greasiest of machines, with the Satanic Mechanic constantly pushing himself to outdo his last creation.[/i]",
+            "rules_text": "Trample, reach\nJury rig {4} [i](You may cast this from your graveyard for {4}. If you do, it's a Vehicle with crew 2, isn't a creature, and enters with a finality counter. If a permanent with a finality counter on it would die, exile it instead.)[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "6/5",
             "special_text": "",
             "shape": "normal",
             "set": "SMK",
             "loyalty": "",
             "artist": "Tymoteusz Chliszcz",
-            "notes": ""
+            "notes": "The smokedrinkers worship the biggest, the loudest, and the greasiest of machines, with the Satanic Mechanic constantly pushing himself to outdo his last creation."
         },
         {
             "card_name": "Shock",
@@ -3595,7 +3595,7 @@
             "number": 198,
             "color_identity": "WU",
             "cost": "{2}{W}{U}",
-            "rules_text": "Search your library or graveyard for an artifact card and reveal it. Put it onto the battlefield if its mana value is 3 or less. Otherwise, put it into your hand. If you don't put a card onto the battlefield this way, you gain 3 life.",
+            "rules_text": "Search your library or graveyard for an artifact card and reveal it. Put it onto the battlefield if its mana value is 3 or less. Otherwise, put it into your hand. Then shuffle. If you don't put a card onto the battlefield this way, you gain 3 life.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3667,7 +3667,7 @@
             "number": 215,
             "color_identity": "WB",
             "cost": "{W}{B}",
-            "rules_text": "As long as it's your turn, Woolloo Begrudger has double strike\nWither [i](This deals damage to creatures in the form of -1/-1 counters.)[/i]",
+            "rules_text": "As long as it's your turn, Woolloo Begrudger has double strike.\nWither [i](This deals damage to creatures in the form of -1/-1 counters.)[/i]",
             "flavor_text": "[i]In the remaining gum tree groves, the woolloo hold fast to a culture constantly at risk from the smokedrinkers' accelerationism.[/i]",
             "pt": "1/1",
             "special_text": "",
@@ -3810,10 +3810,10 @@
             "type": "Creature \u2014 Mutant Ranger",
             "number": 210,
             "color_identity": "WG",
-            "cost": "{2}{G}{W}",
+            "cost": "{1}{G}{W}",
             "rules_text": "Whenever an artifact creature or Vehicle enters the battlefield under your control, draw a card.",
             "flavor_text": "[i]From the Blackspill to the Woop Woop, and every raceway in between, Bangayungu is not known as a land of subtlety.[/i]",
-            "pt": "3/3",
+            "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "SMK",
@@ -4466,7 +4466,7 @@
             "shape": "battle",
             "set": "SMK",
             "loyalty": "2",
-            "artist": "\nBartol Renduli\u0107",
+            "artist": "John \u9ed1",
             "notes": ""
         },
         {
@@ -4495,7 +4495,7 @@
             "number": 203,
             "color_identity": "BR",
             "cost": "{B}{R}",
-            "rules_text": "[i](As this enters, choose an opponent to protect it. You can attack a Race as though creatures you control had haste.)[/i]\nWhen All's Fair in Love, War, and Cheating enters the battlefield or is defeated, exile the top two cards of your library. You may play those cards during any turn an opponent lost life. Then each opponent loses 1 life.",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You can attack a Race as though creatures you control had haste.)[/i]\nWhen All's Fair in Love, War, and Cheating enters the battlefield or is defeated, exile the top card of each player's library. You may cast spells from among those cards for as long as they remain exiled, and mana of any type can be spent to cast them.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4992,5 +4992,5 @@
             "notes": "!group token\n!sort 08"
         }
     ],
-    "version": 6
+    "version": 7
 }
