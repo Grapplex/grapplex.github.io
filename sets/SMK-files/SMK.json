@@ -13,7 +13,7 @@
             "number": 258,
             "color_identity": "WR",
             "cost": "",
-            "rules_text": "[i]({T}: Add {R} or {W}.)[/i]\nLeangarung, The Mist's Teeth enters the battlefield tapped\n{RW}{RW}{RW}{RW}{RW}, {T}, Exile Leangarung: After this main phase, there is an additional combat phase. Only one creature may attack during that phase. Activate only as a sorcery.",
+            "rules_text": "[i]({T}: Add {R} or {W}.)[/i]\nLeangarung, The Mist's Teeth enters the battlefield tapped\n{RW}{RW}{RW}{RW}{RW}, {T}, Exile Leangarung: Untap target creature you control. After this main phase, there is an additional combat phase. Only one creature may attack during that phase. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -85,8 +85,8 @@
             "number": 68,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "As Potential Engine enters the battlefield or whenever attacks, you may have it become a copy of any creature on the battlefield, except it's a Vehicle with crew 2 and has this ability.",
-            "flavor_text": "[i]\u201cListen, Chook, a hoverbike is a hoverbike. But this machine could be [/i]anything[i]. It could even be a hoverbike.\u201d\n\u2014Scabrous Cadabra[/i]",
+            "rules_text": "As Potential Engine enters the battlefield or whenever it attacks, you may have it become a copy of any creature on the battlefield, except it's a Vehicle artifact with crew 2 and has this ability.",
+            "flavor_text": "[i]\u201cChook, a hoverbike is a hoverbike. This machine could be [/i]anything[i]. It could even be a hoverbike.\u201d\n\u2014Scabrous Cadabra[/i]",
             "pt": "0/0",
             "special_text": "",
             "shape": "normal",
@@ -120,10 +120,10 @@
             "type": "Artifact \u2014 Vehicle",
             "number": 108,
             "color_identity": "B",
-            "cost": "{4}{B}",
-            "rules_text": "Roaming Bottleo enters the battlefield with seven -1/-1 counters on it.\nAt the beginning of combat on your turn, you may smuggle 1. [i](Move up to one counter from target permanent to another permanent of the same type.)[/i]\nCrew 3 [i](Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]",
+            "cost": "{2}{B}{B}",
+            "rules_text": "Roaming Bottleo enters the battlefield with five -1/-1 counters on it.\nAt the beginning of combat on your turn, you may smuggle 1. [i](Move up to one counter from target permanent to another permanent of the same type.)[/i]\nCrew 3 [i](Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]",
             "flavor_text": "[i][/i]",
-            "pt": "7/7",
+            "pt": "6/6",
             "special_text": "",
             "shape": "normal",
             "set": "SMK",
@@ -1885,7 +1885,7 @@
             "number": 84,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
-            "rules_text": "Flying\nDamage is dealt to creatures you opponents control as though its source had wither. [i](It's dealt in the form of -1/-1 counters.)[/i]",
+            "rules_text": "Flying\nDamage is dealt to creatures your opponents control as though its source had wither. [i](It's dealt in the form of -1/-1 counters.)[/i]",
             "flavor_text": "[i]\u201cIt's hard yakka catching one but the barbecue makes it all worthwhile.\u201d\n\u2014Scabrous Cadabra[/i]",
             "pt": "4/4",
             "special_text": "",
@@ -2361,7 +2361,7 @@
             "set": "SMK",
             "loyalty": "",
             "artist": "Tymoteusz Chliszcz",
-            "notes": "The smokedrinkers worship the biggest, the loudest, and the greasiest of machines, with the Satanic Mechanic constantly pushing himself to outdo his last creation."
+            "notes": ""
         },
         {
             "card_name": "Shock",
@@ -4639,7 +4639,7 @@
             "number": 250,
             "color_identity": "BG",
             "cost": "{3}",
-            "rules_text": "As long as there are six or more creature cards in your graveyard, [i]The Jolly Scumbucket[/i] is an artifact creature.\n{T}, Sacrifice a creature: Add three mana in any combination of {B} or {G}.",
+            "rules_text": "At the beginning of combat, if there are six or more creature cards in your graveyard, [i]The Jolly Scumbucket[/i] becomes an artifact creature until end of turn.\n{T}, Sacrifice a creature: Add three mana in any combination of {B} or {G}.",
             "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
@@ -4837,7 +4837,7 @@
             "number": 32,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "[i](As this enters, choose an opponent to protect it. You can attack a Race as though creatures you control had haste.)[/i]\nWhen The Satanic Mechanic's Clockwork Fun Ride enters the battlefield or is defeated, search your library for an artifact card with mana value 4 or less, put it onto the battlefield, then shuffle.",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You can attack a Race as though creatures you control had haste.)[/i]\nWhen The Satanic Mechanic's Clockwork Fun Ride enters the battlefield or is defeated, search your library for an artifact card with mana value 4 or less, put it onto the battlefield tapped, then shuffle.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4992,5 +4992,5 @@
             "notes": "!group token\n!sort 08"
         }
     ],
-    "version": 8
+    "version": 9
 }
