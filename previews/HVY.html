@@ -39,8 +39,8 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
@@ -126,12 +126,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -203,9 +204,6 @@
 		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
 		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/JMR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OVR-files/icon.png" />
 		<img class="preload-hidden" id="bg" src="/sets/HVY-files/bg.png" />
 
 		<div class="header">
@@ -219,7 +217,7 @@
 		</div>
 	</div>
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
 		<a class="set-bar" href="HVY"><img src="/sets/HVY-files/icon.png">Heavy Thunder</a>
 	
@@ -277,378 +275,372 @@
 	
 		<a class="set-bar inactive" href="ELO"><img src="/sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
 	
-		<a class="set-bar inactive" href="JMR"><img src="/sets/JMR-files/icon.png">Jamuraa: The Mirage War</a>
-	
-		<a class="set-bar inactive" href="90S"><img src="/sets/90S-files/icon.png">Rath and Storm</a>
-	
-		<a class="set-bar inactive" href="OVR"><img src="/sets/OVR-files/icon.png">Overlay</a>
-	
 		</div>
 		<div class="banner">
 		<img class="logo" src="/sets/HVY-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\HVY-files\img\3_Court of the Crimson King.png" id="3_Court of the Crimson King" data-flag="@X" onclick="openSidebar('3_Court of the Crimson King',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\30_Angry Chair.png" id="30_Angry Chair" data-flag="@X" onclick="openSidebar('30_Angry Chair',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\59_Angel of Death.png" id="59_Angel of Death" data-flag="@X" onclick="openSidebar('59_Angel of Death',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\95_Corpse Paint.png" id="95_Corpse Paint" data-flag="@X" onclick="openSidebar('95_Corpse Paint',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\123_Encircling Tyrant.png" id="123_Encircling Tyrant" data-flag="@X" onclick="openSidebar('123_Encircling Tyrant',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\9_The Evil That Men Do.png" id="9_The Evil That Men Do" data-flag="@X" onclick="openSidebar('9_The Evil That Men Do',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\46_A Saucerful of Secrets.png" id="46_A Saucerful of Secrets" data-flag="@X" onclick="openSidebar('46_A Saucerful of Secrets',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\83_Superunknown.png" id="83_Superunknown" data-flag="@X" onclick="openSidebar('83_Superunknown',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\105_Peace Sells, But Who's Buying.png" id="105_Peace Sells, But Whos Buying" data-flag="@X" onclick="openSidebar('105_Peace Sells, But Whos Buying',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\134_The Motorblade.png" id="134_The Motorblade" data-flag="@X" onclick="openSidebar('134_The Motorblade',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\10_Frippertronic Mass.png" id="10_Frippertronic Mass" data-flag="@X" onclick="openSidebar('10_Frippertronic Mass',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\35_Cuckoo for Caca.png" id="35_Cuckoo for Caca" data-flag="@X" onclick="openSidebar('35_Cuckoo for Caca',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\61_Bleed the Freak.png" id="61_Bleed the Freak" data-flag="@X" onclick="openSidebar('61_Bleed the Freak',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\90_Blackmail the Universe.png" id="90_Blackmail the Universe" data-flag="@X" onclick="openSidebar('90_Blackmail the Universe',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\118_Beyond the North Winds.png" id="118_Beyond the North Winds" data-flag="@X" onclick="openSidebar('118_Beyond the North Winds',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\12_La Sexorcisto, the Astro-Creep.png" id="12_La Sexorcisto, the Astro-Creep" data-flag="@X" onclick="openSidebar('12_La Sexorcisto, the Astro-Creep',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\37_Dopesmoker.png" id="37_Dopesmoker" data-flag="@X" onclick="openSidebar('37_Dopesmoker',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\71_Harmonic Ghost.png" id="71_Harmonic Ghost" data-flag="@X" onclick="openSidebar('71_Harmonic Ghost',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\91_Blastbeat Phoenix.png" id="91_Blastbeat Phoenix" data-flag="@X" onclick="openSidebar('91_Blastbeat Phoenix',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\120_Bloom Tender.png" id="120_Bloom Tender" data-flag="@X" onclick="openSidebar('120_Bloom Tender',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\14_The Lamb Lies Down.png" id="14_The Lamb Lies Down" data-flag="@X" onclick="openSidebar('14_The Lamb Lies Down',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\44_Phantom Echoplex.png" id="44_Phantom Echoplex" data-flag="@X" onclick="openSidebar('44_Phantom Echoplex',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\76_Minus Human.png" id="76_Minus Human" data-flag="@X" onclick="openSidebar('76_Minus Human',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\92_Bloodsword and Cold Sun.png" id="92_Bloodsword and Cold Sun" data-flag="@X" onclick="openSidebar('92_Bloodsword and Cold Sun',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\128_The Iron Savage.png" id="128_The Iron Savage" data-flag="@X" onclick="openSidebar('128_The Iron Savage',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\16_Mindcrime Enforcer.png" id="16_Mindcrime Enforcer" data-flag="@X" onclick="openSidebar('16_Mindcrime Enforcer',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\45_Read the Runes.png" id="45_Read the Runes" data-flag="@X" onclick="openSidebar('45_Read the Runes',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\78_The Painkiller.png" id="78_The Painkiller" data-flag="@X" onclick="openSidebar('78_The Painkiller',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\102_Ghashburz Monument.png" id="102_Ghashburz Monument" data-flag="@X" onclick="openSidebar('102_Ghashburz Monument',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\129_Jenax, the Hellhammer.png" id="129_Jenax, the Hellhammer" data-flag="@X" onclick="openSidebar('129_Jenax, the Hellhammer',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\17_No Earthly Connection.png" id="17_No Earthly Connection" data-flag="@X" onclick="openSidebar('17_No Earthly Connection',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\51_The Thin Ice of a New Day.png" id="51_The Thin Ice of a New Day" data-flag="@X" onclick="openSidebar('51_The Thin Ice of a New Day',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\79_Rusty Uncaged.png" id="79_Rusty Uncaged" data-flag="@X" onclick="openSidebar('79_Rusty Uncaged',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\103_Louder than Hell.png" id="103_Louder than Hell" data-flag="@X" onclick="openSidebar('103_Louder than Hell',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\140_Thunder Renegade.png" id="140_Thunder Renegade" data-flag="@X" onclick="openSidebar('140_Thunder Renegade',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\28_When Two Worlds Collide.png" id="28_When Two Worlds Collide" data-flag="@X" onclick="openSidebar('28_When Two Worlds Collide',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\56_Wayk's Roundabout.png" id="56_Wayks Roundabout" data-flag="@X" onclick="openSidebar('56_Wayks Roundabout',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\84_There Will Be No Encore.png" id="84_There Will Be No Encore" data-flag="@X" onclick="openSidebar('84_There Will Be No Encore',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\108_The Punishment Due.png" id="108_The Punishment Due" data-flag="@X" onclick="openSidebar('108_The Punishment Due',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\141_To Tame a Land.png" id="141_To Tame a Land" data-flag="@X" onclick="openSidebar('141_To Tame a Land',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\2_Corpsehowl Whisperer.png" id="2_Corpsehowl Whisperer" data-flag="@X" onclick="openSidebar('2_Corpsehowl Whisperer',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\32_Basscrush Tormentor.png" id="32_Basscrush Tormentor" data-flag="@X" onclick="openSidebar('32_Basscrush Tormentor',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\62_Corpsehowl Shambler.png" id="62_Corpsehowl Shambler" data-flag="@X" onclick="openSidebar('62_Corpsehowl Shambler',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\88_Am I Savage.png" id="88_Am I Savage" data-flag="@X" onclick="openSidebar('88_Am I Savage',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\117_Basscrush Devourer.png" id="117_Basscrush Devourer" data-flag="@X" onclick="openSidebar('117_Basscrush Devourer',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\5_Destroying Animalizer.png" id="5_Destroying Animalizer" data-flag="@X" onclick="openSidebar('5_Destroying Animalizer',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\34_Caught Somewhere in Time.png" id="34_Caught Somewhere in Time" data-flag="@X" onclick="openSidebar('34_Caught Somewhere in Time',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\64_Creeping Death.png" id="64_Creeping Death" data-flag="@X" onclick="openSidebar('64_Creeping Death',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\89_Architect of Aggression.png" id="89_Architect of Aggression" data-flag="@X" onclick="openSidebar('89_Architect of Aggression',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\119_Blood and Memory.png" id="119_Blood and Memory" data-flag="@X" onclick="openSidebar('119_Blood and Memory',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\7_Dreamer Deceiver.png" id="7_Dreamer Deceiver" data-flag="@X" onclick="openSidebar('7_Dreamer Deceiver',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\38_Drudge Shade.png" id="38_Drudge Shade" data-flag="@X" onclick="openSidebar('38_Drudge Shade',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\65_Deathgrind Assaulter.png" id="65_Deathgrind Assaulter" data-flag="@X" onclick="openSidebar('65_Deathgrind Assaulter',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\94_Can I Play with Madness.png" id="94_Can I Play with Madness" data-flag="@X" onclick="openSidebar('94_Can I Play with Madness',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\121_Damage Case.png" id="121_Damage Case" data-flag="@X" onclick="openSidebar('121_Damage Case',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\15_Master of Revenge.png" id="15_Master of Revenge" data-flag="@X" onclick="openSidebar('15_Master of Revenge',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\40_Lightning to the Nations.png" id="40_Lightning to the Nations" data-flag="@X" onclick="openSidebar('40_Lightning to the Nations',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\66_Die Dead Enough.png" id="66_Die Dead Enough" data-flag="@X" onclick="openSidebar('66_Die Dead Enough',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\96_Dawn of the Black Hearts.png" id="96_Dawn of the Black Hearts" data-flag="@X" onclick="openSidebar('96_Dawn of the Black Hearts',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\122_Deathgrind Aggravator.png" id="122_Deathgrind Aggravator" data-flag="@X" onclick="openSidebar('122_Deathgrind Aggravator',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\18_Powergroove Harvester.png" id="18_Powergroove Harvester" data-flag="@X" onclick="openSidebar('18_Powergroove Harvester',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\42_Monkey Gone to Heaven.png" id="42_Monkey Gone to Heaven" data-flag="@X" onclick="openSidebar('42_Monkey Gone to Heaven',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\70_Hardwired Bonespitter.png" id="70_Hardwired Bonespitter" data-flag="@X" onclick="openSidebar('70_Hardwired Bonespitter',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\97_Deathcrusher.png" id="97_Deathcrusher" data-flag="@X" onclick="openSidebar('97_Deathcrusher',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\127_Into Glory Ride.png" id="127_Into Glory Ride" data-flag="@X" onclick="openSidebar('127_Into Glory Ride',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\19_Primal Sledger.png" id="19_Primal Sledger" data-flag="@X" onclick="openSidebar('19_Primal Sledger',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\49_Stormriff Shrieker.png" id="49_Stormriff Shrieker" data-flag="@X" onclick="openSidebar('49_Stormriff Shrieker',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\72_Killing Is My Business.png" id="72_Killing Is My Business" data-flag="@X" onclick="openSidebar('72_Killing Is My Business',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\106_Powergroove Eruptor.png" id="106_Powergroove Eruptor" data-flag="@X" onclick="openSidebar('106_Powergroove Eruptor',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\130_Kill Minister.png" id="130_Kill Minister" data-flag="@X" onclick="openSidebar('130_Kill Minister',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\20_Revolution Is My Name.png" id="20_Revolution Is My Name" data-flag="@X" onclick="openSidebar('20_Revolution Is My Name',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\50_That Which Passes Like Clouds.png" id="50_That Which Passes Like Clouds" data-flag="@X" onclick="openSidebar('50_That Which Passes Like Clouds',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\73_Leper Messiah.png" id="73_Leper Messiah" data-flag="@X" onclick="openSidebar('73_Leper Messiah',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\107_Priest of Mayhem.png" id="107_Priest of Mayhem" data-flag="@X" onclick="openSidebar('107_Priest of Mayhem',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\132_Master of Reality.png" id="132_Master of Reality" data-flag="@X" onclick="openSidebar('132_Master of Reality',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\23_Shining Diamond.png" id="23_Shining Diamond" data-flag="@X" onclick="openSidebar('23_Shining Diamond',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\52_Topographic Weaver.png" id="52_Topographic Weaver" data-flag="@X" onclick="openSidebar('52_Topographic Weaver',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\74_Live Through This.png" id="74_Live Through This" data-flag="@X" onclick="openSidebar('74_Live Through This',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\109_Reinvented Steel.png" id="109_Reinvented Steel" data-flag="@X" onclick="openSidebar('109_Reinvented Steel',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\135_Nightside Eclipse.png" id="135_Nightside Eclipse" data-flag="@X" onclick="openSidebar('135_Nightside Eclipse',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\25_Spiral Architect.png" id="25_Spiral Architect" data-flag="@X" onclick="openSidebar('25_Spiral Architect',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\54_Wayk's Apprentice.png" id="54_Wayks Apprentice" data-flag="@X" onclick="openSidebar('54_Wayks Apprentice',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\81_Sleep Now in the Fire.png" id="81_Sleep Now in the Fire" data-flag="@X" onclick="openSidebar('81_Sleep Now in the Fire',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\111_Savage Tarkus.png" id="111_Savage Tarkus" data-flag="@X" onclick="openSidebar('111_Savage Tarkus',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\136_Per Oyst's Disciple.png" id="136_Per Oysts Disciple" data-flag="@X" onclick="openSidebar('136_Per Oysts Disciple',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\27_Wayk's Lament.png" id="27_Wayks Lament" data-flag="@X" onclick="openSidebar('27_Wayks Lament',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\55_Wayk's Rhapsody.png" id="55_Wayks Rhapsody" data-flag="@X" onclick="openSidebar('55_Wayks Rhapsody',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\85_Thunderkisser.png" id="85_Thunderkisser" data-flag="@X" onclick="openSidebar('85_Thunderkisser',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\113_Stormriff Crasher.png" id="113_Stormriff Crasher" data-flag="@X" onclick="openSidebar('113_Stormriff Crasher',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\137_Proud Necrobutcher.png" id="137_Proud Necrobutcher" data-flag="@X" onclick="openSidebar('137_Proud Necrobutcher',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\1_Clash with Reality.png" id="1_Clash with Reality" data-flag="@X" onclick="openSidebar('1_Clash with Reality',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\31_Arpeggiate.png" id="31_Arpeggiate" data-flag="@X" onclick="openSidebar('31_Arpeggiate',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\60_Because It's Midnight.png" id="60_Because Its Midnight" data-flag="@X" onclick="openSidebar('60_Because Its Midnight',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\93_Buried by Time and Dust.png" id="93_Buried by Time and Dust" data-flag="@X" onclick="openSidebar('93_Buried by Time and Dust',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\124_Five Minutes Alone.png" id="124_Five Minutes Alone" data-flag="@X" onclick="openSidebar('124_Five Minutes Alone',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\4_Defenders of the Faith.png" id="4_Defenders of the Faith" data-flag="@X" onclick="openSidebar('4_Defenders of the Faith',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\33_Can't Rain All the Time.png" id="33_Cant Rain All the Time" data-flag="@X" onclick="openSidebar('33_Cant Rain All the Time',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\63_Corrupted Conviction.png" id="63_Corrupted Conviction" data-flag="@X" onclick="openSidebar('63_Corrupted Conviction',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\98_The Devil Put Dinosaurs Here.png" id="98_The Devil Put Dinosaurs Here" data-flag="@X" onclick="openSidebar('98_The Devil Put Dinosaurs Here',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\125_Fury of Ghashburz.png" id="125_Fury of Ghashburz" data-flag="@X" onclick="openSidebar('125_Fury of Ghashburz',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\6_Down Fall the Good Guys.png" id="6_Down Fall the Good Guys" data-flag="@X" onclick="openSidebar('6_Down Fall the Good Guys',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\36_Don't Follow.png" id="36_Dont Follow" data-flag="@X" onclick="openSidebar('36_Dont Follow',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\67_Disciple of Oronimos.png" id="67_Disciple of Oronimos" data-flag="@X" onclick="openSidebar('67_Disciple of Oronimos',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\99_Disciple of Venom.png" id="99_Disciple of Venom" data-flag="@X" onclick="openSidebar('99_Disciple of Venom',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\126_Ghashburz Diviner.png" id="126_Ghashburz Diviner" data-flag="@X" onclick="openSidebar('126_Ghashburz Diviner',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\8_Engineered Tarkus.png" id="8_Engineered Tarkus" data-flag="@X" onclick="openSidebar('8_Engineered Tarkus',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\39_Jar of Flies.png" id="39_Jar of Flies" data-flag="@X" onclick="openSidebar('39_Jar of Flies',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\68_Dopes to Infinity.png" id="68_Dopes to Infinity" data-flag="@X" onclick="openSidebar('68_Dopes to Infinity',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\100_Disposable Hero.png" id="100_Disposable Hero" data-flag="@X" onclick="openSidebar('100_Disposable Hero',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\131_Lost Forgotten Ashes.png" id="131_Lost Forgotten Ashes" data-flag="@X" onclick="openSidebar('131_Lost Forgotten Ashes',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\11_Great Deceiver.png" id="11_Great Deceiver" data-flag="@X" onclick="openSidebar('11_Great Deceiver',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\41_Man in the Box.png" id="41_Man in the Box" data-flag="@X" onclick="openSidebar('41_Man in the Box',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\69_Fall on Black Days.png" id="69_Fall on Black Days" data-flag="@X" onclick="openSidebar('69_Fall on Black Days',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\101_Dissident Aggressor.png" id="101_Dissident Aggressor" data-flag="@X" onclick="openSidebar('101_Dissident Aggressor',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\133_Mercyful Oathbreaker.png" id="133_Mercyful Oathbreaker" data-flag="@X" onclick="openSidebar('133_Mercyful Oathbreaker',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\13_Lady of the Dancing Water.png" id="13_Lady of the Dancing Water" data-flag="@X" onclick="openSidebar('13_Lady of the Dancing Water',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\43_Neurotic Howler.png" id="43_Neurotic Howler" data-flag="@X" onclick="openSidebar('43_Neurotic Howler',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\75_Metal Thrashing Madness.png" id="75_Metal Thrashing Madness" data-flag="@X" onclick="openSidebar('75_Metal Thrashing Madness',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\104_Ornery Gorgoroth.png" id="104_Ornery Gorgoroth" data-flag="@X" onclick="openSidebar('104_Ornery Gorgoroth',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\138_Riftspawn Mosher.png" id="138_Riftspawn Mosher" data-flag="@X" onclick="openSidebar('138_Riftspawn Mosher',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\21_Scourge of the Metal Mount.png" id="21_Scourge of the Metal Mount" data-flag="@X" onclick="openSidebar('21_Scourge of the Metal Mount',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\47_Shambling Pigpile.png" id="47_Shambling Pigpile" data-flag="@X" onclick="openSidebar('47_Shambling Pigpile',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\77_No Prayer for the Dying.png" id="77_No Prayer for the Dying" data-flag="@X" onclick="openSidebar('77_No Prayer for the Dying',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\110_Ride the Lightning.png" id="110_Ride the Lightning" data-flag="@X" onclick="openSidebar('110_Ride the Lightning',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\139_Savage Exciter.png" id="139_Savage Exciter" data-flag="@X" onclick="openSidebar('139_Savage Exciter',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\22_Screaming for Vengeance.png" id="22_Screaming for Vengeance" data-flag="@X" onclick="openSidebar('22_Screaming for Vengeance',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\48_Stained Class.png" id="48_Stained Class" data-flag="@X" onclick="openSidebar('48_Stained Class',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\80_Script for a Jester's Tear.png" id="80_Script for a Jesters Tear" data-flag="@X" onclick="openSidebar('80_Script for a Jesters Tear',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\112_Smoke and Red Light.png" id="112_Smoke and Red Light" data-flag="@X" onclick="openSidebar('112_Smoke and Red Light',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\142_Tomb of the Fog Kingdom.png" id="142_Tomb of the Fog Kingdom" data-flag="@X" onclick="openSidebar('142_Tomb of the Fog Kingdom',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\24_Skull Beneath the Skin.png" id="24_Skull Beneath the Skin" data-flag="@X" onclick="openSidebar('24_Skull Beneath the Skin',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\53_The Unnamed Feeling.png" id="53_The Unnamed Feeling" data-flag="@X" onclick="openSidebar('53_The Unnamed Feeling',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\82_So Far, So Good, So What!.png" id="82_So Far, So Good, So What!" data-flag="@X" onclick="openSidebar('82_So Far, So Good, So What!',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\114_This Day We Fight.png" id="114_This Day We Fight" data-flag="@X" onclick="openSidebar('114_This Day We Fight',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\143_Vulgar Axegrinder.png" id="143_Vulgar Axegrinder" data-flag="@X" onclick="openSidebar('143_Vulgar Axegrinder',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\26_Supernatural Anaesthetist.png" id="26_Supernatural Anaesthetist" data-flag="@X" onclick="openSidebar('26_Supernatural Anaesthetist',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\57_Wolfsbane Harrier.png" id="57_Wolfsbane Harrier" data-flag="@X" onclick="openSidebar('57_Wolfsbane Harrier',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\86_Unsung Ironhead.png" id="86_Unsung Ironhead" data-flag="@X" onclick="openSidebar('86_Unsung Ironhead',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\115_Wolfsbane Destructor.png" id="115_Wolfsbane Destructor" data-flag="@X" onclick="openSidebar('115_Wolfsbane Destructor',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\144_Wolfsbane Goliath.png" id="144_Wolfsbane Goliath" data-flag="@X" onclick="openSidebar('144_Wolfsbane Goliath',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\29_Wolfsbane Abomination.png" id="29_Wolfsbane Abomination" data-flag="@X" onclick="openSidebar('29_Wolfsbane Abomination',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\58_Zombie Eaters.png" id="58_Zombie Eaters" data-flag="@X" onclick="openSidebar('58_Zombie Eaters',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\87_Wolfsbane Revenant.png" id="87_Wolfsbane Revenant" data-flag="@X" onclick="openSidebar('87_Wolfsbane Revenant',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\116_Wrathchild.png" id="116_Wrathchild" data-flag="@X" onclick="openSidebar('116_Wrathchild',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\145_Woods to Eternity.png" id="145_Woods to Eternity" data-flag="@X" onclick="openSidebar('145_Woods to Eternity',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\3_Court of the Crimson King.png" id="3_Court of the Crimson King" data-flag="@X" onclick="openSidebar('3_Court of the Crimson King',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\30_Angry Chair.png" id="30_Angry Chair" data-flag="@X" onclick="openSidebar('30_Angry Chair',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\59_Angel of Death.png" id="59_Angel of Death" data-flag="@X" onclick="openSidebar('59_Angel of Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\95_Corpse Paint.png" id="95_Corpse Paint" data-flag="@X" onclick="openSidebar('95_Corpse Paint',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\123_Encircling Tyrant.png" id="123_Encircling Tyrant" data-flag="@X" onclick="openSidebar('123_Encircling Tyrant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\9_The Evil That Men Do.png" id="9_The Evil That Men Do" data-flag="@X" onclick="openSidebar('9_The Evil That Men Do',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\46_A Saucerful of Secrets.png" id="46_A Saucerful of Secrets" data-flag="@X" onclick="openSidebar('46_A Saucerful of Secrets',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\83_Superunknown.png" id="83_Superunknown" data-flag="@X" onclick="openSidebar('83_Superunknown',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\105_Peace Sells, But Who's Buying.png" id="105_Peace Sells, But Whos Buying" data-flag="@X" onclick="openSidebar('105_Peace Sells, But Whos Buying',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\134_The Motorblade.png" id="134_The Motorblade" data-flag="@X" onclick="openSidebar('134_The Motorblade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\10_Frippertronic Mass.png" id="10_Frippertronic Mass" data-flag="@X" onclick="openSidebar('10_Frippertronic Mass',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\35_Cuckoo for Caca.png" id="35_Cuckoo for Caca" data-flag="@X" onclick="openSidebar('35_Cuckoo for Caca',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\61_Bleed the Freak.png" id="61_Bleed the Freak" data-flag="@X" onclick="openSidebar('61_Bleed the Freak',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\90_Blackmail the Universe.png" id="90_Blackmail the Universe" data-flag="@X" onclick="openSidebar('90_Blackmail the Universe',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\118_Beyond the North Winds.png" id="118_Beyond the North Winds" data-flag="@X" onclick="openSidebar('118_Beyond the North Winds',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\12_La Sexorcisto, the Astro-Creep.png" id="12_La Sexorcisto, the Astro-Creep" data-flag="@X" onclick="openSidebar('12_La Sexorcisto, the Astro-Creep',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\37_Dopesmoker.png" id="37_Dopesmoker" data-flag="@X" onclick="openSidebar('37_Dopesmoker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\71_Harmonic Ghost.png" id="71_Harmonic Ghost" data-flag="@X" onclick="openSidebar('71_Harmonic Ghost',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\91_Blastbeat Phoenix.png" id="91_Blastbeat Phoenix" data-flag="@X" onclick="openSidebar('91_Blastbeat Phoenix',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\120_Bloom Tender.png" id="120_Bloom Tender" data-flag="@X" onclick="openSidebar('120_Bloom Tender',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\14_The Lamb Lies Down.png" id="14_The Lamb Lies Down" data-flag="@X" onclick="openSidebar('14_The Lamb Lies Down',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\44_Phantom Echoplex.png" id="44_Phantom Echoplex" data-flag="@X" onclick="openSidebar('44_Phantom Echoplex',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\76_Minus Human.png" id="76_Minus Human" data-flag="@X" onclick="openSidebar('76_Minus Human',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\92_Bloodsword and Cold Sun.png" id="92_Bloodsword and Cold Sun" data-flag="@X" onclick="openSidebar('92_Bloodsword and Cold Sun',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\128_The Iron Savage.png" id="128_The Iron Savage" data-flag="@X" onclick="openSidebar('128_The Iron Savage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\16_Mindcrime Enforcer.png" id="16_Mindcrime Enforcer" data-flag="@X" onclick="openSidebar('16_Mindcrime Enforcer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\45_Read the Runes.png" id="45_Read the Runes" data-flag="@X" onclick="openSidebar('45_Read the Runes',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\78_The Painkiller.png" id="78_The Painkiller" data-flag="@X" onclick="openSidebar('78_The Painkiller',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\102_Ghashburz Monument.png" id="102_Ghashburz Monument" data-flag="@X" onclick="openSidebar('102_Ghashburz Monument',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\129_Jenax, the Hellhammer.png" id="129_Jenax, the Hellhammer" data-flag="@X" onclick="openSidebar('129_Jenax, the Hellhammer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\17_No Earthly Connection.png" id="17_No Earthly Connection" data-flag="@X" onclick="openSidebar('17_No Earthly Connection',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\51_The Thin Ice of a New Day.png" id="51_The Thin Ice of a New Day" data-flag="@X" onclick="openSidebar('51_The Thin Ice of a New Day',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\79_Rusty Uncaged.png" id="79_Rusty Uncaged" data-flag="@X" onclick="openSidebar('79_Rusty Uncaged',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\103_Louder than Hell.png" id="103_Louder than Hell" data-flag="@X" onclick="openSidebar('103_Louder than Hell',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\140_Thunder Renegade.png" id="140_Thunder Renegade" data-flag="@X" onclick="openSidebar('140_Thunder Renegade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\28_When Two Worlds Collide.png" id="28_When Two Worlds Collide" data-flag="@X" onclick="openSidebar('28_When Two Worlds Collide',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\56_Wayk's Roundabout.png" id="56_Wayks Roundabout" data-flag="@X" onclick="openSidebar('56_Wayks Roundabout',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\84_There Will Be No Encore.png" id="84_There Will Be No Encore" data-flag="@X" onclick="openSidebar('84_There Will Be No Encore',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\108_The Punishment Due.png" id="108_The Punishment Due" data-flag="@X" onclick="openSidebar('108_The Punishment Due',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\141_To Tame a Land.png" id="141_To Tame a Land" data-flag="@X" onclick="openSidebar('141_To Tame a Land',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\2_Corpsehowl Whisperer.png" id="2_Corpsehowl Whisperer" data-flag="@X" onclick="openSidebar('2_Corpsehowl Whisperer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\32_Basscrush Tormentor.png" id="32_Basscrush Tormentor" data-flag="@X" onclick="openSidebar('32_Basscrush Tormentor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\62_Corpsehowl Shambler.png" id="62_Corpsehowl Shambler" data-flag="@X" onclick="openSidebar('62_Corpsehowl Shambler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\88_Am I Savage.png" id="88_Am I Savage" data-flag="@X" onclick="openSidebar('88_Am I Savage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\117_Basscrush Devourer.png" id="117_Basscrush Devourer" data-flag="@X" onclick="openSidebar('117_Basscrush Devourer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\5_Destroying Animalizer.png" id="5_Destroying Animalizer" data-flag="@X" onclick="openSidebar('5_Destroying Animalizer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\34_Caught Somewhere in Time.png" id="34_Caught Somewhere in Time" data-flag="@X" onclick="openSidebar('34_Caught Somewhere in Time',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\64_Creeping Death.png" id="64_Creeping Death" data-flag="@X" onclick="openSidebar('64_Creeping Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\89_Architect of Aggression.png" id="89_Architect of Aggression" data-flag="@X" onclick="openSidebar('89_Architect of Aggression',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\119_Blood and Memory.png" id="119_Blood and Memory" data-flag="@X" onclick="openSidebar('119_Blood and Memory',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\7_Dreamer Deceiver.png" id="7_Dreamer Deceiver" data-flag="@X" onclick="openSidebar('7_Dreamer Deceiver',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\38_Drudge Shade.png" id="38_Drudge Shade" data-flag="@X" onclick="openSidebar('38_Drudge Shade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\65_Deathgrind Assaulter.png" id="65_Deathgrind Assaulter" data-flag="@X" onclick="openSidebar('65_Deathgrind Assaulter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\94_Can I Play with Madness.png" id="94_Can I Play with Madness" data-flag="@X" onclick="openSidebar('94_Can I Play with Madness',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\121_Damage Case.png" id="121_Damage Case" data-flag="@X" onclick="openSidebar('121_Damage Case',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\15_Master of Revenge.png" id="15_Master of Revenge" data-flag="@X" onclick="openSidebar('15_Master of Revenge',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\40_Lightning to the Nations.png" id="40_Lightning to the Nations" data-flag="@X" onclick="openSidebar('40_Lightning to the Nations',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\66_Die Dead Enough.png" id="66_Die Dead Enough" data-flag="@X" onclick="openSidebar('66_Die Dead Enough',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\96_Dawn of the Black Hearts.png" id="96_Dawn of the Black Hearts" data-flag="@X" onclick="openSidebar('96_Dawn of the Black Hearts',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\122_Deathgrind Aggravator.png" id="122_Deathgrind Aggravator" data-flag="@X" onclick="openSidebar('122_Deathgrind Aggravator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\18_Powergroove Harvester.png" id="18_Powergroove Harvester" data-flag="@X" onclick="openSidebar('18_Powergroove Harvester',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\42_Monkey Gone to Heaven.png" id="42_Monkey Gone to Heaven" data-flag="@X" onclick="openSidebar('42_Monkey Gone to Heaven',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\70_Hardwired Bonespitter.png" id="70_Hardwired Bonespitter" data-flag="@X" onclick="openSidebar('70_Hardwired Bonespitter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\97_Deathcrusher.png" id="97_Deathcrusher" data-flag="@X" onclick="openSidebar('97_Deathcrusher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\127_Into Glory Ride.png" id="127_Into Glory Ride" data-flag="@X" onclick="openSidebar('127_Into Glory Ride',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\19_Primal Sledger.png" id="19_Primal Sledger" data-flag="@X" onclick="openSidebar('19_Primal Sledger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\49_Stormriff Shrieker.png" id="49_Stormriff Shrieker" data-flag="@X" onclick="openSidebar('49_Stormriff Shrieker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\72_Killing Is My Business.png" id="72_Killing Is My Business" data-flag="@X" onclick="openSidebar('72_Killing Is My Business',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\106_Powergroove Eruptor.png" id="106_Powergroove Eruptor" data-flag="@X" onclick="openSidebar('106_Powergroove Eruptor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\130_Kill Minister.png" id="130_Kill Minister" data-flag="@X" onclick="openSidebar('130_Kill Minister',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\20_Revolution Is My Name.png" id="20_Revolution Is My Name" data-flag="@X" onclick="openSidebar('20_Revolution Is My Name',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\50_That Which Passes Like Clouds.png" id="50_That Which Passes Like Clouds" data-flag="@X" onclick="openSidebar('50_That Which Passes Like Clouds',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\73_Leper Messiah.png" id="73_Leper Messiah" data-flag="@X" onclick="openSidebar('73_Leper Messiah',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\107_Priest of Mayhem.png" id="107_Priest of Mayhem" data-flag="@X" onclick="openSidebar('107_Priest of Mayhem',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\132_Master of Reality.png" id="132_Master of Reality" data-flag="@X" onclick="openSidebar('132_Master of Reality',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\23_Shining Diamond.png" id="23_Shining Diamond" data-flag="@X" onclick="openSidebar('23_Shining Diamond',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\52_Topographic Weaver.png" id="52_Topographic Weaver" data-flag="@X" onclick="openSidebar('52_Topographic Weaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\74_Live Through This.png" id="74_Live Through This" data-flag="@X" onclick="openSidebar('74_Live Through This',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\109_Reinvented Steel.png" id="109_Reinvented Steel" data-flag="@X" onclick="openSidebar('109_Reinvented Steel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\135_Nightside Eclipse.png" id="135_Nightside Eclipse" data-flag="@X" onclick="openSidebar('135_Nightside Eclipse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\25_Spiral Architect.png" id="25_Spiral Architect" data-flag="@X" onclick="openSidebar('25_Spiral Architect',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\54_Wayk's Apprentice.png" id="54_Wayks Apprentice" data-flag="@X" onclick="openSidebar('54_Wayks Apprentice',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\81_Sleep Now in the Fire.png" id="81_Sleep Now in the Fire" data-flag="@X" onclick="openSidebar('81_Sleep Now in the Fire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\111_Savage Tarkus.png" id="111_Savage Tarkus" data-flag="@X" onclick="openSidebar('111_Savage Tarkus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\136_Per Oyst's Disciple.png" id="136_Per Oysts Disciple" data-flag="@X" onclick="openSidebar('136_Per Oysts Disciple',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\27_Wayk's Lament.png" id="27_Wayks Lament" data-flag="@X" onclick="openSidebar('27_Wayks Lament',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\55_Wayk's Rhapsody.png" id="55_Wayks Rhapsody" data-flag="@X" onclick="openSidebar('55_Wayks Rhapsody',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\85_Thunderkisser.png" id="85_Thunderkisser" data-flag="@X" onclick="openSidebar('85_Thunderkisser',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\113_Stormriff Crasher.png" id="113_Stormriff Crasher" data-flag="@X" onclick="openSidebar('113_Stormriff Crasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\137_Proud Necrobutcher.png" id="137_Proud Necrobutcher" data-flag="@X" onclick="openSidebar('137_Proud Necrobutcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\1_Clash with Reality.png" id="1_Clash with Reality" data-flag="@X" onclick="openSidebar('1_Clash with Reality',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\31_Arpeggiate.png" id="31_Arpeggiate" data-flag="@X" onclick="openSidebar('31_Arpeggiate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\60_Because It's Midnight.png" id="60_Because Its Midnight" data-flag="@X" onclick="openSidebar('60_Because Its Midnight',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\93_Buried by Time and Dust.png" id="93_Buried by Time and Dust" data-flag="@X" onclick="openSidebar('93_Buried by Time and Dust',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\124_Five Minutes Alone.png" id="124_Five Minutes Alone" data-flag="@X" onclick="openSidebar('124_Five Minutes Alone',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\4_Defenders of the Faith.png" id="4_Defenders of the Faith" data-flag="@X" onclick="openSidebar('4_Defenders of the Faith',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\33_Can't Rain All the Time.png" id="33_Cant Rain All the Time" data-flag="@X" onclick="openSidebar('33_Cant Rain All the Time',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\63_Corrupted Conviction.png" id="63_Corrupted Conviction" data-flag="@X" onclick="openSidebar('63_Corrupted Conviction',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\98_The Devil Put Dinosaurs Here.png" id="98_The Devil Put Dinosaurs Here" data-flag="@X" onclick="openSidebar('98_The Devil Put Dinosaurs Here',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\125_Fury of Ghashburz.png" id="125_Fury of Ghashburz" data-flag="@X" onclick="openSidebar('125_Fury of Ghashburz',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\6_Down Fall the Good Guys.png" id="6_Down Fall the Good Guys" data-flag="@X" onclick="openSidebar('6_Down Fall the Good Guys',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\36_Don't Follow.png" id="36_Dont Follow" data-flag="@X" onclick="openSidebar('36_Dont Follow',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\67_Disciple of Oronimos.png" id="67_Disciple of Oronimos" data-flag="@X" onclick="openSidebar('67_Disciple of Oronimos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\99_Disciple of Venom.png" id="99_Disciple of Venom" data-flag="@X" onclick="openSidebar('99_Disciple of Venom',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\126_Ghashburz Diviner.png" id="126_Ghashburz Diviner" data-flag="@X" onclick="openSidebar('126_Ghashburz Diviner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\8_Engineered Tarkus.png" id="8_Engineered Tarkus" data-flag="@X" onclick="openSidebar('8_Engineered Tarkus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\39_Jar of Flies.png" id="39_Jar of Flies" data-flag="@X" onclick="openSidebar('39_Jar of Flies',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\68_Dopes to Infinity.png" id="68_Dopes to Infinity" data-flag="@X" onclick="openSidebar('68_Dopes to Infinity',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\100_Disposable Hero.png" id="100_Disposable Hero" data-flag="@X" onclick="openSidebar('100_Disposable Hero',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\131_Lost Forgotten Ashes.png" id="131_Lost Forgotten Ashes" data-flag="@X" onclick="openSidebar('131_Lost Forgotten Ashes',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\11_Great Deceiver.png" id="11_Great Deceiver" data-flag="@X" onclick="openSidebar('11_Great Deceiver',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\41_Man in the Box.png" id="41_Man in the Box" data-flag="@X" onclick="openSidebar('41_Man in the Box',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\69_Fall on Black Days.png" id="69_Fall on Black Days" data-flag="@X" onclick="openSidebar('69_Fall on Black Days',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\101_Dissident Aggressor.png" id="101_Dissident Aggressor" data-flag="@X" onclick="openSidebar('101_Dissident Aggressor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\133_Mercyful Oathbreaker.png" id="133_Mercyful Oathbreaker" data-flag="@X" onclick="openSidebar('133_Mercyful Oathbreaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\13_Lady of the Dancing Water.png" id="13_Lady of the Dancing Water" data-flag="@X" onclick="openSidebar('13_Lady of the Dancing Water',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\43_Neurotic Howler.png" id="43_Neurotic Howler" data-flag="@X" onclick="openSidebar('43_Neurotic Howler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\75_Metal Thrashing Madness.png" id="75_Metal Thrashing Madness" data-flag="@X" onclick="openSidebar('75_Metal Thrashing Madness',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\104_Ornery Gorgoroth.png" id="104_Ornery Gorgoroth" data-flag="@X" onclick="openSidebar('104_Ornery Gorgoroth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\138_Riftspawn Mosher.png" id="138_Riftspawn Mosher" data-flag="@X" onclick="openSidebar('138_Riftspawn Mosher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\21_Scourge of the Metal Mount.png" id="21_Scourge of the Metal Mount" data-flag="@X" onclick="openSidebar('21_Scourge of the Metal Mount',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\47_Shambling Pigpile.png" id="47_Shambling Pigpile" data-flag="@X" onclick="openSidebar('47_Shambling Pigpile',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\77_No Prayer for the Dying.png" id="77_No Prayer for the Dying" data-flag="@X" onclick="openSidebar('77_No Prayer for the Dying',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\110_Ride the Lightning.png" id="110_Ride the Lightning" data-flag="@X" onclick="openSidebar('110_Ride the Lightning',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\139_Savage Exciter.png" id="139_Savage Exciter" data-flag="@X" onclick="openSidebar('139_Savage Exciter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\22_Screaming for Vengeance.png" id="22_Screaming for Vengeance" data-flag="@X" onclick="openSidebar('22_Screaming for Vengeance',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\48_Stained Class.png" id="48_Stained Class" data-flag="@X" onclick="openSidebar('48_Stained Class',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\80_Script for a Jester's Tear.png" id="80_Script for a Jesters Tear" data-flag="@X" onclick="openSidebar('80_Script for a Jesters Tear',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\112_Smoke and Red Light.png" id="112_Smoke and Red Light" data-flag="@X" onclick="openSidebar('112_Smoke and Red Light',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\142_Tomb of the Fog Kingdom.png" id="142_Tomb of the Fog Kingdom" data-flag="@X" onclick="openSidebar('142_Tomb of the Fog Kingdom',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\24_Skull Beneath the Skin.png" id="24_Skull Beneath the Skin" data-flag="@X" onclick="openSidebar('24_Skull Beneath the Skin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\53_The Unnamed Feeling.png" id="53_The Unnamed Feeling" data-flag="@X" onclick="openSidebar('53_The Unnamed Feeling',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\82_So Far, So Good, So What!.png" id="82_So Far, So Good, So What!" data-flag="@X" onclick="openSidebar('82_So Far, So Good, So What!',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\114_This Day We Fight.png" id="114_This Day We Fight" data-flag="@X" onclick="openSidebar('114_This Day We Fight',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\143_Vulgar Axegrinder.png" id="143_Vulgar Axegrinder" data-flag="@X" onclick="openSidebar('143_Vulgar Axegrinder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\26_Supernatural Anaesthetist.png" id="26_Supernatural Anaesthetist" data-flag="@X" onclick="openSidebar('26_Supernatural Anaesthetist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\57_Wolfsbane Harrier.png" id="57_Wolfsbane Harrier" data-flag="@X" onclick="openSidebar('57_Wolfsbane Harrier',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\86_Unsung Ironhead.png" id="86_Unsung Ironhead" data-flag="@X" onclick="openSidebar('86_Unsung Ironhead',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\115_Wolfsbane Destructor.png" id="115_Wolfsbane Destructor" data-flag="@X" onclick="openSidebar('115_Wolfsbane Destructor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\144_Wolfsbane Goliath.png" id="144_Wolfsbane Goliath" data-flag="@X" onclick="openSidebar('144_Wolfsbane Goliath',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\29_Wolfsbane Abomination.png" id="29_Wolfsbane Abomination" data-flag="@X" onclick="openSidebar('29_Wolfsbane Abomination',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\58_Zombie Eaters.png" id="58_Zombie Eaters" data-flag="@X" onclick="openSidebar('58_Zombie Eaters',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\87_Wolfsbane Revenant.png" id="87_Wolfsbane Revenant" data-flag="@X" onclick="openSidebar('87_Wolfsbane Revenant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\116_Wrathchild.png" id="116_Wrathchild" data-flag="@X" onclick="openSidebar('116_Wrathchild',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\145_Woods to Eternity.png" id="145_Woods to Eternity" data-flag="@X" onclick="openSidebar('145_Woods to Eternity',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\147_Battle of Glass Tears.png" id="147_Battle of Glass Tears" data-flag="@X" onclick="openSidebar('147_Battle of Glass Tears',true)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\161_The Crest of a Knave.png" id="161_The Crest of a Knave" data-flag="@X" onclick="openSidebar('161_The Crest of a Knave',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\181_Lieve, Black Metal Witch.png" id="181_Lieve, Black Metal Witch" data-flag="@X" onclick="openSidebar('181_Lieve, Black Metal Witch',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\189_Church in Flames.png" id="189_Church in Flames" data-flag="@X" onclick="openSidebar('189_Church in Flames',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\205_Grunt, the Triumph of Steel.png" id="205_Grunt, the Triumph of Steel" data-flag="@X" onclick="openSidebar('205_Grunt, the Triumph of Steel',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\159_Wayk, The Crimson King.png" id="159_Wayk, The Crimson King" data-flag="@X" onclick="openSidebar('159_Wayk, The Crimson King',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\168_The Stale Crow.png" id="168_The Stale Crow" data-flag="@X" onclick="openSidebar('168_The Stale Crow',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\182_Maegathrax, South of Heaven.png" id="182_Maegathrax, South of Heaven" data-flag="@X" onclick="openSidebar('182_Maegathrax, South of Heaven',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\193_Per Oyst the Dead.png" id="193_Per Oyst the Dead" data-flag="@X" onclick="openSidebar('193_Per Oyst the Dead',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\202_All Men Play on Ten.png" id="202_All Men Play on Ten" data-flag="@X" onclick="openSidebar('202_All Men Play on Ten',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\149_Endless Solo.png" id="149_Endless Solo" data-flag="@X" onclick="openSidebar('149_Endless Solo',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\167_Spiderland Quarry.png" id="167_Spiderland Quarry" data-flag="@X" onclick="openSidebar('167_Spiderland Quarry',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\180_Kick the Chair.png" id="180_Kick the Chair" data-flag="@X" onclick="openSidebar('180_Kick the Chair',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\190_Dour Churchburner.png" id="190_Dour Churchburner" data-flag="@X" onclick="openSidebar('190_Dour Churchburner',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\206_Grunt's Archangel.png" id="206_Grunts Archangel" data-flag="@X" onclick="openSidebar('206_Grunts Archangel',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\154_Nursery Cryme.png" id="154_Nursery Cryme" data-flag="@X" onclick="openSidebar('154_Nursery Cryme',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\170_The Toys Go Winding Down.png" id="170_The Toys Go Winding Down" data-flag="@X" onclick="openSidebar('170_The Toys Go Winding Down',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\185_Rayara, Abyssal Slayer.png" id="185_Rayara, Abyssal Slayer" data-flag="@X" onclick="openSidebar('185_Rayara, Abyssal Slayer',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\198_Thulean Mysteries.png" id="198_Thulean Mysteries" data-flag="@X" onclick="openSidebar('198_Thulean Mysteries',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\212_Overkiller.png" id="212_Overkiller" data-flag="@X" onclick="openSidebar('212_Overkiller',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\156_The Passion Play.png" id="156_The Passion Play" data-flag="@X" onclick="openSidebar('156_The Passion Play',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\173_We Die Young.png" id="173_We Die Young" data-flag="@X" onclick="openSidebar('173_We Die Young',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\186_Seasons in the Abyss.png" id="186_Seasons in the Abyss" data-flag="@X" onclick="openSidebar('186_Seasons in the Abyss',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\201_Wrath of Ghashburz.png" id="201_Wrath of Ghashburz" data-flag="@X" onclick="openSidebar('201_Wrath of Ghashburz',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\224_Redeemer of Souls.png" id="224_Redeemer of Souls" data-flag="@X" onclick="openSidebar('224_Redeemer of Souls',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\215_Obscured by Clouds.png" id="215_Obscured by Clouds" data-flag="@X" onclick="openSidebar('215_Obscured by Clouds',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\217_The Air is Getting Slippery.png" id="217_The Air is Getting Slippery" data-flag="@X" onclick="openSidebar('217_The Air is Getting Slippery',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\219_Frayed End of Sanity.png" id="219_Frayed End of Sanity" data-flag="@X" onclick="openSidebar('219_Frayed End of Sanity',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\221_Avenger of Oronimos.png" id="221_Avenger of Oronimos" data-flag="@X" onclick="openSidebar('221_Avenger of Oronimos',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\207_Hammersign Exemplar.png" id="207_Hammersign Exemplar" data-flag="@X" onclick="openSidebar('207_Hammersign Exemplar',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\150_Golden Moonchild.png" id="150_Golden Moonchild" data-flag="@X" onclick="openSidebar('150_Golden Moonchild',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\160_Angel Dust.png" id="160_Angel Dust" data-flag="@X" onclick="openSidebar('160_Angel Dust',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\174_Among the Living.png" id="174_Among the Living" data-flag="@X" onclick="openSidebar('174_Among the Living',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\188_Arbiter of True Kvlt.png" id="188_Arbiter of True Kvlt" data-flag="@X" onclick="openSidebar('188_Arbiter of True Kvlt',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\208_Iron-Fist Reaver.png" id="208_Iron-Fist Reaver" data-flag="@X" onclick="openSidebar('208_Iron-Fist Reaver',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\151_Halleluhwah Moonshaker.png" id="151_Halleluhwah Moonshaker" data-flag="@X" onclick="openSidebar('151_Halleluhwah Moonshaker',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\163_Dying Rain.png" id="163_Dying Rain" data-flag="@X" onclick="openSidebar('163_Dying Rain',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\175_Damage Inc.png" id="175_Damage Inc" data-flag="@X" onclick="openSidebar('175_Damage Inc',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\192_Pagan Fears.png" id="192_Pagan Fears" data-flag="@X" onclick="openSidebar('192_Pagan Fears',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\209_Killed By Death.png" id="209_Killed By Death" data-flag="@X" onclick="openSidebar('209_Killed By Death',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\152_Lark-Tongue Paladin.png" id="152_Lark-Tongue Paladin" data-flag="@X" onclick="openSidebar('152_Lark-Tongue Paladin',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\166_Shamegrinder.png" id="166_Shamegrinder" data-flag="@X" onclick="openSidebar('166_Shamegrinder',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\176_Efilnikufesin.png" id="176_Efilnikufesin" data-flag="@X" onclick="openSidebar('176_Efilnikufesin',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\194_The Purity of Armageddon.png" id="194_The Purity of Armageddon" data-flag="@X" onclick="openSidebar('194_The Purity of Armageddon',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\211_No Sleep Til Hammerfall.png" id="211_No Sleep Til Hammerfall" data-flag="@X" onclick="openSidebar('211_No Sleep Til Hammerfall',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\155_Obfuscate.png" id="155_Obfuscate" data-flag="@X" onclick="openSidebar('155_Obfuscate',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\169_To Snuff the Rooster.png" id="169_To Snuff the Rooster" data-flag="@X" onclick="openSidebar('169_To Snuff the Rooster',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\177_Fire-Jumper.png" id="177_Fire-Jumper" data-flag="@X" onclick="openSidebar('177_Fire-Jumper',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\195_Queen of the Dark Throne.png" id="195_Queen of the Dark Throne" data-flag="@X" onclick="openSidebar('195_Queen of the Dark Throne',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\213_Stone Dead Forever.png" id="213_Stone Dead Forever" data-flag="@X" onclick="openSidebar('213_Stone Dead Forever',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\157_Topographic Oceans.png" id="157_Topographic Oceans" data-flag="@X" onclick="openSidebar('157_Topographic Oceans',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\171_Unchained Facelifter.png" id="171_Unchained Facelifter" data-flag="@X" onclick="openSidebar('171_Unchained Facelifter',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\178_Fury of Maegathrax.png" id="178_Fury of Maegathrax" data-flag="@X" onclick="openSidebar('178_Fury of Maegathrax',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\196_Spirit of Ghashburz.png" id="196_Spirit of Ghashburz" data-flag="@X" onclick="openSidebar('196_Spirit of Ghashburz',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\214_The World Is Yours.png" id="214_The World Is Yours" data-flag="@X" onclick="openSidebar('214_The World Is Yours',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\158_Watcher in the Skies.png" id="158_Watcher in the Skies" data-flag="@X" onclick="openSidebar('158_Watcher in the Skies',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\172_Undermine.png" id="172_Undermine" data-flag="@X" onclick="openSidebar('172_Undermine',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\187_Skeletal Kreator.png" id="187_Skeletal Kreator" data-flag="@X" onclick="openSidebar('187_Skeletal Kreator',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\199_Walk the Path of Sorrow.png" id="199_Walk the Path of Sorrow" data-flag="@X" onclick="openSidebar('199_Walk the Path of Sorrow',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\223_Metal Charm.png" id="223_Metal Charm" data-flag="@X" onclick="openSidebar('223_Metal Charm',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\216_Shred Charm.png" id="216_Shred Charm" data-flag="@X" onclick="openSidebar('216_Shred Charm',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\218_Drudge Charm.png" id="218_Drudge Charm" data-flag="@X" onclick="openSidebar('218_Drudge Charm',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\220_Thrash Charm.png" id="220_Thrash Charm" data-flag="@X" onclick="openSidebar('220_Thrash Charm',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\222_Kvlt Charm.png" id="222_Kvlt Charm" data-flag="@X" onclick="openSidebar('222_Kvlt Charm',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\229_Chord of Valor.png" id="229_Chord of Valor" data-flag="@X" onclick="openSidebar('229_Chord of Valor',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\226_Chord of Complexity.png" id="226_Chord of Complexity" data-flag="@X" onclick="openSidebar('226_Chord of Complexity',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\227_Chord of Despair.png" id="227_Chord of Despair" data-flag="@X" onclick="openSidebar('227_Chord of Despair',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\225_Chord of Aggression.png" id="225_Chord of Aggression" data-flag="@X" onclick="openSidebar('225_Chord of Aggression',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\228_Chord of Passion.png" id="228_Chord of Passion" data-flag="@X" onclick="openSidebar('228_Chord of Passion',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\203_Big 'Orra.png" id="203_Big Orra" data-flag="@X" onclick="openSidebar('203_Big Orra',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\146_Astral Traveler.png" id="146_Astral Traveler" data-flag="@X" onclick="openSidebar('146_Astral Traveler',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\162_Down in a Hole.png" id="162_Down in a Hole" data-flag="@X" onclick="openSidebar('162_Down in a Hole',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\179_Into the Lungs of Hell.png" id="179_Into the Lungs of Hell" data-flag="@X" onclick="openSidebar('179_Into the Lungs of Hell',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\191_Ghashburz Kvltist.png" id="191_Ghashburz Kvltist" data-flag="@X" onclick="openSidebar('191_Ghashburz Kvltist',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\204_Brutal Powerslave.png" id="204_Brutal Powerslave" data-flag="@X" onclick="openSidebar('204_Brutal Powerslave',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\148_The Construction of Light.png" id="148_The Construction of Light" data-flag="@X" onclick="openSidebar('148_The Construction of Light',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\164_Pretty Hate Machines.png" id="164_Pretty Hate Machines" data-flag="@X" onclick="openSidebar('164_Pretty Hate Machines',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\183_Molten Inciter.png" id="183_Molten Inciter" data-flag="@X" onclick="openSidebar('183_Molten Inciter',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\197_Test of Purity.png" id="197_Test of Purity" data-flag="@X" onclick="openSidebar('197_Test of Purity',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\210_Might Makes Right.png" id="210_Might Makes Right" data-flag="@X" onclick="openSidebar('210_Might Makes Right',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\153_Minstrel in the Gallery.png" id="153_Minstrel in the Gallery" data-flag="@X" onclick="openSidebar('153_Minstrel in the Gallery',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\165_Rusted Limowreck.png" id="165_Rusted Limowreck" data-flag="@X" onclick="openSidebar('165_Rusted Limowreck',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\184_Motorbreather.png" id="184_Motorbreather" data-flag="@X" onclick="openSidebar('184_Motorbreather',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\200_Wall of Repression.png" id="200_Wall of Repression" data-flag="@X" onclick="openSidebar('200_Wall of Repression',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\237_Idol of the Metal Mount.png" id="237_Idol of the Metal Mount" data-flag="@X" onclick="openSidebar('237_Idol of the Metal Mount',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\234_Idol of the Church of Shred.png" id="234_Idol of the Church of Shred" data-flag="@X" onclick="openSidebar('234_Idol of the Church of Shred',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\235_Idol of the Dark Drudge.png" id="235_Idol of the Dark Drudge" data-flag="@X" onclick="openSidebar('235_Idol of the Dark Drudge',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\238_Idol of the Thrash Halls.png" id="238_Idol of the Thrash Halls" data-flag="@X" onclick="openSidebar('238_Idol of the Thrash Halls',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\236_Idol of the Kvlt Hells.png" id="236_Idol of the Kvlt Hells" data-flag="@X" onclick="openSidebar('236_Idol of the Kvlt Hells',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\147_Battle of Glass Tears.png" id="147_Battle of Glass Tears" data-flag="@X" onclick="openSidebar('147_Battle of Glass Tears',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\161_The Crest of a Knave.png" id="161_The Crest of a Knave" data-flag="@X" onclick="openSidebar('161_The Crest of a Knave',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\181_Lieve, Black Metal Witch.png" id="181_Lieve, Black Metal Witch" data-flag="@X" onclick="openSidebar('181_Lieve, Black Metal Witch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\189_Church in Flames.png" id="189_Church in Flames" data-flag="@X" onclick="openSidebar('189_Church in Flames',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\205_Grunt, the Triumph of Steel.png" id="205_Grunt, the Triumph of Steel" data-flag="@X" onclick="openSidebar('205_Grunt, the Triumph of Steel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\159_Wayk, The Crimson King.png" id="159_Wayk, The Crimson King" data-flag="@X" onclick="openSidebar('159_Wayk, The Crimson King',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\168_The Stale Crow.png" id="168_The Stale Crow" data-flag="@X" onclick="openSidebar('168_The Stale Crow',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\182_Maegathrax, South of Heaven.png" id="182_Maegathrax, South of Heaven" data-flag="@X" onclick="openSidebar('182_Maegathrax, South of Heaven',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\193_Per Oyst the Dead.png" id="193_Per Oyst the Dead" data-flag="@X" onclick="openSidebar('193_Per Oyst the Dead',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\202_All Men Play on Ten.png" id="202_All Men Play on Ten" data-flag="@X" onclick="openSidebar('202_All Men Play on Ten',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\149_Endless Solo.png" id="149_Endless Solo" data-flag="@X" onclick="openSidebar('149_Endless Solo',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\167_Spiderland Quarry.png" id="167_Spiderland Quarry" data-flag="@X" onclick="openSidebar('167_Spiderland Quarry',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\180_Kick the Chair.png" id="180_Kick the Chair" data-flag="@X" onclick="openSidebar('180_Kick the Chair',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\190_Dour Churchburner.png" id="190_Dour Churchburner" data-flag="@X" onclick="openSidebar('190_Dour Churchburner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\206_Grunt's Archangel.png" id="206_Grunts Archangel" data-flag="@X" onclick="openSidebar('206_Grunts Archangel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\154_Nursery Cryme.png" id="154_Nursery Cryme" data-flag="@X" onclick="openSidebar('154_Nursery Cryme',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\170_The Toys Go Winding Down.png" id="170_The Toys Go Winding Down" data-flag="@X" onclick="openSidebar('170_The Toys Go Winding Down',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\185_Rayara, Abyssal Slayer.png" id="185_Rayara, Abyssal Slayer" data-flag="@X" onclick="openSidebar('185_Rayara, Abyssal Slayer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\198_Thulean Mysteries.png" id="198_Thulean Mysteries" data-flag="@X" onclick="openSidebar('198_Thulean Mysteries',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\212_Overkiller.png" id="212_Overkiller" data-flag="@X" onclick="openSidebar('212_Overkiller',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\156_The Passion Play.png" id="156_The Passion Play" data-flag="@X" onclick="openSidebar('156_The Passion Play',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\173_We Die Young.png" id="173_We Die Young" data-flag="@X" onclick="openSidebar('173_We Die Young',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\186_Seasons in the Abyss.png" id="186_Seasons in the Abyss" data-flag="@X" onclick="openSidebar('186_Seasons in the Abyss',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\201_Wrath of Ghashburz.png" id="201_Wrath of Ghashburz" data-flag="@X" onclick="openSidebar('201_Wrath of Ghashburz',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\224_Redeemer of Souls.png" id="224_Redeemer of Souls" data-flag="@X" onclick="openSidebar('224_Redeemer of Souls',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\215_Obscured by Clouds.png" id="215_Obscured by Clouds" data-flag="@X" onclick="openSidebar('215_Obscured by Clouds',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\217_The Air is Getting Slippery.png" id="217_The Air is Getting Slippery" data-flag="@X" onclick="openSidebar('217_The Air is Getting Slippery',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\219_Frayed End of Sanity.png" id="219_Frayed End of Sanity" data-flag="@X" onclick="openSidebar('219_Frayed End of Sanity',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\221_Avenger of Oronimos.png" id="221_Avenger of Oronimos" data-flag="@X" onclick="openSidebar('221_Avenger of Oronimos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\207_Hammersign Exemplar.png" id="207_Hammersign Exemplar" data-flag="@X" onclick="openSidebar('207_Hammersign Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\150_Golden Moonchild.png" id="150_Golden Moonchild" data-flag="@X" onclick="openSidebar('150_Golden Moonchild',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\160_Angel Dust.png" id="160_Angel Dust" data-flag="@X" onclick="openSidebar('160_Angel Dust',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\174_Among the Living.png" id="174_Among the Living" data-flag="@X" onclick="openSidebar('174_Among the Living',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\188_Arbiter of True Kvlt.png" id="188_Arbiter of True Kvlt" data-flag="@X" onclick="openSidebar('188_Arbiter of True Kvlt',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\208_Iron-Fist Reaver.png" id="208_Iron-Fist Reaver" data-flag="@X" onclick="openSidebar('208_Iron-Fist Reaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\151_Halleluhwah Moonshaker.png" id="151_Halleluhwah Moonshaker" data-flag="@X" onclick="openSidebar('151_Halleluhwah Moonshaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\163_Dying Rain.png" id="163_Dying Rain" data-flag="@X" onclick="openSidebar('163_Dying Rain',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\175_Damage Inc.png" id="175_Damage Inc" data-flag="@X" onclick="openSidebar('175_Damage Inc',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\192_Pagan Fears.png" id="192_Pagan Fears" data-flag="@X" onclick="openSidebar('192_Pagan Fears',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\209_Killed By Death.png" id="209_Killed By Death" data-flag="@X" onclick="openSidebar('209_Killed By Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\152_Lark-Tongue Paladin.png" id="152_Lark-Tongue Paladin" data-flag="@X" onclick="openSidebar('152_Lark-Tongue Paladin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\166_Shamegrinder.png" id="166_Shamegrinder" data-flag="@X" onclick="openSidebar('166_Shamegrinder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\176_Efilnikufesin.png" id="176_Efilnikufesin" data-flag="@X" onclick="openSidebar('176_Efilnikufesin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\194_The Purity of Armageddon.png" id="194_The Purity of Armageddon" data-flag="@X" onclick="openSidebar('194_The Purity of Armageddon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\211_No Sleep Til Hammerfall.png" id="211_No Sleep Til Hammerfall" data-flag="@X" onclick="openSidebar('211_No Sleep Til Hammerfall',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\155_Obfuscate.png" id="155_Obfuscate" data-flag="@X" onclick="openSidebar('155_Obfuscate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\169_To Snuff the Rooster.png" id="169_To Snuff the Rooster" data-flag="@X" onclick="openSidebar('169_To Snuff the Rooster',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\177_Fire-Jumper.png" id="177_Fire-Jumper" data-flag="@X" onclick="openSidebar('177_Fire-Jumper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\195_Queen of the Dark Throne.png" id="195_Queen of the Dark Throne" data-flag="@X" onclick="openSidebar('195_Queen of the Dark Throne',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\213_Stone Dead Forever.png" id="213_Stone Dead Forever" data-flag="@X" onclick="openSidebar('213_Stone Dead Forever',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\157_Topographic Oceans.png" id="157_Topographic Oceans" data-flag="@X" onclick="openSidebar('157_Topographic Oceans',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\171_Unchained Facelifter.png" id="171_Unchained Facelifter" data-flag="@X" onclick="openSidebar('171_Unchained Facelifter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\178_Fury of Maegathrax.png" id="178_Fury of Maegathrax" data-flag="@X" onclick="openSidebar('178_Fury of Maegathrax',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\196_Spirit of Ghashburz.png" id="196_Spirit of Ghashburz" data-flag="@X" onclick="openSidebar('196_Spirit of Ghashburz',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\214_The World Is Yours.png" id="214_The World Is Yours" data-flag="@X" onclick="openSidebar('214_The World Is Yours',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\158_Watcher in the Skies.png" id="158_Watcher in the Skies" data-flag="@X" onclick="openSidebar('158_Watcher in the Skies',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\172_Undermine.png" id="172_Undermine" data-flag="@X" onclick="openSidebar('172_Undermine',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\187_Skeletal Kreator.png" id="187_Skeletal Kreator" data-flag="@X" onclick="openSidebar('187_Skeletal Kreator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\199_Walk the Path of Sorrow.png" id="199_Walk the Path of Sorrow" data-flag="@X" onclick="openSidebar('199_Walk the Path of Sorrow',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\223_Metal Charm.png" id="223_Metal Charm" data-flag="@X" onclick="openSidebar('223_Metal Charm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\216_Shred Charm.png" id="216_Shred Charm" data-flag="@X" onclick="openSidebar('216_Shred Charm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\218_Drudge Charm.png" id="218_Drudge Charm" data-flag="@X" onclick="openSidebar('218_Drudge Charm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\220_Thrash Charm.png" id="220_Thrash Charm" data-flag="@X" onclick="openSidebar('220_Thrash Charm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\222_Kvlt Charm.png" id="222_Kvlt Charm" data-flag="@X" onclick="openSidebar('222_Kvlt Charm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\229_Chord of Valor.png" id="229_Chord of Valor" data-flag="@X" onclick="openSidebar('229_Chord of Valor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\226_Chord of Complexity.png" id="226_Chord of Complexity" data-flag="@X" onclick="openSidebar('226_Chord of Complexity',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\227_Chord of Despair.png" id="227_Chord of Despair" data-flag="@X" onclick="openSidebar('227_Chord of Despair',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\225_Chord of Aggression.png" id="225_Chord of Aggression" data-flag="@X" onclick="openSidebar('225_Chord of Aggression',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\228_Chord of Passion.png" id="228_Chord of Passion" data-flag="@X" onclick="openSidebar('228_Chord of Passion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\203_Big 'Orra.png" id="203_Big Orra" data-flag="@X" onclick="openSidebar('203_Big Orra',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\146_Astral Traveler.png" id="146_Astral Traveler" data-flag="@X" onclick="openSidebar('146_Astral Traveler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\162_Down in a Hole.png" id="162_Down in a Hole" data-flag="@X" onclick="openSidebar('162_Down in a Hole',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\179_Into the Lungs of Hell.png" id="179_Into the Lungs of Hell" data-flag="@X" onclick="openSidebar('179_Into the Lungs of Hell',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\191_Ghashburz Kvltist.png" id="191_Ghashburz Kvltist" data-flag="@X" onclick="openSidebar('191_Ghashburz Kvltist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\204_Brutal Powerslave.png" id="204_Brutal Powerslave" data-flag="@X" onclick="openSidebar('204_Brutal Powerslave',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\148_The Construction of Light.png" id="148_The Construction of Light" data-flag="@X" onclick="openSidebar('148_The Construction of Light',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\164_Pretty Hate Machines.png" id="164_Pretty Hate Machines" data-flag="@X" onclick="openSidebar('164_Pretty Hate Machines',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\183_Molten Inciter.png" id="183_Molten Inciter" data-flag="@X" onclick="openSidebar('183_Molten Inciter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\197_Test of Purity.png" id="197_Test of Purity" data-flag="@X" onclick="openSidebar('197_Test of Purity',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\210_Might Makes Right.png" id="210_Might Makes Right" data-flag="@X" onclick="openSidebar('210_Might Makes Right',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\153_Minstrel in the Gallery.png" id="153_Minstrel in the Gallery" data-flag="@X" onclick="openSidebar('153_Minstrel in the Gallery',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\165_Rusted Limowreck.png" id="165_Rusted Limowreck" data-flag="@X" onclick="openSidebar('165_Rusted Limowreck',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\184_Motorbreather.png" id="184_Motorbreather" data-flag="@X" onclick="openSidebar('184_Motorbreather',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\200_Wall of Repression.png" id="200_Wall of Repression" data-flag="@X" onclick="openSidebar('200_Wall of Repression',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\237_Idol of the Metal Mount.png" id="237_Idol of the Metal Mount" data-flag="@X" onclick="openSidebar('237_Idol of the Metal Mount',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\234_Idol of the Church of Shred.png" id="234_Idol of the Church of Shred" data-flag="@X" onclick="openSidebar('234_Idol of the Church of Shred',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\235_Idol of the Dark Drudge.png" id="235_Idol of the Dark Drudge" data-flag="@X" onclick="openSidebar('235_Idol of the Dark Drudge',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\238_Idol of the Thrash Halls.png" id="238_Idol of the Thrash Halls" data-flag="@X" onclick="openSidebar('238_Idol of the Thrash Halls',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\236_Idol of the Kvlt Hells.png" id="236_Idol of the Kvlt Hells" data-flag="@X" onclick="openSidebar('236_Idol of the Kvlt Hells',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\245_Shield of Sound and Fury.png" id="245_Shield of Sound and Fury" data-flag="@X" onclick="openSidebar('245_Shield of Sound and Fury',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\231_Doll Parts.png" id="231_Doll Parts" data-flag="@X" onclick="openSidebar('231_Doll Parts',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\239_Mask of Oronimos.png" id="239_Mask of Oronimos" data-flag="@X" onclick="openSidebar('239_Mask of Oronimos',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\246_Slayer's Crypt.png" id="246_Slayers Crypt" data-flag="@X" onclick="openSidebar('246_Slayers Crypt',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\248_Thunder God's Idol.png" id="248_Thunder Gods Idol" data-flag="@X" onclick="openSidebar('248_Thunder Gods Idol',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\249_Time and a Word.png" id="249_Time and a Word" data-flag="@X" onclick="openSidebar('249_Time and a Word',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\230_Diamond Head.png" id="230_Diamond Head" data-flag="@X" onclick="openSidebar('230_Diamond Head',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\240_Massive Noise Injector.png" id="240_Massive Noise Injector" data-flag="@X" onclick="openSidebar('240_Massive Noise Injector',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\242_Rattlehead.png" id="242_Rattlehead" data-flag="@X" onclick="openSidebar('242_Rattlehead',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\247_Stormtrooper of Death.png" id="247_Stormtrooper of Death" data-flag="@X" onclick="openSidebar('247_Stormtrooper of Death',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\250_Unit Shifter.png" id="250_Unit Shifter" data-flag="@X" onclick="openSidebar('250_Unit Shifter',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\232_Hand of the Evil Eye.png" id="232_Hand of the Evil Eye" data-flag="@X" onclick="openSidebar('232_Hand of the Evil Eye',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\233_Human Wreckage.png" id="233_Human Wreckage" data-flag="@X" onclick="openSidebar('233_Human Wreckage',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\241_Metal Militia.png" id="241_Metal Militia" data-flag="@X" onclick="openSidebar('241_Metal Militia',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\243_Sad Wings of Destiny.png" id="243_Sad Wings of Destiny" data-flag="@X" onclick="openSidebar('243_Sad Wings of Destiny',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\244_Shard of the Schism.png" id="244_Shard of the Schism" data-flag="@X" onclick="openSidebar('244_Shard of the Schism',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\257_Paths of Glory.png" id="257_Paths of Glory" data-flag="@X" onclick="openSidebar('257_Paths of Glory',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\253_Edge of the World.png" id="253_Edge of the World" data-flag="@X" onclick="openSidebar('253_Edge of the World',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\254_Land of Sunshine.png" id="254_Land of Sunshine" data-flag="@X" onclick="openSidebar('254_Land of Sunshine',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\255_Last Cup of Sorrow.png" id="255_Last Cup of Sorrow" data-flag="@X" onclick="openSidebar('255_Last Cup of Sorrow',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\260_Sol Invictus.png" id="260_Sol Invictus" data-flag="@X" onclick="openSidebar('260_Sol Invictus',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\262_The Church of Shred.png" id="262_The Church of Shred" data-flag="@X" onclick="openSidebar('262_The Church of Shred',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\263_The Dark Drudge.png" id="263_The Dark Drudge" data-flag="@X" onclick="openSidebar('263_The Dark Drudge',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\266_The Thrash Halls.png" id="266_The Thrash Halls" data-flag="@X" onclick="openSidebar('266_The Thrash Halls',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\264_The Kvlt Hells.png" id="264_The Kvlt Hells" data-flag="@X" onclick="openSidebar('264_The Kvlt Hells',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\265_The Metal Mount.png" id="265_The Metal Mount" data-flag="@X" onclick="openSidebar('265_The Metal Mount',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\251_Baroque Court.png" id="251_Baroque Court" data-flag="@X" onclick="openSidebar('251_Baroque Court',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\252_Brutal Architecture.png" id="252_Brutal Architecture" data-flag="@X" onclick="openSidebar('252_Brutal Architecture',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\256_Ominous Sump.png" id="256_Ominous Sump" data-flag="@X" onclick="openSidebar('256_Ominous Sump',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\259_Rusted Splendor.png" id="259_Rusted Splendor" data-flag="@X" onclick="openSidebar('259_Rusted Splendor',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\261_Towering Folly.png" id="261_Towering Folly" data-flag="@X" onclick="openSidebar('261_Towering Folly',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\258_Rock of Ages.png" id="258_Rock of Ages" data-flag="@X" onclick="openSidebar('258_Rock of Ages',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\267_Plains.png" id="267_Plains" data-flag="@X" onclick="openSidebar('267_Plains',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\268_Island.png" id="268_Island" data-flag="@X" onclick="openSidebar('268_Island',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\269_Swamp.png" id="269_Swamp" data-flag="@X" onclick="openSidebar('269_Swamp',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\270_Mountain.png" id="270_Mountain" data-flag="@X" onclick="openSidebar('270_Mountain',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\271_Forest.png" id="271_Forest" data-flag="@X" onclick="openSidebar('271_Forest',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\245_Shield of Sound and Fury.png" id="245_Shield of Sound and Fury" data-flag="@X" onclick="openSidebar('245_Shield of Sound and Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\231_Doll Parts.png" id="231_Doll Parts" data-flag="@X" onclick="openSidebar('231_Doll Parts',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\239_Mask of Oronimos.png" id="239_Mask of Oronimos" data-flag="@X" onclick="openSidebar('239_Mask of Oronimos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\246_Slayer's Crypt.png" id="246_Slayers Crypt" data-flag="@X" onclick="openSidebar('246_Slayers Crypt',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\248_Thunder God's Idol.png" id="248_Thunder Gods Idol" data-flag="@X" onclick="openSidebar('248_Thunder Gods Idol',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\249_Time and a Word.png" id="249_Time and a Word" data-flag="@X" onclick="openSidebar('249_Time and a Word',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\230_Diamond Head.png" id="230_Diamond Head" data-flag="@X" onclick="openSidebar('230_Diamond Head',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\240_Massive Noise Injector.png" id="240_Massive Noise Injector" data-flag="@X" onclick="openSidebar('240_Massive Noise Injector',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\242_Rattlehead.png" id="242_Rattlehead" data-flag="@X" onclick="openSidebar('242_Rattlehead',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\247_Stormtrooper of Death.png" id="247_Stormtrooper of Death" data-flag="@X" onclick="openSidebar('247_Stormtrooper of Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\250_Unit Shifter.png" id="250_Unit Shifter" data-flag="@X" onclick="openSidebar('250_Unit Shifter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\232_Hand of the Evil Eye.png" id="232_Hand of the Evil Eye" data-flag="@X" onclick="openSidebar('232_Hand of the Evil Eye',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\233_Human Wreckage.png" id="233_Human Wreckage" data-flag="@X" onclick="openSidebar('233_Human Wreckage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\241_Metal Militia.png" id="241_Metal Militia" data-flag="@X" onclick="openSidebar('241_Metal Militia',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\243_Sad Wings of Destiny.png" id="243_Sad Wings of Destiny" data-flag="@X" onclick="openSidebar('243_Sad Wings of Destiny',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\244_Shard of the Schism.png" id="244_Shard of the Schism" data-flag="@X" onclick="openSidebar('244_Shard of the Schism',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\257_Paths of Glory.png" id="257_Paths of Glory" data-flag="@X" onclick="openSidebar('257_Paths of Glory',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\253_Edge of the World.png" id="253_Edge of the World" data-flag="@X" onclick="openSidebar('253_Edge of the World',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\254_Land of Sunshine.png" id="254_Land of Sunshine" data-flag="@X" onclick="openSidebar('254_Land of Sunshine',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\255_Last Cup of Sorrow.png" id="255_Last Cup of Sorrow" data-flag="@X" onclick="openSidebar('255_Last Cup of Sorrow',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\260_Sol Invictus.png" id="260_Sol Invictus" data-flag="@X" onclick="openSidebar('260_Sol Invictus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\262_The Church of Shred.png" id="262_The Church of Shred" data-flag="@X" onclick="openSidebar('262_The Church of Shred',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\263_The Dark Drudge.png" id="263_The Dark Drudge" data-flag="@X" onclick="openSidebar('263_The Dark Drudge',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\266_The Thrash Halls.png" id="266_The Thrash Halls" data-flag="@X" onclick="openSidebar('266_The Thrash Halls',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\264_The Kvlt Hells.png" id="264_The Kvlt Hells" data-flag="@X" onclick="openSidebar('264_The Kvlt Hells',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\265_The Metal Mount.png" id="265_The Metal Mount" data-flag="@X" onclick="openSidebar('265_The Metal Mount',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\251_Baroque Court.png" id="251_Baroque Court" data-flag="@X" onclick="openSidebar('251_Baroque Court',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\252_Brutal Architecture.png" id="252_Brutal Architecture" data-flag="@X" onclick="openSidebar('252_Brutal Architecture',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\256_Ominous Sump.png" id="256_Ominous Sump" data-flag="@X" onclick="openSidebar('256_Ominous Sump',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\259_Rusted Splendor.png" id="259_Rusted Splendor" data-flag="@X" onclick="openSidebar('259_Rusted Splendor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\261_Towering Folly.png" id="261_Towering Folly" data-flag="@X" onclick="openSidebar('261_Towering Folly',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\258_Rock of Ages.png" id="258_Rock of Ages" data-flag="@X" onclick="openSidebar('258_Rock of Ages',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\267_Plains.png" id="267_Plains" data-flag="@X" onclick="openSidebar('267_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\268_Island.png" id="268_Island" data-flag="@X" onclick="openSidebar('268_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\269_Swamp.png" id="269_Swamp" data-flag="@X" onclick="openSidebar('269_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\270_Mountain.png" id="270_Mountain" data-flag="@X" onclick="openSidebar('270_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\271_Forest.png" id="271_Forest" data-flag="@X" onclick="openSidebar('271_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\5t_Shred.png" id="5t_Shred" data-flag="@X" onclick="openSidebar('5t_Shred',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\7t_Treasure.png" id="7t_Treasure" data-flag="@X" onclick="openSidebar('7t_Treasure',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\8t_Draft Archetypes.png" id="8t_Draft Archetypes" data-flag="@X" onclick="openSidebar('8t_Draft Archetypes',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\9t_Lieve, Black Metal Witch.png" id="9t_Lieve, Black Metal Witch" data-flag="@X" onclick="openSidebar('9t_Lieve, Black Metal Witch',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\1t_Elemental.png" id="1t_Elemental" data-flag="@X" onclick="openSidebar('1t_Elemental',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\2t_Barbarian.png" id="2t_Barbarian" data-flag="@X" onclick="openSidebar('2t_Barbarian',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\3t_Elf.png" id="3t_Elf" data-flag="@X" onclick="openSidebar('3t_Elf',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\4t_Hydra.png" id="4t_Hydra" data-flag="@X" onclick="openSidebar('4t_Hydra',false)"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\6t_Spirit.png" id="6t_Spirit" data-flag="@X" onclick="openSidebar('6t_Spirit',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\5t_Shred.png" id="5t_Shred" data-flag="@X" onclick="openSidebar('5t_Shred',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\7t_Treasure.png" id="7t_Treasure" data-flag="@X" onclick="openSidebar('7t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\8t_Draft Archetypes.png" id="8t_Draft Archetypes" data-flag="@X" onclick="openSidebar('8t_Draft Archetypes',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\9t_Lieve, Black Metal Witch.png" id="9t_Lieve, Black Metal Witch" data-flag="@X" onclick="openSidebar('9t_Lieve, Black Metal Witch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\1t_Elemental.png" id="1t_Elemental" data-flag="@X" onclick="openSidebar('1t_Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\2t_Barbarian.png" id="2t_Barbarian" data-flag="@X" onclick="openSidebar('2t_Barbarian',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\3t_Elf.png" id="3t_Elf" data-flag="@X" onclick="openSidebar('3t_Elf',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\4t_Hydra.png" id="4t_Hydra" data-flag="@X" onclick="openSidebar('4t_Hydra',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\6t_Spirit.png" id="6t_Spirit" data-flag="@X" onclick="openSidebar('6t_Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="promo" class="anchor"></div>
-				<div class="container"><img alt="/sets\HVY-files\img\272_Maegathrax South of Heaven (bundle promo).png" id="272_Maegathrax South of Heaven (bundle promo)" data-flag="@X" onclick="openSidebar('272_Maegathrax South of Heaven (bundle promo)',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HVY-files\img\272_Maegathrax South of Heaven (bundle promo).png" id="272_Maegathrax South of Heaven (bundle promo)" data-flag="@X" onclick="openSidebar('272_Maegathrax South of Heaven (bundle promo)',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 			</div>
 			<div class="banner">
 					<img id="SPG-logo" class="logo" src="/sets/SPG-files/logo.png">
 			</div>
 			<div class="grid-container">
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="SPG" class="anchor"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\41_Permission Denied.png" id="41_Permission Denied" data-flag="@X" onclick="openSidebar('41_Permission Denied',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\42_Supreme Verdict.png" id="42_Supreme Verdict" data-flag="@X" onclick="openSidebar('42_Supreme Verdict',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\43_Baleful Strix.png" id="43_Baleful Strix" data-flag="@X" onclick="openSidebar('43_Baleful Strix',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\44_Recoil.png" id="44_Recoil" data-flag="@X" onclick="openSidebar('44_Recoil',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\45_Blazing Specter.png" id="45_Blazing Specter" data-flag="@X" onclick="openSidebar('45_Blazing Specter',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\46_Fire Covenant.png" id="46_Fire Covenant" data-flag="@X" onclick="openSidebar('46_Fire Covenant',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\47_Aether Rift.png" id="47_Aether Rift" data-flag="@X" onclick="openSidebar('47_Aether Rift',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\48_Goblin Anarchomancer.png" id="48_Goblin Anarchomancer" data-flag="@X" onclick="openSidebar('48_Goblin Anarchomancer',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\49_Aura Shards.png" id="49_Aura Shards" data-flag="@X" onclick="openSidebar('49_Aura Shards',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\50_Novablast Wurm.png" id="50_Novablast Wurm" data-flag="@X" onclick="openSidebar('50_Novablast Wurm',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\41_Permission Denied.png" id="41_Permission Denied" data-flag="@X" onclick="openSidebar('41_Permission Denied',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\42_Supreme Verdict.png" id="42_Supreme Verdict" data-flag="@X" onclick="openSidebar('42_Supreme Verdict',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\43_Baleful Strix.png" id="43_Baleful Strix" data-flag="@X" onclick="openSidebar('43_Baleful Strix',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\44_Recoil.png" id="44_Recoil" data-flag="@X" onclick="openSidebar('44_Recoil',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\45_Blazing Specter.png" id="45_Blazing Specter" data-flag="@X" onclick="openSidebar('45_Blazing Specter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\46_Fire Covenant.png" id="46_Fire Covenant" data-flag="@X" onclick="openSidebar('46_Fire Covenant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\47_Aether Rift.png" id="47_Aether Rift" data-flag="@X" onclick="openSidebar('47_Aether Rift',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\48_Goblin Anarchomancer.png" id="48_Goblin Anarchomancer" data-flag="@X" onclick="openSidebar('48_Goblin Anarchomancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\49_Aura Shards.png" id="49_Aura Shards" data-flag="@X" onclick="openSidebar('49_Aura Shards',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\50_Novablast Wurm.png" id="50_Novablast Wurm" data-flag="@X" onclick="openSidebar('50_Novablast Wurm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
@@ -745,27 +737,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -777,17 +793,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -820,6 +838,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -829,6 +848,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -851,21 +871,21 @@
 	}
 
 		function randomCard() {
-			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-			let random_card = card_list_arrayified[i];
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
 
-			const url = new URL('card', window.location.origin);
-			const params = {
-				set: random_card.set,
-				num: random_card.number,
-				name: random_card.card_name
-			}
-			for (const key in params) {
-				url.searchParams.append(key, params[key]);
-			}
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
 
-			window.location.href = url;
-		}
+				window.location.href = url;
+			}
 	</script>
 </body>
 </html>

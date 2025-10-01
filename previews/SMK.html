@@ -39,8 +39,8 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
@@ -126,12 +126,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -203,9 +204,6 @@
 		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
 		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/JMR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OVR-files/icon.png" />
 		<img class="preload-hidden" id="bg" src="/sets/SMK-files/bg.png" />
 
 		<div class="header">
@@ -219,7 +217,7 @@
 		</div>
 	</div>
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
 		<a class="set-bar" href="SMK"><img src="/sets/SMK-files/icon.png">The Big Smoko</a>
 	
@@ -277,453 +275,447 @@
 	
 		<a class="set-bar inactive" href="ELO"><img src="/sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
 	
-		<a class="set-bar inactive" href="JMR"><img src="/sets/JMR-files/icon.png">Jamuraa: The Mirage War</a>
-	
-		<a class="set-bar inactive" href="90S"><img src="/sets/90S-files/icon.png">Rath and Storm</a>
-	
-		<a class="set-bar inactive" href="OVR"><img src="/sets/OVR-files/icon.png">Overlay</a>
-	
 		</div>
 		<div class="banner">
 		<img class="logo" src="/sets/SMK-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\SMK-files\img\1_Manifold Oddboy.png" id="1_Manifold Oddboy" data-flag="@X" onclick="openSidebar('1_Manifold Oddboy',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\3_Archaeotech Tyrant.png" id="3_Archaeotech Tyrant" data-flag="@X" onclick="openSidebar('3_Archaeotech Tyrant',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\63_Mutagen Tanks.png" id="63_Mutagen Tanks" data-flag="@X" onclick="openSidebar('63_Mutagen Tanks',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\84_Blackspill Drongo.png" id="84_Blackspill Drongo" data-flag="@X" onclick="openSidebar('84_Blackspill Drongo',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\123_All-Out Attack.png" id="123_All-Out Attack" data-flag="@X" onclick="openSidebar('123_All-Out Attack',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\164_Chainsaw Maniac.png" id="164_Chainsaw Maniac" data-flag="@X" onclick="openSidebar('164_Chainsaw Maniac',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\29_Ngurun, Voice of the Woolloo.png" id="29_Ngurun, Voice of the Woolloo" data-flag="@X" onclick="openSidebar('29_Ngurun, Voice of the Woolloo',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\68_Potential Engine.png" id="68_Potential Engine" data-flag="@X" onclick="openSidebar('68_Potential Engine',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\86_Blasting Across the Alkali Flats.png" id="86_Blasting Across the Alkali Flats" data-flag="@X" onclick="openSidebar('86_Blasting Across the Alkali Flats',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\125_The Big Smoko.png" id="125_The Big Smoko" data-flag="@X" onclick="openSidebar('125_The Big Smoko',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\177_Lord of the Outback.png" id="177_Lord of the Outback" data-flag="@X" onclick="openSidebar('177_Lord of the Outback',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\33_Season of Rust.png" id="33_Season of Rust" data-flag="@X" onclick="openSidebar('33_Season of Rust',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\71_Riddle of Time.png" id="71_Riddle of Time" data-flag="@X" onclick="openSidebar('71_Riddle of Time',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\108_Roaming Bottleo.png" id="108_Roaming Bottleo" data-flag="@X" onclick="openSidebar('108_Roaming Bottleo',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\154_Thunderstriker.png" id="154_Thunderstriker" data-flag="@X" onclick="openSidebar('154_Thunderstriker',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\191_Survival of the Fastest.png" id="191_Survival of the Fastest" data-flag="@X" onclick="openSidebar('191_Survival of the Fastest',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\2_All Things Rust.png" id="2_All Things Rust" data-flag="@X" onclick="openSidebar('2_All Things Rust',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\42_The Band Played Waltzing Matilda.png" id="42_The Band Played Waltzing Matilda" data-flag="@X" onclick="openSidebar('42_The Band Played Waltzing Matilda',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\80_Aether Snap.png" id="80_Aether Snap" data-flag="@X" onclick="openSidebar('80_Aether Snap',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\121_All Pain, No Gain.png" id="121_All Pain, No Gain" data-flag="@X" onclick="openSidebar('121_All Pain, No Gain',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\168_Creeping Corrosion.png" id="168_Creeping Corrosion" data-flag="@X" onclick="openSidebar('168_Creeping Corrosion',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\15_Combat Tutor.png" id="15_Combat Tutor" data-flag="@X" onclick="openSidebar('15_Combat Tutor',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\44_Beyond the Black Stump.png" id="44_Beyond the Black Stump" data-flag="@X" onclick="openSidebar('44_Beyond the Black Stump',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\90_Cult of Akka Dakka.png" id="90_Cult of Akka Dakka" data-flag="@X" onclick="openSidebar('90_Cult of Akka Dakka',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\128_Brutal Tactician.png" id="128_Brutal Tactician" data-flag="@X" onclick="openSidebar('128_Brutal Tactician',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\173_Impujara Stalker.png" id="173_Impujara Stalker" data-flag="@X" onclick="openSidebar('173_Impujara Stalker',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\17_Enforcer of Akka Dakka.png" id="17_Enforcer of Akka Dakka" data-flag="@X" onclick="openSidebar('17_Enforcer of Akka Dakka',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\47_Crab Tank.png" id="47_Crab Tank" data-flag="@X" onclick="openSidebar('47_Crab Tank',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\93_Endless Desolation.png" id="93_Endless Desolation" data-flag="@X" onclick="openSidebar('93_Endless Desolation',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\133_Iron Drongo.png" id="133_Iron Drongo" data-flag="@X" onclick="openSidebar('133_Iron Drongo',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\174_It's Parked Here Somewhere.png" id="174_Its Parked Here Somewhere" data-flag="@X" onclick="openSidebar('174_Its Parked Here Somewhere',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\19_Foreseen Storm.png" id="19_Foreseen Storm" data-flag="@X" onclick="openSidebar('19_Foreseen Storm',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\57_Johnny Twelvefingers.png" id="57_Johnny Twelvefingers" data-flag="@X" onclick="openSidebar('57_Johnny Twelvefingers',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\96_A Good Day to Die.png" id="96_A Good Day to Die" data-flag="@X" onclick="openSidebar('96_A Good Day to Die',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\137_Motor Maniac.png" id="137_Motor Maniac" data-flag="@X" onclick="openSidebar('137_Motor Maniac',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\181_Oil's Bounty.png" id="181_Oils Bounty" data-flag="@X" onclick="openSidebar('181_Oils Bounty',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\31_Salvation Salvager.png" id="31_Salvation Salvager" data-flag="@X" onclick="openSidebar('31_Salvation Salvager',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\61_Memories of Innovation.png" id="61_Memories of Innovation" data-flag="@X" onclick="openSidebar('61_Memories of Innovation',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\106_Rad-Born Scavenger.png" id="106_Rad-Born Scavenger" data-flag="@X" onclick="openSidebar('106_Rad-Born Scavenger',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\145_The Six O'Clock Swill.png" id="145_The Six OClock Swill" data-flag="@X" onclick="openSidebar('145_The Six OClock Swill',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\185_Redback Hydra.png" id="185_Redback Hydra" data-flag="@X" onclick="openSidebar('185_Redback Hydra',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\32_The Satanic Mechanic's Clockwork Fun Ride.png" id="32_The Satanic Mechanics Clockwork Fun Ride" data-flag="@X" onclick="openSidebar('32_The Satanic Mechanics Clockwork Fun Ride',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\66_The Oddest Boy.png" id="66_The Oddest Boy" data-flag="@X" onclick="openSidebar('66_The Oddest Boy',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\114_A Spot of Bother.png" id="114_A Spot of Bother" data-flag="@X" onclick="openSidebar('114_A Spot of Bother',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\150_Soup Zone.png" id="150_Soup Zone" data-flag="@X" onclick="openSidebar('150_Soup Zone',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\188_The Satanic Mechanic.png" id="188_The Satanic Mechanic" data-flag="@X" onclick="openSidebar('188_The Satanic Mechanic',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\39_Vengeful Sheila.png" id="39_Vengeful Sheila" data-flag="@X" onclick="openSidebar('39_Vengeful Sheila',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\69_Prosperous Miner.png" id="69_Prosperous Miner" data-flag="@X" onclick="openSidebar('69_Prosperous Miner',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\118_Witjuti Demon.png" id="118_Witjuti Demon" data-flag="@X" onclick="openSidebar('118_Witjuti Demon',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\152_Territorial Ngumagal.png" id="152_Territorial Ngumagal" data-flag="@X" onclick="openSidebar('152_Territorial Ngumagal',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\193_Trailblazer's Blade.png" id="193_Trailblazers Blade" data-flag="@X" onclick="openSidebar('193_Trailblazers Blade',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\7_Biff It.png" id="7_Biff It" data-flag="@X" onclick="openSidebar('7_Biff It',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\41_Are We There Yet.png" id="41_Are We There Yet" data-flag="@X" onclick="openSidebar('41_Are We There Yet',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\81_All Mouth and No Trousers.png" id="81_All Mouth and No Trousers" data-flag="@X" onclick="openSidebar('81_All Mouth and No Trousers',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\120_Akka Dakka's Faithful.png" id="120_Akka Dakkas Faithful" data-flag="@X" onclick="openSidebar('120_Akka Dakkas Faithful',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\159_Back to Nature.png" id="159_Back to Nature" data-flag="@X" onclick="openSidebar('159_Back to Nature',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\8_Blackspill Enforcer.png" id="8_Blackspill Enforcer" data-flag="@X" onclick="openSidebar('8_Blackspill Enforcer',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\46_Contract Thriller.png" id="46_Contract Thriller" data-flag="@X" onclick="openSidebar('46_Contract Thriller',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\83_Bang Bang Gang.png" id="83_Bang Bang Gang" data-flag="@X" onclick="openSidebar('83_Bang Bang Gang',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\126_Bigger Rig.png" id="126_Bigger Rig" data-flag="@X" onclick="openSidebar('126_Bigger Rig',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\160_Birth of an Oddboy.png" id="160_Birth of an Oddboy" data-flag="@X" onclick="openSidebar('160_Birth of an Oddboy',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\9_Blackspill Outrider.png" id="9_Blackspill Outrider" data-flag="@X" onclick="openSidebar('9_Blackspill Outrider',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\48_Drift King.png" id="48_Drift King" data-flag="@X" onclick="openSidebar('48_Drift King',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\87_Budgie Smuggler.png" id="87_Budgie Smuggler" data-flag="@X" onclick="openSidebar('87_Budgie Smuggler',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\130_Dirty Deeds Done Dirt Cheap.png" id="130_Dirty Deeds Done Dirt Cheap" data-flag="@X" onclick="openSidebar('130_Dirty Deeds Done Dirt Cheap',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\162_Blackspill Expanse.png" id="162_Blackspill Expanse" data-flag="@X" onclick="openSidebar('162_Blackspill Expanse',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\10_Bonzer Moment.png" id="10_Bonzer Moment" data-flag="@X" onclick="openSidebar('10_Bonzer Moment',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\49_Eject.png" id="49_Eject" data-flag="@X" onclick="openSidebar('49_Eject',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\89_Creeping Filth.png" id="89_Creeping Filth" data-flag="@X" onclick="openSidebar('89_Creeping Filth',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\132_Ick-Spitter.png" id="132_Ick-Spitter" data-flag="@X" onclick="openSidebar('132_Ick-Spitter',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\165_Charge of the Hog Brigade.png" id="165_Charge of the Hog Brigade" data-flag="@X" onclick="openSidebar('165_Charge of the Hog Brigade',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\12_Bullet Farmer.png" id="12_Bullet Farmer" data-flag="@X" onclick="openSidebar('12_Bullet Farmer',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\50_Extravaganza Specialist.png" id="50_Extravaganza Specialist" data-flag="@X" onclick="openSidebar('50_Extravaganza Specialist',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\95_Fallout.png" id="95_Fallout" data-flag="@X" onclick="openSidebar('95_Fallout',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\134_Joyride.png" id="134_Joyride" data-flag="@X" onclick="openSidebar('134_Joyride',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\169_Drop Bear.png" id="169_Drop Bear" data-flag="@X" onclick="openSidebar('169_Drop Bear',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\25_Hand of Ngurun.png" id="25_Hand of Ngurun" data-flag="@X" onclick="openSidebar('25_Hand of Ngurun',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\51_Frazzled Transmogrification.png" id="51_Frazzled Transmogrification" data-flag="@X" onclick="openSidebar('51_Frazzled Transmogrification',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\102_Nice Guys Finish Dead.png" id="102_Nice Guys Finish Dead" data-flag="@X" onclick="openSidebar('102_Nice Guys Finish Dead',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\135_Kamikaze Veteran.png" id="135_Kamikaze Veteran" data-flag="@X" onclick="openSidebar('135_Kamikaze Veteran',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\172_Gassed-Up Freakboy.png" id="172_Gassed-Up Freakboy" data-flag="@X" onclick="openSidebar('172_Gassed-Up Freakboy',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\26_Harbor Guardian.png" id="26_Harbor Guardian" data-flag="@X" onclick="openSidebar('26_Harbor Guardian',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\52_Freakish Growth.png" id="52_Freakish Growth" data-flag="@X" onclick="openSidebar('52_Freakish Growth',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\103_Only a Little Bit Dead.png" id="103_Only a Little Bit Dead" data-flag="@X" onclick="openSidebar('103_Only a Little Bit Dead',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\136_Meatier Golem.png" id="136_Meatier Golem" data-flag="@X" onclick="openSidebar('136_Meatier Golem',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\175_Kangarex.png" id="175_Kangarex" data-flag="@X" onclick="openSidebar('175_Kangarex',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\27_Hazy Boofer.png" id="27_Hazy Boofer" data-flag="@X" onclick="openSidebar('27_Hazy Boofer',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\54_Grafted Dag.png" id="54_Grafted Dag" data-flag="@X" onclick="openSidebar('54_Grafted Dag',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\104_Perentie Rider.png" id="104_Perentie Rider" data-flag="@X" onclick="openSidebar('104_Perentie Rider',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\138_Murder of the Universe.png" id="138_Murder of the Universe" data-flag="@X" onclick="openSidebar('138_Murder of the Universe',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\178_Mechanical Hellpig.png" id="178_Mechanical Hellpig" data-flag="@X" onclick="openSidebar('178_Mechanical Hellpig',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\28_Minor Mishap.png" id="28_Minor Mishap" data-flag="@X" onclick="openSidebar('28_Minor Mishap',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\59_Kickstart My Heart.png" id="59_Kickstart My Heart" data-flag="@X" onclick="openSidebar('59_Kickstart My Heart',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\107_Retrosalvage.png" id="107_Retrosalvage" data-flag="@X" onclick="openSidebar('107_Retrosalvage',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\140_Playing in Traffic.png" id="140_Playing in Traffic" data-flag="@X" onclick="openSidebar('140_Playing in Traffic',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\180_Munch.png" id="180_Munch" data-flag="@X" onclick="openSidebar('180_Munch',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\30_Picnic at Murder-Lizard Rock.png" id="30_Picnic at Murder-Lizard Rock" data-flag="@X" onclick="openSidebar('30_Picnic at Murder-Lizard Rock',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\65_Neither Guts Nor Glory.png" id="65_Neither Guts Nor Glory" data-flag="@X" onclick="openSidebar('65_Neither Guts Nor Glory',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\109_Rustblade Scrapper.png" id="109_Rustblade Scrapper" data-flag="@X" onclick="openSidebar('109_Rustblade Scrapper',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\141_Puncture Blast.png" id="141_Puncture Blast" data-flag="@X" onclick="openSidebar('141_Puncture Blast',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\184_Rambling Ranch.png" id="184_Rambling Ranch" data-flag="@X" onclick="openSidebar('184_Rambling Ranch',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\35_Smogskimmer.png" id="35_Smogskimmer" data-flag="@X" onclick="openSidebar('35_Smogskimmer',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\72_Roving Swagman.png" id="72_Roving Swagman" data-flag="@X" onclick="openSidebar('72_Roving Swagman',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\110_Ruthless Outrider.png" id="110_Ruthless Outrider" data-flag="@X" onclick="openSidebar('110_Ruthless Outrider',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\148_Smokedrinker Daredevil.png" id="148_Smokedrinker Daredevil" data-flag="@X" onclick="openSidebar('148_Smokedrinker Daredevil',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\186_Restock.png" id="186_Restock" data-flag="@X" onclick="openSidebar('186_Restock',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\36_Those About to Rock.png" id="36_Those About to Rock" data-flag="@X" onclick="openSidebar('36_Those About to Rock',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\76_Squelching Oddboy.png" id="76_Squelching Oddboy" data-flag="@X" onclick="openSidebar('76_Squelching Oddboy',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\111_Scuttling Barbecue.png" id="111_Scuttling Barbecue" data-flag="@X" onclick="openSidebar('111_Scuttling Barbecue',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\151_Sprawling Laoonana.png" id="151_Sprawling Laoonana" data-flag="@X" onclick="openSidebar('151_Sprawling Laoonana',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\187_Riding for Sheep Stations.png" id="187_Riding for Sheep Stations" data-flag="@X" onclick="openSidebar('187_Riding for Sheep Stations',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\37_The Trundler.png" id="37_The Trundler" data-flag="@X" onclick="openSidebar('37_The Trundler',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\78_Thirst for Knowledge.png" id="78_Thirst for Knowledge" data-flag="@X" onclick="openSidebar('78_Thirst for Knowledge',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\112_Shambling Meltboys.png" id="112_Shambling Meltboys" data-flag="@X" onclick="openSidebar('112_Shambling Meltboys',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\155_Ute Muster.png" id="155_Ute Muster" data-flag="@X" onclick="openSidebar('155_Ute Muster',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\190_Smokedrinker Weldjockey.png" id="190_Smokedrinker Weldjockey" data-flag="@X" onclick="openSidebar('190_Smokedrinker Weldjockey',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\40_Woolloo Nightsinger.png" id="40_Woolloo Nightsinger" data-flag="@X" onclick="openSidebar('40_Woolloo Nightsinger',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\79_Wandering Oddboy.png" id="79_Wandering Oddboy" data-flag="@X" onclick="openSidebar('79_Wandering Oddboy',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\115_Test Match Special.png" id="115_Test Match Special" data-flag="@X" onclick="openSidebar('115_Test Match Special',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\157_Woolloo Outcast.png" id="157_Woolloo Outcast" data-flag="@X" onclick="openSidebar('157_Woolloo Outcast',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\192_Tank Grrrl.png" id="192_Tank Grrrl" data-flag="@X" onclick="openSidebar('192_Tank Grrrl',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\4_Battered Savage.png" id="4_Battered Savage" data-flag="@X" onclick="openSidebar('4_Battered Savage',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\43_Behemoth Rad-Crab.png" id="43_Behemoth Rad-Crab" data-flag="@X" onclick="openSidebar('43_Behemoth Rad-Crab',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\82_Atomic Incident.png" id="82_Atomic Incident" data-flag="@X" onclick="openSidebar('82_Atomic Incident',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\119_24 Hours in No Man's Land.png" id="119_24 Hours in No Mans Land" data-flag="@X" onclick="openSidebar('119_24 Hours in No Mans Land',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\158_All the Way to Forever and Back.png" id="158_All the Way to Forever and Back" data-flag="@X" onclick="openSidebar('158_All the Way to Forever and Back',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\5_Beep-Boop Bruce.png" id="5_Beep-Boop Bruce" data-flag="@X" onclick="openSidebar('5_Beep-Boop Bruce',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\45_A Boy and His Dog.png" id="45_A Boy and His Dog" data-flag="@X" onclick="openSidebar('45_A Boy and His Dog',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\85_Blackspill Scavenger.png" id="85_Blackspill Scavenger" data-flag="@X" onclick="openSidebar('85_Blackspill Scavenger',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\122_All Revved Up.png" id="122_All Revved Up" data-flag="@X" onclick="openSidebar('122_All Revved Up',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\161_Blackspill Daredevil.png" id="161_Blackspill Daredevil" data-flag="@X" onclick="openSidebar('161_Blackspill Daredevil',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\6_Beware of Dog.png" id="6_Beware of Dog" data-flag="@X" onclick="openSidebar('6_Beware of Dog',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\53_Gizzard Wizard.png" id="53_Gizzard Wizard" data-flag="@X" onclick="openSidebar('53_Gizzard Wizard',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\88_Carrion Galah.png" id="88_Carrion Galah" data-flag="@X" onclick="openSidebar('88_Carrion Galah',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\124_Big Rig.png" id="124_Big Rig" data-flag="@X" onclick="openSidebar('124_Big Rig',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\163_Blade of the Woolloo.png" id="163_Blade of the Woolloo" data-flag="@X" onclick="openSidebar('163_Blade of the Woolloo',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\11_Built to Last.png" id="11_Built to Last" data-flag="@X" onclick="openSidebar('11_Built to Last',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\55_Hit the Highway.png" id="55_Hit the Highway" data-flag="@X" onclick="openSidebar('55_Hit the Highway',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\91_Divest.png" id="91_Divest" data-flag="@X" onclick="openSidebar('91_Divest',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\127_Blackspill Rover.png" id="127_Blackspill Rover" data-flag="@X" onclick="openSidebar('127_Blackspill Rover',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\166_Chuggabug Rustbag.png" id="166_Chuggabug Rustbag" data-flag="@X" onclick="openSidebar('166_Chuggabug Rustbag',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\13_Buster Thruster.png" id="13_Buster Thruster" data-flag="@X" onclick="openSidebar('13_Buster Thruster',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\56_Iron Stalwart.png" id="56_Iron Stalwart" data-flag="@X" onclick="openSidebar('56_Iron Stalwart',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\92_Dredge the Scrap.png" id="92_Dredge the Scrap" data-flag="@X" onclick="openSidebar('92_Dredge the Scrap',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\129_Bucko Champ.png" id="129_Bucko Champ" data-flag="@X" onclick="openSidebar('129_Bucko Champ',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\167_Clapped-Out Scraptrap.png" id="167_Clapped-Out Scraptrap" data-flag="@X" onclick="openSidebar('167_Clapped-Out Scraptrap',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\14_Carcass Cleaner.png" id="14_Carcass Cleaner" data-flag="@X" onclick="openSidebar('14_Carcass Cleaner',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\58_Juke.png" id="58_Juke" data-flag="@X" onclick="openSidebar('58_Juke',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\94_Exotic Fauna.png" id="94_Exotic Fauna" data-flag="@X" onclick="openSidebar('94_Exotic Fauna',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\131_Hit It with All You've Got.png" id="131_Hit It with All Youve Got" data-flag="@X" onclick="openSidebar('131_Hit It with All Youve Got',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\170_Faces of Brutality.png" id="170_Faces of Brutality" data-flag="@X" onclick="openSidebar('170_Faces of Brutality',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\16_Duckbilled Odball.png" id="16_Duckbilled Odball" data-flag="@X" onclick="openSidebar('16_Duckbilled Odball',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\60_Make Something of Yourself.png" id="60_Make Something of Yourself" data-flag="@X" onclick="openSidebar('60_Make Something of Yourself',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\97_Impujara Locust.png" id="97_Impujara Locust" data-flag="@X" onclick="openSidebar('97_Impujara Locust',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\139_The Never-Die Jones Memorial Ride.png" id="139_The Never-Die Jones Memorial Ride" data-flag="@X" onclick="openSidebar('139_The Never-Die Jones Memorial Ride',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\171_Forgotten Wisdom.png" id="171_Forgotten Wisdom" data-flag="@X" onclick="openSidebar('171_Forgotten Wisdom',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\18_Enter the Woop Woop.png" id="18_Enter the Woop Woop" data-flag="@X" onclick="openSidebar('18_Enter the Woop Woop',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\62_Mister Molotov.png" id="62_Mister Molotov" data-flag="@X" onclick="openSidebar('62_Mister Molotov',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\98_Juiced-Up Freakazoid.png" id="98_Juiced-Up Freakazoid" data-flag="@X" onclick="openSidebar('98_Juiced-Up Freakazoid',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\142_Rustblade Brawler.png" id="142_Rustblade Brawler" data-flag="@X" onclick="openSidebar('142_Rustblade Brawler',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\176_Kuruk Brute.png" id="176_Kuruk Brute" data-flag="@X" onclick="openSidebar('176_Kuruk Brute',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\20_Gather the Oddboys.png" id="20_Gather the Oddboys" data-flag="@X" onclick="openSidebar('20_Gather the Oddboys',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\64_Mutagenic Cassowary.png" id="64_Mutagenic Cassowary" data-flag="@X" onclick="openSidebar('64_Mutagenic Cassowary',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\99_Leather Freakboy.png" id="99_Leather Freakboy" data-flag="@X" onclick="openSidebar('99_Leather Freakboy',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\143_Scampering Gonk.png" id="143_Scampering Gonk" data-flag="@X" onclick="openSidebar('143_Scampering Gonk',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\179_Milk-Fed Gimp.png" id="179_Milk-Fed Gimp" data-flag="@X" onclick="openSidebar('179_Milk-Fed Gimp',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\21_Goon of Fortune.png" id="21_Goon of Fortune" data-flag="@X" onclick="openSidebar('21_Goon of Fortune',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\67_A One-Way Trip to No-Pity City.png" id="67_A One-Way Trip to No-Pity City" data-flag="@X" onclick="openSidebar('67_A One-Way Trip to No-Pity City',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\100_A Long Drive Off a Short Pier.png" id="100_A Long Drive Off a Short Pier" data-flag="@X" onclick="openSidebar('100_A Long Drive Off a Short Pier',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\144_Shock.png" id="144_Shock" data-flag="@X" onclick="openSidebar('144_Shock',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\182_Plated Brumby.png" id="182_Plated Brumby" data-flag="@X" onclick="openSidebar('182_Plated Brumby',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\22_Grave Rigger.png" id="22_Grave Rigger" data-flag="@X" onclick="openSidebar('22_Grave Rigger',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\70_Ramshackle Commodore.png" id="70_Ramshackle Commodore" data-flag="@X" onclick="openSidebar('70_Ramshackle Commodore',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\101_Mechanical Pest.png" id="101_Mechanical Pest" data-flag="@X" onclick="openSidebar('101_Mechanical Pest',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\146_Smokedrinker Apprentice.png" id="146_Smokedrinker Apprentice" data-flag="@X" onclick="openSidebar('146_Smokedrinker Apprentice',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\183_Rabid Scrungle.png" id="183_Rabid Scrungle" data-flag="@X" onclick="openSidebar('183_Rabid Scrungle',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\23_Grease Monkey.png" id="23_Grease Monkey" data-flag="@X" onclick="openSidebar('23_Grease Monkey',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\73_Rusted Wreckmaker.png" id="73_Rusted Wreckmaker" data-flag="@X" onclick="openSidebar('73_Rusted Wreckmaker',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\105_Persistent Deadfella.png" id="105_Persistent Deadfella" data-flag="@X" onclick="openSidebar('105_Persistent Deadfella',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\147_Smokedrinker Behemoth.png" id="147_Smokedrinker Behemoth" data-flag="@X" onclick="openSidebar('147_Smokedrinker Behemoth',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\189_Shed Weakness.png" id="189_Shed Weakness" data-flag="@X" onclick="openSidebar('189_Shed Weakness',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\24_Gyrocaptor.png" id="24_Gyrocaptor" data-flag="@X" onclick="openSidebar('24_Gyrocaptor',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\74_Send It Down, Huey.png" id="74_Send It Down, Huey" data-flag="@X" onclick="openSidebar('74_Send It Down, Huey',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\113_Splendid Agony.png" id="113_Splendid Agony" data-flag="@X" onclick="openSidebar('113_Splendid Agony',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\149_Smokedrinker Renegade.png" id="149_Smokedrinker Renegade" data-flag="@X" onclick="openSidebar('149_Smokedrinker Renegade',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\194_Ute Wrangler.png" id="194_Ute Wrangler" data-flag="@X" onclick="openSidebar('194_Ute Wrangler',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\34_Sickly Gearhead.png" id="34_Sickly Gearhead" data-flag="@X" onclick="openSidebar('34_Sickly Gearhead',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\75_Slippery Oddboy.png" id="75_Slippery Oddboy" data-flag="@X" onclick="openSidebar('75_Slippery Oddboy',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\116_Trample Underfoot.png" id="116_Trample Underfoot" data-flag="@X" onclick="openSidebar('116_Trample Underfoot',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\153_Thunder Trundler.png" id="153_Thunder Trundler" data-flag="@X" onclick="openSidebar('153_Thunder Trundler',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\195_Woolloo Dreamer.png" id="195_Woolloo Dreamer" data-flag="@X" onclick="openSidebar('195_Woolloo Dreamer',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\38_Tryouts for the Human Race.png" id="38_Tryouts for the Human Race" data-flag="@X" onclick="openSidebar('38_Tryouts for the Human Race',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\77_Steel Sabotage.png" id="77_Steel Sabotage" data-flag="@X" onclick="openSidebar('77_Steel Sabotage',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\117_Twelve-Bar Bruiser.png" id="117_Twelve-Bar Bruiser" data-flag="@X" onclick="openSidebar('117_Twelve-Bar Bruiser',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\156_Woolloo Intimidator.png" id="156_Woolloo Intimidator" data-flag="@X" onclick="openSidebar('156_Woolloo Intimidator',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\196_Yhawho Outrider.png" id="196_Yhawho Outrider" data-flag="@X" onclick="openSidebar('196_Yhawho Outrider',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\1_Manifold Oddboy.png" id="1_Manifold Oddboy" data-flag="@X" onclick="openSidebar('1_Manifold Oddboy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\3_Archaeotech Tyrant.png" id="3_Archaeotech Tyrant" data-flag="@X" onclick="openSidebar('3_Archaeotech Tyrant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\63_Mutagen Tanks.png" id="63_Mutagen Tanks" data-flag="@X" onclick="openSidebar('63_Mutagen Tanks',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\84_Blackspill Drongo.png" id="84_Blackspill Drongo" data-flag="@X" onclick="openSidebar('84_Blackspill Drongo',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\123_All-Out Attack.png" id="123_All-Out Attack" data-flag="@X" onclick="openSidebar('123_All-Out Attack',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\164_Chainsaw Maniac.png" id="164_Chainsaw Maniac" data-flag="@X" onclick="openSidebar('164_Chainsaw Maniac',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\29_Ngurun, Voice of the Woolloo.png" id="29_Ngurun, Voice of the Woolloo" data-flag="@X" onclick="openSidebar('29_Ngurun, Voice of the Woolloo',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\68_Potential Engine.png" id="68_Potential Engine" data-flag="@X" onclick="openSidebar('68_Potential Engine',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\86_Blasting Across the Alkali Flats.png" id="86_Blasting Across the Alkali Flats" data-flag="@X" onclick="openSidebar('86_Blasting Across the Alkali Flats',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\125_The Big Smoko.png" id="125_The Big Smoko" data-flag="@X" onclick="openSidebar('125_The Big Smoko',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\177_Lord of the Outback.png" id="177_Lord of the Outback" data-flag="@X" onclick="openSidebar('177_Lord of the Outback',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\33_Season of Rust.png" id="33_Season of Rust" data-flag="@X" onclick="openSidebar('33_Season of Rust',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\71_Riddle of Time.png" id="71_Riddle of Time" data-flag="@X" onclick="openSidebar('71_Riddle of Time',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\108_Roaming Bottleo.png" id="108_Roaming Bottleo" data-flag="@X" onclick="openSidebar('108_Roaming Bottleo',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\154_Thunderstriker.png" id="154_Thunderstriker" data-flag="@X" onclick="openSidebar('154_Thunderstriker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\191_Survival of the Fastest.png" id="191_Survival of the Fastest" data-flag="@X" onclick="openSidebar('191_Survival of the Fastest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\2_All Things Rust.png" id="2_All Things Rust" data-flag="@X" onclick="openSidebar('2_All Things Rust',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\42_The Band Played Waltzing Matilda.png" id="42_The Band Played Waltzing Matilda" data-flag="@X" onclick="openSidebar('42_The Band Played Waltzing Matilda',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\80_Aether Snap.png" id="80_Aether Snap" data-flag="@X" onclick="openSidebar('80_Aether Snap',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\121_All Pain, No Gain.png" id="121_All Pain, No Gain" data-flag="@X" onclick="openSidebar('121_All Pain, No Gain',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\168_Creeping Corrosion.png" id="168_Creeping Corrosion" data-flag="@X" onclick="openSidebar('168_Creeping Corrosion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\15_Combat Tutor.png" id="15_Combat Tutor" data-flag="@X" onclick="openSidebar('15_Combat Tutor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\44_Beyond the Black Stump.png" id="44_Beyond the Black Stump" data-flag="@X" onclick="openSidebar('44_Beyond the Black Stump',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\90_Cult of Akka Dakka.png" id="90_Cult of Akka Dakka" data-flag="@X" onclick="openSidebar('90_Cult of Akka Dakka',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\128_Brutal Tactician.png" id="128_Brutal Tactician" data-flag="@X" onclick="openSidebar('128_Brutal Tactician',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\173_Impujara Stalker.png" id="173_Impujara Stalker" data-flag="@X" onclick="openSidebar('173_Impujara Stalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\17_Enforcer of Akka Dakka.png" id="17_Enforcer of Akka Dakka" data-flag="@X" onclick="openSidebar('17_Enforcer of Akka Dakka',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\47_Crab Tank.png" id="47_Crab Tank" data-flag="@X" onclick="openSidebar('47_Crab Tank',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\93_Endless Desolation.png" id="93_Endless Desolation" data-flag="@X" onclick="openSidebar('93_Endless Desolation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\133_Iron Drongo.png" id="133_Iron Drongo" data-flag="@X" onclick="openSidebar('133_Iron Drongo',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\174_It's Parked Here Somewhere.png" id="174_Its Parked Here Somewhere" data-flag="@X" onclick="openSidebar('174_Its Parked Here Somewhere',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\19_Foreseen Storm.png" id="19_Foreseen Storm" data-flag="@X" onclick="openSidebar('19_Foreseen Storm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\57_Johnny Twelvefingers.png" id="57_Johnny Twelvefingers" data-flag="@X" onclick="openSidebar('57_Johnny Twelvefingers',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\96_A Good Day to Die.png" id="96_A Good Day to Die" data-flag="@X" onclick="openSidebar('96_A Good Day to Die',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\137_Motor Maniac.png" id="137_Motor Maniac" data-flag="@X" onclick="openSidebar('137_Motor Maniac',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\181_Oil's Bounty.png" id="181_Oils Bounty" data-flag="@X" onclick="openSidebar('181_Oils Bounty',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\31_Salvation Salvager.png" id="31_Salvation Salvager" data-flag="@X" onclick="openSidebar('31_Salvation Salvager',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\61_Memories of Innovation.png" id="61_Memories of Innovation" data-flag="@X" onclick="openSidebar('61_Memories of Innovation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\106_Rad-Born Scavenger.png" id="106_Rad-Born Scavenger" data-flag="@X" onclick="openSidebar('106_Rad-Born Scavenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\145_The Six O'Clock Swill.png" id="145_The Six OClock Swill" data-flag="@X" onclick="openSidebar('145_The Six OClock Swill',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\185_Redback Hydra.png" id="185_Redback Hydra" data-flag="@X" onclick="openSidebar('185_Redback Hydra',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\32_The Satanic Mechanic's Clockwork Fun Ride.png" id="32_The Satanic Mechanics Clockwork Fun Ride" data-flag="@X" onclick="openSidebar('32_The Satanic Mechanics Clockwork Fun Ride',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\66_The Oddest Boy.png" id="66_The Oddest Boy" data-flag="@X" onclick="openSidebar('66_The Oddest Boy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\114_A Spot of Bother.png" id="114_A Spot of Bother" data-flag="@X" onclick="openSidebar('114_A Spot of Bother',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\150_Soup Zone.png" id="150_Soup Zone" data-flag="@X" onclick="openSidebar('150_Soup Zone',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\188_The Satanic Mechanic.png" id="188_The Satanic Mechanic" data-flag="@X" onclick="openSidebar('188_The Satanic Mechanic',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\39_Vengeful Sheila.png" id="39_Vengeful Sheila" data-flag="@X" onclick="openSidebar('39_Vengeful Sheila',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\69_Prosperous Miner.png" id="69_Prosperous Miner" data-flag="@X" onclick="openSidebar('69_Prosperous Miner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\118_Witjuti Demon.png" id="118_Witjuti Demon" data-flag="@X" onclick="openSidebar('118_Witjuti Demon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\152_Territorial Ngumagal.png" id="152_Territorial Ngumagal" data-flag="@X" onclick="openSidebar('152_Territorial Ngumagal',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\193_Trailblazer's Blade.png" id="193_Trailblazers Blade" data-flag="@X" onclick="openSidebar('193_Trailblazers Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\7_Biff It.png" id="7_Biff It" data-flag="@X" onclick="openSidebar('7_Biff It',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\41_Are We There Yet.png" id="41_Are We There Yet" data-flag="@X" onclick="openSidebar('41_Are We There Yet',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\81_All Mouth and No Trousers.png" id="81_All Mouth and No Trousers" data-flag="@X" onclick="openSidebar('81_All Mouth and No Trousers',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\120_Akka Dakka's Faithful.png" id="120_Akka Dakkas Faithful" data-flag="@X" onclick="openSidebar('120_Akka Dakkas Faithful',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\159_Back to Nature.png" id="159_Back to Nature" data-flag="@X" onclick="openSidebar('159_Back to Nature',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\8_Blackspill Enforcer.png" id="8_Blackspill Enforcer" data-flag="@X" onclick="openSidebar('8_Blackspill Enforcer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\46_Contract Thriller.png" id="46_Contract Thriller" data-flag="@X" onclick="openSidebar('46_Contract Thriller',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\83_Bang Bang Gang.png" id="83_Bang Bang Gang" data-flag="@X" onclick="openSidebar('83_Bang Bang Gang',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\126_Bigger Rig.png" id="126_Bigger Rig" data-flag="@X" onclick="openSidebar('126_Bigger Rig',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\160_Birth of an Oddboy.png" id="160_Birth of an Oddboy" data-flag="@X" onclick="openSidebar('160_Birth of an Oddboy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\9_Blackspill Outrider.png" id="9_Blackspill Outrider" data-flag="@X" onclick="openSidebar('9_Blackspill Outrider',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\48_Drift King.png" id="48_Drift King" data-flag="@X" onclick="openSidebar('48_Drift King',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\87_Budgie Smuggler.png" id="87_Budgie Smuggler" data-flag="@X" onclick="openSidebar('87_Budgie Smuggler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\130_Dirty Deeds Done Dirt Cheap.png" id="130_Dirty Deeds Done Dirt Cheap" data-flag="@X" onclick="openSidebar('130_Dirty Deeds Done Dirt Cheap',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\162_Blackspill Expanse.png" id="162_Blackspill Expanse" data-flag="@X" onclick="openSidebar('162_Blackspill Expanse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\10_Bonzer Moment.png" id="10_Bonzer Moment" data-flag="@X" onclick="openSidebar('10_Bonzer Moment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\49_Eject.png" id="49_Eject" data-flag="@X" onclick="openSidebar('49_Eject',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\89_Creeping Filth.png" id="89_Creeping Filth" data-flag="@X" onclick="openSidebar('89_Creeping Filth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\132_Ick-Spitter.png" id="132_Ick-Spitter" data-flag="@X" onclick="openSidebar('132_Ick-Spitter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\165_Charge of the Hog Brigade.png" id="165_Charge of the Hog Brigade" data-flag="@X" onclick="openSidebar('165_Charge of the Hog Brigade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\12_Bullet Farmer.png" id="12_Bullet Farmer" data-flag="@X" onclick="openSidebar('12_Bullet Farmer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\50_Extravaganza Specialist.png" id="50_Extravaganza Specialist" data-flag="@X" onclick="openSidebar('50_Extravaganza Specialist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\95_Fallout.png" id="95_Fallout" data-flag="@X" onclick="openSidebar('95_Fallout',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\134_Joyride.png" id="134_Joyride" data-flag="@X" onclick="openSidebar('134_Joyride',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\169_Drop Bear.png" id="169_Drop Bear" data-flag="@X" onclick="openSidebar('169_Drop Bear',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\25_Hand of Ngurun.png" id="25_Hand of Ngurun" data-flag="@X" onclick="openSidebar('25_Hand of Ngurun',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\51_Frazzled Transmogrification.png" id="51_Frazzled Transmogrification" data-flag="@X" onclick="openSidebar('51_Frazzled Transmogrification',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\102_Nice Guys Finish Dead.png" id="102_Nice Guys Finish Dead" data-flag="@X" onclick="openSidebar('102_Nice Guys Finish Dead',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\135_Kamikaze Veteran.png" id="135_Kamikaze Veteran" data-flag="@X" onclick="openSidebar('135_Kamikaze Veteran',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\172_Gassed-Up Freakboy.png" id="172_Gassed-Up Freakboy" data-flag="@X" onclick="openSidebar('172_Gassed-Up Freakboy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\26_Harbor Guardian.png" id="26_Harbor Guardian" data-flag="@X" onclick="openSidebar('26_Harbor Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\52_Freakish Growth.png" id="52_Freakish Growth" data-flag="@X" onclick="openSidebar('52_Freakish Growth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\103_Only a Little Bit Dead.png" id="103_Only a Little Bit Dead" data-flag="@X" onclick="openSidebar('103_Only a Little Bit Dead',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\136_Meatier Golem.png" id="136_Meatier Golem" data-flag="@X" onclick="openSidebar('136_Meatier Golem',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\175_Kangarex.png" id="175_Kangarex" data-flag="@X" onclick="openSidebar('175_Kangarex',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\27_Hazy Boofer.png" id="27_Hazy Boofer" data-flag="@X" onclick="openSidebar('27_Hazy Boofer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\54_Grafted Dag.png" id="54_Grafted Dag" data-flag="@X" onclick="openSidebar('54_Grafted Dag',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\104_Perentie Rider.png" id="104_Perentie Rider" data-flag="@X" onclick="openSidebar('104_Perentie Rider',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\138_Murder of the Universe.png" id="138_Murder of the Universe" data-flag="@X" onclick="openSidebar('138_Murder of the Universe',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\178_Mechanical Hellpig.png" id="178_Mechanical Hellpig" data-flag="@X" onclick="openSidebar('178_Mechanical Hellpig',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\28_Minor Mishap.png" id="28_Minor Mishap" data-flag="@X" onclick="openSidebar('28_Minor Mishap',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\59_Kickstart My Heart.png" id="59_Kickstart My Heart" data-flag="@X" onclick="openSidebar('59_Kickstart My Heart',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\107_Retrosalvage.png" id="107_Retrosalvage" data-flag="@X" onclick="openSidebar('107_Retrosalvage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\140_Playing in Traffic.png" id="140_Playing in Traffic" data-flag="@X" onclick="openSidebar('140_Playing in Traffic',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\180_Munch.png" id="180_Munch" data-flag="@X" onclick="openSidebar('180_Munch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\30_Picnic at Murder-Lizard Rock.png" id="30_Picnic at Murder-Lizard Rock" data-flag="@X" onclick="openSidebar('30_Picnic at Murder-Lizard Rock',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\65_Neither Guts Nor Glory.png" id="65_Neither Guts Nor Glory" data-flag="@X" onclick="openSidebar('65_Neither Guts Nor Glory',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\109_Rustblade Scrapper.png" id="109_Rustblade Scrapper" data-flag="@X" onclick="openSidebar('109_Rustblade Scrapper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\141_Puncture Blast.png" id="141_Puncture Blast" data-flag="@X" onclick="openSidebar('141_Puncture Blast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\184_Rambling Ranch.png" id="184_Rambling Ranch" data-flag="@X" onclick="openSidebar('184_Rambling Ranch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\35_Smogskimmer.png" id="35_Smogskimmer" data-flag="@X" onclick="openSidebar('35_Smogskimmer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\72_Roving Swagman.png" id="72_Roving Swagman" data-flag="@X" onclick="openSidebar('72_Roving Swagman',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\110_Ruthless Outrider.png" id="110_Ruthless Outrider" data-flag="@X" onclick="openSidebar('110_Ruthless Outrider',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\148_Smokedrinker Daredevil.png" id="148_Smokedrinker Daredevil" data-flag="@X" onclick="openSidebar('148_Smokedrinker Daredevil',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\186_Restock.png" id="186_Restock" data-flag="@X" onclick="openSidebar('186_Restock',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\36_Those About to Rock.png" id="36_Those About to Rock" data-flag="@X" onclick="openSidebar('36_Those About to Rock',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\76_Squelching Oddboy.png" id="76_Squelching Oddboy" data-flag="@X" onclick="openSidebar('76_Squelching Oddboy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\111_Scuttling Barbecue.png" id="111_Scuttling Barbecue" data-flag="@X" onclick="openSidebar('111_Scuttling Barbecue',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\151_Sprawling Laoonana.png" id="151_Sprawling Laoonana" data-flag="@X" onclick="openSidebar('151_Sprawling Laoonana',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\187_Riding for Sheep Stations.png" id="187_Riding for Sheep Stations" data-flag="@X" onclick="openSidebar('187_Riding for Sheep Stations',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\37_The Trundler.png" id="37_The Trundler" data-flag="@X" onclick="openSidebar('37_The Trundler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\78_Thirst for Knowledge.png" id="78_Thirst for Knowledge" data-flag="@X" onclick="openSidebar('78_Thirst for Knowledge',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\112_Shambling Meltboys.png" id="112_Shambling Meltboys" data-flag="@X" onclick="openSidebar('112_Shambling Meltboys',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\155_Ute Muster.png" id="155_Ute Muster" data-flag="@X" onclick="openSidebar('155_Ute Muster',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\190_Smokedrinker Weldjockey.png" id="190_Smokedrinker Weldjockey" data-flag="@X" onclick="openSidebar('190_Smokedrinker Weldjockey',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\40_Woolloo Nightsinger.png" id="40_Woolloo Nightsinger" data-flag="@X" onclick="openSidebar('40_Woolloo Nightsinger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\79_Wandering Oddboy.png" id="79_Wandering Oddboy" data-flag="@X" onclick="openSidebar('79_Wandering Oddboy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\115_Test Match Special.png" id="115_Test Match Special" data-flag="@X" onclick="openSidebar('115_Test Match Special',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\157_Woolloo Outcast.png" id="157_Woolloo Outcast" data-flag="@X" onclick="openSidebar('157_Woolloo Outcast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\192_Tank Grrrl.png" id="192_Tank Grrrl" data-flag="@X" onclick="openSidebar('192_Tank Grrrl',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\4_Battered Savage.png" id="4_Battered Savage" data-flag="@X" onclick="openSidebar('4_Battered Savage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\43_Behemoth Rad-Crab.png" id="43_Behemoth Rad-Crab" data-flag="@X" onclick="openSidebar('43_Behemoth Rad-Crab',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\82_Atomic Incident.png" id="82_Atomic Incident" data-flag="@X" onclick="openSidebar('82_Atomic Incident',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\119_24 Hours in No Man's Land.png" id="119_24 Hours in No Mans Land" data-flag="@X" onclick="openSidebar('119_24 Hours in No Mans Land',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\158_All the Way to Forever and Back.png" id="158_All the Way to Forever and Back" data-flag="@X" onclick="openSidebar('158_All the Way to Forever and Back',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\5_Beep-Boop Bruce.png" id="5_Beep-Boop Bruce" data-flag="@X" onclick="openSidebar('5_Beep-Boop Bruce',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\45_A Boy and His Dog.png" id="45_A Boy and His Dog" data-flag="@X" onclick="openSidebar('45_A Boy and His Dog',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\85_Blackspill Scavenger.png" id="85_Blackspill Scavenger" data-flag="@X" onclick="openSidebar('85_Blackspill Scavenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\122_All Revved Up.png" id="122_All Revved Up" data-flag="@X" onclick="openSidebar('122_All Revved Up',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\161_Blackspill Daredevil.png" id="161_Blackspill Daredevil" data-flag="@X" onclick="openSidebar('161_Blackspill Daredevil',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\6_Beware of Dog.png" id="6_Beware of Dog" data-flag="@X" onclick="openSidebar('6_Beware of Dog',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\53_Gizzard Wizard.png" id="53_Gizzard Wizard" data-flag="@X" onclick="openSidebar('53_Gizzard Wizard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\88_Carrion Galah.png" id="88_Carrion Galah" data-flag="@X" onclick="openSidebar('88_Carrion Galah',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\124_Big Rig.png" id="124_Big Rig" data-flag="@X" onclick="openSidebar('124_Big Rig',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\163_Blade of the Woolloo.png" id="163_Blade of the Woolloo" data-flag="@X" onclick="openSidebar('163_Blade of the Woolloo',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\11_Built to Last.png" id="11_Built to Last" data-flag="@X" onclick="openSidebar('11_Built to Last',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\55_Hit the Highway.png" id="55_Hit the Highway" data-flag="@X" onclick="openSidebar('55_Hit the Highway',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\91_Divest.png" id="91_Divest" data-flag="@X" onclick="openSidebar('91_Divest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\127_Blackspill Rover.png" id="127_Blackspill Rover" data-flag="@X" onclick="openSidebar('127_Blackspill Rover',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\166_Chuggabug Rustbag.png" id="166_Chuggabug Rustbag" data-flag="@X" onclick="openSidebar('166_Chuggabug Rustbag',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\13_Buster Thruster.png" id="13_Buster Thruster" data-flag="@X" onclick="openSidebar('13_Buster Thruster',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\56_Iron Stalwart.png" id="56_Iron Stalwart" data-flag="@X" onclick="openSidebar('56_Iron Stalwart',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\92_Dredge the Scrap.png" id="92_Dredge the Scrap" data-flag="@X" onclick="openSidebar('92_Dredge the Scrap',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\129_Bucko Champ.png" id="129_Bucko Champ" data-flag="@X" onclick="openSidebar('129_Bucko Champ',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\167_Clapped-Out Scraptrap.png" id="167_Clapped-Out Scraptrap" data-flag="@X" onclick="openSidebar('167_Clapped-Out Scraptrap',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\14_Carcass Cleaner.png" id="14_Carcass Cleaner" data-flag="@X" onclick="openSidebar('14_Carcass Cleaner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\58_Juke.png" id="58_Juke" data-flag="@X" onclick="openSidebar('58_Juke',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\94_Exotic Fauna.png" id="94_Exotic Fauna" data-flag="@X" onclick="openSidebar('94_Exotic Fauna',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\131_Hit It with All You've Got.png" id="131_Hit It with All Youve Got" data-flag="@X" onclick="openSidebar('131_Hit It with All Youve Got',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\170_Faces of Brutality.png" id="170_Faces of Brutality" data-flag="@X" onclick="openSidebar('170_Faces of Brutality',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\16_Duckbilled Odball.png" id="16_Duckbilled Odball" data-flag="@X" onclick="openSidebar('16_Duckbilled Odball',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\60_Make Something of Yourself.png" id="60_Make Something of Yourself" data-flag="@X" onclick="openSidebar('60_Make Something of Yourself',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\97_Impujara Locust.png" id="97_Impujara Locust" data-flag="@X" onclick="openSidebar('97_Impujara Locust',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\139_The Never-Die Jones Memorial Ride.png" id="139_The Never-Die Jones Memorial Ride" data-flag="@X" onclick="openSidebar('139_The Never-Die Jones Memorial Ride',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\171_Forgotten Wisdom.png" id="171_Forgotten Wisdom" data-flag="@X" onclick="openSidebar('171_Forgotten Wisdom',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\18_Enter the Woop Woop.png" id="18_Enter the Woop Woop" data-flag="@X" onclick="openSidebar('18_Enter the Woop Woop',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\62_Mister Molotov.png" id="62_Mister Molotov" data-flag="@X" onclick="openSidebar('62_Mister Molotov',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\98_Juiced-Up Freakazoid.png" id="98_Juiced-Up Freakazoid" data-flag="@X" onclick="openSidebar('98_Juiced-Up Freakazoid',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\142_Rustblade Brawler.png" id="142_Rustblade Brawler" data-flag="@X" onclick="openSidebar('142_Rustblade Brawler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\176_Kuruk Brute.png" id="176_Kuruk Brute" data-flag="@X" onclick="openSidebar('176_Kuruk Brute',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\20_Gather the Oddboys.png" id="20_Gather the Oddboys" data-flag="@X" onclick="openSidebar('20_Gather the Oddboys',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\64_Mutagenic Cassowary.png" id="64_Mutagenic Cassowary" data-flag="@X" onclick="openSidebar('64_Mutagenic Cassowary',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\99_Leather Freakboy.png" id="99_Leather Freakboy" data-flag="@X" onclick="openSidebar('99_Leather Freakboy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\143_Scampering Gonk.png" id="143_Scampering Gonk" data-flag="@X" onclick="openSidebar('143_Scampering Gonk',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\179_Milk-Fed Gimp.png" id="179_Milk-Fed Gimp" data-flag="@X" onclick="openSidebar('179_Milk-Fed Gimp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\21_Goon of Fortune.png" id="21_Goon of Fortune" data-flag="@X" onclick="openSidebar('21_Goon of Fortune',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\67_A One-Way Trip to No-Pity City.png" id="67_A One-Way Trip to No-Pity City" data-flag="@X" onclick="openSidebar('67_A One-Way Trip to No-Pity City',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\100_A Long Drive Off a Short Pier.png" id="100_A Long Drive Off a Short Pier" data-flag="@X" onclick="openSidebar('100_A Long Drive Off a Short Pier',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\144_Shock.png" id="144_Shock" data-flag="@X" onclick="openSidebar('144_Shock',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\182_Plated Brumby.png" id="182_Plated Brumby" data-flag="@X" onclick="openSidebar('182_Plated Brumby',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\22_Grave Rigger.png" id="22_Grave Rigger" data-flag="@X" onclick="openSidebar('22_Grave Rigger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\70_Ramshackle Commodore.png" id="70_Ramshackle Commodore" data-flag="@X" onclick="openSidebar('70_Ramshackle Commodore',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\101_Mechanical Pest.png" id="101_Mechanical Pest" data-flag="@X" onclick="openSidebar('101_Mechanical Pest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\146_Smokedrinker Apprentice.png" id="146_Smokedrinker Apprentice" data-flag="@X" onclick="openSidebar('146_Smokedrinker Apprentice',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\183_Rabid Scrungle.png" id="183_Rabid Scrungle" data-flag="@X" onclick="openSidebar('183_Rabid Scrungle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\23_Grease Monkey.png" id="23_Grease Monkey" data-flag="@X" onclick="openSidebar('23_Grease Monkey',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\73_Rusted Wreckmaker.png" id="73_Rusted Wreckmaker" data-flag="@X" onclick="openSidebar('73_Rusted Wreckmaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\105_Persistent Deadfella.png" id="105_Persistent Deadfella" data-flag="@X" onclick="openSidebar('105_Persistent Deadfella',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\147_Smokedrinker Behemoth.png" id="147_Smokedrinker Behemoth" data-flag="@X" onclick="openSidebar('147_Smokedrinker Behemoth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\189_Shed Weakness.png" id="189_Shed Weakness" data-flag="@X" onclick="openSidebar('189_Shed Weakness',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\24_Gyrocaptor.png" id="24_Gyrocaptor" data-flag="@X" onclick="openSidebar('24_Gyrocaptor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\74_Send It Down, Huey.png" id="74_Send It Down, Huey" data-flag="@X" onclick="openSidebar('74_Send It Down, Huey',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\113_Splendid Agony.png" id="113_Splendid Agony" data-flag="@X" onclick="openSidebar('113_Splendid Agony',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\149_Smokedrinker Renegade.png" id="149_Smokedrinker Renegade" data-flag="@X" onclick="openSidebar('149_Smokedrinker Renegade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\194_Ute Wrangler.png" id="194_Ute Wrangler" data-flag="@X" onclick="openSidebar('194_Ute Wrangler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\34_Sickly Gearhead.png" id="34_Sickly Gearhead" data-flag="@X" onclick="openSidebar('34_Sickly Gearhead',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\75_Slippery Oddboy.png" id="75_Slippery Oddboy" data-flag="@X" onclick="openSidebar('75_Slippery Oddboy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\116_Trample Underfoot.png" id="116_Trample Underfoot" data-flag="@X" onclick="openSidebar('116_Trample Underfoot',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\153_Thunder Trundler.png" id="153_Thunder Trundler" data-flag="@X" onclick="openSidebar('153_Thunder Trundler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\195_Woolloo Dreamer.png" id="195_Woolloo Dreamer" data-flag="@X" onclick="openSidebar('195_Woolloo Dreamer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\38_Tryouts for the Human Race.png" id="38_Tryouts for the Human Race" data-flag="@X" onclick="openSidebar('38_Tryouts for the Human Race',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\77_Steel Sabotage.png" id="77_Steel Sabotage" data-flag="@X" onclick="openSidebar('77_Steel Sabotage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\117_Twelve-Bar Bruiser.png" id="117_Twelve-Bar Bruiser" data-flag="@X" onclick="openSidebar('117_Twelve-Bar Bruiser',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\156_Woolloo Intimidator.png" id="156_Woolloo Intimidator" data-flag="@X" onclick="openSidebar('156_Woolloo Intimidator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\196_Yhawho Outrider.png" id="196_Yhawho Outrider" data-flag="@X" onclick="openSidebar('196_Yhawho Outrider',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\197_Depth Charge.png" id="197_Depth Charge" data-flag="@X" onclick="openSidebar('197_Depth Charge',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\200_Doomsday Device.png" id="200_Doomsday Device" data-flag="@X" onclick="openSidebar('200_Doomsday Device',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\205_Lieve, Pale Rider.png" id="205_Lieve, Pale Rider" data-flag="@X" onclick="openSidebar('205_Lieve, Pale Rider',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\208_Motorized Coffin.png" id="208_Motorized Coffin" data-flag="@X" onclick="openSidebar('208_Motorized Coffin',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\211_Rollicking Bodger.png" id="211_Rollicking Bodger" data-flag="@X" onclick="openSidebar('211_Rollicking Bodger',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\198_A Fair Cobble.png" id="198_A Fair Cobble" data-flag="@X" onclick="openSidebar('198_A Fair Cobble',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\201_Nukage Cover.png" id="201_Nukage Cover" data-flag="@X" onclick="openSidebar('201_Nukage Cover',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\204_Cultist's Hoverthrone.png" id="204_Cultists Hoverthrone" data-flag="@X" onclick="openSidebar('204_Cultists Hoverthrone',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\207_Hotshot Riveter.png" id="207_Hotshot Riveter" data-flag="@X" onclick="openSidebar('207_Hotshot Riveter',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\210_Greasehogger.png" id="210_Greasehogger" data-flag="@X" onclick="openSidebar('210_Greasehogger',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\199_Smokedrinker Prophet.png" id="199_Smokedrinker Prophet" data-flag="@X" onclick="openSidebar('199_Smokedrinker Prophet',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\202_Thieving Badlander.png" id="202_Thieving Badlander" data-flag="@X" onclick="openSidebar('202_Thieving Badlander',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\203_All's Fair in Love, War, and Cheating.png" id="203_Alls Fair in Love, War, and Cheating" data-flag="@X" onclick="openSidebar('203_Alls Fair in Love, War, and Cheating',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\209_Romper Stomper.png" id="209_Romper Stomper" data-flag="@X" onclick="openSidebar('209_Romper Stomper',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\212_Rusting Matilda.png" id="212_Rusting Matilda" data-flag="@X" onclick="openSidebar('212_Rusting Matilda',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\206_Slobbering Wardog.png" id="206_Slobbering Wardog" data-flag="@X" onclick="openSidebar('206_Slobbering Wardog',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\213_Rusted Hot-Rod.png" id="213_Rusted Hot-Rod" data-flag="@X" onclick="openSidebar('213_Rusted Hot-Rod',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\220_Anus Insanus.png" id="220_Anus Insanus" data-flag="@X" onclick="openSidebar('220_Anus Insanus',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\227_Ocker the Handsome.png" id="227_Ocker the Handsome" data-flag="@X" onclick="openSidebar('227_Ocker the Handsome',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\217_Mr. Sister.png" id="217_Mr. Sister" data-flag="@X" onclick="openSidebar('217_Mr. Sister',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\224_March of the Deadfellas.png" id="224_March of the Deadfellas" data-flag="@X" onclick="openSidebar('224_March of the Deadfellas',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\214_Towering Oddboy.png" id="214_Towering Oddboy" data-flag="@X" onclick="openSidebar('214_Towering Oddboy',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\222_Herald of Akka Dakka.png" id="222_Herald of Akka Dakka" data-flag="@X" onclick="openSidebar('222_Herald of Akka Dakka',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\228_Oddboy Ringleader.png" id="228_Oddboy Ringleader" data-flag="@X" onclick="openSidebar('228_Oddboy Ringleader',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\218_Retrofitter's Art.png" id="218_Retrofitters Art" data-flag="@X" onclick="openSidebar('218_Retrofitters Art',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\225_The Need for Speed, and Other Drugs.png" id="225_The Need for Speed, and Other Drugs" data-flag="@X" onclick="openSidebar('225_The Need for Speed, and Other Drugs',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\215_Woolloo Begrudger.png" id="215_Woolloo Begrudger" data-flag="@X" onclick="openSidebar('215_Woolloo Begrudger',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\221_Blackspill Fumes.png" id="221_Blackspill Fumes" data-flag="@X" onclick="openSidebar('221_Blackspill Fumes',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\229_Stabwalloper.png" id="229_Stabwalloper" data-flag="@X" onclick="openSidebar('229_Stabwalloper',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\216_The Boss's Three-Hand Man.png" id="216_The Bosss Three-Hand Man" data-flag="@X" onclick="openSidebar('216_The Bosss Three-Hand Man',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\226_Obstinate Scrapper.png" id="226_Obstinate Scrapper" data-flag="@X" onclick="openSidebar('226_Obstinate Scrapper',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\223_Woolloo Scarmaker.png" id="223_Woolloo Scarmaker" data-flag="@X" onclick="openSidebar('223_Woolloo Scarmaker',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\219_Souped-Up Death Ute.png" id="219_Souped-Up Death Ute" data-flag="@X" onclick="openSidebar('219_Souped-Up Death Ute',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\197_Depth Charge.png" id="197_Depth Charge" data-flag="@X" onclick="openSidebar('197_Depth Charge',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\200_Doomsday Device.png" id="200_Doomsday Device" data-flag="@X" onclick="openSidebar('200_Doomsday Device',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\205_Lieve, Pale Rider.png" id="205_Lieve, Pale Rider" data-flag="@X" onclick="openSidebar('205_Lieve, Pale Rider',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\208_Motorized Coffin.png" id="208_Motorized Coffin" data-flag="@X" onclick="openSidebar('208_Motorized Coffin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\211_Rollicking Bodger.png" id="211_Rollicking Bodger" data-flag="@X" onclick="openSidebar('211_Rollicking Bodger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\198_A Fair Cobble.png" id="198_A Fair Cobble" data-flag="@X" onclick="openSidebar('198_A Fair Cobble',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\201_Nukage Cover.png" id="201_Nukage Cover" data-flag="@X" onclick="openSidebar('201_Nukage Cover',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\204_Cultist's Hoverthrone.png" id="204_Cultists Hoverthrone" data-flag="@X" onclick="openSidebar('204_Cultists Hoverthrone',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\207_Hotshot Riveter.png" id="207_Hotshot Riveter" data-flag="@X" onclick="openSidebar('207_Hotshot Riveter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\210_Greasehogger.png" id="210_Greasehogger" data-flag="@X" onclick="openSidebar('210_Greasehogger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\199_Smokedrinker Prophet.png" id="199_Smokedrinker Prophet" data-flag="@X" onclick="openSidebar('199_Smokedrinker Prophet',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\202_Thieving Badlander.png" id="202_Thieving Badlander" data-flag="@X" onclick="openSidebar('202_Thieving Badlander',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\203_All's Fair in Love, War, and Cheating.png" id="203_Alls Fair in Love, War, and Cheating" data-flag="@X" onclick="openSidebar('203_Alls Fair in Love, War, and Cheating',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\209_Romper Stomper.png" id="209_Romper Stomper" data-flag="@X" onclick="openSidebar('209_Romper Stomper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\212_Rusting Matilda.png" id="212_Rusting Matilda" data-flag="@X" onclick="openSidebar('212_Rusting Matilda',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\206_Slobbering Wardog.png" id="206_Slobbering Wardog" data-flag="@X" onclick="openSidebar('206_Slobbering Wardog',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\213_Rusted Hot-Rod.png" id="213_Rusted Hot-Rod" data-flag="@X" onclick="openSidebar('213_Rusted Hot-Rod',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\220_Anus Insanus.png" id="220_Anus Insanus" data-flag="@X" onclick="openSidebar('220_Anus Insanus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\227_Ocker the Handsome.png" id="227_Ocker the Handsome" data-flag="@X" onclick="openSidebar('227_Ocker the Handsome',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\217_Mr. Sister.png" id="217_Mr. Sister" data-flag="@X" onclick="openSidebar('217_Mr. Sister',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\224_March of the Deadfellas.png" id="224_March of the Deadfellas" data-flag="@X" onclick="openSidebar('224_March of the Deadfellas',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\214_Towering Oddboy.png" id="214_Towering Oddboy" data-flag="@X" onclick="openSidebar('214_Towering Oddboy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\222_Herald of Akka Dakka.png" id="222_Herald of Akka Dakka" data-flag="@X" onclick="openSidebar('222_Herald of Akka Dakka',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\228_Oddboy Ringleader.png" id="228_Oddboy Ringleader" data-flag="@X" onclick="openSidebar('228_Oddboy Ringleader',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\218_Retrofitter's Art.png" id="218_Retrofitters Art" data-flag="@X" onclick="openSidebar('218_Retrofitters Art',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\225_The Need for Speed, and Other Drugs.png" id="225_The Need for Speed, and Other Drugs" data-flag="@X" onclick="openSidebar('225_The Need for Speed, and Other Drugs',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\215_Woolloo Begrudger.png" id="215_Woolloo Begrudger" data-flag="@X" onclick="openSidebar('215_Woolloo Begrudger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\221_Blackspill Fumes.png" id="221_Blackspill Fumes" data-flag="@X" onclick="openSidebar('221_Blackspill Fumes',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\229_Stabwalloper.png" id="229_Stabwalloper" data-flag="@X" onclick="openSidebar('229_Stabwalloper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\216_The Boss's Three-Hand Man.png" id="216_The Bosss Three-Hand Man" data-flag="@X" onclick="openSidebar('216_The Bosss Three-Hand Man',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\226_Obstinate Scrapper.png" id="226_Obstinate Scrapper" data-flag="@X" onclick="openSidebar('226_Obstinate Scrapper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\223_Woolloo Scarmaker.png" id="223_Woolloo Scarmaker" data-flag="@X" onclick="openSidebar('223_Woolloo Scarmaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\219_Souped-Up Death Ute.png" id="219_Souped-Up Death Ute" data-flag="@X" onclick="openSidebar('219_Souped-Up Death Ute',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\230_Akka Dakka.png" id="230_Akka Dakka" data-flag="@X" onclick="openSidebar('230_Akka Dakka',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\231_Burnished Chopper.png" id="231_Burnished Chopper" data-flag="@X" onclick="openSidebar('231_Burnished Chopper',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\235_Killdozer.png" id="235_Killdozer" data-flag="@X" onclick="openSidebar('235_Killdozer',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\239_Nodding Donkey.png" id="239_Nodding Donkey" data-flag="@X" onclick="openSidebar('239_Nodding Donkey',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\240_Oasis Engine.png" id="240_Oasis Engine" data-flag="@X" onclick="openSidebar('240_Oasis Engine',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\244_Really Big Gun.png" id="244_Really Big Gun" data-flag="@X" onclick="openSidebar('244_Really Big Gun',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\245_Semi-Automated Hellbike.png" id="245_Semi-Automated Hellbike" data-flag="@X" onclick="openSidebar('245_Semi-Automated Hellbike',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\247_Simulacrum Suit.png" id="247_Simulacrum Suit" data-flag="@X" onclick="openSidebar('247_Simulacrum Suit',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\250_The Jolly Scumbucket.png" id="250_The Jolly Scumbucket" data-flag="@X" onclick="openSidebar('250_The Jolly Scumbucket',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\233_Ironwork Smelter.png" id="233_Ironwork Smelter" data-flag="@X" onclick="openSidebar('233_Ironwork Smelter',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\234_Juggernaut.png" id="234_Juggernaut" data-flag="@X" onclick="openSidebar('234_Juggernaut',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\237_Lockjaw Gauntlet.png" id="237_Lockjaw Gauntlet" data-flag="@X" onclick="openSidebar('237_Lockjaw Gauntlet',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\243_Razoo Furnace.png" id="243_Razoo Furnace" data-flag="@X" onclick="openSidebar('243_Razoo Furnace',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\248_Smasher-Masher.png" id="248_Smasher-Masher" data-flag="@X" onclick="openSidebar('248_Smasher-Masher',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\249_Steel Wyvern.png" id="249_Steel Wyvern" data-flag="@X" onclick="openSidebar('249_Steel Wyvern',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\251_Wham Bammer.png" id="251_Wham Bammer" data-flag="@X" onclick="openSidebar('251_Wham Bammer',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\232_Growler Prowler.png" id="232_Growler Prowler" data-flag="@X" onclick="openSidebar('232_Growler Prowler',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\236_Lethal Contraband.png" id="236_Lethal Contraband" data-flag="@X" onclick="openSidebar('236_Lethal Contraband',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\238_Mechanical Gonk.png" id="238_Mechanical Gonk" data-flag="@X" onclick="openSidebar('238_Mechanical Gonk',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\241_Pursuit Interceptor.png" id="241_Pursuit Interceptor" data-flag="@X" onclick="openSidebar('241_Pursuit Interceptor',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\242_Radiated Tucker.png" id="242_Radiated Tucker" data-flag="@X" onclick="openSidebar('242_Radiated Tucker',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\246_Shambling Rambler.png" id="246_Shambling Rambler" data-flag="@X" onclick="openSidebar('246_Shambling Rambler',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\252_Alkali Flats.png" id="252_Alkali Flats" data-flag="@X" onclick="openSidebar('252_Alkali Flats',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\257_Iridescent Slick.png" id="257_Iridescent Slick" data-flag="@X" onclick="openSidebar('257_Iridescent Slick',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\256_Impenetrable Marsh.png" id="256_Impenetrable Marsh" data-flag="@X" onclick="openSidebar('256_Impenetrable Marsh',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\255_Gum Pyre.png" id="255_Gum Pyre" data-flag="@X" onclick="openSidebar('255_Gum Pyre',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\259_Outback Scrubland.png" id="259_Outback Scrubland" data-flag="@X" onclick="openSidebar('259_Outback Scrubland',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\258_Leangarung, The Mist's Teeth.png" id="258_Leangarung, The Mists Teeth" data-flag="@X" onclick="openSidebar('258_Leangarung, The Mists Teeth',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\253_Contested Wreck.png" id="253_Contested Wreck" data-flag="@X" onclick="openSidebar('253_Contested Wreck',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\254_Fertile Greenbelt.png" id="254_Fertile Greenbelt" data-flag="@X" onclick="openSidebar('254_Fertile Greenbelt',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\260_Vestige of War.png" id="260_Vestige of War" data-flag="@X" onclick="openSidebar('260_Vestige of War',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\261_Yesterday's Remnant.png" id="261_Yesterdays Remnant" data-flag="@X" onclick="openSidebar('261_Yesterdays Remnant',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\262_Plains.png" id="262_Plains" data-flag="@X" onclick="openSidebar('262_Plains',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\263_Island.png" id="263_Island" data-flag="@X" onclick="openSidebar('263_Island',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\264_Swamp.png" id="264_Swamp" data-flag="@X" onclick="openSidebar('264_Swamp',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\265_Mountain.png" id="265_Mountain" data-flag="@X" onclick="openSidebar('265_Mountain',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\266_Forest.png" id="266_Forest" data-flag="@X" onclick="openSidebar('266_Forest',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\230_Akka Dakka.png" id="230_Akka Dakka" data-flag="@X" onclick="openSidebar('230_Akka Dakka',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\231_Burnished Chopper.png" id="231_Burnished Chopper" data-flag="@X" onclick="openSidebar('231_Burnished Chopper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\235_Killdozer.png" id="235_Killdozer" data-flag="@X" onclick="openSidebar('235_Killdozer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\239_Nodding Donkey.png" id="239_Nodding Donkey" data-flag="@X" onclick="openSidebar('239_Nodding Donkey',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\240_Oasis Engine.png" id="240_Oasis Engine" data-flag="@X" onclick="openSidebar('240_Oasis Engine',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\244_Really Big Gun.png" id="244_Really Big Gun" data-flag="@X" onclick="openSidebar('244_Really Big Gun',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\245_Semi-Automated Hellbike.png" id="245_Semi-Automated Hellbike" data-flag="@X" onclick="openSidebar('245_Semi-Automated Hellbike',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\247_Simulacrum Suit.png" id="247_Simulacrum Suit" data-flag="@X" onclick="openSidebar('247_Simulacrum Suit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\250_The Jolly Scumbucket.png" id="250_The Jolly Scumbucket" data-flag="@X" onclick="openSidebar('250_The Jolly Scumbucket',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\233_Ironwork Smelter.png" id="233_Ironwork Smelter" data-flag="@X" onclick="openSidebar('233_Ironwork Smelter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\234_Juggernaut.png" id="234_Juggernaut" data-flag="@X" onclick="openSidebar('234_Juggernaut',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\237_Lockjaw Gauntlet.png" id="237_Lockjaw Gauntlet" data-flag="@X" onclick="openSidebar('237_Lockjaw Gauntlet',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\243_Razoo Furnace.png" id="243_Razoo Furnace" data-flag="@X" onclick="openSidebar('243_Razoo Furnace',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\248_Smasher-Masher.png" id="248_Smasher-Masher" data-flag="@X" onclick="openSidebar('248_Smasher-Masher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\249_Steel Wyvern.png" id="249_Steel Wyvern" data-flag="@X" onclick="openSidebar('249_Steel Wyvern',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\251_Wham Bammer.png" id="251_Wham Bammer" data-flag="@X" onclick="openSidebar('251_Wham Bammer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\232_Growler Prowler.png" id="232_Growler Prowler" data-flag="@X" onclick="openSidebar('232_Growler Prowler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\236_Lethal Contraband.png" id="236_Lethal Contraband" data-flag="@X" onclick="openSidebar('236_Lethal Contraband',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\238_Mechanical Gonk.png" id="238_Mechanical Gonk" data-flag="@X" onclick="openSidebar('238_Mechanical Gonk',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\241_Pursuit Interceptor.png" id="241_Pursuit Interceptor" data-flag="@X" onclick="openSidebar('241_Pursuit Interceptor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\242_Radiated Tucker.png" id="242_Radiated Tucker" data-flag="@X" onclick="openSidebar('242_Radiated Tucker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\246_Shambling Rambler.png" id="246_Shambling Rambler" data-flag="@X" onclick="openSidebar('246_Shambling Rambler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\252_Alkali Flats.png" id="252_Alkali Flats" data-flag="@X" onclick="openSidebar('252_Alkali Flats',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\257_Iridescent Slick.png" id="257_Iridescent Slick" data-flag="@X" onclick="openSidebar('257_Iridescent Slick',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\256_Impenetrable Marsh.png" id="256_Impenetrable Marsh" data-flag="@X" onclick="openSidebar('256_Impenetrable Marsh',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\255_Gum Pyre.png" id="255_Gum Pyre" data-flag="@X" onclick="openSidebar('255_Gum Pyre',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\259_Outback Scrubland.png" id="259_Outback Scrubland" data-flag="@X" onclick="openSidebar('259_Outback Scrubland',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\258_Leangarung, The Mist's Teeth.png" id="258_Leangarung, The Mists Teeth" data-flag="@X" onclick="openSidebar('258_Leangarung, The Mists Teeth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\253_Contested Wreck.png" id="253_Contested Wreck" data-flag="@X" onclick="openSidebar('253_Contested Wreck',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\254_Fertile Greenbelt.png" id="254_Fertile Greenbelt" data-flag="@X" onclick="openSidebar('254_Fertile Greenbelt',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\260_Vestige of War.png" id="260_Vestige of War" data-flag="@X" onclick="openSidebar('260_Vestige of War',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\261_Yesterday's Remnant.png" id="261_Yesterdays Remnant" data-flag="@X" onclick="openSidebar('261_Yesterdays Remnant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\262_Plains.png" id="262_Plains" data-flag="@X" onclick="openSidebar('262_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\263_Island.png" id="263_Island" data-flag="@X" onclick="openSidebar('263_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\264_Swamp.png" id="264_Swamp" data-flag="@X" onclick="openSidebar('264_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\265_Mountain.png" id="265_Mountain" data-flag="@X" onclick="openSidebar('265_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\266_Forest.png" id="266_Forest" data-flag="@X" onclick="openSidebar('266_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="promo" class="anchor"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\267_Mr Sister (Bundle promo).png" id="267_Mr Sister (Bundle promo)" data-flag="@X" onclick="openSidebar('267_Mr Sister (Bundle promo)',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\268_Anus Insanus (Headliner promo).png" id="268_Anus Insanus (Headliner promo)" data-flag="@X" onclick="openSidebar('268_Anus Insanus (Headliner promo)',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\267_Mr Sister (Bundle promo).png" id="267_Mr Sister (Bundle promo)" data-flag="@X" onclick="openSidebar('267_Mr Sister (Bundle promo)',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\268_Anus Insanus (Headliner promo).png" id="268_Anus Insanus (Headliner promo)" data-flag="@X" onclick="openSidebar('268_Anus Insanus (Headliner promo)',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\1t_Bird.png" id="1t_Bird" data-flag="@X" onclick="openSidebar('1t_Bird',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\2t_Mutant Soldier.png" id="2t_Mutant Soldier" data-flag="@X" onclick="openSidebar('2t_Mutant Soldier',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\3t_Race.png" id="3t_Race" data-flag="@X" onclick="openSidebar('3t_Race',true)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\4t_Skeleton.png" id="4t_Skeleton" data-flag="@X" onclick="openSidebar('4t_Skeleton',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\5t_Mutant.png" id="5t_Mutant" data-flag="@X" onclick="openSidebar('5t_Mutant',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\6t_Juggernaut.png" id="6t_Juggernaut" data-flag="@X" onclick="openSidebar('6t_Juggernaut',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\7t_Treasure.png" id="7t_Treasure" data-flag="@X" onclick="openSidebar('7t_Treasure',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\8t_Everywhere.png" id="8t_Everywhere" data-flag="@X" onclick="openSidebar('8t_Everywhere',false)"></div>
-				<div class="container"><img alt="/sets\SMK-files\img\9t_Draft Archetypes.png" id="9t_Draft Archetypes" data-flag="@X" onclick="openSidebar('9t_Draft Archetypes',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\1t_Bird.png" id="1t_Bird" data-flag="@X" onclick="openSidebar('1t_Bird',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\2t_Mutant Soldier.png" id="2t_Mutant Soldier" data-flag="@X" onclick="openSidebar('2t_Mutant Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\3t_Race.png" id="3t_Race" data-flag="@X" onclick="openSidebar('3t_Race',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\4t_Skeleton.png" id="4t_Skeleton" data-flag="@X" onclick="openSidebar('4t_Skeleton',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\5t_Mutant.png" id="5t_Mutant" data-flag="@X" onclick="openSidebar('5t_Mutant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\6t_Juggernaut.png" id="6t_Juggernaut" data-flag="@X" onclick="openSidebar('6t_Juggernaut',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\7t_Treasure.png" id="7t_Treasure" data-flag="@X" onclick="openSidebar('7t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\8t_Everywhere.png" id="8t_Everywhere" data-flag="@X" onclick="openSidebar('8t_Everywhere',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SMK-files\img\9t_Draft Archetypes.png" id="9t_Draft Archetypes" data-flag="@X" onclick="openSidebar('9t_Draft Archetypes',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 			</div>
 			<div class="banner">
 					<img id="RDR-logo" class="logo" src="/sets/RDR-files/logo.png">
 			</div>
 			<div class="grid-container">
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="RDR" class="anchor"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\36_Akka Dakka.png" id="36_Akka Dakka" data-flag="@X" onclick="openSidebar('36_Akka Dakka',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\3_Ngurun, Voice of the Woolloo.png" id="3_Ngurun, Voice of the Woolloo" data-flag="@X" onclick="openSidebar('3_Ngurun, Voice of the Woolloo',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\8_Tim and His Titanic Tinnies.png" id="8_Tim and His Titanic Tinnies" data-flag="@X" onclick="openSidebar('8_Tim and His Titanic Tinnies',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\1_Bodgie and Widgie.png" id="1_Bodgie and Widgie" data-flag="@X" onclick="openSidebar('1_Bodgie and Widgie',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\2_Mister President.png" id="2_Mister President" data-flag="@X" onclick="openSidebar('2_Mister President',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\4_Sweet Daddy Hogfat.png" id="4_Sweet Daddy Hogfat" data-flag="@X" onclick="openSidebar('4_Sweet Daddy Hogfat',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\5_Yirrami, Woolloo Champion.png" id="5_Yirrami, Woolloo Champion" data-flag="@X" onclick="openSidebar('5_Yirrami, Woolloo Champion',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\6_The Belle of the Bomb.png" id="6_The Belle of the Bomb" data-flag="@X" onclick="openSidebar('6_The Belle of the Bomb',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\7_Johnny Twelvefingers.png" id="7_Johnny Twelvefingers" data-flag="@X" onclick="openSidebar('7_Johnny Twelvefingers',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\9_Order of the Scorched Steel.png" id="9_Order of the Scorched Steel" data-flag="@X" onclick="openSidebar('9_Order of the Scorched Steel',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\10_Pew-Pew Betty McGrew.png" id="10_Pew-Pew Betty McGrew" data-flag="@X" onclick="openSidebar('10_Pew-Pew Betty McGrew',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\11_Pres-10, Faulty FR1END.png" id="11_Pres-10, Faulty FR1END" data-flag="@X" onclick="openSidebar('11_Pres-10, Faulty FR1END',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\12_The Corpse Grinder.png" id="12_The Corpse Grinder" data-flag="@X" onclick="openSidebar('12_The Corpse Grinder',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\13_The Robotic Psychotic.png" id="13_The Robotic Psychotic" data-flag="@X" onclick="openSidebar('13_The Robotic Psychotic',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\14_The Scourge of Landfill Valley.png" id="14_The Scourge of Landfill Valley" data-flag="@X" onclick="openSidebar('14_The Scourge of Landfill Valley',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\15_The City of Wurung.png" id="15_The City of Wurung" data-flag="@X" onclick="openSidebar('15_The City of Wurung',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\16_Just Jim.png" id="16_Just Jim" data-flag="@X" onclick="openSidebar('16_Just Jim',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\17_Kingabaru, Kuruk Chief.png" id="17_Kingabaru, Kuruk Chief" data-flag="@X" onclick="openSidebar('17_Kingabaru, Kuruk Chief',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\18_The Satanic Mechanic.png" id="18_The Satanic Mechanic" data-flag="@X" onclick="openSidebar('18_The Satanic Mechanic',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\19_The One-Man Traffic Jam.png" id="19_The One-Man Traffic Jam" data-flag="@X" onclick="openSidebar('19_The One-Man Traffic Jam',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\20_The Bonedown from Outta Town.png" id="20_The Bonedown from Outta Town" data-flag="@X" onclick="openSidebar('20_The Bonedown from Outta Town',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\23_Ire, All-Out Warlord.png" id="23_Ire, All-Out Warlord" data-flag="@X" onclick="openSidebar('23_Ire, All-Out Warlord',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\24_Car-Wreck Wojciech.png" id="24_Car-Wreck Wojciech" data-flag="@X" onclick="openSidebar('24_Car-Wreck Wojciech',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\25_Old Mother Radium.png" id="25_Old Mother Radium" data-flag="@X" onclick="openSidebar('25_Old Mother Radium',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\26_Mr. Sister.png" id="26_Mr. Sister" data-flag="@X" onclick="openSidebar('26_Mr. Sister',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\27_Brother Becquerel.png" id="27_Brother Becquerel" data-flag="@X" onclick="openSidebar('27_Brother Becquerel',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\28_Scabrous Cadabra.png" id="28_Scabrous Cadabra" data-flag="@X" onclick="openSidebar('28_Scabrous Cadabra',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\29_The Murderiser.png" id="29_The Murderiser" data-flag="@X" onclick="openSidebar('29_The Murderiser',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\21_Hody Hellcat Halloway.png" id="21_Hody Hellcat Halloway" data-flag="@X" onclick="openSidebar('21_Hody Hellcat Halloway',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\22_Bareknuckle Brent Morrison.png" id="22_Bareknuckle Brent Morrison" data-flag="@X" onclick="openSidebar('22_Bareknuckle Brent Morrison',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\30_Ocker the Handsome.png" id="30_Ocker the Handsome" data-flag="@X" onclick="openSidebar('30_Ocker the Handsome',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\31_Biceptorius Maximus.png" id="31_Biceptorius Maximus" data-flag="@X" onclick="openSidebar('31_Biceptorius Maximus',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\32_Eileen, Motor Queen.png" id="32_Eileen, Motor Queen" data-flag="@X" onclick="openSidebar('32_Eileen, Motor Queen',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\33_Major General Malfunction.png" id="33_Major General Malfunction" data-flag="@X" onclick="openSidebar('33_Major General Malfunction',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\34_Short John Copper.png" id="34_Short John Copper" data-flag="@X" onclick="openSidebar('34_Short John Copper',false)"></div>
-				<div class="container"><img alt="/sets\RDR-files\img\35_Strine, Duke of the Ghoul Coast.png" id="35_Strine, Duke of the Ghoul Coast" data-flag="@X" onclick="openSidebar('35_Strine, Duke of the Ghoul Coast',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\36_Akka Dakka.png" id="36_Akka Dakka" data-flag="@X" onclick="openSidebar('36_Akka Dakka',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\3_Ngurun, Voice of the Woolloo.png" id="3_Ngurun, Voice of the Woolloo" data-flag="@X" onclick="openSidebar('3_Ngurun, Voice of the Woolloo',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\8_Tim and His Titanic Tinnies.png" id="8_Tim and His Titanic Tinnies" data-flag="@X" onclick="openSidebar('8_Tim and His Titanic Tinnies',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\1_Bodgie and Widgie.png" id="1_Bodgie and Widgie" data-flag="@X" onclick="openSidebar('1_Bodgie and Widgie',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\2_Mister President.png" id="2_Mister President" data-flag="@X" onclick="openSidebar('2_Mister President',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\4_Sweet Daddy Hogfat.png" id="4_Sweet Daddy Hogfat" data-flag="@X" onclick="openSidebar('4_Sweet Daddy Hogfat',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\5_Yirrami, Woolloo Champion.png" id="5_Yirrami, Woolloo Champion" data-flag="@X" onclick="openSidebar('5_Yirrami, Woolloo Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\6_The Belle of the Bomb.png" id="6_The Belle of the Bomb" data-flag="@X" onclick="openSidebar('6_The Belle of the Bomb',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\7_Johnny Twelvefingers.png" id="7_Johnny Twelvefingers" data-flag="@X" onclick="openSidebar('7_Johnny Twelvefingers',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\9_Order of the Scorched Steel.png" id="9_Order of the Scorched Steel" data-flag="@X" onclick="openSidebar('9_Order of the Scorched Steel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\10_Pew-Pew Betty McGrew.png" id="10_Pew-Pew Betty McGrew" data-flag="@X" onclick="openSidebar('10_Pew-Pew Betty McGrew',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\11_Pres-10, Faulty FR1END.png" id="11_Pres-10, Faulty FR1END" data-flag="@X" onclick="openSidebar('11_Pres-10, Faulty FR1END',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\12_The Corpse Grinder.png" id="12_The Corpse Grinder" data-flag="@X" onclick="openSidebar('12_The Corpse Grinder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\13_The Robotic Psychotic.png" id="13_The Robotic Psychotic" data-flag="@X" onclick="openSidebar('13_The Robotic Psychotic',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\14_The Scourge of Landfill Valley.png" id="14_The Scourge of Landfill Valley" data-flag="@X" onclick="openSidebar('14_The Scourge of Landfill Valley',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\15_The City of Wurung.png" id="15_The City of Wurung" data-flag="@X" onclick="openSidebar('15_The City of Wurung',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\16_Just Jim.png" id="16_Just Jim" data-flag="@X" onclick="openSidebar('16_Just Jim',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\17_Kingabaru, Kuruk Chief.png" id="17_Kingabaru, Kuruk Chief" data-flag="@X" onclick="openSidebar('17_Kingabaru, Kuruk Chief',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\18_The Satanic Mechanic.png" id="18_The Satanic Mechanic" data-flag="@X" onclick="openSidebar('18_The Satanic Mechanic',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\19_The One-Man Traffic Jam.png" id="19_The One-Man Traffic Jam" data-flag="@X" onclick="openSidebar('19_The One-Man Traffic Jam',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\20_The Bonedown from Outta Town.png" id="20_The Bonedown from Outta Town" data-flag="@X" onclick="openSidebar('20_The Bonedown from Outta Town',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\23_Ire, All-Out Warlord.png" id="23_Ire, All-Out Warlord" data-flag="@X" onclick="openSidebar('23_Ire, All-Out Warlord',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\24_Car-Wreck Wojciech.png" id="24_Car-Wreck Wojciech" data-flag="@X" onclick="openSidebar('24_Car-Wreck Wojciech',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\25_Old Mother Radium.png" id="25_Old Mother Radium" data-flag="@X" onclick="openSidebar('25_Old Mother Radium',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\26_Mr. Sister.png" id="26_Mr. Sister" data-flag="@X" onclick="openSidebar('26_Mr. Sister',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\27_Brother Becquerel.png" id="27_Brother Becquerel" data-flag="@X" onclick="openSidebar('27_Brother Becquerel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\28_Scabrous Cadabra.png" id="28_Scabrous Cadabra" data-flag="@X" onclick="openSidebar('28_Scabrous Cadabra',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\29_The Murderiser.png" id="29_The Murderiser" data-flag="@X" onclick="openSidebar('29_The Murderiser',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\21_Hody Hellcat Halloway.png" id="21_Hody Hellcat Halloway" data-flag="@X" onclick="openSidebar('21_Hody Hellcat Halloway',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\22_Bareknuckle Brent Morrison.png" id="22_Bareknuckle Brent Morrison" data-flag="@X" onclick="openSidebar('22_Bareknuckle Brent Morrison',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\30_Ocker the Handsome.png" id="30_Ocker the Handsome" data-flag="@X" onclick="openSidebar('30_Ocker the Handsome',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\31_Biceptorius Maximus.png" id="31_Biceptorius Maximus" data-flag="@X" onclick="openSidebar('31_Biceptorius Maximus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\32_Eileen, Motor Queen.png" id="32_Eileen, Motor Queen" data-flag="@X" onclick="openSidebar('32_Eileen, Motor Queen',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\33_Major General Malfunction.png" id="33_Major General Malfunction" data-flag="@X" onclick="openSidebar('33_Major General Malfunction',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\34_Short John Copper.png" id="34_Short John Copper" data-flag="@X" onclick="openSidebar('34_Short John Copper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\RDR-files\img\35_Strine, Duke of the Ghoul Coast.png" id="35_Strine, Duke of the Ghoul Coast" data-flag="@X" onclick="openSidebar('35_Strine, Duke of the Ghoul Coast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 			</div>
 			<div class="banner">
 					<img id="SPG-logo" class="logo" src="/sets/SPG-files/logo.png">
 			</div>
 			<div class="grid-container">
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="SPG" class="anchor"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\109_Contagion Clasp.png" id="109_Contagion Clasp" data-flag="@X" onclick="openSidebar('109_Contagion Clasp',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\110_Grim Poppet.png" id="110_Grim Poppet" data-flag="@X" onclick="openSidebar('110_Grim Poppet',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\101_Twilight Shepherd.png" id="101_Twilight Shepherd" data-flag="@X" onclick="openSidebar('101_Twilight Shepherd',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\102_Corrupted Conscience.png" id="102_Corrupted Conscience" data-flag="@X" onclick="openSidebar('102_Corrupted Conscience',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\103_Blowfly Infestation.png" id="103_Blowfly Infestation" data-flag="@X" onclick="openSidebar('103_Blowfly Infestation',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\104_Dusk Urchins.png" id="104_Dusk Urchins" data-flag="@X" onclick="openSidebar('104_Dusk Urchins',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\105_Necroskitter.png" id="105_Necroskitter" data-flag="@X" onclick="openSidebar('105_Necroskitter',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\106_Hateflayer.png" id="106_Hateflayer" data-flag="@X" onclick="openSidebar('106_Hateflayer',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\107_Soul-Scar Mage.png" id="107_Soul-Scar Mage" data-flag="@X" onclick="openSidebar('107_Soul-Scar Mage',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\108_Triumph of the Hordes.png" id="108_Triumph of the Hordes" data-flag="@X" onclick="openSidebar('108_Triumph of the Hordes',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\109_Contagion Clasp.png" id="109_Contagion Clasp" data-flag="@X" onclick="openSidebar('109_Contagion Clasp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\110_Grim Poppet.png" id="110_Grim Poppet" data-flag="@X" onclick="openSidebar('110_Grim Poppet',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\101_Twilight Shepherd.png" id="101_Twilight Shepherd" data-flag="@X" onclick="openSidebar('101_Twilight Shepherd',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\102_Corrupted Conscience.png" id="102_Corrupted Conscience" data-flag="@X" onclick="openSidebar('102_Corrupted Conscience',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\103_Blowfly Infestation.png" id="103_Blowfly Infestation" data-flag="@X" onclick="openSidebar('103_Blowfly Infestation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\104_Dusk Urchins.png" id="104_Dusk Urchins" data-flag="@X" onclick="openSidebar('104_Dusk Urchins',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\105_Necroskitter.png" id="105_Necroskitter" data-flag="@X" onclick="openSidebar('105_Necroskitter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\106_Hateflayer.png" id="106_Hateflayer" data-flag="@X" onclick="openSidebar('106_Hateflayer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\107_Soul-Scar Mage.png" id="107_Soul-Scar Mage" data-flag="@X" onclick="openSidebar('107_Soul-Scar Mage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\108_Triumph of the Hordes.png" id="108_Triumph of the Hordes" data-flag="@X" onclick="openSidebar('108_Triumph of the Hordes',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
@@ -820,27 +812,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -852,17 +868,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -895,6 +913,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -904,6 +923,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -926,21 +946,21 @@
 	}
 
 		function randomCard() {
-			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-			let random_card = card_list_arrayified[i];
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
 
-			const url = new URL('card', window.location.origin);
-			const params = {
-				set: random_card.set,
-				num: random_card.number,
-				name: random_card.card_name
-			}
-			for (const key in params) {
-				url.searchParams.append(key, params[key]);
-			}
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
 
-			window.location.href = url;
-		}
+				window.location.href = url;
+			}
 	</script>
 </body>
 </html>

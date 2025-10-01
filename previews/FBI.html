@@ -39,8 +39,8 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
@@ -126,12 +126,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -203,9 +204,6 @@
 		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
 		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/JMR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OVR-files/icon.png" />
 		<img class="preload-hidden" id="bg" src="/sets/FBI-files/bg.png" />
 
 		<div class="header">
@@ -219,7 +217,7 @@
 		</div>
 	</div>
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
 		<a class="set-bar" href="FBI"><img src="/sets/FBI-files/icon.png">Project Starlight</a>
 	
@@ -277,358 +275,352 @@
 	
 		<a class="set-bar inactive" href="ELO"><img src="/sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
 	
-		<a class="set-bar inactive" href="JMR"><img src="/sets/JMR-files/icon.png">Jamuraa: The Mirage War</a>
-	
-		<a class="set-bar inactive" href="90S"><img src="/sets/90S-files/icon.png">Rath and Storm</a>
-	
-		<a class="set-bar inactive" href="OVR"><img src="/sets/OVR-files/icon.png">Overlay</a>
-	
 		</div>
 		<div class="banner">
 		<img class="logo" src="/sets/FBI-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\FBI-files\img\1_The Director.png" id="1_The Director" data-flag="@X" onclick="openSidebar('1_The Director',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\2_Entity X.png" id="2_Entity X" data-flag="@X" onclick="openSidebar('2_Entity X',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\3_Reality Lacuna.png" id="3_Reality Lacuna" data-flag="@X" onclick="openSidebar('3_Reality Lacuna',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\24_Nuclear Family.png" id="24_Nuclear Family" data-flag="@X" onclick="openSidebar('24_Nuclear Family',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\55_Director's Hotline.png" id="55_Directors Hotline" data-flag="@X" onclick="openSidebar('55_Directors Hotline',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\97_Do Not Adjust Your Set.png" id="97_Do Not Adjust Your Set" data-flag="@X" onclick="openSidebar('97_Do Not Adjust Your Set',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\137_Causality Burst.png" id="137_Causality Burst" data-flag="@X" onclick="openSidebar('137_Causality Burst',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\184_Gravitic Inversion.png" id="184_Gravitic Inversion" data-flag="@X" onclick="openSidebar('184_Gravitic Inversion',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\25_Paradigm Collapse.png" id="25_Paradigm Collapse" data-flag="@X" onclick="openSidebar('25_Paradigm Collapse',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\69_Protect and Survive.png" id="69_Protect and Survive" data-flag="@X" onclick="openSidebar('69_Protect and Survive',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\100_Entangled Core.png" id="100_Entangled Core" data-flag="@X" onclick="openSidebar('100_Entangled Core',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\143_Dissent Silencer.png" id="143_Dissent Silencer" data-flag="@X" onclick="openSidebar('143_Dissent Silencer',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\187_Haunting Sylph.png" id="187_Haunting Sylph" data-flag="@X" onclick="openSidebar('187_Haunting Sylph',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\43_Test Screen.png" id="43_Test Screen" data-flag="@X" onclick="openSidebar('43_Test Screen',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\80_Temporal Experiment.png" id="80_Temporal Experiment" data-flag="@X" onclick="openSidebar('80_Temporal Experiment',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\112_Relentless Revenant.png" id="112_Relentless Revenant" data-flag="@X" onclick="openSidebar('112_Relentless Revenant',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\162_Psychic Residue.png" id="162_Psychic Residue" data-flag="@X" onclick="openSidebar('162_Psychic Residue',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\203_Randfell, Poltergeist Prime.png" id="203_Randfell, Poltergeist Prime" data-flag="@X" onclick="openSidebar('203_Randfell, Poltergeist Prime',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\6_Assured Destruction.png" id="6_Assured Destruction" data-flag="@X" onclick="openSidebar('6_Assured Destruction',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\51_Cutting-Edge Research.png" id="51_Cutting-Edge Research" data-flag="@X" onclick="openSidebar('51_Cutting-Edge Research',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\91_Anguished Revenant.png" id="91_Anguished Revenant" data-flag="@X" onclick="openSidebar('91_Anguished Revenant',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\133_Air of Suspicion.png" id="133_Air of Suspicion" data-flag="@X" onclick="openSidebar('133_Air of Suspicion',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\178_Chief of Staff.png" id="178_Chief of Staff" data-flag="@X" onclick="openSidebar('178_Chief of Staff',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\9_Bureau Recruit.png" id="9_Bureau Recruit" data-flag="@X" onclick="openSidebar('9_Bureau Recruit',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\56_Ego Death.png" id="56_Ego Death" data-flag="@X" onclick="openSidebar('56_Ego Death',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\95_Deadly Isolation.png" id="95_Deadly Isolation" data-flag="@X" onclick="openSidebar('95_Deadly Isolation',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\155_Lost in Transit.png" id="155_Lost in Transit" data-flag="@X" onclick="openSidebar('155_Lost in Transit',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\182_Engineered Overseer.png" id="182_Engineered Overseer" data-flag="@X" onclick="openSidebar('182_Engineered Overseer',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\12_Cross the Threshold.png" id="12_Cross the Threshold" data-flag="@X" onclick="openSidebar('12_Cross the Threshold',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\59_Flatline.png" id="59_Flatline" data-flag="@X" onclick="openSidebar('59_Flatline',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\104_Mark for Death.png" id="104_Mark for Death" data-flag="@X" onclick="openSidebar('104_Mark for Death',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\157_Night Ablaze.png" id="157_Night Ablaze" data-flag="@X" onclick="openSidebar('157_Night Ablaze',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\189_Hyperbaric Subject.png" id="189_Hyperbaric Subject" data-flag="@X" onclick="openSidebar('189_Hyperbaric Subject',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\21_Little Boy Lost.png" id="21_Little Boy Lost" data-flag="@X" onclick="openSidebar('21_Little Boy Lost',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\66_Pervasive Intelligence.png" id="66_Pervasive Intelligence" data-flag="@X" onclick="openSidebar('66_Pervasive Intelligence',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\106_Night's Promise.png" id="106_Nights Promise" data-flag="@X" onclick="openSidebar('106_Nights Promise',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\161_Payload Harrier.png" id="161_Payload Harrier" data-flag="@X" onclick="openSidebar('161_Payload Harrier',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\192_Memories of Violence.png" id="192_Memories of Violence" data-flag="@X" onclick="openSidebar('192_Memories of Violence',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\32_Rescue Carrier.png" id="32_Rescue Carrier" data-flag="@X" onclick="openSidebar('32_Rescue Carrier',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\72_Recon Fighter.png" id="72_Recon Fighter" data-flag="@X" onclick="openSidebar('72_Recon Fighter',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\121_Stormsea Mobilizer.png" id="121_Stormsea Mobilizer" data-flag="@X" onclick="openSidebar('121_Stormsea Mobilizer',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\165_Returned Voyager.png" id="165_Returned Voyager" data-flag="@X" onclick="openSidebar('165_Returned Voyager',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\208_Search for Intelligence.png" id="208_Search for Intelligence" data-flag="@X" onclick="openSidebar('208_Search for Intelligence',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\38_Stumble Upon.png" id="38_Stumble Upon" data-flag="@X" onclick="openSidebar('38_Stumble Upon',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\73_Remote Viewing.png" id="73_Remote Viewing" data-flag="@X" onclick="openSidebar('73_Remote Viewing',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\124_Unexplained Obelisk.png" id="124_Unexplained Obelisk" data-flag="@X" onclick="openSidebar('124_Unexplained Obelisk',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\171_Unseen Hand.png" id="171_Unseen Hand" data-flag="@X" onclick="openSidebar('171_Unseen Hand',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\211_Spectral Holography.png" id="211_Spectral Holography" data-flag="@X" onclick="openSidebar('211_Spectral Holography',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\42_Temporal Voyager.png" id="42_Temporal Voyager" data-flag="@X" onclick="openSidebar('42_Temporal Voyager',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\75_Shortwave Station.png" id="75_Shortwave Station" data-flag="@X" onclick="openSidebar('75_Shortwave Station',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\125_Unmarked Van.png" id="125_Unmarked Van" data-flag="@X" onclick="openSidebar('125_Unmarked Van',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\172_Unwitting Patsy.png" id="172_Unwitting Patsy" data-flag="@X" onclick="openSidebar('172_Unwitting Patsy',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\212_Submersible Behemoth.png" id="212_Submersible Behemoth" data-flag="@X" onclick="openSidebar('212_Submersible Behemoth',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\44_Thoughtcrime.png" id="44_Thoughtcrime" data-flag="@X" onclick="openSidebar('44_Thoughtcrime',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\86_Unidentified Operative.png" id="86_Unidentified Operative" data-flag="@X" onclick="openSidebar('86_Unidentified Operative',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\126_Vengeful Stalker.png" id="126_Vengeful Stalker" data-flag="@X" onclick="openSidebar('126_Vengeful Stalker',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\173_Wavefront Radiation.png" id="173_Wavefront Radiation" data-flag="@X" onclick="openSidebar('173_Wavefront Radiation',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\213_Subterranean Terraforming.png" id="213_Subterranean Terraforming" data-flag="@X" onclick="openSidebar('213_Subterranean Terraforming',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\4_Altitude Adaptor.png" id="4_Altitude Adaptor" data-flag="@X" onclick="openSidebar('4_Altitude Adaptor',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\52_Dead Hand Protocol.png" id="52_Dead Hand Protocol" data-flag="@X" onclick="openSidebar('52_Dead Hand Protocol',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\90_Access the Archive.png" id="90_Access the Archive" data-flag="@X" onclick="openSidebar('90_Access the Archive',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\134_Amateur Occultist.png" id="134_Amateur Occultist" data-flag="@X" onclick="openSidebar('134_Amateur Occultist',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\179_Dubious Proof.png" id="179_Dubious Proof" data-flag="@X" onclick="openSidebar('179_Dubious Proof',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\10_Clean-Up Operative.png" id="10_Clean-Up Operative" data-flag="@X" onclick="openSidebar('10_Clean-Up Operative',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\58_Experimental Passenger.png" id="58_Experimental Passenger" data-flag="@X" onclick="openSidebar('58_Experimental Passenger',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\93_Back and to the Left.png" id="93_Back and to the Left" data-flag="@X" onclick="openSidebar('93_Back and to the Left',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\140_Cornered Rat.png" id="140_Cornered Rat" data-flag="@X" onclick="openSidebar('140_Cornered Rat',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\180_Dystopian Rider.png" id="180_Dystopian Rider" data-flag="@X" onclick="openSidebar('180_Dystopian Rider',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\11_Communications Blackout.png" id="11_Communications Blackout" data-flag="@X" onclick="openSidebar('11_Communications Blackout',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\60_Follow the Money.png" id="60_Follow the Money" data-flag="@X" onclick="openSidebar('60_Follow the Money',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\94_Captured Agent.png" id="94_Captured Agent" data-flag="@X" onclick="openSidebar('94_Captured Agent',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\146_Engineered Gridlock.png" id="146_Engineered Gridlock" data-flag="@X" onclick="openSidebar('146_Engineered Gridlock',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\183_Extrasensory Exemplar.png" id="183_Extrasensory Exemplar" data-flag="@X" onclick="openSidebar('183_Extrasensory Exemplar',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\13_Deep-Cover Turncoat.png" id="13_Deep-Cover Turncoat" data-flag="@X" onclick="openSidebar('13_Deep-Cover Turncoat',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\65_Parapsychopomp.png" id="65_Parapsychopomp" data-flag="@X" onclick="openSidebar('65_Parapsychopomp',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\96_Dismantle the Mind.png" id="96_Dismantle the Mind" data-flag="@X" onclick="openSidebar('96_Dismantle the Mind',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\147_Fiery Intercessor.png" id="147_Fiery Intercessor" data-flag="@X" onclick="openSidebar('147_Fiery Intercessor',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\190_Liminal Lurker.png" id="190_Liminal Lurker" data-flag="@X" onclick="openSidebar('190_Liminal Lurker',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\15_Digitized Sleeper.png" id="15_Digitized Sleeper" data-flag="@X" onclick="openSidebar('15_Digitized Sleeper',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\68_Portal Overseer.png" id="68_Portal Overseer" data-flag="@X" onclick="openSidebar('68_Portal Overseer',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\101_Forensic Tampering.png" id="101_Forensic Tampering" data-flag="@X" onclick="openSidebar('101_Forensic Tampering',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\148_Haunting Presence.png" id="148_Haunting Presence" data-flag="@X" onclick="openSidebar('148_Haunting Presence',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\191_Lingering Resident.png" id="191_Lingering Resident" data-flag="@X" onclick="openSidebar('191_Lingering Resident',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\17_Folk Attraction.png" id="17_Folk Attraction" data-flag="@X" onclick="openSidebar('17_Folk Attraction',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\70_Rapid Responder.png" id="70_Rapid Responder" data-flag="@X" onclick="openSidebar('70_Rapid Responder',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\105_Necrotic Usurpation.png" id="105_Necrotic Usurpation" data-flag="@X" onclick="openSidebar('105_Necrotic Usurpation',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\151_Lethal Sanction.png" id="151_Lethal Sanction" data-flag="@X" onclick="openSidebar('151_Lethal Sanction',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\194_Mirrorweave Mentalist.png" id="194_Mirrorweave Mentalist" data-flag="@X" onclick="openSidebar('194_Mirrorweave Mentalist',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\19_Heartless Collateral.png" id="19_Heartless Collateral" data-flag="@X" onclick="openSidebar('19_Heartless Collateral',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\71_Reach Beyond.png" id="71_Reach Beyond" data-flag="@X" onclick="openSidebar('71_Reach Beyond',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\108_Professional Poisoner.png" id="108_Professional Poisoner" data-flag="@X" onclick="openSidebar('108_Professional Poisoner',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\153_Limited Hangout.png" id="153_Limited Hangout" data-flag="@X" onclick="openSidebar('153_Limited Hangout',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\195_New Brutalism.png" id="195_New Brutalism" data-flag="@X" onclick="openSidebar('195_New Brutalism',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\20_Interception Squad.png" id="20_Interception Squad" data-flag="@X" onclick="openSidebar('20_Interception Squad',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\74_Repressed Happening.png" id="74_Repressed Happening" data-flag="@X" onclick="openSidebar('74_Repressed Happening',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\109_Psychogenic Orb.png" id="109_Psychogenic Orb" data-flag="@X" onclick="openSidebar('109_Psychogenic Orb',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\154_Lingering Victim.png" id="154_Lingering Victim" data-flag="@X" onclick="openSidebar('154_Lingering Victim',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\199_Probe Deeper.png" id="199_Probe Deeper" data-flag="@X" onclick="openSidebar('199_Probe Deeper',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\23_Nondescript Agent.png" id="23_Nondescript Agent" data-flag="@X" onclick="openSidebar('23_Nondescript Agent',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\76_Steely Watcher.png" id="76_Steely Watcher" data-flag="@X" onclick="openSidebar('76_Steely Watcher',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\113_Remorseful Agent.png" id="113_Remorseful Agent" data-flag="@X" onclick="openSidebar('113_Remorseful Agent',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\159_Open the Portal.png" id="159_Open the Portal" data-flag="@X" onclick="openSidebar('159_Open the Portal',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\200_Prototype Walker.png" id="200_Prototype Walker" data-flag="@X" onclick="openSidebar('200_Prototype Walker',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\27_Persuasive Recruiter.png" id="27_Persuasive Recruiter" data-flag="@X" onclick="openSidebar('27_Persuasive Recruiter',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\79_Syndicate Kingpin.png" id="79_Syndicate Kingpin" data-flag="@X" onclick="openSidebar('79_Syndicate Kingpin',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\117_Sinister Transmission.png" id="117_Sinister Transmission" data-flag="@X" onclick="openSidebar('117_Sinister Transmission',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\160_Operation Exposer.png" id="160_Operation Exposer" data-flag="@X" onclick="openSidebar('160_Operation Exposer',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\202_Pulsating Pupa.png" id="202_Pulsating Pupa" data-flag="@X" onclick="openSidebar('202_Pulsating Pupa',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\29_Project Delphos.png" id="29_Project Delphos" data-flag="@X" onclick="openSidebar('29_Project Delphos',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\81_Thirst for Truth.png" id="81_Thirst for Truth" data-flag="@X" onclick="openSidebar('81_Thirst for Truth',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\127_Viewer of Beyond.png" id="127_Viewer of Beyond" data-flag="@X" onclick="openSidebar('127_Viewer of Beyond',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\168_Spectral Electrometer.png" id="168_Spectral Electrometer" data-flag="@X" onclick="openSidebar('168_Spectral Electrometer',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\209_Shadowed Cabinet.png" id="209_Shadowed Cabinet" data-flag="@X" onclick="openSidebar('209_Shadowed Cabinet',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\30_Recovered Wreck.png" id="30_Recovered Wreck" data-flag="@X" onclick="openSidebar('30_Recovered Wreck',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\84_Unethical Study.png" id="84_Unethical Study" data-flag="@X" onclick="openSidebar('84_Unethical Study',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\129_Wailing Grief.png" id="129_Wailing Grief" data-flag="@X" onclick="openSidebar('129_Wailing Grief',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\170_Undocumented Storage.png" id="170_Undocumented Storage" data-flag="@X" onclick="openSidebar('170_Undocumented Storage',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\216_Unnatural Churn.png" id="216_Unnatural Churn" data-flag="@X" onclick="openSidebar('216_Unnatural Churn',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\33_Reverse Engineering.png" id="33_Reverse Engineering" data-flag="@X" onclick="openSidebar('33_Reverse Engineering',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\89_Wistful Ghost.png" id="89_Wistful Ghost" data-flag="@X" onclick="openSidebar('89_Wistful Ghost',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\130_Watching the Skies.png" id="130_Watching the Skies" data-flag="@X" onclick="openSidebar('130_Watching the Skies',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\174_Wellspring Parahuman.png" id="174_Wellspring Parahuman" data-flag="@X" onclick="openSidebar('174_Wellspring Parahuman',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\218_Unsuspecting Civilian.png" id="218_Unsuspecting Civilian" data-flag="@X" onclick="openSidebar('218_Unsuspecting Civilian',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\5_Arrest.png" id="5_Arrest" data-flag="@X" onclick="openSidebar('5_Arrest',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\47_Ambush Agent.png" id="47_Ambush Agent" data-flag="@X" onclick="openSidebar('47_Ambush Agent',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\92_Astral Projection.png" id="92_Astral Projection" data-flag="@X" onclick="openSidebar('92_Astral Projection',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\135_Baffling Incident.png" id="135_Baffling Incident" data-flag="@X" onclick="openSidebar('135_Baffling Incident',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\176_Anechoic Pressure.png" id="176_Anechoic Pressure" data-flag="@X" onclick="openSidebar('176_Anechoic Pressure',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\7_Bear Witness.png" id="7_Bear Witness" data-flag="@X" onclick="openSidebar('7_Bear Witness',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\48_Assistant Director.png" id="48_Assistant Director" data-flag="@X" onclick="openSidebar('48_Assistant Director',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\98_Don't Leave a Body.png" id="98_Dont Leave a Body" data-flag="@X" onclick="openSidebar('98_Dont Leave a Body',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\136_Brusque Agent.png" id="136_Brusque Agent" data-flag="@X" onclick="openSidebar('136_Brusque Agent',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\177_Asset Collector.png" id="177_Asset Collector" data-flag="@X" onclick="openSidebar('177_Asset Collector',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\8_Breach Containment.png" id="8_Breach Containment" data-flag="@X" onclick="openSidebar('8_Breach Containment',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\49_Childhood Friend.png" id="49_Childhood Friend" data-flag="@X" onclick="openSidebar('49_Childhood Friend',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\99_Doomed Response.png" id="99_Doomed Response" data-flag="@X" onclick="openSidebar('99_Doomed Response',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\138_Compromised Fugitive.png" id="138_Compromised Fugitive" data-flag="@X" onclick="openSidebar('138_Compromised Fugitive',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\181_Early-Warning System.png" id="181_Early-Warning System" data-flag="@X" onclick="openSidebar('181_Early-Warning System',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\14_Detailed Plans.png" id="14_Detailed Plans" data-flag="@X" onclick="openSidebar('14_Detailed Plans',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\50_Contingency Plan.png" id="50_Contingency Plan" data-flag="@X" onclick="openSidebar('50_Contingency Plan',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\102_Imposing Interceptor.png" id="102_Imposing Interceptor" data-flag="@X" onclick="openSidebar('102_Imposing Interceptor',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\139_Containment Engineer.png" id="139_Containment Engineer" data-flag="@X" onclick="openSidebar('139_Containment Engineer',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\185_Hangar Storage.png" id="185_Hangar Storage" data-flag="@X" onclick="openSidebar('185_Hangar Storage',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\16_Fateful Rendezvous.png" id="16_Fateful Rendezvous" data-flag="@X" onclick="openSidebar('16_Fateful Rendezvous',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\53_Declassify.png" id="53_Declassify" data-flag="@X" onclick="openSidebar('53_Declassify',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\103_Lurking Slasher.png" id="103_Lurking Slasher" data-flag="@X" onclick="openSidebar('103_Lurking Slasher',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\141_Crash Test.png" id="141_Crash Test" data-flag="@X" onclick="openSidebar('141_Crash Test',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\186_Haunting Remnant.png" id="186_Haunting Remnant" data-flag="@X" onclick="openSidebar('186_Haunting Remnant',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\18_Grizzled Sleuth.png" id="18_Grizzled Sleuth" data-flag="@X" onclick="openSidebar('18_Grizzled Sleuth',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\54_Deny Everything.png" id="54_Deny Everything" data-flag="@X" onclick="openSidebar('54_Deny Everything',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\107_Prey on the Unsuspecting.png" id="107_Prey on the Unsuspecting" data-flag="@X" onclick="openSidebar('107_Prey on the Unsuspecting',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\142_Curious Captor.png" id="142_Curious Captor" data-flag="@X" onclick="openSidebar('142_Curious Captor',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\188_Herald of Haunting.png" id="188_Herald of Haunting" data-flag="@X" onclick="openSidebar('188_Herald of Haunting',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\22_Nagging Remorse.png" id="22_Nagging Remorse" data-flag="@X" onclick="openSidebar('22_Nagging Remorse',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\57_Ethereal Witness.png" id="57_Ethereal Witness" data-flag="@X" onclick="openSidebar('57_Ethereal Witness',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\110_Psychokinetic Grasp.png" id="110_Psychokinetic Grasp" data-flag="@X" onclick="openSidebar('110_Psychokinetic Grasp',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\144_Dogged Breakthrough.png" id="144_Dogged Breakthrough" data-flag="@X" onclick="openSidebar('144_Dogged Breakthrough',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\193_Midnight Transit.png" id="193_Midnight Transit" data-flag="@X" onclick="openSidebar('193_Midnight Transit',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\26_Pensive Observer.png" id="26_Pensive Observer" data-flag="@X" onclick="openSidebar('26_Pensive Observer',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\61_Midnight Stakeout.png" id="61_Midnight Stakeout" data-flag="@X" onclick="openSidebar('61_Midnight Stakeout',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\111_Radiation Leak.png" id="111_Radiation Leak" data-flag="@X" onclick="openSidebar('111_Radiation Leak',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\145_Echo of Agony.png" id="145_Echo of Agony" data-flag="@X" onclick="openSidebar('145_Echo of Agony',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\196_Obscure Camera.png" id="196_Obscure Camera" data-flag="@X" onclick="openSidebar('196_Obscure Camera',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\28_Planar Probe.png" id="28_Planar Probe" data-flag="@X" onclick="openSidebar('28_Planar Probe',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\62_Mournful Outcast.png" id="62_Mournful Outcast" data-flag="@X" onclick="openSidebar('62_Mournful Outcast',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\114_Ruthless Informant.png" id="114_Ruthless Informant" data-flag="@X" onclick="openSidebar('114_Ruthless Informant',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\149_Imminent Launch.png" id="149_Imminent Launch" data-flag="@X" onclick="openSidebar('149_Imminent Launch',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\197_Observation Subject.png" id="197_Observation Subject" data-flag="@X" onclick="openSidebar('197_Observation Subject',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\31_Rendition Agent.png" id="31_Rendition Agent" data-flag="@X" onclick="openSidebar('31_Rendition Agent',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\63_Neural Graft.png" id="63_Neural Graft" data-flag="@X" onclick="openSidebar('63_Neural Graft',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\115_See Further.png" id="115_See Further" data-flag="@X" onclick="openSidebar('115_See Further',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\150_Implacable Shadow.png" id="150_Implacable Shadow" data-flag="@X" onclick="openSidebar('150_Implacable Shadow',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\198_Postmortem Sighting.png" id="198_Postmortem Sighting" data-flag="@X" onclick="openSidebar('198_Postmortem Sighting',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\34_Ripple in Reality.png" id="34_Ripple in Reality" data-flag="@X" onclick="openSidebar('34_Ripple in Reality',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\64_Out of Place.png" id="64_Out of Place" data-flag="@X" onclick="openSidebar('64_Out of Place',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\116_Sever Ties.png" id="116_Sever Ties" data-flag="@X" onclick="openSidebar('116_Sever Ties',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\152_Liminal Bolt.png" id="152_Liminal Bolt" data-flag="@X" onclick="openSidebar('152_Liminal Bolt',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\201_Psychogenic Prodigy.png" id="201_Psychogenic Prodigy" data-flag="@X" onclick="openSidebar('201_Psychogenic Prodigy',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\35_Scuttle the Craft.png" id="35_Scuttle the Craft" data-flag="@X" onclick="openSidebar('35_Scuttle the Craft',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\67_Physical Attractor.png" id="67_Physical Attractor" data-flag="@X" onclick="openSidebar('67_Physical Attractor',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\118_Skulking Operative.png" id="118_Skulking Operative" data-flag="@X" onclick="openSidebar('118_Skulking Operative',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\156_Midnight Climax.png" id="156_Midnight Climax" data-flag="@X" onclick="openSidebar('156_Midnight Climax',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\204_Reality Breach.png" id="204_Reality Breach" data-flag="@X" onclick="openSidebar('204_Reality Breach',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\36_Section Chief.png" id="36_Section Chief" data-flag="@X" onclick="openSidebar('36_Section Chief',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\77_Suffering Extrasensor.png" id="77_Suffering Extrasensor" data-flag="@X" onclick="openSidebar('77_Suffering Extrasensor',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\119_Stab Wound.png" id="119_Stab Wound" data-flag="@X" onclick="openSidebar('119_Stab Wound',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\158_Numbers Signal.png" id="158_Numbers Signal" data-flag="@X" onclick="openSidebar('158_Numbers Signal',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\205_Ruthless Opportunist.png" id="205_Ruthless Opportunist" data-flag="@X" onclick="openSidebar('205_Ruthless Opportunist',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\37_Specimen Handler.png" id="37_Specimen Handler" data-flag="@X" onclick="openSidebar('37_Specimen Handler',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\78_Suspicious Nighthawk.png" id="78_Suspicious Nighthawk" data-flag="@X" onclick="openSidebar('78_Suspicious Nighthawk',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\120_Starlight Response Unit.png" id="120_Starlight Response Unit" data-flag="@X" onclick="openSidebar('120_Starlight Response Unit',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\163_Psychic Trauma.png" id="163_Psychic Trauma" data-flag="@X" onclick="openSidebar('163_Psychic Trauma',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\206_Safehouse Mastermind.png" id="206_Safehouse Mastermind" data-flag="@X" onclick="openSidebar('206_Safehouse Mastermind',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\39_Sullen Operative.png" id="39_Sullen Operative" data-flag="@X" onclick="openSidebar('39_Sullen Operative',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\82_Transcendent Meditator.png" id="82_Transcendent Meditator" data-flag="@X" onclick="openSidebar('82_Transcendent Meditator',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\122_Suspicious Stringer.png" id="122_Suspicious Stringer" data-flag="@X" onclick="openSidebar('122_Suspicious Stringer',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\164_Reckless Agent.png" id="164_Reckless Agent" data-flag="@X" onclick="openSidebar('164_Reckless Agent',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\207_Sceptical Observer.png" id="207_Sceptical Observer" data-flag="@X" onclick="openSidebar('207_Sceptical Observer',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\40_Survivalist Leader.png" id="40_Survivalist Leader" data-flag="@X" onclick="openSidebar('40_Survivalist Leader',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\83_Uncanny Pulse.png" id="83_Uncanny Pulse" data-flag="@X" onclick="openSidebar('83_Uncanny Pulse',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\123_Tinfoil Paranoiac.png" id="123_Tinfoil Paranoiac" data-flag="@X" onclick="openSidebar('123_Tinfoil Paranoiac',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\166_Search for Truth.png" id="166_Search for Truth" data-flag="@X" onclick="openSidebar('166_Search for Truth',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\210_Side Effects.png" id="210_Side Effects" data-flag="@X" onclick="openSidebar('210_Side Effects',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\41_Suspicious Bystander.png" id="41_Suspicious Bystander" data-flag="@X" onclick="openSidebar('41_Suspicious Bystander',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\85_Unexplained Disappearance.png" id="85_Unexplained Disappearance" data-flag="@X" onclick="openSidebar('85_Unexplained Disappearance',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\128_Visitation of Grief.png" id="128_Visitation of Grief" data-flag="@X" onclick="openSidebar('128_Visitation of Grief',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\167_Shadow on the Threshold.png" id="167_Shadow on the Threshold" data-flag="@X" onclick="openSidebar('167_Shadow on the Threshold',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\214_Survey the City.png" id="214_Survey the City" data-flag="@X" onclick="openSidebar('214_Survey the City',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\45_Unmarked Helicopter.png" id="45_Unmarked Helicopter" data-flag="@X" onclick="openSidebar('45_Unmarked Helicopter',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\87_Wetware Voyager.png" id="87_Wetware Voyager" data-flag="@X" onclick="openSidebar('87_Wetware Voyager',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\131_Weight of the Soul.png" id="131_Weight of the Soul" data-flag="@X" onclick="openSidebar('131_Weight of the Soul',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\169_Underground Asset.png" id="169_Underground Asset" data-flag="@X" onclick="openSidebar('169_Underground Asset',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\215_Uncanny Apparition.png" id="215_Uncanny Apparition" data-flag="@X" onclick="openSidebar('215_Uncanny Apparition',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\46_Vigilant Vamp.png" id="46_Vigilant Vamp" data-flag="@X" onclick="openSidebar('46_Vigilant Vamp',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\88_White-Noise Research.png" id="88_White-Noise Research" data-flag="@X" onclick="openSidebar('88_White-Noise Research',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\132_Witness Too Much.png" id="132_Witness Too Much" data-flag="@X" onclick="openSidebar('132_Witness Too Much',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\175_Witness Tamperer.png" id="175_Witness Tamperer" data-flag="@X" onclick="openSidebar('175_Witness Tamperer',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\217_Unstoppable Skin-Eater.png" id="217_Unstoppable Skin-Eater" data-flag="@X" onclick="openSidebar('217_Unstoppable Skin-Eater',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\1_The Director.png" id="1_The Director" data-flag="@X" onclick="openSidebar('1_The Director',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\2_Entity X.png" id="2_Entity X" data-flag="@X" onclick="openSidebar('2_Entity X',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\3_Reality Lacuna.png" id="3_Reality Lacuna" data-flag="@X" onclick="openSidebar('3_Reality Lacuna',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\24_Nuclear Family.png" id="24_Nuclear Family" data-flag="@X" onclick="openSidebar('24_Nuclear Family',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\55_Director's Hotline.png" id="55_Directors Hotline" data-flag="@X" onclick="openSidebar('55_Directors Hotline',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\97_Do Not Adjust Your Set.png" id="97_Do Not Adjust Your Set" data-flag="@X" onclick="openSidebar('97_Do Not Adjust Your Set',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\137_Causality Burst.png" id="137_Causality Burst" data-flag="@X" onclick="openSidebar('137_Causality Burst',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\184_Gravitic Inversion.png" id="184_Gravitic Inversion" data-flag="@X" onclick="openSidebar('184_Gravitic Inversion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\25_Paradigm Collapse.png" id="25_Paradigm Collapse" data-flag="@X" onclick="openSidebar('25_Paradigm Collapse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\69_Protect and Survive.png" id="69_Protect and Survive" data-flag="@X" onclick="openSidebar('69_Protect and Survive',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\100_Entangled Core.png" id="100_Entangled Core" data-flag="@X" onclick="openSidebar('100_Entangled Core',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\143_Dissent Silencer.png" id="143_Dissent Silencer" data-flag="@X" onclick="openSidebar('143_Dissent Silencer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\187_Haunting Sylph.png" id="187_Haunting Sylph" data-flag="@X" onclick="openSidebar('187_Haunting Sylph',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\43_Test Screen.png" id="43_Test Screen" data-flag="@X" onclick="openSidebar('43_Test Screen',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\80_Temporal Experiment.png" id="80_Temporal Experiment" data-flag="@X" onclick="openSidebar('80_Temporal Experiment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\112_Relentless Revenant.png" id="112_Relentless Revenant" data-flag="@X" onclick="openSidebar('112_Relentless Revenant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\162_Psychic Residue.png" id="162_Psychic Residue" data-flag="@X" onclick="openSidebar('162_Psychic Residue',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\203_Randfell, Poltergeist Prime.png" id="203_Randfell, Poltergeist Prime" data-flag="@X" onclick="openSidebar('203_Randfell, Poltergeist Prime',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\6_Assured Destruction.png" id="6_Assured Destruction" data-flag="@X" onclick="openSidebar('6_Assured Destruction',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\51_Cutting-Edge Research.png" id="51_Cutting-Edge Research" data-flag="@X" onclick="openSidebar('51_Cutting-Edge Research',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\91_Anguished Revenant.png" id="91_Anguished Revenant" data-flag="@X" onclick="openSidebar('91_Anguished Revenant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\133_Air of Suspicion.png" id="133_Air of Suspicion" data-flag="@X" onclick="openSidebar('133_Air of Suspicion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\178_Chief of Staff.png" id="178_Chief of Staff" data-flag="@X" onclick="openSidebar('178_Chief of Staff',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\9_Bureau Recruit.png" id="9_Bureau Recruit" data-flag="@X" onclick="openSidebar('9_Bureau Recruit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\56_Ego Death.png" id="56_Ego Death" data-flag="@X" onclick="openSidebar('56_Ego Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\95_Deadly Isolation.png" id="95_Deadly Isolation" data-flag="@X" onclick="openSidebar('95_Deadly Isolation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\155_Lost in Transit.png" id="155_Lost in Transit" data-flag="@X" onclick="openSidebar('155_Lost in Transit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\182_Engineered Overseer.png" id="182_Engineered Overseer" data-flag="@X" onclick="openSidebar('182_Engineered Overseer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\12_Cross the Threshold.png" id="12_Cross the Threshold" data-flag="@X" onclick="openSidebar('12_Cross the Threshold',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\59_Flatline.png" id="59_Flatline" data-flag="@X" onclick="openSidebar('59_Flatline',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\104_Mark for Death.png" id="104_Mark for Death" data-flag="@X" onclick="openSidebar('104_Mark for Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\157_Night Ablaze.png" id="157_Night Ablaze" data-flag="@X" onclick="openSidebar('157_Night Ablaze',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\189_Hyperbaric Subject.png" id="189_Hyperbaric Subject" data-flag="@X" onclick="openSidebar('189_Hyperbaric Subject',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\21_Little Boy Lost.png" id="21_Little Boy Lost" data-flag="@X" onclick="openSidebar('21_Little Boy Lost',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\66_Pervasive Intelligence.png" id="66_Pervasive Intelligence" data-flag="@X" onclick="openSidebar('66_Pervasive Intelligence',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\106_Night's Promise.png" id="106_Nights Promise" data-flag="@X" onclick="openSidebar('106_Nights Promise',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\161_Payload Harrier.png" id="161_Payload Harrier" data-flag="@X" onclick="openSidebar('161_Payload Harrier',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\192_Memories of Violence.png" id="192_Memories of Violence" data-flag="@X" onclick="openSidebar('192_Memories of Violence',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\32_Rescue Carrier.png" id="32_Rescue Carrier" data-flag="@X" onclick="openSidebar('32_Rescue Carrier',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\72_Recon Fighter.png" id="72_Recon Fighter" data-flag="@X" onclick="openSidebar('72_Recon Fighter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\121_Stormsea Mobilizer.png" id="121_Stormsea Mobilizer" data-flag="@X" onclick="openSidebar('121_Stormsea Mobilizer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\165_Returned Voyager.png" id="165_Returned Voyager" data-flag="@X" onclick="openSidebar('165_Returned Voyager',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\208_Search for Intelligence.png" id="208_Search for Intelligence" data-flag="@X" onclick="openSidebar('208_Search for Intelligence',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\38_Stumble Upon.png" id="38_Stumble Upon" data-flag="@X" onclick="openSidebar('38_Stumble Upon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\73_Remote Viewing.png" id="73_Remote Viewing" data-flag="@X" onclick="openSidebar('73_Remote Viewing',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\124_Unexplained Obelisk.png" id="124_Unexplained Obelisk" data-flag="@X" onclick="openSidebar('124_Unexplained Obelisk',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\171_Unseen Hand.png" id="171_Unseen Hand" data-flag="@X" onclick="openSidebar('171_Unseen Hand',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\211_Spectral Holography.png" id="211_Spectral Holography" data-flag="@X" onclick="openSidebar('211_Spectral Holography',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\42_Temporal Voyager.png" id="42_Temporal Voyager" data-flag="@X" onclick="openSidebar('42_Temporal Voyager',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\75_Shortwave Station.png" id="75_Shortwave Station" data-flag="@X" onclick="openSidebar('75_Shortwave Station',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\125_Unmarked Van.png" id="125_Unmarked Van" data-flag="@X" onclick="openSidebar('125_Unmarked Van',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\172_Unwitting Patsy.png" id="172_Unwitting Patsy" data-flag="@X" onclick="openSidebar('172_Unwitting Patsy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\212_Submersible Behemoth.png" id="212_Submersible Behemoth" data-flag="@X" onclick="openSidebar('212_Submersible Behemoth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\44_Thoughtcrime.png" id="44_Thoughtcrime" data-flag="@X" onclick="openSidebar('44_Thoughtcrime',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\86_Unidentified Operative.png" id="86_Unidentified Operative" data-flag="@X" onclick="openSidebar('86_Unidentified Operative',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\126_Vengeful Stalker.png" id="126_Vengeful Stalker" data-flag="@X" onclick="openSidebar('126_Vengeful Stalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\173_Wavefront Radiation.png" id="173_Wavefront Radiation" data-flag="@X" onclick="openSidebar('173_Wavefront Radiation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\213_Subterranean Terraforming.png" id="213_Subterranean Terraforming" data-flag="@X" onclick="openSidebar('213_Subterranean Terraforming',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\4_Altitude Adaptor.png" id="4_Altitude Adaptor" data-flag="@X" onclick="openSidebar('4_Altitude Adaptor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\52_Dead Hand Protocol.png" id="52_Dead Hand Protocol" data-flag="@X" onclick="openSidebar('52_Dead Hand Protocol',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\90_Access the Archive.png" id="90_Access the Archive" data-flag="@X" onclick="openSidebar('90_Access the Archive',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\134_Amateur Occultist.png" id="134_Amateur Occultist" data-flag="@X" onclick="openSidebar('134_Amateur Occultist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\179_Dubious Proof.png" id="179_Dubious Proof" data-flag="@X" onclick="openSidebar('179_Dubious Proof',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\10_Clean-Up Operative.png" id="10_Clean-Up Operative" data-flag="@X" onclick="openSidebar('10_Clean-Up Operative',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\58_Experimental Passenger.png" id="58_Experimental Passenger" data-flag="@X" onclick="openSidebar('58_Experimental Passenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\93_Back and to the Left.png" id="93_Back and to the Left" data-flag="@X" onclick="openSidebar('93_Back and to the Left',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\140_Cornered Rat.png" id="140_Cornered Rat" data-flag="@X" onclick="openSidebar('140_Cornered Rat',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\180_Dystopian Rider.png" id="180_Dystopian Rider" data-flag="@X" onclick="openSidebar('180_Dystopian Rider',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\11_Communications Blackout.png" id="11_Communications Blackout" data-flag="@X" onclick="openSidebar('11_Communications Blackout',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\60_Follow the Money.png" id="60_Follow the Money" data-flag="@X" onclick="openSidebar('60_Follow the Money',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\94_Captured Agent.png" id="94_Captured Agent" data-flag="@X" onclick="openSidebar('94_Captured Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\146_Engineered Gridlock.png" id="146_Engineered Gridlock" data-flag="@X" onclick="openSidebar('146_Engineered Gridlock',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\183_Extrasensory Exemplar.png" id="183_Extrasensory Exemplar" data-flag="@X" onclick="openSidebar('183_Extrasensory Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\13_Deep-Cover Turncoat.png" id="13_Deep-Cover Turncoat" data-flag="@X" onclick="openSidebar('13_Deep-Cover Turncoat',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\65_Parapsychopomp.png" id="65_Parapsychopomp" data-flag="@X" onclick="openSidebar('65_Parapsychopomp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\96_Dismantle the Mind.png" id="96_Dismantle the Mind" data-flag="@X" onclick="openSidebar('96_Dismantle the Mind',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\147_Fiery Intercessor.png" id="147_Fiery Intercessor" data-flag="@X" onclick="openSidebar('147_Fiery Intercessor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\190_Liminal Lurker.png" id="190_Liminal Lurker" data-flag="@X" onclick="openSidebar('190_Liminal Lurker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\15_Digitized Sleeper.png" id="15_Digitized Sleeper" data-flag="@X" onclick="openSidebar('15_Digitized Sleeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\68_Portal Overseer.png" id="68_Portal Overseer" data-flag="@X" onclick="openSidebar('68_Portal Overseer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\101_Forensic Tampering.png" id="101_Forensic Tampering" data-flag="@X" onclick="openSidebar('101_Forensic Tampering',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\148_Haunting Presence.png" id="148_Haunting Presence" data-flag="@X" onclick="openSidebar('148_Haunting Presence',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\191_Lingering Resident.png" id="191_Lingering Resident" data-flag="@X" onclick="openSidebar('191_Lingering Resident',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\17_Folk Attraction.png" id="17_Folk Attraction" data-flag="@X" onclick="openSidebar('17_Folk Attraction',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\70_Rapid Responder.png" id="70_Rapid Responder" data-flag="@X" onclick="openSidebar('70_Rapid Responder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\105_Necrotic Usurpation.png" id="105_Necrotic Usurpation" data-flag="@X" onclick="openSidebar('105_Necrotic Usurpation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\151_Lethal Sanction.png" id="151_Lethal Sanction" data-flag="@X" onclick="openSidebar('151_Lethal Sanction',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\194_Mirrorweave Mentalist.png" id="194_Mirrorweave Mentalist" data-flag="@X" onclick="openSidebar('194_Mirrorweave Mentalist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\19_Heartless Collateral.png" id="19_Heartless Collateral" data-flag="@X" onclick="openSidebar('19_Heartless Collateral',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\71_Reach Beyond.png" id="71_Reach Beyond" data-flag="@X" onclick="openSidebar('71_Reach Beyond',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\108_Professional Poisoner.png" id="108_Professional Poisoner" data-flag="@X" onclick="openSidebar('108_Professional Poisoner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\153_Limited Hangout.png" id="153_Limited Hangout" data-flag="@X" onclick="openSidebar('153_Limited Hangout',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\195_New Brutalism.png" id="195_New Brutalism" data-flag="@X" onclick="openSidebar('195_New Brutalism',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\20_Interception Squad.png" id="20_Interception Squad" data-flag="@X" onclick="openSidebar('20_Interception Squad',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\74_Repressed Happening.png" id="74_Repressed Happening" data-flag="@X" onclick="openSidebar('74_Repressed Happening',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\109_Psychogenic Orb.png" id="109_Psychogenic Orb" data-flag="@X" onclick="openSidebar('109_Psychogenic Orb',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\154_Lingering Victim.png" id="154_Lingering Victim" data-flag="@X" onclick="openSidebar('154_Lingering Victim',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\199_Probe Deeper.png" id="199_Probe Deeper" data-flag="@X" onclick="openSidebar('199_Probe Deeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\23_Nondescript Agent.png" id="23_Nondescript Agent" data-flag="@X" onclick="openSidebar('23_Nondescript Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\76_Steely Watcher.png" id="76_Steely Watcher" data-flag="@X" onclick="openSidebar('76_Steely Watcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\113_Remorseful Agent.png" id="113_Remorseful Agent" data-flag="@X" onclick="openSidebar('113_Remorseful Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\159_Open the Portal.png" id="159_Open the Portal" data-flag="@X" onclick="openSidebar('159_Open the Portal',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\200_Prototype Walker.png" id="200_Prototype Walker" data-flag="@X" onclick="openSidebar('200_Prototype Walker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\27_Persuasive Recruiter.png" id="27_Persuasive Recruiter" data-flag="@X" onclick="openSidebar('27_Persuasive Recruiter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\79_Syndicate Kingpin.png" id="79_Syndicate Kingpin" data-flag="@X" onclick="openSidebar('79_Syndicate Kingpin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\117_Sinister Transmission.png" id="117_Sinister Transmission" data-flag="@X" onclick="openSidebar('117_Sinister Transmission',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\160_Operation Exposer.png" id="160_Operation Exposer" data-flag="@X" onclick="openSidebar('160_Operation Exposer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\202_Pulsating Pupa.png" id="202_Pulsating Pupa" data-flag="@X" onclick="openSidebar('202_Pulsating Pupa',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\29_Project Delphos.png" id="29_Project Delphos" data-flag="@X" onclick="openSidebar('29_Project Delphos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\81_Thirst for Truth.png" id="81_Thirst for Truth" data-flag="@X" onclick="openSidebar('81_Thirst for Truth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\127_Viewer of Beyond.png" id="127_Viewer of Beyond" data-flag="@X" onclick="openSidebar('127_Viewer of Beyond',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\168_Spectral Electrometer.png" id="168_Spectral Electrometer" data-flag="@X" onclick="openSidebar('168_Spectral Electrometer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\209_Shadowed Cabinet.png" id="209_Shadowed Cabinet" data-flag="@X" onclick="openSidebar('209_Shadowed Cabinet',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\30_Recovered Wreck.png" id="30_Recovered Wreck" data-flag="@X" onclick="openSidebar('30_Recovered Wreck',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\84_Unethical Study.png" id="84_Unethical Study" data-flag="@X" onclick="openSidebar('84_Unethical Study',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\129_Wailing Grief.png" id="129_Wailing Grief" data-flag="@X" onclick="openSidebar('129_Wailing Grief',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\170_Undocumented Storage.png" id="170_Undocumented Storage" data-flag="@X" onclick="openSidebar('170_Undocumented Storage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\216_Unnatural Churn.png" id="216_Unnatural Churn" data-flag="@X" onclick="openSidebar('216_Unnatural Churn',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\33_Reverse Engineering.png" id="33_Reverse Engineering" data-flag="@X" onclick="openSidebar('33_Reverse Engineering',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\89_Wistful Ghost.png" id="89_Wistful Ghost" data-flag="@X" onclick="openSidebar('89_Wistful Ghost',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\130_Watching the Skies.png" id="130_Watching the Skies" data-flag="@X" onclick="openSidebar('130_Watching the Skies',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\174_Wellspring Parahuman.png" id="174_Wellspring Parahuman" data-flag="@X" onclick="openSidebar('174_Wellspring Parahuman',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\218_Unsuspecting Civilian.png" id="218_Unsuspecting Civilian" data-flag="@X" onclick="openSidebar('218_Unsuspecting Civilian',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\5_Arrest.png" id="5_Arrest" data-flag="@X" onclick="openSidebar('5_Arrest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\47_Ambush Agent.png" id="47_Ambush Agent" data-flag="@X" onclick="openSidebar('47_Ambush Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\92_Astral Projection.png" id="92_Astral Projection" data-flag="@X" onclick="openSidebar('92_Astral Projection',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\135_Baffling Incident.png" id="135_Baffling Incident" data-flag="@X" onclick="openSidebar('135_Baffling Incident',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\176_Anechoic Pressure.png" id="176_Anechoic Pressure" data-flag="@X" onclick="openSidebar('176_Anechoic Pressure',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\7_Bear Witness.png" id="7_Bear Witness" data-flag="@X" onclick="openSidebar('7_Bear Witness',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\48_Assistant Director.png" id="48_Assistant Director" data-flag="@X" onclick="openSidebar('48_Assistant Director',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\98_Don't Leave a Body.png" id="98_Dont Leave a Body" data-flag="@X" onclick="openSidebar('98_Dont Leave a Body',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\136_Brusque Agent.png" id="136_Brusque Agent" data-flag="@X" onclick="openSidebar('136_Brusque Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\177_Asset Collector.png" id="177_Asset Collector" data-flag="@X" onclick="openSidebar('177_Asset Collector',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\8_Breach Containment.png" id="8_Breach Containment" data-flag="@X" onclick="openSidebar('8_Breach Containment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\49_Childhood Friend.png" id="49_Childhood Friend" data-flag="@X" onclick="openSidebar('49_Childhood Friend',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\99_Doomed Response.png" id="99_Doomed Response" data-flag="@X" onclick="openSidebar('99_Doomed Response',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\138_Compromised Fugitive.png" id="138_Compromised Fugitive" data-flag="@X" onclick="openSidebar('138_Compromised Fugitive',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\181_Early-Warning System.png" id="181_Early-Warning System" data-flag="@X" onclick="openSidebar('181_Early-Warning System',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\14_Detailed Plans.png" id="14_Detailed Plans" data-flag="@X" onclick="openSidebar('14_Detailed Plans',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\50_Contingency Plan.png" id="50_Contingency Plan" data-flag="@X" onclick="openSidebar('50_Contingency Plan',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\102_Imposing Interceptor.png" id="102_Imposing Interceptor" data-flag="@X" onclick="openSidebar('102_Imposing Interceptor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\139_Containment Engineer.png" id="139_Containment Engineer" data-flag="@X" onclick="openSidebar('139_Containment Engineer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\185_Hangar Storage.png" id="185_Hangar Storage" data-flag="@X" onclick="openSidebar('185_Hangar Storage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\16_Fateful Rendezvous.png" id="16_Fateful Rendezvous" data-flag="@X" onclick="openSidebar('16_Fateful Rendezvous',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\53_Declassify.png" id="53_Declassify" data-flag="@X" onclick="openSidebar('53_Declassify',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\103_Lurking Slasher.png" id="103_Lurking Slasher" data-flag="@X" onclick="openSidebar('103_Lurking Slasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\141_Crash Test.png" id="141_Crash Test" data-flag="@X" onclick="openSidebar('141_Crash Test',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\186_Haunting Remnant.png" id="186_Haunting Remnant" data-flag="@X" onclick="openSidebar('186_Haunting Remnant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\18_Grizzled Sleuth.png" id="18_Grizzled Sleuth" data-flag="@X" onclick="openSidebar('18_Grizzled Sleuth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\54_Deny Everything.png" id="54_Deny Everything" data-flag="@X" onclick="openSidebar('54_Deny Everything',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\107_Prey on the Unsuspecting.png" id="107_Prey on the Unsuspecting" data-flag="@X" onclick="openSidebar('107_Prey on the Unsuspecting',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\142_Curious Captor.png" id="142_Curious Captor" data-flag="@X" onclick="openSidebar('142_Curious Captor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\188_Herald of Haunting.png" id="188_Herald of Haunting" data-flag="@X" onclick="openSidebar('188_Herald of Haunting',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\22_Nagging Remorse.png" id="22_Nagging Remorse" data-flag="@X" onclick="openSidebar('22_Nagging Remorse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\57_Ethereal Witness.png" id="57_Ethereal Witness" data-flag="@X" onclick="openSidebar('57_Ethereal Witness',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\110_Psychokinetic Grasp.png" id="110_Psychokinetic Grasp" data-flag="@X" onclick="openSidebar('110_Psychokinetic Grasp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\144_Dogged Breakthrough.png" id="144_Dogged Breakthrough" data-flag="@X" onclick="openSidebar('144_Dogged Breakthrough',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\193_Midnight Transit.png" id="193_Midnight Transit" data-flag="@X" onclick="openSidebar('193_Midnight Transit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\26_Pensive Observer.png" id="26_Pensive Observer" data-flag="@X" onclick="openSidebar('26_Pensive Observer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\61_Midnight Stakeout.png" id="61_Midnight Stakeout" data-flag="@X" onclick="openSidebar('61_Midnight Stakeout',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\111_Radiation Leak.png" id="111_Radiation Leak" data-flag="@X" onclick="openSidebar('111_Radiation Leak',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\145_Echo of Agony.png" id="145_Echo of Agony" data-flag="@X" onclick="openSidebar('145_Echo of Agony',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\196_Obscure Camera.png" id="196_Obscure Camera" data-flag="@X" onclick="openSidebar('196_Obscure Camera',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\28_Planar Probe.png" id="28_Planar Probe" data-flag="@X" onclick="openSidebar('28_Planar Probe',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\62_Mournful Outcast.png" id="62_Mournful Outcast" data-flag="@X" onclick="openSidebar('62_Mournful Outcast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\114_Ruthless Informant.png" id="114_Ruthless Informant" data-flag="@X" onclick="openSidebar('114_Ruthless Informant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\149_Imminent Launch.png" id="149_Imminent Launch" data-flag="@X" onclick="openSidebar('149_Imminent Launch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\197_Observation Subject.png" id="197_Observation Subject" data-flag="@X" onclick="openSidebar('197_Observation Subject',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\31_Rendition Agent.png" id="31_Rendition Agent" data-flag="@X" onclick="openSidebar('31_Rendition Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\63_Neural Graft.png" id="63_Neural Graft" data-flag="@X" onclick="openSidebar('63_Neural Graft',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\115_See Further.png" id="115_See Further" data-flag="@X" onclick="openSidebar('115_See Further',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\150_Implacable Shadow.png" id="150_Implacable Shadow" data-flag="@X" onclick="openSidebar('150_Implacable Shadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\198_Postmortem Sighting.png" id="198_Postmortem Sighting" data-flag="@X" onclick="openSidebar('198_Postmortem Sighting',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\34_Ripple in Reality.png" id="34_Ripple in Reality" data-flag="@X" onclick="openSidebar('34_Ripple in Reality',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\64_Out of Place.png" id="64_Out of Place" data-flag="@X" onclick="openSidebar('64_Out of Place',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\116_Sever Ties.png" id="116_Sever Ties" data-flag="@X" onclick="openSidebar('116_Sever Ties',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\152_Liminal Bolt.png" id="152_Liminal Bolt" data-flag="@X" onclick="openSidebar('152_Liminal Bolt',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\201_Psychogenic Prodigy.png" id="201_Psychogenic Prodigy" data-flag="@X" onclick="openSidebar('201_Psychogenic Prodigy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\35_Scuttle the Craft.png" id="35_Scuttle the Craft" data-flag="@X" onclick="openSidebar('35_Scuttle the Craft',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\67_Physical Attractor.png" id="67_Physical Attractor" data-flag="@X" onclick="openSidebar('67_Physical Attractor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\118_Skulking Operative.png" id="118_Skulking Operative" data-flag="@X" onclick="openSidebar('118_Skulking Operative',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\156_Midnight Climax.png" id="156_Midnight Climax" data-flag="@X" onclick="openSidebar('156_Midnight Climax',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\204_Reality Breach.png" id="204_Reality Breach" data-flag="@X" onclick="openSidebar('204_Reality Breach',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\36_Section Chief.png" id="36_Section Chief" data-flag="@X" onclick="openSidebar('36_Section Chief',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\77_Suffering Extrasensor.png" id="77_Suffering Extrasensor" data-flag="@X" onclick="openSidebar('77_Suffering Extrasensor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\119_Stab Wound.png" id="119_Stab Wound" data-flag="@X" onclick="openSidebar('119_Stab Wound',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\158_Numbers Signal.png" id="158_Numbers Signal" data-flag="@X" onclick="openSidebar('158_Numbers Signal',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\205_Ruthless Opportunist.png" id="205_Ruthless Opportunist" data-flag="@X" onclick="openSidebar('205_Ruthless Opportunist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\37_Specimen Handler.png" id="37_Specimen Handler" data-flag="@X" onclick="openSidebar('37_Specimen Handler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\78_Suspicious Nighthawk.png" id="78_Suspicious Nighthawk" data-flag="@X" onclick="openSidebar('78_Suspicious Nighthawk',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\120_Starlight Response Unit.png" id="120_Starlight Response Unit" data-flag="@X" onclick="openSidebar('120_Starlight Response Unit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\163_Psychic Trauma.png" id="163_Psychic Trauma" data-flag="@X" onclick="openSidebar('163_Psychic Trauma',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\206_Safehouse Mastermind.png" id="206_Safehouse Mastermind" data-flag="@X" onclick="openSidebar('206_Safehouse Mastermind',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\39_Sullen Operative.png" id="39_Sullen Operative" data-flag="@X" onclick="openSidebar('39_Sullen Operative',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\82_Transcendent Meditator.png" id="82_Transcendent Meditator" data-flag="@X" onclick="openSidebar('82_Transcendent Meditator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\122_Suspicious Stringer.png" id="122_Suspicious Stringer" data-flag="@X" onclick="openSidebar('122_Suspicious Stringer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\164_Reckless Agent.png" id="164_Reckless Agent" data-flag="@X" onclick="openSidebar('164_Reckless Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\207_Sceptical Observer.png" id="207_Sceptical Observer" data-flag="@X" onclick="openSidebar('207_Sceptical Observer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\40_Survivalist Leader.png" id="40_Survivalist Leader" data-flag="@X" onclick="openSidebar('40_Survivalist Leader',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\83_Uncanny Pulse.png" id="83_Uncanny Pulse" data-flag="@X" onclick="openSidebar('83_Uncanny Pulse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\123_Tinfoil Paranoiac.png" id="123_Tinfoil Paranoiac" data-flag="@X" onclick="openSidebar('123_Tinfoil Paranoiac',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\166_Search for Truth.png" id="166_Search for Truth" data-flag="@X" onclick="openSidebar('166_Search for Truth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\210_Side Effects.png" id="210_Side Effects" data-flag="@X" onclick="openSidebar('210_Side Effects',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\41_Suspicious Bystander.png" id="41_Suspicious Bystander" data-flag="@X" onclick="openSidebar('41_Suspicious Bystander',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\85_Unexplained Disappearance.png" id="85_Unexplained Disappearance" data-flag="@X" onclick="openSidebar('85_Unexplained Disappearance',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\128_Visitation of Grief.png" id="128_Visitation of Grief" data-flag="@X" onclick="openSidebar('128_Visitation of Grief',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\167_Shadow on the Threshold.png" id="167_Shadow on the Threshold" data-flag="@X" onclick="openSidebar('167_Shadow on the Threshold',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\214_Survey the City.png" id="214_Survey the City" data-flag="@X" onclick="openSidebar('214_Survey the City',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\45_Unmarked Helicopter.png" id="45_Unmarked Helicopter" data-flag="@X" onclick="openSidebar('45_Unmarked Helicopter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\87_Wetware Voyager.png" id="87_Wetware Voyager" data-flag="@X" onclick="openSidebar('87_Wetware Voyager',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\131_Weight of the Soul.png" id="131_Weight of the Soul" data-flag="@X" onclick="openSidebar('131_Weight of the Soul',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\169_Underground Asset.png" id="169_Underground Asset" data-flag="@X" onclick="openSidebar('169_Underground Asset',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\215_Uncanny Apparition.png" id="215_Uncanny Apparition" data-flag="@X" onclick="openSidebar('215_Uncanny Apparition',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\46_Vigilant Vamp.png" id="46_Vigilant Vamp" data-flag="@X" onclick="openSidebar('46_Vigilant Vamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\88_White-Noise Research.png" id="88_White-Noise Research" data-flag="@X" onclick="openSidebar('88_White-Noise Research',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\132_Witness Too Much.png" id="132_Witness Too Much" data-flag="@X" onclick="openSidebar('132_Witness Too Much',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\175_Witness Tamperer.png" id="175_Witness Tamperer" data-flag="@X" onclick="openSidebar('175_Witness Tamperer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\217_Unstoppable Skin-Eater.png" id="217_Unstoppable Skin-Eater" data-flag="@X" onclick="openSidebar('217_Unstoppable Skin-Eater',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\220_Stealth Craft.png" id="220_Stealth Craft" data-flag="@X" onclick="openSidebar('220_Stealth Craft',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\222_Green Door, Double Agent.png" id="222_Green Door, Double Agent" data-flag="@X" onclick="openSidebar('222_Green Door, Double Agent',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\224_Unstable Core.png" id="224_Unstable Core" data-flag="@X" onclick="openSidebar('224_Unstable Core',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\226_The Eternities' Touch.png" id="226_The Eternities Touch" data-flag="@X" onclick="openSidebar('226_The Eternities Touch',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\228_Multilocation.png" id="228_Multilocation" data-flag="@X" onclick="openSidebar('228_Multilocation',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\219_Stalking Simulacrum.png" id="219_Stalking Simulacrum" data-flag="@X" onclick="openSidebar('219_Stalking Simulacrum',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\221_Deep Operative.png" id="221_Deep Operative" data-flag="@X" onclick="openSidebar('221_Deep Operative',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\223_Hopeless Fugitive.png" id="223_Hopeless Fugitive" data-flag="@X" onclick="openSidebar('223_Hopeless Fugitive',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\225_Cerebral Subject.png" id="225_Cerebral Subject" data-flag="@X" onclick="openSidebar('225_Cerebral Subject',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\227_Asset Controller.png" id="227_Asset Controller" data-flag="@X" onclick="openSidebar('227_Asset Controller',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\229_Blacklist.png" id="229_Blacklist" data-flag="@X" onclick="openSidebar('229_Blacklist',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\231_Cerebral Examination.png" id="231_Cerebral Examination" data-flag="@X" onclick="openSidebar('231_Cerebral Examination',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\233_Whispering Jon Yarris.png" id="233_Whispering Jon Yarris" data-flag="@X" onclick="openSidebar('233_Whispering Jon Yarris',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\235_Extraordinary Deployment.png" id="235_Extraordinary Deployment" data-flag="@X" onclick="openSidebar('235_Extraordinary Deployment',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\237_Entirely Unprepared.png" id="237_Entirely Unprepared" data-flag="@X" onclick="openSidebar('237_Entirely Unprepared',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\230_Clean-up Agent.png" id="230_Clean-up Agent" data-flag="@X" onclick="openSidebar('230_Clean-up Agent',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\232_Spectrogram Spiritualist.png" id="232_Spectrogram Spiritualist" data-flag="@X" onclick="openSidebar('232_Spectrogram Spiritualist',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\234_Spirit Tracker.png" id="234_Spirit Tracker" data-flag="@X" onclick="openSidebar('234_Spirit Tracker',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\236_Scornful Officer.png" id="236_Scornful Officer" data-flag="@X" onclick="openSidebar('236_Scornful Officer',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\238_Field Researcher.png" id="238_Field Researcher" data-flag="@X" onclick="openSidebar('238_Field Researcher',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\239_Enter the Multiverse.png" id="239_Enter the Multiverse" data-flag="@X" onclick="openSidebar('239_Enter the Multiverse',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\220_Stealth Craft.png" id="220_Stealth Craft" data-flag="@X" onclick="openSidebar('220_Stealth Craft',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\222_Green Door, Double Agent.png" id="222_Green Door, Double Agent" data-flag="@X" onclick="openSidebar('222_Green Door, Double Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\224_Unstable Core.png" id="224_Unstable Core" data-flag="@X" onclick="openSidebar('224_Unstable Core',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\226_The Eternities' Touch.png" id="226_The Eternities Touch" data-flag="@X" onclick="openSidebar('226_The Eternities Touch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\228_Multilocation.png" id="228_Multilocation" data-flag="@X" onclick="openSidebar('228_Multilocation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\219_Stalking Simulacrum.png" id="219_Stalking Simulacrum" data-flag="@X" onclick="openSidebar('219_Stalking Simulacrum',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\221_Deep Operative.png" id="221_Deep Operative" data-flag="@X" onclick="openSidebar('221_Deep Operative',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\223_Hopeless Fugitive.png" id="223_Hopeless Fugitive" data-flag="@X" onclick="openSidebar('223_Hopeless Fugitive',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\225_Cerebral Subject.png" id="225_Cerebral Subject" data-flag="@X" onclick="openSidebar('225_Cerebral Subject',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\227_Asset Controller.png" id="227_Asset Controller" data-flag="@X" onclick="openSidebar('227_Asset Controller',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\229_Blacklist.png" id="229_Blacklist" data-flag="@X" onclick="openSidebar('229_Blacklist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\231_Cerebral Examination.png" id="231_Cerebral Examination" data-flag="@X" onclick="openSidebar('231_Cerebral Examination',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\233_Whispering Jon Yarris.png" id="233_Whispering Jon Yarris" data-flag="@X" onclick="openSidebar('233_Whispering Jon Yarris',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\235_Extraordinary Deployment.png" id="235_Extraordinary Deployment" data-flag="@X" onclick="openSidebar('235_Extraordinary Deployment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\237_Entirely Unprepared.png" id="237_Entirely Unprepared" data-flag="@X" onclick="openSidebar('237_Entirely Unprepared',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\230_Clean-up Agent.png" id="230_Clean-up Agent" data-flag="@X" onclick="openSidebar('230_Clean-up Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\232_Spectrogram Spiritualist.png" id="232_Spectrogram Spiritualist" data-flag="@X" onclick="openSidebar('232_Spectrogram Spiritualist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\234_Spirit Tracker.png" id="234_Spirit Tracker" data-flag="@X" onclick="openSidebar('234_Spirit Tracker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\236_Scornful Officer.png" id="236_Scornful Officer" data-flag="@X" onclick="openSidebar('236_Scornful Officer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\238_Field Researcher.png" id="238_Field Researcher" data-flag="@X" onclick="openSidebar('238_Field Researcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\239_Enter the Multiverse.png" id="239_Enter the Multiverse" data-flag="@X" onclick="openSidebar('239_Enter the Multiverse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\247_Starlight Portal.png" id="247_Starlight Portal" data-flag="@X" onclick="openSidebar('247_Starlight Portal',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\242_Central Mainframe.png" id="242_Central Mainframe" data-flag="@X" onclick="openSidebar('242_Central Mainframe',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\245_Domestic Automaton.png" id="245_Domestic Automaton" data-flag="@X" onclick="openSidebar('245_Domestic Automaton',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\240_Agency Terminal.png" id="240_Agency Terminal" data-flag="@X" onclick="openSidebar('240_Agency Terminal',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\241_Biological Experiment.png" id="241_Biological Experiment" data-flag="@X" onclick="openSidebar('241_Biological Experiment',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\243_Classified Craft.png" id="243_Classified Craft" data-flag="@X" onclick="openSidebar('243_Classified Craft',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\244_Digital Entity.png" id="244_Digital Entity" data-flag="@X" onclick="openSidebar('244_Digital Entity',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\246_Interplanar Object.png" id="246_Interplanar Object" data-flag="@X" onclick="openSidebar('246_Interplanar Object',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\247_Starlight Portal.png" id="247_Starlight Portal" data-flag="@X" onclick="openSidebar('247_Starlight Portal',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\242_Central Mainframe.png" id="242_Central Mainframe" data-flag="@X" onclick="openSidebar('242_Central Mainframe',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\245_Domestic Automaton.png" id="245_Domestic Automaton" data-flag="@X" onclick="openSidebar('245_Domestic Automaton',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\240_Agency Terminal.png" id="240_Agency Terminal" data-flag="@X" onclick="openSidebar('240_Agency Terminal',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\241_Biological Experiment.png" id="241_Biological Experiment" data-flag="@X" onclick="openSidebar('241_Biological Experiment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\243_Classified Craft.png" id="243_Classified Craft" data-flag="@X" onclick="openSidebar('243_Classified Craft',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\244_Digital Entity.png" id="244_Digital Entity" data-flag="@X" onclick="openSidebar('244_Digital Entity',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\246_Interplanar Object.png" id="246_Interplanar Object" data-flag="@X" onclick="openSidebar('246_Interplanar Object',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="land" class="anchor"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\260_Urban Expanse.png" id="260_Urban Expanse" data-flag="@X" onclick="openSidebar('260_Urban Expanse',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\254_Idyllic Resort.png" id="254_Idyllic Resort" data-flag="@X" onclick="openSidebar('254_Idyllic Resort',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\256_Ominous Horizon.png" id="256_Ominous Horizon" data-flag="@X" onclick="openSidebar('256_Ominous Horizon',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\255_Neon Lights.png" id="255_Neon Lights" data-flag="@X" onclick="openSidebar('255_Neon Lights',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\261_Vertical Sprawl.png" id="261_Vertical Sprawl" data-flag="@X" onclick="openSidebar('261_Vertical Sprawl',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\252_Bureau of Entropy.png" id="252_Bureau of Entropy" data-flag="@X" onclick="openSidebar('252_Bureau of Entropy',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\251_Bureau of Dissonance.png" id="251_Bureau of Dissonance" data-flag="@X" onclick="openSidebar('251_Bureau of Dissonance',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\250_Bureau of Discord.png" id="250_Bureau of Discord" data-flag="@X" onclick="openSidebar('250_Bureau of Discord',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\248_Bureau of Aberrancy.png" id="248_Bureau of Aberrancy" data-flag="@X" onclick="openSidebar('248_Bureau of Aberrancy',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\249_Bureau of Deviance.png" id="249_Bureau of Deviance" data-flag="@X" onclick="openSidebar('249_Bureau of Deviance',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\253_Epoch Horizon.png" id="253_Epoch Horizon" data-flag="@X" onclick="openSidebar('253_Epoch Horizon',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\257_Potential Vista.png" id="257_Potential Vista" data-flag="@X" onclick="openSidebar('257_Potential Vista',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\258_Starlight Contingency.png" id="258_Starlight Contingency" data-flag="@X" onclick="openSidebar('258_Starlight Contingency',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\259_Surveillance Center.png" id="259_Surveillance Center" data-flag="@X" onclick="openSidebar('259_Surveillance Center',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\262_Plains.png" id="262_Plains" data-flag="@X" onclick="openSidebar('262_Plains',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\263_Island.png" id="263_Island" data-flag="@X" onclick="openSidebar('263_Island',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\264_Swamp.png" id="264_Swamp" data-flag="@X" onclick="openSidebar('264_Swamp',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\265_Mountain.png" id="265_Mountain" data-flag="@X" onclick="openSidebar('265_Mountain',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\266_Forest.png" id="266_Forest" data-flag="@X" onclick="openSidebar('266_Forest',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\260_Urban Expanse.png" id="260_Urban Expanse" data-flag="@X" onclick="openSidebar('260_Urban Expanse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\254_Idyllic Resort.png" id="254_Idyllic Resort" data-flag="@X" onclick="openSidebar('254_Idyllic Resort',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\256_Ominous Horizon.png" id="256_Ominous Horizon" data-flag="@X" onclick="openSidebar('256_Ominous Horizon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\255_Neon Lights.png" id="255_Neon Lights" data-flag="@X" onclick="openSidebar('255_Neon Lights',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\261_Vertical Sprawl.png" id="261_Vertical Sprawl" data-flag="@X" onclick="openSidebar('261_Vertical Sprawl',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\252_Bureau of Entropy.png" id="252_Bureau of Entropy" data-flag="@X" onclick="openSidebar('252_Bureau of Entropy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\251_Bureau of Dissonance.png" id="251_Bureau of Dissonance" data-flag="@X" onclick="openSidebar('251_Bureau of Dissonance',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\250_Bureau of Discord.png" id="250_Bureau of Discord" data-flag="@X" onclick="openSidebar('250_Bureau of Discord',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\248_Bureau of Aberrancy.png" id="248_Bureau of Aberrancy" data-flag="@X" onclick="openSidebar('248_Bureau of Aberrancy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\249_Bureau of Deviance.png" id="249_Bureau of Deviance" data-flag="@X" onclick="openSidebar('249_Bureau of Deviance',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\253_Epoch Horizon.png" id="253_Epoch Horizon" data-flag="@X" onclick="openSidebar('253_Epoch Horizon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\257_Potential Vista.png" id="257_Potential Vista" data-flag="@X" onclick="openSidebar('257_Potential Vista',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\258_Starlight Contingency.png" id="258_Starlight Contingency" data-flag="@X" onclick="openSidebar('258_Starlight Contingency',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\259_Surveillance Center.png" id="259_Surveillance Center" data-flag="@X" onclick="openSidebar('259_Surveillance Center',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\262_Plains.png" id="262_Plains" data-flag="@X" onclick="openSidebar('262_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\263_Island.png" id="263_Island" data-flag="@X" onclick="openSidebar('263_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\264_Swamp.png" id="264_Swamp" data-flag="@X" onclick="openSidebar('264_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\265_Mountain.png" id="265_Mountain" data-flag="@X" onclick="openSidebar('265_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\266_Forest.png" id="266_Forest" data-flag="@X" onclick="openSidebar('266_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\1t_Horror.png" id="1t_Horror" data-flag="@X" onclick="openSidebar('1t_Horror',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\2t_Regression.png" id="2t_Regression" data-flag="@X" onclick="openSidebar('2t_Regression',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\3t_Advisor.png" id="3t_Advisor" data-flag="@X" onclick="openSidebar('3t_Advisor',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\4t_Spirit.png" id="4t_Spirit" data-flag="@X" onclick="openSidebar('4t_Spirit',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\5t_Construct.png" id="5t_Construct" data-flag="@X" onclick="openSidebar('5t_Construct',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\6t_Detective.png" id="6t_Detective" data-flag="@X" onclick="openSidebar('6t_Detective',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\7t_Citizen A.png" id="7t_Citizen A" data-flag="@X" onclick="openSidebar('7t_Citizen A',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\8t_Citizen B.png" id="8t_Citizen B" data-flag="@X" onclick="openSidebar('8t_Citizen B',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\9t_Evidence.png" id="9t_Evidence" data-flag="@X" onclick="openSidebar('9t_Evidence',false)"></div>
-				<div class="container"><img alt="/sets\FBI-files\img\10t_Psyop.png" id="10t_Psyop" data-flag="@X" onclick="openSidebar('10t_Psyop',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\1t_Horror.png" id="1t_Horror" data-flag="@X" onclick="openSidebar('1t_Horror',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\2t_Regression.png" id="2t_Regression" data-flag="@X" onclick="openSidebar('2t_Regression',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\3t_Advisor.png" id="3t_Advisor" data-flag="@X" onclick="openSidebar('3t_Advisor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\4t_Spirit.png" id="4t_Spirit" data-flag="@X" onclick="openSidebar('4t_Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\5t_Construct.png" id="5t_Construct" data-flag="@X" onclick="openSidebar('5t_Construct',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\6t_Detective.png" id="6t_Detective" data-flag="@X" onclick="openSidebar('6t_Detective',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\7t_Citizen A.png" id="7t_Citizen A" data-flag="@X" onclick="openSidebar('7t_Citizen A',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\8t_Citizen B.png" id="8t_Citizen B" data-flag="@X" onclick="openSidebar('8t_Citizen B',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\9t_Evidence.png" id="9t_Evidence" data-flag="@X" onclick="openSidebar('9t_Evidence',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\FBI-files\img\10t_Psyop.png" id="10t_Psyop" data-flag="@X" onclick="openSidebar('10t_Psyop',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
@@ -725,27 +717,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -757,17 +773,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -800,6 +818,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -809,6 +828,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -831,21 +851,21 @@
 	}
 
 		function randomCard() {
-			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-			let random_card = card_list_arrayified[i];
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
 
-			const url = new URL('card', window.location.origin);
-			const params = {
-				set: random_card.set,
-				num: random_card.number,
-				name: random_card.card_name
-			}
-			for (const key in params) {
-				url.searchParams.append(key, params[key]);
-			}
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
 
-			window.location.href = url;
-		}
+				window.location.href = url;
+			}
 	</script>
 </body>
 </html>

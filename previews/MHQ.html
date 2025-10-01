@@ -39,8 +39,8 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
@@ -126,12 +126,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -203,9 +204,6 @@
 		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
 		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/JMR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OVR-files/icon.png" />
 		<img class="preload-hidden" id="bg" src="/sets/MHQ-files/bg.png" />
 
 		<div class="header">
@@ -219,7 +217,7 @@
 		</div>
 	</div>
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
 		<a class="set-bar" href="MHQ"><img src="/sets/MHQ-files/icon.png">Modern Horizons: Triumph of Qirauz</a>
 	
@@ -277,398 +275,392 @@
 	
 		<a class="set-bar inactive" href="ELO"><img src="/sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
 	
-		<a class="set-bar inactive" href="JMR"><img src="/sets/JMR-files/icon.png">Jamuraa: The Mirage War</a>
-	
-		<a class="set-bar inactive" href="90S"><img src="/sets/90S-files/icon.png">Rath and Storm</a>
-	
-		<a class="set-bar inactive" href="OVR"><img src="/sets/OVR-files/icon.png">Overlay</a>
-	
 		</div>
 		<div class="banner">
 		<img class="logo" src="/sets/MHQ-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\MHQ-files\img\19_Issa, Gatherer of the Lost.png" id="19_Issa, Gatherer of the Lost" data-flag="@X" onclick="openSidebar('19_Issa, Gatherer of the Lost',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\72_Stoic Philosopher.png" id="72_Stoic Philosopher" data-flag="@X" onclick="openSidebar('72_Stoic Philosopher',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\100_Screaming Unlife.png" id="100_Screaming Unlife" data-flag="@X" onclick="openSidebar('100_Screaming Unlife',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\151_Warwake Phoenix.png" id="151_Warwake Phoenix" data-flag="@X" onclick="openSidebar('151_Warwake Phoenix',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\186_Unell's Champion.png" id="186_Unells Champion" data-flag="@X" onclick="openSidebar('186_Unells Champion',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\2_Borrowed Breath.png" id="2_Borrowed Breath" data-flag="@X" onclick="openSidebar('2_Borrowed Breath',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\40_Alchemical Discovery.png" id="40_Alchemical Discovery" data-flag="@X" onclick="openSidebar('40_Alchemical Discovery',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\82_Chosen of Corvash.png" id="82_Chosen of Corvash" data-flag="@X" onclick="openSidebar('82_Chosen of Corvash',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\125_Heart of Flame.png" id="125_Heart of Flame" data-flag="@X" onclick="openSidebar('125_Heart of Flame',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\153_Aleph Mobilizer.png" id="153_Aleph Mobilizer" data-flag="@X" onclick="openSidebar('153_Aleph Mobilizer',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\5_Cease Hostility.png" id="5_Cease Hostility" data-flag="@X" onclick="openSidebar('5_Cease Hostility',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\41_Ambulatory Vat.png" id="41_Ambulatory Vat" data-flag="@X" onclick="openSidebar('41_Ambulatory Vat',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\83_Collected Covenant.png" id="83_Collected Covenant" data-flag="@X" onclick="openSidebar('83_Collected Covenant',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\128_Immolating Hellkite.png" id="128_Immolating Hellkite" data-flag="@X" onclick="openSidebar('128_Immolating Hellkite',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\156_Carved Sovereign.png" id="156_Carved Sovereign" data-flag="@X" onclick="openSidebar('156_Carved Sovereign',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\6_Cemetary Seraph.png" id="6_Cemetary Seraph" data-flag="@X" onclick="openSidebar('6_Cemetary Seraph',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\43_Ar Dacha Storyteller.png" id="43_Ar Dacha Storyteller" data-flag="@X" onclick="openSidebar('43_Ar Dacha Storyteller',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\90_Inexorable Legion.png" id="90_Inexorable Legion" data-flag="@X" onclick="openSidebar('90_Inexorable Legion',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\136_Shifting Moon.png" id="136_Shifting Moon" data-flag="@X" onclick="openSidebar('136_Shifting Moon',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\164_Impatient Hunter.png" id="164_Impatient Hunter" data-flag="@X" onclick="openSidebar('164_Impatient Hunter',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\32_Speaker of Sands.png" id="32_Speaker of Sands" data-flag="@X" onclick="openSidebar('32_Speaker of Sands',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\49_Die Laughing.png" id="49_Die Laughing" data-flag="@X" onclick="openSidebar('49_Die Laughing',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\91_Leyline of the Beyond.png" id="91_Leyline of the Beyond" data-flag="@X" onclick="openSidebar('91_Leyline of the Beyond',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\141_Sparkmage's Charm.png" id="141_Sparkmages Charm" data-flag="@X" onclick="openSidebar('141_Sparkmages Charm',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\170_Mana Refraction.png" id="170_Mana Refraction" data-flag="@X" onclick="openSidebar('170_Mana Refraction',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\35_Troop Morale.png" id="35_Troop Morale" data-flag="@X" onclick="openSidebar('35_Troop Morale',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\51_Elemental Emergence.png" id="51_Elemental Emergence" data-flag="@X" onclick="openSidebar('51_Elemental Emergence',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\95_No Mercy.png" id="95_No Mercy" data-flag="@X" onclick="openSidebar('95_No Mercy',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\144_Veil-Cutter Ronin.png" id="144_Veil-Cutter Ronin" data-flag="@X" onclick="openSidebar('144_Veil-Cutter Ronin',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\172_Mulchtiller Wurm.png" id="172_Mulchtiller Wurm" data-flag="@X" onclick="openSidebar('172_Mulchtiller Wurm',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\37_Wrath of the First Ones.png" id="37_Wrath of the First Ones" data-flag="@X" onclick="openSidebar('37_Wrath of the First Ones',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\60_Monkey Business.png" id="60_Monkey Business" data-flag="@X" onclick="openSidebar('60_Monkey Business',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\98_Orflaith's Solemn Oath.png" id="98_Orflaiths Solemn Oath" data-flag="@X" onclick="openSidebar('98_Orflaiths Solemn Oath',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\145_Wail of Disintegration.png" id="145_Wail of Disintegration" data-flag="@X" onclick="openSidebar('145_Wail of Disintegration',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\174_Pink Slime.png" id="174_Pink Slime" data-flag="@X" onclick="openSidebar('174_Pink Slime',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\38_Yog's Favored.png" id="38_Yogs Favored" data-flag="@X" onclick="openSidebar('38_Yogs Favored',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\67_Remnant of Akaddi.png" id="67_Remnant of Akaddi" data-flag="@X" onclick="openSidebar('67_Remnant of Akaddi',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\110_Terrify.png" id="110_Terrify" data-flag="@X" onclick="openSidebar('110_Terrify',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\150_Warshifter.png" id="150_Warshifter" data-flag="@X" onclick="openSidebar('150_Warshifter',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\177_Remnants of the Architect.png" id="177_Remnants of the Architect" data-flag="@X" onclick="openSidebar('177_Remnants of the Architect',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\1_An-Drim Fleet.png" id="1_An-Drim Fleet" data-flag="@X" onclick="openSidebar('1_An-Drim Fleet',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\39_Abyssal Predator.png" id="39_Abyssal Predator" data-flag="@X" onclick="openSidebar('39_Abyssal Predator',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\77_Abandoned Apex.png" id="77_Abandoned Apex" data-flag="@X" onclick="openSidebar('77_Abandoned Apex',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\123_Fruity Tang.png" id="123_Fruity Tang" data-flag="@X" onclick="openSidebar('123_Fruity Tang',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\155_Brass Treadmaw.png" id="155_Brass Treadmaw" data-flag="@X" onclick="openSidebar('155_Brass Treadmaw',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\8_Combat Simulacrum.png" id="8_Combat Simulacrum" data-flag="@X" onclick="openSidebar('8_Combat Simulacrum',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\44_Bane of the Unwary.png" id="44_Bane of the Unwary" data-flag="@X" onclick="openSidebar('44_Bane of the Unwary',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\84_Dakhazi Legion.png" id="84_Dakhazi Legion" data-flag="@X" onclick="openSidebar('84_Dakhazi Legion',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\124_Grapes of Wrath.png" id="124_Grapes of Wrath" data-flag="@X" onclick="openSidebar('124_Grapes of Wrath',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\158_Empire of the Dead.png" id="158_Empire of the Dead" data-flag="@X" onclick="openSidebar('158_Empire of the Dead',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\11_Dakhazi Charioteer.png" id="11_Dakhazi Charioteer" data-flag="@X" onclick="openSidebar('11_Dakhazi Charioteer',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\50_Dreambound Scuttler.png" id="50_Dreambound Scuttler" data-flag="@X" onclick="openSidebar('50_Dreambound Scuttler',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\86_Edge of Reality.png" id="86_Edge of Reality" data-flag="@X" onclick="openSidebar('86_Edge of Reality',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\126_Herald of Sotak.png" id="126_Herald of Sotak" data-flag="@X" onclick="openSidebar('126_Herald of Sotak',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\159_Forging the Tyrant.png" id="159_Forging the Tyrant" data-flag="@X" onclick="openSidebar('159_Forging the Tyrant',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\14_Empty Rift.png" id="14_Empty Rift" data-flag="@X" onclick="openSidebar('14_Empty Rift',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\54_Geesh's Scavenger.png" id="54_Geeshs Scavenger" data-flag="@X" onclick="openSidebar('54_Geeshs Scavenger',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\89_Grotesque Gourmand.png" id="89_Grotesque Gourmand" data-flag="@X" onclick="openSidebar('89_Grotesque Gourmand',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\127_Hypergenetic Hulk.png" id="127_Hypergenetic Hulk" data-flag="@X" onclick="openSidebar('127_Hypergenetic Hulk',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\161_Geesh's Blessing.png" id="161_Geeshs Blessing" data-flag="@X" onclick="openSidebar('161_Geeshs Blessing',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\17_Girded Fetch.png" id="17_Girded Fetch" data-flag="@X" onclick="openSidebar('17_Girded Fetch',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\55_Graven Meditation.png" id="55_Graven Meditation" data-flag="@X" onclick="openSidebar('55_Graven Meditation',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\93_Lursk's Legacy.png" id="93_Lursks Legacy" data-flag="@X" onclick="openSidebar('93_Lursks Legacy',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\130_Legion Deployment.png" id="130_Legion Deployment" data-flag="@X" onclick="openSidebar('130_Legion Deployment',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\163_Hogweed Hulk.png" id="163_Hogweed Hulk" data-flag="@X" onclick="openSidebar('163_Hogweed Hulk',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\18_Herald of the Damned.png" id="18_Herald of the Damned" data-flag="@X" onclick="openSidebar('18_Herald of the Damned',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\56_Guilt's Visage.png" id="56_Guilts Visage" data-flag="@X" onclick="openSidebar('56_Guilts Visage',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\101_Secrets of the Flesh.png" id="101_Secrets of the Flesh" data-flag="@X" onclick="openSidebar('101_Secrets of the Flesh',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\134_Savage Apothecary.png" id="134_Savage Apothecary" data-flag="@X" onclick="openSidebar('134_Savage Apothecary',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\168_Lambent Blessing.png" id="168_Lambent Blessing" data-flag="@X" onclick="openSidebar('168_Lambent Blessing',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\21_Life's Echo.png" id="21_Lifes Echo" data-flag="@X" onclick="openSidebar('21_Lifes Echo',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\58_Jystani Gemdreamer.png" id="58_Jystani Gemdreamer" data-flag="@X" onclick="openSidebar('58_Jystani Gemdreamer',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\102_Shadow and Bone.png" id="102_Shadow and Bone" data-flag="@X" onclick="openSidebar('102_Shadow and Bone',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\135_Scion of Udim.png" id="135_Scion of Udim" data-flag="@X" onclick="openSidebar('135_Scion of Udim',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\171_Motor Monitor.png" id="171_Motor Monitor" data-flag="@X" onclick="openSidebar('171_Motor Monitor',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\22_Luminous Martyr.png" id="22_Luminous Martyr" data-flag="@X" onclick="openSidebar('22_Luminous Martyr',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\64_Pupate.png" id="64_Pupate" data-flag="@X" onclick="openSidebar('64_Pupate',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\104_Shepherd of Yog.png" id="104_Shepherd of Yog" data-flag="@X" onclick="openSidebar('104_Shepherd of Yog',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\138_Smokestack Hellkite.png" id="138_Smokestack Hellkite" data-flag="@X" onclick="openSidebar('138_Smokestack Hellkite',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\173_Overgrown Artifice.png" id="173_Overgrown Artifice" data-flag="@X" onclick="openSidebar('173_Overgrown Artifice',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\24_Only in Death Does Duty End.png" id="24_Only in Death Does Duty End" data-flag="@X" onclick="openSidebar('24_Only in Death Does Duty End',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\65_Reaver of Bocacius.png" id="65_Reaver of Bocacius" data-flag="@X" onclick="openSidebar('65_Reaver of Bocacius',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\106_Stitch Together.png" id="106_Stitch Together" data-flag="@X" onclick="openSidebar('106_Stitch Together',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\140_Sonic Resonator.png" id="140_Sonic Resonator" data-flag="@X" onclick="openSidebar('140_Sonic Resonator',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\176_Primordial Pulse.png" id="176_Primordial Pulse" data-flag="@X" onclick="openSidebar('176_Primordial Pulse',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\27_Sequester.png" id="27_Sequester" data-flag="@X" onclick="openSidebar('27_Sequester',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\70_Somber Tutelage.png" id="70_Somber Tutelage" data-flag="@X" onclick="openSidebar('70_Somber Tutelage',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\108_Subjugate.png" id="108_Subjugate" data-flag="@X" onclick="openSidebar('108_Subjugate',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\142_Testudo Formation.png" id="142_Testudo Formation" data-flag="@X" onclick="openSidebar('142_Testudo Formation',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\183_Synaptic Servitor.png" id="183_Synaptic Servitor" data-flag="@X" onclick="openSidebar('183_Synaptic Servitor',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\28_Shockodile.png" id="28_Shockodile" data-flag="@X" onclick="openSidebar('28_Shockodile',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\73_Tautology.png" id="73_Tautology" data-flag="@X" onclick="openSidebar('73_Tautology',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\109_Swarm of Flesh.png" id="109_Swarm of Flesh" data-flag="@X" onclick="openSidebar('109_Swarm of Flesh',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\146_Walking Wick.png" id="146_Walking Wick" data-flag="@X" onclick="openSidebar('146_Walking Wick',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\184_Turnip Titan.png" id="184_Turnip Titan" data-flag="@X" onclick="openSidebar('184_Turnip Titan',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\30_Skyside Voyager.png" id="30_Skyside Voyager" data-flag="@X" onclick="openSidebar('30_Skyside Voyager',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\74_Touch the Light.png" id="74_Touch the Light" data-flag="@X" onclick="openSidebar('74_Touch the Light',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\112_Worlds End.png" id="112_Worlds End" data-flag="@X" onclick="openSidebar('112_Worlds End',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\149_Warp Drive.png" id="149_Warp Drive" data-flag="@X" onclick="openSidebar('149_Warp Drive',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\190_Where Dreams Go to Die.png" id="190_Where Dreams Go to Die" data-flag="@X" onclick="openSidebar('190_Where Dreams Go to Die',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\3_Calcified Bathyscaphe.png" id="3_Calcified Bathyscaphe" data-flag="@X" onclick="openSidebar('3_Calcified Bathyscaphe',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\42_Annan's Trickery.png" id="42_Annans Trickery" data-flag="@X" onclick="openSidebar('42_Annans Trickery',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\78_Beneath the Surface.png" id="78_Beneath the Surface" data-flag="@X" onclick="openSidebar('78_Beneath the Surface',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\115_Bladed Mirage.png" id="115_Bladed Mirage" data-flag="@X" onclick="openSidebar('115_Bladed Mirage',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\154_Artificial Exemplar.png" id="154_Artificial Exemplar" data-flag="@X" onclick="openSidebar('154_Artificial Exemplar',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\4_Cautious Approach.png" id="4_Cautious Approach" data-flag="@X" onclick="openSidebar('4_Cautious Approach',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\45_Baun's Aftermath.png" id="45_Bauns Aftermath" data-flag="@X" onclick="openSidebar('45_Bauns Aftermath',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\79_Cage of Ribs.png" id="79_Cage of Ribs" data-flag="@X" onclick="openSidebar('79_Cage of Ribs',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\116_Bolt of Wickedness.png" id="116_Bolt of Wickedness" data-flag="@X" onclick="openSidebar('116_Bolt of Wickedness',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\157_Devotee of Geesh.png" id="157_Devotee of Geesh" data-flag="@X" onclick="openSidebar('157_Devotee of Geesh',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\7_Cliff-Carved Drake.png" id="7_Cliff-Carved Drake" data-flag="@X" onclick="openSidebar('7_Cliff-Carved Drake',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\46_Clarion Warhorn.png" id="46_Clarion Warhorn" data-flag="@X" onclick="openSidebar('46_Clarion Warhorn',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\80_Carriage's Wail.png" id="80_Carriages Wail" data-flag="@X" onclick="openSidebar('80_Carriages Wail',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\117_Bull of Turenze.png" id="117_Bull of Turenze" data-flag="@X" onclick="openSidebar('117_Bull of Turenze',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\160_Fungal Webwork.png" id="160_Fungal Webwork" data-flag="@X" onclick="openSidebar('160_Fungal Webwork',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\9_Coven's Gaze.png" id="9_Covens Gaze" data-flag="@X" onclick="openSidebar('9_Covens Gaze',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\47_Crystallize.png" id="47_Crystallize" data-flag="@X" onclick="openSidebar('47_Crystallize',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\81_Cetecean Somnolence.png" id="81_Cetecean Somnolence" data-flag="@X" onclick="openSidebar('81_Cetecean Somnolence',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\118_Cannibal Connoisseur.png" id="118_Cannibal Connoisseur" data-flag="@X" onclick="openSidebar('118_Cannibal Connoisseur',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\162_Haptic Initiate.png" id="162_Haptic Initiate" data-flag="@X" onclick="openSidebar('162_Haptic Initiate',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\10_Crystal Shock.png" id="10_Crystal Shock" data-flag="@X" onclick="openSidebar('10_Crystal Shock',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\48_Curious Starplucker.png" id="48_Curious Starplucker" data-flag="@X" onclick="openSidebar('48_Curious Starplucker',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\85_Dreams from Outer Spheres.png" id="85_Dreams from Outer Spheres" data-flag="@X" onclick="openSidebar('85_Dreams from Outer Spheres',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\119_Desperate Valor.png" id="119_Desperate Valor" data-flag="@X" onclick="openSidebar('119_Desperate Valor',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\165_Jystani Gemskin.png" id="165_Jystani Gemskin" data-flag="@X" onclick="openSidebar('165_Jystani Gemskin',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\12_Determined Climber.png" id="12_Determined Climber" data-flag="@X" onclick="openSidebar('12_Determined Climber',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\52_Evangel of Geesh.png" id="52_Evangel of Geesh" data-flag="@X" onclick="openSidebar('52_Evangel of Geesh',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\87_Fade into Gloom.png" id="87_Fade into Gloom" data-flag="@X" onclick="openSidebar('87_Fade into Gloom',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\120_The Dreamer Awakens.png" id="120_The Dreamer Awakens" data-flag="@X" onclick="openSidebar('120_The Dreamer Awakens',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\166_Kur's Pilgrimage.png" id="166_Kurs Pilgrimage" data-flag="@X" onclick="openSidebar('166_Kurs Pilgrimage',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\13_Drownside Aquanaut.png" id="13_Drownside Aquanaut" data-flag="@X" onclick="openSidebar('13_Drownside Aquanaut',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\53_Fading Wispmare.png" id="53_Fading Wispmare" data-flag="@X" onclick="openSidebar('53_Fading Wispmare',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\88_Firebrand Heretic.png" id="88_Firebrand Heretic" data-flag="@X" onclick="openSidebar('88_Firebrand Heretic',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\121_Engine of Damnation.png" id="121_Engine of Damnation" data-flag="@X" onclick="openSidebar('121_Engine of Damnation',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\167_Kuzam Chieftan.png" id="167_Kuzam Chieftan" data-flag="@X" onclick="openSidebar('167_Kuzam Chieftan',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\15_Executioner of Qamesh.png" id="15_Executioner of Qamesh" data-flag="@X" onclick="openSidebar('15_Executioner of Qamesh',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\57_Indolent Outsider.png" id="57_Indolent Outsider" data-flag="@X" onclick="openSidebar('57_Indolent Outsider',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\92_Lursk's Dirge.png" id="92_Lursks Dirge" data-flag="@X" onclick="openSidebar('92_Lursks Dirge',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\122_Frenzied Tusker.png" id="122_Frenzied Tusker" data-flag="@X" onclick="openSidebar('122_Frenzied Tusker',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\169_Leap the Demon Gate.png" id="169_Leap the Demon Gate" data-flag="@X" onclick="openSidebar('169_Leap the Demon Gate',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\16_Forlorn Buggy.png" id="16_Forlorn Buggy" data-flag="@X" onclick="openSidebar('16_Forlorn Buggy',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\59_Lursk's Guilt.png" id="59_Lursks Guilt" data-flag="@X" onclick="openSidebar('59_Lursks Guilt',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\94_Necromancer's Opus.png" id="94_Necromancers Opus" data-flag="@X" onclick="openSidebar('94_Necromancers Opus',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\129_Kushabi Dagger.png" id="129_Kushabi Dagger" data-flag="@X" onclick="openSidebar('129_Kushabi Dagger',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\175_Primordial Mulch.png" id="175_Primordial Mulch" data-flag="@X" onclick="openSidebar('175_Primordial Mulch',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\20_Justicar of Qirauz.png" id="20_Justicar of Qirauz" data-flag="@X" onclick="openSidebar('20_Justicar of Qirauz',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\61_Moonlight Warp.png" id="61_Moonlight Warp" data-flag="@X" onclick="openSidebar('61_Moonlight Warp',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\96_Offering to Sotak.png" id="96_Offering to Sotak" data-flag="@X" onclick="openSidebar('96_Offering to Sotak',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\131_Persistent Punishment.png" id="131_Persistent Punishment" data-flag="@X" onclick="openSidebar('131_Persistent Punishment',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\178_Return to the Sea.png" id="178_Return to the Sea" data-flag="@X" onclick="openSidebar('178_Return to the Sea',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\23_Offering to Daugan.png" id="23_Offering to Daugan" data-flag="@X" onclick="openSidebar('23_Offering to Daugan',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\62_Paragon of Malice.png" id="62_Paragon of Malice" data-flag="@X" onclick="openSidebar('62_Paragon of Malice',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\97_Ogre Executioner.png" id="97_Ogre Executioner" data-flag="@X" onclick="openSidebar('97_Ogre Executioner',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\132_Piston Chorus.png" id="132_Piston Chorus" data-flag="@X" onclick="openSidebar('132_Piston Chorus',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\179_Sabretooth Ambusher.png" id="179_Sabretooth Ambusher" data-flag="@X" onclick="openSidebar('179_Sabretooth Ambusher',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\25_Ostaad Sellsword.png" id="25_Ostaad Sellsword" data-flag="@X" onclick="openSidebar('25_Ostaad Sellsword',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\63_Patient Yojimbo.png" id="63_Patient Yojimbo" data-flag="@X" onclick="openSidebar('63_Patient Yojimbo',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\99_Relentless Pursuer.png" id="99_Relentless Pursuer" data-flag="@X" onclick="openSidebar('99_Relentless Pursuer',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\133_Sabotage.png" id="133_Sabotage" data-flag="@X" onclick="openSidebar('133_Sabotage',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\180_Scarwood Dryad.png" id="180_Scarwood Dryad" data-flag="@X" onclick="openSidebar('180_Scarwood Dryad',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\26_Picked-Clean Paladin.png" id="26_Picked-Clean Paladin" data-flag="@X" onclick="openSidebar('26_Picked-Clean Paladin',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\66_Refusal of the Ancients.png" id="66_Refusal of the Ancients" data-flag="@X" onclick="openSidebar('66_Refusal of the Ancients',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\103_Shadow of the Piper.png" id="103_Shadow of the Piper" data-flag="@X" onclick="openSidebar('103_Shadow of the Piper',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\137_Silly Pepper.png" id="137_Silly Pepper" data-flag="@X" onclick="openSidebar('137_Silly Pepper',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\181_Shambling Sporocarp.png" id="181_Shambling Sporocarp" data-flag="@X" onclick="openSidebar('181_Shambling Sporocarp',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\29_Skeletal Harvest.png" id="29_Skeletal Harvest" data-flag="@X" onclick="openSidebar('29_Skeletal Harvest',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\68_Rime Titan.png" id="68_Rime Titan" data-flag="@X" onclick="openSidebar('68_Rime Titan',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\105_Sin-Clad Wight.png" id="105_Sin-Clad Wight" data-flag="@X" onclick="openSidebar('105_Sin-Clad Wight',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\139_Something in the Dark.png" id="139_Something in the Dark" data-flag="@X" onclick="openSidebar('139_Something in the Dark',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\182_Survivor's Memories.png" id="182_Survivors Memories" data-flag="@X" onclick="openSidebar('182_Survivors Memories',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\31_Solemn Procession.png" id="31_Solemn Procession" data-flag="@X" onclick="openSidebar('31_Solemn Procession',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\69_Seafloor Breach.png" id="69_Seafloor Breach" data-flag="@X" onclick="openSidebar('69_Seafloor Breach',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\107_Subconscious Steed.png" id="107_Subconscious Steed" data-flag="@X" onclick="openSidebar('107_Subconscious Steed',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\143_Titan of the Wretched.png" id="143_Titan of the Wretched" data-flag="@X" onclick="openSidebar('143_Titan of the Wretched',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\185_Undergrowth Overlord.png" id="185_Undergrowth Overlord" data-flag="@X" onclick="openSidebar('185_Undergrowth Overlord',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\33_Squawking Schematic.png" id="33_Squawking Schematic" data-flag="@X" onclick="openSidebar('33_Squawking Schematic',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\71_Spirit of Flight.png" id="71_Spirit of Flight" data-flag="@X" onclick="openSidebar('71_Spirit of Flight',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\111_Wisdom of Sotak.png" id="111_Wisdom of Sotak" data-flag="@X" onclick="openSidebar('111_Wisdom of Sotak',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\147_Wandering Damned.png" id="147_Wandering Damned" data-flag="@X" onclick="openSidebar('147_Wandering Damned',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\187_Verdant Predator.png" id="187_Verdant Predator" data-flag="@X" onclick="openSidebar('187_Verdant Predator',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\34_Timeless Troubadour.png" id="34_Timeless Troubadour" data-flag="@X" onclick="openSidebar('34_Timeless Troubadour',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\75_Uncover the Past.png" id="75_Uncover the Past" data-flag="@X" onclick="openSidebar('75_Uncover the Past',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\113_Wrathful Sinner.png" id="113_Wrathful Sinner" data-flag="@X" onclick="openSidebar('113_Wrathful Sinner',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\148_Wandering Savior.png" id="148_Wandering Savior" data-flag="@X" onclick="openSidebar('148_Wandering Savior',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\188_Weepwood Mycoloth.png" id="188_Weepwood Mycoloth" data-flag="@X" onclick="openSidebar('188_Weepwood Mycoloth',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\36_Turn to Stone.png" id="36_Turn to Stone" data-flag="@X" onclick="openSidebar('36_Turn to Stone',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\76_Unstable Subject.png" id="76_Unstable Subject" data-flag="@X" onclick="openSidebar('76_Unstable Subject',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\114_Yog's Avenger.png" id="114_Yogs Avenger" data-flag="@X" onclick="openSidebar('114_Yogs Avenger',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\152_Weight of Guilt.png" id="152_Weight of Guilt" data-flag="@X" onclick="openSidebar('152_Weight of Guilt',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\189_Weepwood Recluse.png" id="189_Weepwood Recluse" data-flag="@X" onclick="openSidebar('189_Weepwood Recluse',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\19_Issa, Gatherer of the Lost.png" id="19_Issa, Gatherer of the Lost" data-flag="@X" onclick="openSidebar('19_Issa, Gatherer of the Lost',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\72_Stoic Philosopher.png" id="72_Stoic Philosopher" data-flag="@X" onclick="openSidebar('72_Stoic Philosopher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\100_Screaming Unlife.png" id="100_Screaming Unlife" data-flag="@X" onclick="openSidebar('100_Screaming Unlife',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\151_Warwake Phoenix.png" id="151_Warwake Phoenix" data-flag="@X" onclick="openSidebar('151_Warwake Phoenix',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\186_Unell's Champion.png" id="186_Unells Champion" data-flag="@X" onclick="openSidebar('186_Unells Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\2_Borrowed Breath.png" id="2_Borrowed Breath" data-flag="@X" onclick="openSidebar('2_Borrowed Breath',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\40_Alchemical Discovery.png" id="40_Alchemical Discovery" data-flag="@X" onclick="openSidebar('40_Alchemical Discovery',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\82_Chosen of Corvash.png" id="82_Chosen of Corvash" data-flag="@X" onclick="openSidebar('82_Chosen of Corvash',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\125_Heart of Flame.png" id="125_Heart of Flame" data-flag="@X" onclick="openSidebar('125_Heart of Flame',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\153_Aleph Mobilizer.png" id="153_Aleph Mobilizer" data-flag="@X" onclick="openSidebar('153_Aleph Mobilizer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\5_Cease Hostility.png" id="5_Cease Hostility" data-flag="@X" onclick="openSidebar('5_Cease Hostility',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\41_Ambulatory Vat.png" id="41_Ambulatory Vat" data-flag="@X" onclick="openSidebar('41_Ambulatory Vat',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\83_Collected Covenant.png" id="83_Collected Covenant" data-flag="@X" onclick="openSidebar('83_Collected Covenant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\128_Immolating Hellkite.png" id="128_Immolating Hellkite" data-flag="@X" onclick="openSidebar('128_Immolating Hellkite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\156_Carved Sovereign.png" id="156_Carved Sovereign" data-flag="@X" onclick="openSidebar('156_Carved Sovereign',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\6_Cemetary Seraph.png" id="6_Cemetary Seraph" data-flag="@X" onclick="openSidebar('6_Cemetary Seraph',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\43_Ar Dacha Storyteller.png" id="43_Ar Dacha Storyteller" data-flag="@X" onclick="openSidebar('43_Ar Dacha Storyteller',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\90_Inexorable Legion.png" id="90_Inexorable Legion" data-flag="@X" onclick="openSidebar('90_Inexorable Legion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\136_Shifting Moon.png" id="136_Shifting Moon" data-flag="@X" onclick="openSidebar('136_Shifting Moon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\164_Impatient Hunter.png" id="164_Impatient Hunter" data-flag="@X" onclick="openSidebar('164_Impatient Hunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\32_Speaker of Sands.png" id="32_Speaker of Sands" data-flag="@X" onclick="openSidebar('32_Speaker of Sands',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\49_Die Laughing.png" id="49_Die Laughing" data-flag="@X" onclick="openSidebar('49_Die Laughing',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\91_Leyline of the Beyond.png" id="91_Leyline of the Beyond" data-flag="@X" onclick="openSidebar('91_Leyline of the Beyond',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\141_Sparkmage's Charm.png" id="141_Sparkmages Charm" data-flag="@X" onclick="openSidebar('141_Sparkmages Charm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\170_Mana Refraction.png" id="170_Mana Refraction" data-flag="@X" onclick="openSidebar('170_Mana Refraction',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\35_Troop Morale.png" id="35_Troop Morale" data-flag="@X" onclick="openSidebar('35_Troop Morale',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\51_Elemental Emergence.png" id="51_Elemental Emergence" data-flag="@X" onclick="openSidebar('51_Elemental Emergence',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\95_No Mercy.png" id="95_No Mercy" data-flag="@X" onclick="openSidebar('95_No Mercy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\144_Veil-Cutter Ronin.png" id="144_Veil-Cutter Ronin" data-flag="@X" onclick="openSidebar('144_Veil-Cutter Ronin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\172_Mulchtiller Wurm.png" id="172_Mulchtiller Wurm" data-flag="@X" onclick="openSidebar('172_Mulchtiller Wurm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\37_Wrath of the First Ones.png" id="37_Wrath of the First Ones" data-flag="@X" onclick="openSidebar('37_Wrath of the First Ones',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\60_Monkey Business.png" id="60_Monkey Business" data-flag="@X" onclick="openSidebar('60_Monkey Business',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\98_Orflaith's Solemn Oath.png" id="98_Orflaiths Solemn Oath" data-flag="@X" onclick="openSidebar('98_Orflaiths Solemn Oath',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\145_Wail of Disintegration.png" id="145_Wail of Disintegration" data-flag="@X" onclick="openSidebar('145_Wail of Disintegration',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\174_Pink Slime.png" id="174_Pink Slime" data-flag="@X" onclick="openSidebar('174_Pink Slime',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\38_Yog's Favored.png" id="38_Yogs Favored" data-flag="@X" onclick="openSidebar('38_Yogs Favored',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\67_Remnant of Akaddi.png" id="67_Remnant of Akaddi" data-flag="@X" onclick="openSidebar('67_Remnant of Akaddi',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\110_Terrify.png" id="110_Terrify" data-flag="@X" onclick="openSidebar('110_Terrify',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\150_Warshifter.png" id="150_Warshifter" data-flag="@X" onclick="openSidebar('150_Warshifter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\177_Remnants of the Architect.png" id="177_Remnants of the Architect" data-flag="@X" onclick="openSidebar('177_Remnants of the Architect',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\1_An-Drim Fleet.png" id="1_An-Drim Fleet" data-flag="@X" onclick="openSidebar('1_An-Drim Fleet',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\39_Abyssal Predator.png" id="39_Abyssal Predator" data-flag="@X" onclick="openSidebar('39_Abyssal Predator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\77_Abandoned Apex.png" id="77_Abandoned Apex" data-flag="@X" onclick="openSidebar('77_Abandoned Apex',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\123_Fruity Tang.png" id="123_Fruity Tang" data-flag="@X" onclick="openSidebar('123_Fruity Tang',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\155_Brass Treadmaw.png" id="155_Brass Treadmaw" data-flag="@X" onclick="openSidebar('155_Brass Treadmaw',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\8_Combat Simulacrum.png" id="8_Combat Simulacrum" data-flag="@X" onclick="openSidebar('8_Combat Simulacrum',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\44_Bane of the Unwary.png" id="44_Bane of the Unwary" data-flag="@X" onclick="openSidebar('44_Bane of the Unwary',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\84_Dakhazi Legion.png" id="84_Dakhazi Legion" data-flag="@X" onclick="openSidebar('84_Dakhazi Legion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\124_Grapes of Wrath.png" id="124_Grapes of Wrath" data-flag="@X" onclick="openSidebar('124_Grapes of Wrath',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\158_Empire of the Dead.png" id="158_Empire of the Dead" data-flag="@X" onclick="openSidebar('158_Empire of the Dead',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\11_Dakhazi Charioteer.png" id="11_Dakhazi Charioteer" data-flag="@X" onclick="openSidebar('11_Dakhazi Charioteer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\50_Dreambound Scuttler.png" id="50_Dreambound Scuttler" data-flag="@X" onclick="openSidebar('50_Dreambound Scuttler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\86_Edge of Reality.png" id="86_Edge of Reality" data-flag="@X" onclick="openSidebar('86_Edge of Reality',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\126_Herald of Sotak.png" id="126_Herald of Sotak" data-flag="@X" onclick="openSidebar('126_Herald of Sotak',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\159_Forging the Tyrant.png" id="159_Forging the Tyrant" data-flag="@X" onclick="openSidebar('159_Forging the Tyrant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\14_Empty Rift.png" id="14_Empty Rift" data-flag="@X" onclick="openSidebar('14_Empty Rift',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\54_Geesh's Scavenger.png" id="54_Geeshs Scavenger" data-flag="@X" onclick="openSidebar('54_Geeshs Scavenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\89_Grotesque Gourmand.png" id="89_Grotesque Gourmand" data-flag="@X" onclick="openSidebar('89_Grotesque Gourmand',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\127_Hypergenetic Hulk.png" id="127_Hypergenetic Hulk" data-flag="@X" onclick="openSidebar('127_Hypergenetic Hulk',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\161_Geesh's Blessing.png" id="161_Geeshs Blessing" data-flag="@X" onclick="openSidebar('161_Geeshs Blessing',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\17_Girded Fetch.png" id="17_Girded Fetch" data-flag="@X" onclick="openSidebar('17_Girded Fetch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\55_Graven Meditation.png" id="55_Graven Meditation" data-flag="@X" onclick="openSidebar('55_Graven Meditation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\93_Lursk's Legacy.png" id="93_Lursks Legacy" data-flag="@X" onclick="openSidebar('93_Lursks Legacy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\130_Legion Deployment.png" id="130_Legion Deployment" data-flag="@X" onclick="openSidebar('130_Legion Deployment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\163_Hogweed Hulk.png" id="163_Hogweed Hulk" data-flag="@X" onclick="openSidebar('163_Hogweed Hulk',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\18_Herald of the Damned.png" id="18_Herald of the Damned" data-flag="@X" onclick="openSidebar('18_Herald of the Damned',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\56_Guilt's Visage.png" id="56_Guilts Visage" data-flag="@X" onclick="openSidebar('56_Guilts Visage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\101_Secrets of the Flesh.png" id="101_Secrets of the Flesh" data-flag="@X" onclick="openSidebar('101_Secrets of the Flesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\134_Savage Apothecary.png" id="134_Savage Apothecary" data-flag="@X" onclick="openSidebar('134_Savage Apothecary',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\168_Lambent Blessing.png" id="168_Lambent Blessing" data-flag="@X" onclick="openSidebar('168_Lambent Blessing',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\21_Life's Echo.png" id="21_Lifes Echo" data-flag="@X" onclick="openSidebar('21_Lifes Echo',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\58_Jystani Gemdreamer.png" id="58_Jystani Gemdreamer" data-flag="@X" onclick="openSidebar('58_Jystani Gemdreamer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\102_Shadow and Bone.png" id="102_Shadow and Bone" data-flag="@X" onclick="openSidebar('102_Shadow and Bone',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\135_Scion of Udim.png" id="135_Scion of Udim" data-flag="@X" onclick="openSidebar('135_Scion of Udim',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\171_Motor Monitor.png" id="171_Motor Monitor" data-flag="@X" onclick="openSidebar('171_Motor Monitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\22_Luminous Martyr.png" id="22_Luminous Martyr" data-flag="@X" onclick="openSidebar('22_Luminous Martyr',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\64_Pupate.png" id="64_Pupate" data-flag="@X" onclick="openSidebar('64_Pupate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\104_Shepherd of Yog.png" id="104_Shepherd of Yog" data-flag="@X" onclick="openSidebar('104_Shepherd of Yog',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\138_Smokestack Hellkite.png" id="138_Smokestack Hellkite" data-flag="@X" onclick="openSidebar('138_Smokestack Hellkite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\173_Overgrown Artifice.png" id="173_Overgrown Artifice" data-flag="@X" onclick="openSidebar('173_Overgrown Artifice',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\24_Only in Death Does Duty End.png" id="24_Only in Death Does Duty End" data-flag="@X" onclick="openSidebar('24_Only in Death Does Duty End',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\65_Reaver of Bocacius.png" id="65_Reaver of Bocacius" data-flag="@X" onclick="openSidebar('65_Reaver of Bocacius',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\106_Stitch Together.png" id="106_Stitch Together" data-flag="@X" onclick="openSidebar('106_Stitch Together',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\140_Sonic Resonator.png" id="140_Sonic Resonator" data-flag="@X" onclick="openSidebar('140_Sonic Resonator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\176_Primordial Pulse.png" id="176_Primordial Pulse" data-flag="@X" onclick="openSidebar('176_Primordial Pulse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\27_Sequester.png" id="27_Sequester" data-flag="@X" onclick="openSidebar('27_Sequester',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\70_Somber Tutelage.png" id="70_Somber Tutelage" data-flag="@X" onclick="openSidebar('70_Somber Tutelage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\108_Subjugate.png" id="108_Subjugate" data-flag="@X" onclick="openSidebar('108_Subjugate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\142_Testudo Formation.png" id="142_Testudo Formation" data-flag="@X" onclick="openSidebar('142_Testudo Formation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\183_Synaptic Servitor.png" id="183_Synaptic Servitor" data-flag="@X" onclick="openSidebar('183_Synaptic Servitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\28_Shockodile.png" id="28_Shockodile" data-flag="@X" onclick="openSidebar('28_Shockodile',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\73_Tautology.png" id="73_Tautology" data-flag="@X" onclick="openSidebar('73_Tautology',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\109_Swarm of Flesh.png" id="109_Swarm of Flesh" data-flag="@X" onclick="openSidebar('109_Swarm of Flesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\146_Walking Wick.png" id="146_Walking Wick" data-flag="@X" onclick="openSidebar('146_Walking Wick',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\184_Turnip Titan.png" id="184_Turnip Titan" data-flag="@X" onclick="openSidebar('184_Turnip Titan',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\30_Skyside Voyager.png" id="30_Skyside Voyager" data-flag="@X" onclick="openSidebar('30_Skyside Voyager',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\74_Touch the Light.png" id="74_Touch the Light" data-flag="@X" onclick="openSidebar('74_Touch the Light',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\112_Worlds End.png" id="112_Worlds End" data-flag="@X" onclick="openSidebar('112_Worlds End',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\149_Warp Drive.png" id="149_Warp Drive" data-flag="@X" onclick="openSidebar('149_Warp Drive',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\190_Where Dreams Go to Die.png" id="190_Where Dreams Go to Die" data-flag="@X" onclick="openSidebar('190_Where Dreams Go to Die',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\3_Calcified Bathyscaphe.png" id="3_Calcified Bathyscaphe" data-flag="@X" onclick="openSidebar('3_Calcified Bathyscaphe',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\42_Annan's Trickery.png" id="42_Annans Trickery" data-flag="@X" onclick="openSidebar('42_Annans Trickery',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\78_Beneath the Surface.png" id="78_Beneath the Surface" data-flag="@X" onclick="openSidebar('78_Beneath the Surface',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\115_Bladed Mirage.png" id="115_Bladed Mirage" data-flag="@X" onclick="openSidebar('115_Bladed Mirage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\154_Artificial Exemplar.png" id="154_Artificial Exemplar" data-flag="@X" onclick="openSidebar('154_Artificial Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\4_Cautious Approach.png" id="4_Cautious Approach" data-flag="@X" onclick="openSidebar('4_Cautious Approach',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\45_Baun's Aftermath.png" id="45_Bauns Aftermath" data-flag="@X" onclick="openSidebar('45_Bauns Aftermath',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\79_Cage of Ribs.png" id="79_Cage of Ribs" data-flag="@X" onclick="openSidebar('79_Cage of Ribs',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\116_Bolt of Wickedness.png" id="116_Bolt of Wickedness" data-flag="@X" onclick="openSidebar('116_Bolt of Wickedness',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\157_Devotee of Geesh.png" id="157_Devotee of Geesh" data-flag="@X" onclick="openSidebar('157_Devotee of Geesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\7_Cliff-Carved Drake.png" id="7_Cliff-Carved Drake" data-flag="@X" onclick="openSidebar('7_Cliff-Carved Drake',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\46_Clarion Warhorn.png" id="46_Clarion Warhorn" data-flag="@X" onclick="openSidebar('46_Clarion Warhorn',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\80_Carriage's Wail.png" id="80_Carriages Wail" data-flag="@X" onclick="openSidebar('80_Carriages Wail',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\117_Bull of Turenze.png" id="117_Bull of Turenze" data-flag="@X" onclick="openSidebar('117_Bull of Turenze',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\160_Fungal Webwork.png" id="160_Fungal Webwork" data-flag="@X" onclick="openSidebar('160_Fungal Webwork',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\9_Coven's Gaze.png" id="9_Covens Gaze" data-flag="@X" onclick="openSidebar('9_Covens Gaze',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\47_Crystallize.png" id="47_Crystallize" data-flag="@X" onclick="openSidebar('47_Crystallize',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\81_Cetecean Somnolence.png" id="81_Cetecean Somnolence" data-flag="@X" onclick="openSidebar('81_Cetecean Somnolence',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\118_Cannibal Connoisseur.png" id="118_Cannibal Connoisseur" data-flag="@X" onclick="openSidebar('118_Cannibal Connoisseur',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\162_Haptic Initiate.png" id="162_Haptic Initiate" data-flag="@X" onclick="openSidebar('162_Haptic Initiate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\10_Crystal Shock.png" id="10_Crystal Shock" data-flag="@X" onclick="openSidebar('10_Crystal Shock',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\48_Curious Starplucker.png" id="48_Curious Starplucker" data-flag="@X" onclick="openSidebar('48_Curious Starplucker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\85_Dreams from Outer Spheres.png" id="85_Dreams from Outer Spheres" data-flag="@X" onclick="openSidebar('85_Dreams from Outer Spheres',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\119_Desperate Valor.png" id="119_Desperate Valor" data-flag="@X" onclick="openSidebar('119_Desperate Valor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\165_Jystani Gemskin.png" id="165_Jystani Gemskin" data-flag="@X" onclick="openSidebar('165_Jystani Gemskin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\12_Determined Climber.png" id="12_Determined Climber" data-flag="@X" onclick="openSidebar('12_Determined Climber',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\52_Evangel of Geesh.png" id="52_Evangel of Geesh" data-flag="@X" onclick="openSidebar('52_Evangel of Geesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\87_Fade into Gloom.png" id="87_Fade into Gloom" data-flag="@X" onclick="openSidebar('87_Fade into Gloom',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\120_The Dreamer Awakens.png" id="120_The Dreamer Awakens" data-flag="@X" onclick="openSidebar('120_The Dreamer Awakens',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\166_Kur's Pilgrimage.png" id="166_Kurs Pilgrimage" data-flag="@X" onclick="openSidebar('166_Kurs Pilgrimage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\13_Drownside Aquanaut.png" id="13_Drownside Aquanaut" data-flag="@X" onclick="openSidebar('13_Drownside Aquanaut',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\53_Fading Wispmare.png" id="53_Fading Wispmare" data-flag="@X" onclick="openSidebar('53_Fading Wispmare',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\88_Firebrand Heretic.png" id="88_Firebrand Heretic" data-flag="@X" onclick="openSidebar('88_Firebrand Heretic',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\121_Engine of Damnation.png" id="121_Engine of Damnation" data-flag="@X" onclick="openSidebar('121_Engine of Damnation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\167_Kuzam Chieftan.png" id="167_Kuzam Chieftan" data-flag="@X" onclick="openSidebar('167_Kuzam Chieftan',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\15_Executioner of Qamesh.png" id="15_Executioner of Qamesh" data-flag="@X" onclick="openSidebar('15_Executioner of Qamesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\57_Indolent Outsider.png" id="57_Indolent Outsider" data-flag="@X" onclick="openSidebar('57_Indolent Outsider',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\92_Lursk's Dirge.png" id="92_Lursks Dirge" data-flag="@X" onclick="openSidebar('92_Lursks Dirge',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\122_Frenzied Tusker.png" id="122_Frenzied Tusker" data-flag="@X" onclick="openSidebar('122_Frenzied Tusker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\169_Leap the Demon Gate.png" id="169_Leap the Demon Gate" data-flag="@X" onclick="openSidebar('169_Leap the Demon Gate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\16_Forlorn Buggy.png" id="16_Forlorn Buggy" data-flag="@X" onclick="openSidebar('16_Forlorn Buggy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\59_Lursk's Guilt.png" id="59_Lursks Guilt" data-flag="@X" onclick="openSidebar('59_Lursks Guilt',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\94_Necromancer's Opus.png" id="94_Necromancers Opus" data-flag="@X" onclick="openSidebar('94_Necromancers Opus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\129_Kushabi Dagger.png" id="129_Kushabi Dagger" data-flag="@X" onclick="openSidebar('129_Kushabi Dagger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\175_Primordial Mulch.png" id="175_Primordial Mulch" data-flag="@X" onclick="openSidebar('175_Primordial Mulch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\20_Justicar of Qirauz.png" id="20_Justicar of Qirauz" data-flag="@X" onclick="openSidebar('20_Justicar of Qirauz',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\61_Moonlight Warp.png" id="61_Moonlight Warp" data-flag="@X" onclick="openSidebar('61_Moonlight Warp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\96_Offering to Sotak.png" id="96_Offering to Sotak" data-flag="@X" onclick="openSidebar('96_Offering to Sotak',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\131_Persistent Punishment.png" id="131_Persistent Punishment" data-flag="@X" onclick="openSidebar('131_Persistent Punishment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\178_Return to the Sea.png" id="178_Return to the Sea" data-flag="@X" onclick="openSidebar('178_Return to the Sea',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\23_Offering to Daugan.png" id="23_Offering to Daugan" data-flag="@X" onclick="openSidebar('23_Offering to Daugan',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\62_Paragon of Malice.png" id="62_Paragon of Malice" data-flag="@X" onclick="openSidebar('62_Paragon of Malice',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\97_Ogre Executioner.png" id="97_Ogre Executioner" data-flag="@X" onclick="openSidebar('97_Ogre Executioner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\132_Piston Chorus.png" id="132_Piston Chorus" data-flag="@X" onclick="openSidebar('132_Piston Chorus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\179_Sabretooth Ambusher.png" id="179_Sabretooth Ambusher" data-flag="@X" onclick="openSidebar('179_Sabretooth Ambusher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\25_Ostaad Sellsword.png" id="25_Ostaad Sellsword" data-flag="@X" onclick="openSidebar('25_Ostaad Sellsword',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\63_Patient Yojimbo.png" id="63_Patient Yojimbo" data-flag="@X" onclick="openSidebar('63_Patient Yojimbo',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\99_Relentless Pursuer.png" id="99_Relentless Pursuer" data-flag="@X" onclick="openSidebar('99_Relentless Pursuer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\133_Sabotage.png" id="133_Sabotage" data-flag="@X" onclick="openSidebar('133_Sabotage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\180_Scarwood Dryad.png" id="180_Scarwood Dryad" data-flag="@X" onclick="openSidebar('180_Scarwood Dryad',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\26_Picked-Clean Paladin.png" id="26_Picked-Clean Paladin" data-flag="@X" onclick="openSidebar('26_Picked-Clean Paladin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\66_Refusal of the Ancients.png" id="66_Refusal of the Ancients" data-flag="@X" onclick="openSidebar('66_Refusal of the Ancients',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\103_Shadow of the Piper.png" id="103_Shadow of the Piper" data-flag="@X" onclick="openSidebar('103_Shadow of the Piper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\137_Silly Pepper.png" id="137_Silly Pepper" data-flag="@X" onclick="openSidebar('137_Silly Pepper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\181_Shambling Sporocarp.png" id="181_Shambling Sporocarp" data-flag="@X" onclick="openSidebar('181_Shambling Sporocarp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\29_Skeletal Harvest.png" id="29_Skeletal Harvest" data-flag="@X" onclick="openSidebar('29_Skeletal Harvest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\68_Rime Titan.png" id="68_Rime Titan" data-flag="@X" onclick="openSidebar('68_Rime Titan',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\105_Sin-Clad Wight.png" id="105_Sin-Clad Wight" data-flag="@X" onclick="openSidebar('105_Sin-Clad Wight',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\139_Something in the Dark.png" id="139_Something in the Dark" data-flag="@X" onclick="openSidebar('139_Something in the Dark',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\182_Survivor's Memories.png" id="182_Survivors Memories" data-flag="@X" onclick="openSidebar('182_Survivors Memories',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\31_Solemn Procession.png" id="31_Solemn Procession" data-flag="@X" onclick="openSidebar('31_Solemn Procession',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\69_Seafloor Breach.png" id="69_Seafloor Breach" data-flag="@X" onclick="openSidebar('69_Seafloor Breach',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\107_Subconscious Steed.png" id="107_Subconscious Steed" data-flag="@X" onclick="openSidebar('107_Subconscious Steed',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\143_Titan of the Wretched.png" id="143_Titan of the Wretched" data-flag="@X" onclick="openSidebar('143_Titan of the Wretched',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\185_Undergrowth Overlord.png" id="185_Undergrowth Overlord" data-flag="@X" onclick="openSidebar('185_Undergrowth Overlord',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\33_Squawking Schematic.png" id="33_Squawking Schematic" data-flag="@X" onclick="openSidebar('33_Squawking Schematic',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\71_Spirit of Flight.png" id="71_Spirit of Flight" data-flag="@X" onclick="openSidebar('71_Spirit of Flight',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\111_Wisdom of Sotak.png" id="111_Wisdom of Sotak" data-flag="@X" onclick="openSidebar('111_Wisdom of Sotak',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\147_Wandering Damned.png" id="147_Wandering Damned" data-flag="@X" onclick="openSidebar('147_Wandering Damned',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\187_Verdant Predator.png" id="187_Verdant Predator" data-flag="@X" onclick="openSidebar('187_Verdant Predator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\34_Timeless Troubadour.png" id="34_Timeless Troubadour" data-flag="@X" onclick="openSidebar('34_Timeless Troubadour',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\75_Uncover the Past.png" id="75_Uncover the Past" data-flag="@X" onclick="openSidebar('75_Uncover the Past',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\113_Wrathful Sinner.png" id="113_Wrathful Sinner" data-flag="@X" onclick="openSidebar('113_Wrathful Sinner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\148_Wandering Savior.png" id="148_Wandering Savior" data-flag="@X" onclick="openSidebar('148_Wandering Savior',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\188_Weepwood Mycoloth.png" id="188_Weepwood Mycoloth" data-flag="@X" onclick="openSidebar('188_Weepwood Mycoloth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\36_Turn to Stone.png" id="36_Turn to Stone" data-flag="@X" onclick="openSidebar('36_Turn to Stone',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\76_Unstable Subject.png" id="76_Unstable Subject" data-flag="@X" onclick="openSidebar('76_Unstable Subject',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\114_Yog's Avenger.png" id="114_Yogs Avenger" data-flag="@X" onclick="openSidebar('114_Yogs Avenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\152_Weight of Guilt.png" id="152_Weight of Guilt" data-flag="@X" onclick="openSidebar('152_Weight of Guilt',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\189_Weepwood Recluse.png" id="189_Weepwood Recluse" data-flag="@X" onclick="openSidebar('189_Weepwood Recluse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\192_Tribute to the Lares.png" id="192_Tribute to the Lares" data-flag="@X" onclick="openSidebar('192_Tribute to the Lares',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\196_Time's End.png" id="196_Times End" data-flag="@X" onclick="openSidebar('196_Times End',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\200_Luuft, Kushabi Exile.png" id="200_Luuft, Kushabi Exile" data-flag="@X" onclick="openSidebar('200_Luuft, Kushabi Exile',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\201_Kavu Tyrant.png" id="201_Kavu Tyrant" data-flag="@X" onclick="openSidebar('201_Kavu Tyrant',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\206_Vibrant Verdigris.png" id="206_Vibrant Verdigris" data-flag="@X" onclick="openSidebar('206_Vibrant Verdigris',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\191_Inertia Elemental.png" id="191_Inertia Elemental" data-flag="@X" onclick="openSidebar('191_Inertia Elemental',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\194_Nightmare Artist.png" id="194_Nightmare Artist" data-flag="@X" onclick="openSidebar('194_Nightmare Artist',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\199_Fragment of Mortality.png" id="199_Fragment of Mortality" data-flag="@X" onclick="openSidebar('199_Fragment of Mortality',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\203_Second-Stage Prototype.png" id="203_Second-Stage Prototype" data-flag="@X" onclick="openSidebar('203_Second-Stage Prototype',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\205_Spreading Corrosion.png" id="205_Spreading Corrosion" data-flag="@X" onclick="openSidebar('205_Spreading Corrosion',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\193_Village Idiot.png" id="193_Village Idiot" data-flag="@X" onclick="openSidebar('193_Village Idiot',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\195_Tear Apart.png" id="195_Tear Apart" data-flag="@X" onclick="openSidebar('195_Tear Apart',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\197_Baun's Experiment.png" id="197_Bauns Experiment" data-flag="@X" onclick="openSidebar('197_Bauns Experiment',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\202_Primordial Wrath.png" id="202_Primordial Wrath" data-flag="@X" onclick="openSidebar('202_Primordial Wrath',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\204_Honeydew Guardian.png" id="204_Honeydew Guardian" data-flag="@X" onclick="openSidebar('204_Honeydew Guardian',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\198_Exterminate.png" id="198_Exterminate" data-flag="@X" onclick="openSidebar('198_Exterminate',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\207_Empire's End.png" id="207_Empires End" data-flag="@X" onclick="openSidebar('207_Empires End',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\210_Dreams of Quyrash.png" id="210_Dreams of Quyrash" data-flag="@X" onclick="openSidebar('210_Dreams of Quyrash',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\214_Skies Over San Xalco.png" id="214_Skies Over San Xalco" data-flag="@X" onclick="openSidebar('214_Skies Over San Xalco',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\217_Search for Fire.png" id="217_Search for Fire" data-flag="@X" onclick="openSidebar('217_Search for Fire',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\220_Depths of Tytheus.png" id="220_Depths of Tytheus" data-flag="@X" onclick="openSidebar('220_Depths of Tytheus',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\208_Qamesh, Slayer of Worlds.png" id="208_Qamesh, Slayer of Worlds" data-flag="@X" onclick="openSidebar('208_Qamesh, Slayer of Worlds',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\212_Triumph of Qirauz.png" id="212_Triumph of Qirauz" data-flag="@X" onclick="openSidebar('212_Triumph of Qirauz',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\215_Touch of Corvash.png" id="215_Touch of Corvash" data-flag="@X" onclick="openSidebar('215_Touch of Corvash',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\218_Shilok, Lord of Blackwater.png" id="218_Shilok, Lord of Blackwater" data-flag="@X" onclick="openSidebar('218_Shilok, Lord of Blackwater',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\222_Sinister Lurker.png" id="222_Sinister Lurker" data-flag="@X" onclick="openSidebar('222_Sinister Lurker',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\209_Tribune's Verdict.png" id="209_Tribunes Verdict" data-flag="@X" onclick="openSidebar('209_Tribunes Verdict',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\211_Electrocute.png" id="211_Electrocute" data-flag="@X" onclick="openSidebar('211_Electrocute',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\213_Prophet of Corvash.png" id="213_Prophet of Corvash" data-flag="@X" onclick="openSidebar('213_Prophet of Corvash',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\219_Wrath of Qirauz.png" id="219_Wrath of Qirauz" data-flag="@X" onclick="openSidebar('219_Wrath of Qirauz',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\221_Hydromoeba.png" id="221_Hydromoeba" data-flag="@X" onclick="openSidebar('221_Hydromoeba',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\216_Breakneck Carriage.png" id="216_Breakneck Carriage" data-flag="@X" onclick="openSidebar('216_Breakneck Carriage',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\223_Lursk, Recurring Dream.png" id="223_Lursk, Recurring Dream" data-flag="@X" onclick="openSidebar('223_Lursk, Recurring Dream',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\224_Orflaith, Patient Hunter.png" id="224_Orflaith, Patient Hunter" data-flag="@X" onclick="openSidebar('224_Orflaith, Patient Hunter',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\225_Qirauz, The Prince Who Failed.png" id="225_Qirauz, The Prince Who Failed" data-flag="@X" onclick="openSidebar('225_Qirauz, The Prince Who Failed',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\226_Interplanar Nexus.png" id="226_Interplanar Nexus" data-flag="@X" onclick="openSidebar('226_Interplanar Nexus',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\192_Tribute to the Lares.png" id="192_Tribute to the Lares" data-flag="@X" onclick="openSidebar('192_Tribute to the Lares',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\196_Time's End.png" id="196_Times End" data-flag="@X" onclick="openSidebar('196_Times End',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\200_Luuft, Kushabi Exile.png" id="200_Luuft, Kushabi Exile" data-flag="@X" onclick="openSidebar('200_Luuft, Kushabi Exile',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\201_Kavu Tyrant.png" id="201_Kavu Tyrant" data-flag="@X" onclick="openSidebar('201_Kavu Tyrant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\206_Vibrant Verdigris.png" id="206_Vibrant Verdigris" data-flag="@X" onclick="openSidebar('206_Vibrant Verdigris',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\191_Inertia Elemental.png" id="191_Inertia Elemental" data-flag="@X" onclick="openSidebar('191_Inertia Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\194_Nightmare Artist.png" id="194_Nightmare Artist" data-flag="@X" onclick="openSidebar('194_Nightmare Artist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\199_Fragment of Mortality.png" id="199_Fragment of Mortality" data-flag="@X" onclick="openSidebar('199_Fragment of Mortality',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\203_Second-Stage Prototype.png" id="203_Second-Stage Prototype" data-flag="@X" onclick="openSidebar('203_Second-Stage Prototype',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\205_Spreading Corrosion.png" id="205_Spreading Corrosion" data-flag="@X" onclick="openSidebar('205_Spreading Corrosion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\193_Village Idiot.png" id="193_Village Idiot" data-flag="@X" onclick="openSidebar('193_Village Idiot',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\195_Tear Apart.png" id="195_Tear Apart" data-flag="@X" onclick="openSidebar('195_Tear Apart',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\197_Baun's Experiment.png" id="197_Bauns Experiment" data-flag="@X" onclick="openSidebar('197_Bauns Experiment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\202_Primordial Wrath.png" id="202_Primordial Wrath" data-flag="@X" onclick="openSidebar('202_Primordial Wrath',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\204_Honeydew Guardian.png" id="204_Honeydew Guardian" data-flag="@X" onclick="openSidebar('204_Honeydew Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\198_Exterminate.png" id="198_Exterminate" data-flag="@X" onclick="openSidebar('198_Exterminate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\207_Empire's End.png" id="207_Empires End" data-flag="@X" onclick="openSidebar('207_Empires End',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\210_Dreams of Quyrash.png" id="210_Dreams of Quyrash" data-flag="@X" onclick="openSidebar('210_Dreams of Quyrash',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\214_Skies Over San Xalco.png" id="214_Skies Over San Xalco" data-flag="@X" onclick="openSidebar('214_Skies Over San Xalco',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\217_Search for Fire.png" id="217_Search for Fire" data-flag="@X" onclick="openSidebar('217_Search for Fire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\220_Depths of Tytheus.png" id="220_Depths of Tytheus" data-flag="@X" onclick="openSidebar('220_Depths of Tytheus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\208_Qamesh, Slayer of Worlds.png" id="208_Qamesh, Slayer of Worlds" data-flag="@X" onclick="openSidebar('208_Qamesh, Slayer of Worlds',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\212_Triumph of Qirauz.png" id="212_Triumph of Qirauz" data-flag="@X" onclick="openSidebar('212_Triumph of Qirauz',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\215_Touch of Corvash.png" id="215_Touch of Corvash" data-flag="@X" onclick="openSidebar('215_Touch of Corvash',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\218_Shilok, Lord of Blackwater.png" id="218_Shilok, Lord of Blackwater" data-flag="@X" onclick="openSidebar('218_Shilok, Lord of Blackwater',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\222_Sinister Lurker.png" id="222_Sinister Lurker" data-flag="@X" onclick="openSidebar('222_Sinister Lurker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\209_Tribune's Verdict.png" id="209_Tribunes Verdict" data-flag="@X" onclick="openSidebar('209_Tribunes Verdict',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\211_Electrocute.png" id="211_Electrocute" data-flag="@X" onclick="openSidebar('211_Electrocute',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\213_Prophet of Corvash.png" id="213_Prophet of Corvash" data-flag="@X" onclick="openSidebar('213_Prophet of Corvash',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\219_Wrath of Qirauz.png" id="219_Wrath of Qirauz" data-flag="@X" onclick="openSidebar('219_Wrath of Qirauz',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\221_Hydromoeba.png" id="221_Hydromoeba" data-flag="@X" onclick="openSidebar('221_Hydromoeba',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\216_Breakneck Carriage.png" id="216_Breakneck Carriage" data-flag="@X" onclick="openSidebar('216_Breakneck Carriage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\223_Lursk, Recurring Dream.png" id="223_Lursk, Recurring Dream" data-flag="@X" onclick="openSidebar('223_Lursk, Recurring Dream',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\224_Orflaith, Patient Hunter.png" id="224_Orflaith, Patient Hunter" data-flag="@X" onclick="openSidebar('224_Orflaith, Patient Hunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\225_Qirauz, The Prince Who Failed.png" id="225_Qirauz, The Prince Who Failed" data-flag="@X" onclick="openSidebar('225_Qirauz, The Prince Who Failed',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\226_Interplanar Nexus.png" id="226_Interplanar Nexus" data-flag="@X" onclick="openSidebar('226_Interplanar Nexus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\227_Alluring Lotus.png" id="227_Alluring Lotus" data-flag="@X" onclick="openSidebar('227_Alluring Lotus',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\234_Inviolable Titan.png" id="234_Inviolable Titan" data-flag="@X" onclick="openSidebar('234_Inviolable Titan',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\238_Mox Paradox.png" id="238_Mox Paradox" data-flag="@X" onclick="openSidebar('238_Mox Paradox',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\232_Godblood Altar.png" id="232_Godblood Altar" data-flag="@X" onclick="openSidebar('232_Godblood Altar',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\240_Serpent Engine.png" id="240_Serpent Engine" data-flag="@X" onclick="openSidebar('240_Serpent Engine',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\241_Silver-Gate Guardian.png" id="241_Silver-Gate Guardian" data-flag="@X" onclick="openSidebar('241_Silver-Gate Guardian',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\242_Sol Talisman.png" id="242_Sol Talisman" data-flag="@X" onclick="openSidebar('242_Sol Talisman',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\243_Unquiet Sanctum.png" id="243_Unquiet Sanctum" data-flag="@X" onclick="openSidebar('243_Unquiet Sanctum',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\228_Amphibious Transport.png" id="228_Amphibious Transport" data-flag="@X" onclick="openSidebar('228_Amphibious Transport',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\229_Clay Paragon.png" id="229_Clay Paragon" data-flag="@X" onclick="openSidebar('229_Clay Paragon',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\235_Iron Maw.png" id="235_Iron Maw" data-flag="@X" onclick="openSidebar('235_Iron Maw',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\244_Winding Compass.png" id="244_Winding Compass" data-flag="@X" onclick="openSidebar('244_Winding Compass',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\230_Cult Chalice.png" id="230_Cult Chalice" data-flag="@X" onclick="openSidebar('230_Cult Chalice',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\231_Gixian Remnant.png" id="231_Gixian Remnant" data-flag="@X" onclick="openSidebar('231_Gixian Remnant',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\233_Grafted Carapace.png" id="233_Grafted Carapace" data-flag="@X" onclick="openSidebar('233_Grafted Carapace',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\236_Kushabi Effigy.png" id="236_Kushabi Effigy" data-flag="@X" onclick="openSidebar('236_Kushabi Effigy',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\237_Morstad Watcher.png" id="237_Morstad Watcher" data-flag="@X" onclick="openSidebar('237_Morstad Watcher',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\239_Petrified Idol.png" id="239_Petrified Idol" data-flag="@X" onclick="openSidebar('239_Petrified Idol',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\253_Gathering Squall.png" id="253_Gathering Squall" data-flag="@X" onclick="openSidebar('253_Gathering Squall',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\261_Unquiet Clearing.png" id="261_Unquiet Clearing" data-flag="@X" onclick="openSidebar('261_Unquiet Clearing',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\249_Desolate Tomb.png" id="249_Desolate Tomb" data-flag="@X" onclick="openSidebar('249_Desolate Tomb',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\257_Rugged Copse.png" id="257_Rugged Copse" data-flag="@X" onclick="openSidebar('257_Rugged Copse',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\255_Horizon Canopy.png" id="255_Horizon Canopy" data-flag="@X" onclick="openSidebar('255_Horizon Canopy',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\250_Drowned Cave.png" id="250_Drowned Cave" data-flag="@X" onclick="openSidebar('250_Drowned Cave',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\245_Chainer's Grave.png" id="245_Chainers Grave" data-flag="@X" onclick="openSidebar('245_Chainers Grave',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\254_Highland Pass.png" id="254_Highland Pass" data-flag="@X" onclick="openSidebar('254_Highland Pass',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\260_Terminal Marsh.png" id="260_Terminal Marsh" data-flag="@X" onclick="openSidebar('260_Terminal Marsh',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\252_Eternity's Gate.png" id="252_Eternitys Gate" data-flag="@X" onclick="openSidebar('252_Eternitys Gate',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\248_Daru Verge.png" id="248_Daru Verge" data-flag="@X" onclick="openSidebar('248_Daru Verge',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\246_Chromatic Expanse.png" id="246_Chromatic Expanse" data-flag="@X" onclick="openSidebar('246_Chromatic Expanse',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\247_City of Disyus.png" id="247_City of Disyus" data-flag="@X" onclick="openSidebar('247_City of Disyus',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\251_Dungeons of Aleph.png" id="251_Dungeons of Aleph" data-flag="@X" onclick="openSidebar('251_Dungeons of Aleph',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\256_Kushab Temple.png" id="256_Kushab Temple" data-flag="@X" onclick="openSidebar('256_Kushab Temple',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\258_Ruins of Morstad.png" id="258_Ruins of Morstad" data-flag="@X" onclick="openSidebar('258_Ruins of Morstad',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\259_Streets of Gevangis.png" id="259_Streets of Gevangis" data-flag="@X" onclick="openSidebar('259_Streets of Gevangis',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\262_Plains.png" id="262_Plains" data-flag="@X" onclick="openSidebar('262_Plains',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\263_Island.png" id="263_Island" data-flag="@X" onclick="openSidebar('263_Island',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\264_Swamp.png" id="264_Swamp" data-flag="@X" onclick="openSidebar('264_Swamp',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\265_Mountain.png" id="265_Mountain" data-flag="@X" onclick="openSidebar('265_Mountain',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\266_Forest.png" id="266_Forest" data-flag="@X" onclick="openSidebar('266_Forest',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\227_Alluring Lotus.png" id="227_Alluring Lotus" data-flag="@X" onclick="openSidebar('227_Alluring Lotus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\234_Inviolable Titan.png" id="234_Inviolable Titan" data-flag="@X" onclick="openSidebar('234_Inviolable Titan',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\238_Mox Paradox.png" id="238_Mox Paradox" data-flag="@X" onclick="openSidebar('238_Mox Paradox',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\232_Godblood Altar.png" id="232_Godblood Altar" data-flag="@X" onclick="openSidebar('232_Godblood Altar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\240_Serpent Engine.png" id="240_Serpent Engine" data-flag="@X" onclick="openSidebar('240_Serpent Engine',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\241_Silver-Gate Guardian.png" id="241_Silver-Gate Guardian" data-flag="@X" onclick="openSidebar('241_Silver-Gate Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\242_Sol Talisman.png" id="242_Sol Talisman" data-flag="@X" onclick="openSidebar('242_Sol Talisman',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\243_Unquiet Sanctum.png" id="243_Unquiet Sanctum" data-flag="@X" onclick="openSidebar('243_Unquiet Sanctum',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\228_Amphibious Transport.png" id="228_Amphibious Transport" data-flag="@X" onclick="openSidebar('228_Amphibious Transport',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\229_Clay Paragon.png" id="229_Clay Paragon" data-flag="@X" onclick="openSidebar('229_Clay Paragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\235_Iron Maw.png" id="235_Iron Maw" data-flag="@X" onclick="openSidebar('235_Iron Maw',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\244_Winding Compass.png" id="244_Winding Compass" data-flag="@X" onclick="openSidebar('244_Winding Compass',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\230_Cult Chalice.png" id="230_Cult Chalice" data-flag="@X" onclick="openSidebar('230_Cult Chalice',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\231_Gixian Remnant.png" id="231_Gixian Remnant" data-flag="@X" onclick="openSidebar('231_Gixian Remnant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\233_Grafted Carapace.png" id="233_Grafted Carapace" data-flag="@X" onclick="openSidebar('233_Grafted Carapace',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\236_Kushabi Effigy.png" id="236_Kushabi Effigy" data-flag="@X" onclick="openSidebar('236_Kushabi Effigy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\237_Morstad Watcher.png" id="237_Morstad Watcher" data-flag="@X" onclick="openSidebar('237_Morstad Watcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\239_Petrified Idol.png" id="239_Petrified Idol" data-flag="@X" onclick="openSidebar('239_Petrified Idol',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\253_Gathering Squall.png" id="253_Gathering Squall" data-flag="@X" onclick="openSidebar('253_Gathering Squall',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\261_Unquiet Clearing.png" id="261_Unquiet Clearing" data-flag="@X" onclick="openSidebar('261_Unquiet Clearing',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\249_Desolate Tomb.png" id="249_Desolate Tomb" data-flag="@X" onclick="openSidebar('249_Desolate Tomb',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\257_Rugged Copse.png" id="257_Rugged Copse" data-flag="@X" onclick="openSidebar('257_Rugged Copse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\255_Horizon Canopy.png" id="255_Horizon Canopy" data-flag="@X" onclick="openSidebar('255_Horizon Canopy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\250_Drowned Cave.png" id="250_Drowned Cave" data-flag="@X" onclick="openSidebar('250_Drowned Cave',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\245_Chainer's Grave.png" id="245_Chainers Grave" data-flag="@X" onclick="openSidebar('245_Chainers Grave',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\254_Highland Pass.png" id="254_Highland Pass" data-flag="@X" onclick="openSidebar('254_Highland Pass',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\260_Terminal Marsh.png" id="260_Terminal Marsh" data-flag="@X" onclick="openSidebar('260_Terminal Marsh',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\252_Eternity's Gate.png" id="252_Eternitys Gate" data-flag="@X" onclick="openSidebar('252_Eternitys Gate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\248_Daru Verge.png" id="248_Daru Verge" data-flag="@X" onclick="openSidebar('248_Daru Verge',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\246_Chromatic Expanse.png" id="246_Chromatic Expanse" data-flag="@X" onclick="openSidebar('246_Chromatic Expanse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\247_City of Disyus.png" id="247_City of Disyus" data-flag="@X" onclick="openSidebar('247_City of Disyus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\251_Dungeons of Aleph.png" id="251_Dungeons of Aleph" data-flag="@X" onclick="openSidebar('251_Dungeons of Aleph',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\256_Kushab Temple.png" id="256_Kushab Temple" data-flag="@X" onclick="openSidebar('256_Kushab Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\258_Ruins of Morstad.png" id="258_Ruins of Morstad" data-flag="@X" onclick="openSidebar('258_Ruins of Morstad',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\259_Streets of Gevangis.png" id="259_Streets of Gevangis" data-flag="@X" onclick="openSidebar('259_Streets of Gevangis',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\262_Plains.png" id="262_Plains" data-flag="@X" onclick="openSidebar('262_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\263_Island.png" id="263_Island" data-flag="@X" onclick="openSidebar('263_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\264_Swamp.png" id="264_Swamp" data-flag="@X" onclick="openSidebar('264_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\265_Mountain.png" id="265_Mountain" data-flag="@X" onclick="openSidebar('265_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\266_Forest.png" id="266_Forest" data-flag="@X" onclick="openSidebar('266_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\1t_Human Peasant.png" id="1t_Human Peasant" data-flag="@X" onclick="openSidebar('1t_Human Peasant',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\6t_Prism.png" id="6t_Prism" data-flag="@X" onclick="openSidebar('6t_Prism',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\7t_Construct.png" id="7t_Construct" data-flag="@X" onclick="openSidebar('7t_Construct',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\8t_Construct.png" id="8t_Construct" data-flag="@X" onclick="openSidebar('8t_Construct',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\9t_Tool.png" id="9t_Tool" data-flag="@X" onclick="openSidebar('9t_Tool',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\10t_Tool.png" id="10t_Tool" data-flag="@X" onclick="openSidebar('10t_Tool',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\11t_Treasure.png" id="11t_Treasure" data-flag="@X" onclick="openSidebar('11t_Treasure',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\2t_Dream.png" id="2t_Dream" data-flag="@X" onclick="openSidebar('2t_Dream',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\3t_Soldier.png" id="3t_Soldier" data-flag="@X" onclick="openSidebar('3t_Soldier',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\4t_Skeleton.png" id="4t_Skeleton" data-flag="@X" onclick="openSidebar('4t_Skeleton',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\5t_Elder Horror.png" id="5t_Elder Horror" data-flag="@X" onclick="openSidebar('5t_Elder Horror',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\1t_Human Peasant.png" id="1t_Human Peasant" data-flag="@X" onclick="openSidebar('1t_Human Peasant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\6t_Prism.png" id="6t_Prism" data-flag="@X" onclick="openSidebar('6t_Prism',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\7t_Construct.png" id="7t_Construct" data-flag="@X" onclick="openSidebar('7t_Construct',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\8t_Construct.png" id="8t_Construct" data-flag="@X" onclick="openSidebar('8t_Construct',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\9t_Tool.png" id="9t_Tool" data-flag="@X" onclick="openSidebar('9t_Tool',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\10t_Tool.png" id="10t_Tool" data-flag="@X" onclick="openSidebar('10t_Tool',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\11t_Treasure.png" id="11t_Treasure" data-flag="@X" onclick="openSidebar('11t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\2t_Dream.png" id="2t_Dream" data-flag="@X" onclick="openSidebar('2t_Dream',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\3t_Soldier.png" id="3t_Soldier" data-flag="@X" onclick="openSidebar('3t_Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\4t_Skeleton.png" id="4t_Skeleton" data-flag="@X" onclick="openSidebar('4t_Skeleton',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\5t_Elder Horror.png" id="5t_Elder Horror" data-flag="@X" onclick="openSidebar('5t_Elder Horror',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="masterpiece" class="anchor"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\1_Amatar Temple.png" id="1_Amatar Temple" data-flag="@X" onclick="openSidebar('1_Amatar Temple',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\2_An-Drim Coast.png" id="2_An-Drim Coast" data-flag="@X" onclick="openSidebar('2_An-Drim Coast',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\3_Boánn, River of Wisdom.png" id="3_Boánn, River of Wisdom" data-flag="@X" onclick="openSidebar('3_Boánn, River of Wisdom',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\4_The Circle of Sloth.png" id="4_The Circle of Sloth" data-flag="@X" onclick="openSidebar('4_The Circle of Sloth',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\5_The Circle of Wrath.png" id="5_The Circle of Wrath" data-flag="@X" onclick="openSidebar('5_The Circle of Wrath',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\6_City of Gevangis.png" id="6_City of Gevangis" data-flag="@X" onclick="openSidebar('6_City of Gevangis',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\7_Cryptic Canyon.png" id="7_Cryptic Canyon" data-flag="@X" onclick="openSidebar('7_Cryptic Canyon',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\8_Damnation's Gate.png" id="8_Damnations Gate" data-flag="@X" onclick="openSidebar('8_Damnations Gate',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\9_Deribad, Drownside Capital.png" id="9_Deribad, Drownside Capital" data-flag="@X" onclick="openSidebar('9_Deribad, Drownside Capital',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\10_Desert of Ashur.png" id="10_Desert of Ashur" data-flag="@X" onclick="openSidebar('10_Desert of Ashur',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\11_Dutch's Homestead.png" id="11_Dutchs Homestead" data-flag="@X" onclick="openSidebar('11_Dutchs Homestead',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\12_The Dying Ice.png" id="12_The Dying Ice" data-flag="@X" onclick="openSidebar('12_The Dying Ice',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\13_Fort Charles.png" id="13_Fort Charles" data-flag="@X" onclick="openSidebar('13_Fort Charles',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\14_Ghallil Sea.png" id="14_Ghallil Sea" data-flag="@X" onclick="openSidebar('14_Ghallil Sea',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\15_Glintbone Reach.png" id="15_Glintbone Reach" data-flag="@X" onclick="openSidebar('15_Glintbone Reach',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\16_Grafting Chambers.png" id="16_Grafting Chambers" data-flag="@X" onclick="openSidebar('16_Grafting Chambers',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\17_High Tara.png" id="17_High Tara" data-flag="@X" onclick="openSidebar('17_High Tara',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\18_Lórgan Town.png" id="18_Lórgan Town" data-flag="@X" onclick="openSidebar('18_Lórgan Town',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\19_Mount Dreadnight.png" id="19_Mount Dreadnight" data-flag="@X" onclick="openSidebar('19_Mount Dreadnight',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\20_The Nightpit.png" id="20_The Nightpit" data-flag="@X" onclick="openSidebar('20_The Nightpit',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\21_Pundar's Sanctum.png" id="21_Pundars Sanctum" data-flag="@X" onclick="openSidebar('21_Pundars Sanctum',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\22_Ren's Galleries.png" id="22_Rens Galleries" data-flag="@X" onclick="openSidebar('22_Rens Galleries',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\23_Ruins of Blackwater.png" id="23_Ruins of Blackwater" data-flag="@X" onclick="openSidebar('23_Ruins of Blackwater',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\24_The Skysea.png" id="24_The Skysea" data-flag="@X" onclick="openSidebar('24_The Skysea',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\25_Sotak's Temple.png" id="25_Sotaks Temple" data-flag="@X" onclick="openSidebar('25_Sotaks Temple',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\26_Soul of Quartz.png" id="26_Soul of Quartz" data-flag="@X" onclick="openSidebar('26_Soul of Quartz',false)"></div>
-				<div class="container"><img alt="/sets\MHQ-files\img\27_The Weepwood.png" id="27_The Weepwood" data-flag="@X" onclick="openSidebar('27_The Weepwood',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\1_Amatar Temple.png" id="1_Amatar Temple" data-flag="@X" onclick="openSidebar('1_Amatar Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\2_An-Drim Coast.png" id="2_An-Drim Coast" data-flag="@X" onclick="openSidebar('2_An-Drim Coast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\3_Boánn, River of Wisdom.png" id="3_Boánn, River of Wisdom" data-flag="@X" onclick="openSidebar('3_Boánn, River of Wisdom',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\4_The Circle of Sloth.png" id="4_The Circle of Sloth" data-flag="@X" onclick="openSidebar('4_The Circle of Sloth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\5_The Circle of Wrath.png" id="5_The Circle of Wrath" data-flag="@X" onclick="openSidebar('5_The Circle of Wrath',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\6_City of Gevangis.png" id="6_City of Gevangis" data-flag="@X" onclick="openSidebar('6_City of Gevangis',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\7_Cryptic Canyon.png" id="7_Cryptic Canyon" data-flag="@X" onclick="openSidebar('7_Cryptic Canyon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\8_Damnation's Gate.png" id="8_Damnations Gate" data-flag="@X" onclick="openSidebar('8_Damnations Gate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\9_Deribad, Drownside Capital.png" id="9_Deribad, Drownside Capital" data-flag="@X" onclick="openSidebar('9_Deribad, Drownside Capital',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\10_Desert of Ashur.png" id="10_Desert of Ashur" data-flag="@X" onclick="openSidebar('10_Desert of Ashur',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\11_Dutch's Homestead.png" id="11_Dutchs Homestead" data-flag="@X" onclick="openSidebar('11_Dutchs Homestead',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\12_The Dying Ice.png" id="12_The Dying Ice" data-flag="@X" onclick="openSidebar('12_The Dying Ice',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\13_Fort Charles.png" id="13_Fort Charles" data-flag="@X" onclick="openSidebar('13_Fort Charles',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\14_Ghallil Sea.png" id="14_Ghallil Sea" data-flag="@X" onclick="openSidebar('14_Ghallil Sea',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\15_Glintbone Reach.png" id="15_Glintbone Reach" data-flag="@X" onclick="openSidebar('15_Glintbone Reach',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\16_Grafting Chambers.png" id="16_Grafting Chambers" data-flag="@X" onclick="openSidebar('16_Grafting Chambers',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\17_High Tara.png" id="17_High Tara" data-flag="@X" onclick="openSidebar('17_High Tara',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\18_Lórgan Town.png" id="18_Lórgan Town" data-flag="@X" onclick="openSidebar('18_Lórgan Town',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\19_Mount Dreadnight.png" id="19_Mount Dreadnight" data-flag="@X" onclick="openSidebar('19_Mount Dreadnight',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\20_The Nightpit.png" id="20_The Nightpit" data-flag="@X" onclick="openSidebar('20_The Nightpit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\21_Pundar's Sanctum.png" id="21_Pundars Sanctum" data-flag="@X" onclick="openSidebar('21_Pundars Sanctum',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\22_Ren's Galleries.png" id="22_Rens Galleries" data-flag="@X" onclick="openSidebar('22_Rens Galleries',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\23_Ruins of Blackwater.png" id="23_Ruins of Blackwater" data-flag="@X" onclick="openSidebar('23_Ruins of Blackwater',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\24_The Skysea.png" id="24_The Skysea" data-flag="@X" onclick="openSidebar('24_The Skysea',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\25_Sotak's Temple.png" id="25_Sotaks Temple" data-flag="@X" onclick="openSidebar('25_Sotaks Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\26_Soul of Quartz.png" id="26_Soul of Quartz" data-flag="@X" onclick="openSidebar('26_Soul of Quartz',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\MHQ-files\img\27_The Weepwood.png" id="27_The Weepwood" data-flag="@X" onclick="openSidebar('27_The Weepwood',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
@@ -765,27 +757,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -797,17 +813,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -840,6 +858,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -849,6 +868,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -871,21 +891,21 @@
 	}
 
 		function randomCard() {
-			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-			let random_card = card_list_arrayified[i];
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
 
-			const url = new URL('card', window.location.origin);
-			const params = {
-				set: random_card.set,
-				num: random_card.number,
-				name: random_card.card_name
-			}
-			for (const key in params) {
-				url.searchParams.append(key, params[key]);
-			}
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
 
-			window.location.href = url;
-		}
+				window.location.href = url;
+			}
 	</script>
 </body>
 </html>

@@ -39,8 +39,8 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
@@ -126,12 +126,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -203,9 +204,6 @@
 		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
 		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/JMR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OVR-files/icon.png" />
 		<img class="preload-hidden" id="bg" src="/sets/SPQ-files/bg.png" />
 
 		<div class="header">
@@ -219,7 +217,7 @@
 		</div>
 	</div>
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
 		<a class="set-bar" href="SPQ"><img src="/sets/SPQ-files/icon.png">Avicta: Ave Imperator</a>
 	
@@ -277,358 +275,352 @@
 	
 		<a class="set-bar inactive" href="ELO"><img src="/sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
 	
-		<a class="set-bar inactive" href="JMR"><img src="/sets/JMR-files/icon.png">Jamuraa: The Mirage War</a>
-	
-		<a class="set-bar inactive" href="90S"><img src="/sets/90S-files/icon.png">Rath and Storm</a>
-	
-		<a class="set-bar inactive" href="OVR"><img src="/sets/OVR-files/icon.png">Overlay</a>
-	
 		</div>
 		<div class="banner">
 		<img class="logo" src="/sets/SPQ-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\SPQ-files\img\1_Decimation of Fraulia.png" id="1_Decimation of Fraulia" data-flag="@X" onclick="openSidebar('1_Decimation of Fraulia',true)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\16_Enter the Hippodrome.png" id="16_Enter the Hippodrome" data-flag="@X" onclick="openSidebar('16_Enter the Hippodrome',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\48_Antoninus, First Citizen.png" id="48_Antoninus, First Citizen" data-flag="@X" onclick="openSidebar('48_Antoninus, First Citizen',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\105_Graveborn Outrider.png" id="105_Graveborn Outrider" data-flag="@X" onclick="openSidebar('105_Graveborn Outrider',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\139_Emperor's Demise.png" id="139_Emperors Demise" data-flag="@X" onclick="openSidebar('139_Emperors Demise',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\190_Fenexian Gambit.png" id="190_Fenexian Gambit" data-flag="@X" onclick="openSidebar('190_Fenexian Gambit',true)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\26_Imperial Seraph.png" id="26_Imperial Seraph" data-flag="@X" onclick="openSidebar('26_Imperial Seraph',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\58_Glorious Triumph.png" id="58_Glorious Triumph" data-flag="@X" onclick="openSidebar('58_Glorious Triumph',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\121_Scourge of Fraulia.png" id="121_Scourge of Fraulia" data-flag="@X" onclick="openSidebar('121_Scourge of Fraulia',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\168_Thunderous Imperator.png" id="168_Thunderous Imperator" data-flag="@X" onclick="openSidebar('168_Thunderous Imperator',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\195_Haad, Barqo's Cannon.png" id="195_Haad, Barqos Cannon" data-flag="@X" onclick="openSidebar('195_Haad, Barqos Cannon',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\7_Caesar's Jurist.png" id="7_Caesars Jurist" data-flag="@X" onclick="openSidebar('7_Caesars Jurist',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\47_Ancient Wisdom.png" id="47_Ancient Wisdom" data-flag="@X" onclick="openSidebar('47_Ancient Wisdom',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\88_Are You Not Entertained.png" id="88_Are You Not Entertained" data-flag="@X" onclick="openSidebar('88_Are You Not Entertained',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\133_Caesar's Champion.png" id="133_Caesars Champion" data-flag="@X" onclick="openSidebar('133_Caesars Champion',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\176_Architect of Triumph.png" id="176_Architect of Triumph" data-flag="@X" onclick="openSidebar('176_Architect of Triumph',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\10_Catevorix, Fraulia's Last.png" id="10_Catevorix, Fraulias Last" data-flag="@X" onclick="openSidebar('10_Catevorix, Fraulias Last',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\52_Colosseum Exemplar.png" id="52_Colosseum Exemplar" data-flag="@X" onclick="openSidebar('52_Colosseum Exemplar',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\90_Arena's Scorn.png" id="90_Arenas Scorn" data-flag="@X" onclick="openSidebar('90_Arenas Scorn',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\146_Frenzied Spectacle.png" id="146_Frenzied Spectacle" data-flag="@X" onclick="openSidebar('146_Frenzied Spectacle',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\182_Boneyard of Empires.png" id="182_Boneyard of Empires" data-flag="@X" onclick="openSidebar('182_Boneyard of Empires',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\11_Civic Coronation.png" id="11_Civic Coronation" data-flag="@X" onclick="openSidebar('11_Civic Coronation',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\53_Domineering Proconsul.png" id="53_Domineering Proconsul" data-flag="@X" onclick="openSidebar('53_Domineering Proconsul',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\91_Beware the Ides.png" id="91_Beware the Ides" data-flag="@X" onclick="openSidebar('91_Beware the Ides',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\150_Guardian of the Eagle.png" id="150_Guardian of the Eagle" data-flag="@X" onclick="openSidebar('150_Guardian of the Eagle',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\184_Caravan Titanosaur.png" id="184_Caravan Titanosaur" data-flag="@X" onclick="openSidebar('184_Caravan Titanosaur',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\25_Impending Devastation.png" id="25_Impending Devastation" data-flag="@X" onclick="openSidebar('25_Impending Devastation',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\54_Empire's Wealth.png" id="54_Empires Wealth" data-flag="@X" onclick="openSidebar('54_Empires Wealth',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\106_Gravebound Charioteer.png" id="106_Gravebound Charioteer" data-flag="@X" onclick="openSidebar('106_Gravebound Charioteer',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\155_Martius Aurus, August Scion.png" id="155_Martius Aurus, August Scion" data-flag="@X" onclick="openSidebar('155_Martius Aurus, August Scion',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\189_Fauna's Bane.png" id="189_Faunas Bane" data-flag="@X" onclick="openSidebar('189_Faunas Bane',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\29_Master of the Gallery.png" id="29_Master of the Gallery" data-flag="@X" onclick="openSidebar('29_Master of the Gallery',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\56_Gaio's Return.png" id="56_Gaios Return" data-flag="@X" onclick="openSidebar('56_Gaios Return',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\109_Legate of Gaio.png" id="109_Legate of Gaio" data-flag="@X" onclick="openSidebar('109_Legate of Gaio',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\159_Price of Glory.png" id="159_Price of Glory" data-flag="@X" onclick="openSidebar('159_Price of Glory',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\201_Philopatris, Primal Queen.png" id="201_Philopatris, Primal Queen" data-flag="@X" onclick="openSidebar('201_Philopatris, Primal Queen',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\31_Render Unto Caesar.png" id="31_Render Unto Caesar" data-flag="@X" onclick="openSidebar('31_Render Unto Caesar',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\63_Intrusive Intent.png" id="63_Intrusive Intent" data-flag="@X" onclick="openSidebar('63_Intrusive Intent',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\113_Martial Bull.png" id="113_Martial Bull" data-flag="@X" onclick="openSidebar('113_Martial Bull',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\165_Storyteller's Bulwark.png" id="165_Storytellers Bulwark" data-flag="@X" onclick="openSidebar('165_Storytellers Bulwark',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\205_Pro Tanto Quid.png" id="205_Pro Tanto Quid" data-flag="@X" onclick="openSidebar('205_Pro Tanto Quid',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\32_Shadowsmoke Contender.png" id="32_Shadowsmoke Contender" data-flag="@X" onclick="openSidebar('32_Shadowsmoke Contender',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\66_Manifold Maniple.png" id="66_Manifold Maniple" data-flag="@X" onclick="openSidebar('66_Manifold Maniple',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\122_Sindos Siegebreaker.png" id="122_Sindos Siegebreaker" data-flag="@X" onclick="openSidebar('122_Sindos Siegebreaker',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\171_Valor's End.png" id="171_Valors End" data-flag="@X" onclick="openSidebar('171_Valors End',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\210_Sullo's Champion.png" id="210_Sullos Champion" data-flag="@X" onclick="openSidebar('210_Sullos Champion',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\38_Thus Always to Tyrants.png" id="38_Thus Always to Tyrants" data-flag="@X" onclick="openSidebar('38_Thus Always to Tyrants',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\77_Scheming Aedile.png" id="77_Scheming Aedile" data-flag="@X" onclick="openSidebar('77_Scheming Aedile',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\125_Syphon Aether.png" id="125_Syphon Aether" data-flag="@X" onclick="openSidebar('125_Syphon Aether',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\172_War Never Changes.png" id="172_War Never Changes" data-flag="@X" onclick="openSidebar('172_War Never Changes',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\211_Swordbreaker Saurian.png" id="211_Swordbreaker Saurian" data-flag="@X" onclick="openSidebar('211_Swordbreaker Saurian',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\43_Warshaper Legate.png" id="43_Warshaper Legate" data-flag="@X" onclick="openSidebar('43_Warshaper Legate',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\85_Tyrant of the Medivictanean.png" id="85_Tyrant of the Medivictanean" data-flag="@X" onclick="openSidebar('85_Tyrant of the Medivictanean',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\128_Treacherous Senator.png" id="128_Treacherous Senator" data-flag="@X" onclick="openSidebar('128_Treacherous Senator',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\173_Wrath Unleashed.png" id="173_Wrath Unleashed" data-flag="@X" onclick="openSidebar('173_Wrath Unleashed',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\214_Untrammeled Nature.png" id="214_Untrammeled Nature" data-flag="@X" onclick="openSidebar('214_Untrammeled Nature',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\2_Border Sentinels.png" id="2_Border Sentinels" data-flag="@X" onclick="openSidebar('2_Border Sentinels',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\51_Civic Duty.png" id="51_Civic Duty" data-flag="@X" onclick="openSidebar('51_Civic Duty',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\95_Carrion Crawler.png" id="95_Carrion Crawler" data-flag="@X" onclick="openSidebar('95_Carrion Crawler',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\138_Dominant Aureus.png" id="138_Dominant Aureus" data-flag="@X" onclick="openSidebar('138_Dominant Aureus',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\175_Ad Bestias.png" id="175_Ad Bestias" data-flag="@X" onclick="openSidebar('175_Ad Bestias',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\4_Burnished Helm.png" id="4_Burnished Helm" data-flag="@X" onclick="openSidebar('4_Burnished Helm',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\55_Frontline Loyalist.png" id="55_Frontline Loyalist" data-flag="@X" onclick="openSidebar('55_Frontline Loyalist',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\98_Deathless Champion.png" id="98_Deathless Champion" data-flag="@X" onclick="openSidebar('98_Deathless Champion',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\140_Et Tu.png" id="140_Et Tu" data-flag="@X" onclick="openSidebar('140_Et Tu',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\181_Bestial Primacy.png" id="181_Bestial Primacy" data-flag="@X" onclick="openSidebar('181_Bestial Primacy',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\8_Caesar's Tribune.png" id="8_Caesars Tribune" data-flag="@X" onclick="openSidebar('8_Caesars Tribune',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\57_Gaio's Stallion.png" id="57_Gaios Stallion" data-flag="@X" onclick="openSidebar('57_Gaios Stallion',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\99_The Die Is Cast.png" id="99_The Die Is Cast" data-flag="@X" onclick="openSidebar('99_The Die Is Cast',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\142_Fiery Sophist.png" id="142_Fiery Sophist" data-flag="@X" onclick="openSidebar('142_Fiery Sophist',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\187_Crocota Shadowstalker.png" id="187_Crocota Shadowstalker" data-flag="@X" onclick="openSidebar('187_Crocota Shadowstalker',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\12_Conquering Equite.png" id="12_Conquering Equite" data-flag="@X" onclick="openSidebar('12_Conquering Equite',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\61_Imperial Decree.png" id="61_Imperial Decree" data-flag="@X" onclick="openSidebar('61_Imperial Decree',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\107_Inglorious Return.png" id="107_Inglorious Return" data-flag="@X" onclick="openSidebar('107_Inglorious Return',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\143_Fortunes of War.png" id="143_Fortunes of War" data-flag="@X" onclick="openSidebar('143_Fortunes of War',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\188_Decorated Titan.png" id="188_Decorated Titan" data-flag="@X" onclick="openSidebar('188_Decorated Titan',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\15_Delenda Est.png" id="15_Delenda Est" data-flag="@X" onclick="openSidebar('15_Delenda Est',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\64_The Legion Protects.png" id="64_The Legion Protects" data-flag="@X" onclick="openSidebar('64_The Legion Protects',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\108_Ire of the Corpse-Emperor.png" id="108_Ire of the Corpse-Emperor" data-flag="@X" onclick="openSidebar('108_Ire of the Corpse-Emperor',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\144_Fraulian Deathworm.png" id="144_Fraulian Deathworm" data-flag="@X" onclick="openSidebar('144_Fraulian Deathworm',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\191_Fraulian Decimator.png" id="191_Fraulian Decimator" data-flag="@X" onclick="openSidebar('191_Fraulian Decimator',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\18_Face the Arena.png" id="18_Face the Arena" data-flag="@X" onclick="openSidebar('18_Face the Arena',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\68_Naumachian Defeat.png" id="68_Naumachian Defeat" data-flag="@X" onclick="openSidebar('68_Naumachian Defeat',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\110_The Legion Conquers.png" id="110_The Legion Conquers" data-flag="@X" onclick="openSidebar('110_The Legion Conquers',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\148_Gallant Charger.png" id="148_Gallant Charger" data-flag="@X" onclick="openSidebar('148_Gallant Charger',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\196_Hero of Sindos.png" id="196_Hero of Sindos" data-flag="@X" onclick="openSidebar('196_Hero of Sindos',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\19_Foreign Envoy.png" id="19_Foreign Envoy" data-flag="@X" onclick="openSidebar('19_Foreign Envoy',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\69_Naumachian Games.png" id="69_Naumachian Games" data-flag="@X" onclick="openSidebar('69_Naumachian Games',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\111_Legion's Loss.png" id="111_Legions Loss" data-flag="@X" onclick="openSidebar('111_Legions Loss',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\149_Gilt Regalia.png" id="149_Gilt Regalia" data-flag="@X" onclick="openSidebar('149_Gilt Regalia',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\197_Hunt Far and Wide.png" id="197_Hunt Far and Wide" data-flag="@X" onclick="openSidebar('197_Hunt Far and Wide',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\21_Glad-Handing Senator.png" id="21_Glad-Handing Senator" data-flag="@X" onclick="openSidebar('21_Glad-Handing Senator',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\71_Ogre Auxilliary.png" id="71_Ogre Auxilliary" data-flag="@X" onclick="openSidebar('71_Ogre Auxilliary',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\112_Lost Centurion.png" id="112_Lost Centurion" data-flag="@X" onclick="openSidebar('112_Lost Centurion',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\154_Lauded Victor.png" id="154_Lauded Victor" data-flag="@X" onclick="openSidebar('154_Lauded Victor',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\198_In Corpore Sano.png" id="198_In Corpore Sano" data-flag="@X" onclick="openSidebar('198_In Corpore Sano',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\27_Inspiring Signifer.png" id="27_Inspiring Signifer" data-flag="@X" onclick="openSidebar('27_Inspiring Signifer',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\72_Oracle of the Lares.png" id="72_Oracle of the Lares" data-flag="@X" onclick="openSidebar('72_Oracle of the Lares',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\117_Savage Challenger.png" id="117_Savage Challenger" data-flag="@X" onclick="openSidebar('117_Savage Challenger',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\156_Might of the Legion.png" id="156_Might of the Legion" data-flag="@X" onclick="openSidebar('156_Might of the Legion',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\199_Martial Tribune.png" id="199_Martial Tribune" data-flag="@X" onclick="openSidebar('199_Martial Tribune',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\34_Stalwart Duplicarius.png" id="34_Stalwart Duplicarius" data-flag="@X" onclick="openSidebar('34_Stalwart Duplicarius',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\81_Stern Duplicarius.png" id="81_Stern Duplicarius" data-flag="@X" onclick="openSidebar('81_Stern Duplicarius',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\119_Savage Triga.png" id="119_Savage Triga" data-flag="@X" onclick="openSidebar('119_Savage Triga',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\157_Oracle of the Legion.png" id="157_Oracle of the Legion" data-flag="@X" onclick="openSidebar('157_Oracle of the Legion',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\200_Men Forget, History Recalls.png" id="200_Men Forget, History Recalls" data-flag="@X" onclick="openSidebar('200_Men Forget, History Recalls',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\35_Stormwarning Harpy.png" id="35_Stormwarning Harpy" data-flag="@X" onclick="openSidebar('35_Stormwarning Harpy',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\83_Testudo Veteran.png" id="83_Testudo Veteran" data-flag="@X" onclick="openSidebar('83_Testudo Veteran',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\120_Scavenging Tyrant.png" id="120_Scavenging Tyrant" data-flag="@X" onclick="openSidebar('120_Scavenging Tyrant',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\163_Shattered Peace.png" id="163_Shattered Peace" data-flag="@X" onclick="openSidebar('163_Shattered Peace',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\203_Plebian Laborer.png" id="203_Plebian Laborer" data-flag="@X" onclick="openSidebar('203_Plebian Laborer',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\40_Unchallenged Contender.png" id="40_Unchallenged Contender" data-flag="@X" onclick="openSidebar('40_Unchallenged Contender',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\84_Thirst for Triumph.png" id="84_Thirst for Triumph" data-flag="@X" onclick="openSidebar('84_Thirst for Triumph',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\127_Tenuous Rule.png" id="127_Tenuous Rule" data-flag="@X" onclick="openSidebar('127_Tenuous Rule',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\166_Survivor of Urcolenus.png" id="166_Survivor of Urcolenus" data-flag="@X" onclick="openSidebar('166_Survivor of Urcolenus',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\208_Simian Centurion.png" id="208_Simian Centurion" data-flag="@X" onclick="openSidebar('208_Simian Centurion',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\42_Victor's Hubris.png" id="42_Victors Hubris" data-flag="@X" onclick="openSidebar('42_Victors Hubris',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\87_War Philosopher.png" id="87_War Philosopher" data-flag="@X" onclick="openSidebar('87_War Philosopher',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\129_Yoked Dromosaur.png" id="129_Yoked Dromosaur" data-flag="@X" onclick="openSidebar('129_Yoked Dromosaur',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\167_Thrown to the Arena.png" id="167_Thrown to the Arena" data-flag="@X" onclick="openSidebar('167_Thrown to the Arena',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\209_Sindos Exemplar.png" id="209_Sindos Exemplar" data-flag="@X" onclick="openSidebar('209_Sindos Exemplar',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\3_Brutal Murmillo.png" id="3_Brutal Murmillo" data-flag="@X" onclick="openSidebar('3_Brutal Murmillo',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\45_Across the Rubicus.png" id="45_Across the Rubicus" data-flag="@X" onclick="openSidebar('45_Across the Rubicus',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\89_Arena Apex.png" id="89_Arena Apex" data-flag="@X" onclick="openSidebar('89_Arena Apex',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\131_Aspiring Evocatus.png" id="131_Aspiring Evocatus" data-flag="@X" onclick="openSidebar('131_Aspiring Evocatus',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\174_Ab Urbe Condita.png" id="174_Ab Urbe Condita" data-flag="@X" onclick="openSidebar('174_Ab Urbe Condita',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\5_Caesar's Evocatus.png" id="5_Caesars Evocatus" data-flag="@X" onclick="openSidebar('5_Caesars Evocatus',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\46_After the Conflict.png" id="46_After the Conflict" data-flag="@X" onclick="openSidebar('46_After the Conflict',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\92_Bone and Mortar.png" id="92_Bone and Mortar" data-flag="@X" onclick="openSidebar('92_Bone and Mortar',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\132_Brash Challenger.png" id="132_Brash Challenger" data-flag="@X" onclick="openSidebar('132_Brash Challenger',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\177_Arena Dominator.png" id="177_Arena Dominator" data-flag="@X" onclick="openSidebar('177_Arena Dominator',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\6_Caesar's Fury.png" id="6_Caesars Fury" data-flag="@X" onclick="openSidebar('6_Caesars Fury',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\49_Caesar's Opulence.png" id="49_Caesars Opulence" data-flag="@X" onclick="openSidebar('49_Caesars Opulence',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\93_Brooding Quaestor.png" id="93_Brooding Quaestor" data-flag="@X" onclick="openSidebar('93_Brooding Quaestor',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\134_Collapse of Order.png" id="134_Collapse of Order" data-flag="@X" onclick="openSidebar('134_Collapse of Order',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\178_Arena Outfitter.png" id="178_Arena Outfitter" data-flag="@X" onclick="openSidebar('178_Arena Outfitter',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\9_Capricious Lictor.png" id="9_Capricious Lictor" data-flag="@X" onclick="openSidebar('9_Capricious Lictor',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\50_Civic Architect.png" id="50_Civic Architect" data-flag="@X" onclick="openSidebar('50_Civic Architect',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\94_Captive Monitor.png" id="94_Captive Monitor" data-flag="@X" onclick="openSidebar('94_Captive Monitor',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\135_Damnatio Memoriae.png" id="135_Damnatio Memoriae" data-flag="@X" onclick="openSidebar('135_Damnatio Memoriae',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\179_Armored Strike.png" id="179_Armored Strike" data-flag="@X" onclick="openSidebar('179_Armored Strike',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\13_Conquest of Fraulia.png" id="13_Conquest of Fraulia" data-flag="@X" onclick="openSidebar('13_Conquest of Fraulia',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\59_Guardian of the Limites.png" id="59_Guardian of the Limites" data-flag="@X" onclick="openSidebar('59_Guardian of the Limites',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\96_Coup de Grace.png" id="96_Coup de Grace" data-flag="@X" onclick="openSidebar('96_Coup de Grace',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\136_Daring Duplicarius.png" id="136_Daring Duplicarius" data-flag="@X" onclick="openSidebar('136_Daring Duplicarius',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\180_Bask in Triumph.png" id="180_Bask in Triumph" data-flag="@X" onclick="openSidebar('180_Bask in Triumph',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\14_Daring Thraex.png" id="14_Daring Thraex" data-flag="@X" onclick="openSidebar('14_Daring Thraex',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\60_Haughty Strix.png" id="60_Haughty Strix" data-flag="@X" onclick="openSidebar('60_Haughty Strix',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\97_Days of Iron and Rust.png" id="97_Days of Iron and Rust" data-flag="@X" onclick="openSidebar('97_Days of Iron and Rust',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\137_Days of Gold.png" id="137_Days of Gold" data-flag="@X" onclick="openSidebar('137_Days of Gold',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\183_Capricious Guard.png" id="183_Capricious Guard" data-flag="@X" onclick="openSidebar('183_Capricious Guard',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\17_Exultant Maniple.png" id="17_Exultant Maniple" data-flag="@X" onclick="openSidebar('17_Exultant Maniple',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\62_Inspiring Vexillarius.png" id="62_Inspiring Vexillarius" data-flag="@X" onclick="openSidebar('62_Inspiring Vexillarius',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\100_Edict of Gaio.png" id="100_Edict of Gaio" data-flag="@X" onclick="openSidebar('100_Edict of Gaio',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\141_Ever Onwards.png" id="141_Ever Onwards" data-flag="@X" onclick="openSidebar('141_Ever Onwards',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\185_Civic Guard.png" id="185_Civic Guard" data-flag="@X" onclick="openSidebar('185_Civic Guard',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\20_Frontline Tactician.png" id="20_Frontline Tactician" data-flag="@X" onclick="openSidebar('20_Frontline Tactician',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\65_Lorica Segmentata.png" id="65_Lorica Segmentata" data-flag="@X" onclick="openSidebar('65_Lorica Segmentata',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\101_Emperor's Hand.png" id="101_Emperors Hand" data-flag="@X" onclick="openSidebar('101_Emperors Hand',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\145_Fraulian Dominator.png" id="145_Fraulian Dominator" data-flag="@X" onclick="openSidebar('145_Fraulian Dominator',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\186_Colossal Dreadmaw.png" id="186_Colossal Dreadmaw" data-flag="@X" onclick="openSidebar('186_Colossal Dreadmaw',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\22_Griffin Whelp.png" id="22_Griffin Whelp" data-flag="@X" onclick="openSidebar('22_Griffin Whelp',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\67_Moment of Innovation.png" id="67_Moment of Innovation" data-flag="@X" onclick="openSidebar('67_Moment of Innovation',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\102_Gaio's Luminary.png" id="102_Gaios Luminary" data-flag="@X" onclick="openSidebar('102_Gaios Luminary',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\147_Frontier Legionaries.png" id="147_Frontier Legionaries" data-flag="@X" onclick="openSidebar('147_Frontier Legionaries',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\192_Gird for War.png" id="192_Gird for War" data-flag="@X" onclick="openSidebar('192_Gird for War',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\23_Harrier of the North.png" id="23_Harrier of the North" data-flag="@X" onclick="openSidebar('23_Harrier of the North',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\70_Naumachian Terror.png" id="70_Naumachian Terror" data-flag="@X" onclick="openSidebar('70_Naumachian Terror',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\103_Gather in Shadow.png" id="103_Gather in Shadow" data-flag="@X" onclick="openSidebar('103_Gather in Shadow',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\151_Imperial Gladius.png" id="151_Imperial Gladius" data-flag="@X" onclick="openSidebar('151_Imperial Gladius',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\193_Goliath of Hamilbas.png" id="193_Goliath of Hamilbas" data-flag="@X" onclick="openSidebar('193_Goliath of Hamilbas',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\24_Illustrious Champion.png" id="24_Illustrious Champion" data-flag="@X" onclick="openSidebar('24_Illustrious Champion',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\73_Pax Avictus.png" id="73_Pax Avictus" data-flag="@X" onclick="openSidebar('73_Pax Avictus',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\104_Glory's Shadow.png" id="104_Glorys Shadow" data-flag="@X" onclick="openSidebar('104_Glorys Shadow',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\152_Imposing Gladiator.png" id="152_Imposing Gladiator" data-flag="@X" onclick="openSidebar('152_Imposing Gladiator',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\194_Grizzled Legionary.png" id="194_Grizzled Legionary" data-flag="@X" onclick="openSidebar('194_Grizzled Legionary',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\28_Legion's Judgment.png" id="28_Legions Judgment" data-flag="@X" onclick="openSidebar('28_Legions Judgment',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\74_Peace by the Sword.png" id="74_Peace by the Sword" data-flag="@X" onclick="openSidebar('74_Peace by the Sword',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\114_Pollice Verso.png" id="114_Pollice Verso" data-flag="@X" onclick="openSidebar('114_Pollice Verso',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\153_In the Heat of Combat.png" id="153_In the Heat of Combat" data-flag="@X" onclick="openSidebar('153_In the Heat of Combat',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\202_Plated Goliath.png" id="202_Plated Goliath" data-flag="@X" onclick="openSidebar('202_Plated Goliath',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\30_Plebian Recruit.png" id="30_Plebian Recruit" data-flag="@X" onclick="openSidebar('30_Plebian Recruit',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\75_Renegade Gladiator.png" id="75_Renegade Gladiator" data-flag="@X" onclick="openSidebar('75_Renegade Gladiator',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\115_Reckless Centurion.png" id="115_Reckless Centurion" data-flag="@X" onclick="openSidebar('115_Reckless Centurion',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\158_Praetorian Novitiate.png" id="158_Praetorian Novitiate" data-flag="@X" onclick="openSidebar('158_Praetorian Novitiate',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\204_Predatory Executioner.png" id="204_Predatory Executioner" data-flag="@X" onclick="openSidebar('204_Predatory Executioner',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\33_Solemn Offering.png" id="33_Solemn Offering" data-flag="@X" onclick="openSidebar('33_Solemn Offering',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\76_Roving Remex.png" id="76_Roving Remex" data-flag="@X" onclick="openSidebar('76_Roving Remex',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\116_Ruthless Auxiliary.png" id="116_Ruthless Auxiliary" data-flag="@X" onclick="openSidebar('116_Ruthless Auxiliary',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\160_Promising Scrapper.png" id="160_Promising Scrapper" data-flag="@X" onclick="openSidebar('160_Promising Scrapper',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\206_Scarred Venator.png" id="206_Scarred Venator" data-flag="@X" onclick="openSidebar('206_Scarred Venator',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\36_Sullen Equite.png" id="36_Sullen Equite" data-flag="@X" onclick="openSidebar('36_Sullen Equite',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\78_Skyfisher Sovereign.png" id="78_Skyfisher Sovereign" data-flag="@X" onclick="openSidebar('78_Skyfisher Sovereign',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\118_Savage Spectacle.png" id="118_Savage Spectacle" data-flag="@X" onclick="openSidebar('118_Savage Spectacle',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\161_Relentless Brawler.png" id="161_Relentless Brawler" data-flag="@X" onclick="openSidebar('161_Relentless Brawler',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\207_Shower of Arrows.png" id="207_Shower of Arrows" data-flag="@X" onclick="openSidebar('207_Shower of Arrows',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\37_Tactical Encirclement.png" id="37_Tactical Encirclement" data-flag="@X" onclick="openSidebar('37_Tactical Encirclement',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\79_Soaring Pinnaelacertus.png" id="79_Soaring Pinnaelacertus" data-flag="@X" onclick="openSidebar('79_Soaring Pinnaelacertus',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\123_Spoils of War.png" id="123_Spoils of War" data-flag="@X" onclick="openSidebar('123_Spoils of War',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\162_Scorpio Engine.png" id="162_Scorpio Engine" data-flag="@X" onclick="openSidebar('162_Scorpio Engine',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\212_To Blunt a Blade.png" id="212_To Blunt a Blade" data-flag="@X" onclick="openSidebar('212_To Blunt a Blade',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\39_Triumphant Equite.png" id="39_Triumphant Equite" data-flag="@X" onclick="openSidebar('39_Triumphant Equite',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\80_Steadfast Shieldwall.png" id="80_Steadfast Shieldwall" data-flag="@X" onclick="openSidebar('80_Steadfast Shieldwall',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\124_Sullo's Cutthroat.png" id="124_Sullos Cutthroat" data-flag="@X" onclick="openSidebar('124_Sullos Cutthroat',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\164_Sic Semper Tyrannosaurus.png" id="164_Sic Semper Tyrannosaurus" data-flag="@X" onclick="openSidebar('164_Sic Semper Tyrannosaurus',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\213_Unconquered Thraex.png" id="213_Unconquered Thraex" data-flag="@X" onclick="openSidebar('213_Unconquered Thraex',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\41_Under the Aquila's Gaze.png" id="41_Under the Aquilas Gaze" data-flag="@X" onclick="openSidebar('41_Under the Aquilas Gaze',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\82_Survey the Border.png" id="82_Survey the Border" data-flag="@X" onclick="openSidebar('82_Survey the Border',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\126_Tainted Denarii.png" id="126_Tainted Denarii" data-flag="@X" onclick="openSidebar('126_Tainted Denarii',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\169_Trample Underfoot.png" id="169_Trample Underfoot" data-flag="@X" onclick="openSidebar('169_Trample Underfoot',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\215_Valiant Stand.png" id="215_Valiant Stand" data-flag="@X" onclick="openSidebar('215_Valiant Stand',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\44_Whitemane Griffin.png" id="44_Whitemane Griffin" data-flag="@X" onclick="openSidebar('44_Whitemane Griffin',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\86_Vestal Oracle.png" id="86_Vestal Oracle" data-flag="@X" onclick="openSidebar('86_Vestal Oracle',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\130_Youthful Contender.png" id="130_Youthful Contender" data-flag="@X" onclick="openSidebar('130_Youthful Contender',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\170_Turn to Slag.png" id="170_Turn to Slag" data-flag="@X" onclick="openSidebar('170_Turn to Slag',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\216_Where All Roads Lead.png" id="216_Where All Roads Lead" data-flag="@X" onclick="openSidebar('216_Where All Roads Lead',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\1_Decimation of Fraulia.png" id="1_Decimation of Fraulia" data-flag="@X" onclick="openSidebar('1_Decimation of Fraulia',true)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\16_Enter the Hippodrome.png" id="16_Enter the Hippodrome" data-flag="@X" onclick="openSidebar('16_Enter the Hippodrome',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\48_Antoninus, First Citizen.png" id="48_Antoninus, First Citizen" data-flag="@X" onclick="openSidebar('48_Antoninus, First Citizen',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\105_Graveborn Outrider.png" id="105_Graveborn Outrider" data-flag="@X" onclick="openSidebar('105_Graveborn Outrider',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\139_Emperor's Demise.png" id="139_Emperors Demise" data-flag="@X" onclick="openSidebar('139_Emperors Demise',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\190_Fenexian Gambit.png" id="190_Fenexian Gambit" data-flag="@X" onclick="openSidebar('190_Fenexian Gambit',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\26_Imperial Seraph.png" id="26_Imperial Seraph" data-flag="@X" onclick="openSidebar('26_Imperial Seraph',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\58_Glorious Triumph.png" id="58_Glorious Triumph" data-flag="@X" onclick="openSidebar('58_Glorious Triumph',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\121_Scourge of Fraulia.png" id="121_Scourge of Fraulia" data-flag="@X" onclick="openSidebar('121_Scourge of Fraulia',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\168_Thunderous Imperator.png" id="168_Thunderous Imperator" data-flag="@X" onclick="openSidebar('168_Thunderous Imperator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\195_Haad, Barqo's Cannon.png" id="195_Haad, Barqos Cannon" data-flag="@X" onclick="openSidebar('195_Haad, Barqos Cannon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\7_Caesar's Jurist.png" id="7_Caesars Jurist" data-flag="@X" onclick="openSidebar('7_Caesars Jurist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\47_Ancient Wisdom.png" id="47_Ancient Wisdom" data-flag="@X" onclick="openSidebar('47_Ancient Wisdom',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\88_Are You Not Entertained.png" id="88_Are You Not Entertained" data-flag="@X" onclick="openSidebar('88_Are You Not Entertained',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\133_Caesar's Champion.png" id="133_Caesars Champion" data-flag="@X" onclick="openSidebar('133_Caesars Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\176_Architect of Triumph.png" id="176_Architect of Triumph" data-flag="@X" onclick="openSidebar('176_Architect of Triumph',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\10_Catevorix, Fraulia's Last.png" id="10_Catevorix, Fraulias Last" data-flag="@X" onclick="openSidebar('10_Catevorix, Fraulias Last',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\52_Colosseum Exemplar.png" id="52_Colosseum Exemplar" data-flag="@X" onclick="openSidebar('52_Colosseum Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\90_Arena's Scorn.png" id="90_Arenas Scorn" data-flag="@X" onclick="openSidebar('90_Arenas Scorn',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\146_Frenzied Spectacle.png" id="146_Frenzied Spectacle" data-flag="@X" onclick="openSidebar('146_Frenzied Spectacle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\182_Boneyard of Empires.png" id="182_Boneyard of Empires" data-flag="@X" onclick="openSidebar('182_Boneyard of Empires',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\11_Civic Coronation.png" id="11_Civic Coronation" data-flag="@X" onclick="openSidebar('11_Civic Coronation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\53_Domineering Proconsul.png" id="53_Domineering Proconsul" data-flag="@X" onclick="openSidebar('53_Domineering Proconsul',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\91_Beware the Ides.png" id="91_Beware the Ides" data-flag="@X" onclick="openSidebar('91_Beware the Ides',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\150_Guardian of the Eagle.png" id="150_Guardian of the Eagle" data-flag="@X" onclick="openSidebar('150_Guardian of the Eagle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\184_Caravan Titanosaur.png" id="184_Caravan Titanosaur" data-flag="@X" onclick="openSidebar('184_Caravan Titanosaur',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\25_Impending Devastation.png" id="25_Impending Devastation" data-flag="@X" onclick="openSidebar('25_Impending Devastation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\54_Empire's Wealth.png" id="54_Empires Wealth" data-flag="@X" onclick="openSidebar('54_Empires Wealth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\106_Gravebound Charioteer.png" id="106_Gravebound Charioteer" data-flag="@X" onclick="openSidebar('106_Gravebound Charioteer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\155_Martius Aurus, August Scion.png" id="155_Martius Aurus, August Scion" data-flag="@X" onclick="openSidebar('155_Martius Aurus, August Scion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\189_Fauna's Bane.png" id="189_Faunas Bane" data-flag="@X" onclick="openSidebar('189_Faunas Bane',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\29_Master of the Gallery.png" id="29_Master of the Gallery" data-flag="@X" onclick="openSidebar('29_Master of the Gallery',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\56_Gaio's Return.png" id="56_Gaios Return" data-flag="@X" onclick="openSidebar('56_Gaios Return',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\109_Legate of Gaio.png" id="109_Legate of Gaio" data-flag="@X" onclick="openSidebar('109_Legate of Gaio',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\159_Price of Glory.png" id="159_Price of Glory" data-flag="@X" onclick="openSidebar('159_Price of Glory',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\201_Philopatris, Primal Queen.png" id="201_Philopatris, Primal Queen" data-flag="@X" onclick="openSidebar('201_Philopatris, Primal Queen',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\31_Render Unto Caesar.png" id="31_Render Unto Caesar" data-flag="@X" onclick="openSidebar('31_Render Unto Caesar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\63_Intrusive Intent.png" id="63_Intrusive Intent" data-flag="@X" onclick="openSidebar('63_Intrusive Intent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\113_Martial Bull.png" id="113_Martial Bull" data-flag="@X" onclick="openSidebar('113_Martial Bull',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\165_Storyteller's Bulwark.png" id="165_Storytellers Bulwark" data-flag="@X" onclick="openSidebar('165_Storytellers Bulwark',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\205_Pro Tanto Quid.png" id="205_Pro Tanto Quid" data-flag="@X" onclick="openSidebar('205_Pro Tanto Quid',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\32_Shadowsmoke Contender.png" id="32_Shadowsmoke Contender" data-flag="@X" onclick="openSidebar('32_Shadowsmoke Contender',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\66_Manifold Maniple.png" id="66_Manifold Maniple" data-flag="@X" onclick="openSidebar('66_Manifold Maniple',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\122_Sindos Siegebreaker.png" id="122_Sindos Siegebreaker" data-flag="@X" onclick="openSidebar('122_Sindos Siegebreaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\171_Valor's End.png" id="171_Valors End" data-flag="@X" onclick="openSidebar('171_Valors End',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\210_Sullo's Champion.png" id="210_Sullos Champion" data-flag="@X" onclick="openSidebar('210_Sullos Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\38_Thus Always to Tyrants.png" id="38_Thus Always to Tyrants" data-flag="@X" onclick="openSidebar('38_Thus Always to Tyrants',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\77_Scheming Aedile.png" id="77_Scheming Aedile" data-flag="@X" onclick="openSidebar('77_Scheming Aedile',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\125_Syphon Aether.png" id="125_Syphon Aether" data-flag="@X" onclick="openSidebar('125_Syphon Aether',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\172_War Never Changes.png" id="172_War Never Changes" data-flag="@X" onclick="openSidebar('172_War Never Changes',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\211_Swordbreaker Saurian.png" id="211_Swordbreaker Saurian" data-flag="@X" onclick="openSidebar('211_Swordbreaker Saurian',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\43_Warshaper Legate.png" id="43_Warshaper Legate" data-flag="@X" onclick="openSidebar('43_Warshaper Legate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\85_Tyrant of the Medivictanean.png" id="85_Tyrant of the Medivictanean" data-flag="@X" onclick="openSidebar('85_Tyrant of the Medivictanean',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\128_Treacherous Senator.png" id="128_Treacherous Senator" data-flag="@X" onclick="openSidebar('128_Treacherous Senator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\173_Wrath Unleashed.png" id="173_Wrath Unleashed" data-flag="@X" onclick="openSidebar('173_Wrath Unleashed',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\214_Untrammeled Nature.png" id="214_Untrammeled Nature" data-flag="@X" onclick="openSidebar('214_Untrammeled Nature',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\2_Border Sentinels.png" id="2_Border Sentinels" data-flag="@X" onclick="openSidebar('2_Border Sentinels',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\51_Civic Duty.png" id="51_Civic Duty" data-flag="@X" onclick="openSidebar('51_Civic Duty',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\95_Carrion Crawler.png" id="95_Carrion Crawler" data-flag="@X" onclick="openSidebar('95_Carrion Crawler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\138_Dominant Aureus.png" id="138_Dominant Aureus" data-flag="@X" onclick="openSidebar('138_Dominant Aureus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\175_Ad Bestias.png" id="175_Ad Bestias" data-flag="@X" onclick="openSidebar('175_Ad Bestias',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\4_Burnished Helm.png" id="4_Burnished Helm" data-flag="@X" onclick="openSidebar('4_Burnished Helm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\55_Frontline Loyalist.png" id="55_Frontline Loyalist" data-flag="@X" onclick="openSidebar('55_Frontline Loyalist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\98_Deathless Champion.png" id="98_Deathless Champion" data-flag="@X" onclick="openSidebar('98_Deathless Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\140_Et Tu.png" id="140_Et Tu" data-flag="@X" onclick="openSidebar('140_Et Tu',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\181_Bestial Primacy.png" id="181_Bestial Primacy" data-flag="@X" onclick="openSidebar('181_Bestial Primacy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\8_Caesar's Tribune.png" id="8_Caesars Tribune" data-flag="@X" onclick="openSidebar('8_Caesars Tribune',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\57_Gaio's Stallion.png" id="57_Gaios Stallion" data-flag="@X" onclick="openSidebar('57_Gaios Stallion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\99_The Die Is Cast.png" id="99_The Die Is Cast" data-flag="@X" onclick="openSidebar('99_The Die Is Cast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\142_Fiery Sophist.png" id="142_Fiery Sophist" data-flag="@X" onclick="openSidebar('142_Fiery Sophist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\187_Crocota Shadowstalker.png" id="187_Crocota Shadowstalker" data-flag="@X" onclick="openSidebar('187_Crocota Shadowstalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\12_Conquering Equite.png" id="12_Conquering Equite" data-flag="@X" onclick="openSidebar('12_Conquering Equite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\61_Imperial Decree.png" id="61_Imperial Decree" data-flag="@X" onclick="openSidebar('61_Imperial Decree',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\107_Inglorious Return.png" id="107_Inglorious Return" data-flag="@X" onclick="openSidebar('107_Inglorious Return',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\143_Fortunes of War.png" id="143_Fortunes of War" data-flag="@X" onclick="openSidebar('143_Fortunes of War',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\188_Decorated Titan.png" id="188_Decorated Titan" data-flag="@X" onclick="openSidebar('188_Decorated Titan',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\15_Delenda Est.png" id="15_Delenda Est" data-flag="@X" onclick="openSidebar('15_Delenda Est',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\64_The Legion Protects.png" id="64_The Legion Protects" data-flag="@X" onclick="openSidebar('64_The Legion Protects',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\108_Ire of the Corpse-Emperor.png" id="108_Ire of the Corpse-Emperor" data-flag="@X" onclick="openSidebar('108_Ire of the Corpse-Emperor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\144_Fraulian Deathworm.png" id="144_Fraulian Deathworm" data-flag="@X" onclick="openSidebar('144_Fraulian Deathworm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\191_Fraulian Decimator.png" id="191_Fraulian Decimator" data-flag="@X" onclick="openSidebar('191_Fraulian Decimator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\18_Face the Arena.png" id="18_Face the Arena" data-flag="@X" onclick="openSidebar('18_Face the Arena',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\68_Naumachian Defeat.png" id="68_Naumachian Defeat" data-flag="@X" onclick="openSidebar('68_Naumachian Defeat',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\110_The Legion Conquers.png" id="110_The Legion Conquers" data-flag="@X" onclick="openSidebar('110_The Legion Conquers',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\148_Gallant Charger.png" id="148_Gallant Charger" data-flag="@X" onclick="openSidebar('148_Gallant Charger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\196_Hero of Sindos.png" id="196_Hero of Sindos" data-flag="@X" onclick="openSidebar('196_Hero of Sindos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\19_Foreign Envoy.png" id="19_Foreign Envoy" data-flag="@X" onclick="openSidebar('19_Foreign Envoy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\69_Naumachian Games.png" id="69_Naumachian Games" data-flag="@X" onclick="openSidebar('69_Naumachian Games',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\111_Legion's Loss.png" id="111_Legions Loss" data-flag="@X" onclick="openSidebar('111_Legions Loss',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\149_Gilt Regalia.png" id="149_Gilt Regalia" data-flag="@X" onclick="openSidebar('149_Gilt Regalia',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\197_Hunt Far and Wide.png" id="197_Hunt Far and Wide" data-flag="@X" onclick="openSidebar('197_Hunt Far and Wide',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\21_Glad-Handing Senator.png" id="21_Glad-Handing Senator" data-flag="@X" onclick="openSidebar('21_Glad-Handing Senator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\71_Ogre Auxilliary.png" id="71_Ogre Auxilliary" data-flag="@X" onclick="openSidebar('71_Ogre Auxilliary',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\112_Lost Centurion.png" id="112_Lost Centurion" data-flag="@X" onclick="openSidebar('112_Lost Centurion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\154_Lauded Victor.png" id="154_Lauded Victor" data-flag="@X" onclick="openSidebar('154_Lauded Victor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\198_In Corpore Sano.png" id="198_In Corpore Sano" data-flag="@X" onclick="openSidebar('198_In Corpore Sano',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\27_Inspiring Signifer.png" id="27_Inspiring Signifer" data-flag="@X" onclick="openSidebar('27_Inspiring Signifer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\72_Oracle of the Lares.png" id="72_Oracle of the Lares" data-flag="@X" onclick="openSidebar('72_Oracle of the Lares',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\117_Savage Challenger.png" id="117_Savage Challenger" data-flag="@X" onclick="openSidebar('117_Savage Challenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\156_Might of the Legion.png" id="156_Might of the Legion" data-flag="@X" onclick="openSidebar('156_Might of the Legion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\199_Martial Tribune.png" id="199_Martial Tribune" data-flag="@X" onclick="openSidebar('199_Martial Tribune',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\34_Stalwart Duplicarius.png" id="34_Stalwart Duplicarius" data-flag="@X" onclick="openSidebar('34_Stalwart Duplicarius',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\81_Stern Duplicarius.png" id="81_Stern Duplicarius" data-flag="@X" onclick="openSidebar('81_Stern Duplicarius',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\119_Savage Triga.png" id="119_Savage Triga" data-flag="@X" onclick="openSidebar('119_Savage Triga',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\157_Oracle of the Legion.png" id="157_Oracle of the Legion" data-flag="@X" onclick="openSidebar('157_Oracle of the Legion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\200_Men Forget, History Recalls.png" id="200_Men Forget, History Recalls" data-flag="@X" onclick="openSidebar('200_Men Forget, History Recalls',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\35_Stormwarning Harpy.png" id="35_Stormwarning Harpy" data-flag="@X" onclick="openSidebar('35_Stormwarning Harpy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\83_Testudo Veteran.png" id="83_Testudo Veteran" data-flag="@X" onclick="openSidebar('83_Testudo Veteran',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\120_Scavenging Tyrant.png" id="120_Scavenging Tyrant" data-flag="@X" onclick="openSidebar('120_Scavenging Tyrant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\163_Shattered Peace.png" id="163_Shattered Peace" data-flag="@X" onclick="openSidebar('163_Shattered Peace',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\203_Plebian Laborer.png" id="203_Plebian Laborer" data-flag="@X" onclick="openSidebar('203_Plebian Laborer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\40_Unchallenged Contender.png" id="40_Unchallenged Contender" data-flag="@X" onclick="openSidebar('40_Unchallenged Contender',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\84_Thirst for Triumph.png" id="84_Thirst for Triumph" data-flag="@X" onclick="openSidebar('84_Thirst for Triumph',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\127_Tenuous Rule.png" id="127_Tenuous Rule" data-flag="@X" onclick="openSidebar('127_Tenuous Rule',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\166_Survivor of Urcolenus.png" id="166_Survivor of Urcolenus" data-flag="@X" onclick="openSidebar('166_Survivor of Urcolenus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\208_Simian Centurion.png" id="208_Simian Centurion" data-flag="@X" onclick="openSidebar('208_Simian Centurion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\42_Victor's Hubris.png" id="42_Victors Hubris" data-flag="@X" onclick="openSidebar('42_Victors Hubris',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\87_War Philosopher.png" id="87_War Philosopher" data-flag="@X" onclick="openSidebar('87_War Philosopher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\129_Yoked Dromosaur.png" id="129_Yoked Dromosaur" data-flag="@X" onclick="openSidebar('129_Yoked Dromosaur',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\167_Thrown to the Arena.png" id="167_Thrown to the Arena" data-flag="@X" onclick="openSidebar('167_Thrown to the Arena',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\209_Sindos Exemplar.png" id="209_Sindos Exemplar" data-flag="@X" onclick="openSidebar('209_Sindos Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\3_Brutal Murmillo.png" id="3_Brutal Murmillo" data-flag="@X" onclick="openSidebar('3_Brutal Murmillo',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\45_Across the Rubicus.png" id="45_Across the Rubicus" data-flag="@X" onclick="openSidebar('45_Across the Rubicus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\89_Arena Apex.png" id="89_Arena Apex" data-flag="@X" onclick="openSidebar('89_Arena Apex',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\131_Aspiring Evocatus.png" id="131_Aspiring Evocatus" data-flag="@X" onclick="openSidebar('131_Aspiring Evocatus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\174_Ab Urbe Condita.png" id="174_Ab Urbe Condita" data-flag="@X" onclick="openSidebar('174_Ab Urbe Condita',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\5_Caesar's Evocatus.png" id="5_Caesars Evocatus" data-flag="@X" onclick="openSidebar('5_Caesars Evocatus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\46_After the Conflict.png" id="46_After the Conflict" data-flag="@X" onclick="openSidebar('46_After the Conflict',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\92_Bone and Mortar.png" id="92_Bone and Mortar" data-flag="@X" onclick="openSidebar('92_Bone and Mortar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\132_Brash Challenger.png" id="132_Brash Challenger" data-flag="@X" onclick="openSidebar('132_Brash Challenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\177_Arena Dominator.png" id="177_Arena Dominator" data-flag="@X" onclick="openSidebar('177_Arena Dominator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\6_Caesar's Fury.png" id="6_Caesars Fury" data-flag="@X" onclick="openSidebar('6_Caesars Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\49_Caesar's Opulence.png" id="49_Caesars Opulence" data-flag="@X" onclick="openSidebar('49_Caesars Opulence',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\93_Brooding Quaestor.png" id="93_Brooding Quaestor" data-flag="@X" onclick="openSidebar('93_Brooding Quaestor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\134_Collapse of Order.png" id="134_Collapse of Order" data-flag="@X" onclick="openSidebar('134_Collapse of Order',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\178_Arena Outfitter.png" id="178_Arena Outfitter" data-flag="@X" onclick="openSidebar('178_Arena Outfitter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\9_Capricious Lictor.png" id="9_Capricious Lictor" data-flag="@X" onclick="openSidebar('9_Capricious Lictor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\50_Civic Architect.png" id="50_Civic Architect" data-flag="@X" onclick="openSidebar('50_Civic Architect',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\94_Captive Monitor.png" id="94_Captive Monitor" data-flag="@X" onclick="openSidebar('94_Captive Monitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\135_Damnatio Memoriae.png" id="135_Damnatio Memoriae" data-flag="@X" onclick="openSidebar('135_Damnatio Memoriae',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\179_Armored Strike.png" id="179_Armored Strike" data-flag="@X" onclick="openSidebar('179_Armored Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\13_Conquest of Fraulia.png" id="13_Conquest of Fraulia" data-flag="@X" onclick="openSidebar('13_Conquest of Fraulia',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\59_Guardian of the Limites.png" id="59_Guardian of the Limites" data-flag="@X" onclick="openSidebar('59_Guardian of the Limites',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\96_Coup de Grace.png" id="96_Coup de Grace" data-flag="@X" onclick="openSidebar('96_Coup de Grace',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\136_Daring Duplicarius.png" id="136_Daring Duplicarius" data-flag="@X" onclick="openSidebar('136_Daring Duplicarius',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\180_Bask in Triumph.png" id="180_Bask in Triumph" data-flag="@X" onclick="openSidebar('180_Bask in Triumph',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\14_Daring Thraex.png" id="14_Daring Thraex" data-flag="@X" onclick="openSidebar('14_Daring Thraex',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\60_Haughty Strix.png" id="60_Haughty Strix" data-flag="@X" onclick="openSidebar('60_Haughty Strix',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\97_Days of Iron and Rust.png" id="97_Days of Iron and Rust" data-flag="@X" onclick="openSidebar('97_Days of Iron and Rust',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\137_Days of Gold.png" id="137_Days of Gold" data-flag="@X" onclick="openSidebar('137_Days of Gold',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\183_Capricious Guard.png" id="183_Capricious Guard" data-flag="@X" onclick="openSidebar('183_Capricious Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\17_Exultant Maniple.png" id="17_Exultant Maniple" data-flag="@X" onclick="openSidebar('17_Exultant Maniple',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\62_Inspiring Vexillarius.png" id="62_Inspiring Vexillarius" data-flag="@X" onclick="openSidebar('62_Inspiring Vexillarius',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\100_Edict of Gaio.png" id="100_Edict of Gaio" data-flag="@X" onclick="openSidebar('100_Edict of Gaio',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\141_Ever Onwards.png" id="141_Ever Onwards" data-flag="@X" onclick="openSidebar('141_Ever Onwards',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\185_Civic Guard.png" id="185_Civic Guard" data-flag="@X" onclick="openSidebar('185_Civic Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\20_Frontline Tactician.png" id="20_Frontline Tactician" data-flag="@X" onclick="openSidebar('20_Frontline Tactician',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\65_Lorica Segmentata.png" id="65_Lorica Segmentata" data-flag="@X" onclick="openSidebar('65_Lorica Segmentata',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\101_Emperor's Hand.png" id="101_Emperors Hand" data-flag="@X" onclick="openSidebar('101_Emperors Hand',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\145_Fraulian Dominator.png" id="145_Fraulian Dominator" data-flag="@X" onclick="openSidebar('145_Fraulian Dominator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\186_Colossal Dreadmaw.png" id="186_Colossal Dreadmaw" data-flag="@X" onclick="openSidebar('186_Colossal Dreadmaw',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\22_Griffin Whelp.png" id="22_Griffin Whelp" data-flag="@X" onclick="openSidebar('22_Griffin Whelp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\67_Moment of Innovation.png" id="67_Moment of Innovation" data-flag="@X" onclick="openSidebar('67_Moment of Innovation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\102_Gaio's Luminary.png" id="102_Gaios Luminary" data-flag="@X" onclick="openSidebar('102_Gaios Luminary',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\147_Frontier Legionaries.png" id="147_Frontier Legionaries" data-flag="@X" onclick="openSidebar('147_Frontier Legionaries',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\192_Gird for War.png" id="192_Gird for War" data-flag="@X" onclick="openSidebar('192_Gird for War',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\23_Harrier of the North.png" id="23_Harrier of the North" data-flag="@X" onclick="openSidebar('23_Harrier of the North',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\70_Naumachian Terror.png" id="70_Naumachian Terror" data-flag="@X" onclick="openSidebar('70_Naumachian Terror',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\103_Gather in Shadow.png" id="103_Gather in Shadow" data-flag="@X" onclick="openSidebar('103_Gather in Shadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\151_Imperial Gladius.png" id="151_Imperial Gladius" data-flag="@X" onclick="openSidebar('151_Imperial Gladius',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\193_Goliath of Hamilbas.png" id="193_Goliath of Hamilbas" data-flag="@X" onclick="openSidebar('193_Goliath of Hamilbas',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\24_Illustrious Champion.png" id="24_Illustrious Champion" data-flag="@X" onclick="openSidebar('24_Illustrious Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\73_Pax Avictus.png" id="73_Pax Avictus" data-flag="@X" onclick="openSidebar('73_Pax Avictus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\104_Glory's Shadow.png" id="104_Glorys Shadow" data-flag="@X" onclick="openSidebar('104_Glorys Shadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\152_Imposing Gladiator.png" id="152_Imposing Gladiator" data-flag="@X" onclick="openSidebar('152_Imposing Gladiator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\194_Grizzled Legionary.png" id="194_Grizzled Legionary" data-flag="@X" onclick="openSidebar('194_Grizzled Legionary',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\28_Legion's Judgment.png" id="28_Legions Judgment" data-flag="@X" onclick="openSidebar('28_Legions Judgment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\74_Peace by the Sword.png" id="74_Peace by the Sword" data-flag="@X" onclick="openSidebar('74_Peace by the Sword',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\114_Pollice Verso.png" id="114_Pollice Verso" data-flag="@X" onclick="openSidebar('114_Pollice Verso',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\153_In the Heat of Combat.png" id="153_In the Heat of Combat" data-flag="@X" onclick="openSidebar('153_In the Heat of Combat',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\202_Plated Goliath.png" id="202_Plated Goliath" data-flag="@X" onclick="openSidebar('202_Plated Goliath',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\30_Plebian Recruit.png" id="30_Plebian Recruit" data-flag="@X" onclick="openSidebar('30_Plebian Recruit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\75_Renegade Gladiator.png" id="75_Renegade Gladiator" data-flag="@X" onclick="openSidebar('75_Renegade Gladiator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\115_Reckless Centurion.png" id="115_Reckless Centurion" data-flag="@X" onclick="openSidebar('115_Reckless Centurion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\158_Praetorian Novitiate.png" id="158_Praetorian Novitiate" data-flag="@X" onclick="openSidebar('158_Praetorian Novitiate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\204_Predatory Executioner.png" id="204_Predatory Executioner" data-flag="@X" onclick="openSidebar('204_Predatory Executioner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\33_Solemn Offering.png" id="33_Solemn Offering" data-flag="@X" onclick="openSidebar('33_Solemn Offering',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\76_Roving Remex.png" id="76_Roving Remex" data-flag="@X" onclick="openSidebar('76_Roving Remex',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\116_Ruthless Auxiliary.png" id="116_Ruthless Auxiliary" data-flag="@X" onclick="openSidebar('116_Ruthless Auxiliary',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\160_Promising Scrapper.png" id="160_Promising Scrapper" data-flag="@X" onclick="openSidebar('160_Promising Scrapper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\206_Scarred Venator.png" id="206_Scarred Venator" data-flag="@X" onclick="openSidebar('206_Scarred Venator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\36_Sullen Equite.png" id="36_Sullen Equite" data-flag="@X" onclick="openSidebar('36_Sullen Equite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\78_Skyfisher Sovereign.png" id="78_Skyfisher Sovereign" data-flag="@X" onclick="openSidebar('78_Skyfisher Sovereign',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\118_Savage Spectacle.png" id="118_Savage Spectacle" data-flag="@X" onclick="openSidebar('118_Savage Spectacle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\161_Relentless Brawler.png" id="161_Relentless Brawler" data-flag="@X" onclick="openSidebar('161_Relentless Brawler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\207_Shower of Arrows.png" id="207_Shower of Arrows" data-flag="@X" onclick="openSidebar('207_Shower of Arrows',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\37_Tactical Encirclement.png" id="37_Tactical Encirclement" data-flag="@X" onclick="openSidebar('37_Tactical Encirclement',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\79_Soaring Pinnaelacertus.png" id="79_Soaring Pinnaelacertus" data-flag="@X" onclick="openSidebar('79_Soaring Pinnaelacertus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\123_Spoils of War.png" id="123_Spoils of War" data-flag="@X" onclick="openSidebar('123_Spoils of War',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\162_Scorpio Engine.png" id="162_Scorpio Engine" data-flag="@X" onclick="openSidebar('162_Scorpio Engine',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\212_To Blunt a Blade.png" id="212_To Blunt a Blade" data-flag="@X" onclick="openSidebar('212_To Blunt a Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\39_Triumphant Equite.png" id="39_Triumphant Equite" data-flag="@X" onclick="openSidebar('39_Triumphant Equite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\80_Steadfast Shieldwall.png" id="80_Steadfast Shieldwall" data-flag="@X" onclick="openSidebar('80_Steadfast Shieldwall',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\124_Sullo's Cutthroat.png" id="124_Sullos Cutthroat" data-flag="@X" onclick="openSidebar('124_Sullos Cutthroat',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\164_Sic Semper Tyrannosaurus.png" id="164_Sic Semper Tyrannosaurus" data-flag="@X" onclick="openSidebar('164_Sic Semper Tyrannosaurus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\213_Unconquered Thraex.png" id="213_Unconquered Thraex" data-flag="@X" onclick="openSidebar('213_Unconquered Thraex',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\41_Under the Aquila's Gaze.png" id="41_Under the Aquilas Gaze" data-flag="@X" onclick="openSidebar('41_Under the Aquilas Gaze',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\82_Survey the Border.png" id="82_Survey the Border" data-flag="@X" onclick="openSidebar('82_Survey the Border',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\126_Tainted Denarii.png" id="126_Tainted Denarii" data-flag="@X" onclick="openSidebar('126_Tainted Denarii',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\169_Trample Underfoot.png" id="169_Trample Underfoot" data-flag="@X" onclick="openSidebar('169_Trample Underfoot',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\215_Valiant Stand.png" id="215_Valiant Stand" data-flag="@X" onclick="openSidebar('215_Valiant Stand',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\44_Whitemane Griffin.png" id="44_Whitemane Griffin" data-flag="@X" onclick="openSidebar('44_Whitemane Griffin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\86_Vestal Oracle.png" id="86_Vestal Oracle" data-flag="@X" onclick="openSidebar('86_Vestal Oracle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\130_Youthful Contender.png" id="130_Youthful Contender" data-flag="@X" onclick="openSidebar('130_Youthful Contender',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\170_Turn to Slag.png" id="170_Turn to Slag" data-flag="@X" onclick="openSidebar('170_Turn to Slag',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\216_Where All Roads Lead.png" id="216_Where All Roads Lead" data-flag="@X" onclick="openSidebar('216_Where All Roads Lead',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\217_Gilded Heir.png" id="217_Gilded Heir" data-flag="@X" onclick="openSidebar('217_Gilded Heir',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\220_Ars Longa, Vita Brevis.png" id="220_Ars Longa, Vita Brevis" data-flag="@X" onclick="openSidebar('220_Ars Longa, Vita Brevis',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\223_Necrodominance.png" id="223_Necrodominance" data-flag="@X" onclick="openSidebar('223_Necrodominance',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\226_Fraulian Ogre.png" id="226_Fraulian Ogre" data-flag="@X" onclick="openSidebar('226_Fraulian Ogre',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\229_Dramatic Encirclement.png" id="229_Dramatic Encirclement" data-flag="@X" onclick="openSidebar('229_Dramatic Encirclement',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\219_Tribute to the Lares.png" id="219_Tribute to the Lares" data-flag="@X" onclick="openSidebar('219_Tribute to the Lares',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\222_Savage Screecher.png" id="222_Savage Screecher" data-flag="@X" onclick="openSidebar('222_Savage Screecher',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\225_Tribune of the Dead.png" id="225_Tribune of the Dead" data-flag="@X" onclick="openSidebar('225_Tribune of the Dead',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\228_Total War.png" id="228_Total War" data-flag="@X" onclick="openSidebar('228_Total War',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\230_Provincial Magistrate.png" id="230_Provincial Magistrate" data-flag="@X" onclick="openSidebar('230_Provincial Magistrate',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\218_Proscribed Orator.png" id="218_Proscribed Orator" data-flag="@X" onclick="openSidebar('218_Proscribed Orator',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\221_Lost Legionary.png" id="221_Lost Legionary" data-flag="@X" onclick="openSidebar('221_Lost Legionary',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\224_Praetorian Guard.png" id="224_Praetorian Guard" data-flag="@X" onclick="openSidebar('224_Praetorian Guard',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\227_Legion Signifer.png" id="227_Legion Signifer" data-flag="@X" onclick="openSidebar('227_Legion Signifer',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\231_Stoic Lictor.png" id="231_Stoic Lictor" data-flag="@X" onclick="openSidebar('231_Stoic Lictor',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\232_Loquacious Consul.png" id="232_Loquacious Consul" data-flag="@X" onclick="openSidebar('232_Loquacious Consul',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\234_Beast Tamer.png" id="234_Beast Tamer" data-flag="@X" onclick="openSidebar('234_Beast Tamer',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\236_Bulwark Murmillo.png" id="236_Bulwark Murmillo" data-flag="@X" onclick="openSidebar('236_Bulwark Murmillo',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\233_Veteran Champion.png" id="233_Veteran Champion" data-flag="@X" onclick="openSidebar('233_Veteran Champion',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\235_Arena Veteran.png" id="235_Arena Veteran" data-flag="@X" onclick="openSidebar('235_Arena Veteran',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\237_Caesar, Legion's Emperor.png" id="237_Caesar, Legions Emperor" data-flag="@X" onclick="openSidebar('237_Caesar, Legions Emperor',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\238_Gaio, Princeps of the Dead.png" id="238_Gaio, Princeps of the Dead" data-flag="@X" onclick="openSidebar('238_Gaio, Princeps of the Dead',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\239_Hamilbas, Master of Warfare.png" id="239_Hamilbas, Master of Warfare" data-flag="@X" onclick="openSidebar('239_Hamilbas, Master of Warfare',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\240_Sullo, Praetorian Consul.png" id="240_Sullo, Praetorian Consul" data-flag="@X" onclick="openSidebar('240_Sullo, Praetorian Consul',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\241_Tomura, Barbarian Queen.png" id="241_Tomura, Barbarian Queen" data-flag="@X" onclick="openSidebar('241_Tomura, Barbarian Queen',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\217_Gilded Heir.png" id="217_Gilded Heir" data-flag="@X" onclick="openSidebar('217_Gilded Heir',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\220_Ars Longa, Vita Brevis.png" id="220_Ars Longa, Vita Brevis" data-flag="@X" onclick="openSidebar('220_Ars Longa, Vita Brevis',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\223_Necrodominance.png" id="223_Necrodominance" data-flag="@X" onclick="openSidebar('223_Necrodominance',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\226_Fraulian Ogre.png" id="226_Fraulian Ogre" data-flag="@X" onclick="openSidebar('226_Fraulian Ogre',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\229_Dramatic Encirclement.png" id="229_Dramatic Encirclement" data-flag="@X" onclick="openSidebar('229_Dramatic Encirclement',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\219_Tribute to the Lares.png" id="219_Tribute to the Lares" data-flag="@X" onclick="openSidebar('219_Tribute to the Lares',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\222_Savage Screecher.png" id="222_Savage Screecher" data-flag="@X" onclick="openSidebar('222_Savage Screecher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\225_Tribune of the Dead.png" id="225_Tribune of the Dead" data-flag="@X" onclick="openSidebar('225_Tribune of the Dead',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\228_Total War.png" id="228_Total War" data-flag="@X" onclick="openSidebar('228_Total War',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\230_Provincial Magistrate.png" id="230_Provincial Magistrate" data-flag="@X" onclick="openSidebar('230_Provincial Magistrate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\218_Proscribed Orator.png" id="218_Proscribed Orator" data-flag="@X" onclick="openSidebar('218_Proscribed Orator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\221_Lost Legionary.png" id="221_Lost Legionary" data-flag="@X" onclick="openSidebar('221_Lost Legionary',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\224_Praetorian Guard.png" id="224_Praetorian Guard" data-flag="@X" onclick="openSidebar('224_Praetorian Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\227_Legion Signifer.png" id="227_Legion Signifer" data-flag="@X" onclick="openSidebar('227_Legion Signifer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\231_Stoic Lictor.png" id="231_Stoic Lictor" data-flag="@X" onclick="openSidebar('231_Stoic Lictor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\232_Loquacious Consul.png" id="232_Loquacious Consul" data-flag="@X" onclick="openSidebar('232_Loquacious Consul',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\234_Beast Tamer.png" id="234_Beast Tamer" data-flag="@X" onclick="openSidebar('234_Beast Tamer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\236_Bulwark Murmillo.png" id="236_Bulwark Murmillo" data-flag="@X" onclick="openSidebar('236_Bulwark Murmillo',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\233_Veteran Champion.png" id="233_Veteran Champion" data-flag="@X" onclick="openSidebar('233_Veteran Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\235_Arena Veteran.png" id="235_Arena Veteran" data-flag="@X" onclick="openSidebar('235_Arena Veteran',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\237_Caesar, Legion's Emperor.png" id="237_Caesar, Legions Emperor" data-flag="@X" onclick="openSidebar('237_Caesar, Legions Emperor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\238_Gaio, Princeps of the Dead.png" id="238_Gaio, Princeps of the Dead" data-flag="@X" onclick="openSidebar('238_Gaio, Princeps of the Dead',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\239_Hamilbas, Master of Warfare.png" id="239_Hamilbas, Master of Warfare" data-flag="@X" onclick="openSidebar('239_Hamilbas, Master of Warfare',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\240_Sullo, Praetorian Consul.png" id="240_Sullo, Praetorian Consul" data-flag="@X" onclick="openSidebar('240_Sullo, Praetorian Consul',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\241_Tomura, Barbarian Queen.png" id="241_Tomura, Barbarian Queen" data-flag="@X" onclick="openSidebar('241_Tomura, Barbarian Queen',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\243_Colosseum Arbiter.png" id="243_Colosseum Arbiter" data-flag="@X" onclick="openSidebar('243_Colosseum Arbiter',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\244_Imperial Eternus.png" id="244_Imperial Eternus" data-flag="@X" onclick="openSidebar('244_Imperial Eternus',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\245_Quincunx Patera.png" id="245_Quincunx Patera" data-flag="@X" onclick="openSidebar('245_Quincunx Patera',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\246_Shield of Oil and Water.png" id="246_Shield of Oil and Water" data-flag="@X" onclick="openSidebar('246_Shield of Oil and Water',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\242_Border-Carver Gladius.png" id="242_Border-Carver Gladius" data-flag="@X" onclick="openSidebar('242_Border-Carver Gladius',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\247_Silver Centurion.png" id="247_Silver Centurion" data-flag="@X" onclick="openSidebar('247_Silver Centurion',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\248_Thermae Guardian.png" id="248_Thermae Guardian" data-flag="@X" onclick="openSidebar('248_Thermae Guardian',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\249_Urn of Plenty.png" id="249_Urn of Plenty" data-flag="@X" onclick="openSidebar('249_Urn of Plenty',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\250_Winged Victory.png" id="250_Winged Victory" data-flag="@X" onclick="openSidebar('250_Winged Victory',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\260_Stoic Frigidarium.png" id="260_Stoic Frigidarium" data-flag="@X" onclick="openSidebar('260_Stoic Frigidarium',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\254_Opulent Domus.png" id="254_Opulent Domus" data-flag="@X" onclick="openSidebar('254_Opulent Domus',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\259_Shadowed Lararium.png" id="259_Shadowed Lararium" data-flag="@X" onclick="openSidebar('259_Shadowed Lararium',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\257_Sacred Templum.png" id="257_Sacred Templum" data-flag="@X" onclick="openSidebar('257_Sacred Templum',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\253_Imperial Villa.png" id="253_Imperial Villa" data-flag="@X" onclick="openSidebar('253_Imperial Villa',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\251_Emperor's Domus.png" id="251_Emperors Domus" data-flag="@X" onclick="openSidebar('251_Emperors Domus',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\252_Glorious Forum.png" id="252_Glorious Forum" data-flag="@X" onclick="openSidebar('252_Glorious Forum',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\255_Planned Amphitheatre.png" id="255_Planned Amphitheatre" data-flag="@X" onclick="openSidebar('255_Planned Amphitheatre',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\256_Ruins of Empire.png" id="256_Ruins of Empire" data-flag="@X" onclick="openSidebar('256_Ruins of Empire',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\258_Seat of the Princeps.png" id="258_Seat of the Princeps" data-flag="@X" onclick="openSidebar('258_Seat of the Princeps',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\261_Triumphant Arch.png" id="261_Triumphant Arch" data-flag="@X" onclick="openSidebar('261_Triumphant Arch',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\262_Plains.png" id="262_Plains" data-flag="@X" onclick="openSidebar('262_Plains',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\263_Island.png" id="263_Island" data-flag="@X" onclick="openSidebar('263_Island',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\264_Swamp.png" id="264_Swamp" data-flag="@X" onclick="openSidebar('264_Swamp',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\265_Mountain.png" id="265_Mountain" data-flag="@X" onclick="openSidebar('265_Mountain',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\266_Forest.png" id="266_Forest" data-flag="@X" onclick="openSidebar('266_Forest',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\243_Colosseum Arbiter.png" id="243_Colosseum Arbiter" data-flag="@X" onclick="openSidebar('243_Colosseum Arbiter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\244_Imperial Eternus.png" id="244_Imperial Eternus" data-flag="@X" onclick="openSidebar('244_Imperial Eternus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\245_Quincunx Patera.png" id="245_Quincunx Patera" data-flag="@X" onclick="openSidebar('245_Quincunx Patera',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\246_Shield of Oil and Water.png" id="246_Shield of Oil and Water" data-flag="@X" onclick="openSidebar('246_Shield of Oil and Water',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\242_Border-Carver Gladius.png" id="242_Border-Carver Gladius" data-flag="@X" onclick="openSidebar('242_Border-Carver Gladius',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\247_Silver Centurion.png" id="247_Silver Centurion" data-flag="@X" onclick="openSidebar('247_Silver Centurion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\248_Thermae Guardian.png" id="248_Thermae Guardian" data-flag="@X" onclick="openSidebar('248_Thermae Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\249_Urn of Plenty.png" id="249_Urn of Plenty" data-flag="@X" onclick="openSidebar('249_Urn of Plenty',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\250_Winged Victory.png" id="250_Winged Victory" data-flag="@X" onclick="openSidebar('250_Winged Victory',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\260_Stoic Frigidarium.png" id="260_Stoic Frigidarium" data-flag="@X" onclick="openSidebar('260_Stoic Frigidarium',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\254_Opulent Domus.png" id="254_Opulent Domus" data-flag="@X" onclick="openSidebar('254_Opulent Domus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\259_Shadowed Lararium.png" id="259_Shadowed Lararium" data-flag="@X" onclick="openSidebar('259_Shadowed Lararium',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\257_Sacred Templum.png" id="257_Sacred Templum" data-flag="@X" onclick="openSidebar('257_Sacred Templum',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\253_Imperial Villa.png" id="253_Imperial Villa" data-flag="@X" onclick="openSidebar('253_Imperial Villa',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\251_Emperor's Domus.png" id="251_Emperors Domus" data-flag="@X" onclick="openSidebar('251_Emperors Domus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\252_Glorious Forum.png" id="252_Glorious Forum" data-flag="@X" onclick="openSidebar('252_Glorious Forum',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\255_Planned Amphitheatre.png" id="255_Planned Amphitheatre" data-flag="@X" onclick="openSidebar('255_Planned Amphitheatre',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\256_Ruins of Empire.png" id="256_Ruins of Empire" data-flag="@X" onclick="openSidebar('256_Ruins of Empire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\258_Seat of the Princeps.png" id="258_Seat of the Princeps" data-flag="@X" onclick="openSidebar('258_Seat of the Princeps',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\261_Triumphant Arch.png" id="261_Triumphant Arch" data-flag="@X" onclick="openSidebar('261_Triumphant Arch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\262_Plains.png" id="262_Plains" data-flag="@X" onclick="openSidebar('262_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\263_Island.png" id="263_Island" data-flag="@X" onclick="openSidebar('263_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\264_Swamp.png" id="264_Swamp" data-flag="@X" onclick="openSidebar('264_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\265_Mountain.png" id="265_Mountain" data-flag="@X" onclick="openSidebar('265_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\266_Forest.png" id="266_Forest" data-flag="@X" onclick="openSidebar('266_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\1t_Advisor.png" id="1t_Advisor" data-flag="@X" onclick="openSidebar('1t_Advisor',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\2t_Warrior.png" id="2t_Warrior" data-flag="@X" onclick="openSidebar('2t_Warrior',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\3t_Zombie.png" id="3t_Zombie" data-flag="@X" onclick="openSidebar('3t_Zombie',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\4t_Vexillum.png" id="4t_Vexillum" data-flag="@X" onclick="openSidebar('4t_Vexillum',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\5t_Beast.png" id="5t_Beast" data-flag="@X" onclick="openSidebar('5t_Beast',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\6t_Elephant.png" id="6t_Elephant" data-flag="@X" onclick="openSidebar('6t_Elephant',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\7t_Soldier.png" id="7t_Soldier" data-flag="@X" onclick="openSidebar('7t_Soldier',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\8t_Construct.png" id="8t_Construct" data-flag="@X" onclick="openSidebar('8t_Construct',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\9t_Gladius.png" id="9t_Gladius" data-flag="@X" onclick="openSidebar('9t_Gladius',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\10t_Pilum.png" id="10t_Pilum" data-flag="@X" onclick="openSidebar('10t_Pilum',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\11t_Scutum.png" id="11t_Scutum" data-flag="@X" onclick="openSidebar('11t_Scutum',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\12t_Statue.png" id="12t_Statue" data-flag="@X" onclick="openSidebar('12t_Statue',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\13t_Treasure.png" id="13t_Treasure" data-flag="@X" onclick="openSidebar('13t_Treasure',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\14t_Glory.png" id="14t_Glory" data-flag="@X" onclick="openSidebar('14t_Glory',false)"></div>
-				<div class="container"><img alt="/sets\SPQ-files\img\15t_Imperium.png" id="15t_Imperium" data-flag="@X" onclick="openSidebar('15t_Imperium',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\1t_Advisor.png" id="1t_Advisor" data-flag="@X" onclick="openSidebar('1t_Advisor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\2t_Warrior.png" id="2t_Warrior" data-flag="@X" onclick="openSidebar('2t_Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\3t_Zombie.png" id="3t_Zombie" data-flag="@X" onclick="openSidebar('3t_Zombie',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\4t_Vexillum.png" id="4t_Vexillum" data-flag="@X" onclick="openSidebar('4t_Vexillum',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\5t_Beast.png" id="5t_Beast" data-flag="@X" onclick="openSidebar('5t_Beast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\6t_Elephant.png" id="6t_Elephant" data-flag="@X" onclick="openSidebar('6t_Elephant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\7t_Soldier.png" id="7t_Soldier" data-flag="@X" onclick="openSidebar('7t_Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\8t_Construct.png" id="8t_Construct" data-flag="@X" onclick="openSidebar('8t_Construct',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\9t_Gladius.png" id="9t_Gladius" data-flag="@X" onclick="openSidebar('9t_Gladius',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\10t_Pilum.png" id="10t_Pilum" data-flag="@X" onclick="openSidebar('10t_Pilum',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\11t_Scutum.png" id="11t_Scutum" data-flag="@X" onclick="openSidebar('11t_Scutum',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\12t_Statue.png" id="12t_Statue" data-flag="@X" onclick="openSidebar('12t_Statue',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\13t_Treasure.png" id="13t_Treasure" data-flag="@X" onclick="openSidebar('13t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\14t_Glory.png" id="14t_Glory" data-flag="@X" onclick="openSidebar('14t_Glory',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPQ-files\img\15t_Imperium.png" id="15t_Imperium" data-flag="@X" onclick="openSidebar('15t_Imperium',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
@@ -725,27 +717,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -757,17 +773,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -800,6 +818,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -809,6 +828,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -831,21 +851,21 @@
 	}
 
 		function randomCard() {
-			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-			let random_card = card_list_arrayified[i];
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
 
-			const url = new URL('card', window.location.origin);
-			const params = {
-				set: random_card.set,
-				num: random_card.number,
-				name: random_card.card_name
-			}
-			for (const key in params) {
-				url.searchParams.append(key, params[key]);
-			}
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
 
-			window.location.href = url;
-		}
+				window.location.href = url;
+			}
 	</script>
 </body>
 </html>

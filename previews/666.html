@@ -39,8 +39,8 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
@@ -126,12 +126,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -203,9 +204,6 @@
 		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
 		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/JMR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OVR-files/icon.png" />
 		<img class="preload-hidden" id="bg" src="/sets/666-files/bg.png" />
 
 		<div class="header">
@@ -219,7 +217,7 @@
 		</div>
 	</div>
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
 		<a class="set-bar" href="666"><img src="/sets/666-files/icon.png">Circles of Bocacius</a>
 	
@@ -277,383 +275,377 @@
 	
 		<a class="set-bar inactive" href="ELO"><img src="/sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
 	
-		<a class="set-bar inactive" href="JMR"><img src="/sets/JMR-files/icon.png">Jamuraa: The Mirage War</a>
-	
-		<a class="set-bar inactive" href="90S"><img src="/sets/90S-files/icon.png">Rath and Storm</a>
-	
-		<a class="set-bar inactive" href="OVR"><img src="/sets/OVR-files/icon.png">Overlay</a>
-	
 		</div>
 		<div class="banner">
 		<img class="logo" src="/sets/666-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\666-files\img\6_Ghazuz, the Whispered End.png" id="6_Ghazuz, the Whispered End" data-flag="@X" onclick="openSidebar('6_Ghazuz, the Whispered End',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\7_Infernal Pseudomonarch.png" id="7_Infernal Pseudomonarch" data-flag="@X" onclick="openSidebar('7_Infernal Pseudomonarch',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\9_Leviathan, Heart of Sin.png" id="9_Leviathan, Heart of Sin" data-flag="@X" onclick="openSidebar('9_Leviathan, Heart of Sin',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\8_Kharus, Wretched Ferryman.png" id="8_Kharus, Wretched Ferryman" data-flag="@X" onclick="openSidebar('8_Kharus, Wretched Ferryman',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\3_Crawling Conflict.png" id="3_Crawling Conflict" data-flag="@X" onclick="openSidebar('3_Crawling Conflict',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\4_Eternal Remission.png" id="4_Eternal Remission" data-flag="@X" onclick="openSidebar('4_Eternal Remission',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\5_Flayed Exemplar.png" id="5_Flayed Exemplar" data-flag="@X" onclick="openSidebar('5_Flayed Exemplar',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\1_Basilica's Bane.png" id="1_Basilicas Bane" data-flag="@X" onclick="openSidebar('1_Basilicas Bane',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\2_Behold the City.png" id="2_Behold the City" data-flag="@X" onclick="openSidebar('2_Behold the City',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\41_Shadow of Purgation.png" id="41_Shadow of Purgation" data-flag="@X" onclick="openSidebar('41_Shadow of Purgation',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\50_Avarice.png" id="50_Avarice" data-flag="@X" onclick="openSidebar('50_Avarice',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\96_Envy.png" id="96_Envy" data-flag="@X" onclick="openSidebar('96_Envy',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\124_Acedia.png" id="124_Acedia" data-flag="@X" onclick="openSidebar('124_Acedia',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\162_Abyssal Orchestra.png" id="162_Abyssal Orchestra" data-flag="@X" onclick="openSidebar('162_Abyssal Orchestra',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\47_Wrath.png" id="47_Wrath" data-flag="@X" onclick="openSidebar('47_Wrath',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\61_Holder of Cursed Wisdom.png" id="61_Holder of Cursed Wisdom" data-flag="@X" onclick="openSidebar('61_Holder of Cursed Wisdom',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\101_Gluttony.png" id="101_Gluttony" data-flag="@X" onclick="openSidebar('101_Gluttony',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\143_Lust.png" id="143_Lust" data-flag="@X" onclick="openSidebar('143_Lust',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\186_Pride.png" id="186_Pride" data-flag="@X" onclick="openSidebar('186_Pride',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\10_Abandon All Hope.png" id="10_Abandon All Hope" data-flag="@X" onclick="openSidebar('10_Abandon All Hope',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\51_Echo of Contempt.png" id="51_Echo of Contempt" data-flag="@X" onclick="openSidebar('51_Echo of Contempt',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\87_Basal Tempter.png" id="87_Basal Tempter" data-flag="@X" onclick="openSidebar('87_Basal Tempter',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\125_Avaricious Wretch.png" id="125_Avaricious Wretch" data-flag="@X" onclick="openSidebar('125_Avaricious Wretch',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\166_Balat, Accursed Liege.png" id="166_Balat, Accursed Liege" data-flag="@X" onclick="openSidebar('166_Balat, Accursed Liege',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\20_Envious Knave.png" id="20_Envious Knave" data-flag="@X" onclick="openSidebar('20_Envious Knave',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\52_Embrace Damnation.png" id="52_Embrace Damnation" data-flag="@X" onclick="openSidebar('52_Embrace Damnation',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\100_Gates of Disyus.png" id="100_Gates of Disyus" data-flag="@X" onclick="openSidebar('100_Gates of Disyus',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\135_Haggard Corpsebird.png" id="135_Haggard Corpsebird" data-flag="@X" onclick="openSidebar('135_Haggard Corpsebird',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\176_Guilt Gnawer.png" id="176_Guilt Gnawer" data-flag="@X" onclick="openSidebar('176_Guilt Gnawer',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\35_Procession of Souls.png" id="35_Procession of Souls" data-flag="@X" onclick="openSidebar('35_Procession of Souls',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\62_Knave's Progress.png" id="62_Knaves Progress" data-flag="@X" onclick="openSidebar('62_Knaves Progress',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\106_Into Treachery's Maw.png" id="106_Into Treacherys Maw" data-flag="@X" onclick="openSidebar('106_Into Treacherys Maw',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\137_Heart of Disyus.png" id="137_Heart of Disyus" data-flag="@X" onclick="openSidebar('137_Heart of Disyus',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\183_Nesting Beast.png" id="183_Nesting Beast" data-flag="@X" onclick="openSidebar('183_Nesting Beast',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\36_Profligate's Progress.png" id="36_Profligates Progress" data-flag="@X" onclick="openSidebar('36_Profligates Progress',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\70_Prince of Acedia.png" id="70_Prince of Acedia" data-flag="@X" onclick="openSidebar('70_Prince of Acedia',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\110_Lumpen Taunter.png" id="110_Lumpen Taunter" data-flag="@X" onclick="openSidebar('110_Lumpen Taunter',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\138_Hellrider.png" id="138_Hellrider" data-flag="@X" onclick="openSidebar('138_Hellrider',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\184_Original Sin.png" id="184_Original Sin" data-flag="@X" onclick="openSidebar('184_Original Sin',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\39_Salvation's Shadow.png" id="39_Salvations Shadow" data-flag="@X" onclick="openSidebar('39_Salvations Shadow',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\73_Scholar of Sin.png" id="73_Scholar of Sin" data-flag="@X" onclick="openSidebar('73_Scholar of Sin',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\111_Misery's Confidant.png" id="111_Miserys Confidant" data-flag="@X" onclick="openSidebar('111_Miserys Confidant',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\146_No Rest for the Living.png" id="146_No Rest for the Living" data-flag="@X" onclick="openSidebar('146_No Rest for the Living',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\187_Primal Bedrock.png" id="187_Primal Bedrock" data-flag="@X" onclick="openSidebar('187_Primal Bedrock',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\44_Tamer of Grotesques.png" id="44_Tamer of Grotesques" data-flag="@X" onclick="openSidebar('44_Tamer of Grotesques',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\84_Two-Pronged Crown.png" id="84_Two-Pronged Crown" data-flag="@X" onclick="openSidebar('84_Two-Pronged Crown',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\122_Wretch's Progress.png" id="122_Wretchs Progress" data-flag="@X" onclick="openSidebar('122_Wretchs Progress',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\154_Soulburner Tyrant.png" id="154_Soulburner Tyrant" data-flag="@X" onclick="openSidebar('154_Soulburner Tyrant',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\190_Rake's Progress.png" id="190_Rakes Progress" data-flag="@X" onclick="openSidebar('190_Rakes Progress',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\45_Unleash the Damned.png" id="45_Unleash the Damned" data-flag="@X" onclick="openSidebar('45_Unleash the Damned',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\85_Weight of Eternity.png" id="85_Weight of Eternity" data-flag="@X" onclick="openSidebar('85_Weight of Eternity',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\123_Wretch's Tomb.png" id="123_Wretchs Tomb" data-flag="@X" onclick="openSidebar('123_Wretchs Tomb',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\160_Wastrel's Progress.png" id="160_Wastrels Progress" data-flag="@X" onclick="openSidebar('160_Wastrels Progress',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\193_Sin-Gift Cenobite.png" id="193_Sin-Gift Cenobite" data-flag="@X" onclick="openSidebar('193_Sin-Gift Cenobite',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\13_Arbiter of the Dead.png" id="13_Arbiter of the Dead" data-flag="@X" onclick="openSidebar('13_Arbiter of the Dead',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\48_Abomination Shaper.png" id="48_Abomination Shaper" data-flag="@X" onclick="openSidebar('48_Abomination Shaper',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\86_Awaiting Judgment.png" id="86_Awaiting Judgment" data-flag="@X" onclick="openSidebar('86_Awaiting Judgment',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\126_Baying Brute.png" id="126_Baying Brute" data-flag="@X" onclick="openSidebar('126_Baying Brute',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\163_Against Thee Wickedly.png" id="163_Against Thee Wickedly" data-flag="@X" onclick="openSidebar('163_Against Thee Wickedly',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\15_Bathed in Glory.png" id="15_Bathed in Glory" data-flag="@X" onclick="openSidebar('15_Bathed in Glory',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\54_False Seer.png" id="54_False Seer" data-flag="@X" onclick="openSidebar('54_False Seer',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\89_Collector of Faces.png" id="89_Collector of Faces" data-flag="@X" onclick="openSidebar('89_Collector of Faces',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\132_Echo of Witchcraft.png" id="132_Echo of Witchcraft" data-flag="@X" onclick="openSidebar('132_Echo of Witchcraft',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\164_Antediluvian Idol.png" id="164_Antediluvian Idol" data-flag="@X" onclick="openSidebar('164_Antediluvian Idol',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\16_Bride of Swords.png" id="16_Bride of Swords" data-flag="@X" onclick="openSidebar('16_Bride of Swords',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\57_Frozen in Kytos.png" id="57_Frozen in Kytos" data-flag="@X" onclick="openSidebar('57_Frozen in Kytos',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\90_Creeping Filth.png" id="90_Creeping Filth" data-flag="@X" onclick="openSidebar('90_Creeping Filth',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\134_Furious Primitive.png" id="134_Furious Primitive" data-flag="@X" onclick="openSidebar('134_Furious Primitive',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\169_Conqueror Wurm.png" id="169_Conqueror Wurm" data-flag="@X" onclick="openSidebar('169_Conqueror Wurm',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\18_Denier of History.png" id="18_Denier of History" data-flag="@X" onclick="openSidebar('18_Denier of History',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\58_Godless Heresiarch.png" id="58_Godless Heresiarch" data-flag="@X" onclick="openSidebar('58_Godless Heresiarch',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\92_Cycle of Punishment.png" id="92_Cycle of Punishment" data-flag="@X" onclick="openSidebar('92_Cycle of Punishment',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\136_Halls of Limbo.png" id="136_Halls of Limbo" data-flag="@X" onclick="openSidebar('136_Halls of Limbo',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\173_Gorging Glutton.png" id="173_Gorging Glutton" data-flag="@X" onclick="openSidebar('173_Gorging Glutton',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\19_Embittered Wight.png" id="19_Embittered Wight" data-flag="@X" onclick="openSidebar('19_Embittered Wight',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\59_Great Refusal.png" id="59_Great Refusal" data-flag="@X" onclick="openSidebar('59_Great Refusal',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\95_Doomed Poet.png" id="95_Doomed Poet" data-flag="@X" onclick="openSidebar('95_Doomed Poet',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\139_Hunter of the Craven.png" id="139_Hunter of the Craven" data-flag="@X" onclick="openSidebar('139_Hunter of the Craven',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\175_Groom of Swords.png" id="175_Groom of Swords" data-flag="@X" onclick="openSidebar('175_Groom of Swords',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\21_Eternal Taskmaster.png" id="21_Eternal Taskmaster" data-flag="@X" onclick="openSidebar('21_Eternal Taskmaster',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\63_Languid Pustule.png" id="63_Languid Pustule" data-flag="@X" onclick="openSidebar('63_Languid Pustule',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\103_Grove of the Suicides.png" id="103_Grove of the Suicides" data-flag="@X" onclick="openSidebar('103_Grove of the Suicides',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\141_Knave of Perdition.png" id="141_Knave of Perdition" data-flag="@X" onclick="openSidebar('141_Knave of Perdition',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\177_Hell's Wrath.png" id="177_Hells Wrath" data-flag="@X" onclick="openSidebar('177_Hells Wrath',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\23_Ghost of Injustice.png" id="23_Ghost of Injustice" data-flag="@X" onclick="openSidebar('23_Ghost of Injustice',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\65_March of Remission.png" id="65_March of Remission" data-flag="@X" onclick="openSidebar('65_March of Remission',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\105_Guilt Scavenger.png" id="105_Guilt Scavenger" data-flag="@X" onclick="openSidebar('105_Guilt Scavenger',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\142_Lead into Temptation.png" id="142_Lead into Temptation" data-flag="@X" onclick="openSidebar('142_Lead into Temptation',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\180_Indolent Leech.png" id="180_Indolent Leech" data-flag="@X" onclick="openSidebar('180_Indolent Leech',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\28_Legion of the Damned.png" id="28_Legion of the Damned" data-flag="@X" onclick="openSidebar('28_Legion of the Damned',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\66_Mysteries of the Worm.png" id="66_Mysteries of the Worm" data-flag="@X" onclick="openSidebar('66_Mysteries of the Worm',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\107_Knotted Annihilation.png" id="107_Knotted Annihilation" data-flag="@X" onclick="openSidebar('107_Knotted Annihilation',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\145_Mired in Grief.png" id="145_Mired in Grief" data-flag="@X" onclick="openSidebar('145_Mired in Grief',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\181_March into Nothingness.png" id="181_March into Nothingness" data-flag="@X" onclick="openSidebar('181_March into Nothingness',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\32_Oblivion Blade.png" id="32_Oblivion Blade" data-flag="@X" onclick="openSidebar('32_Oblivion Blade',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\68_Path of Omens.png" id="68_Path of Omens" data-flag="@X" onclick="openSidebar('68_Path of Omens',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\113_Prideful Guardian.png" id="113_Prideful Guardian" data-flag="@X" onclick="openSidebar('113_Prideful Guardian',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\148_Procession of Hate.png" id="148_Procession of Hate" data-flag="@X" onclick="openSidebar('148_Procession of Hate',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\182_Maw of Disyus.png" id="182_Maw of Disyus" data-flag="@X" onclick="openSidebar('182_Maw of Disyus',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\33_Path to Ignominy.png" id="33_Path to Ignominy" data-flag="@X" onclick="openSidebar('33_Path to Ignominy',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\71_Reach from the Depths.png" id="71_Reach from the Depths" data-flag="@X" onclick="openSidebar('71_Reach from the Depths',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\115_Scorn of the Damned.png" id="115_Scorn of the Damned" data-flag="@X" onclick="openSidebar('115_Scorn of the Damned',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\149_Punisher of Folly.png" id="149_Punisher of Folly" data-flag="@X" onclick="openSidebar('149_Punisher of Folly',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\185_Pitiless Sentinel.png" id="185_Pitiless Sentinel" data-flag="@X" onclick="openSidebar('185_Pitiless Sentinel',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\38_Remnant of Humanity.png" id="38_Remnant of Humanity" data-flag="@X" onclick="openSidebar('38_Remnant of Humanity',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\75_Sentinel of Menaus.png" id="75_Sentinel of Menaus" data-flag="@X" onclick="openSidebar('75_Sentinel of Menaus',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\116_Shepherd of Pain.png" id="116_Shepherd of Pain" data-flag="@X" onclick="openSidebar('116_Shepherd of Pain',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\156_Spiralling Damnation.png" id="156_Spiralling Damnation" data-flag="@X" onclick="openSidebar('156_Spiralling Damnation',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\189_Punisher of Kytos.png" id="189_Punisher of Kytos" data-flag="@X" onclick="openSidebar('189_Punisher of Kytos',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\40_Seek Remission.png" id="40_Seek Remission" data-flag="@X" onclick="openSidebar('40_Seek Remission',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\81_Titanic Hubris.png" id="81_Titanic Hubris" data-flag="@X" onclick="openSidebar('81_Titanic Hubris',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\117_Sickly Fleshflower.png" id="117_Sickly Fleshflower" data-flag="@X" onclick="openSidebar('117_Sickly Fleshflower',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\158_Torrent of Wingbeats.png" id="158_Torrent of Wingbeats" data-flag="@X" onclick="openSidebar('158_Torrent of Wingbeats',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\194_Slavering Wretch.png" id="194_Slavering Wretch" data-flag="@X" onclick="openSidebar('194_Slavering Wretch',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\42_Son of Perdition.png" id="42_Son of Perdition" data-flag="@X" onclick="openSidebar('42_Son of Perdition',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\82_Tornado of Souls.png" id="82_Tornado of Souls" data-flag="@X" onclick="openSidebar('82_Tornado of Souls',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\118_Slavering Council.png" id="118_Slavering Council" data-flag="@X" onclick="openSidebar('118_Slavering Council',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\159_Triplicate Cur.png" id="159_Triplicate Cur" data-flag="@X" onclick="openSidebar('159_Triplicate Cur',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\197_Unquiet Tomb.png" id="197_Unquiet Tomb" data-flag="@X" onclick="openSidebar('197_Unquiet Tomb',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\46_Withered Proudblade.png" id="46_Withered Proudblade" data-flag="@X" onclick="openSidebar('46_Withered Proudblade',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\83_Transient Mutation.png" id="83_Transient Mutation" data-flag="@X" onclick="openSidebar('83_Transient Mutation',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\120_A Waste of Good Suffering.png" id="120_A Waste of Good Suffering" data-flag="@X" onclick="openSidebar('120_A Waste of Good Suffering',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\161_Words of Blood.png" id="161_Words of Blood" data-flag="@X" onclick="openSidebar('161_Words of Blood',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\198_Weight of Guilt.png" id="198_Weight of Guilt" data-flag="@X" onclick="openSidebar('198_Weight of Guilt',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\11_Accursed Crusader.png" id="11_Accursed Crusader" data-flag="@X" onclick="openSidebar('11_Accursed Crusader',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\49_Architect of Spite.png" id="49_Architect of Spite" data-flag="@X" onclick="openSidebar('49_Architect of Spite',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\88_Bitter Envy.png" id="88_Bitter Envy" data-flag="@X" onclick="openSidebar('88_Bitter Envy',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\127_Better to Reign.png" id="127_Better to Reign" data-flag="@X" onclick="openSidebar('127_Better to Reign',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\165_Arcane Puzzlebox.png" id="165_Arcane Puzzlebox" data-flag="@X" onclick="openSidebar('165_Arcane Puzzlebox',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\12_Apprentice of Menaus.png" id="12_Apprentice of Menaus" data-flag="@X" onclick="openSidebar('12_Apprentice of Menaus',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\53_Eternal Downfall.png" id="53_Eternal Downfall" data-flag="@X" onclick="openSidebar('53_Eternal Downfall',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\91_Cruel Admonisher.png" id="91_Cruel Admonisher" data-flag="@X" onclick="openSidebar('91_Cruel Admonisher',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\128_Bitter Chainflinger.png" id="128_Bitter Chainflinger" data-flag="@X" onclick="openSidebar('128_Bitter Chainflinger',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\167_Bestial Betrayer.png" id="167_Bestial Betrayer" data-flag="@X" onclick="openSidebar('167_Bestial Betrayer',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\14_Banishing Rite.png" id="14_Banishing Rite" data-flag="@X" onclick="openSidebar('14_Banishing Rite',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\55_Ferryman's Aegis.png" id="55_Ferrymans Aegis" data-flag="@X" onclick="openSidebar('55_Ferrymans Aegis',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\93_Defeat.png" id="93_Defeat" data-flag="@X" onclick="openSidebar('93_Defeat',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\129_Burning Ire.png" id="129_Burning Ire" data-flag="@X" onclick="openSidebar('129_Burning Ire',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\168_Cavernous Trogwalla.png" id="168_Cavernous Trogwalla" data-flag="@X" onclick="openSidebar('168_Cavernous Trogwalla',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\17_Calumny Collector.png" id="17_Calumny Collector" data-flag="@X" onclick="openSidebar('17_Calumny Collector',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\56_Frantic Inventory.png" id="56_Frantic Inventory" data-flag="@X" onclick="openSidebar('56_Frantic Inventory',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\94_Devoured by Vermin.png" id="94_Devoured by Vermin" data-flag="@X" onclick="openSidebar('94_Devoured by Vermin',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\130_Capricious Spitefiend.png" id="130_Capricious Spitefiend" data-flag="@X" onclick="openSidebar('130_Capricious Spitefiend',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\170_Ghost of Acedia.png" id="170_Ghost of Acedia" data-flag="@X" onclick="openSidebar('170_Ghost of Acedia',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\22_Futile Mercy.png" id="22_Futile Mercy" data-flag="@X" onclick="openSidebar('22_Futile Mercy',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\60_Grisly Skulker.png" id="60_Grisly Skulker" data-flag="@X" onclick="openSidebar('60_Grisly Skulker',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\97_Executioner of Menaus.png" id="97_Executioner of Menaus" data-flag="@X" onclick="openSidebar('97_Executioner of Menaus',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\131_Dreams of Damnation.png" id="131_Dreams of Damnation" data-flag="@X" onclick="openSidebar('131_Dreams of Damnation',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\171_Gluttonous Maw.png" id="171_Gluttonous Maw" data-flag="@X" onclick="openSidebar('171_Gluttonous Maw',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\24_Grafted Cenobite.png" id="24_Grafted Cenobite" data-flag="@X" onclick="openSidebar('24_Grafted Cenobite',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\64_Letosine Tyrant.png" id="64_Letosine Tyrant" data-flag="@X" onclick="openSidebar('64_Letosine Tyrant',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\98_Exquisite Tormentor.png" id="98_Exquisite Tormentor" data-flag="@X" onclick="openSidebar('98_Exquisite Tormentor',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\133_Furious Irestoker.png" id="133_Furious Irestoker" data-flag="@X" onclick="openSidebar('133_Furious Irestoker',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\172_Gnarled Gnostic.png" id="172_Gnarled Gnostic" data-flag="@X" onclick="openSidebar('172_Gnarled Gnostic',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\25_Grip of Kytos.png" id="25_Grip of Kytos" data-flag="@X" onclick="openSidebar('25_Grip of Kytos',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\67_Noisome Corpsefly.png" id="67_Noisome Corpsefly" data-flag="@X" onclick="openSidebar('67_Noisome Corpsefly',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\99_Feed the Serpent.png" id="99_Feed the Serpent" data-flag="@X" onclick="openSidebar('99_Feed the Serpent',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\140_Judgment of Menaus.png" id="140_Judgment of Menaus" data-flag="@X" onclick="openSidebar('140_Judgment of Menaus',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\174_Grasp of the Wretched.png" id="174_Grasp of the Wretched" data-flag="@X" onclick="openSidebar('174_Grasp of the Wretched',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\26_Ichorborn Shrike.png" id="26_Ichorborn Shrike" data-flag="@X" onclick="openSidebar('26_Ichorborn Shrike',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\69_Penitant Squire.png" id="69_Penitant Squire" data-flag="@X" onclick="openSidebar('69_Penitant Squire',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\102_Gnarled Worm.png" id="102_Gnarled Worm" data-flag="@X" onclick="openSidebar('102_Gnarled Worm',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\144_Maw of Judgment.png" id="144_Maw of Judgment" data-flag="@X" onclick="openSidebar('144_Maw of Judgment',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\178_Humbled Titan.png" id="178_Humbled Titan" data-flag="@X" onclick="openSidebar('178_Humbled Titan',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\27_Keeper of the Circles.png" id="27_Keeper of the Circles" data-flag="@X" onclick="openSidebar('27_Keeper of the Circles',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\72_Scatter in Shame.png" id="72_Scatter in Shame" data-flag="@X" onclick="openSidebar('72_Scatter in Shame',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\104_Guardian of the Sixth Circle.png" id="104_Guardian of the Sixth Circle" data-flag="@X" onclick="openSidebar('104_Guardian of the Sixth Circle',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\147_Ocular Takwin.png" id="147_Ocular Takwin" data-flag="@X" onclick="openSidebar('147_Ocular Takwin',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\179_Impenitent Scholar.png" id="179_Impenitent Scholar" data-flag="@X" onclick="openSidebar('179_Impenitent Scholar',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\29_Loathsome Gadfly.png" id="29_Loathsome Gadfly" data-flag="@X" onclick="openSidebar('29_Loathsome Gadfly',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\74_Scourge of the Styges.png" id="74_Scourge of the Styges" data-flag="@X" onclick="openSidebar('74_Scourge of the Styges',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\108_Leviathan's Gaze.png" id="108_Leviathans Gaze" data-flag="@X" onclick="openSidebar('108_Leviathans Gaze',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\150_Relentless Shadow.png" id="150_Relentless Shadow" data-flag="@X" onclick="openSidebar('150_Relentless Shadow',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\188_Profane Piping.png" id="188_Profane Piping" data-flag="@X" onclick="openSidebar('188_Profane Piping',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\30_Lost to Pride.png" id="30_Lost to Pride" data-flag="@X" onclick="openSidebar('30_Lost to Pride',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\76_Snarl Cannon.png" id="76_Snarl Cannon" data-flag="@X" onclick="openSidebar('76_Snarl Cannon',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\109_Lumpen Calumny.png" id="109_Lumpen Calumny" data-flag="@X" onclick="openSidebar('109_Lumpen Calumny',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\151_Remnant of Desire.png" id="151_Remnant of Desire" data-flag="@X" onclick="openSidebar('151_Remnant of Desire',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\191_Relentless Reaver.png" id="191_Relentless Reaver" data-flag="@X" onclick="openSidebar('191_Relentless Reaver',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\31_Lurking Nehustan.png" id="31_Lurking Nehustan" data-flag="@X" onclick="openSidebar('31_Lurking Nehustan',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\77_Sprawling Gluttony.png" id="77_Sprawling Gluttony" data-flag="@X" onclick="openSidebar('77_Sprawling Gluttony',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\112_Mockery of Martyrdom.png" id="112_Mockery of Martyrdom" data-flag="@X" onclick="openSidebar('112_Mockery of Martyrdom',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\152_Scourging Shame.png" id="152_Scourging Shame" data-flag="@X" onclick="openSidebar('152_Scourging Shame',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\192_Sanctified Flesh.png" id="192_Sanctified Flesh" data-flag="@X" onclick="openSidebar('192_Sanctified Flesh',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\34_Predatory Grotesque.png" id="34_Predatory Grotesque" data-flag="@X" onclick="openSidebar('34_Predatory Grotesque',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\78_Stygian Witch.png" id="78_Stygian Witch" data-flag="@X" onclick="openSidebar('78_Stygian Witch',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\114_Sanguine Cenobite.png" id="114_Sanguine Cenobite" data-flag="@X" onclick="openSidebar('114_Sanguine Cenobite',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\153_Screeching Punisher.png" id="153_Screeching Punisher" data-flag="@X" onclick="openSidebar('153_Screeching Punisher',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\195_Tormented Hatemonger.png" id="195_Tormented Hatemonger" data-flag="@X" onclick="openSidebar('195_Tormented Hatemonger',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\37_Recidivist Ritualist.png" id="37_Recidivist Ritualist" data-flag="@X" onclick="openSidebar('37_Recidivist Ritualist',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\79_Swallow the Impenitent.png" id="79_Swallow the Impenitent" data-flag="@X" onclick="openSidebar('79_Swallow the Impenitent',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\119_Wails of the Condemned.png" id="119_Wails of the Condemned" data-flag="@X" onclick="openSidebar('119_Wails of the Condemned',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\155_Soulsnapper Whelp.png" id="155_Soulsnapper Whelp" data-flag="@X" onclick="openSidebar('155_Soulsnapper Whelp',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\196_Towering Hubris.png" id="196_Towering Hubris" data-flag="@X" onclick="openSidebar('196_Towering Hubris',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\43_Soulherder Anchorite.png" id="43_Soulherder Anchorite" data-flag="@X" onclick="openSidebar('43_Soulherder Anchorite',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\80_Thought Scour.png" id="80_Thought Scour" data-flag="@X" onclick="openSidebar('80_Thought Scour',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\121_Withered Titan.png" id="121_Withered Titan" data-flag="@X" onclick="openSidebar('121_Withered Titan',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\157_To Know Is to Know Sin.png" id="157_To Know Is to Know Sin" data-flag="@X" onclick="openSidebar('157_To Know Is to Know Sin',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\199_Wretched Crone.png" id="199_Wretched Crone" data-flag="@X" onclick="openSidebar('199_Wretched Crone',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="/sets\666-files\img\6_Ghazuz, the Whispered End.png" id="6_Ghazuz, the Whispered End" data-flag="@X" onclick="openSidebar('6_Ghazuz, the Whispered End',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\7_Infernal Pseudomonarch.png" id="7_Infernal Pseudomonarch" data-flag="@X" onclick="openSidebar('7_Infernal Pseudomonarch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\9_Leviathan, Heart of Sin.png" id="9_Leviathan, Heart of Sin" data-flag="@X" onclick="openSidebar('9_Leviathan, Heart of Sin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\8_Kharus, Wretched Ferryman.png" id="8_Kharus, Wretched Ferryman" data-flag="@X" onclick="openSidebar('8_Kharus, Wretched Ferryman',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\3_Crawling Conflict.png" id="3_Crawling Conflict" data-flag="@X" onclick="openSidebar('3_Crawling Conflict',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\4_Eternal Remission.png" id="4_Eternal Remission" data-flag="@X" onclick="openSidebar('4_Eternal Remission',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\5_Flayed Exemplar.png" id="5_Flayed Exemplar" data-flag="@X" onclick="openSidebar('5_Flayed Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\1_Basilica's Bane.png" id="1_Basilicas Bane" data-flag="@X" onclick="openSidebar('1_Basilicas Bane',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\2_Behold the City.png" id="2_Behold the City" data-flag="@X" onclick="openSidebar('2_Behold the City',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\41_Shadow of Purgation.png" id="41_Shadow of Purgation" data-flag="@X" onclick="openSidebar('41_Shadow of Purgation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\50_Avarice.png" id="50_Avarice" data-flag="@X" onclick="openSidebar('50_Avarice',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\96_Envy.png" id="96_Envy" data-flag="@X" onclick="openSidebar('96_Envy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\124_Acedia.png" id="124_Acedia" data-flag="@X" onclick="openSidebar('124_Acedia',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\162_Abyssal Orchestra.png" id="162_Abyssal Orchestra" data-flag="@X" onclick="openSidebar('162_Abyssal Orchestra',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\47_Wrath.png" id="47_Wrath" data-flag="@X" onclick="openSidebar('47_Wrath',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\61_Holder of Cursed Wisdom.png" id="61_Holder of Cursed Wisdom" data-flag="@X" onclick="openSidebar('61_Holder of Cursed Wisdom',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\101_Gluttony.png" id="101_Gluttony" data-flag="@X" onclick="openSidebar('101_Gluttony',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\143_Lust.png" id="143_Lust" data-flag="@X" onclick="openSidebar('143_Lust',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\186_Pride.png" id="186_Pride" data-flag="@X" onclick="openSidebar('186_Pride',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\10_Abandon All Hope.png" id="10_Abandon All Hope" data-flag="@X" onclick="openSidebar('10_Abandon All Hope',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\51_Echo of Contempt.png" id="51_Echo of Contempt" data-flag="@X" onclick="openSidebar('51_Echo of Contempt',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\87_Basal Tempter.png" id="87_Basal Tempter" data-flag="@X" onclick="openSidebar('87_Basal Tempter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\125_Avaricious Wretch.png" id="125_Avaricious Wretch" data-flag="@X" onclick="openSidebar('125_Avaricious Wretch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\166_Balat, Accursed Liege.png" id="166_Balat, Accursed Liege" data-flag="@X" onclick="openSidebar('166_Balat, Accursed Liege',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\20_Envious Knave.png" id="20_Envious Knave" data-flag="@X" onclick="openSidebar('20_Envious Knave',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\52_Embrace Damnation.png" id="52_Embrace Damnation" data-flag="@X" onclick="openSidebar('52_Embrace Damnation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\100_Gates of Disyus.png" id="100_Gates of Disyus" data-flag="@X" onclick="openSidebar('100_Gates of Disyus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\135_Haggard Corpsebird.png" id="135_Haggard Corpsebird" data-flag="@X" onclick="openSidebar('135_Haggard Corpsebird',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\176_Guilt Gnawer.png" id="176_Guilt Gnawer" data-flag="@X" onclick="openSidebar('176_Guilt Gnawer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\35_Procession of Souls.png" id="35_Procession of Souls" data-flag="@X" onclick="openSidebar('35_Procession of Souls',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\62_Knave's Progress.png" id="62_Knaves Progress" data-flag="@X" onclick="openSidebar('62_Knaves Progress',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\106_Into Treachery's Maw.png" id="106_Into Treacherys Maw" data-flag="@X" onclick="openSidebar('106_Into Treacherys Maw',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\137_Heart of Disyus.png" id="137_Heart of Disyus" data-flag="@X" onclick="openSidebar('137_Heart of Disyus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\183_Nesting Beast.png" id="183_Nesting Beast" data-flag="@X" onclick="openSidebar('183_Nesting Beast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\36_Profligate's Progress.png" id="36_Profligates Progress" data-flag="@X" onclick="openSidebar('36_Profligates Progress',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\70_Prince of Acedia.png" id="70_Prince of Acedia" data-flag="@X" onclick="openSidebar('70_Prince of Acedia',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\110_Lumpen Taunter.png" id="110_Lumpen Taunter" data-flag="@X" onclick="openSidebar('110_Lumpen Taunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\138_Hellrider.png" id="138_Hellrider" data-flag="@X" onclick="openSidebar('138_Hellrider',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\184_Original Sin.png" id="184_Original Sin" data-flag="@X" onclick="openSidebar('184_Original Sin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\39_Salvation's Shadow.png" id="39_Salvations Shadow" data-flag="@X" onclick="openSidebar('39_Salvations Shadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\73_Scholar of Sin.png" id="73_Scholar of Sin" data-flag="@X" onclick="openSidebar('73_Scholar of Sin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\111_Misery's Confidant.png" id="111_Miserys Confidant" data-flag="@X" onclick="openSidebar('111_Miserys Confidant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\146_No Rest for the Living.png" id="146_No Rest for the Living" data-flag="@X" onclick="openSidebar('146_No Rest for the Living',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\187_Primal Bedrock.png" id="187_Primal Bedrock" data-flag="@X" onclick="openSidebar('187_Primal Bedrock',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\44_Tamer of Grotesques.png" id="44_Tamer of Grotesques" data-flag="@X" onclick="openSidebar('44_Tamer of Grotesques',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\84_Two-Pronged Crown.png" id="84_Two-Pronged Crown" data-flag="@X" onclick="openSidebar('84_Two-Pronged Crown',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\122_Wretch's Progress.png" id="122_Wretchs Progress" data-flag="@X" onclick="openSidebar('122_Wretchs Progress',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\154_Soulburner Tyrant.png" id="154_Soulburner Tyrant" data-flag="@X" onclick="openSidebar('154_Soulburner Tyrant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\190_Rake's Progress.png" id="190_Rakes Progress" data-flag="@X" onclick="openSidebar('190_Rakes Progress',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\45_Unleash the Damned.png" id="45_Unleash the Damned" data-flag="@X" onclick="openSidebar('45_Unleash the Damned',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\85_Weight of Eternity.png" id="85_Weight of Eternity" data-flag="@X" onclick="openSidebar('85_Weight of Eternity',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\123_Wretch's Tomb.png" id="123_Wretchs Tomb" data-flag="@X" onclick="openSidebar('123_Wretchs Tomb',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\160_Wastrel's Progress.png" id="160_Wastrels Progress" data-flag="@X" onclick="openSidebar('160_Wastrels Progress',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\193_Sin-Gift Cenobite.png" id="193_Sin-Gift Cenobite" data-flag="@X" onclick="openSidebar('193_Sin-Gift Cenobite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\13_Arbiter of the Dead.png" id="13_Arbiter of the Dead" data-flag="@X" onclick="openSidebar('13_Arbiter of the Dead',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\48_Abomination Shaper.png" id="48_Abomination Shaper" data-flag="@X" onclick="openSidebar('48_Abomination Shaper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\86_Awaiting Judgment.png" id="86_Awaiting Judgment" data-flag="@X" onclick="openSidebar('86_Awaiting Judgment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\126_Baying Brute.png" id="126_Baying Brute" data-flag="@X" onclick="openSidebar('126_Baying Brute',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\163_Against Thee Wickedly.png" id="163_Against Thee Wickedly" data-flag="@X" onclick="openSidebar('163_Against Thee Wickedly',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\15_Bathed in Glory.png" id="15_Bathed in Glory" data-flag="@X" onclick="openSidebar('15_Bathed in Glory',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\54_False Seer.png" id="54_False Seer" data-flag="@X" onclick="openSidebar('54_False Seer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\89_Collector of Faces.png" id="89_Collector of Faces" data-flag="@X" onclick="openSidebar('89_Collector of Faces',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\132_Echo of Witchcraft.png" id="132_Echo of Witchcraft" data-flag="@X" onclick="openSidebar('132_Echo of Witchcraft',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\164_Antediluvian Idol.png" id="164_Antediluvian Idol" data-flag="@X" onclick="openSidebar('164_Antediluvian Idol',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\16_Bride of Swords.png" id="16_Bride of Swords" data-flag="@X" onclick="openSidebar('16_Bride of Swords',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\57_Frozen in Kytos.png" id="57_Frozen in Kytos" data-flag="@X" onclick="openSidebar('57_Frozen in Kytos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\90_Creeping Filth.png" id="90_Creeping Filth" data-flag="@X" onclick="openSidebar('90_Creeping Filth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\134_Furious Primitive.png" id="134_Furious Primitive" data-flag="@X" onclick="openSidebar('134_Furious Primitive',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\169_Conqueror Wurm.png" id="169_Conqueror Wurm" data-flag="@X" onclick="openSidebar('169_Conqueror Wurm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\18_Denier of History.png" id="18_Denier of History" data-flag="@X" onclick="openSidebar('18_Denier of History',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\58_Godless Heresiarch.png" id="58_Godless Heresiarch" data-flag="@X" onclick="openSidebar('58_Godless Heresiarch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\92_Cycle of Punishment.png" id="92_Cycle of Punishment" data-flag="@X" onclick="openSidebar('92_Cycle of Punishment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\136_Halls of Limbo.png" id="136_Halls of Limbo" data-flag="@X" onclick="openSidebar('136_Halls of Limbo',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\173_Gorging Glutton.png" id="173_Gorging Glutton" data-flag="@X" onclick="openSidebar('173_Gorging Glutton',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\19_Embittered Wight.png" id="19_Embittered Wight" data-flag="@X" onclick="openSidebar('19_Embittered Wight',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\59_Great Refusal.png" id="59_Great Refusal" data-flag="@X" onclick="openSidebar('59_Great Refusal',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\95_Doomed Poet.png" id="95_Doomed Poet" data-flag="@X" onclick="openSidebar('95_Doomed Poet',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\139_Hunter of the Craven.png" id="139_Hunter of the Craven" data-flag="@X" onclick="openSidebar('139_Hunter of the Craven',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\175_Groom of Swords.png" id="175_Groom of Swords" data-flag="@X" onclick="openSidebar('175_Groom of Swords',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\21_Eternal Taskmaster.png" id="21_Eternal Taskmaster" data-flag="@X" onclick="openSidebar('21_Eternal Taskmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\63_Languid Pustule.png" id="63_Languid Pustule" data-flag="@X" onclick="openSidebar('63_Languid Pustule',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\103_Grove of the Suicides.png" id="103_Grove of the Suicides" data-flag="@X" onclick="openSidebar('103_Grove of the Suicides',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\141_Knave of Perdition.png" id="141_Knave of Perdition" data-flag="@X" onclick="openSidebar('141_Knave of Perdition',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\177_Hell's Wrath.png" id="177_Hells Wrath" data-flag="@X" onclick="openSidebar('177_Hells Wrath',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\23_Ghost of Injustice.png" id="23_Ghost of Injustice" data-flag="@X" onclick="openSidebar('23_Ghost of Injustice',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\65_March of Remission.png" id="65_March of Remission" data-flag="@X" onclick="openSidebar('65_March of Remission',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\105_Guilt Scavenger.png" id="105_Guilt Scavenger" data-flag="@X" onclick="openSidebar('105_Guilt Scavenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\142_Lead into Temptation.png" id="142_Lead into Temptation" data-flag="@X" onclick="openSidebar('142_Lead into Temptation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\180_Indolent Leech.png" id="180_Indolent Leech" data-flag="@X" onclick="openSidebar('180_Indolent Leech',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\28_Legion of the Damned.png" id="28_Legion of the Damned" data-flag="@X" onclick="openSidebar('28_Legion of the Damned',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\66_Mysteries of the Worm.png" id="66_Mysteries of the Worm" data-flag="@X" onclick="openSidebar('66_Mysteries of the Worm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\107_Knotted Annihilation.png" id="107_Knotted Annihilation" data-flag="@X" onclick="openSidebar('107_Knotted Annihilation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\145_Mired in Grief.png" id="145_Mired in Grief" data-flag="@X" onclick="openSidebar('145_Mired in Grief',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\181_March into Nothingness.png" id="181_March into Nothingness" data-flag="@X" onclick="openSidebar('181_March into Nothingness',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\32_Oblivion Blade.png" id="32_Oblivion Blade" data-flag="@X" onclick="openSidebar('32_Oblivion Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\68_Path of Omens.png" id="68_Path of Omens" data-flag="@X" onclick="openSidebar('68_Path of Omens',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\113_Prideful Guardian.png" id="113_Prideful Guardian" data-flag="@X" onclick="openSidebar('113_Prideful Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\148_Procession of Hate.png" id="148_Procession of Hate" data-flag="@X" onclick="openSidebar('148_Procession of Hate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\182_Maw of Disyus.png" id="182_Maw of Disyus" data-flag="@X" onclick="openSidebar('182_Maw of Disyus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\33_Path to Ignominy.png" id="33_Path to Ignominy" data-flag="@X" onclick="openSidebar('33_Path to Ignominy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\71_Reach from the Depths.png" id="71_Reach from the Depths" data-flag="@X" onclick="openSidebar('71_Reach from the Depths',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\115_Scorn of the Damned.png" id="115_Scorn of the Damned" data-flag="@X" onclick="openSidebar('115_Scorn of the Damned',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\149_Punisher of Folly.png" id="149_Punisher of Folly" data-flag="@X" onclick="openSidebar('149_Punisher of Folly',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\185_Pitiless Sentinel.png" id="185_Pitiless Sentinel" data-flag="@X" onclick="openSidebar('185_Pitiless Sentinel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\38_Remnant of Humanity.png" id="38_Remnant of Humanity" data-flag="@X" onclick="openSidebar('38_Remnant of Humanity',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\75_Sentinel of Menaus.png" id="75_Sentinel of Menaus" data-flag="@X" onclick="openSidebar('75_Sentinel of Menaus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\116_Shepherd of Pain.png" id="116_Shepherd of Pain" data-flag="@X" onclick="openSidebar('116_Shepherd of Pain',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\156_Spiralling Damnation.png" id="156_Spiralling Damnation" data-flag="@X" onclick="openSidebar('156_Spiralling Damnation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\189_Punisher of Kytos.png" id="189_Punisher of Kytos" data-flag="@X" onclick="openSidebar('189_Punisher of Kytos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\40_Seek Remission.png" id="40_Seek Remission" data-flag="@X" onclick="openSidebar('40_Seek Remission',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\81_Titanic Hubris.png" id="81_Titanic Hubris" data-flag="@X" onclick="openSidebar('81_Titanic Hubris',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\117_Sickly Fleshflower.png" id="117_Sickly Fleshflower" data-flag="@X" onclick="openSidebar('117_Sickly Fleshflower',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\158_Torrent of Wingbeats.png" id="158_Torrent of Wingbeats" data-flag="@X" onclick="openSidebar('158_Torrent of Wingbeats',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\194_Slavering Wretch.png" id="194_Slavering Wretch" data-flag="@X" onclick="openSidebar('194_Slavering Wretch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\42_Son of Perdition.png" id="42_Son of Perdition" data-flag="@X" onclick="openSidebar('42_Son of Perdition',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\82_Tornado of Souls.png" id="82_Tornado of Souls" data-flag="@X" onclick="openSidebar('82_Tornado of Souls',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\118_Slavering Council.png" id="118_Slavering Council" data-flag="@X" onclick="openSidebar('118_Slavering Council',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\159_Triplicate Cur.png" id="159_Triplicate Cur" data-flag="@X" onclick="openSidebar('159_Triplicate Cur',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\197_Unquiet Tomb.png" id="197_Unquiet Tomb" data-flag="@X" onclick="openSidebar('197_Unquiet Tomb',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\46_Withered Proudblade.png" id="46_Withered Proudblade" data-flag="@X" onclick="openSidebar('46_Withered Proudblade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\83_Transient Mutation.png" id="83_Transient Mutation" data-flag="@X" onclick="openSidebar('83_Transient Mutation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\120_A Waste of Good Suffering.png" id="120_A Waste of Good Suffering" data-flag="@X" onclick="openSidebar('120_A Waste of Good Suffering',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\161_Words of Blood.png" id="161_Words of Blood" data-flag="@X" onclick="openSidebar('161_Words of Blood',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\198_Weight of Guilt.png" id="198_Weight of Guilt" data-flag="@X" onclick="openSidebar('198_Weight of Guilt',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\11_Accursed Crusader.png" id="11_Accursed Crusader" data-flag="@X" onclick="openSidebar('11_Accursed Crusader',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\49_Architect of Spite.png" id="49_Architect of Spite" data-flag="@X" onclick="openSidebar('49_Architect of Spite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\88_Bitter Envy.png" id="88_Bitter Envy" data-flag="@X" onclick="openSidebar('88_Bitter Envy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\127_Better to Reign.png" id="127_Better to Reign" data-flag="@X" onclick="openSidebar('127_Better to Reign',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\165_Arcane Puzzlebox.png" id="165_Arcane Puzzlebox" data-flag="@X" onclick="openSidebar('165_Arcane Puzzlebox',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\12_Apprentice of Menaus.png" id="12_Apprentice of Menaus" data-flag="@X" onclick="openSidebar('12_Apprentice of Menaus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\53_Eternal Downfall.png" id="53_Eternal Downfall" data-flag="@X" onclick="openSidebar('53_Eternal Downfall',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\91_Cruel Admonisher.png" id="91_Cruel Admonisher" data-flag="@X" onclick="openSidebar('91_Cruel Admonisher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\128_Bitter Chainflinger.png" id="128_Bitter Chainflinger" data-flag="@X" onclick="openSidebar('128_Bitter Chainflinger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\167_Bestial Betrayer.png" id="167_Bestial Betrayer" data-flag="@X" onclick="openSidebar('167_Bestial Betrayer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\14_Banishing Rite.png" id="14_Banishing Rite" data-flag="@X" onclick="openSidebar('14_Banishing Rite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\55_Ferryman's Aegis.png" id="55_Ferrymans Aegis" data-flag="@X" onclick="openSidebar('55_Ferrymans Aegis',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\93_Defeat.png" id="93_Defeat" data-flag="@X" onclick="openSidebar('93_Defeat',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\129_Burning Ire.png" id="129_Burning Ire" data-flag="@X" onclick="openSidebar('129_Burning Ire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\168_Cavernous Trogwalla.png" id="168_Cavernous Trogwalla" data-flag="@X" onclick="openSidebar('168_Cavernous Trogwalla',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\17_Calumny Collector.png" id="17_Calumny Collector" data-flag="@X" onclick="openSidebar('17_Calumny Collector',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\56_Frantic Inventory.png" id="56_Frantic Inventory" data-flag="@X" onclick="openSidebar('56_Frantic Inventory',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\94_Devoured by Vermin.png" id="94_Devoured by Vermin" data-flag="@X" onclick="openSidebar('94_Devoured by Vermin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\130_Capricious Spitefiend.png" id="130_Capricious Spitefiend" data-flag="@X" onclick="openSidebar('130_Capricious Spitefiend',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\170_Ghost of Acedia.png" id="170_Ghost of Acedia" data-flag="@X" onclick="openSidebar('170_Ghost of Acedia',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\22_Futile Mercy.png" id="22_Futile Mercy" data-flag="@X" onclick="openSidebar('22_Futile Mercy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\60_Grisly Skulker.png" id="60_Grisly Skulker" data-flag="@X" onclick="openSidebar('60_Grisly Skulker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\97_Executioner of Menaus.png" id="97_Executioner of Menaus" data-flag="@X" onclick="openSidebar('97_Executioner of Menaus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\131_Dreams of Damnation.png" id="131_Dreams of Damnation" data-flag="@X" onclick="openSidebar('131_Dreams of Damnation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\171_Gluttonous Maw.png" id="171_Gluttonous Maw" data-flag="@X" onclick="openSidebar('171_Gluttonous Maw',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\24_Grafted Cenobite.png" id="24_Grafted Cenobite" data-flag="@X" onclick="openSidebar('24_Grafted Cenobite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\64_Letosine Tyrant.png" id="64_Letosine Tyrant" data-flag="@X" onclick="openSidebar('64_Letosine Tyrant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\98_Exquisite Tormentor.png" id="98_Exquisite Tormentor" data-flag="@X" onclick="openSidebar('98_Exquisite Tormentor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\133_Furious Irestoker.png" id="133_Furious Irestoker" data-flag="@X" onclick="openSidebar('133_Furious Irestoker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\172_Gnarled Gnostic.png" id="172_Gnarled Gnostic" data-flag="@X" onclick="openSidebar('172_Gnarled Gnostic',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\25_Grip of Kytos.png" id="25_Grip of Kytos" data-flag="@X" onclick="openSidebar('25_Grip of Kytos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\67_Noisome Corpsefly.png" id="67_Noisome Corpsefly" data-flag="@X" onclick="openSidebar('67_Noisome Corpsefly',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\99_Feed the Serpent.png" id="99_Feed the Serpent" data-flag="@X" onclick="openSidebar('99_Feed the Serpent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\140_Judgment of Menaus.png" id="140_Judgment of Menaus" data-flag="@X" onclick="openSidebar('140_Judgment of Menaus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\174_Grasp of the Wretched.png" id="174_Grasp of the Wretched" data-flag="@X" onclick="openSidebar('174_Grasp of the Wretched',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\26_Ichorborn Shrike.png" id="26_Ichorborn Shrike" data-flag="@X" onclick="openSidebar('26_Ichorborn Shrike',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\69_Penitant Squire.png" id="69_Penitant Squire" data-flag="@X" onclick="openSidebar('69_Penitant Squire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\102_Gnarled Worm.png" id="102_Gnarled Worm" data-flag="@X" onclick="openSidebar('102_Gnarled Worm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\144_Maw of Judgment.png" id="144_Maw of Judgment" data-flag="@X" onclick="openSidebar('144_Maw of Judgment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\178_Humbled Titan.png" id="178_Humbled Titan" data-flag="@X" onclick="openSidebar('178_Humbled Titan',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\27_Keeper of the Circles.png" id="27_Keeper of the Circles" data-flag="@X" onclick="openSidebar('27_Keeper of the Circles',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\72_Scatter in Shame.png" id="72_Scatter in Shame" data-flag="@X" onclick="openSidebar('72_Scatter in Shame',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\104_Guardian of the Sixth Circle.png" id="104_Guardian of the Sixth Circle" data-flag="@X" onclick="openSidebar('104_Guardian of the Sixth Circle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\147_Ocular Takwin.png" id="147_Ocular Takwin" data-flag="@X" onclick="openSidebar('147_Ocular Takwin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\179_Impenitent Scholar.png" id="179_Impenitent Scholar" data-flag="@X" onclick="openSidebar('179_Impenitent Scholar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\29_Loathsome Gadfly.png" id="29_Loathsome Gadfly" data-flag="@X" onclick="openSidebar('29_Loathsome Gadfly',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\74_Scourge of the Styges.png" id="74_Scourge of the Styges" data-flag="@X" onclick="openSidebar('74_Scourge of the Styges',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\108_Leviathan's Gaze.png" id="108_Leviathans Gaze" data-flag="@X" onclick="openSidebar('108_Leviathans Gaze',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\150_Relentless Shadow.png" id="150_Relentless Shadow" data-flag="@X" onclick="openSidebar('150_Relentless Shadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\188_Profane Piping.png" id="188_Profane Piping" data-flag="@X" onclick="openSidebar('188_Profane Piping',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\30_Lost to Pride.png" id="30_Lost to Pride" data-flag="@X" onclick="openSidebar('30_Lost to Pride',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\76_Snarl Cannon.png" id="76_Snarl Cannon" data-flag="@X" onclick="openSidebar('76_Snarl Cannon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\109_Lumpen Calumny.png" id="109_Lumpen Calumny" data-flag="@X" onclick="openSidebar('109_Lumpen Calumny',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\151_Remnant of Desire.png" id="151_Remnant of Desire" data-flag="@X" onclick="openSidebar('151_Remnant of Desire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\191_Relentless Reaver.png" id="191_Relentless Reaver" data-flag="@X" onclick="openSidebar('191_Relentless Reaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\31_Lurking Nehustan.png" id="31_Lurking Nehustan" data-flag="@X" onclick="openSidebar('31_Lurking Nehustan',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\77_Sprawling Gluttony.png" id="77_Sprawling Gluttony" data-flag="@X" onclick="openSidebar('77_Sprawling Gluttony',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\112_Mockery of Martyrdom.png" id="112_Mockery of Martyrdom" data-flag="@X" onclick="openSidebar('112_Mockery of Martyrdom',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\152_Scourging Shame.png" id="152_Scourging Shame" data-flag="@X" onclick="openSidebar('152_Scourging Shame',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\192_Sanctified Flesh.png" id="192_Sanctified Flesh" data-flag="@X" onclick="openSidebar('192_Sanctified Flesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\34_Predatory Grotesque.png" id="34_Predatory Grotesque" data-flag="@X" onclick="openSidebar('34_Predatory Grotesque',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\78_Stygian Witch.png" id="78_Stygian Witch" data-flag="@X" onclick="openSidebar('78_Stygian Witch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\114_Sanguine Cenobite.png" id="114_Sanguine Cenobite" data-flag="@X" onclick="openSidebar('114_Sanguine Cenobite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\153_Screeching Punisher.png" id="153_Screeching Punisher" data-flag="@X" onclick="openSidebar('153_Screeching Punisher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\195_Tormented Hatemonger.png" id="195_Tormented Hatemonger" data-flag="@X" onclick="openSidebar('195_Tormented Hatemonger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\37_Recidivist Ritualist.png" id="37_Recidivist Ritualist" data-flag="@X" onclick="openSidebar('37_Recidivist Ritualist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\79_Swallow the Impenitent.png" id="79_Swallow the Impenitent" data-flag="@X" onclick="openSidebar('79_Swallow the Impenitent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\119_Wails of the Condemned.png" id="119_Wails of the Condemned" data-flag="@X" onclick="openSidebar('119_Wails of the Condemned',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\155_Soulsnapper Whelp.png" id="155_Soulsnapper Whelp" data-flag="@X" onclick="openSidebar('155_Soulsnapper Whelp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\196_Towering Hubris.png" id="196_Towering Hubris" data-flag="@X" onclick="openSidebar('196_Towering Hubris',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\43_Soulherder Anchorite.png" id="43_Soulherder Anchorite" data-flag="@X" onclick="openSidebar('43_Soulherder Anchorite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\80_Thought Scour.png" id="80_Thought Scour" data-flag="@X" onclick="openSidebar('80_Thought Scour',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\121_Withered Titan.png" id="121_Withered Titan" data-flag="@X" onclick="openSidebar('121_Withered Titan',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\157_To Know Is to Know Sin.png" id="157_To Know Is to Know Sin" data-flag="@X" onclick="openSidebar('157_To Know Is to Know Sin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\199_Wretched Crone.png" id="199_Wretched Crone" data-flag="@X" onclick="openSidebar('199_Wretched Crone',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/sets\666-files\img\201_Icon of Hubris.png" id="201_Icon of Hubris" data-flag="@X" onclick="openSidebar('201_Icon of Hubris',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\205_Leviathan's End.png" id="205_Leviathans End" data-flag="@X" onclick="openSidebar('205_Leviathans End',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\207_Beast of the Pit.png" id="207_Beast of the Pit" data-flag="@X" onclick="openSidebar('207_Beast of the Pit',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\210_Liege of Disyus.png" id="210_Liege of Disyus" data-flag="@X" onclick="openSidebar('210_Liege of Disyus',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\213_Leviathan's Mercy.png" id="213_Leviathans Mercy" data-flag="@X" onclick="openSidebar('213_Leviathans Mercy',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\200_Fallen Outcast.png" id="200_Fallen Outcast" data-flag="@X" onclick="openSidebar('200_Fallen Outcast',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\203_Deepgate Guardian.png" id="203_Deepgate Guardian" data-flag="@X" onclick="openSidebar('203_Deepgate Guardian',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\206_Backbroken Tormentor.png" id="206_Backbroken Tormentor" data-flag="@X" onclick="openSidebar('206_Backbroken Tormentor',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\209_Envious Wretch.png" id="209_Envious Wretch" data-flag="@X" onclick="openSidebar('209_Envious Wretch',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\212_De Profundis.png" id="212_De Profundis" data-flag="@X" onclick="openSidebar('212_De Profundis',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\202_Trammel in Darkness.png" id="202_Trammel in Darkness" data-flag="@X" onclick="openSidebar('202_Trammel in Darkness',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\204_Inglorious Cavalier.png" id="204_Inglorious Cavalier" data-flag="@X" onclick="openSidebar('204_Inglorious Cavalier',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\208_Infernal Piper.png" id="208_Infernal Piper" data-flag="@X" onclick="openSidebar('208_Infernal Piper',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\211_Sin Harvester.png" id="211_Sin Harvester" data-flag="@X" onclick="openSidebar('211_Sin Harvester',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\214_Stroker of Pride.png" id="214_Stroker of Pride" data-flag="@X" onclick="openSidebar('214_Stroker of Pride',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\217_Tyrant's End.png" id="217_Tyrants End" data-flag="@X" onclick="openSidebar('217_Tyrants End',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\220_Piyt Bruut, Artist of the Abyss.png" id="220_Piyt Bruut, Artist of the Abyss" data-flag="@X" onclick="openSidebar('220_Piyt Bruut, Artist of the Abyss',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\222_Immortal Sin.png" id="222_Immortal Sin" data-flag="@X" onclick="openSidebar('222_Immortal Sin',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\225_Refuse to Repent.png" id="225_Refuse to Repent" data-flag="@X" onclick="openSidebar('225_Refuse to Repent',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\227_Giacco, Slavering Maggot.png" id="227_Giacco, Slavering Maggot" data-flag="@X" onclick="openSidebar('227_Giacco, Slavering Maggot',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\215_Lamenter of Souls.png" id="215_Lamenter of Souls" data-flag="@X" onclick="openSidebar('215_Lamenter of Souls',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\218_As Above, So Below.png" id="218_As Above, So Below" data-flag="@X" onclick="openSidebar('218_As Above, So Below',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\221_Altar of Remorse.png" id="221_Altar of Remorse" data-flag="@X" onclick="openSidebar('221_Altar of Remorse',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\224_Ghost of Wrath.png" id="224_Ghost of Wrath" data-flag="@X" onclick="openSidebar('224_Ghost of Wrath',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\228_Tombs of the Ignoble.png" id="228_Tombs of the Ignoble" data-flag="@X" onclick="openSidebar('228_Tombs of the Ignoble',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\216_Suckling Spawn.png" id="216_Suckling Spawn" data-flag="@X" onclick="openSidebar('216_Suckling Spawn',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\219_Blooded Guiltseeker.png" id="219_Blooded Guiltseeker" data-flag="@X" onclick="openSidebar('219_Blooded Guiltseeker',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\223_Penitent Sister.png" id="223_Penitent Sister" data-flag="@X" onclick="openSidebar('223_Penitent Sister',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\226_Scourging Flame.png" id="226_Scourging Flame" data-flag="@X" onclick="openSidebar('226_Scourging Flame',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\229_Underworld Poet.png" id="229_Underworld Poet" data-flag="@X" onclick="openSidebar('229_Underworld Poet',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\239_Reaper across Time.png" id="239_Reaper across Time" data-flag="@X" onclick="openSidebar('239_Reaper across Time',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\231_Descent through the Abyss.png" id="231_Descent through the Abyss" data-flag="@X" onclick="openSidebar('231_Descent through the Abyss',true)"></div>
-				<div class="container"><img alt="/sets\666-files\img\235_Lieve, Noonday Witch.png" id="235_Lieve, Noonday Witch" data-flag="@X" onclick="openSidebar('235_Lieve, Noonday Witch',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\233_Harrowing the Depths.png" id="233_Harrowing the Depths" data-flag="@X" onclick="openSidebar('233_Harrowing the Depths',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\230_Celestial Strike.png" id="230_Celestial Strike" data-flag="@X" onclick="openSidebar('230_Celestial Strike',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\232_Greater Tormentor.png" id="232_Greater Tormentor" data-flag="@X" onclick="openSidebar('232_Greater Tormentor',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\234_Hellmarch Reaver.png" id="234_Hellmarch Reaver" data-flag="@X" onclick="openSidebar('234_Hellmarch Reaver',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\237_Pilloried Titan.png" id="237_Pilloried Titan" data-flag="@X" onclick="openSidebar('237_Pilloried Titan',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\238_Primal Lorekeeper.png" id="238_Primal Lorekeeper" data-flag="@X" onclick="openSidebar('238_Primal Lorekeeper',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\236_Perfect Hatred.png" id="236_Perfect Hatred" data-flag="@X" onclick="openSidebar('236_Perfect Hatred',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\201_Icon of Hubris.png" id="201_Icon of Hubris" data-flag="@X" onclick="openSidebar('201_Icon of Hubris',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\205_Leviathan's End.png" id="205_Leviathans End" data-flag="@X" onclick="openSidebar('205_Leviathans End',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\207_Beast of the Pit.png" id="207_Beast of the Pit" data-flag="@X" onclick="openSidebar('207_Beast of the Pit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\210_Liege of Disyus.png" id="210_Liege of Disyus" data-flag="@X" onclick="openSidebar('210_Liege of Disyus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\213_Leviathan's Mercy.png" id="213_Leviathans Mercy" data-flag="@X" onclick="openSidebar('213_Leviathans Mercy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\200_Fallen Outcast.png" id="200_Fallen Outcast" data-flag="@X" onclick="openSidebar('200_Fallen Outcast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\203_Deepgate Guardian.png" id="203_Deepgate Guardian" data-flag="@X" onclick="openSidebar('203_Deepgate Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\206_Backbroken Tormentor.png" id="206_Backbroken Tormentor" data-flag="@X" onclick="openSidebar('206_Backbroken Tormentor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\209_Envious Wretch.png" id="209_Envious Wretch" data-flag="@X" onclick="openSidebar('209_Envious Wretch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\212_De Profundis.png" id="212_De Profundis" data-flag="@X" onclick="openSidebar('212_De Profundis',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\202_Trammel in Darkness.png" id="202_Trammel in Darkness" data-flag="@X" onclick="openSidebar('202_Trammel in Darkness',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\204_Inglorious Cavalier.png" id="204_Inglorious Cavalier" data-flag="@X" onclick="openSidebar('204_Inglorious Cavalier',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\208_Infernal Piper.png" id="208_Infernal Piper" data-flag="@X" onclick="openSidebar('208_Infernal Piper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\211_Sin Harvester.png" id="211_Sin Harvester" data-flag="@X" onclick="openSidebar('211_Sin Harvester',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\214_Stroker of Pride.png" id="214_Stroker of Pride" data-flag="@X" onclick="openSidebar('214_Stroker of Pride',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\217_Tyrant's End.png" id="217_Tyrants End" data-flag="@X" onclick="openSidebar('217_Tyrants End',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\220_Piyt Bruut, Artist of the Abyss.png" id="220_Piyt Bruut, Artist of the Abyss" data-flag="@X" onclick="openSidebar('220_Piyt Bruut, Artist of the Abyss',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\222_Immortal Sin.png" id="222_Immortal Sin" data-flag="@X" onclick="openSidebar('222_Immortal Sin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\225_Refuse to Repent.png" id="225_Refuse to Repent" data-flag="@X" onclick="openSidebar('225_Refuse to Repent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\227_Giacco, Slavering Maggot.png" id="227_Giacco, Slavering Maggot" data-flag="@X" onclick="openSidebar('227_Giacco, Slavering Maggot',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\215_Lamenter of Souls.png" id="215_Lamenter of Souls" data-flag="@X" onclick="openSidebar('215_Lamenter of Souls',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\218_As Above, So Below.png" id="218_As Above, So Below" data-flag="@X" onclick="openSidebar('218_As Above, So Below',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\221_Altar of Remorse.png" id="221_Altar of Remorse" data-flag="@X" onclick="openSidebar('221_Altar of Remorse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\224_Ghost of Wrath.png" id="224_Ghost of Wrath" data-flag="@X" onclick="openSidebar('224_Ghost of Wrath',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\228_Tombs of the Ignoble.png" id="228_Tombs of the Ignoble" data-flag="@X" onclick="openSidebar('228_Tombs of the Ignoble',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\216_Suckling Spawn.png" id="216_Suckling Spawn" data-flag="@X" onclick="openSidebar('216_Suckling Spawn',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\219_Blooded Guiltseeker.png" id="219_Blooded Guiltseeker" data-flag="@X" onclick="openSidebar('219_Blooded Guiltseeker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\223_Penitent Sister.png" id="223_Penitent Sister" data-flag="@X" onclick="openSidebar('223_Penitent Sister',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\226_Scourging Flame.png" id="226_Scourging Flame" data-flag="@X" onclick="openSidebar('226_Scourging Flame',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\229_Underworld Poet.png" id="229_Underworld Poet" data-flag="@X" onclick="openSidebar('229_Underworld Poet',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\239_Reaper across Time.png" id="239_Reaper across Time" data-flag="@X" onclick="openSidebar('239_Reaper across Time',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\231_Descent through the Abyss.png" id="231_Descent through the Abyss" data-flag="@X" onclick="openSidebar('231_Descent through the Abyss',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\235_Lieve, Noonday Witch.png" id="235_Lieve, Noonday Witch" data-flag="@X" onclick="openSidebar('235_Lieve, Noonday Witch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\233_Harrowing the Depths.png" id="233_Harrowing the Depths" data-flag="@X" onclick="openSidebar('233_Harrowing the Depths',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\230_Celestial Strike.png" id="230_Celestial Strike" data-flag="@X" onclick="openSidebar('230_Celestial Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\232_Greater Tormentor.png" id="232_Greater Tormentor" data-flag="@X" onclick="openSidebar('232_Greater Tormentor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\234_Hellmarch Reaver.png" id="234_Hellmarch Reaver" data-flag="@X" onclick="openSidebar('234_Hellmarch Reaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\237_Pilloried Titan.png" id="237_Pilloried Titan" data-flag="@X" onclick="openSidebar('237_Pilloried Titan',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\238_Primal Lorekeeper.png" id="238_Primal Lorekeeper" data-flag="@X" onclick="openSidebar('238_Primal Lorekeeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\236_Perfect Hatred.png" id="236_Perfect Hatred" data-flag="@X" onclick="openSidebar('236_Perfect Hatred',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\666-files\img\243_Effigy of Desire.png" id="243_Effigy of Desire" data-flag="@X" onclick="openSidebar('243_Effigy of Desire',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\251_Shield of Smoke and Fire.png" id="251_Shield of Smoke and Fire" data-flag="@X" onclick="openSidebar('251_Shield of Smoke and Fire',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\246_Graven Icon.png" id="246_Graven Icon" data-flag="@X" onclick="openSidebar('246_Graven Icon',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\250_Relic of Enmity.png" id="250_Relic of Enmity" data-flag="@X" onclick="openSidebar('250_Relic of Enmity',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\240_Bruut's Plate.png" id="240_Bruuts Plate" data-flag="@X" onclick="openSidebar('240_Bruuts Plate',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\241_Chains of Eternity.png" id="241_Chains of Eternity" data-flag="@X" onclick="openSidebar('241_Chains of Eternity',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\244_Effigy of Sin.png" id="244_Effigy of Sin" data-flag="@X" onclick="openSidebar('244_Effigy of Sin',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\247_Hellforged Necroscope.png" id="247_Hellforged Necroscope" data-flag="@X" onclick="openSidebar('247_Hellforged Necroscope',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\249_Penitent's Plate.png" id="249_Penitents Plate" data-flag="@X" onclick="openSidebar('249_Penitents Plate',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\242_Damnation Clock.png" id="242_Damnation Clock" data-flag="@X" onclick="openSidebar('242_Damnation Clock',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\245_Forbidden Tome.png" id="245_Forbidden Tome" data-flag="@X" onclick="openSidebar('245_Forbidden Tome',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\248_Idol of Truth and Death.png" id="248_Idol of Truth and Death" data-flag="@X" onclick="openSidebar('248_Idol of Truth and Death',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\252_Tattered Revenant.png" id="252_Tattered Revenant" data-flag="@X" onclick="openSidebar('252_Tattered Revenant',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\259_Maze of Torment.png" id="259_Maze of Torment" data-flag="@X" onclick="openSidebar('259_Maze of Torment',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\255_Crossroads of Grief.png" id="255_Crossroads of Grief" data-flag="@X" onclick="openSidebar('255_Crossroads of Grief',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\260_Slough of Despair.png" id="260_Slough of Despair" data-flag="@X" onclick="openSidebar('260_Slough of Despair',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\258_Gates of Agony.png" id="258_Gates of Agony" data-flag="@X" onclick="openSidebar('258_Gates of Agony',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\254_Cliffs of Spite.png" id="254_Cliffs of Spite" data-flag="@X" onclick="openSidebar('254_Cliffs of Spite',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\256_Deepest Reaches.png" id="256_Deepest Reaches" data-flag="@X" onclick="openSidebar('256_Deepest Reaches',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\257_Depths of Kytos.png" id="257_Depths of Kytos" data-flag="@X" onclick="openSidebar('257_Depths of Kytos',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\253_Altar of Insolence.png" id="253_Altar of Insolence" data-flag="@X" onclick="openSidebar('253_Altar of Insolence',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\261_Wretched Spire.png" id="261_Wretched Spire" data-flag="@X" onclick="openSidebar('261_Wretched Spire',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\262_Plains.png" id="262_Plains" data-flag="@X" onclick="openSidebar('262_Plains',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\263_Island.png" id="263_Island" data-flag="@X" onclick="openSidebar('263_Island',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\264_Swamp.png" id="264_Swamp" data-flag="@X" onclick="openSidebar('264_Swamp',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\265_Mountain.png" id="265_Mountain" data-flag="@X" onclick="openSidebar('265_Mountain',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\266_Forest.png" id="266_Forest" data-flag="@X" onclick="openSidebar('266_Forest',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\243_Effigy of Desire.png" id="243_Effigy of Desire" data-flag="@X" onclick="openSidebar('243_Effigy of Desire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\251_Shield of Smoke and Fire.png" id="251_Shield of Smoke and Fire" data-flag="@X" onclick="openSidebar('251_Shield of Smoke and Fire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\246_Graven Icon.png" id="246_Graven Icon" data-flag="@X" onclick="openSidebar('246_Graven Icon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\250_Relic of Enmity.png" id="250_Relic of Enmity" data-flag="@X" onclick="openSidebar('250_Relic of Enmity',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\240_Bruut's Plate.png" id="240_Bruuts Plate" data-flag="@X" onclick="openSidebar('240_Bruuts Plate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\241_Chains of Eternity.png" id="241_Chains of Eternity" data-flag="@X" onclick="openSidebar('241_Chains of Eternity',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\244_Effigy of Sin.png" id="244_Effigy of Sin" data-flag="@X" onclick="openSidebar('244_Effigy of Sin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\247_Hellforged Necroscope.png" id="247_Hellforged Necroscope" data-flag="@X" onclick="openSidebar('247_Hellforged Necroscope',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\249_Penitent's Plate.png" id="249_Penitents Plate" data-flag="@X" onclick="openSidebar('249_Penitents Plate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\242_Damnation Clock.png" id="242_Damnation Clock" data-flag="@X" onclick="openSidebar('242_Damnation Clock',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\245_Forbidden Tome.png" id="245_Forbidden Tome" data-flag="@X" onclick="openSidebar('245_Forbidden Tome',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\248_Idol of Truth and Death.png" id="248_Idol of Truth and Death" data-flag="@X" onclick="openSidebar('248_Idol of Truth and Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\252_Tattered Revenant.png" id="252_Tattered Revenant" data-flag="@X" onclick="openSidebar('252_Tattered Revenant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\259_Maze of Torment.png" id="259_Maze of Torment" data-flag="@X" onclick="openSidebar('259_Maze of Torment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\255_Crossroads of Grief.png" id="255_Crossroads of Grief" data-flag="@X" onclick="openSidebar('255_Crossroads of Grief',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\260_Slough of Despair.png" id="260_Slough of Despair" data-flag="@X" onclick="openSidebar('260_Slough of Despair',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\258_Gates of Agony.png" id="258_Gates of Agony" data-flag="@X" onclick="openSidebar('258_Gates of Agony',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\254_Cliffs of Spite.png" id="254_Cliffs of Spite" data-flag="@X" onclick="openSidebar('254_Cliffs of Spite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\256_Deepest Reaches.png" id="256_Deepest Reaches" data-flag="@X" onclick="openSidebar('256_Deepest Reaches',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\257_Depths of Kytos.png" id="257_Depths of Kytos" data-flag="@X" onclick="openSidebar('257_Depths of Kytos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\253_Altar of Insolence.png" id="253_Altar of Insolence" data-flag="@X" onclick="openSidebar('253_Altar of Insolence',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\261_Wretched Spire.png" id="261_Wretched Spire" data-flag="@X" onclick="openSidebar('261_Wretched Spire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\262_Plains.png" id="262_Plains" data-flag="@X" onclick="openSidebar('262_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\263_Island.png" id="263_Island" data-flag="@X" onclick="openSidebar('263_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\264_Swamp.png" id="264_Swamp" data-flag="@X" onclick="openSidebar('264_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\265_Mountain.png" id="265_Mountain" data-flag="@X" onclick="openSidebar('265_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\266_Forest.png" id="266_Forest" data-flag="@X" onclick="openSidebar('266_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img alt="/sets\666-files\img\1t_Gargoyle.png" id="1t_Gargoyle" data-flag="@X" onclick="openSidebar('1t_Gargoyle',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\2t_Spirit Wall.png" id="2t_Spirit Wall" data-flag="@X" onclick="openSidebar('2t_Spirit Wall',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\3t_Demon.png" id="3t_Demon" data-flag="@X" onclick="openSidebar('3t_Demon',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\4t_Devil.png" id="4t_Devil" data-flag="@X" onclick="openSidebar('4t_Devil',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\5t_Beast.png" id="5t_Beast" data-flag="@X" onclick="openSidebar('5t_Beast',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\6t_Cat.png" id="6t_Cat" data-flag="@X" onclick="openSidebar('6t_Cat',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\7t_Crocodile.png" id="7t_Crocodile" data-flag="@X" onclick="openSidebar('7t_Crocodile',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\8t_Hydra.png" id="8t_Hydra" data-flag="@X" onclick="openSidebar('8t_Hydra',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\9t_Worm.png" id="9t_Worm" data-flag="@X" onclick="openSidebar('9t_Worm',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\10t_Scourge.png" id="10t_Scourge" data-flag="@X" onclick="openSidebar('10t_Scourge',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\11t_The Underworld.png" id="11t_The Underworld" data-flag="@X" onclick="openSidebar('11t_The Underworld',false)"></div>
-				<div class="container"><img alt="/sets\666-files\img\12t_666 Draft Archetypes.png" id="12t_666 Draft Archetypes" data-flag="@X" onclick="openSidebar('12t_666 Draft Archetypes',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\1t_Gargoyle.png" id="1t_Gargoyle" data-flag="@X" onclick="openSidebar('1t_Gargoyle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\2t_Spirit Wall.png" id="2t_Spirit Wall" data-flag="@X" onclick="openSidebar('2t_Spirit Wall',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\3t_Demon.png" id="3t_Demon" data-flag="@X" onclick="openSidebar('3t_Demon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\4t_Devil.png" id="4t_Devil" data-flag="@X" onclick="openSidebar('4t_Devil',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\5t_Beast.png" id="5t_Beast" data-flag="@X" onclick="openSidebar('5t_Beast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\6t_Cat.png" id="6t_Cat" data-flag="@X" onclick="openSidebar('6t_Cat',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\7t_Crocodile.png" id="7t_Crocodile" data-flag="@X" onclick="openSidebar('7t_Crocodile',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\8t_Hydra.png" id="8t_Hydra" data-flag="@X" onclick="openSidebar('8t_Hydra',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\9t_Worm.png" id="9t_Worm" data-flag="@X" onclick="openSidebar('9t_Worm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\10t_Scourge.png" id="10t_Scourge" data-flag="@X" onclick="openSidebar('10t_Scourge',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\11t_The Underworld.png" id="11t_The Underworld" data-flag="@X" onclick="openSidebar('11t_The Underworld',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\666-files\img\12t_666 Draft Archetypes.png" id="12t_666 Draft Archetypes" data-flag="@X" onclick="openSidebar('12t_666 Draft Archetypes',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 			</div>
 			<div class="banner">
 					<img id="SPG-logo" class="logo" src="/sets/SPG-files/logo.png">
 			</div>
 			<div class="grid-container">
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="SPG" class="anchor"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\10_Font of Mythos.png" id="10_Font of Mythos" data-flag="@X" onclick="openSidebar('10_Font of Mythos',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\1_Terminus.png" id="1_Terminus" data-flag="@X" onclick="openSidebar('1_Terminus',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\2_Devastation Tide.png" id="2_Devastation Tide" data-flag="@X" onclick="openSidebar('2_Devastation Tide',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\3_Damnation.png" id="3_Damnation" data-flag="@X" onclick="openSidebar('3_Damnation',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\4_Demonic Consultation.png" id="4_Demonic Consultation" data-flag="@X" onclick="openSidebar('4_Demonic Consultation',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\5_Hell's Caretaker.png" id="5_Hells Caretaker" data-flag="@X" onclick="openSidebar('5_Hells Caretaker',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\6_Bloodthirster.png" id="6_Bloodthirster" data-flag="@X" onclick="openSidebar('6_Bloodthirster',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\7_Choke.png" id="7_Choke" data-flag="@X" onclick="openSidebar('7_Choke',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\8_Hurl through Hell.png" id="8_Hurl through Hell" data-flag="@X" onclick="openSidebar('8_Hurl through Hell',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\9_Prince of Thralls.png" id="9_Prince of Thralls" data-flag="@X" onclick="openSidebar('9_Prince of Thralls',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\10_Font of Mythos.png" id="10_Font of Mythos" data-flag="@X" onclick="openSidebar('10_Font of Mythos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\1_Terminus.png" id="1_Terminus" data-flag="@X" onclick="openSidebar('1_Terminus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\2_Devastation Tide.png" id="2_Devastation Tide" data-flag="@X" onclick="openSidebar('2_Devastation Tide',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\3_Damnation.png" id="3_Damnation" data-flag="@X" onclick="openSidebar('3_Damnation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\4_Demonic Consultation.png" id="4_Demonic Consultation" data-flag="@X" onclick="openSidebar('4_Demonic Consultation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\5_Hell's Caretaker.png" id="5_Hells Caretaker" data-flag="@X" onclick="openSidebar('5_Hells Caretaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\6_Bloodthirster.png" id="6_Bloodthirster" data-flag="@X" onclick="openSidebar('6_Bloodthirster',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\7_Choke.png" id="7_Choke" data-flag="@X" onclick="openSidebar('7_Choke',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\8_Hurl through Hell.png" id="8_Hurl through Hell" data-flag="@X" onclick="openSidebar('8_Hurl through Hell',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\9_Prince of Thralls.png" id="9_Prince of Thralls" data-flag="@X" onclick="openSidebar('9_Prince of Thralls',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
@@ -750,27 +742,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -782,17 +798,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -825,6 +843,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -834,6 +853,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -856,21 +876,21 @@
 	}
 
 		function randomCard() {
-			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-			let random_card = card_list_arrayified[i];
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
 
-			const url = new URL('card', window.location.origin);
-			const params = {
-				set: random_card.set,
-				num: random_card.number,
-				name: random_card.card_name
-			}
-			for (const key in params) {
-				url.searchParams.append(key, params[key]);
-			}
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
 
-			window.location.href = url;
-		}
+				window.location.href = url;
+			}
 	</script>
 </body>
 </html>

@@ -86,7 +86,7 @@
 			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
 			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
 		</div>
-	</div>			<div class="set-group">Qirauz saga</div>
+	</div>			<div class="set-group">Qirauz Saga</div>
 		
 			<div class="set-table">
 			<div class="set-header-row">
@@ -138,7 +138,7 @@
 				<div>288</div>
 			</a>
 			</div>
-					<div class="set-group">Arkoph block</div>
+					<div class="set-group">Arkoph Block</div>
 		
 			<div class="set-table">
 			<div class="set-header-row">
@@ -342,37 +342,6 @@
 				<div>252</div>
 			</a>
 			</div>
-					<div class="set-group">This is a test</div>
-		
-			<div class="set-table">
-			<div class="set-header-row">
-				<div></div> <!-- empty div for spacing -->
-				<div>NAME</div>
-				<div>CODE</div>
-				<div>CARDS</div>
-			</div>
-		
-			<a href="/sets/JMR" class="set-row"> 
-				<img src="/sets/JMR-files/icon.png">
-				<div class="set-title">Jamuraa: The Mirage War</div>
-				<div>JMR</div>
-				<div>1</div>
-			</a>
-			
-			<a href="/sets/90S" class="set-row"> 
-				<img src="/sets/90S-files/icon.png">
-				<div class="set-title">Rath and Storm</div>
-				<div>90S</div>
-				<div>261</div>
-			</a>
-			
-			<a href="/sets/OVR" class="set-row"> 
-				<img src="/sets/OVR-files/icon.png">
-				<div class="set-title">Overlay</div>
-				<div>OVR</div>
-				<div>272</div>
-			</a>
-			</div>
 		
 	<script>
 		let card_list_arrayified = [];
@@ -414,21 +383,21 @@
 		}
 
 		function randomCard() {
-			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-			let random_card = card_list_arrayified[i];
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
 
-			const url = new URL('card', window.location.origin);
-			const params = {
-				set: random_card.set,
-				num: random_card.number,
-				name: random_card.card_name
-			}
-			for (const key in params) {
-				url.searchParams.append(key, params[key]);
-			}
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
 
-			window.location.href = url;
-		}
+				window.location.href = url;
+			}
 	</script>
 </body>
 </html>

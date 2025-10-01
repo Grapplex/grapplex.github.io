@@ -39,8 +39,8 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
@@ -126,12 +126,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -203,9 +204,6 @@
 		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
 		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/JMR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OVR-files/icon.png" />
 		<img class="preload-hidden" id="bg" src="/sets/CYO-files/bg.png" />
 
 		<div class="header">
@@ -219,7 +217,7 @@
 		</div>
 	</div>
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
 		<a class="set-bar" href="CYO"><img src="/sets/CYO-files/icon.png">Chronicles of Yor-Om</a>
 	
@@ -277,398 +275,392 @@
 	
 		<a class="set-bar inactive" href="ELO"><img src="/sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
 	
-		<a class="set-bar inactive" href="JMR"><img src="/sets/JMR-files/icon.png">Jamuraa: The Mirage War</a>
-	
-		<a class="set-bar inactive" href="90S"><img src="/sets/90S-files/icon.png">Rath and Storm</a>
-	
-		<a class="set-bar inactive" href="OVR"><img src="/sets/OVR-files/icon.png">Overlay</a>
-	
 		</div>
 		<div class="banner">
 		<img class="logo" src="/sets/CYO-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\CYO-files\img\6_The Traveler.png" id="6_The Traveler" data-flag="@X" onclick="openSidebar('6_The Traveler',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\5_Solemn Stonegazer.png" id="5_Solemn Stonegazer" data-flag="@X" onclick="openSidebar('5_Solemn Stonegazer',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\1_Hargau's Opus.png" id="1_Hargaus Opus" data-flag="@X" onclick="openSidebar('1_Hargaus Opus',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\2_Pondering Wizard.png" id="2_Pondering Wizard" data-flag="@X" onclick="openSidebar('2_Pondering Wizard',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\4_Snake Handler.png" id="4_Snake Handler" data-flag="@X" onclick="openSidebar('4_Snake Handler',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\3_Rider of the Eight Corners.png" id="3_Rider of the Eight Corners" data-flag="@X" onclick="openSidebar('3_Rider of the Eight Corners',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\28_Ruthless Arbiter.png" id="28_Ruthless Arbiter" data-flag="@X" onclick="openSidebar('28_Ruthless Arbiter',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\65_Try Again.png" id="65_Try Again" data-flag="@X" onclick="openSidebar('65_Try Again',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\78_Face Certain Doom.png" id="78_Face Certain Doom" data-flag="@X" onclick="openSidebar('78_Face Certain Doom',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\111_Dragonblood Aspirant.png" id="111_Dragonblood Aspirant" data-flag="@X" onclick="openSidebar('111_Dragonblood Aspirant',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\141_Chosen Adventurer.png" id="141_Chosen Adventurer" data-flag="@X" onclick="openSidebar('141_Chosen Adventurer',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\36_Divine Wrath.png" id="36_Divine Wrath" data-flag="@X" onclick="openSidebar('36_Divine Wrath',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\66_Wyrmrider Paladin.png" id="66_Wyrmrider Paladin" data-flag="@X" onclick="openSidebar('66_Wyrmrider Paladin',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\85_Lich's Confidant.png" id="85_Lichs Confidant" data-flag="@X" onclick="openSidebar('85_Lichs Confidant',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\112_Firetop Rampager.png" id="112_Firetop Rampager" data-flag="@X" onclick="openSidebar('112_Firetop Rampager',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\160_Scourge of Yor-Om.png" id="160_Scourge of Yor-Om" data-flag="@X" onclick="openSidebar('160_Scourge of Yor-Om',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\10_Beastmaster's Lieutenant.png" id="10_Beastmasters Lieutenant" data-flag="@X" onclick="openSidebar('10_Beastmasters Lieutenant',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\45_Consider Your Options.png" id="45_Consider Your Options" data-flag="@X" onclick="openSidebar('45_Consider Your Options',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\71_Archlich's Charm.png" id="71_Archlichs Charm" data-flag="@X" onclick="openSidebar('71_Archlichs Charm',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\103_Boglim Familiar.png" id="103_Boglim Familiar" data-flag="@X" onclick="openSidebar('103_Boglim Familiar',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\136_Anointer of Kings.png" id="136_Anointer of Kings" data-flag="@X" onclick="openSidebar('136_Anointer of Kings',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\14_Emissary of Thuul.png" id="14_Emissary of Thuul" data-flag="@X" onclick="openSidebar('14_Emissary of Thuul',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\51_In the Thrall of Death.png" id="51_In the Thrall of Death" data-flag="@X" onclick="openSidebar('51_In the Thrall of Death',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\82_In the Face of Endless Chaos.png" id="82_In the Face of Endless Chaos" data-flag="@X" onclick="openSidebar('82_In the Face of Endless Chaos',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\108_Circling Fury.png" id="108_Circling Fury" data-flag="@X" onclick="openSidebar('108_Circling Fury',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\144_Diverging Predator.png" id="144_Diverging Predator" data-flag="@X" onclick="openSidebar('144_Diverging Predator',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\23_Manticore Keeper.png" id="23_Manticore Keeper" data-flag="@X" onclick="openSidebar('23_Manticore Keeper',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\54_Lingering Fear.png" id="54_Lingering Fear" data-flag="@X" onclick="openSidebar('54_Lingering Fear',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\87_Lord of All Foul Things.png" id="87_Lord of All Foul Things" data-flag="@X" onclick="openSidebar('87_Lord of All Foul Things',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\120_Into the Fire.png" id="120_Into the Fire" data-flag="@X" onclick="openSidebar('120_Into the Fire',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\150_Into the Heart of Nachtwood.png" id="150_Into the Heart of Nachtwood" data-flag="@X" onclick="openSidebar('150_Into the Heart of Nachtwood',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\29_Seraph of Selection.png" id="29_Seraph of Selection" data-flag="@X" onclick="openSidebar('29_Seraph of Selection',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\59_Shimmering Tagomago.png" id="59_Shimmering Tagomago" data-flag="@X" onclick="openSidebar('59_Shimmering Tagomago',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\97_To Face the Beast.png" id="97_To Face the Beast" data-flag="@X" onclick="openSidebar('97_To Face the Beast',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\124_Sage Wyrm.png" id="124_Sage Wyrm" data-flag="@X" onclick="openSidebar('124_Sage Wyrm',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\152_Nachtwood Awoken.png" id="152_Nachtwood Awoken" data-flag="@X" onclick="openSidebar('152_Nachtwood Awoken',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\32_Tale of the Lightstrider.png" id="32_Tale of the Lightstrider" data-flag="@X" onclick="openSidebar('32_Tale of the Lightstrider',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\63_Thuul's Vizier.png" id="63_Thuuls Vizier" data-flag="@X" onclick="openSidebar('63_Thuuls Vizier',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\99_Wight Champion.png" id="99_Wight Champion" data-flag="@X" onclick="openSidebar('99_Wight Champion',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\129_Tower of Skalathak.png" id="129_Tower of Skalathak" data-flag="@X" onclick="openSidebar('129_Tower of Skalathak',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\157_Orcish Warleader.png" id="157_Orcish Warleader" data-flag="@X" onclick="openSidebar('157_Orcish Warleader',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\35_Banish Scapegoat.png" id="35_Banish Scapegoat" data-flag="@X" onclick="openSidebar('35_Banish Scapegoat',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\68_Launch the Ships.png" id="68_Launch the Ships" data-flag="@X" onclick="openSidebar('68_Launch the Ships',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\101_Final Breath.png" id="101_Final Breath" data-flag="@X" onclick="openSidebar('101_Final Breath',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\132_Doomed Ritual.png" id="132_Doomed Ritual" data-flag="@X" onclick="openSidebar('132_Doomed Ritual',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\164_From the Shallows.png" id="164_From the Shallows" data-flag="@X" onclick="openSidebar('164_From the Shallows',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\11_Brash Strike.png" id="11_Brash Strike" data-flag="@X" onclick="openSidebar('11_Brash Strike',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\47_Decipher the Trap.png" id="47_Decipher the Trap" data-flag="@X" onclick="openSidebar('47_Decipher the Trap',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\74_Chaos Doomforger.png" id="74_Chaos Doomforger" data-flag="@X" onclick="openSidebar('74_Chaos Doomforger',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\105_Brutal Executioner.png" id="105_Brutal Executioner" data-flag="@X" onclick="openSidebar('105_Brutal Executioner',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\137_Beastmaster's Apprentice.png" id="137_Beastmasters Apprentice" data-flag="@X" onclick="openSidebar('137_Beastmasters Apprentice',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\13_Congregation of Flesh.png" id="13_Congregation of Flesh" data-flag="@X" onclick="openSidebar('13_Congregation of Flesh',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\48_Desert Blade.png" id="48_Desert Blade" data-flag="@X" onclick="openSidebar('48_Desert Blade',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\76_Doomed Necromancer.png" id="76_Doomed Necromancer" data-flag="@X" onclick="openSidebar('76_Doomed Necromancer',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\106_Changing of the Guard.png" id="106_Changing of the Guard" data-flag="@X" onclick="openSidebar('106_Changing of the Guard',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\138_Bestial Tarrasque.png" id="138_Bestial Tarrasque" data-flag="@X" onclick="openSidebar('138_Bestial Tarrasque',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\17_The Fury of Fire.png" id="17_The Fury of Fire" data-flag="@X" onclick="openSidebar('17_The Fury of Fire',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\49_Escape the Lich's Curse.png" id="49_Escape the Lichs Curse" data-flag="@X" onclick="openSidebar('49_Escape the Lichs Curse',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\77_Endless Evil.png" id="77_Endless Evil" data-flag="@X" onclick="openSidebar('77_Endless Evil',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\115_Gallant Charger.png" id="115_Gallant Charger" data-flag="@X" onclick="openSidebar('115_Gallant Charger',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\140_Chaos Exemplar.png" id="140_Chaos Exemplar" data-flag="@X" onclick="openSidebar('140_Chaos Exemplar',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\20_Hargau's Messenger.png" id="20_Hargaus Messenger" data-flag="@X" onclick="openSidebar('20_Hargaus Messenger',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\50_Graveborn Wyrmshade.png" id="50_Graveborn Wyrmshade" data-flag="@X" onclick="openSidebar('50_Graveborn Wyrmshade',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\79_Hargau's Gravetrawler.png" id="79_Hargaus Gravetrawler" data-flag="@X" onclick="openSidebar('79_Hargaus Gravetrawler',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\117_In Defiance of Chaos.png" id="117_In Defiance of Chaos" data-flag="@X" onclick="openSidebar('117_In Defiance of Chaos',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\143_Crypt's Allure.png" id="143_Crypts Allure" data-flag="@X" onclick="openSidebar('143_Crypts Allure',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\24_Master the Cycle.png" id="24_Master the Cycle" data-flag="@X" onclick="openSidebar('24_Master the Cycle',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\52_Into a Nest of Vipers.png" id="52_Into a Nest of Vipers" data-flag="@X" onclick="openSidebar('52_Into a Nest of Vipers',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\80_Hargau's Triumph.png" id="80_Hargaus Triumph" data-flag="@X" onclick="openSidebar('80_Hargaus Triumph',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\118_In the Heat of the Moment.png" id="118_In the Heat of the Moment" data-flag="@X" onclick="openSidebar('118_In the Heat of the Moment',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\145_Enter the Goliath Gate.png" id="145_Enter the Goliath Gate" data-flag="@X" onclick="openSidebar('145_Enter the Goliath Gate',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\25_Moat Tyrant.png" id="25_Moat Tyrant" data-flag="@X" onclick="openSidebar('25_Moat Tyrant',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\56_Mysterious Stranger.png" id="56_Mysterious Stranger" data-flag="@X" onclick="openSidebar('56_Mysterious Stranger',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\81_Hoarder's Ire.png" id="81_Hoarders Ire" data-flag="@X" onclick="openSidebar('81_Hoarders Ire',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\119_In The Wyrm's Clutches.png" id="119_In The Wyrms Clutches" data-flag="@X" onclick="openSidebar('119_In The Wyrms Clutches',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\146_Escape from Thuul's Clutches.png" id="146_Escape from Thuuls Clutches" data-flag="@X" onclick="openSidebar('146_Escape from Thuuls Clutches',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\26_Nachtwood Blademaster.png" id="26_Nachtwood Blademaster" data-flag="@X" onclick="openSidebar('26_Nachtwood Blademaster',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\60_Skywater Sovereign.png" id="60_Skywater Sovereign" data-flag="@X" onclick="openSidebar('60_Skywater Sovereign',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\84_Liber Maleficus.png" id="84_Liber Maleficus" data-flag="@X" onclick="openSidebar('84_Liber Maleficus',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\122_Nachtwood Heartseeker.png" id="122_Nachtwood Heartseeker" data-flag="@X" onclick="openSidebar('122_Nachtwood Heartseeker',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\147_Fated Gambit.png" id="147_Fated Gambit" data-flag="@X" onclick="openSidebar('147_Fated Gambit',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\27_Ravenous Necromoth.png" id="27_Ravenous Necromoth" data-flag="@X" onclick="openSidebar('27_Ravenous Necromoth',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\61_Spectral Inversion.png" id="61_Spectral Inversion" data-flag="@X" onclick="openSidebar('61_Spectral Inversion',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\86_Lich's Promise.png" id="86_Lichs Promise" data-flag="@X" onclick="openSidebar('86_Lichs Promise',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\123_Plucky Volunteers.png" id="123_Plucky Volunteers" data-flag="@X" onclick="openSidebar('123_Plucky Volunteers',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\148_Hungering Decapede.png" id="148_Hungering Decapede" data-flag="@X" onclick="openSidebar('148_Hungering Decapede',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\30_Snake Mutant.png" id="30_Snake Mutant" data-flag="@X" onclick="openSidebar('30_Snake Mutant',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\64_Tower Guardian.png" id="64_Tower Guardian" data-flag="@X" onclick="openSidebar('64_Tower Guardian',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\91_Rider of Ill Omen.png" id="91_Rider of Ill Omen" data-flag="@X" onclick="openSidebar('91_Rider of Ill Omen',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\125_Scent of Smoke.png" id="125_Scent of Smoke" data-flag="@X" onclick="openSidebar('125_Scent of Smoke',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\151_Man-of-Arms.png" id="151_Man-of-Arms" data-flag="@X" onclick="openSidebar('151_Man-of-Arms',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\33_Thuul's Bandits.png" id="33_Thuuls Bandits" data-flag="@X" onclick="openSidebar('33_Thuuls Bandits',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\67_Conjure Self.png" id="67_Conjure Self" data-flag="@X" onclick="openSidebar('67_Conjure Self',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\95_Snake Assassin.png" id="95_Snake Assassin" data-flag="@X" onclick="openSidebar('95_Snake Assassin',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\128_Take It or Leave It.png" id="128_Take It or Leave It" data-flag="@X" onclick="openSidebar('128_Take It or Leave It',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\158_Protacted Siege.png" id="158_Protacted Siege" data-flag="@X" onclick="openSidebar('158_Protacted Siege',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\38_Survive the Drake.png" id="38_Survive the Drake" data-flag="@X" onclick="openSidebar('38_Survive the Drake',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\69_Rebuke the Tomb.png" id="69_Rebuke the Tomb" data-flag="@X" onclick="openSidebar('69_Rebuke the Tomb',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\102_Invoke the Demon.png" id="102_Invoke the Demon" data-flag="@X" onclick="openSidebar('102_Invoke the Demon',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\134_Torch the Gates.png" id="134_Torch the Gates" data-flag="@X" onclick="openSidebar('134_Torch the Gates',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\165_Heed the Past.png" id="165_Heed the Past" data-flag="@X" onclick="openSidebar('165_Heed the Past',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\7_The Armor Walks.png" id="7_The Armor Walks" data-flag="@X" onclick="openSidebar('7_The Armor Walks',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\39_Apprentice Lich.png" id="39_Apprentice Lich" data-flag="@X" onclick="openSidebar('39_Apprentice Lich',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\72_Catacomb Guardian.png" id="72_Catacomb Guardian" data-flag="@X" onclick="openSidebar('72_Catacomb Guardian',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\104_Bolt of Wyrmfire.png" id="104_Bolt of Wyrmfire" data-flag="@X" onclick="openSidebar('104_Bolt of Wyrmfire',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\135_Amphibious Adventurer.png" id="135_Amphibious Adventurer" data-flag="@X" onclick="openSidebar('135_Amphibious Adventurer',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\8_Astral Lich.png" id="8_Astral Lich" data-flag="@X" onclick="openSidebar('8_Astral Lich',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\40_Approach the Ferryman.png" id="40_Approach the Ferryman" data-flag="@X" onclick="openSidebar('40_Approach the Ferryman',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\73_Cauldron's Caprices.png" id="73_Cauldrons Caprices" data-flag="@X" onclick="openSidebar('73_Cauldrons Caprices',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\107_Chaos Reaver.png" id="107_Chaos Reaver" data-flag="@X" onclick="openSidebar('107_Chaos Reaver',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\139_Chaos Elf.png" id="139_Chaos Elf" data-flag="@X" onclick="openSidebar('139_Chaos Elf',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\9_Beastmaster's Guile.png" id="9_Beastmasters Guile" data-flag="@X" onclick="openSidebar('9_Beastmasters Guile',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\41_Boreal Toad.png" id="41_Boreal Toad" data-flag="@X" onclick="openSidebar('41_Boreal Toad',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\75_Chitinous Corsair.png" id="75_Chitinous Corsair" data-flag="@X" onclick="openSidebar('75_Chitinous Corsair',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\109_Citadel Ambusher.png" id="109_Citadel Ambusher" data-flag="@X" onclick="openSidebar('109_Citadel Ambusher',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\142_Crumbling Rot.png" id="142_Crumbling Rot" data-flag="@X" onclick="openSidebar('142_Crumbling Rot',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\12_Chaos Chieftan.png" id="12_Chaos Chieftan" data-flag="@X" onclick="openSidebar('12_Chaos Chieftan',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\42_Captive Seabeast.png" id="42_Captive Seabeast" data-flag="@X" onclick="openSidebar('42_Captive Seabeast',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\83_Legion of Bone.png" id="83_Legion of Bone" data-flag="@X" onclick="openSidebar('83_Legion of Bone',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\110_Confront the Idol.png" id="110_Confront the Idol" data-flag="@X" onclick="openSidebar('110_Confront the Idol',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\149_Iguargodon.png" id="149_Iguargodon" data-flag="@X" onclick="openSidebar('149_Iguargodon',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\15_Enter the Wretched Gate.png" id="15_Enter the Wretched Gate" data-flag="@X" onclick="openSidebar('15_Enter the Wretched Gate',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\43_Careful Study.png" id="43_Careful Study" data-flag="@X" onclick="openSidebar('43_Careful Study',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\88_Nachtwood Sorcerer.png" id="88_Nachtwood Sorcerer" data-flag="@X" onclick="openSidebar('88_Nachtwood Sorcerer',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\113_Firetop Ravagers.png" id="113_Firetop Ravagers" data-flag="@X" onclick="openSidebar('113_Firetop Ravagers',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\153_Nachtwood Protector.png" id="153_Nachtwood Protector" data-flag="@X" onclick="openSidebar('153_Nachtwood Protector',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\16_Foolhardy Venturer.png" id="16_Foolhardy Venturer" data-flag="@X" onclick="openSidebar('16_Foolhardy Venturer',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\44_Catacomb Sovereign.png" id="44_Catacomb Sovereign" data-flag="@X" onclick="openSidebar('44_Catacomb Sovereign',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\89_Quest for the Lich's Staff.png" id="89_Quest for the Lichs Staff" data-flag="@X" onclick="openSidebar('89_Quest for the Lichs Staff',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\114_Folly of the Demon.png" id="114_Folly of the Demon" data-flag="@X" onclick="openSidebar('114_Folly of the Demon',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\154_Nachtwood Riverwarden.png" id="154_Nachtwood Riverwarden" data-flag="@X" onclick="openSidebar('154_Nachtwood Riverwarden',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\18_Graceful Sunskimmer.png" id="18_Graceful Sunskimmer" data-flag="@X" onclick="openSidebar('18_Graceful Sunskimmer',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\46_Crystalline Glory.png" id="46_Crystalline Glory" data-flag="@X" onclick="openSidebar('46_Crystalline Glory',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\90_Revenge of the Lich.png" id="90_Revenge of the Lich" data-flag="@X" onclick="openSidebar('90_Revenge of the Lich',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\116_Hapless Boglim.png" id="116_Hapless Boglim" data-flag="@X" onclick="openSidebar('116_Hapless Boglim',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\155_Nachtwood Sporefolk.png" id="155_Nachtwood Sporefolk" data-flag="@X" onclick="openSidebar('155_Nachtwood Sporefolk',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\19_Hand of Iaxon.png" id="19_Hand of Iaxon" data-flag="@X" onclick="openSidebar('19_Hand of Iaxon',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\53_Lich's Call.png" id="53_Lichs Call" data-flag="@X" onclick="openSidebar('53_Lichs Call',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\92_Scorned Revenant.png" id="92_Scorned Revenant" data-flag="@X" onclick="openSidebar('92_Scorned Revenant',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\121_Magma Merman.png" id="121_Magma Merman" data-flag="@X" onclick="openSidebar('121_Magma Merman',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\156_Ogre Scalptaker.png" id="156_Ogre Scalptaker" data-flag="@X" onclick="openSidebar('156_Ogre Scalptaker',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\21_Hargau's Vassal.png" id="21_Hargaus Vassal" data-flag="@X" onclick="openSidebar('21_Hargaus Vassal',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\55_Lord of the Fleas.png" id="55_Lord of the Fleas" data-flag="@X" onclick="openSidebar('55_Lord of the Fleas',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\93_Scourge of the Outlands.png" id="93_Scourge of the Outlands" data-flag="@X" onclick="openSidebar('93_Scourge of the Outlands',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\126_Scorching Afreet.png" id="126_Scorching Afreet" data-flag="@X" onclick="openSidebar('126_Scorching Afreet',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\159_Purge Evil.png" id="159_Purge Evil" data-flag="@X" onclick="openSidebar('159_Purge Evil',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\22_Lich's Thrall.png" id="22_Lichs Thrall" data-flag="@X" onclick="openSidebar('22_Lichs Thrall',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\57_Patient Strix.png" id="57_Patient Strix" data-flag="@X" onclick="openSidebar('57_Patient Strix',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\94_Servant of Hargau.png" id="94_Servant of Hargau" data-flag="@X" onclick="openSidebar('94_Servant of Hargau',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\127_Screaming Wyrmsong.png" id="127_Screaming Wyrmsong" data-flag="@X" onclick="openSidebar('127_Screaming Wyrmsong',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\161_Slavering Troglodyte.png" id="161_Slavering Troglodyte" data-flag="@X" onclick="openSidebar('161_Slavering Troglodyte',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\31_Survive the Tomb.png" id="31_Survive the Tomb" data-flag="@X" onclick="openSidebar('31_Survive the Tomb',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\58_Peer Beyond Time.png" id="58_Peer Beyond Time" data-flag="@X" onclick="openSidebar('58_Peer Beyond Time',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\96_Take the Wrong Turn.png" id="96_Take the Wrong Turn" data-flag="@X" onclick="openSidebar('96_Take the Wrong Turn',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\130_Wandering Knave.png" id="130_Wandering Knave" data-flag="@X" onclick="openSidebar('130_Wandering Knave',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\162_The Book of the Damned.png" id="162_The Book of the Damned" data-flag="@X" onclick="openSidebar('162_The Book of the Damned',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\34_Bandit Raid.png" id="34_Bandit Raid" data-flag="@X" onclick="openSidebar('34_Bandit Raid',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\62_Thuul's Field Guide.png" id="62_Thuuls Field Guide" data-flag="@X" onclick="openSidebar('62_Thuuls Field Guide',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\98_Undead Horde.png" id="98_Undead Horde" data-flag="@X" onclick="openSidebar('98_Undead Horde',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\131_Wyrmfang Revenant.png" id="131_Wyrmfang Revenant" data-flag="@X" onclick="openSidebar('131_Wyrmfang Revenant',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\163_Thuul's Lieutenant.png" id="163_Thuuls Lieutenant" data-flag="@X" onclick="openSidebar('163_Thuuls Lieutenant',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\37_Invoke the Dead.png" id="37_Invoke the Dead" data-flag="@X" onclick="openSidebar('37_Invoke the Dead',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\70_Soporific Fumes.png" id="70_Soporific Fumes" data-flag="@X" onclick="openSidebar('70_Soporific Fumes',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\100_Face Death.png" id="100_Face Death" data-flag="@X" onclick="openSidebar('100_Face Death',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\133_Read the Flames.png" id="133_Read the Flames" data-flag="@X" onclick="openSidebar('133_Read the Flames',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\166_Witness the Woods.png" id="166_Witness the Woods" data-flag="@X" onclick="openSidebar('166_Witness the Woods',true)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\6_The Traveler.png" id="6_The Traveler" data-flag="@X" onclick="openSidebar('6_The Traveler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\5_Solemn Stonegazer.png" id="5_Solemn Stonegazer" data-flag="@X" onclick="openSidebar('5_Solemn Stonegazer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\1_Hargau's Opus.png" id="1_Hargaus Opus" data-flag="@X" onclick="openSidebar('1_Hargaus Opus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\2_Pondering Wizard.png" id="2_Pondering Wizard" data-flag="@X" onclick="openSidebar('2_Pondering Wizard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\4_Snake Handler.png" id="4_Snake Handler" data-flag="@X" onclick="openSidebar('4_Snake Handler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\3_Rider of the Eight Corners.png" id="3_Rider of the Eight Corners" data-flag="@X" onclick="openSidebar('3_Rider of the Eight Corners',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\28_Ruthless Arbiter.png" id="28_Ruthless Arbiter" data-flag="@X" onclick="openSidebar('28_Ruthless Arbiter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\65_Try Again.png" id="65_Try Again" data-flag="@X" onclick="openSidebar('65_Try Again',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\78_Face Certain Doom.png" id="78_Face Certain Doom" data-flag="@X" onclick="openSidebar('78_Face Certain Doom',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\111_Dragonblood Aspirant.png" id="111_Dragonblood Aspirant" data-flag="@X" onclick="openSidebar('111_Dragonblood Aspirant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\141_Chosen Adventurer.png" id="141_Chosen Adventurer" data-flag="@X" onclick="openSidebar('141_Chosen Adventurer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\36_Divine Wrath.png" id="36_Divine Wrath" data-flag="@X" onclick="openSidebar('36_Divine Wrath',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\66_Wyrmrider Paladin.png" id="66_Wyrmrider Paladin" data-flag="@X" onclick="openSidebar('66_Wyrmrider Paladin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\85_Lich's Confidant.png" id="85_Lichs Confidant" data-flag="@X" onclick="openSidebar('85_Lichs Confidant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\112_Firetop Rampager.png" id="112_Firetop Rampager" data-flag="@X" onclick="openSidebar('112_Firetop Rampager',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\160_Scourge of Yor-Om.png" id="160_Scourge of Yor-Om" data-flag="@X" onclick="openSidebar('160_Scourge of Yor-Om',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\10_Beastmaster's Lieutenant.png" id="10_Beastmasters Lieutenant" data-flag="@X" onclick="openSidebar('10_Beastmasters Lieutenant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\45_Consider Your Options.png" id="45_Consider Your Options" data-flag="@X" onclick="openSidebar('45_Consider Your Options',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\71_Archlich's Charm.png" id="71_Archlichs Charm" data-flag="@X" onclick="openSidebar('71_Archlichs Charm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\103_Boglim Familiar.png" id="103_Boglim Familiar" data-flag="@X" onclick="openSidebar('103_Boglim Familiar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\136_Anointer of Kings.png" id="136_Anointer of Kings" data-flag="@X" onclick="openSidebar('136_Anointer of Kings',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\14_Emissary of Thuul.png" id="14_Emissary of Thuul" data-flag="@X" onclick="openSidebar('14_Emissary of Thuul',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\51_In the Thrall of Death.png" id="51_In the Thrall of Death" data-flag="@X" onclick="openSidebar('51_In the Thrall of Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\82_In the Face of Endless Chaos.png" id="82_In the Face of Endless Chaos" data-flag="@X" onclick="openSidebar('82_In the Face of Endless Chaos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\108_Circling Fury.png" id="108_Circling Fury" data-flag="@X" onclick="openSidebar('108_Circling Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\144_Diverging Predator.png" id="144_Diverging Predator" data-flag="@X" onclick="openSidebar('144_Diverging Predator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\23_Manticore Keeper.png" id="23_Manticore Keeper" data-flag="@X" onclick="openSidebar('23_Manticore Keeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\54_Lingering Fear.png" id="54_Lingering Fear" data-flag="@X" onclick="openSidebar('54_Lingering Fear',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\87_Lord of All Foul Things.png" id="87_Lord of All Foul Things" data-flag="@X" onclick="openSidebar('87_Lord of All Foul Things',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\120_Into the Fire.png" id="120_Into the Fire" data-flag="@X" onclick="openSidebar('120_Into the Fire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\150_Into the Heart of Nachtwood.png" id="150_Into the Heart of Nachtwood" data-flag="@X" onclick="openSidebar('150_Into the Heart of Nachtwood',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\29_Seraph of Selection.png" id="29_Seraph of Selection" data-flag="@X" onclick="openSidebar('29_Seraph of Selection',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\59_Shimmering Tagomago.png" id="59_Shimmering Tagomago" data-flag="@X" onclick="openSidebar('59_Shimmering Tagomago',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\97_To Face the Beast.png" id="97_To Face the Beast" data-flag="@X" onclick="openSidebar('97_To Face the Beast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\124_Sage Wyrm.png" id="124_Sage Wyrm" data-flag="@X" onclick="openSidebar('124_Sage Wyrm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\152_Nachtwood Awoken.png" id="152_Nachtwood Awoken" data-flag="@X" onclick="openSidebar('152_Nachtwood Awoken',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\32_Tale of the Lightstrider.png" id="32_Tale of the Lightstrider" data-flag="@X" onclick="openSidebar('32_Tale of the Lightstrider',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\63_Thuul's Vizier.png" id="63_Thuuls Vizier" data-flag="@X" onclick="openSidebar('63_Thuuls Vizier',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\99_Wight Champion.png" id="99_Wight Champion" data-flag="@X" onclick="openSidebar('99_Wight Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\129_Tower of Skalathak.png" id="129_Tower of Skalathak" data-flag="@X" onclick="openSidebar('129_Tower of Skalathak',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\157_Orcish Warleader.png" id="157_Orcish Warleader" data-flag="@X" onclick="openSidebar('157_Orcish Warleader',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\35_Banish Scapegoat.png" id="35_Banish Scapegoat" data-flag="@X" onclick="openSidebar('35_Banish Scapegoat',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\68_Launch the Ships.png" id="68_Launch the Ships" data-flag="@X" onclick="openSidebar('68_Launch the Ships',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\101_Final Breath.png" id="101_Final Breath" data-flag="@X" onclick="openSidebar('101_Final Breath',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\132_Doomed Ritual.png" id="132_Doomed Ritual" data-flag="@X" onclick="openSidebar('132_Doomed Ritual',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\164_From the Shallows.png" id="164_From the Shallows" data-flag="@X" onclick="openSidebar('164_From the Shallows',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\11_Brash Strike.png" id="11_Brash Strike" data-flag="@X" onclick="openSidebar('11_Brash Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\47_Decipher the Trap.png" id="47_Decipher the Trap" data-flag="@X" onclick="openSidebar('47_Decipher the Trap',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\74_Chaos Doomforger.png" id="74_Chaos Doomforger" data-flag="@X" onclick="openSidebar('74_Chaos Doomforger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\105_Brutal Executioner.png" id="105_Brutal Executioner" data-flag="@X" onclick="openSidebar('105_Brutal Executioner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\137_Beastmaster's Apprentice.png" id="137_Beastmasters Apprentice" data-flag="@X" onclick="openSidebar('137_Beastmasters Apprentice',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\13_Congregation of Flesh.png" id="13_Congregation of Flesh" data-flag="@X" onclick="openSidebar('13_Congregation of Flesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\48_Desert Blade.png" id="48_Desert Blade" data-flag="@X" onclick="openSidebar('48_Desert Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\76_Doomed Necromancer.png" id="76_Doomed Necromancer" data-flag="@X" onclick="openSidebar('76_Doomed Necromancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\106_Changing of the Guard.png" id="106_Changing of the Guard" data-flag="@X" onclick="openSidebar('106_Changing of the Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\138_Bestial Tarrasque.png" id="138_Bestial Tarrasque" data-flag="@X" onclick="openSidebar('138_Bestial Tarrasque',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\17_The Fury of Fire.png" id="17_The Fury of Fire" data-flag="@X" onclick="openSidebar('17_The Fury of Fire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\49_Escape the Lich's Curse.png" id="49_Escape the Lichs Curse" data-flag="@X" onclick="openSidebar('49_Escape the Lichs Curse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\77_Endless Evil.png" id="77_Endless Evil" data-flag="@X" onclick="openSidebar('77_Endless Evil',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\115_Gallant Charger.png" id="115_Gallant Charger" data-flag="@X" onclick="openSidebar('115_Gallant Charger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\140_Chaos Exemplar.png" id="140_Chaos Exemplar" data-flag="@X" onclick="openSidebar('140_Chaos Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\20_Hargau's Messenger.png" id="20_Hargaus Messenger" data-flag="@X" onclick="openSidebar('20_Hargaus Messenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\50_Graveborn Wyrmshade.png" id="50_Graveborn Wyrmshade" data-flag="@X" onclick="openSidebar('50_Graveborn Wyrmshade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\79_Hargau's Gravetrawler.png" id="79_Hargaus Gravetrawler" data-flag="@X" onclick="openSidebar('79_Hargaus Gravetrawler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\117_In Defiance of Chaos.png" id="117_In Defiance of Chaos" data-flag="@X" onclick="openSidebar('117_In Defiance of Chaos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\143_Crypt's Allure.png" id="143_Crypts Allure" data-flag="@X" onclick="openSidebar('143_Crypts Allure',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\24_Master the Cycle.png" id="24_Master the Cycle" data-flag="@X" onclick="openSidebar('24_Master the Cycle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\52_Into a Nest of Vipers.png" id="52_Into a Nest of Vipers" data-flag="@X" onclick="openSidebar('52_Into a Nest of Vipers',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\80_Hargau's Triumph.png" id="80_Hargaus Triumph" data-flag="@X" onclick="openSidebar('80_Hargaus Triumph',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\118_In the Heat of the Moment.png" id="118_In the Heat of the Moment" data-flag="@X" onclick="openSidebar('118_In the Heat of the Moment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\145_Enter the Goliath Gate.png" id="145_Enter the Goliath Gate" data-flag="@X" onclick="openSidebar('145_Enter the Goliath Gate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\25_Moat Tyrant.png" id="25_Moat Tyrant" data-flag="@X" onclick="openSidebar('25_Moat Tyrant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\56_Mysterious Stranger.png" id="56_Mysterious Stranger" data-flag="@X" onclick="openSidebar('56_Mysterious Stranger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\81_Hoarder's Ire.png" id="81_Hoarders Ire" data-flag="@X" onclick="openSidebar('81_Hoarders Ire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\119_In The Wyrm's Clutches.png" id="119_In The Wyrms Clutches" data-flag="@X" onclick="openSidebar('119_In The Wyrms Clutches',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\146_Escape from Thuul's Clutches.png" id="146_Escape from Thuuls Clutches" data-flag="@X" onclick="openSidebar('146_Escape from Thuuls Clutches',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\26_Nachtwood Blademaster.png" id="26_Nachtwood Blademaster" data-flag="@X" onclick="openSidebar('26_Nachtwood Blademaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\60_Skywater Sovereign.png" id="60_Skywater Sovereign" data-flag="@X" onclick="openSidebar('60_Skywater Sovereign',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\84_Liber Maleficus.png" id="84_Liber Maleficus" data-flag="@X" onclick="openSidebar('84_Liber Maleficus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\122_Nachtwood Heartseeker.png" id="122_Nachtwood Heartseeker" data-flag="@X" onclick="openSidebar('122_Nachtwood Heartseeker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\147_Fated Gambit.png" id="147_Fated Gambit" data-flag="@X" onclick="openSidebar('147_Fated Gambit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\27_Ravenous Necromoth.png" id="27_Ravenous Necromoth" data-flag="@X" onclick="openSidebar('27_Ravenous Necromoth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\61_Spectral Inversion.png" id="61_Spectral Inversion" data-flag="@X" onclick="openSidebar('61_Spectral Inversion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\86_Lich's Promise.png" id="86_Lichs Promise" data-flag="@X" onclick="openSidebar('86_Lichs Promise',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\123_Plucky Volunteers.png" id="123_Plucky Volunteers" data-flag="@X" onclick="openSidebar('123_Plucky Volunteers',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\148_Hungering Decapede.png" id="148_Hungering Decapede" data-flag="@X" onclick="openSidebar('148_Hungering Decapede',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\30_Snake Mutant.png" id="30_Snake Mutant" data-flag="@X" onclick="openSidebar('30_Snake Mutant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\64_Tower Guardian.png" id="64_Tower Guardian" data-flag="@X" onclick="openSidebar('64_Tower Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\91_Rider of Ill Omen.png" id="91_Rider of Ill Omen" data-flag="@X" onclick="openSidebar('91_Rider of Ill Omen',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\125_Scent of Smoke.png" id="125_Scent of Smoke" data-flag="@X" onclick="openSidebar('125_Scent of Smoke',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\151_Man-of-Arms.png" id="151_Man-of-Arms" data-flag="@X" onclick="openSidebar('151_Man-of-Arms',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\33_Thuul's Bandits.png" id="33_Thuuls Bandits" data-flag="@X" onclick="openSidebar('33_Thuuls Bandits',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\67_Conjure Self.png" id="67_Conjure Self" data-flag="@X" onclick="openSidebar('67_Conjure Self',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\95_Snake Assassin.png" id="95_Snake Assassin" data-flag="@X" onclick="openSidebar('95_Snake Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\128_Take It or Leave It.png" id="128_Take It or Leave It" data-flag="@X" onclick="openSidebar('128_Take It or Leave It',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\158_Protacted Siege.png" id="158_Protacted Siege" data-flag="@X" onclick="openSidebar('158_Protacted Siege',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\38_Survive the Drake.png" id="38_Survive the Drake" data-flag="@X" onclick="openSidebar('38_Survive the Drake',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\69_Rebuke the Tomb.png" id="69_Rebuke the Tomb" data-flag="@X" onclick="openSidebar('69_Rebuke the Tomb',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\102_Invoke the Demon.png" id="102_Invoke the Demon" data-flag="@X" onclick="openSidebar('102_Invoke the Demon',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\134_Torch the Gates.png" id="134_Torch the Gates" data-flag="@X" onclick="openSidebar('134_Torch the Gates',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\165_Heed the Past.png" id="165_Heed the Past" data-flag="@X" onclick="openSidebar('165_Heed the Past',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\7_The Armor Walks.png" id="7_The Armor Walks" data-flag="@X" onclick="openSidebar('7_The Armor Walks',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\39_Apprentice Lich.png" id="39_Apprentice Lich" data-flag="@X" onclick="openSidebar('39_Apprentice Lich',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\72_Catacomb Guardian.png" id="72_Catacomb Guardian" data-flag="@X" onclick="openSidebar('72_Catacomb Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\104_Bolt of Wyrmfire.png" id="104_Bolt of Wyrmfire" data-flag="@X" onclick="openSidebar('104_Bolt of Wyrmfire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\135_Amphibious Adventurer.png" id="135_Amphibious Adventurer" data-flag="@X" onclick="openSidebar('135_Amphibious Adventurer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\8_Astral Lich.png" id="8_Astral Lich" data-flag="@X" onclick="openSidebar('8_Astral Lich',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\40_Approach the Ferryman.png" id="40_Approach the Ferryman" data-flag="@X" onclick="openSidebar('40_Approach the Ferryman',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\73_Cauldron's Caprices.png" id="73_Cauldrons Caprices" data-flag="@X" onclick="openSidebar('73_Cauldrons Caprices',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\107_Chaos Reaver.png" id="107_Chaos Reaver" data-flag="@X" onclick="openSidebar('107_Chaos Reaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\139_Chaos Elf.png" id="139_Chaos Elf" data-flag="@X" onclick="openSidebar('139_Chaos Elf',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\9_Beastmaster's Guile.png" id="9_Beastmasters Guile" data-flag="@X" onclick="openSidebar('9_Beastmasters Guile',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\41_Boreal Toad.png" id="41_Boreal Toad" data-flag="@X" onclick="openSidebar('41_Boreal Toad',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\75_Chitinous Corsair.png" id="75_Chitinous Corsair" data-flag="@X" onclick="openSidebar('75_Chitinous Corsair',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\109_Citadel Ambusher.png" id="109_Citadel Ambusher" data-flag="@X" onclick="openSidebar('109_Citadel Ambusher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\142_Crumbling Rot.png" id="142_Crumbling Rot" data-flag="@X" onclick="openSidebar('142_Crumbling Rot',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\12_Chaos Chieftan.png" id="12_Chaos Chieftan" data-flag="@X" onclick="openSidebar('12_Chaos Chieftan',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\42_Captive Seabeast.png" id="42_Captive Seabeast" data-flag="@X" onclick="openSidebar('42_Captive Seabeast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\83_Legion of Bone.png" id="83_Legion of Bone" data-flag="@X" onclick="openSidebar('83_Legion of Bone',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\110_Confront the Idol.png" id="110_Confront the Idol" data-flag="@X" onclick="openSidebar('110_Confront the Idol',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\149_Iguargodon.png" id="149_Iguargodon" data-flag="@X" onclick="openSidebar('149_Iguargodon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\15_Enter the Wretched Gate.png" id="15_Enter the Wretched Gate" data-flag="@X" onclick="openSidebar('15_Enter the Wretched Gate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\43_Careful Study.png" id="43_Careful Study" data-flag="@X" onclick="openSidebar('43_Careful Study',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\88_Nachtwood Sorcerer.png" id="88_Nachtwood Sorcerer" data-flag="@X" onclick="openSidebar('88_Nachtwood Sorcerer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\113_Firetop Ravagers.png" id="113_Firetop Ravagers" data-flag="@X" onclick="openSidebar('113_Firetop Ravagers',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\153_Nachtwood Protector.png" id="153_Nachtwood Protector" data-flag="@X" onclick="openSidebar('153_Nachtwood Protector',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\16_Foolhardy Venturer.png" id="16_Foolhardy Venturer" data-flag="@X" onclick="openSidebar('16_Foolhardy Venturer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\44_Catacomb Sovereign.png" id="44_Catacomb Sovereign" data-flag="@X" onclick="openSidebar('44_Catacomb Sovereign',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\89_Quest for the Lich's Staff.png" id="89_Quest for the Lichs Staff" data-flag="@X" onclick="openSidebar('89_Quest for the Lichs Staff',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\114_Folly of the Demon.png" id="114_Folly of the Demon" data-flag="@X" onclick="openSidebar('114_Folly of the Demon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\154_Nachtwood Riverwarden.png" id="154_Nachtwood Riverwarden" data-flag="@X" onclick="openSidebar('154_Nachtwood Riverwarden',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\18_Graceful Sunskimmer.png" id="18_Graceful Sunskimmer" data-flag="@X" onclick="openSidebar('18_Graceful Sunskimmer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\46_Crystalline Glory.png" id="46_Crystalline Glory" data-flag="@X" onclick="openSidebar('46_Crystalline Glory',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\90_Revenge of the Lich.png" id="90_Revenge of the Lich" data-flag="@X" onclick="openSidebar('90_Revenge of the Lich',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\116_Hapless Boglim.png" id="116_Hapless Boglim" data-flag="@X" onclick="openSidebar('116_Hapless Boglim',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\155_Nachtwood Sporefolk.png" id="155_Nachtwood Sporefolk" data-flag="@X" onclick="openSidebar('155_Nachtwood Sporefolk',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\19_Hand of Iaxon.png" id="19_Hand of Iaxon" data-flag="@X" onclick="openSidebar('19_Hand of Iaxon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\53_Lich's Call.png" id="53_Lichs Call" data-flag="@X" onclick="openSidebar('53_Lichs Call',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\92_Scorned Revenant.png" id="92_Scorned Revenant" data-flag="@X" onclick="openSidebar('92_Scorned Revenant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\121_Magma Merman.png" id="121_Magma Merman" data-flag="@X" onclick="openSidebar('121_Magma Merman',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\156_Ogre Scalptaker.png" id="156_Ogre Scalptaker" data-flag="@X" onclick="openSidebar('156_Ogre Scalptaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\21_Hargau's Vassal.png" id="21_Hargaus Vassal" data-flag="@X" onclick="openSidebar('21_Hargaus Vassal',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\55_Lord of the Fleas.png" id="55_Lord of the Fleas" data-flag="@X" onclick="openSidebar('55_Lord of the Fleas',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\93_Scourge of the Outlands.png" id="93_Scourge of the Outlands" data-flag="@X" onclick="openSidebar('93_Scourge of the Outlands',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\126_Scorching Afreet.png" id="126_Scorching Afreet" data-flag="@X" onclick="openSidebar('126_Scorching Afreet',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\159_Purge Evil.png" id="159_Purge Evil" data-flag="@X" onclick="openSidebar('159_Purge Evil',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\22_Lich's Thrall.png" id="22_Lichs Thrall" data-flag="@X" onclick="openSidebar('22_Lichs Thrall',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\57_Patient Strix.png" id="57_Patient Strix" data-flag="@X" onclick="openSidebar('57_Patient Strix',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\94_Servant of Hargau.png" id="94_Servant of Hargau" data-flag="@X" onclick="openSidebar('94_Servant of Hargau',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\127_Screaming Wyrmsong.png" id="127_Screaming Wyrmsong" data-flag="@X" onclick="openSidebar('127_Screaming Wyrmsong',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\161_Slavering Troglodyte.png" id="161_Slavering Troglodyte" data-flag="@X" onclick="openSidebar('161_Slavering Troglodyte',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\31_Survive the Tomb.png" id="31_Survive the Tomb" data-flag="@X" onclick="openSidebar('31_Survive the Tomb',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\58_Peer Beyond Time.png" id="58_Peer Beyond Time" data-flag="@X" onclick="openSidebar('58_Peer Beyond Time',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\96_Take the Wrong Turn.png" id="96_Take the Wrong Turn" data-flag="@X" onclick="openSidebar('96_Take the Wrong Turn',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\130_Wandering Knave.png" id="130_Wandering Knave" data-flag="@X" onclick="openSidebar('130_Wandering Knave',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\162_The Book of the Damned.png" id="162_The Book of the Damned" data-flag="@X" onclick="openSidebar('162_The Book of the Damned',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\34_Bandit Raid.png" id="34_Bandit Raid" data-flag="@X" onclick="openSidebar('34_Bandit Raid',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\62_Thuul's Field Guide.png" id="62_Thuuls Field Guide" data-flag="@X" onclick="openSidebar('62_Thuuls Field Guide',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\98_Undead Horde.png" id="98_Undead Horde" data-flag="@X" onclick="openSidebar('98_Undead Horde',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\131_Wyrmfang Revenant.png" id="131_Wyrmfang Revenant" data-flag="@X" onclick="openSidebar('131_Wyrmfang Revenant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\163_Thuul's Lieutenant.png" id="163_Thuuls Lieutenant" data-flag="@X" onclick="openSidebar('163_Thuuls Lieutenant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\37_Invoke the Dead.png" id="37_Invoke the Dead" data-flag="@X" onclick="openSidebar('37_Invoke the Dead',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\70_Soporific Fumes.png" id="70_Soporific Fumes" data-flag="@X" onclick="openSidebar('70_Soporific Fumes',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\100_Face Death.png" id="100_Face Death" data-flag="@X" onclick="openSidebar('100_Face Death',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\133_Read the Flames.png" id="133_Read the Flames" data-flag="@X" onclick="openSidebar('133_Read the Flames',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\166_Witness the Woods.png" id="166_Witness the Woods" data-flag="@X" onclick="openSidebar('166_Witness the Woods',true)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\171_Wipe Out.png" id="171_Wipe Out" data-flag="@X" onclick="openSidebar('171_Wipe Out',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\174_Unexpected Adversary.png" id="174_Unexpected Adversary" data-flag="@X" onclick="openSidebar('174_Unexpected Adversary',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\181_Persistent Threat.png" id="181_Persistent Threat" data-flag="@X" onclick="openSidebar('181_Persistent Threat',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\186_Spawn of Skalathak.png" id="186_Spawn of Skalathak" data-flag="@X" onclick="openSidebar('186_Spawn of Skalathak',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\187_Absolve.png" id="187_Absolve" data-flag="@X" onclick="openSidebar('187_Absolve',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\167_Arbiter of Fate.png" id="167_Arbiter of Fate" data-flag="@X" onclick="openSidebar('167_Arbiter of Fate',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\172_Champion of the Lich.png" id="172_Champion of the Lich" data-flag="@X" onclick="openSidebar('172_Champion of the Lich',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\177_Artificer's Opus.png" id="177_Artificers Opus" data-flag="@X" onclick="openSidebar('177_Artificers Opus',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\182_Champion of Chaos.png" id="182_Champion of Chaos" data-flag="@X" onclick="openSidebar('182_Champion of Chaos',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\188_Champion of the Nachtwood.png" id="188_Champion of the Nachtwood" data-flag="@X" onclick="openSidebar('188_Champion of the Nachtwood',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\168_Champion of the Beastmaster.png" id="168_Champion of the Beastmaster" data-flag="@X" onclick="openSidebar('168_Champion of the Beastmaster',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\175_Unexpected Twist.png" id="175_Unexpected Twist" data-flag="@X" onclick="openSidebar('175_Unexpected Twist',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\178_Champion of the Wyrm.png" id="178_Champion of the Wyrm" data-flag="@X" onclick="openSidebar('178_Champion of the Wyrm',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\183_Chaos Paragon.png" id="183_Chaos Paragon" data-flag="@X" onclick="openSidebar('183_Chaos Paragon',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\190_Wretched Wyrmthrall.png" id="190_Wretched Wyrmthrall" data-flag="@X" onclick="openSidebar('190_Wretched Wyrmthrall',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\169_The Shadow Approaches.png" id="169_The Shadow Approaches" data-flag="@X" onclick="openSidebar('169_The Shadow Approaches',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\176_Observe the Ritual.png" id="176_Observe the Ritual" data-flag="@X" onclick="openSidebar('176_Observe the Ritual',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\180_Moorhaunt Marauder.png" id="180_Moorhaunt Marauder" data-flag="@X" onclick="openSidebar('180_Moorhaunt Marauder',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\185_Nachtwood Summoner.png" id="185_Nachtwood Summoner" data-flag="@X" onclick="openSidebar('185_Nachtwood Summoner',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\191_Worship the Beast.png" id="191_Worship the Beast" data-flag="@X" onclick="openSidebar('191_Worship the Beast',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\223_Pegasus Rider.png" id="223_Pegasus Rider" data-flag="@X" onclick="openSidebar('223_Pegasus Rider',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\224_Snake Warlock.png" id="224_Snake Warlock" data-flag="@X" onclick="openSidebar('224_Snake Warlock',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\225_Infernal Petitioner.png" id="225_Infernal Petitioner" data-flag="@X" onclick="openSidebar('225_Infernal Petitioner',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\226_Spirit of Chaos.png" id="226_Spirit of Chaos" data-flag="@X" onclick="openSidebar('226_Spirit of Chaos',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\227_Questing Paladin.png" id="227_Questing Paladin" data-flag="@X" onclick="openSidebar('227_Questing Paladin',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\170_Stumble into Disaster.png" id="170_Stumble into Disaster" data-flag="@X" onclick="openSidebar('170_Stumble into Disaster',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\173_Lich's Judgment.png" id="173_Lichs Judgment" data-flag="@X" onclick="openSidebar('173_Lichs Judgment',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\179_Invocation of Inekh.png" id="179_Invocation of Inekh" data-flag="@X" onclick="openSidebar('179_Invocation of Inekh',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\184_Face the Pit of Despair.png" id="184_Face the Pit of Despair" data-flag="@X" onclick="openSidebar('184_Face the Pit of Despair',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\189_Trapped in the Citadel.png" id="189_Trapped in the Citadel" data-flag="@X" onclick="openSidebar('189_Trapped in the Citadel',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\202_Hargau, Archlich.png" id="202_Hargau, Archlich" data-flag="@X" onclick="openSidebar('202_Hargau, Archlich',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\215_True Chaos.png" id="215_True Chaos" data-flag="@X" onclick="openSidebar('215_True Chaos',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\212_Skalathak, Deathless Wyrm.png" id="212_Skalathak, Deathless Wyrm" data-flag="@X" onclick="openSidebar('212_Skalathak, Deathless Wyrm',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\206_Morec, Lord of Nachtwood.png" id="206_Morec, Lord of Nachtwood" data-flag="@X" onclick="openSidebar('206_Morec, Lord of Nachtwood',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\214_Thuul the Beastmaster.png" id="214_Thuul the Beastmaster" data-flag="@X" onclick="openSidebar('214_Thuul the Beastmaster',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\208_Plunge into Adventure.png" id="208_Plunge into Adventure" data-flag="@X" onclick="openSidebar('208_Plunge into Adventure',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\216_Tyrant's Relic.png" id="216_Tyrants Relic" data-flag="@X" onclick="openSidebar('216_Tyrants Relic',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\203_Infernal Templar.png" id="203_Infernal Templar" data-flag="@X" onclick="openSidebar('203_Infernal Templar',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\213_Threshold of Fate.png" id="213_Threshold of Fate" data-flag="@X" onclick="openSidebar('213_Threshold of Fate',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\194_Brewers of Destiny.png" id="194_Brewers of Destiny" data-flag="@X" onclick="openSidebar('194_Brewers of Destiny',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\219_Will of Hargau.png" id="219_Will of Hargau" data-flag="@X" onclick="openSidebar('219_Will of Hargau',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\218_Will of Chaos.png" id="218_Will of Chaos" data-flag="@X" onclick="openSidebar('218_Will of Chaos',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\221_Will of Skalathak.png" id="221_Will of Skalathak" data-flag="@X" onclick="openSidebar('221_Will of Skalathak',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\220_Will of Morec.png" id="220_Will of Morec" data-flag="@X" onclick="openSidebar('220_Will of Morec',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\222_Will of Thuul.png" id="222_Will of Thuul" data-flag="@X" onclick="openSidebar('222_Will of Thuul',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\236_Ride to Glory.png" id="236_Ride to Glory" data-flag="@X" onclick="openSidebar('236_Ride to Glory',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\237_Wyrm's Curse.png" id="237_Wyrms Curse" data-flag="@X" onclick="openSidebar('237_Wyrms Curse',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\234_Hero's Wrath.png" id="234_Heros Wrath" data-flag="@X" onclick="openSidebar('234_Heros Wrath',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\235_Put to the Sword.png" id="235_Put to the Sword" data-flag="@X" onclick="openSidebar('235_Put to the Sword',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\233_Divine Blessing.png" id="233_Divine Blessing" data-flag="@X" onclick="openSidebar('233_Divine Blessing',true)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\200_Firetop Warlord.png" id="200_Firetop Warlord" data-flag="@X" onclick="openSidebar('200_Firetop Warlord',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\193_Black Knight of the Deep.png" id="193_Black Knight of the Deep" data-flag="@X" onclick="openSidebar('193_Black Knight of the Deep',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\192_Accursed Wight.png" id="192_Accursed Wight" data-flag="@X" onclick="openSidebar('192_Accursed Wight',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\204_Loyalty Does Not Die.png" id="204_Loyalty Does Not Die" data-flag="@X" onclick="openSidebar('204_Loyalty Does Not Die',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\196_Citadel Wight.png" id="196_Citadel Wight" data-flag="@X" onclick="openSidebar('196_Citadel Wight',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\205_Might of the Wyrm.png" id="205_Might of the Wyrm" data-flag="@X" onclick="openSidebar('205_Might of the Wyrm',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\198_Escape the Lair of the Wyrm.png" id="198_Escape the Lair of the Wyrm" data-flag="@X" onclick="openSidebar('198_Escape the Lair of the Wyrm',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\217_Wandering Wolfcaller.png" id="217_Wandering Wolfcaller" data-flag="@X" onclick="openSidebar('217_Wandering Wolfcaller',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\210_Seer of Choices.png" id="210_Seer of Choices" data-flag="@X" onclick="openSidebar('210_Seer of Choices',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\199_Eternal Alchemist.png" id="199_Eternal Alchemist" data-flag="@X" onclick="openSidebar('199_Eternal Alchemist',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\228_Aetherflesh Weave.png" id="228_Aetherflesh Weave" data-flag="@X" onclick="openSidebar('228_Aetherflesh Weave',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\229_Allure of the Dead.png" id="229_Allure of the Dead" data-flag="@X" onclick="openSidebar('229_Allure of the Dead',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\232_Wyrm's Breath.png" id="232_Wyrms Breath" data-flag="@X" onclick="openSidebar('232_Wyrms Breath',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\230_Knee Deep in the Dungeon.png" id="230_Knee Deep in the Dungeon" data-flag="@X" onclick="openSidebar('230_Knee Deep in the Dungeon',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\231_Questing Regalia.png" id="231_Questing Regalia" data-flag="@X" onclick="openSidebar('231_Questing Regalia',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\211_Servant of the Lich-Lord.png" id="211_Servant of the Lich-Lord" data-flag="@X" onclick="openSidebar('211_Servant of the Lich-Lord',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\201_Harbinger of Chaos.png" id="201_Harbinger of Chaos" data-flag="@X" onclick="openSidebar('201_Harbinger of Chaos',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\209_Scion of the Wyrm.png" id="209_Scion of the Wyrm" data-flag="@X" onclick="openSidebar('209_Scion of the Wyrm',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\207_Nachtwood Farseeker.png" id="207_Nachtwood Farseeker" data-flag="@X" onclick="openSidebar('207_Nachtwood Farseeker',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\195_Child of the Beastmaster.png" id="195_Child of the Beastmaster" data-flag="@X" onclick="openSidebar('195_Child of the Beastmaster',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\197_Critical Decision.png" id="197_Critical Decision" data-flag="@X" onclick="openSidebar('197_Critical Decision',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\171_Wipe Out.png" id="171_Wipe Out" data-flag="@X" onclick="openSidebar('171_Wipe Out',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\174_Unexpected Adversary.png" id="174_Unexpected Adversary" data-flag="@X" onclick="openSidebar('174_Unexpected Adversary',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\181_Persistent Threat.png" id="181_Persistent Threat" data-flag="@X" onclick="openSidebar('181_Persistent Threat',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\186_Spawn of Skalathak.png" id="186_Spawn of Skalathak" data-flag="@X" onclick="openSidebar('186_Spawn of Skalathak',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\187_Absolve.png" id="187_Absolve" data-flag="@X" onclick="openSidebar('187_Absolve',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\167_Arbiter of Fate.png" id="167_Arbiter of Fate" data-flag="@X" onclick="openSidebar('167_Arbiter of Fate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\172_Champion of the Lich.png" id="172_Champion of the Lich" data-flag="@X" onclick="openSidebar('172_Champion of the Lich',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\177_Artificer's Opus.png" id="177_Artificers Opus" data-flag="@X" onclick="openSidebar('177_Artificers Opus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\182_Champion of Chaos.png" id="182_Champion of Chaos" data-flag="@X" onclick="openSidebar('182_Champion of Chaos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\188_Champion of the Nachtwood.png" id="188_Champion of the Nachtwood" data-flag="@X" onclick="openSidebar('188_Champion of the Nachtwood',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\168_Champion of the Beastmaster.png" id="168_Champion of the Beastmaster" data-flag="@X" onclick="openSidebar('168_Champion of the Beastmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\175_Unexpected Twist.png" id="175_Unexpected Twist" data-flag="@X" onclick="openSidebar('175_Unexpected Twist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\178_Champion of the Wyrm.png" id="178_Champion of the Wyrm" data-flag="@X" onclick="openSidebar('178_Champion of the Wyrm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\183_Chaos Paragon.png" id="183_Chaos Paragon" data-flag="@X" onclick="openSidebar('183_Chaos Paragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\190_Wretched Wyrmthrall.png" id="190_Wretched Wyrmthrall" data-flag="@X" onclick="openSidebar('190_Wretched Wyrmthrall',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\169_The Shadow Approaches.png" id="169_The Shadow Approaches" data-flag="@X" onclick="openSidebar('169_The Shadow Approaches',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\176_Observe the Ritual.png" id="176_Observe the Ritual" data-flag="@X" onclick="openSidebar('176_Observe the Ritual',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\180_Moorhaunt Marauder.png" id="180_Moorhaunt Marauder" data-flag="@X" onclick="openSidebar('180_Moorhaunt Marauder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\185_Nachtwood Summoner.png" id="185_Nachtwood Summoner" data-flag="@X" onclick="openSidebar('185_Nachtwood Summoner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\191_Worship the Beast.png" id="191_Worship the Beast" data-flag="@X" onclick="openSidebar('191_Worship the Beast',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\223_Pegasus Rider.png" id="223_Pegasus Rider" data-flag="@X" onclick="openSidebar('223_Pegasus Rider',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\224_Snake Warlock.png" id="224_Snake Warlock" data-flag="@X" onclick="openSidebar('224_Snake Warlock',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\225_Infernal Petitioner.png" id="225_Infernal Petitioner" data-flag="@X" onclick="openSidebar('225_Infernal Petitioner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\226_Spirit of Chaos.png" id="226_Spirit of Chaos" data-flag="@X" onclick="openSidebar('226_Spirit of Chaos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\227_Questing Paladin.png" id="227_Questing Paladin" data-flag="@X" onclick="openSidebar('227_Questing Paladin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\170_Stumble into Disaster.png" id="170_Stumble into Disaster" data-flag="@X" onclick="openSidebar('170_Stumble into Disaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\173_Lich's Judgment.png" id="173_Lichs Judgment" data-flag="@X" onclick="openSidebar('173_Lichs Judgment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\179_Invocation of Inekh.png" id="179_Invocation of Inekh" data-flag="@X" onclick="openSidebar('179_Invocation of Inekh',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\184_Face the Pit of Despair.png" id="184_Face the Pit of Despair" data-flag="@X" onclick="openSidebar('184_Face the Pit of Despair',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\189_Trapped in the Citadel.png" id="189_Trapped in the Citadel" data-flag="@X" onclick="openSidebar('189_Trapped in the Citadel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\202_Hargau, Archlich.png" id="202_Hargau, Archlich" data-flag="@X" onclick="openSidebar('202_Hargau, Archlich',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\215_True Chaos.png" id="215_True Chaos" data-flag="@X" onclick="openSidebar('215_True Chaos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\212_Skalathak, Deathless Wyrm.png" id="212_Skalathak, Deathless Wyrm" data-flag="@X" onclick="openSidebar('212_Skalathak, Deathless Wyrm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\206_Morec, Lord of Nachtwood.png" id="206_Morec, Lord of Nachtwood" data-flag="@X" onclick="openSidebar('206_Morec, Lord of Nachtwood',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\214_Thuul the Beastmaster.png" id="214_Thuul the Beastmaster" data-flag="@X" onclick="openSidebar('214_Thuul the Beastmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\208_Plunge into Adventure.png" id="208_Plunge into Adventure" data-flag="@X" onclick="openSidebar('208_Plunge into Adventure',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\216_Tyrant's Relic.png" id="216_Tyrants Relic" data-flag="@X" onclick="openSidebar('216_Tyrants Relic',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\203_Infernal Templar.png" id="203_Infernal Templar" data-flag="@X" onclick="openSidebar('203_Infernal Templar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\213_Threshold of Fate.png" id="213_Threshold of Fate" data-flag="@X" onclick="openSidebar('213_Threshold of Fate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\194_Brewers of Destiny.png" id="194_Brewers of Destiny" data-flag="@X" onclick="openSidebar('194_Brewers of Destiny',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\219_Will of Hargau.png" id="219_Will of Hargau" data-flag="@X" onclick="openSidebar('219_Will of Hargau',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\218_Will of Chaos.png" id="218_Will of Chaos" data-flag="@X" onclick="openSidebar('218_Will of Chaos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\221_Will of Skalathak.png" id="221_Will of Skalathak" data-flag="@X" onclick="openSidebar('221_Will of Skalathak',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\220_Will of Morec.png" id="220_Will of Morec" data-flag="@X" onclick="openSidebar('220_Will of Morec',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\222_Will of Thuul.png" id="222_Will of Thuul" data-flag="@X" onclick="openSidebar('222_Will of Thuul',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\236_Ride to Glory.png" id="236_Ride to Glory" data-flag="@X" onclick="openSidebar('236_Ride to Glory',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\237_Wyrm's Curse.png" id="237_Wyrms Curse" data-flag="@X" onclick="openSidebar('237_Wyrms Curse',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\234_Hero's Wrath.png" id="234_Heros Wrath" data-flag="@X" onclick="openSidebar('234_Heros Wrath',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\235_Put to the Sword.png" id="235_Put to the Sword" data-flag="@X" onclick="openSidebar('235_Put to the Sword',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\233_Divine Blessing.png" id="233_Divine Blessing" data-flag="@X" onclick="openSidebar('233_Divine Blessing',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\200_Firetop Warlord.png" id="200_Firetop Warlord" data-flag="@X" onclick="openSidebar('200_Firetop Warlord',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\193_Black Knight of the Deep.png" id="193_Black Knight of the Deep" data-flag="@X" onclick="openSidebar('193_Black Knight of the Deep',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\192_Accursed Wight.png" id="192_Accursed Wight" data-flag="@X" onclick="openSidebar('192_Accursed Wight',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\204_Loyalty Does Not Die.png" id="204_Loyalty Does Not Die" data-flag="@X" onclick="openSidebar('204_Loyalty Does Not Die',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\196_Citadel Wight.png" id="196_Citadel Wight" data-flag="@X" onclick="openSidebar('196_Citadel Wight',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\205_Might of the Wyrm.png" id="205_Might of the Wyrm" data-flag="@X" onclick="openSidebar('205_Might of the Wyrm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\198_Escape the Lair of the Wyrm.png" id="198_Escape the Lair of the Wyrm" data-flag="@X" onclick="openSidebar('198_Escape the Lair of the Wyrm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\217_Wandering Wolfcaller.png" id="217_Wandering Wolfcaller" data-flag="@X" onclick="openSidebar('217_Wandering Wolfcaller',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\210_Seer of Choices.png" id="210_Seer of Choices" data-flag="@X" onclick="openSidebar('210_Seer of Choices',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\199_Eternal Alchemist.png" id="199_Eternal Alchemist" data-flag="@X" onclick="openSidebar('199_Eternal Alchemist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\228_Aetherflesh Weave.png" id="228_Aetherflesh Weave" data-flag="@X" onclick="openSidebar('228_Aetherflesh Weave',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\229_Allure of the Dead.png" id="229_Allure of the Dead" data-flag="@X" onclick="openSidebar('229_Allure of the Dead',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\232_Wyrm's Breath.png" id="232_Wyrms Breath" data-flag="@X" onclick="openSidebar('232_Wyrms Breath',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\230_Knee Deep in the Dungeon.png" id="230_Knee Deep in the Dungeon" data-flag="@X" onclick="openSidebar('230_Knee Deep in the Dungeon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\231_Questing Regalia.png" id="231_Questing Regalia" data-flag="@X" onclick="openSidebar('231_Questing Regalia',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\211_Servant of the Lich-Lord.png" id="211_Servant of the Lich-Lord" data-flag="@X" onclick="openSidebar('211_Servant of the Lich-Lord',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\201_Harbinger of Chaos.png" id="201_Harbinger of Chaos" data-flag="@X" onclick="openSidebar('201_Harbinger of Chaos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\209_Scion of the Wyrm.png" id="209_Scion of the Wyrm" data-flag="@X" onclick="openSidebar('209_Scion of the Wyrm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\207_Nachtwood Farseeker.png" id="207_Nachtwood Farseeker" data-flag="@X" onclick="openSidebar('207_Nachtwood Farseeker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\195_Child of the Beastmaster.png" id="195_Child of the Beastmaster" data-flag="@X" onclick="openSidebar('195_Child of the Beastmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\197_Critical Decision.png" id="197_Critical Decision" data-flag="@X" onclick="openSidebar('197_Critical Decision',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\246_Shield of Day and Night.png" id="246_Shield of Day and Night" data-flag="@X" onclick="openSidebar('246_Shield of Day and Night',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\247_The Chronicles of Yor-Om.png" id="247_The Chronicles of Yor-Om" data-flag="@X" onclick="openSidebar('247_The Chronicles of Yor-Om',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\241_Hargau's Altar.png" id="241_Hargaus Altar" data-flag="@X" onclick="openSidebar('241_Hargaus Altar',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\242_Iaxon's Gift.png" id="242_Iaxons Gift" data-flag="@X" onclick="openSidebar('242_Iaxons Gift',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\243_Idol of Skalathak.png" id="243_Idol of Skalathak" data-flag="@X" onclick="openSidebar('243_Idol of Skalathak',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\245_Savage Banner.png" id="245_Savage Banner" data-flag="@X" onclick="openSidebar('245_Savage Banner',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\248_The Rhyme of Ancient Kings.png" id="248_The Rhyme of Ancient Kings" data-flag="@X" onclick="openSidebar('248_The Rhyme of Ancient Kings',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\238_Adventurer's Grave.png" id="238_Adventurers Grave" data-flag="@X" onclick="openSidebar('238_Adventurers Grave',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\239_Captive Wyrmsoul.png" id="239_Captive Wyrmsoul" data-flag="@X" onclick="openSidebar('239_Captive Wyrmsoul',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\240_Guide to Mount Firetop.png" id="240_Guide to Mount Firetop" data-flag="@X" onclick="openSidebar('240_Guide to Mount Firetop',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\244_Pewter Paladin.png" id="244_Pewter Paladin" data-flag="@X" onclick="openSidebar('244_Pewter Paladin',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\255_Mount Elsewhere.png" id="255_Mount Elsewhere" data-flag="@X" onclick="openSidebar('255_Mount Elsewhere',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\251_Destiny's Horizon.png" id="251_Destinys Horizon" data-flag="@X" onclick="openSidebar('251_Destinys Horizon',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\256_Peerless Ascent.png" id="256_Peerless Ascent" data-flag="@X" onclick="openSidebar('256_Peerless Ascent',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\246_Shield of Day and Night.png" id="246_Shield of Day and Night" data-flag="@X" onclick="openSidebar('246_Shield of Day and Night',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\247_The Chronicles of Yor-Om.png" id="247_The Chronicles of Yor-Om" data-flag="@X" onclick="openSidebar('247_The Chronicles of Yor-Om',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\241_Hargau's Altar.png" id="241_Hargaus Altar" data-flag="@X" onclick="openSidebar('241_Hargaus Altar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\242_Iaxon's Gift.png" id="242_Iaxons Gift" data-flag="@X" onclick="openSidebar('242_Iaxons Gift',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\243_Idol of Skalathak.png" id="243_Idol of Skalathak" data-flag="@X" onclick="openSidebar('243_Idol of Skalathak',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\245_Savage Banner.png" id="245_Savage Banner" data-flag="@X" onclick="openSidebar('245_Savage Banner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\248_The Rhyme of Ancient Kings.png" id="248_The Rhyme of Ancient Kings" data-flag="@X" onclick="openSidebar('248_The Rhyme of Ancient Kings',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\238_Adventurer's Grave.png" id="238_Adventurers Grave" data-flag="@X" onclick="openSidebar('238_Adventurers Grave',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\239_Captive Wyrmsoul.png" id="239_Captive Wyrmsoul" data-flag="@X" onclick="openSidebar('239_Captive Wyrmsoul',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\240_Guide to Mount Firetop.png" id="240_Guide to Mount Firetop" data-flag="@X" onclick="openSidebar('240_Guide to Mount Firetop',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\244_Pewter Paladin.png" id="244_Pewter Paladin" data-flag="@X" onclick="openSidebar('244_Pewter Paladin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\255_Mount Elsewhere.png" id="255_Mount Elsewhere" data-flag="@X" onclick="openSidebar('255_Mount Elsewhere',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\251_Destiny's Horizon.png" id="251_Destinys Horizon" data-flag="@X" onclick="openSidebar('251_Destinys Horizon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\256_Peerless Ascent.png" id="256_Peerless Ascent" data-flag="@X" onclick="openSidebar('256_Peerless Ascent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="otherland" class="anchor"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\252_Fabled Manor.png" id="252_Fabled Manor" data-flag="@X" onclick="openSidebar('252_Fabled Manor',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\253_Idyllic Temple.png" id="253_Idyllic Temple" data-flag="@X" onclick="openSidebar('253_Idyllic Temple',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\254_Imposing Den.png" id="254_Imposing Den" data-flag="@X" onclick="openSidebar('254_Imposing Den',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\259_Screeching Peaks.png" id="259_Screeching Peaks" data-flag="@X" onclick="openSidebar('259_Screeching Peaks',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\260_Verdant Splendor.png" id="260_Verdant Splendor" data-flag="@X" onclick="openSidebar('260_Verdant Splendor',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\258_Promising Trail.png" id="258_Promising Trail" data-flag="@X" onclick="openSidebar('258_Promising Trail',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\250_Cryptic Tomb.png" id="250_Cryptic Tomb" data-flag="@X" onclick="openSidebar('250_Cryptic Tomb',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\249_Charred Ruins.png" id="249_Charred Ruins" data-flag="@X" onclick="openSidebar('249_Charred Ruins',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\261_Wake of Chaos.png" id="261_Wake of Chaos" data-flag="@X" onclick="openSidebar('261_Wake of Chaos',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\257_Polder Vista.png" id="257_Polder Vista" data-flag="@X" onclick="openSidebar('257_Polder Vista',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\266_Seaside Citadel.png" id="266_Seaside Citadel" data-flag="@X" onclick="openSidebar('266_Seaside Citadel',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\262_Arcane Sanctum.png" id="262_Arcane Sanctum" data-flag="@X" onclick="openSidebar('262_Arcane Sanctum',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\263_Crumbling Necropolis.png" id="263_Crumbling Necropolis" data-flag="@X" onclick="openSidebar('263_Crumbling Necropolis',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\265_Savage Lands.png" id="265_Savage Lands" data-flag="@X" onclick="openSidebar('265_Savage Lands',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\264_Jungle Shrine.png" id="264_Jungle Shrine" data-flag="@X" onclick="openSidebar('264_Jungle Shrine',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\267_Plains.png" id="267_Plains" data-flag="@X" onclick="openSidebar('267_Plains',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\268_Island.png" id="268_Island" data-flag="@X" onclick="openSidebar('268_Island',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\269_Swamp.png" id="269_Swamp" data-flag="@X" onclick="openSidebar('269_Swamp',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\270_Mountain.png" id="270_Mountain" data-flag="@X" onclick="openSidebar('270_Mountain',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\271_Forest.png" id="271_Forest" data-flag="@X" onclick="openSidebar('271_Forest',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\252_Fabled Manor.png" id="252_Fabled Manor" data-flag="@X" onclick="openSidebar('252_Fabled Manor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\253_Idyllic Temple.png" id="253_Idyllic Temple" data-flag="@X" onclick="openSidebar('253_Idyllic Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\254_Imposing Den.png" id="254_Imposing Den" data-flag="@X" onclick="openSidebar('254_Imposing Den',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\259_Screeching Peaks.png" id="259_Screeching Peaks" data-flag="@X" onclick="openSidebar('259_Screeching Peaks',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\260_Verdant Splendor.png" id="260_Verdant Splendor" data-flag="@X" onclick="openSidebar('260_Verdant Splendor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\258_Promising Trail.png" id="258_Promising Trail" data-flag="@X" onclick="openSidebar('258_Promising Trail',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\250_Cryptic Tomb.png" id="250_Cryptic Tomb" data-flag="@X" onclick="openSidebar('250_Cryptic Tomb',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\249_Charred Ruins.png" id="249_Charred Ruins" data-flag="@X" onclick="openSidebar('249_Charred Ruins',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\261_Wake of Chaos.png" id="261_Wake of Chaos" data-flag="@X" onclick="openSidebar('261_Wake of Chaos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\257_Polder Vista.png" id="257_Polder Vista" data-flag="@X" onclick="openSidebar('257_Polder Vista',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\266_Seaside Citadel.png" id="266_Seaside Citadel" data-flag="@X" onclick="openSidebar('266_Seaside Citadel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\262_Arcane Sanctum.png" id="262_Arcane Sanctum" data-flag="@X" onclick="openSidebar('262_Arcane Sanctum',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\263_Crumbling Necropolis.png" id="263_Crumbling Necropolis" data-flag="@X" onclick="openSidebar('263_Crumbling Necropolis',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\265_Savage Lands.png" id="265_Savage Lands" data-flag="@X" onclick="openSidebar('265_Savage Lands',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\264_Jungle Shrine.png" id="264_Jungle Shrine" data-flag="@X" onclick="openSidebar('264_Jungle Shrine',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\267_Plains.png" id="267_Plains" data-flag="@X" onclick="openSidebar('267_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\268_Island.png" id="268_Island" data-flag="@X" onclick="openSidebar('268_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\269_Swamp.png" id="269_Swamp" data-flag="@X" onclick="openSidebar('269_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\270_Mountain.png" id="270_Mountain" data-flag="@X" onclick="openSidebar('270_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\271_Forest.png" id="271_Forest" data-flag="@X" onclick="openSidebar('271_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="promo" class="anchor"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\272_Hargau Archlich (bundle promo).png" id="272_Hargau Archlich (bundle promo)" data-flag="@X" onclick="openSidebar('272_Hargau Archlich (bundle promo)',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\272_Hargau Archlich (bundle promo).png" id="272_Hargau Archlich (bundle promo)" data-flag="@X" onclick="openSidebar('272_Hargau Archlich (bundle promo)',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\1t_Drake.png" id="1t_Drake" data-flag="@X" onclick="openSidebar('1t_Drake',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\2t_Human.png" id="2t_Human" data-flag="@X" onclick="openSidebar('2t_Human',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\3t_Shade.png" id="3t_Shade" data-flag="@X" onclick="openSidebar('3t_Shade',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\4t_Skeleton.png" id="4t_Skeleton" data-flag="@X" onclick="openSidebar('4t_Skeleton',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\5t_Spirit.png" id="5t_Spirit" data-flag="@X" onclick="openSidebar('5t_Spirit',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\6t_Beast.png" id="6t_Beast" data-flag="@X" onclick="openSidebar('6t_Beast',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\7t_Beast Demigod.png" id="7t_Beast Demigod" data-flag="@X" onclick="openSidebar('7t_Beast Demigod',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\8t_Treasure.png" id="8t_Treasure" data-flag="@X" onclick="openSidebar('8t_Treasure',false)"></div>
-				<div class="container"><img alt="/sets\CYO-files\img\9t_Draft Archetypes.png" id="9t_Draft Archetypes" data-flag="@X" onclick="openSidebar('9t_Draft Archetypes',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\1t_Drake.png" id="1t_Drake" data-flag="@X" onclick="openSidebar('1t_Drake',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\2t_Human.png" id="2t_Human" data-flag="@X" onclick="openSidebar('2t_Human',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\3t_Shade.png" id="3t_Shade" data-flag="@X" onclick="openSidebar('3t_Shade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\4t_Skeleton.png" id="4t_Skeleton" data-flag="@X" onclick="openSidebar('4t_Skeleton',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\5t_Spirit.png" id="5t_Spirit" data-flag="@X" onclick="openSidebar('5t_Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\6t_Beast.png" id="6t_Beast" data-flag="@X" onclick="openSidebar('6t_Beast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\7t_Beast Demigod.png" id="7t_Beast Demigod" data-flag="@X" onclick="openSidebar('7t_Beast Demigod',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\8t_Treasure.png" id="8t_Treasure" data-flag="@X" onclick="openSidebar('8t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CYO-files\img\9t_Draft Archetypes.png" id="9t_Draft Archetypes" data-flag="@X" onclick="openSidebar('9t_Draft Archetypes',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 			</div>
 			<div class="banner">
 					<img id="SPG-logo" class="logo" src="/sets/SPG-files/logo.png">
 			</div>
 			<div class="grid-container">
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="SPG" class="anchor"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\31_Destroy Evil.png" id="31_Destroy Evil" data-flag="@X" onclick="openSidebar('31_Destroy Evil',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\32_Farewell.png" id="32_Farewell" data-flag="@X" onclick="openSidebar('32_Farewell',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\33_Cryptic Command.png" id="33_Cryptic Command" data-flag="@X" onclick="openSidebar('33_Cryptic Command',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\34_Vision Charm.png" id="34_Vision Charm" data-flag="@X" onclick="openSidebar('34_Vision Charm',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\35_Black Market Connections.png" id="35_Black Market Connections" data-flag="@X" onclick="openSidebar('35_Black Market Connections',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\36_Crux of Fate.png" id="36_Crux of Fate" data-flag="@X" onclick="openSidebar('36_Crux of Fate',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\37_Incendiary Command.png" id="37_Incendiary Command" data-flag="@X" onclick="openSidebar('37_Incendiary Command',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\38_Savage Beating.png" id="38_Savage Beating" data-flag="@X" onclick="openSidebar('38_Savage Beating',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\39_Elder Gargaroth.png" id="39_Elder Gargaroth" data-flag="@X" onclick="openSidebar('39_Elder Gargaroth',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\40_Tooth and Nail.png" id="40_Tooth and Nail" data-flag="@X" onclick="openSidebar('40_Tooth and Nail',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\31_Destroy Evil.png" id="31_Destroy Evil" data-flag="@X" onclick="openSidebar('31_Destroy Evil',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\32_Farewell.png" id="32_Farewell" data-flag="@X" onclick="openSidebar('32_Farewell',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\33_Cryptic Command.png" id="33_Cryptic Command" data-flag="@X" onclick="openSidebar('33_Cryptic Command',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\34_Vision Charm.png" id="34_Vision Charm" data-flag="@X" onclick="openSidebar('34_Vision Charm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\35_Black Market Connections.png" id="35_Black Market Connections" data-flag="@X" onclick="openSidebar('35_Black Market Connections',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\36_Crux of Fate.png" id="36_Crux of Fate" data-flag="@X" onclick="openSidebar('36_Crux of Fate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\37_Incendiary Command.png" id="37_Incendiary Command" data-flag="@X" onclick="openSidebar('37_Incendiary Command',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\38_Savage Beating.png" id="38_Savage Beating" data-flag="@X" onclick="openSidebar('38_Savage Beating',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\39_Elder Gargaroth.png" id="39_Elder Gargaroth" data-flag="@X" onclick="openSidebar('39_Elder Gargaroth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\40_Tooth and Nail.png" id="40_Tooth and Nail" data-flag="@X" onclick="openSidebar('40_Tooth and Nail',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
@@ -765,27 +757,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -797,17 +813,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -840,6 +858,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -849,6 +868,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -871,21 +891,21 @@
 	}
 
 		function randomCard() {
-			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-			let random_card = card_list_arrayified[i];
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
 
-			const url = new URL('card', window.location.origin);
-			const params = {
-				set: random_card.set,
-				num: random_card.number,
-				name: random_card.card_name
-			}
-			for (const key in params) {
-				url.searchParams.append(key, params[key]);
-			}
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
 
-			window.location.href = url;
-		}
+				window.location.href = url;
+			}
 	</script>
 </body>
 </html>

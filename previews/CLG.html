@@ -39,8 +39,8 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
@@ -126,12 +126,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -203,9 +204,6 @@
 		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
 		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/JMR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OVR-files/icon.png" />
 		<img class="preload-hidden" id="bg" src="/sets/CLG-files/bg.png" />
 
 		<div class="header">
@@ -219,7 +217,7 @@
 		</div>
 	</div>
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
 		<a class="set-bar" href="CLG"><img src="/sets/CLG-files/icon.png">Children of Lesser Gods</a>
 	
@@ -277,388 +275,382 @@
 	
 		<a class="set-bar inactive" href="ELO"><img src="/sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
 	
-		<a class="set-bar inactive" href="JMR"><img src="/sets/JMR-files/icon.png">Jamuraa: The Mirage War</a>
-	
-		<a class="set-bar inactive" href="90S"><img src="/sets/90S-files/icon.png">Rath and Storm</a>
-	
-		<a class="set-bar inactive" href="OVR"><img src="/sets/OVR-files/icon.png">Overlay</a>
-	
 		</div>
 		<div class="banner">
 		<img class="logo" src="/sets/CLG-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\CLG-files\img\1_Gleeb, A Man for All Seasons.png" id="1_Gleeb, A Man for All Seasons" data-flag="@X" onclick="openSidebar('1_Gleeb, A Man for All Seasons',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\6_Lord Blugu Swallows the Moon.png" id="6_Lord Blugu Swallows the Moon" data-flag="@X" onclick="openSidebar('6_Lord Blugu Swallows the Moon',true)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\3_The Children of Lesser Gods.png" id="3_The Children of Lesser Gods" data-flag="@X" onclick="openSidebar('3_The Children of Lesser Gods',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\7_Moonmist Shadow.png" id="7_Moonmist Shadow" data-flag="@X" onclick="openSidebar('7_Moonmist Shadow',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\4_Fated Wonder.png" id="4_Fated Wonder" data-flag="@X" onclick="openSidebar('4_Fated Wonder',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\5_Lambent Moonlight.png" id="5_Lambent Moonlight" data-flag="@X" onclick="openSidebar('5_Lambent Moonlight',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\2_Accursed Scapegoat.png" id="2_Accursed Scapegoat" data-flag="@X" onclick="openSidebar('2_Accursed Scapegoat',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\8_Night's Echo.png" id="8_Nights Echo" data-flag="@X" onclick="openSidebar('8_Nights Echo',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\18_Hare-Raising Goliath.png" id="18_Hare-Raising Goliath" data-flag="@X" onclick="openSidebar('18_Hare-Raising Goliath',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\58_Seagrass Muncher.png" id="58_Seagrass Muncher" data-flag="@X" onclick="openSidebar('58_Seagrass Muncher',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\89_Soul of the Farmyard.png" id="89_Soul of the Farmyard" data-flag="@X" onclick="openSidebar('89_Soul of the Farmyard',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\104_Night Has a Thousand Eyes.png" id="104_Night Has a Thousand Eyes" data-flag="@X" onclick="openSidebar('104_Night Has a Thousand Eyes',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\143_Sickly Dewdragon.png" id="143_Sickly Dewdragon" data-flag="@X" onclick="openSidebar('143_Sickly Dewdragon',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\9_Angelic Snapper.png" id="9_Angelic Snapper" data-flag="@X" onclick="openSidebar('9_Angelic Snapper',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\37_Accursed Orb.png" id="37_Accursed Orb" data-flag="@X" onclick="openSidebar('37_Accursed Orb',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\70_Gravesoil Mimic.png" id="70_Gravesoil Mimic" data-flag="@X" onclick="openSidebar('70_Gravesoil Mimic',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\93_Bone Moon.png" id="93_Bone Moon" data-flag="@X" onclick="openSidebar('93_Bone Moon',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\130_Dreams of Survival.png" id="130_Dreams of Survival" data-flag="@X" onclick="openSidebar('130_Dreams of Survival',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\11_Bride of the Moon.png" id="11_Bride of the Moon" data-flag="@X" onclick="openSidebar('11_Bride of the Moon',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\43_Covert Chameleon.png" id="43_Covert Chameleon" data-flag="@X" onclick="openSidebar('43_Covert Chameleon',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\72_Griller Killer.png" id="72_Griller Killer" data-flag="@X" onclick="openSidebar('72_Griller Killer',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\95_Cragtusk.png" id="95_Cragtusk" data-flag="@X" onclick="openSidebar('95_Cragtusk',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\134_Innocuous Hatchling.png" id="134_Innocuous Hatchling" data-flag="@X" onclick="openSidebar('134_Innocuous Hatchling',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\13_Cemetery Warden.png" id="13_Cemetery Warden" data-flag="@X" onclick="openSidebar('13_Cemetery Warden',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\46_Filigree Experiment.png" id="46_Filigree Experiment" data-flag="@X" onclick="openSidebar('46_Filigree Experiment',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\73_Gurgle's Demand.png" id="73_Gurgles Demand" data-flag="@X" onclick="openSidebar('73_Gurgles Demand',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\97_Fiery Manifestation.png" id="97_Fiery Manifestation" data-flag="@X" onclick="openSidebar('97_Fiery Manifestation',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\135_Kohrm's Demand.png" id="135_Kohrms Demand" data-flag="@X" onclick="openSidebar('135_Kohrms Demand',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\16_Elandra's Demand.png" id="16_Elandras Demand" data-flag="@X" onclick="openSidebar('16_Elandras Demand',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\48_Form of the Shapeshifter.png" id="48_Form of the Shapeshifter" data-flag="@X" onclick="openSidebar('48_Form of the Shapeshifter',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\80_Misshapen Marauder.png" id="80_Misshapen Marauder" data-flag="@X" onclick="openSidebar('80_Misshapen Marauder',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\98_Gore Snapper.png" id="98_Gore Snapper" data-flag="@X" onclick="openSidebar('98_Gore Snapper',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\137_Mulch Ado About Nothing.png" id="137_Mulch Ado About Nothing" data-flag="@X" onclick="openSidebar('137_Mulch Ado About Nothing',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\22_Immortal Grace.png" id="22_Immortal Grace" data-flag="@X" onclick="openSidebar('22_Immortal Grace',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\62_Weird Fruit.png" id="62_Weird Fruit" data-flag="@X" onclick="openSidebar('62_Weird Fruit',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\81_Nightgrin Cultist.png" id="81_Nightgrin Cultist" data-flag="@X" onclick="openSidebar('81_Nightgrin Cultist',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\100_Holy Word's Demand.png" id="100_Holy Words Demand" data-flag="@X" onclick="openSidebar('100_Holy Words Demand',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\141_Prophet of Kohrm.png" id="141_Prophet of Kohrm" data-flag="@X" onclick="openSidebar('141_Prophet of Kohrm',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\30_Moon's Blessing.png" id="30_Moons Blessing" data-flag="@X" onclick="openSidebar('30_Moons Blessing',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\64_Winterisle's Demand.png" id="64_Winterisles Demand" data-flag="@X" onclick="openSidebar('64_Winterisles Demand',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\82_Obsessive Prowler.png" id="82_Obsessive Prowler" data-flag="@X" onclick="openSidebar('82_Obsessive Prowler',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\106_Plarb's Prototype.png" id="106_Plarbs Prototype" data-flag="@X" onclick="openSidebar('106_Plarbs Prototype',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\147_Velocirooster.png" id="147_Velocirooster" data-flag="@X" onclick="openSidebar('147_Velocirooster',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\10_Bearer of Bad News.png" id="10_Bearer of Bad News" data-flag="@X" onclick="openSidebar('10_Bearer of Bad News',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\40_Cackling Croaker.png" id="40_Cackling Croaker" data-flag="@X" onclick="openSidebar('40_Cackling Croaker',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\65_Ambitious Mastermind.png" id="65_Ambitious Mastermind" data-flag="@X" onclick="openSidebar('65_Ambitious Mastermind',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\94_Consult the Idol.png" id="94_Consult the Idol" data-flag="@X" onclick="openSidebar('94_Consult the Idol',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\122_Among the Hens.png" id="122_Among the Hens" data-flag="@X" onclick="openSidebar('122_Among the Hens',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\14_Deathless Siren.png" id="14_Deathless Siren" data-flag="@X" onclick="openSidebar('14_Deathless Siren',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\41_Cackling Lantern.png" id="41_Cackling Lantern" data-flag="@X" onclick="openSidebar('41_Cackling Lantern',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\66_Castle Sneak.png" id="66_Castle Sneak" data-flag="@X" onclick="openSidebar('66_Castle Sneak',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\99_Haunting Memory.png" id="99_Haunting Memory" data-flag="@X" onclick="openSidebar('99_Haunting Memory',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\123_Anxious Adventurer.png" id="123_Anxious Adventurer" data-flag="@X" onclick="openSidebar('123_Anxious Adventurer',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\17_Elandra's Executioner.png" id="17_Elandras Executioner" data-flag="@X" onclick="openSidebar('17_Elandras Executioner',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\44_Down to the Bone.png" id="44_Down to the Bone" data-flag="@X" onclick="openSidebar('44_Down to the Bone',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\71_Great Disappointment.png" id="71_Great Disappointment" data-flag="@X" onclick="openSidebar('71_Great Disappointment',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\103_Lunar Betrayal.png" id="103_Lunar Betrayal" data-flag="@X" onclick="openSidebar('103_Lunar Betrayal',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\125_A Bloody Harvest.png" id="125_A Bloody Harvest" data-flag="@X" onclick="openSidebar('125_A Bloody Harvest',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\19_Harried Harrier.png" id="19_Harried Harrier" data-flag="@X" onclick="openSidebar('19_Harried Harrier',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\49_Gainsay.png" id="49_Gainsay" data-flag="@X" onclick="openSidebar('49_Gainsay',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\74_Hallowed Bones.png" id="74_Hallowed Bones" data-flag="@X" onclick="openSidebar('74_Hallowed Bones',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\107_Pyretic Paladin.png" id="107_Pyretic Paladin" data-flag="@X" onclick="openSidebar('107_Pyretic Paladin',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\126_Brazen Bush.png" id="126_Brazen Bush" data-flag="@X" onclick="openSidebar('126_Brazen Bush',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\20_Haughty Elitist.png" id="20_Haughty Elitist" data-flag="@X" onclick="openSidebar('20_Haughty Elitist',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\51_The Grand Spooking.png" id="51_The Grand Spooking" data-flag="@X" onclick="openSidebar('51_The Grand Spooking',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\75_Jolly Rotman.png" id="75_Jolly Rotman" data-flag="@X" onclick="openSidebar('75_Jolly Rotman',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\108_Reckless Wrangler.png" id="108_Reckless Wrangler" data-flag="@X" onclick="openSidebar('108_Reckless Wrangler',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\127_Brutal Crabnormality.png" id="127_Brutal Crabnormality" data-flag="@X" onclick="openSidebar('127_Brutal Crabnormality',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\21_Home to Roost.png" id="21_Home to Roost" data-flag="@X" onclick="openSidebar('21_Home to Roost',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\52_Invocation of Kohrm.png" id="52_Invocation of Kohrm" data-flag="@X" onclick="openSidebar('52_Invocation of Kohrm',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\76_Killer Kelp.png" id="76_Killer Kelp" data-flag="@X" onclick="openSidebar('76_Killer Kelp',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\109_Renewed Focus.png" id="109_Renewed Focus" data-flag="@X" onclick="openSidebar('109_Renewed Focus',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\129_Dramatic Entrance.png" id="129_Dramatic Entrance" data-flag="@X" onclick="openSidebar('129_Dramatic Entrance',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\24_Invoke Faith.png" id="24_Invoke Faith" data-flag="@X" onclick="openSidebar('24_Invoke Faith',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\53_Monumental Scorn.png" id="53_Monumental Scorn" data-flag="@X" onclick="openSidebar('53_Monumental Scorn',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\77_Make Demands.png" id="77_Make Demands" data-flag="@X" onclick="openSidebar('77_Make Demands',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\110_A Scholar and a Gentleman.png" id="110_A Scholar and a Gentleman" data-flag="@X" onclick="openSidebar('110_A Scholar and a Gentleman',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\133_Grinning Alliguard.png" id="133_Grinning Alliguard" data-flag="@X" onclick="openSidebar('133_Grinning Alliguard',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\25_Kiss of the Moon.png" id="25_Kiss of the Moon" data-flag="@X" onclick="openSidebar('25_Kiss of the Moon',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\55_Ornery Slugabed.png" id="55_Ornery Slugabed" data-flag="@X" onclick="openSidebar('55_Ornery Slugabed',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\78_Merciless Mollusc.png" id="78_Merciless Mollusc" data-flag="@X" onclick="openSidebar('78_Merciless Mollusc',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\112_Soul Anchor.png" id="112_Soul Anchor" data-flag="@X" onclick="openSidebar('112_Soul Anchor',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\138_Munch.png" id="138_Munch" data-flag="@X" onclick="openSidebar('138_Munch',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\28_Lunar Maiden.png" id="28_Lunar Maiden" data-flag="@X" onclick="openSidebar('28_Lunar Maiden',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\57_Projection of Power.png" id="57_Projection of Power" data-flag="@X" onclick="openSidebar('57_Projection of Power',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\79_Midnight Rictus.png" id="79_Midnight Rictus" data-flag="@X" onclick="openSidebar('79_Midnight Rictus',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\113_Splat Frog.png" id="113_Splat Frog" data-flag="@X" onclick="openSidebar('113_Splat Frog',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\140_Priest of Gurgle.png" id="140_Priest of Gurgle" data-flag="@X" onclick="openSidebar('140_Priest of Gurgle',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\29_Moat Trawler.png" id="29_Moat Trawler" data-flag="@X" onclick="openSidebar('29_Moat Trawler',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\59_Sea's Whisper.png" id="59_Seas Whisper" data-flag="@X" onclick="openSidebar('59_Seas Whisper',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\84_Oversold Cemetery.png" id="84_Oversold Cemetery" data-flag="@X" onclick="openSidebar('84_Oversold Cemetery',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\119_Work in Progress.png" id="119_Work in Progress" data-flag="@X" onclick="openSidebar('119_Work in Progress',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\142_Scaredragon.png" id="142_Scaredragon" data-flag="@X" onclick="openSidebar('142_Scaredragon',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\34_An Unwise Bargain.png" id="34_An Unwise Bargain" data-flag="@X" onclick="openSidebar('34_An Unwise Bargain',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\60_Squawkslopper.png" id="60_Squawkslopper" data-flag="@X" onclick="openSidebar('60_Squawkslopper',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\85_Pick Off.png" id="85_Pick Off" data-flag="@X" onclick="openSidebar('85_Pick Off',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\120_Wretched Strike.png" id="120_Wretched Strike" data-flag="@X" onclick="openSidebar('120_Wretched Strike',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\146_Unevolved Brawler.png" id="146_Unevolved Brawler" data-flag="@X" onclick="openSidebar('146_Unevolved Brawler',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\12_Castle Familiar.png" id="12_Castle Familiar" data-flag="@X" onclick="openSidebar('12_Castle Familiar',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\38_Ambling Cairn.png" id="38_Ambling Cairn" data-flag="@X" onclick="openSidebar('38_Ambling Cairn',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\67_Consuming Ashes.png" id="67_Consuming Ashes" data-flag="@X" onclick="openSidebar('67_Consuming Ashes',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\96_Experimental Turbohorn.png" id="96_Experimental Turbohorn" data-flag="@X" onclick="openSidebar('96_Experimental Turbohorn',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\121_Aetherblast Cannoneer.png" id="121_Aetherblast Cannoneer" data-flag="@X" onclick="openSidebar('121_Aetherblast Cannoneer',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\15_Defiant Warlord.png" id="15_Defiant Warlord" data-flag="@X" onclick="openSidebar('15_Defiant Warlord',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\39_Artificer's Guile.png" id="39_Artificers Guile" data-flag="@X" onclick="openSidebar('39_Artificers Guile',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\68_Eyes of Night.png" id="68_Eyes of Night" data-flag="@X" onclick="openSidebar('68_Eyes of Night',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\101_It's Alive.png" id="101_Its Alive" data-flag="@X" onclick="openSidebar('101_Its Alive',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\124_Assault on the Senses.png" id="124_Assault on the Senses" data-flag="@X" onclick="openSidebar('124_Assault on the Senses',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\23_Inquiring Squire.png" id="23_Inquiring Squire" data-flag="@X" onclick="openSidebar('23_Inquiring Squire',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\42_Callow Willow.png" id="42_Callow Willow" data-flag="@X" onclick="openSidebar('42_Callow Willow',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\69_Gleeful Scavenger.png" id="69_Gleeful Scavenger" data-flag="@X" onclick="openSidebar('69_Gleeful Scavenger',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\102_Jack of No Trades.png" id="102_Jack of No Trades" data-flag="@X" onclick="openSidebar('102_Jack of No Trades',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\128_Croaked Croaker.png" id="128_Croaked Croaker" data-flag="@X" onclick="openSidebar('128_Croaked Croaker',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\26_Liminal Chant.png" id="26_Liminal Chant" data-flag="@X" onclick="openSidebar('26_Liminal Chant',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\45_Exultant Cultist.png" id="45_Exultant Cultist" data-flag="@X" onclick="openSidebar('45_Exultant Cultist',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\83_Oozing Ghastlypod.png" id="83_Oozing Ghastlypod" data-flag="@X" onclick="openSidebar('83_Oozing Ghastlypod',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\105_Oopsie.png" id="105_Oopsie" data-flag="@X" onclick="openSidebar('105_Oopsie',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\131_Font of Fertility.png" id="131_Font of Fertility" data-flag="@X" onclick="openSidebar('131_Font of Fertility',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\27_Littlest Witch.png" id="27_Littlest Witch" data-flag="@X" onclick="openSidebar('27_Littlest Witch',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\47_Forbidden Foreboding.png" id="47_Forbidden Foreboding" data-flag="@X" onclick="openSidebar('47_Forbidden Foreboding',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\86_Primal Practitioner.png" id="86_Primal Practitioner" data-flag="@X" onclick="openSidebar('86_Primal Practitioner',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\111_Shock Treatment.png" id="111_Shock Treatment" data-flag="@X" onclick="openSidebar('111_Shock Treatment',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\132_Gelatinous Growth.png" id="132_Gelatinous Growth" data-flag="@X" onclick="openSidebar('132_Gelatinous Growth',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\31_Night's Vizier.png" id="31_Nights Vizier" data-flag="@X" onclick="openSidebar('31_Nights Vizier',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\50_Gaze Not Long Into the Orb.png" id="50_Gaze Not Long Into the Orb" data-flag="@X" onclick="openSidebar('50_Gaze Not Long Into the Orb',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\87_Prince of Fools.png" id="87_Prince of Fools" data-flag="@X" onclick="openSidebar('87_Prince of Fools',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\114_Stubborn Slitherblade.png" id="114_Stubborn Slitherblade" data-flag="@X" onclick="openSidebar('114_Stubborn Slitherblade',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\136_Mulch.png" id="136_Mulch" data-flag="@X" onclick="openSidebar('136_Mulch',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\32_Shadow of Hospitality.png" id="32_Shadow of Hospitality" data-flag="@X" onclick="openSidebar('32_Shadow of Hospitality',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\54_No, You First.png" id="54_No, You First" data-flag="@X" onclick="openSidebar('54_No, You First',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\88_Something in the Walls.png" id="88_Something in the Walls" data-flag="@X" onclick="openSidebar('88_Something in the Walls',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\115_Swarm of Fuzzy Bees.png" id="115_Swarm of Fuzzy Bees" data-flag="@X" onclick="openSidebar('115_Swarm of Fuzzy Bees',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\139_Prickly Painbug.png" id="139_Prickly Painbug" data-flag="@X" onclick="openSidebar('139_Prickly Painbug',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\33_Skybound Spook.png" id="33_Skybound Spook" data-flag="@X" onclick="openSidebar('33_Skybound Spook',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\56_Patient Practitioner.png" id="56_Patient Practitioner" data-flag="@X" onclick="openSidebar('56_Patient Practitioner',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\90_Steal Strength.png" id="90_Steal Strength" data-flag="@X" onclick="openSidebar('90_Steal Strength',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\116_This is Fine.png" id="116_This is Fine" data-flag="@X" onclick="openSidebar('116_This is Fine',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\144_Sinister Shockodile.png" id="144_Sinister Shockodile" data-flag="@X" onclick="openSidebar('144_Sinister Shockodile',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\35_Vindictive Urge.png" id="35_Vindictive Urge" data-flag="@X" onclick="openSidebar('35_Vindictive Urge',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\61_Thirst for Inspiration.png" id="61_Thirst for Inspiration" data-flag="@X" onclick="openSidebar('61_Thirst for Inspiration',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\91_Undergrubbler.png" id="91_Undergrubbler" data-flag="@X" onclick="openSidebar('91_Undergrubbler',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\117_Ungracious Demonhost.png" id="117_Ungracious Demonhost" data-flag="@X" onclick="openSidebar('117_Ungracious Demonhost',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\145_Sockox Rider.png" id="145_Sockox Rider" data-flag="@X" onclick="openSidebar('145_Sockox Rider',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\36_Wight Watchman.png" id="36_Wight Watchman" data-flag="@X" onclick="openSidebar('36_Wight Watchman',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\63_Winterisle Worldheart.png" id="63_Winterisle Worldheart" data-flag="@X" onclick="openSidebar('63_Winterisle Worldheart',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\92_Warrior's Reprieve.png" id="92_Warriors Reprieve" data-flag="@X" onclick="openSidebar('92_Warriors Reprieve',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\118_An Unquiet Rest.png" id="118_An Unquiet Rest" data-flag="@X" onclick="openSidebar('118_An Unquiet Rest',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\148_Warriorbane Stag.png" id="148_Warriorbane Stag" data-flag="@X" onclick="openSidebar('148_Warriorbane Stag',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\1_Gleeb, A Man for All Seasons.png" id="1_Gleeb, A Man for All Seasons" data-flag="@X" onclick="openSidebar('1_Gleeb, A Man for All Seasons',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\6_Lord Blugu Swallows the Moon.png" id="6_Lord Blugu Swallows the Moon" data-flag="@X" onclick="openSidebar('6_Lord Blugu Swallows the Moon',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\3_The Children of Lesser Gods.png" id="3_The Children of Lesser Gods" data-flag="@X" onclick="openSidebar('3_The Children of Lesser Gods',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\7_Moonmist Shadow.png" id="7_Moonmist Shadow" data-flag="@X" onclick="openSidebar('7_Moonmist Shadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\4_Fated Wonder.png" id="4_Fated Wonder" data-flag="@X" onclick="openSidebar('4_Fated Wonder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\5_Lambent Moonlight.png" id="5_Lambent Moonlight" data-flag="@X" onclick="openSidebar('5_Lambent Moonlight',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\2_Accursed Scapegoat.png" id="2_Accursed Scapegoat" data-flag="@X" onclick="openSidebar('2_Accursed Scapegoat',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\8_Night's Echo.png" id="8_Nights Echo" data-flag="@X" onclick="openSidebar('8_Nights Echo',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\18_Hare-Raising Goliath.png" id="18_Hare-Raising Goliath" data-flag="@X" onclick="openSidebar('18_Hare-Raising Goliath',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\58_Seagrass Muncher.png" id="58_Seagrass Muncher" data-flag="@X" onclick="openSidebar('58_Seagrass Muncher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\89_Soul of the Farmyard.png" id="89_Soul of the Farmyard" data-flag="@X" onclick="openSidebar('89_Soul of the Farmyard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\104_Night Has a Thousand Eyes.png" id="104_Night Has a Thousand Eyes" data-flag="@X" onclick="openSidebar('104_Night Has a Thousand Eyes',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\143_Sickly Dewdragon.png" id="143_Sickly Dewdragon" data-flag="@X" onclick="openSidebar('143_Sickly Dewdragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\9_Angelic Snapper.png" id="9_Angelic Snapper" data-flag="@X" onclick="openSidebar('9_Angelic Snapper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\37_Accursed Orb.png" id="37_Accursed Orb" data-flag="@X" onclick="openSidebar('37_Accursed Orb',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\70_Gravesoil Mimic.png" id="70_Gravesoil Mimic" data-flag="@X" onclick="openSidebar('70_Gravesoil Mimic',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\93_Bone Moon.png" id="93_Bone Moon" data-flag="@X" onclick="openSidebar('93_Bone Moon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\130_Dreams of Survival.png" id="130_Dreams of Survival" data-flag="@X" onclick="openSidebar('130_Dreams of Survival',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\11_Bride of the Moon.png" id="11_Bride of the Moon" data-flag="@X" onclick="openSidebar('11_Bride of the Moon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\43_Covert Chameleon.png" id="43_Covert Chameleon" data-flag="@X" onclick="openSidebar('43_Covert Chameleon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\72_Griller Killer.png" id="72_Griller Killer" data-flag="@X" onclick="openSidebar('72_Griller Killer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\95_Cragtusk.png" id="95_Cragtusk" data-flag="@X" onclick="openSidebar('95_Cragtusk',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\134_Innocuous Hatchling.png" id="134_Innocuous Hatchling" data-flag="@X" onclick="openSidebar('134_Innocuous Hatchling',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\13_Cemetery Warden.png" id="13_Cemetery Warden" data-flag="@X" onclick="openSidebar('13_Cemetery Warden',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\46_Filigree Experiment.png" id="46_Filigree Experiment" data-flag="@X" onclick="openSidebar('46_Filigree Experiment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\73_Gurgle's Demand.png" id="73_Gurgles Demand" data-flag="@X" onclick="openSidebar('73_Gurgles Demand',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\97_Fiery Manifestation.png" id="97_Fiery Manifestation" data-flag="@X" onclick="openSidebar('97_Fiery Manifestation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\135_Kohrm's Demand.png" id="135_Kohrms Demand" data-flag="@X" onclick="openSidebar('135_Kohrms Demand',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\16_Elandra's Demand.png" id="16_Elandras Demand" data-flag="@X" onclick="openSidebar('16_Elandras Demand',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\48_Form of the Shapeshifter.png" id="48_Form of the Shapeshifter" data-flag="@X" onclick="openSidebar('48_Form of the Shapeshifter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\80_Misshapen Marauder.png" id="80_Misshapen Marauder" data-flag="@X" onclick="openSidebar('80_Misshapen Marauder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\98_Gore Snapper.png" id="98_Gore Snapper" data-flag="@X" onclick="openSidebar('98_Gore Snapper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\137_Mulch Ado About Nothing.png" id="137_Mulch Ado About Nothing" data-flag="@X" onclick="openSidebar('137_Mulch Ado About Nothing',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\22_Immortal Grace.png" id="22_Immortal Grace" data-flag="@X" onclick="openSidebar('22_Immortal Grace',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\62_Weird Fruit.png" id="62_Weird Fruit" data-flag="@X" onclick="openSidebar('62_Weird Fruit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\81_Nightgrin Cultist.png" id="81_Nightgrin Cultist" data-flag="@X" onclick="openSidebar('81_Nightgrin Cultist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\100_Holy Word's Demand.png" id="100_Holy Words Demand" data-flag="@X" onclick="openSidebar('100_Holy Words Demand',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\141_Prophet of Kohrm.png" id="141_Prophet of Kohrm" data-flag="@X" onclick="openSidebar('141_Prophet of Kohrm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\30_Moon's Blessing.png" id="30_Moons Blessing" data-flag="@X" onclick="openSidebar('30_Moons Blessing',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\64_Winterisle's Demand.png" id="64_Winterisles Demand" data-flag="@X" onclick="openSidebar('64_Winterisles Demand',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\82_Obsessive Prowler.png" id="82_Obsessive Prowler" data-flag="@X" onclick="openSidebar('82_Obsessive Prowler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\106_Plarb's Prototype.png" id="106_Plarbs Prototype" data-flag="@X" onclick="openSidebar('106_Plarbs Prototype',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\147_Velocirooster.png" id="147_Velocirooster" data-flag="@X" onclick="openSidebar('147_Velocirooster',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\10_Bearer of Bad News.png" id="10_Bearer of Bad News" data-flag="@X" onclick="openSidebar('10_Bearer of Bad News',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\40_Cackling Croaker.png" id="40_Cackling Croaker" data-flag="@X" onclick="openSidebar('40_Cackling Croaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\65_Ambitious Mastermind.png" id="65_Ambitious Mastermind" data-flag="@X" onclick="openSidebar('65_Ambitious Mastermind',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\94_Consult the Idol.png" id="94_Consult the Idol" data-flag="@X" onclick="openSidebar('94_Consult the Idol',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\122_Among the Hens.png" id="122_Among the Hens" data-flag="@X" onclick="openSidebar('122_Among the Hens',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\14_Deathless Siren.png" id="14_Deathless Siren" data-flag="@X" onclick="openSidebar('14_Deathless Siren',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\41_Cackling Lantern.png" id="41_Cackling Lantern" data-flag="@X" onclick="openSidebar('41_Cackling Lantern',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\66_Castle Sneak.png" id="66_Castle Sneak" data-flag="@X" onclick="openSidebar('66_Castle Sneak',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\99_Haunting Memory.png" id="99_Haunting Memory" data-flag="@X" onclick="openSidebar('99_Haunting Memory',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\123_Anxious Adventurer.png" id="123_Anxious Adventurer" data-flag="@X" onclick="openSidebar('123_Anxious Adventurer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\17_Elandra's Executioner.png" id="17_Elandras Executioner" data-flag="@X" onclick="openSidebar('17_Elandras Executioner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\44_Down to the Bone.png" id="44_Down to the Bone" data-flag="@X" onclick="openSidebar('44_Down to the Bone',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\71_Great Disappointment.png" id="71_Great Disappointment" data-flag="@X" onclick="openSidebar('71_Great Disappointment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\103_Lunar Betrayal.png" id="103_Lunar Betrayal" data-flag="@X" onclick="openSidebar('103_Lunar Betrayal',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\125_A Bloody Harvest.png" id="125_A Bloody Harvest" data-flag="@X" onclick="openSidebar('125_A Bloody Harvest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\19_Harried Harrier.png" id="19_Harried Harrier" data-flag="@X" onclick="openSidebar('19_Harried Harrier',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\49_Gainsay.png" id="49_Gainsay" data-flag="@X" onclick="openSidebar('49_Gainsay',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\74_Hallowed Bones.png" id="74_Hallowed Bones" data-flag="@X" onclick="openSidebar('74_Hallowed Bones',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\107_Pyretic Paladin.png" id="107_Pyretic Paladin" data-flag="@X" onclick="openSidebar('107_Pyretic Paladin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\126_Brazen Bush.png" id="126_Brazen Bush" data-flag="@X" onclick="openSidebar('126_Brazen Bush',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\20_Haughty Elitist.png" id="20_Haughty Elitist" data-flag="@X" onclick="openSidebar('20_Haughty Elitist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\51_The Grand Spooking.png" id="51_The Grand Spooking" data-flag="@X" onclick="openSidebar('51_The Grand Spooking',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\75_Jolly Rotman.png" id="75_Jolly Rotman" data-flag="@X" onclick="openSidebar('75_Jolly Rotman',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\108_Reckless Wrangler.png" id="108_Reckless Wrangler" data-flag="@X" onclick="openSidebar('108_Reckless Wrangler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\127_Brutal Crabnormality.png" id="127_Brutal Crabnormality" data-flag="@X" onclick="openSidebar('127_Brutal Crabnormality',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\21_Home to Roost.png" id="21_Home to Roost" data-flag="@X" onclick="openSidebar('21_Home to Roost',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\52_Invocation of Kohrm.png" id="52_Invocation of Kohrm" data-flag="@X" onclick="openSidebar('52_Invocation of Kohrm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\76_Killer Kelp.png" id="76_Killer Kelp" data-flag="@X" onclick="openSidebar('76_Killer Kelp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\109_Renewed Focus.png" id="109_Renewed Focus" data-flag="@X" onclick="openSidebar('109_Renewed Focus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\129_Dramatic Entrance.png" id="129_Dramatic Entrance" data-flag="@X" onclick="openSidebar('129_Dramatic Entrance',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\24_Invoke Faith.png" id="24_Invoke Faith" data-flag="@X" onclick="openSidebar('24_Invoke Faith',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\53_Monumental Scorn.png" id="53_Monumental Scorn" data-flag="@X" onclick="openSidebar('53_Monumental Scorn',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\77_Make Demands.png" id="77_Make Demands" data-flag="@X" onclick="openSidebar('77_Make Demands',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\110_A Scholar and a Gentleman.png" id="110_A Scholar and a Gentleman" data-flag="@X" onclick="openSidebar('110_A Scholar and a Gentleman',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\133_Grinning Alliguard.png" id="133_Grinning Alliguard" data-flag="@X" onclick="openSidebar('133_Grinning Alliguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\25_Kiss of the Moon.png" id="25_Kiss of the Moon" data-flag="@X" onclick="openSidebar('25_Kiss of the Moon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\55_Ornery Slugabed.png" id="55_Ornery Slugabed" data-flag="@X" onclick="openSidebar('55_Ornery Slugabed',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\78_Merciless Mollusc.png" id="78_Merciless Mollusc" data-flag="@X" onclick="openSidebar('78_Merciless Mollusc',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\112_Soul Anchor.png" id="112_Soul Anchor" data-flag="@X" onclick="openSidebar('112_Soul Anchor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\138_Munch.png" id="138_Munch" data-flag="@X" onclick="openSidebar('138_Munch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\28_Lunar Maiden.png" id="28_Lunar Maiden" data-flag="@X" onclick="openSidebar('28_Lunar Maiden',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\57_Projection of Power.png" id="57_Projection of Power" data-flag="@X" onclick="openSidebar('57_Projection of Power',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\79_Midnight Rictus.png" id="79_Midnight Rictus" data-flag="@X" onclick="openSidebar('79_Midnight Rictus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\113_Splat Frog.png" id="113_Splat Frog" data-flag="@X" onclick="openSidebar('113_Splat Frog',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\140_Priest of Gurgle.png" id="140_Priest of Gurgle" data-flag="@X" onclick="openSidebar('140_Priest of Gurgle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\29_Moat Trawler.png" id="29_Moat Trawler" data-flag="@X" onclick="openSidebar('29_Moat Trawler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\59_Sea's Whisper.png" id="59_Seas Whisper" data-flag="@X" onclick="openSidebar('59_Seas Whisper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\84_Oversold Cemetery.png" id="84_Oversold Cemetery" data-flag="@X" onclick="openSidebar('84_Oversold Cemetery',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\119_Work in Progress.png" id="119_Work in Progress" data-flag="@X" onclick="openSidebar('119_Work in Progress',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\142_Scaredragon.png" id="142_Scaredragon" data-flag="@X" onclick="openSidebar('142_Scaredragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\34_An Unwise Bargain.png" id="34_An Unwise Bargain" data-flag="@X" onclick="openSidebar('34_An Unwise Bargain',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\60_Squawkslopper.png" id="60_Squawkslopper" data-flag="@X" onclick="openSidebar('60_Squawkslopper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\85_Pick Off.png" id="85_Pick Off" data-flag="@X" onclick="openSidebar('85_Pick Off',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\120_Wretched Strike.png" id="120_Wretched Strike" data-flag="@X" onclick="openSidebar('120_Wretched Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\146_Unevolved Brawler.png" id="146_Unevolved Brawler" data-flag="@X" onclick="openSidebar('146_Unevolved Brawler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\12_Castle Familiar.png" id="12_Castle Familiar" data-flag="@X" onclick="openSidebar('12_Castle Familiar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\38_Ambling Cairn.png" id="38_Ambling Cairn" data-flag="@X" onclick="openSidebar('38_Ambling Cairn',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\67_Consuming Ashes.png" id="67_Consuming Ashes" data-flag="@X" onclick="openSidebar('67_Consuming Ashes',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\96_Experimental Turbohorn.png" id="96_Experimental Turbohorn" data-flag="@X" onclick="openSidebar('96_Experimental Turbohorn',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\121_Aetherblast Cannoneer.png" id="121_Aetherblast Cannoneer" data-flag="@X" onclick="openSidebar('121_Aetherblast Cannoneer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\15_Defiant Warlord.png" id="15_Defiant Warlord" data-flag="@X" onclick="openSidebar('15_Defiant Warlord',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\39_Artificer's Guile.png" id="39_Artificers Guile" data-flag="@X" onclick="openSidebar('39_Artificers Guile',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\68_Eyes of Night.png" id="68_Eyes of Night" data-flag="@X" onclick="openSidebar('68_Eyes of Night',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\101_It's Alive.png" id="101_Its Alive" data-flag="@X" onclick="openSidebar('101_Its Alive',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\124_Assault on the Senses.png" id="124_Assault on the Senses" data-flag="@X" onclick="openSidebar('124_Assault on the Senses',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\23_Inquiring Squire.png" id="23_Inquiring Squire" data-flag="@X" onclick="openSidebar('23_Inquiring Squire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\42_Callow Willow.png" id="42_Callow Willow" data-flag="@X" onclick="openSidebar('42_Callow Willow',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\69_Gleeful Scavenger.png" id="69_Gleeful Scavenger" data-flag="@X" onclick="openSidebar('69_Gleeful Scavenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\102_Jack of No Trades.png" id="102_Jack of No Trades" data-flag="@X" onclick="openSidebar('102_Jack of No Trades',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\128_Croaked Croaker.png" id="128_Croaked Croaker" data-flag="@X" onclick="openSidebar('128_Croaked Croaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\26_Liminal Chant.png" id="26_Liminal Chant" data-flag="@X" onclick="openSidebar('26_Liminal Chant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\45_Exultant Cultist.png" id="45_Exultant Cultist" data-flag="@X" onclick="openSidebar('45_Exultant Cultist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\83_Oozing Ghastlypod.png" id="83_Oozing Ghastlypod" data-flag="@X" onclick="openSidebar('83_Oozing Ghastlypod',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\105_Oopsie.png" id="105_Oopsie" data-flag="@X" onclick="openSidebar('105_Oopsie',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\131_Font of Fertility.png" id="131_Font of Fertility" data-flag="@X" onclick="openSidebar('131_Font of Fertility',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\27_Littlest Witch.png" id="27_Littlest Witch" data-flag="@X" onclick="openSidebar('27_Littlest Witch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\47_Forbidden Foreboding.png" id="47_Forbidden Foreboding" data-flag="@X" onclick="openSidebar('47_Forbidden Foreboding',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\86_Primal Practitioner.png" id="86_Primal Practitioner" data-flag="@X" onclick="openSidebar('86_Primal Practitioner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\111_Shock Treatment.png" id="111_Shock Treatment" data-flag="@X" onclick="openSidebar('111_Shock Treatment',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\132_Gelatinous Growth.png" id="132_Gelatinous Growth" data-flag="@X" onclick="openSidebar('132_Gelatinous Growth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\31_Night's Vizier.png" id="31_Nights Vizier" data-flag="@X" onclick="openSidebar('31_Nights Vizier',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\50_Gaze Not Long Into the Orb.png" id="50_Gaze Not Long Into the Orb" data-flag="@X" onclick="openSidebar('50_Gaze Not Long Into the Orb',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\87_Prince of Fools.png" id="87_Prince of Fools" data-flag="@X" onclick="openSidebar('87_Prince of Fools',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\114_Stubborn Slitherblade.png" id="114_Stubborn Slitherblade" data-flag="@X" onclick="openSidebar('114_Stubborn Slitherblade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\136_Mulch.png" id="136_Mulch" data-flag="@X" onclick="openSidebar('136_Mulch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\32_Shadow of Hospitality.png" id="32_Shadow of Hospitality" data-flag="@X" onclick="openSidebar('32_Shadow of Hospitality',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\54_No, You First.png" id="54_No, You First" data-flag="@X" onclick="openSidebar('54_No, You First',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\88_Something in the Walls.png" id="88_Something in the Walls" data-flag="@X" onclick="openSidebar('88_Something in the Walls',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\115_Swarm of Fuzzy Bees.png" id="115_Swarm of Fuzzy Bees" data-flag="@X" onclick="openSidebar('115_Swarm of Fuzzy Bees',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\139_Prickly Painbug.png" id="139_Prickly Painbug" data-flag="@X" onclick="openSidebar('139_Prickly Painbug',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\33_Skybound Spook.png" id="33_Skybound Spook" data-flag="@X" onclick="openSidebar('33_Skybound Spook',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\56_Patient Practitioner.png" id="56_Patient Practitioner" data-flag="@X" onclick="openSidebar('56_Patient Practitioner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\90_Steal Strength.png" id="90_Steal Strength" data-flag="@X" onclick="openSidebar('90_Steal Strength',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\116_This is Fine.png" id="116_This is Fine" data-flag="@X" onclick="openSidebar('116_This is Fine',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\144_Sinister Shockodile.png" id="144_Sinister Shockodile" data-flag="@X" onclick="openSidebar('144_Sinister Shockodile',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\35_Vindictive Urge.png" id="35_Vindictive Urge" data-flag="@X" onclick="openSidebar('35_Vindictive Urge',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\61_Thirst for Inspiration.png" id="61_Thirst for Inspiration" data-flag="@X" onclick="openSidebar('61_Thirst for Inspiration',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\91_Undergrubbler.png" id="91_Undergrubbler" data-flag="@X" onclick="openSidebar('91_Undergrubbler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\117_Ungracious Demonhost.png" id="117_Ungracious Demonhost" data-flag="@X" onclick="openSidebar('117_Ungracious Demonhost',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\145_Sockox Rider.png" id="145_Sockox Rider" data-flag="@X" onclick="openSidebar('145_Sockox Rider',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\36_Wight Watchman.png" id="36_Wight Watchman" data-flag="@X" onclick="openSidebar('36_Wight Watchman',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\63_Winterisle Worldheart.png" id="63_Winterisle Worldheart" data-flag="@X" onclick="openSidebar('63_Winterisle Worldheart',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\92_Warrior's Reprieve.png" id="92_Warriors Reprieve" data-flag="@X" onclick="openSidebar('92_Warriors Reprieve',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\118_An Unquiet Rest.png" id="118_An Unquiet Rest" data-flag="@X" onclick="openSidebar('118_An Unquiet Rest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\148_Warriorbane Stag.png" id="148_Warriorbane Stag" data-flag="@X" onclick="openSidebar('148_Warriorbane Stag',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\149_Eager Contraptioneer.png" id="149_Eager Contraptioneer" data-flag="@X" onclick="openSidebar('149_Eager Contraptioneer',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\150_Hapless Pilferer.png" id="150_Hapless Pilferer" data-flag="@X" onclick="openSidebar('150_Hapless Pilferer',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\151_Patchwork Assistant.png" id="151_Patchwork Assistant" data-flag="@X" onclick="openSidebar('151_Patchwork Assistant',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\152_Stinky Tinkerer.png" id="152_Stinky Tinkerer" data-flag="@X" onclick="openSidebar('152_Stinky Tinkerer',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\153_Exuberant Extoller.png" id="153_Exuberant Extoller" data-flag="@X" onclick="openSidebar('153_Exuberant Extoller',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\219_Ritual Reciter.png" id="219_Ritual Reciter" data-flag="@X" onclick="openSidebar('219_Ritual Reciter',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\220_Breaching Skysnapper.png" id="220_Breaching Skysnapper" data-flag="@X" onclick="openSidebar('220_Breaching Skysnapper',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\221_Bitterly Departed.png" id="221_Bitterly Departed" data-flag="@X" onclick="openSidebar('221_Bitterly Departed',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\222_Spiteful Squash.png" id="222_Spiteful Squash" data-flag="@X" onclick="openSidebar('222_Spiteful Squash',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\223_Recycled Regurgitator.png" id="223_Recycled Regurgitator" data-flag="@X" onclick="openSidebar('223_Recycled Regurgitator',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\159_Silverbark Ancient.png" id="159_Silverbark Ancient" data-flag="@X" onclick="openSidebar('159_Silverbark Ancient',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\167_Wild Rumpus.png" id="167_Wild Rumpus" data-flag="@X" onclick="openSidebar('167_Wild Rumpus',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\172_Gurgle's Handmaid.png" id="172_Gurgles Handmaid" data-flag="@X" onclick="openSidebar('172_Gurgles Handmaid',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\180_Studious Dracomancer.png" id="180_Studious Dracomancer" data-flag="@X" onclick="openSidebar('180_Studious Dracomancer',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\186_Ready for Slime Time.png" id="186_Ready for Slime Time" data-flag="@X" onclick="openSidebar('186_Ready for Slime Time',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\155_Cruel Tusker.png" id="155_Cruel Tusker" data-flag="@X" onclick="openSidebar('155_Cruel Tusker',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\162_Magnum Oops.png" id="162_Magnum Oops" data-flag="@X" onclick="openSidebar('162_Magnum Oops',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\170_Ghastly Graverobber.png" id="170_Ghastly Graverobber" data-flag="@X" onclick="openSidebar('170_Ghastly Graverobber',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\176_Elandra's Paladin.png" id="176_Elandras Paladin" data-flag="@X" onclick="openSidebar('176_Elandras Paladin',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\184_Lionize.png" id="184_Lionize" data-flag="@X" onclick="openSidebar('184_Lionize',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\156_Duskbringer.png" id="156_Duskbringer" data-flag="@X" onclick="openSidebar('156_Duskbringer',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\165_Truth in Fire.png" id="165_Truth in Fire" data-flag="@X" onclick="openSidebar('165_Truth in Fire',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\174_Rotroot Hatchling.png" id="174_Rotroot Hatchling" data-flag="@X" onclick="openSidebar('174_Rotroot Hatchling',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\178_Night's Sway.png" id="178_Nights Sway" data-flag="@X" onclick="openSidebar('178_Nights Sway',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\188_Slime's Foresight.png" id="188_Slimes Foresight" data-flag="@X" onclick="openSidebar('188_Slimes Foresight',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\157_Heartless Ace.png" id="157_Heartless Ace" data-flag="@X" onclick="openSidebar('157_Heartless Ace',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\164_Selfish Shellfish.png" id="164_Selfish Shellfish" data-flag="@X" onclick="openSidebar('164_Selfish Shellfish',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\168_Cunning Copycat.png" id="168_Cunning Copycat" data-flag="@X" onclick="openSidebar('168_Cunning Copycat',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\179_Stoic Skelemental.png" id="179_Stoic Skelemental" data-flag="@X" onclick="openSidebar('179_Stoic Skelemental',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\182_Ambling Sarcophaguy.png" id="182_Ambling Sarcophaguy" data-flag="@X" onclick="openSidebar('182_Ambling Sarcophaguy',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\158_Raving Unraveler.png" id="158_Raving Unraveler" data-flag="@X" onclick="openSidebar('158_Raving Unraveler',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\166_Unspeakable Dictum.png" id="166_Unspeakable Dictum" data-flag="@X" onclick="openSidebar('166_Unspeakable Dictum',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\173_Relentless Muckraker.png" id="173_Relentless Muckraker" data-flag="@X" onclick="openSidebar('173_Relentless Muckraker',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\181_Wicker Squawker.png" id="181_Wicker Squawker" data-flag="@X" onclick="openSidebar('181_Wicker Squawker',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\183_Bargain Driver.png" id="183_Bargain Driver" data-flag="@X" onclick="openSidebar('183_Bargain Driver',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\154_Castigate.png" id="154_Castigate" data-flag="@X" onclick="openSidebar('154_Castigate',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\161_Ambiguous Amphibuous.png" id="161_Ambiguous Amphibuous" data-flag="@X" onclick="openSidebar('161_Ambiguous Amphibuous',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\169_Entangle.png" id="169_Entangle" data-flag="@X" onclick="openSidebar('169_Entangle',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\175_Brawling Banquet.png" id="175_Brawling Banquet" data-flag="@X" onclick="openSidebar('175_Brawling Banquet',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\185_Midnight Quiet.png" id="185_Midnight Quiet" data-flag="@X" onclick="openSidebar('185_Midnight Quiet',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\160_To the Manor Dead.png" id="160_To the Manor Dead" data-flag="@X" onclick="openSidebar('160_To the Manor Dead',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\163_Reduce to Junk.png" id="163_Reduce to Junk" data-flag="@X" onclick="openSidebar('163_Reduce to Junk',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\171_Grisly Gatecrasher.png" id="171_Grisly Gatecrasher" data-flag="@X" onclick="openSidebar('171_Grisly Gatecrasher',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\177_Into the Fray.png" id="177_Into the Fray" data-flag="@X" onclick="openSidebar('177_Into the Fray',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\187_Release the Hounds.png" id="187_Release the Hounds" data-flag="@X" onclick="openSidebar('187_Release the Hounds',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\194_Elandra, Lady Eternal.png" id="194_Elandra, Lady Eternal" data-flag="@X" onclick="openSidebar('194_Elandra, Lady Eternal',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\217_The Soul of Winterisle.png" id="217_The Soul of Winterisle" data-flag="@X" onclick="openSidebar('217_The Soul of Winterisle',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\199_Gurgle, Jolly Jelly.png" id="199_Gurgle, Jolly Jelly" data-flag="@X" onclick="openSidebar('199_Gurgle, Jolly Jelly',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\202_The Holy Word.png" id="202_The Holy Word" data-flag="@X" onclick="openSidebar('202_The Holy Word',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\206_Kohrm, Bigger Than You.png" id="206_Kohrm, Bigger Than You" data-flag="@X" onclick="openSidebar('206_Kohrm, Bigger Than You',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\205_Jeave Maitre D'Undead.png" id="205_Jeave Maitre DUndead" data-flag="@X" onclick="openSidebar('205_Jeave Maitre DUndead',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\197_Gribbly Gourd.png" id="197_Gribbly Gourd" data-flag="@X" onclick="openSidebar('197_Gribbly Gourd',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\189_Blrb, Bard of Gurgle.png" id="189_Blrb, Bard of Gurgle" data-flag="@X" onclick="openSidebar('189_Blrb, Bard of Gurgle',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\213_Plarb, the Occultest.png" id="213_Plarb, the Occultest" data-flag="@X" onclick="openSidebar('213_Plarb, the Occultest',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\203_Hybor, Kohrm's Hand.png" id="203_Hybor, Kohrms Hand" data-flag="@X" onclick="openSidebar('203_Hybor, Kohrms Hand',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\209_The Lady Perseveres.png" id="209_The Lady Perseveres" data-flag="@X" onclick="openSidebar('209_The Lady Perseveres',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\218_Swain, Lord Winterisle.png" id="218_Swain, Lord Winterisle" data-flag="@X" onclick="openSidebar('218_Swain, Lord Winterisle',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\198_Gulp.png" id="198_Gulp" data-flag="@X" onclick="openSidebar('198_Gulp',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\214_Polarized Lightning.png" id="214_Polarized Lightning" data-flag="@X" onclick="openSidebar('214_Polarized Lightning',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\208_Komastogoyf.png" id="208_Komastogoyf" data-flag="@X" onclick="openSidebar('208_Komastogoyf',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\191_Chilling Governess.png" id="191_Chilling Governess" data-flag="@X" onclick="openSidebar('191_Chilling Governess',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\215_Shubbery Ambush.png" id="215_Shubbery Ambush" data-flag="@X" onclick="openSidebar('215_Shubbery Ambush',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\196_Giving Tree.png" id="196_Giving Tree" data-flag="@X" onclick="openSidebar('196_Giving Tree',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\195_Forbidden Reagent.png" id="195_Forbidden Reagent" data-flag="@X" onclick="openSidebar('195_Forbidden Reagent',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\190_Brash Hero.png" id="190_Brash Hero" data-flag="@X" onclick="openSidebar('190_Brash Hero',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\192_Demanding Debutante.png" id="192_Demanding Debutante" data-flag="@X" onclick="openSidebar('192_Demanding Debutante',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\216_Soul Harvester.png" id="216_Soul Harvester" data-flag="@X" onclick="openSidebar('216_Soul Harvester',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\200_Gutless Scuttler.png" id="200_Gutless Scuttler" data-flag="@X" onclick="openSidebar('200_Gutless Scuttler',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\212_Ornery Booklender.png" id="212_Ornery Booklender" data-flag="@X" onclick="openSidebar('212_Ornery Booklender',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\207_Kohrm's Valkyrie.png" id="207_Kohrms Valkyrie" data-flag="@X" onclick="openSidebar('207_Kohrms Valkyrie',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\224_Bride of Elandra.png" id="224_Bride of Elandra" data-flag="@X" onclick="openSidebar('224_Bride of Elandra',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\225_Brother of the Briar.png" id="225_Brother of the Briar" data-flag="@X" onclick="openSidebar('225_Brother of the Briar',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\226_Crawling Chaos.png" id="226_Crawling Chaos" data-flag="@X" onclick="openSidebar('226_Crawling Chaos',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\228_Venomous Vellum.png" id="228_Venomous Vellum" data-flag="@X" onclick="openSidebar('228_Venomous Vellum',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\227_Gutless Devourer.png" id="227_Gutless Devourer" data-flag="@X" onclick="openSidebar('227_Gutless Devourer',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\204_Impatient Host.png" id="204_Impatient Host" data-flag="@X" onclick="openSidebar('204_Impatient Host',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\201_Happy Harvester.png" id="201_Happy Harvester" data-flag="@X" onclick="openSidebar('201_Happy Harvester',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\210_Mystic Mushroom.png" id="210_Mystic Mushroom" data-flag="@X" onclick="openSidebar('210_Mystic Mushroom',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\211_Natterjack Necromancer.png" id="211_Natterjack Necromancer" data-flag="@X" onclick="openSidebar('211_Natterjack Necromancer',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\193_Diminutive Destroyer.png" id="193_Diminutive Destroyer" data-flag="@X" onclick="openSidebar('193_Diminutive Destroyer',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\149_Eager Contraptioneer.png" id="149_Eager Contraptioneer" data-flag="@X" onclick="openSidebar('149_Eager Contraptioneer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\150_Hapless Pilferer.png" id="150_Hapless Pilferer" data-flag="@X" onclick="openSidebar('150_Hapless Pilferer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\151_Patchwork Assistant.png" id="151_Patchwork Assistant" data-flag="@X" onclick="openSidebar('151_Patchwork Assistant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\152_Stinky Tinkerer.png" id="152_Stinky Tinkerer" data-flag="@X" onclick="openSidebar('152_Stinky Tinkerer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\153_Exuberant Extoller.png" id="153_Exuberant Extoller" data-flag="@X" onclick="openSidebar('153_Exuberant Extoller',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\219_Ritual Reciter.png" id="219_Ritual Reciter" data-flag="@X" onclick="openSidebar('219_Ritual Reciter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\220_Breaching Skysnapper.png" id="220_Breaching Skysnapper" data-flag="@X" onclick="openSidebar('220_Breaching Skysnapper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\221_Bitterly Departed.png" id="221_Bitterly Departed" data-flag="@X" onclick="openSidebar('221_Bitterly Departed',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\222_Spiteful Squash.png" id="222_Spiteful Squash" data-flag="@X" onclick="openSidebar('222_Spiteful Squash',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\223_Recycled Regurgitator.png" id="223_Recycled Regurgitator" data-flag="@X" onclick="openSidebar('223_Recycled Regurgitator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\159_Silverbark Ancient.png" id="159_Silverbark Ancient" data-flag="@X" onclick="openSidebar('159_Silverbark Ancient',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\167_Wild Rumpus.png" id="167_Wild Rumpus" data-flag="@X" onclick="openSidebar('167_Wild Rumpus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\172_Gurgle's Handmaid.png" id="172_Gurgles Handmaid" data-flag="@X" onclick="openSidebar('172_Gurgles Handmaid',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\180_Studious Dracomancer.png" id="180_Studious Dracomancer" data-flag="@X" onclick="openSidebar('180_Studious Dracomancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\186_Ready for Slime Time.png" id="186_Ready for Slime Time" data-flag="@X" onclick="openSidebar('186_Ready for Slime Time',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\155_Cruel Tusker.png" id="155_Cruel Tusker" data-flag="@X" onclick="openSidebar('155_Cruel Tusker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\162_Magnum Oops.png" id="162_Magnum Oops" data-flag="@X" onclick="openSidebar('162_Magnum Oops',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\170_Ghastly Graverobber.png" id="170_Ghastly Graverobber" data-flag="@X" onclick="openSidebar('170_Ghastly Graverobber',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\176_Elandra's Paladin.png" id="176_Elandras Paladin" data-flag="@X" onclick="openSidebar('176_Elandras Paladin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\184_Lionize.png" id="184_Lionize" data-flag="@X" onclick="openSidebar('184_Lionize',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\156_Duskbringer.png" id="156_Duskbringer" data-flag="@X" onclick="openSidebar('156_Duskbringer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\165_Truth in Fire.png" id="165_Truth in Fire" data-flag="@X" onclick="openSidebar('165_Truth in Fire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\174_Rotroot Hatchling.png" id="174_Rotroot Hatchling" data-flag="@X" onclick="openSidebar('174_Rotroot Hatchling',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\178_Night's Sway.png" id="178_Nights Sway" data-flag="@X" onclick="openSidebar('178_Nights Sway',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\188_Slime's Foresight.png" id="188_Slimes Foresight" data-flag="@X" onclick="openSidebar('188_Slimes Foresight',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\157_Heartless Ace.png" id="157_Heartless Ace" data-flag="@X" onclick="openSidebar('157_Heartless Ace',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\164_Selfish Shellfish.png" id="164_Selfish Shellfish" data-flag="@X" onclick="openSidebar('164_Selfish Shellfish',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\168_Cunning Copycat.png" id="168_Cunning Copycat" data-flag="@X" onclick="openSidebar('168_Cunning Copycat',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\179_Stoic Skelemental.png" id="179_Stoic Skelemental" data-flag="@X" onclick="openSidebar('179_Stoic Skelemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\182_Ambling Sarcophaguy.png" id="182_Ambling Sarcophaguy" data-flag="@X" onclick="openSidebar('182_Ambling Sarcophaguy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\158_Raving Unraveler.png" id="158_Raving Unraveler" data-flag="@X" onclick="openSidebar('158_Raving Unraveler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\166_Unspeakable Dictum.png" id="166_Unspeakable Dictum" data-flag="@X" onclick="openSidebar('166_Unspeakable Dictum',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\173_Relentless Muckraker.png" id="173_Relentless Muckraker" data-flag="@X" onclick="openSidebar('173_Relentless Muckraker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\181_Wicker Squawker.png" id="181_Wicker Squawker" data-flag="@X" onclick="openSidebar('181_Wicker Squawker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\183_Bargain Driver.png" id="183_Bargain Driver" data-flag="@X" onclick="openSidebar('183_Bargain Driver',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\154_Castigate.png" id="154_Castigate" data-flag="@X" onclick="openSidebar('154_Castigate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\161_Ambiguous Amphibuous.png" id="161_Ambiguous Amphibuous" data-flag="@X" onclick="openSidebar('161_Ambiguous Amphibuous',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\169_Entangle.png" id="169_Entangle" data-flag="@X" onclick="openSidebar('169_Entangle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\175_Brawling Banquet.png" id="175_Brawling Banquet" data-flag="@X" onclick="openSidebar('175_Brawling Banquet',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\185_Midnight Quiet.png" id="185_Midnight Quiet" data-flag="@X" onclick="openSidebar('185_Midnight Quiet',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\160_To the Manor Dead.png" id="160_To the Manor Dead" data-flag="@X" onclick="openSidebar('160_To the Manor Dead',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\163_Reduce to Junk.png" id="163_Reduce to Junk" data-flag="@X" onclick="openSidebar('163_Reduce to Junk',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\171_Grisly Gatecrasher.png" id="171_Grisly Gatecrasher" data-flag="@X" onclick="openSidebar('171_Grisly Gatecrasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\177_Into the Fray.png" id="177_Into the Fray" data-flag="@X" onclick="openSidebar('177_Into the Fray',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\187_Release the Hounds.png" id="187_Release the Hounds" data-flag="@X" onclick="openSidebar('187_Release the Hounds',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\194_Elandra, Lady Eternal.png" id="194_Elandra, Lady Eternal" data-flag="@X" onclick="openSidebar('194_Elandra, Lady Eternal',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\217_The Soul of Winterisle.png" id="217_The Soul of Winterisle" data-flag="@X" onclick="openSidebar('217_The Soul of Winterisle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\199_Gurgle, Jolly Jelly.png" id="199_Gurgle, Jolly Jelly" data-flag="@X" onclick="openSidebar('199_Gurgle, Jolly Jelly',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\202_The Holy Word.png" id="202_The Holy Word" data-flag="@X" onclick="openSidebar('202_The Holy Word',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\206_Kohrm, Bigger Than You.png" id="206_Kohrm, Bigger Than You" data-flag="@X" onclick="openSidebar('206_Kohrm, Bigger Than You',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\205_Jeave Maitre D'Undead.png" id="205_Jeave Maitre DUndead" data-flag="@X" onclick="openSidebar('205_Jeave Maitre DUndead',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\197_Gribbly Gourd.png" id="197_Gribbly Gourd" data-flag="@X" onclick="openSidebar('197_Gribbly Gourd',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\189_Blrb, Bard of Gurgle.png" id="189_Blrb, Bard of Gurgle" data-flag="@X" onclick="openSidebar('189_Blrb, Bard of Gurgle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\213_Plarb, the Occultest.png" id="213_Plarb, the Occultest" data-flag="@X" onclick="openSidebar('213_Plarb, the Occultest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\203_Hybor, Kohrm's Hand.png" id="203_Hybor, Kohrms Hand" data-flag="@X" onclick="openSidebar('203_Hybor, Kohrms Hand',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\209_The Lady Perseveres.png" id="209_The Lady Perseveres" data-flag="@X" onclick="openSidebar('209_The Lady Perseveres',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\218_Swain, Lord Winterisle.png" id="218_Swain, Lord Winterisle" data-flag="@X" onclick="openSidebar('218_Swain, Lord Winterisle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\198_Gulp.png" id="198_Gulp" data-flag="@X" onclick="openSidebar('198_Gulp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\214_Polarized Lightning.png" id="214_Polarized Lightning" data-flag="@X" onclick="openSidebar('214_Polarized Lightning',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\208_Komastogoyf.png" id="208_Komastogoyf" data-flag="@X" onclick="openSidebar('208_Komastogoyf',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\191_Chilling Governess.png" id="191_Chilling Governess" data-flag="@X" onclick="openSidebar('191_Chilling Governess',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\215_Shubbery Ambush.png" id="215_Shubbery Ambush" data-flag="@X" onclick="openSidebar('215_Shubbery Ambush',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\196_Giving Tree.png" id="196_Giving Tree" data-flag="@X" onclick="openSidebar('196_Giving Tree',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\195_Forbidden Reagent.png" id="195_Forbidden Reagent" data-flag="@X" onclick="openSidebar('195_Forbidden Reagent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\190_Brash Hero.png" id="190_Brash Hero" data-flag="@X" onclick="openSidebar('190_Brash Hero',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\192_Demanding Debutante.png" id="192_Demanding Debutante" data-flag="@X" onclick="openSidebar('192_Demanding Debutante',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\216_Soul Harvester.png" id="216_Soul Harvester" data-flag="@X" onclick="openSidebar('216_Soul Harvester',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\200_Gutless Scuttler.png" id="200_Gutless Scuttler" data-flag="@X" onclick="openSidebar('200_Gutless Scuttler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\212_Ornery Booklender.png" id="212_Ornery Booklender" data-flag="@X" onclick="openSidebar('212_Ornery Booklender',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\207_Kohrm's Valkyrie.png" id="207_Kohrms Valkyrie" data-flag="@X" onclick="openSidebar('207_Kohrms Valkyrie',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\224_Bride of Elandra.png" id="224_Bride of Elandra" data-flag="@X" onclick="openSidebar('224_Bride of Elandra',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\225_Brother of the Briar.png" id="225_Brother of the Briar" data-flag="@X" onclick="openSidebar('225_Brother of the Briar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\226_Crawling Chaos.png" id="226_Crawling Chaos" data-flag="@X" onclick="openSidebar('226_Crawling Chaos',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\228_Venomous Vellum.png" id="228_Venomous Vellum" data-flag="@X" onclick="openSidebar('228_Venomous Vellum',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\227_Gutless Devourer.png" id="227_Gutless Devourer" data-flag="@X" onclick="openSidebar('227_Gutless Devourer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\204_Impatient Host.png" id="204_Impatient Host" data-flag="@X" onclick="openSidebar('204_Impatient Host',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\201_Happy Harvester.png" id="201_Happy Harvester" data-flag="@X" onclick="openSidebar('201_Happy Harvester',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\210_Mystic Mushroom.png" id="210_Mystic Mushroom" data-flag="@X" onclick="openSidebar('210_Mystic Mushroom',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\211_Natterjack Necromancer.png" id="211_Natterjack Necromancer" data-flag="@X" onclick="openSidebar('211_Natterjack Necromancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\193_Diminutive Destroyer.png" id="193_Diminutive Destroyer" data-flag="@X" onclick="openSidebar('193_Diminutive Destroyer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\243_Shard of the Moon.png" id="243_Shard of the Moon" data-flag="@X" onclick="openSidebar('243_Shard of the Moon',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\244_Shield of Time and Space.png" id="244_Shield of Time and Space" data-flag="@X" onclick="openSidebar('244_Shield of Time and Space',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\247_Throne of Blugu.png" id="247_Throne of Blugu" data-flag="@X" onclick="openSidebar('247_Throne of Blugu',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\230_Alchemical Guardsman.png" id="230_Alchemical Guardsman" data-flag="@X" onclick="openSidebar('230_Alchemical Guardsman',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\241_Moonstone.png" id="241_Moonstone" data-flag="@X" onclick="openSidebar('241_Moonstone',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\245_Slavering Mimic.png" id="245_Slavering Mimic" data-flag="@X" onclick="openSidebar('245_Slavering Mimic',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\232_Copper Cogwing.png" id="232_Copper Cogwing" data-flag="@X" onclick="openSidebar('232_Copper Cogwing',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\233_Dragon Arch.png" id="233_Dragon Arch" data-flag="@X" onclick="openSidebar('233_Dragon Arch',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\234_Eerie Skullpture.png" id="234_Eerie Skullpture" data-flag="@X" onclick="openSidebar('234_Eerie Skullpture',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\240_Knave of Hearts.png" id="240_Knave of Hearts" data-flag="@X" onclick="openSidebar('240_Knave of Hearts',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\242_Ritual Bloodletter.png" id="242_Ritual Bloodletter" data-flag="@X" onclick="openSidebar('242_Ritual Bloodletter',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\229_Aether Trap.png" id="229_Aether Trap" data-flag="@X" onclick="openSidebar('229_Aether Trap',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\231_Captive Wyrmsoul.png" id="231_Captive Wyrmsoul" data-flag="@X" onclick="openSidebar('231_Captive Wyrmsoul',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\235_Guardian of Elandra.png" id="235_Guardian of Elandra" data-flag="@X" onclick="openSidebar('235_Guardian of Elandra',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\236_Guardian of Kohrm's Ire.png" id="236_Guardian of Kohrms Ire" data-flag="@X" onclick="openSidebar('236_Guardian of Kohrms Ire',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\237_Guardian of the Least Key.png" id="237_Guardian of the Least Key" data-flag="@X" onclick="openSidebar('237_Guardian of the Least Key',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\238_Guardian of the Rotmen.png" id="238_Guardian of the Rotmen" data-flag="@X" onclick="openSidebar('238_Guardian of the Rotmen',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\239_Guardian of Winterisle.png" id="239_Guardian of Winterisle" data-flag="@X" onclick="openSidebar('239_Guardian of Winterisle',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\246_Tagliaterror.png" id="246_Tagliaterror" data-flag="@X" onclick="openSidebar('246_Tagliaterror',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\248_Brutal Monument.png" id="248_Brutal Monument" data-flag="@X" onclick="openSidebar('248_Brutal Monument',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\250_Fecund Hovel.png" id="250_Fecund Hovel" data-flag="@X" onclick="openSidebar('250_Fecund Hovel',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\256_Night Garden.png" id="256_Night Garden" data-flag="@X" onclick="openSidebar('256_Night Garden',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\258_Ritual Site.png" id="258_Ritual Site" data-flag="@X" onclick="openSidebar('258_Ritual Site',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\261_Sorcerous Spire.png" id="261_Sorcerous Spire" data-flag="@X" onclick="openSidebar('261_Sorcerous Spire',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\251_Haunted Manse.png" id="251_Haunted Manse" data-flag="@X" onclick="openSidebar('251_Haunted Manse',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\252_Imposing Manor.png" id="252_Imposing Manor" data-flag="@X" onclick="openSidebar('252_Imposing Manor',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\253_Isolated Hovel.png" id="253_Isolated Hovel" data-flag="@X" onclick="openSidebar('253_Isolated Hovel',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\254_Moldering Vestry.png" id="254_Moldering Vestry" data-flag="@X" onclick="openSidebar('254_Moldering Vestry',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\255_Moonlit Basilica.png" id="255_Moonlit Basilica" data-flag="@X" onclick="openSidebar('255_Moonlit Basilica',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\257_Plundered Splendor.png" id="257_Plundered Splendor" data-flag="@X" onclick="openSidebar('257_Plundered Splendor',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\259_Serpent Monument.png" id="259_Serpent Monument" data-flag="@X" onclick="openSidebar('259_Serpent Monument',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\260_Sinister Holdfast.png" id="260_Sinister Holdfast" data-flag="@X" onclick="openSidebar('260_Sinister Holdfast',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\249_Evolving Wilds.png" id="249_Evolving Wilds" data-flag="@X" onclick="openSidebar('249_Evolving Wilds',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\267_Plains.png" id="267_Plains" data-flag="@X" onclick="openSidebar('267_Plains',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\268_Island.png" id="268_Island" data-flag="@X" onclick="openSidebar('268_Island',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\269_Swamp.png" id="269_Swamp" data-flag="@X" onclick="openSidebar('269_Swamp',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\270_Mountain.png" id="270_Mountain" data-flag="@X" onclick="openSidebar('270_Mountain',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\271_Forest.png" id="271_Forest" data-flag="@X" onclick="openSidebar('271_Forest',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\264_Nomad Outpost.png" id="264_Nomad Outpost" data-flag="@X" onclick="openSidebar('264_Nomad Outpost',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\266_Sandsteppe Citadel.png" id="266_Sandsteppe Citadel" data-flag="@X" onclick="openSidebar('266_Sandsteppe Citadel',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\265_Opulent Palace.png" id="265_Opulent Palace" data-flag="@X" onclick="openSidebar('265_Opulent Palace',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\262_Frontier Bivouac.png" id="262_Frontier Bivouac" data-flag="@X" onclick="openSidebar('262_Frontier Bivouac',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\263_Mystic Monastery.png" id="263_Mystic Monastery" data-flag="@X" onclick="openSidebar('263_Mystic Monastery',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\243_Shard of the Moon.png" id="243_Shard of the Moon" data-flag="@X" onclick="openSidebar('243_Shard of the Moon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\244_Shield of Time and Space.png" id="244_Shield of Time and Space" data-flag="@X" onclick="openSidebar('244_Shield of Time and Space',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\247_Throne of Blugu.png" id="247_Throne of Blugu" data-flag="@X" onclick="openSidebar('247_Throne of Blugu',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\230_Alchemical Guardsman.png" id="230_Alchemical Guardsman" data-flag="@X" onclick="openSidebar('230_Alchemical Guardsman',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\241_Moonstone.png" id="241_Moonstone" data-flag="@X" onclick="openSidebar('241_Moonstone',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\245_Slavering Mimic.png" id="245_Slavering Mimic" data-flag="@X" onclick="openSidebar('245_Slavering Mimic',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\232_Copper Cogwing.png" id="232_Copper Cogwing" data-flag="@X" onclick="openSidebar('232_Copper Cogwing',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\233_Dragon Arch.png" id="233_Dragon Arch" data-flag="@X" onclick="openSidebar('233_Dragon Arch',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\234_Eerie Skullpture.png" id="234_Eerie Skullpture" data-flag="@X" onclick="openSidebar('234_Eerie Skullpture',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\240_Knave of Hearts.png" id="240_Knave of Hearts" data-flag="@X" onclick="openSidebar('240_Knave of Hearts',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\242_Ritual Bloodletter.png" id="242_Ritual Bloodletter" data-flag="@X" onclick="openSidebar('242_Ritual Bloodletter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\229_Aether Trap.png" id="229_Aether Trap" data-flag="@X" onclick="openSidebar('229_Aether Trap',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\231_Captive Wyrmsoul.png" id="231_Captive Wyrmsoul" data-flag="@X" onclick="openSidebar('231_Captive Wyrmsoul',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\235_Guardian of Elandra.png" id="235_Guardian of Elandra" data-flag="@X" onclick="openSidebar('235_Guardian of Elandra',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\236_Guardian of Kohrm's Ire.png" id="236_Guardian of Kohrms Ire" data-flag="@X" onclick="openSidebar('236_Guardian of Kohrms Ire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\237_Guardian of the Least Key.png" id="237_Guardian of the Least Key" data-flag="@X" onclick="openSidebar('237_Guardian of the Least Key',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\238_Guardian of the Rotmen.png" id="238_Guardian of the Rotmen" data-flag="@X" onclick="openSidebar('238_Guardian of the Rotmen',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\239_Guardian of Winterisle.png" id="239_Guardian of Winterisle" data-flag="@X" onclick="openSidebar('239_Guardian of Winterisle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\246_Tagliaterror.png" id="246_Tagliaterror" data-flag="@X" onclick="openSidebar('246_Tagliaterror',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\248_Brutal Monument.png" id="248_Brutal Monument" data-flag="@X" onclick="openSidebar('248_Brutal Monument',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\250_Fecund Hovel.png" id="250_Fecund Hovel" data-flag="@X" onclick="openSidebar('250_Fecund Hovel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\256_Night Garden.png" id="256_Night Garden" data-flag="@X" onclick="openSidebar('256_Night Garden',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\258_Ritual Site.png" id="258_Ritual Site" data-flag="@X" onclick="openSidebar('258_Ritual Site',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\261_Sorcerous Spire.png" id="261_Sorcerous Spire" data-flag="@X" onclick="openSidebar('261_Sorcerous Spire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\251_Haunted Manse.png" id="251_Haunted Manse" data-flag="@X" onclick="openSidebar('251_Haunted Manse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\252_Imposing Manor.png" id="252_Imposing Manor" data-flag="@X" onclick="openSidebar('252_Imposing Manor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\253_Isolated Hovel.png" id="253_Isolated Hovel" data-flag="@X" onclick="openSidebar('253_Isolated Hovel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\254_Moldering Vestry.png" id="254_Moldering Vestry" data-flag="@X" onclick="openSidebar('254_Moldering Vestry',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\255_Moonlit Basilica.png" id="255_Moonlit Basilica" data-flag="@X" onclick="openSidebar('255_Moonlit Basilica',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\257_Plundered Splendor.png" id="257_Plundered Splendor" data-flag="@X" onclick="openSidebar('257_Plundered Splendor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\259_Serpent Monument.png" id="259_Serpent Monument" data-flag="@X" onclick="openSidebar('259_Serpent Monument',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\260_Sinister Holdfast.png" id="260_Sinister Holdfast" data-flag="@X" onclick="openSidebar('260_Sinister Holdfast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\249_Evolving Wilds.png" id="249_Evolving Wilds" data-flag="@X" onclick="openSidebar('249_Evolving Wilds',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\267_Plains.png" id="267_Plains" data-flag="@X" onclick="openSidebar('267_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\268_Island.png" id="268_Island" data-flag="@X" onclick="openSidebar('268_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\269_Swamp.png" id="269_Swamp" data-flag="@X" onclick="openSidebar('269_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\270_Mountain.png" id="270_Mountain" data-flag="@X" onclick="openSidebar('270_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\271_Forest.png" id="271_Forest" data-flag="@X" onclick="openSidebar('271_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\264_Nomad Outpost.png" id="264_Nomad Outpost" data-flag="@X" onclick="openSidebar('264_Nomad Outpost',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\266_Sandsteppe Citadel.png" id="266_Sandsteppe Citadel" data-flag="@X" onclick="openSidebar('266_Sandsteppe Citadel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\265_Opulent Palace.png" id="265_Opulent Palace" data-flag="@X" onclick="openSidebar('265_Opulent Palace',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\262_Frontier Bivouac.png" id="262_Frontier Bivouac" data-flag="@X" onclick="openSidebar('262_Frontier Bivouac',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\263_Mystic Monastery.png" id="263_Mystic Monastery" data-flag="@X" onclick="openSidebar('263_Mystic Monastery',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="promo" class="anchor"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\272_Throne of Blugu (bundle promo).png" id="272_Throne of Blugu (bundle promo)" data-flag="@X" onclick="openSidebar('272_Throne of Blugu (bundle promo)',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\272_Throne of Blugu (bundle promo).png" id="272_Throne of Blugu (bundle promo)" data-flag="@X" onclick="openSidebar('272_Throne of Blugu (bundle promo)',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\1t_Prism.png" id="1t_Prism" data-flag="@X" onclick="openSidebar('1t_Prism',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\2t_Zombie.png" id="2t_Zombie" data-flag="@X" onclick="openSidebar('2t_Zombie',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\3t_Beast.png" id="3t_Beast" data-flag="@X" onclick="openSidebar('3t_Beast',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\4t_Goblin.png" id="4t_Goblin" data-flag="@X" onclick="openSidebar('4t_Goblin',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\5t_Barbarian.png" id="5t_Barbarian" data-flag="@X" onclick="openSidebar('5t_Barbarian',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\6t_Mossdog.png" id="6t_Mossdog" data-flag="@X" onclick="openSidebar('6t_Mossdog',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\7t_Elemental.png" id="7t_Elemental" data-flag="@X" onclick="openSidebar('7t_Elemental',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\8t_Spirit.png" id="8t_Spirit" data-flag="@X" onclick="openSidebar('8t_Spirit',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\9t_Golem.png" id="9t_Golem" data-flag="@X" onclick="openSidebar('9t_Golem',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\10t_Treasure.png" id="10t_Treasure" data-flag="@X" onclick="openSidebar('10t_Treasure',false)"></div>
-				<div class="container"><img alt="/sets\CLG-files\img\11t_Draft Archetypes.png" id="11t_Draft Archetypes" data-flag="@X" onclick="openSidebar('11t_Draft Archetypes',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\1t_Prism.png" id="1t_Prism" data-flag="@X" onclick="openSidebar('1t_Prism',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\2t_Zombie.png" id="2t_Zombie" data-flag="@X" onclick="openSidebar('2t_Zombie',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\3t_Beast.png" id="3t_Beast" data-flag="@X" onclick="openSidebar('3t_Beast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\4t_Goblin.png" id="4t_Goblin" data-flag="@X" onclick="openSidebar('4t_Goblin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\5t_Barbarian.png" id="5t_Barbarian" data-flag="@X" onclick="openSidebar('5t_Barbarian',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\6t_Mossdog.png" id="6t_Mossdog" data-flag="@X" onclick="openSidebar('6t_Mossdog',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\7t_Elemental.png" id="7t_Elemental" data-flag="@X" onclick="openSidebar('7t_Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\8t_Spirit.png" id="8t_Spirit" data-flag="@X" onclick="openSidebar('8t_Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\9t_Golem.png" id="9t_Golem" data-flag="@X" onclick="openSidebar('9t_Golem',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\10t_Treasure.png" id="10t_Treasure" data-flag="@X" onclick="openSidebar('10t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\CLG-files\img\11t_Draft Archetypes.png" id="11t_Draft Archetypes" data-flag="@X" onclick="openSidebar('11t_Draft Archetypes',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 			</div>
 			<div class="banner">
 					<img id="SPG-logo" class="logo" src="/sets/SPG-files/logo.png">
 			</div>
 			<div class="grid-container">
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="SPG" class="anchor"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\51_Crackling Doom.png" id="51_Crackling Doom" data-flag="@X" onclick="openSidebar('51_Crackling Doom',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\52_Duneblast.png" id="52_Duneblast" data-flag="@X" onclick="openSidebar('52_Duneblast',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\53_Fervent Charge.png" id="53_Fervent Charge" data-flag="@X" onclick="openSidebar('53_Fervent Charge',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\54_Fungal Shambler.png" id="54_Fungal Shambler" data-flag="@X" onclick="openSidebar('54_Fungal Shambler',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\55_Guided Passage.png" id="55_Guided Passage" data-flag="@X" onclick="openSidebar('55_Guided Passage',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\56_Lightning Angel.png" id="56_Lightning Angel" data-flag="@X" onclick="openSidebar('56_Lightning Angel',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\57_Siege Rhino.png" id="57_Siege Rhino" data-flag="@X" onclick="openSidebar('57_Siege Rhino',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\58_Song of Creation.png" id="58_Song of Creation" data-flag="@X" onclick="openSidebar('58_Song of Creation',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\59_Villainous Wealth.png" id="59_Villainous Wealth" data-flag="@X" onclick="openSidebar('59_Villainous Wealth',false)"></div>
-				<div class="container"><img alt="/sets\SPG-files\img\60_Whirlwind of Thought.png" id="60_Whirlwind of Thought" data-flag="@X" onclick="openSidebar('60_Whirlwind of Thought',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\51_Crackling Doom.png" id="51_Crackling Doom" data-flag="@X" onclick="openSidebar('51_Crackling Doom',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\52_Duneblast.png" id="52_Duneblast" data-flag="@X" onclick="openSidebar('52_Duneblast',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\53_Fervent Charge.png" id="53_Fervent Charge" data-flag="@X" onclick="openSidebar('53_Fervent Charge',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\54_Fungal Shambler.png" id="54_Fungal Shambler" data-flag="@X" onclick="openSidebar('54_Fungal Shambler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\55_Guided Passage.png" id="55_Guided Passage" data-flag="@X" onclick="openSidebar('55_Guided Passage',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\56_Lightning Angel.png" id="56_Lightning Angel" data-flag="@X" onclick="openSidebar('56_Lightning Angel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\57_Siege Rhino.png" id="57_Siege Rhino" data-flag="@X" onclick="openSidebar('57_Siege Rhino',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\58_Song of Creation.png" id="58_Song of Creation" data-flag="@X" onclick="openSidebar('58_Song of Creation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\59_Villainous Wealth.png" id="59_Villainous Wealth" data-flag="@X" onclick="openSidebar('59_Villainous Wealth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\60_Whirlwind of Thought.png" id="60_Whirlwind of Thought" data-flag="@X" onclick="openSidebar('60_Whirlwind of Thought',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
@@ -755,27 +747,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -787,17 +803,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -830,6 +848,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -839,6 +858,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -861,21 +881,21 @@
 	}
 
 		function randomCard() {
-			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-			let random_card = card_list_arrayified[i];
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
 
-			const url = new URL('card', window.location.origin);
-			const params = {
-				set: random_card.set,
-				num: random_card.number,
-				name: random_card.card_name
-			}
-			for (const key in params) {
-				url.searchParams.append(key, params[key]);
-			}
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
 
-			window.location.href = url;
-		}
+				window.location.href = url;
+			}
 	</script>
 </body>
 </html>

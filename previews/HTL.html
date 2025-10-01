@@ -39,8 +39,8 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
@@ -126,12 +126,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -203,9 +204,6 @@
 		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
 		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/JMR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OVR-files/icon.png" />
 		<img class="preload-hidden" id="bg" src="/sets/HTL-files/bg.png" />
 
 		<div class="header">
@@ -219,7 +217,7 @@
 		</div>
 	</div>
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
 		<a class="set-bar" href="HTL"><img src="/sets/HTL-files/icon.png">Heartland of the Real</a>
 	
@@ -277,58 +275,52 @@
 	
 		<a class="set-bar inactive" href="ELO"><img src="/sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
 	
-		<a class="set-bar inactive" href="JMR"><img src="/sets/JMR-files/icon.png">Jamuraa: The Mirage War</a>
-	
-		<a class="set-bar inactive" href="90S"><img src="/sets/90S-files/icon.png">Rath and Storm</a>
-	
-		<a class="set-bar inactive" href="OVR"><img src="/sets/OVR-files/icon.png">Overlay</a>
-	
 		</div>
 		<div class="banner">
 		<img class="logo" src="/sets/HTL-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\HTL-files\img\216_Combat Analyst.png" id="216_Combat Analyst" data-flag="@X" onclick="openSidebar('216_Combat Analyst',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\219_Midnight Dead-Drop.png" id="219_Midnight Dead-Drop" data-flag="@X" onclick="openSidebar('219_Midnight Dead-Drop',true)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\222_Captured Specimen.png" id="222_Captured Specimen" data-flag="@X" onclick="openSidebar('222_Captured Specimen',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\225_Anomaly Extractor.png" id="225_Anomaly Extractor" data-flag="@X" onclick="openSidebar('225_Anomaly Extractor',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\229_Scornful Agent.png" id="229_Scornful Agent" data-flag="@X" onclick="openSidebar('229_Scornful Agent',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\217_Nightbird Prototype.png" id="217_Nightbird Prototype" data-flag="@X" onclick="openSidebar('217_Nightbird Prototype',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\221_Wetwork Specialist.png" id="221_Wetwork Specialist" data-flag="@X" onclick="openSidebar('221_Wetwork Specialist',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\224_Spectral Visitation.png" id="224_Spectral Visitation" data-flag="@X" onclick="openSidebar('224_Spectral Visitation',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\227_Warped Witness.png" id="227_Warped Witness" data-flag="@X" onclick="openSidebar('227_Warped Witness',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\230_You Were Never Here.png" id="230_You Were Never Here" data-flag="@X" onclick="openSidebar('230_You Were Never Here',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\231_Cleanup Specialist.png" id="231_Cleanup Specialist" data-flag="@X" onclick="openSidebar('231_Cleanup Specialist',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\234_Altered State.png" id="234_Altered State" data-flag="@X" onclick="openSidebar('234_Altered State',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\238_Asset Handler.png" id="238_Asset Handler" data-flag="@X" onclick="openSidebar('238_Asset Handler',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\240_Liminal Space.png" id="240_Liminal Space" data-flag="@X" onclick="openSidebar('240_Liminal Space',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\243_Infiltrate the Archives.png" id="243_Infiltrate the Archives" data-flag="@X" onclick="openSidebar('243_Infiltrate the Archives',true)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\232_Recover the Asset.png" id="232_Recover the Asset" data-flag="@X" onclick="openSidebar('232_Recover the Asset',true)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\235_Extrasensory Witness.png" id="235_Extrasensory Witness" data-flag="@X" onclick="openSidebar('235_Extrasensory Witness',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\239_Asymmetric Warfare.png" id="239_Asymmetric Warfare" data-flag="@X" onclick="openSidebar('239_Asymmetric Warfare',true)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\241_Planar Transgression.png" id="241_Planar Transgression" data-flag="@X" onclick="openSidebar('241_Planar Transgression',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\245_Stoic Agent.png" id="245_Stoic Agent" data-flag="@X" onclick="openSidebar('245_Stoic Agent',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\HTL-files\img\246_Yuri Belyik, Astralnaut.png" id="246_Yuri Belyik, Astralnaut" data-flag="@X" onclick="openSidebar('246_Yuri Belyik, Astralnaut',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\216_Combat Analyst.png" id="216_Combat Analyst" data-flag="@X" onclick="openSidebar('216_Combat Analyst',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\219_Midnight Dead-Drop.png" id="219_Midnight Dead-Drop" data-flag="@X" onclick="openSidebar('219_Midnight Dead-Drop',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\222_Captured Specimen.png" id="222_Captured Specimen" data-flag="@X" onclick="openSidebar('222_Captured Specimen',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\225_Anomaly Extractor.png" id="225_Anomaly Extractor" data-flag="@X" onclick="openSidebar('225_Anomaly Extractor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\229_Scornful Agent.png" id="229_Scornful Agent" data-flag="@X" onclick="openSidebar('229_Scornful Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\217_Nightbird Prototype.png" id="217_Nightbird Prototype" data-flag="@X" onclick="openSidebar('217_Nightbird Prototype',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\221_Wetwork Specialist.png" id="221_Wetwork Specialist" data-flag="@X" onclick="openSidebar('221_Wetwork Specialist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\224_Spectral Visitation.png" id="224_Spectral Visitation" data-flag="@X" onclick="openSidebar('224_Spectral Visitation',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\227_Warped Witness.png" id="227_Warped Witness" data-flag="@X" onclick="openSidebar('227_Warped Witness',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\230_You Were Never Here.png" id="230_You Were Never Here" data-flag="@X" onclick="openSidebar('230_You Were Never Here',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\231_Cleanup Specialist.png" id="231_Cleanup Specialist" data-flag="@X" onclick="openSidebar('231_Cleanup Specialist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\234_Altered State.png" id="234_Altered State" data-flag="@X" onclick="openSidebar('234_Altered State',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\238_Asset Handler.png" id="238_Asset Handler" data-flag="@X" onclick="openSidebar('238_Asset Handler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\240_Liminal Space.png" id="240_Liminal Space" data-flag="@X" onclick="openSidebar('240_Liminal Space',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\243_Infiltrate the Archives.png" id="243_Infiltrate the Archives" data-flag="@X" onclick="openSidebar('243_Infiltrate the Archives',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\232_Recover the Asset.png" id="232_Recover the Asset" data-flag="@X" onclick="openSidebar('232_Recover the Asset',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\235_Extrasensory Witness.png" id="235_Extrasensory Witness" data-flag="@X" onclick="openSidebar('235_Extrasensory Witness',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\239_Asymmetric Warfare.png" id="239_Asymmetric Warfare" data-flag="@X" onclick="openSidebar('239_Asymmetric Warfare',true)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\241_Planar Transgression.png" id="241_Planar Transgression" data-flag="@X" onclick="openSidebar('241_Planar Transgression',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\245_Stoic Agent.png" id="245_Stoic Agent" data-flag="@X" onclick="openSidebar('245_Stoic Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\HTL-files\img\246_Yuri Belyik, Astralnaut.png" id="246_Yuri Belyik, Astralnaut" data-flag="@X" onclick="openSidebar('246_Yuri Belyik, Astralnaut',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
@@ -425,27 +417,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -457,17 +473,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -500,6 +518,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -509,6 +528,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -531,21 +551,21 @@
 	}
 
 		function randomCard() {
-			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-			let random_card = card_list_arrayified[i];
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
 
-			const url = new URL('card', window.location.origin);
-			const params = {
-				set: random_card.set,
-				num: random_card.number,
-				name: random_card.card_name
-			}
-			for (const key in params) {
-				url.searchParams.append(key, params[key]);
-			}
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
 
-			window.location.href = url;
-		}
+				window.location.href = url;
+			}
 	</script>
 </body>
 </html>
