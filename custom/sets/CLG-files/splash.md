@@ -2,7 +2,7 @@
 
 **<p style="text-align: center;">… It's Gleeb.</p>**
 
-The world of Balb is a thriving, teeming, metro—well, no. Balb is certainly a world, though. And like all worlds it has its people, and like most yoghurts it has its culture. A world of indifferent and, frankly, incompetent gods, Balb is home many faiths and religions giving worship to figures as diverse as the vain and preening Lady Elandra, the barbarian god Korhm—who is certainly bigger than you—or the spooky and altogether kooky spirit of Winterisle. 
+The world of Balb is a thriving, teeming, metro—well, no. Balb is certainly a world, though. And like all worlds it has its people, and like most yoghurts it has its culture. A world of indifferent and, frankly, incompetent gods, Balb is home to many faiths and religions, giving worship to figures as diverse as the vain and preening Lady Elandra, the barbarian god Korhm—who is certainly bigger than you—or the spooky and altogether kooky spirit of Winterisle. 
 
 But our story follows the put-upon Gleeb, greatest (and only) cleric of the ancient cosmic horror Blugu. The time is right; the stars have aligned; his takeaway has just been delivered—the ritual is ready. Only Lord Blugu has declined to respond to the summons of his faithful servant. Scorned, disappointed, and a bit bored, Gleeb now sets out across the world of Balb, eager to find a new faith, a deity who will listen to his prayers and heed his supplications. Join Gleeb as he treks out across a land of strangers, creeps, weirdoes, and the children of lesser gods.
 

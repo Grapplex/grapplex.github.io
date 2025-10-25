@@ -1,0 +1,25 @@
+<img src="https://grapplex.github.io/sets/FSH-files/logo.png" alt="Morstad: City of Shadows" width="300" height="183">
+
+**<p style="text-align: center;">Woe to ye who enter the Cursed City.</p>**
+
+Morstad was once the jewel in the crown of the empire of Ansell. Built centuries ago, in the august reign of the Emperor Priesterlijk, the city represented the empire's growing mercantile wealth. A hub of trade that connected the empire with the far reaches of the plane, all manner of materials, spices, currencies, and people passed through its ports and markets. The mighty river Stir grew old and slow as the city itself grew rich and fat, and few suspected that the age of indulgence would ever end—but the long day would meet its night.
+
+High in the heavens, the stars shifted. One twinkled just a little brighter than the others, lingered into the morning light a little longer than its fellows, grew a little larger with the passing days. Only when the alchemists and seers of the city realised the severity of its changes did the Night Star accelerate—careening with almost living prescience towards Morstad. In a single night the star fell to earth, obliterating much of the city and wiping out most of its inhabitants. 
+
+But this was no ordinary star, and the coming of its fiery impact changed something in the air. A bolt of pure demon-magic, the Night Star shed shards of itself in its wake, cast up clouds of sorcerous dust on its landing. Those who survived the onslaught report miracles wrought by these nightstone pieces—lead transmuting into gold, statues laughing and speaking, the dead breathing once more. Whether or not there is truth to the rumours, the allure of wealth and power has drawn mercenaries and scouts from across the wounded empire to the ruins of the City of Shadows, eager to pick its haunted corpse clean. But they are not alone, for strange things in the ruins have learned to walk that ought to crawl...
+
+**Morstad: City of Shadows** is a draftable premier set using Play Boosters, containing 276 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, 10 basic-rarity dual lands, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of Gnawbone,Skurl Prophet, while all boosters have a chance of containing the Headliner rulebook frame version of Peer into the Nightpit.
+
+###Mechanics
+
+<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/zW7pWd3h/booster.png "FSH booster"/>**Morstad: City of Shadows** features the following mechanic:
+
+**Encounters:** The ruins of the Cursed City are highly contested, with fortune-seekers and mercenaries clashing over precious nightstone and looted gold. Encounter tokens represent these sudden skirmishes—they're colourless Conflict battle tokens with 2 starting defence, which will allow you to draw a card and create a Treasure token upon defeat, representing the spoils looted from your rival scavengers. Encounters can be created through a variety of means—keep an evasive attacker handy to reap the spoils.
+
+**Uncover and Relics:** Morstad's haggard corpse holds many valuable treasures, all ripe for plundering from its mouldering rubble. Uncover is a keyword action that will allow you to make a choice—reveal a Relic artifact from outside the game and put it into your hand, or return any artifact card from your graveyard to your hand. Relics themselves are artifacts with two abilities—one is a trigger that will happen whenever it is uncovered, which can mean either when it is fetched from outside the game or when it is returned from your graveyard; the other is an activated ability which will often require you to sacrifice the Relic. Combine your triggers to keep returning your most precious Relics to play.
+
+**Mumbo jumbo:** Fake it until you make it, so sayeth the bey. As long as the spell sounds magical that's more than enough to work. Spells with mumbo jumbo can have their cost reduced by exiling cards from your graveyard while you cast them. Each card type exiled this way pays for one generic mana of the spell's cost, although each card exiled can only contribute one of its types—put some thought into your multi-type cards to maximise their impact. Mumbo jumbo is the green-blue mechanic.
+
+**Dig:** Whether it be through rubble and ash or through the dirt of the grave, wealth awaits those who dig it out. Dig is a keyword action your creatures may be asked to perform—to dig, exile two cards that share a card type from your graveyard. If you do, the dig effect will specify a token to create to represent what has been dug up—Treasures, Skeletons, perhaps even Fish.
+
+**Explore:** Returning from *Ixalan* and *Rivals of Ixalan*, explore here represents the cautious exploration of the ruins of the Cursed City. When a creature explores, reveal the top card of your library. If it's a land, draw it; if not, choose whether it goes back or into your graveyard, then put a +1/+1 counter on the exploring creature.
