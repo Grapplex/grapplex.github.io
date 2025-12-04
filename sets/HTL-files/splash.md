@@ -8,7 +8,7 @@ The only solution is to shelter their society behind ferrocrete and adamantium a
 
 *Heartland of the Real* is the fourth set in the unfolding saga of the world of St. Cahand, taking place chronologically after *[Project Starlight](https://grapplex.github.io/previews/FBI)* and before *[Experiments of Skand](https://grapplex.github.io/previews/XSK)*. Watch a world hurtle towards its own extinction—watch as the phoenix burns, unsure if it will ever arise again.
 
-*Heartland of the Real* is a draftable premier set using Play Boosters, containing 266 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of [I DUNNO YET, MAN, WORK IN PROGRESS], while boosters have a chance to contain the promotional headliner card, a redacted-foil Yury Belyik, Astralnaut.
+*Heartland of the Real* is a draftable premier set using Play Boosters, containing 266 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of Sickly Gestation, while boosters have a chance to contain the promotional headliner card, a redacted-foil Yury Belyik, Astralnaut.
 
 ###Mechanics
 <img align="left" width="200" height="353" style="margin:10px" src="https://i.ibb.co/v6wSmWg6/booster.png "HTL booster"/>The mechanics of *Heartland of the Real* include:
