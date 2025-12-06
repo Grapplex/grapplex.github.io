@@ -1,4 +1,49 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+Nomad Outpost added.
+Sandsteppe Citadel added.
+Opulent Palace added.
+Frontier Bivouac added.
+Mystic Monastery added.
+
+
+Invoke Faith
+
+Callow Willow
+rules_text: Casualty 2 [i](As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell. The copy enters as a token.)[/i] => Casualty 2 [i](As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell.)[/i]
+
+Gainsay
+
+Ambiguous Amphibuous
+rules_text: Casualty 2 [i](As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell. The copy enters as a token.)[/i]
+When Ambiguous Amphibuous enters the battlefield, exile the top card of your library. Until the end of your next turn, you may play that card. => Casualty 2 [i](As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell.)[/i]
+When Ambiguous Amphibuous enters the battlefield, exile the top card of your library. Until the end of your next turn, you may play that card.
+
+Great Disappointment
+
+Wretched Strike
+rules_text: Wretched Strike deals 4 damage to any target. If excess damage was dealt to a permanent this way, create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i] => Wretched Strike deals 4 damage to any target. If excess damage was dealt to a permanent this way, create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+
+Renewed Focus
+
+Consult the Idol
+rules_text: Casualty 1 [i](As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell.)[/i]
+Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i] => Casualty 1 [i](As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell.)[/i]
+Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+
+Dramatic Entrance
+
+Soul Harvester
+rules_text: Whenever a creature you control dies or whenever one or more creature cards leave your graveyard, create a tapped Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+{T}, Sacrifice another creature: Draw a card. Activate only as a sorcery. => Whenever a creature you control dies or whenever one or more creature cards leave your graveyard, create a tapped Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+{T}, Sacrifice another creature: Draw a card. Activate only as a sorcery.
+
+Selfish Shellfish
+rules_text: When Selfish Shellfish dies, create a tapped Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i] => When Selfish Shellfish dies, create a tapped Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+
+
+VERSION 3 CHANGELOG
 ====================
 
 
