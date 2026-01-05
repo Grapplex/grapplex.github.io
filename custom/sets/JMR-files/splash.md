@@ -1,4 +1,4 @@
-<img src="https://grapplex.github.io/sets/JM-files/logo.png" alt="Jamuraa: The Mirage War" width="462" height="200">
+<img src="https://grapplex.github.io/sets/JMR-files/logo.png" alt="Jamuraa: The Mirage War" width="462" height="200">
 
 **<p style="text-align: center;">A new vision of war.</p>**
 
