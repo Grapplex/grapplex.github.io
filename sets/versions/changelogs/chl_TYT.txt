@@ -1,4 +1,48 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+
+
+Abandoned Deephaven
+rules_text: {T}: Add {C}.
+{T}, Pay {E}: Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i] => {T}: Add {C}.
+{T}, Pay {E}: Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+
+Throne of Naggorash
+rules_text: {1}, {T}: Create a number of tapped Treasure tokens equal to the number of spells you've cast this turn. [i](They're artifacts with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+{W}{U}{B}{R}{G}: Target permament's owner shuffles it into their library. => {1}, {T}: Create a number of tapped Treasure tokens equal to the number of spells you've cast this turn. [i](They're artifacts with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+{W}{U}{B}{R}{G}: Target permament's owner shuffles it into their library.
+
+Overgrown Aegis
+rules_text: {1}{R}, Discard Overgrown Aegis: Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i] => {1}{R}, Discard Overgrown Aegis: Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+
+Hypoxic Reaction
+rules_text: Target creature gets +2/+0 and gains first strike until end of turn.
+Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i] => Target creature gets +2/+0 and gains first strike until end of turn.
+Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+
+Skyside Illuminator
+rules_text: Skyside Illuminator's power and toughness are each equal to the number of artifacts you control.
+Whenever Skyside Illuminator attacks, create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+Crew 2 => Skyside Illuminator's power and toughness are each equal to the number of artifacts you control.
+Whenever Skyside Illuminator attacks, create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+Crew 2
+
+Encroaching Tendril
+rules_text: Trample
+Whenever Encroaching Tendril deals combat damage to a player, return target permanent card from your graveyard to the battlefield if its mana is less than or equal to the damage dealt. => Trample
+Whenever Encroaching Tendril deals combat damage to a player, return target permanent card from your graveyard to the battlefield if its mana value is less than or equal to the damage dealt.
+
+Hadal Splendor
+rules_text: Return target permanent card from your graveyard to your hand. Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i] => Return target permanent card from your graveyard to your hand. Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+
+Attune with the Deep
+rules_text: Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+You get {E}{E} [i](two energy counters)[/i]. => Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i]
+You get {E}{E} [i](two energy counters)[/i].
+
+
+VERSION 4 CHANGELOG
 ====================
 
 TYT Draft Archetypes added.
