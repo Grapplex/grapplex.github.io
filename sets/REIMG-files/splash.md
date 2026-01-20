@@ -6,18 +6,18 @@ The **Reimagined Series** is a collection of Magic: The Gathering sets spread ac
 
 The full range of **Reimagined Series** sets are:
 
-#**The Eternal Ice**: Telling the story of Dominaria's frozen past as seen in *Ice Age*, *Alliances*, and *Coldsnap*.
+**The Eternal Ice**: Telling the story of Dominaria's frozen past as seen in *Ice Age*, *Alliances*, and *Coldsnap*.
 
-#[**Jamuraa: The Mirage War**](https://grapplex.github.io/previews/JMR): A new vision of war. Revisiting *Mirage*, *Visions*, and *Weatherlight*, *Jamuraa: The Mirage War* retells the story of the eponymous conflict as mages and empires vie for control of Dominaria's most coveted treasure.
+[**<p style="color:blue">Jamuraa: The Mirage War</p>**](https://grapplex.github.io/previews/JMR): A new vision of war. Revisiting *Mirage*, *Visions*, and *Weatherlight*, *Jamuraa: The Mirage War* retells the story of the eponymous conflict as mages and empires vie for control of Dominaria's most coveted treasure.
 
-#[**Rath and Storm**](https://grapplex.github.io/previews/90S): There is no storm such as this. Occurring concurrently with the story of *Tempest*, *Stronghold*, and *Exodus*, we return to the world of Rath to follow an assault upon the impenetrable stronghold of the ruthless evincar Volrath.
+[**<p style="color:blue">Rath and Storm</p>**](https://grapplex.github.io/previews/90S): There is no storm such as this. Occurring concurrently with the story of *Tempest*, *Stronghold*, and *Exodus*, we return to the world of Rath to follow an assault upon the impenetrable stronghold of the ruthless evincar Volrath.
 
-#[**Urza's Chronicle**](https://grapplex.github.io/previews/URZ): A legacy generations in the making. Highlighting the block of *Urza's Saga*, *Urza's Legacy*, and *Urza's Destiny*, a collection of historic legends, sagas, and artifacts recount the depth and breadth of Urza's machinations against Phyrexia.
+[**<p style="color:blue">Urza's Chronicle</p>**](https://grapplex.github.io/previews/URZ): A legacy generations in the making. Highlighting the block of *Urza's Saga*, *Urza's Legacy*, and *Urza's Destiny*, a collection of historic legends, sagas, and artifacts recount the depth and breadth of Urza's machinations against Phyrexia.
 
-#**Mercadia: Blood and Gold**: Setting the stage for the world of Mercadia's downfall, *Mercadia: Blood and Gold* recounts the block of *Mercadian Masques*, *Prophecy*, and *Nemesis*.
+**Mercadia: Blood and Gold**: Setting the stage for the world of Mercadia's downfall, *Mercadia: Blood and Gold* recounts the block of *Mercadian Masques*, *Prophecy*, and *Nemesis*.
 
-#[**Overlay**](https://grapplex.github.io/previews/OVR): Worlds collide. A saga ends. Retelling the story of the Phyrexian invasion and Rathi overlay seen in *Invasion*, *Planeshift*, and *Apocalypse*, *Overlay* is a multicolour maelstrom of Dominaria's most ardent defenders.
+[**<p style="color:blue">Overlay</p>**](https://grapplex.github.io/previews/OVR): Worlds collide. A saga ends. Retelling the story of the Phyrexian invasion and Rathi overlay seen in *Invasion*, *Planeshift*, and *Apocalypse*, *Overlay* is a multicolour maelstrom of Dominaria's most ardent defenders.
 
-#**Otaria**: Encapsulating the sets *Odyssey*, *Torment*, and *Judgment*, the post-apocalyptic world of *Otaria* emerges from the scars of the Phyrexian invasion to start afresh—haunted by the wapring spectre of the coveted Mirari.
+**Otaria**: Encapsulating the sets *Odyssey*, *Torment*, and *Judgment*, the post-apocalyptic world of *Otaria* emerges from the scars of the Phyrexian invasion to start afresh—haunted by the wapring spectre of the coveted Mirari.
 
-#**The Madness of Ixidor**: Covering the block of *Onslaught*, *Legions*, and *Scourge*, the pulsating madness of the Mirari has infected Otaria, and the devolving landscape finds itself shaped by the grief and fury of the illusion-mage Ixidor.
+**The Madness of Ixidor**: Covering the block of *Onslaught*, *Legions*, and *Scourge*, the pulsating madness of the Mirari has infected Otaria, and the devolving landscape finds itself shaped by the grief and fury of the illusion-mage Ixidor.
