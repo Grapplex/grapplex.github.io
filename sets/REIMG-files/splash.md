@@ -8,15 +8,15 @@ The **Reimagined Series** is a collection of Magic: The Gathering sets spread ac
 
 **The Eternal Ice**: Telling the story of Dominaria's frozen past as seen in *Ice Age*, *Alliances*, and *Coldsnap*.
 
-[**<font color="#004721">Jamuraa: The Mirage War</font>**](https://grapplex.github.io/previews/JMR): A new vision of war. Revisiting *Mirage*, *Visions*, and *Weatherlight*, *Jamuraa: The Mirage War* retells the story of the eponymous conflict as mages and empires vie for control of Dominaria's most coveted treasure.
+[**<font color="#004628">Jamuraa: The Mirage War</font>**](https://grapplex.github.io/previews/JMR): A new vision of war. Revisiting *Mirage*, *Visions*, and *Weatherlight*, *Jamuraa: The Mirage War* retells the story of the eponymous conflict as mages and empires vie for control of Dominaria's most coveted treasure.
 
-[**<font color="#004721">Rath and Storm</font>**](https://grapplex.github.io/previews/90S): There is no storm such as this. Occurring concurrently with the story of *Tempest*, *Stronghold*, and *Exodus*, we return to the world of Rath to follow an assault upon the impenetrable stronghold of the ruthless evincar Volrath.
+[**<font color="#004628">Rath and Storm</font>**](https://grapplex.github.io/previews/90S): There is no storm such as this. Occurring concurrently with the story of *Tempest*, *Stronghold*, and *Exodus*, we return to the world of Rath to follow an assault upon the impenetrable stronghold of the ruthless evincar Volrath.
 
-[**<font color="#004721">Urza's Chronicle</font>**](https://grapplex.github.io/previews/URZ): A legacy generations in the making. Highlighting the block of *Urza's Saga*, *Urza's Legacy*, and *Urza's Destiny*, a collection of historic legends, sagas, and artifacts recount the depth and breadth of Urza's machinations against Phyrexia.
+[**<font color="#004628">Urza's Chronicle</font>**](https://grapplex.github.io/previews/URZ): A legacy generations in the making. Highlighting the block of *Urza's Saga*, *Urza's Legacy*, and *Urza's Destiny*, a collection of historic legends, sagas, and artifacts recount the depth and breadth of Urza's machinations against Phyrexia.
 
 **Mercadia: Blood and Gold**: Setting the stage for the world of Mercadia's downfall, *Mercadia: Blood and Gold* recounts the block of *Mercadian Masques*, *Prophecy*, and *Nemesis*.
 
-[**<font color="#004721">Overlay</font>**](https://grapplex.github.io/previews/OVR): Worlds collide. A saga ends. Retelling the story of the Phyrexian invasion and Rathi overlay seen in *Invasion*, *Planeshift*, and *Apocalypse*, *Overlay* is a multicolour maelstrom of Dominaria's most ardent defenders.
+[**<font color="#004628">Overlay</font>**](https://grapplex.github.io/previews/OVR): Worlds collide. A saga ends. Retelling the story of the Phyrexian invasion and Rathi overlay seen in *Invasion*, *Planeshift*, and *Apocalypse*, *Overlay* is a multicolour maelstrom of Dominaria's most ardent defenders.
 
 **Otaria**: Encapsulating the sets *Odyssey*, *Torment*, and *Judgment*, the post-apocalyptic world of *Otaria* emerges from the scars of the Phyrexian invasion to start afresh—haunted by the wapring spectre of the coveted Mirari.
 
