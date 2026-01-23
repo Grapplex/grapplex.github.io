@@ -8,7 +8,7 @@ The **Reimagined Series** is a collection of Magic: The Gathering sets spread ac
 
 **The Eternal Ice**: Telling the story of Dominaria's frozen past as seen in *Ice Age*, *Alliances*, and *Coldsnap*.
 
-<img align="right" width="15" height="15" style="margin:2px" src="https://grapplex.github.io/sets/JMR-files/icon.png" alt="JMR"/>[**<font color="#004628">Jamuraa: The Mirage War</font>**](https://grapplex.github.io/previews/JMR): A new vision of war. Revisiting *Mirage*, *Visions*, and *Weatherlight*, *Jamuraa: The Mirage War* retells the story of the eponymous conflict as mages and empires vie for control of Dominaria's most coveted treasure.
+<img align="left" width="25" height="25" src="https://grapplex.github.io/sets/JMR-files/icon.png" alt="JMR"/>[**<font color="#004628">Jamuraa: The Mirage War</font>**](https://grapplex.github.io/previews/JMR): A new vision of war. Revisiting *Mirage*, *Visions*, and *Weatherlight*, *Jamuraa: The Mirage War* retells the story of the eponymous conflict as mages and empires vie for control of Dominaria's most coveted treasure.
 
 [**<font color="#004628">Rath and Storm</font>**](https://grapplex.github.io/previews/90S): There is no storm such as this. Occurring concurrently with the story of *Tempest*, *Stronghold*, and *Exodus*, we return to the world of Rath to follow an assault upon the impenetrable stronghold of the ruthless evincar Volrath.
 
