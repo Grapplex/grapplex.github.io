@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/ARK-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/ARK-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>ARK visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
 		@font-face {
 			font-family: Beleren;
-			src: url('/resources/beleren.ttf');
+			src: url('../resources/beleren.ttf');
 		}
 		body {
 			font-family: Arial, sans-serif;
@@ -45,13 +48,15 @@
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -62,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -82,6 +87,7 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
@@ -102,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -118,7 +125,7 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -174,475 +181,491 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/ARK-files/logo.png" />
-	<img class="preload-hidden" src="/sets/TYT-files/icon.png" />
-		<img class="preload-hidden" src="/sets/QYR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/XCO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SSF-files/icon.png" />
-		<img class="preload-hidden" src="/sets/AKI-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MHQ-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ARK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OPH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/CYO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HVY-files/icon.png" />
-		<img class="preload-hidden" src="/sets/CLG-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OVR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HMW-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TAL-files/icon.png" />
-		<img class="preload-hidden" src="/sets/PFG-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SMK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/FSH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HTL-files/icon.png" />
-		<img class="preload-hidden" src="/sets/JMR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SON-files/icon.png" />
-		<img class="preload-hidden" src="/sets/FYF-files/icon.png" />
-		<img class="preload-hidden" src="/sets/APS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/URZ-files/icon.png" />
-		<img class="preload-hidden" src="/sets/666-files/icon.png" />
-		<img class="preload-hidden" src="/sets/FBI-files/icon.png" />
-		<img class="preload-hidden" src="/sets/GRU-files/icon.png" />
-		<img class="preload-hidden" src="/sets/KSH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SPQ-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
-		<img class="preload-hidden" id="bg" src="/sets/ARK-files/bg.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/ARK-files/logo.png" />
+	<img class="preload-hidden" src="../sets/TYT-files/icon.png" />
+		<img class="preload-hidden" src="../sets/QYR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/XCO-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SSF-files/icon.png" />
+		<img class="preload-hidden" src="../sets/AKI-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MHQ-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ARK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/90S-files/icon.png" />
+		<img class="preload-hidden" src="../sets/OPH-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CYO-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HVY-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CLG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/OVR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HMW-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TAL-files/icon.png" />
+		<img class="preload-hidden" src="../sets/PFG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SMK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/FSH-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HTL-files/icon.png" />
+		<img class="preload-hidden" src="../sets/JMR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SON-files/icon.png" />
+		<img class="preload-hidden" src="../sets/FYF-files/icon.png" />
+		<img class="preload-hidden" src="../sets/APS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/URZ-files/icon.png" />
+		<img class="preload-hidden" src="../sets/666-files/icon.png" />
+		<img class="preload-hidden" src="../sets/FBI-files/icon.png" />
+		<img class="preload-hidden" src="../sets/GRU-files/icon.png" />
+		<img class="preload-hidden" src="../sets/KSH-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SPQ-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TGS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/XSK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ELO-files/icon.png" />
+		<img class="preload-hidden" id="bg" src="../sets/ARK-files/bg.png" />
 
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
 
 	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
-		<a class="set-bar" href="ARK"><img src="/sets/ARK-files/icon.png">Cults of Arkoph</a>
+		<a class="set-bar" href="../previews/ARK"><img src="../sets/ARK-files/icon.png">Cults of Arkoph</a>
 	
-		<a class="set-bar inactive" href="TYT"><img src="/sets/TYT-files/icon.png">Depths of Tytheus</a>
+		<a class="set-bar inactive" href="../previews/TYT"><img src="../sets/TYT-files/icon.png">Depths of Tytheus</a>
 	
-		<a class="set-bar inactive" href="QYR"><img src="/sets/QYR-files/icon.png">Dreams of Quyrash</a>
+		<a class="set-bar inactive" href="../previews/QYR"><img src="../sets/QYR-files/icon.png">Dreams of Quyrash</a>
 	
-		<a class="set-bar inactive" href="XCO"><img src="/sets/XCO-files/icon.png">Skies Over San Xalco</a>
+		<a class="set-bar inactive" href="../previews/XCO"><img src="../sets/XCO-files/icon.png">Skies Over San Xalco</a>
 	
-		<a class="set-bar inactive" href="SSF"><img src="/sets/SSF-files/icon.png">Shamtar: Search for Fire</a>
+		<a class="set-bar inactive" href="../previews/SSF"><img src="../sets/SSF-files/icon.png">Shamtar: Search for Fire</a>
 	
-		<a class="set-bar inactive" href="AKI"><img src="/sets/AKI-files/icon.png">Akaddi: Empire’s End</a>
+		<a class="set-bar inactive" href="../previews/AKI"><img src="../sets/AKI-files/icon.png">Akaddi: Empire’s End</a>
 	
-		<a class="set-bar inactive" href="MHQ"><img src="/sets/MHQ-files/icon.png">Modern Horizons: Triumph of Qirauz</a>
+		<a class="set-bar inactive" href="../previews/MHQ"><img src="../sets/MHQ-files/icon.png">Modern Horizons: Triumph of Qirauz</a>
 	
-		<a class="set-bar inactive" href="90S"><img src="/sets/90S-files/icon.png">Rath and Storm</a>
+		<a class="set-bar inactive" href="../previews/90S"><img src="../sets/90S-files/icon.png">Rath and Storm</a>
 	
-		<a class="set-bar inactive" href="OPH"><img src="/sets/OPH-files/icon.png">Arkoph: Crisis of Faith</a>
+		<a class="set-bar inactive" href="../previews/OPH"><img src="../sets/OPH-files/icon.png">Arkoph: Crisis of Faith</a>
 	
-		<a class="set-bar inactive" href="CYO"><img src="/sets/CYO-files/icon.png">Chronicles of Yor-Om</a>
+		<a class="set-bar inactive" href="../previews/CYO"><img src="../sets/CYO-files/icon.png">Chronicles of Yor-Om</a>
 	
-		<a class="set-bar inactive" href="HVY"><img src="/sets/HVY-files/icon.png">Heavy Thunder</a>
+		<a class="set-bar inactive" href="../previews/HVY"><img src="../sets/HVY-files/icon.png">Heavy Thunder</a>
 	
-		<a class="set-bar inactive" href="CLG"><img src="/sets/CLG-files/icon.png">Children of Lesser Gods</a>
+		<a class="set-bar inactive" href="../previews/CLG"><img src="../sets/CLG-files/icon.png">Children of Lesser Gods</a>
 	
-		<a class="set-bar inactive" href="OVR"><img src="/sets/OVR-files/icon.png">Overlay</a>
+		<a class="set-bar inactive" href="../previews/OVR"><img src="../sets/OVR-files/icon.png">Overlay</a>
 	
-		<a class="set-bar inactive" href="HMW"><img src="/sets/HMW-files/icon.png">Skand: Heavy Metal War</a>
+		<a class="set-bar inactive" href="../previews/HMW"><img src="../sets/HMW-files/icon.png">Skand: Heavy Metal War</a>
 	
-		<a class="set-bar inactive" href="TAL"><img src="/sets/TAL-files/icon.png">Ulaith: Cos Teilo’s Feast</a>
+		<a class="set-bar inactive" href="../previews/TAL"><img src="../sets/TAL-files/icon.png">Ulaith: Cos Teilo’s Feast</a>
 	
-		<a class="set-bar inactive" href="PFG"><img src="/sets/PFG-files/icon.png">Profondo Giallo</a>
+		<a class="set-bar inactive" href="../previews/PFG"><img src="../sets/PFG-files/icon.png">Profondo Giallo</a>
 	
-		<a class="set-bar inactive" href="SMK"><img src="/sets/SMK-files/icon.png">The Big Smoko</a>
+		<a class="set-bar inactive" href="../previews/SMK"><img src="../sets/SMK-files/icon.png">The Big Smoko</a>
 	
-		<a class="set-bar inactive" href="FSH"><img src="/sets/FSH-files/icon.png">Morstad: City of Shadows</a>
+		<a class="set-bar inactive" href="../previews/FSH"><img src="../sets/FSH-files/icon.png">Morstad: City of Shadows</a>
 	
-		<a class="set-bar inactive" href="HTL"><img src="/sets/HTL-files/icon.png">Heartland of the Real</a>
+		<a class="set-bar inactive" href="../previews/HTL"><img src="../sets/HTL-files/icon.png">Heartland of the Real</a>
 	
-		<a class="set-bar inactive" href="JMR"><img src="/sets/JMR-files/icon.png">Jamuraa: The Mirage War</a>
+		<a class="set-bar inactive" href="../previews/JMR"><img src="../sets/JMR-files/icon.png">Jamuraa: The Mirage War</a>
 	
-		<a class="set-bar inactive" href="SON"><img src="/sets/SON-files/icon.png">Return of the Revenge of the Son of the Terrorscope</a>
+		<a class="set-bar inactive" href="../previews/SON"><img src="../sets/SON-files/icon.png">Return of the Revenge of the Son of the Terrorscope</a>
 	
-		<a class="set-bar inactive" href="FYF"><img src="/sets/FYF-files/icon.png">Yor-Om: Find Your Fate</a>
+		<a class="set-bar inactive" href="../previews/FYF"><img src="../sets/FYF-files/icon.png">Yor-Om: Find Your Fate</a>
 	
-		<a class="set-bar inactive" href="APS"><img src="/sets/APS-files/icon.png">The Apostate of Kushab</a>
+		<a class="set-bar inactive" href="../previews/APS"><img src="../sets/APS-files/icon.png">The Apostate of Kushab</a>
 	
-		<a class="set-bar inactive" href="URZ"><img src="/sets/URZ-files/icon.png">Urza’s Chronicle</a>
+		<a class="set-bar inactive" href="../previews/URZ"><img src="../sets/URZ-files/icon.png">Urza’s Chronicle</a>
 	
-		<a class="set-bar inactive" href="666"><img src="/sets/666-files/icon.png">Circles of Bocacius</a>
+		<a class="set-bar inactive" href="../previews/666"><img src="../sets/666-files/icon.png">Circles of Bocacius</a>
 	
-		<a class="set-bar inactive" href="FBI"><img src="/sets/FBI-files/icon.png">Project Starlight</a>
+		<a class="set-bar inactive" href="../previews/FBI"><img src="../sets/FBI-files/icon.png">Project Starlight</a>
 	
-		<a class="set-bar inactive" href="GRU"><img src="/sets/GRU-files/icon.png">Great Raid of Ulaith</a>
+		<a class="set-bar inactive" href="../previews/GRU"><img src="../sets/GRU-files/icon.png">Great Raid of Ulaith</a>
 	
-		<a class="set-bar inactive" href="KSH"><img src="/sets/KSH-files/icon.png">Kushab: Gods’ Blood</a>
+		<a class="set-bar inactive" href="../previews/KSH"><img src="../sets/KSH-files/icon.png">Kushab: Gods’ Blood</a>
 	
-		<a class="set-bar inactive" href="SPQ"><img src="/sets/SPQ-files/icon.png">Avicta: Ave Imperator</a>
+		<a class="set-bar inactive" href="../previews/SPQ"><img src="../sets/SPQ-files/icon.png">Avicta: Ave Imperator</a>
 	
-		<a class="set-bar inactive" href="TGS"><img src="/sets/TGS-files/icon.png">Tales from the Grave in Space</a>
+		<a class="set-bar inactive" href="../previews/TGS"><img src="../sets/TGS-files/icon.png">Tales from the Grave in Space</a>
 	
-		<a class="set-bar inactive" href="XSK"><img src="/sets/XSK-files/icon.png">Experiments of Skand</a>
+		<a class="set-bar inactive" href="../previews/XSK"><img src="../sets/XSK-files/icon.png">Experiments of Skand</a>
 	
-		<a class="set-bar inactive" href="ELO"><img src="/sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
+		<a class="set-bar inactive" href="../previews/ELO"><img src="../sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
 	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/ARK-files/logo.png">
+		<img class="logo" src="../sets/ARK-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\1_Hidden Heretic.png" id="1_Hidden Heretic" data-flag="@X" onclick="openSidebar('1_Hidden Heretic',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\30_Speak No Evil.png" id="30_Speak No Evil" data-flag="@X" onclick="openSidebar('30_Speak No Evil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\46_Forbidden Ritual.png" id="46_Forbidden Ritual" data-flag="@X" onclick="openSidebar('46_Forbidden Ritual',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\90_Pilgrimage of Sin.png" id="90_Pilgrimage of Sin" data-flag="@X" onclick="openSidebar('90_Pilgrimage of Sin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\106_Fall from Grace.png" id="106_Fall from Grace" data-flag="@X" onclick="openSidebar('106_Fall from Grace',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\142_Crawling Canopy.png" id="142_Crawling Canopy" data-flag="@X" onclick="openSidebar('142_Crawling Canopy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\5_Crisis of Faith.png" id="5_Crisis of Faith" data-flag="@X" onclick="openSidebar('5_Crisis of Faith',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\35_Alchemical Lore.png" id="35_Alchemical Lore" data-flag="@X" onclick="openSidebar('35_Alchemical Lore',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\72_Carrion Gorger.png" id="72_Carrion Gorger" data-flag="@X" onclick="openSidebar('72_Carrion Gorger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\101_Barsil, Learned Heretic.png" id="101_Barsil, Learned Heretic" data-flag="@X" onclick="openSidebar('101_Barsil, Learned Heretic',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\134_Beyond the North Winds.png" id="134_Beyond the North Winds" data-flag="@X" onclick="openSidebar('134_Beyond the North Winds',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\7_Gensis, Witchfinder General.png" id="7_Gensis, Witchfinder General" data-flag="@X" onclick="openSidebar('7_Gensis, Witchfinder General',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\39_Cryptic Grotesque.png" id="39_Cryptic Grotesque" data-flag="@X" onclick="openSidebar('39_Cryptic Grotesque',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\73_Cilebios, Arch-Cantor.png" id="73_Cilebios, Arch-Cantor" data-flag="@X" onclick="openSidebar('73_Cilebios, Arch-Cantor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\103_Catechismal Lore.png" id="103_Catechismal Lore" data-flag="@X" onclick="openSidebar('103_Catechismal Lore',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\140_Cino of the Gallow's Fen.png" id="140_Cino of the Gallows Fen" data-flag="@X" onclick="openSidebar('140_Cino of the Gallows Fen',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\11_Heretical Lore.png" id="11_Heretical Lore" data-flag="@X" onclick="openSidebar('11_Heretical Lore',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\42_Divinity through Blood.png" id="42_Divinity through Blood" data-flag="@X" onclick="openSidebar('42_Divinity through Blood',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\74_Collector of Curiosities.png" id="74_Collector of Curiosities" data-flag="@X" onclick="openSidebar('74_Collector of Curiosities',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\104_Cult Uprising.png" id="104_Cult Uprising" data-flag="@X" onclick="openSidebar('104_Cult Uprising',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\141_Comical Lore.png" id="141_Comical Lore" data-flag="@X" onclick="openSidebar('141_Comical Lore',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\16_Keeper of Liturgy.png" id="16_Keeper of Liturgy" data-flag="@X" onclick="openSidebar('16_Keeper of Liturgy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\49_Harvest Effigy.png" id="49_Harvest Effigy" data-flag="@X" onclick="openSidebar('49_Harvest Effigy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\77_Death Cult.png" id="77_Death Cult" data-flag="@X" onclick="openSidebar('77_Death Cult',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\105_Divinity through Fire.png" id="105_Divinity through Fire" data-flag="@X" onclick="openSidebar('105_Divinity through Fire',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\143_Cult Apprentice.png" id="143_Cult Apprentice" data-flag="@X" onclick="openSidebar('143_Cult Apprentice',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\19_Myth of Akhillos.png" id="19_Myth of Akhillos" data-flag="@X" onclick="openSidebar('19_Myth of Akhillos',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\50_The Holy Fools.png" id="50_The Holy Fools" data-flag="@X" onclick="openSidebar('50_The Holy Fools',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\78_Diabolic Intent.png" id="78_Diabolic Intent" data-flag="@X" onclick="openSidebar('78_Diabolic Intent',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\117_Midnight Rite.png" id="117_Midnight Rite" data-flag="@X" onclick="openSidebar('117_Midnight Rite',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\146_Erythrogoyf.png" id="146_Erythrogoyf" data-flag="@X" onclick="openSidebar('146_Erythrogoyf',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\23_Profane Penitent.png" id="23_Profane Penitent" data-flag="@X" onclick="openSidebar('23_Profane Penitent',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\53_Legacy of Mutation.png" id="53_Legacy of Mutation" data-flag="@X" onclick="openSidebar('53_Legacy of Mutation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\91_Primal Lore.png" id="91_Primal Lore" data-flag="@X" onclick="openSidebar('91_Primal Lore',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\128_Scion of Akhillos.png" id="128_Scion of Akhillos" data-flag="@X" onclick="openSidebar('128_Scion of Akhillos',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\161_Unspeakable Progeny.png" id="161_Unspeakable Progeny" data-flag="@X" onclick="openSidebar('161_Unspeakable Progeny',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\24_Prowling Childcatcher.png" id="24_Prowling Childcatcher" data-flag="@X" onclick="openSidebar('24_Prowling Childcatcher',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\62_Stolen Apocrypha.png" id="62_Stolen Apocrypha" data-flag="@X" onclick="openSidebar('62_Stolen Apocrypha',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\97_Weepwood Sovereign.png" id="97_Weepwood Sovereign" data-flag="@X" onclick="openSidebar('97_Weepwood Sovereign',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\130_Suffer Not the Witch.png" id="130_Suffer Not the Witch" data-flag="@X" onclick="openSidebar('130_Suffer Not the Witch',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\163_Weepwood Flow.png" id="163_Weepwood Flow" data-flag="@X" onclick="openSidebar('163_Weepwood Flow',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\2_Ardent Blacksmith.png" id="2_Ardent Blacksmith" data-flag="@X" onclick="openSidebar('2_Ardent Blacksmith',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\37_Cacophonous Fool.png" id="37_Cacophonous Fool" data-flag="@X" onclick="openSidebar('37_Cacophonous Fool',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\70_Blasted Desolation.png" id="70_Blasted Desolation" data-flag="@X" onclick="openSidebar('70_Blasted Desolation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\108_Firebrand Orator.png" id="108_Firebrand Orator" data-flag="@X" onclick="openSidebar('108_Firebrand Orator',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\135_Bleating Blasphemy.png" id="135_Bleating Blasphemy" data-flag="@X" onclick="openSidebar('135_Bleating Blasphemy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\4_Cleave to Faith.png" id="4_Cleave to Faith" data-flag="@X" onclick="openSidebar('4_Cleave to Faith',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\43_Eldritch Engraving.png" id="43_Eldritch Engraving" data-flag="@X" onclick="openSidebar('43_Eldritch Engraving',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\76_Corrupting Smog.png" id="76_Corrupting Smog" data-flag="@X" onclick="openSidebar('76_Corrupting Smog',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\113_Into the Coven.png" id="113_Into the Coven" data-flag="@X" onclick="openSidebar('113_Into the Coven',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\138_Carnival Procession.png" id="138_Carnival Procession" data-flag="@X" onclick="openSidebar('138_Carnival Procession',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\10_Harsh Inquistior.png" id="10_Harsh Inquistior" data-flag="@X" onclick="openSidebar('10_Harsh Inquistior',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\45_Fooling Around.png" id="45_Fooling Around" data-flag="@X" onclick="openSidebar('45_Fooling Around',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\79_Eldritch Moon.png" id="79_Eldritch Moon" data-flag="@X" onclick="openSidebar('79_Eldritch Moon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\114_Lonely Fisherman.png" id="114_Lonely Fisherman" data-flag="@X" onclick="openSidebar('114_Lonely Fisherman',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\145_Dour Fisherman.png" id="145_Dour Fisherman" data-flag="@X" onclick="openSidebar('145_Dour Fisherman',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\13_Inquisitor's Carriage.png" id="13_Inquisitors Carriage" data-flag="@X" onclick="openSidebar('13_Inquisitors Carriage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\47_Frantic Musician.png" id="47_Frantic Musician" data-flag="@X" onclick="openSidebar('47_Frantic Musician',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\81_False Pontiff.png" id="81_False Pontiff" data-flag="@X" onclick="openSidebar('81_False Pontiff',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\116_Merciless Purge.png" id="116_Merciless Purge" data-flag="@X" onclick="openSidebar('116_Merciless Purge',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\147_Fervent Blacksmith.png" id="147_Fervent Blacksmith" data-flag="@X" onclick="openSidebar('147_Fervent Blacksmith',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\15_Keen-Eyed Merchant.png" id="15_Keen-Eyed Merchant" data-flag="@X" onclick="openSidebar('15_Keen-Eyed Merchant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\54_Mask of Geesh.png" id="54_Mask of Geesh" data-flag="@X" onclick="openSidebar('54_Mask of Geesh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\84_Gregarious Butcher.png" id="84_Gregarious Butcher" data-flag="@X" onclick="openSidebar('84_Gregarious Butcher',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\118_Mystic Invocation.png" id="118_Mystic Invocation" data-flag="@X" onclick="openSidebar('118_Mystic Invocation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\150_Grinning Ringleader.png" id="150_Grinning Ringleader" data-flag="@X" onclick="openSidebar('150_Grinning Ringleader',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\17_Living Saint.png" id="17_Living Saint" data-flag="@X" onclick="openSidebar('17_Living Saint',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\56_Midnight Screecher.png" id="56_Midnight Screecher" data-flag="@X" onclick="openSidebar('56_Midnight Screecher',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\85_The Horror Beyond.png" id="85_The Horror Beyond" data-flag="@X" onclick="openSidebar('85_The Horror Beyond',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\119_Ominous Butcher.png" id="119_Ominous Butcher" data-flag="@X" onclick="openSidebar('119_Ominous Butcher',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\152_Heretic's Amulet.png" id="152_Heretics Amulet" data-flag="@X" onclick="openSidebar('152_Heretics Amulet',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\21_Novice Witchfinder.png" id="21_Novice Witchfinder" data-flag="@X" onclick="openSidebar('21_Novice Witchfinder',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\57_Rousing Innkeeper.png" id="57_Rousing Innkeeper" data-flag="@X" onclick="openSidebar('57_Rousing Innkeeper',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\86_Isolated Woodsman.png" id="86_Isolated Woodsman" data-flag="@X" onclick="openSidebar('86_Isolated Woodsman',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\123_Persecuted Penitant.png" id="123_Persecuted Penitant" data-flag="@X" onclick="openSidebar('123_Persecuted Penitant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\154_Lord of Savages.png" id="154_Lord of Savages" data-flag="@X" onclick="openSidebar('154_Lord of Savages',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\22_Offering to Divinity.png" id="22_Offering to Divinity" data-flag="@X" onclick="openSidebar('22_Offering to Divinity',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\58_Serene Speculation.png" id="58_Serene Speculation" data-flag="@X" onclick="openSidebar('58_Serene Speculation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\88_Moon-Blotter Nightwing.png" id="88_Moon-Blotter Nightwing" data-flag="@X" onclick="openSidebar('88_Moon-Blotter Nightwing',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\124_Praise the Shifting Flame.png" id="124_Praise the Shifting Flame" data-flag="@X" onclick="openSidebar('124_Praise the Shifting Flame',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\156_Mischievous Masque.png" id="156_Mischievous Masque" data-flag="@X" onclick="openSidebar('156_Mischievous Masque',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\27_Righteous Zeal.png" id="27_Righteous Zeal" data-flag="@X" onclick="openSidebar('27_Righteous Zeal',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\59_Sharp-Tongued Merchant.png" id="59_Sharp-Tongued Merchant" data-flag="@X" onclick="openSidebar('59_Sharp-Tongued Merchant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\92_Shadow of the Crypt.png" id="92_Shadow of the Crypt" data-flag="@X" onclick="openSidebar('92_Shadow of the Crypt',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\125_Ritualist of Vo'Radh.png" id="125_Ritualist of VoRadh" data-flag="@X" onclick="openSidebar('125_Ritualist of VoRadh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\157_Roar of Strength.png" id="157_Roar of Strength" data-flag="@X" onclick="openSidebar('157_Roar of Strength',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\31_Veneration of Relics.png" id="31_Veneration of Relics" data-flag="@X" onclick="openSidebar('31_Veneration of Relics',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\60_Shibboleth Amulet.png" id="60_Shibboleth Amulet" data-flag="@X" onclick="openSidebar('60_Shibboleth Amulet',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\93_Strict Innkeeper.png" id="93_Strict Innkeeper" data-flag="@X" onclick="openSidebar('93_Strict Innkeeper',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\127_Scholar of Secrets.png" id="127_Scholar of Secrets" data-flag="@X" onclick="openSidebar('127_Scholar of Secrets',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\158_Sail into Despair.png" id="158_Sail into Despair" data-flag="@X" onclick="openSidebar('158_Sail into Despair',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\33_Weeping Martyr.png" id="33_Weeping Martyr" data-flag="@X" onclick="openSidebar('33_Weeping Martyr',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\64_Trickster of Geesh.png" id="64_Trickster of Geesh" data-flag="@X" onclick="openSidebar('64_Trickster of Geesh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\94_Sullen Synod.png" id="94_Sullen Synod" data-flag="@X" onclick="openSidebar('94_Sullen Synod',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\129_Scourge the Soul.png" id="129_Scourge the Soul" data-flag="@X" onclick="openSidebar('129_Scourge the Soul',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\159_Sift through the Bones.png" id="159_Sift through the Bones" data-flag="@X" onclick="openSidebar('159_Sift through the Bones',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\34_Worm-Tongue Pontiff.png" id="34_Worm-Tongue Pontiff" data-flag="@X" onclick="openSidebar('34_Worm-Tongue Pontiff',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\67_Witch's Sabbath.png" id="67_Witchs Sabbath" data-flag="@X" onclick="openSidebar('67_Witchs Sabbath',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\100_Yog's Scorn.png" id="100_Yogs Scorn" data-flag="@X" onclick="openSidebar('100_Yogs Scorn',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\132_Witchfinder's Scorn.png" id="132_Witchfinders Scorn" data-flag="@X" onclick="openSidebar('132_Witchfinders Scorn',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\160_Tincture Peddler.png" id="160_Tincture Peddler" data-flag="@X" onclick="openSidebar('160_Tincture Peddler',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\3_Backwater Farmhand.png" id="3_Backwater Farmhand" data-flag="@X" onclick="openSidebar('3_Backwater Farmhand',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\36_Brooding Coven.png" id="36_Brooding Coven" data-flag="@X" onclick="openSidebar('36_Brooding Coven',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\68_Architect of Fear.png" id="68_Architect of Fear" data-flag="@X" onclick="openSidebar('68_Architect of Fear',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\102_Bolt of Vo'Radh.png" id="102_Bolt of VoRadh" data-flag="@X" onclick="openSidebar('102_Bolt of VoRadh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\136_Blessing of Change.png" id="136_Blessing of Change" data-flag="@X" onclick="openSidebar('136_Blessing of Change',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\6_Faithwing Apprentice.png" id="6_Faithwing Apprentice" data-flag="@X" onclick="openSidebar('6_Faithwing Apprentice',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\38_Covetous Whispers.png" id="38_Covetous Whispers" data-flag="@X" onclick="openSidebar('38_Covetous Whispers',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\69_Blasphemous Howl.png" id="69_Blasphemous Howl" data-flag="@X" onclick="openSidebar('69_Blasphemous Howl',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\107_Fireband Inquisitor.png" id="107_Fireband Inquisitor" data-flag="@X" onclick="openSidebar('107_Fireband Inquisitor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\137_Braying Outcast.png" id="137_Braying Outcast" data-flag="@X" onclick="openSidebar('137_Braying Outcast',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\8_Gevangis Nightwatch.png" id="8_Gevangis Nightwatch" data-flag="@X" onclick="openSidebar('8_Gevangis Nightwatch',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\40_Curious Specimen.png" id="40_Curious Specimen" data-flag="@X" onclick="openSidebar('40_Curious Specimen',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\71_By the Light of the Moon.png" id="71_By the Light of the Moon" data-flag="@X" onclick="openSidebar('71_By the Light of the Moon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\109_Forged in Faith.png" id="109_Forged in Faith" data-flag="@X" onclick="openSidebar('109_Forged in Faith',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\139_Carrion Gnawer.png" id="139_Carrion Gnawer" data-flag="@X" onclick="openSidebar('139_Carrion Gnawer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\9_Hallowed Raptor.png" id="9_Hallowed Raptor" data-flag="@X" onclick="openSidebar('9_Hallowed Raptor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\41_Disciple of Vo'Radh.png" id="41_Disciple of VoRadh" data-flag="@X" onclick="openSidebar('41_Disciple of VoRadh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\75_Consult the Sigils.png" id="75_Consult the Sigils" data-flag="@X" onclick="openSidebar('75_Consult the Sigils',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\110_Gathering of Witches.png" id="110_Gathering of Witches" data-flag="@X" onclick="openSidebar('110_Gathering of Witches',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\144_The Danse Macabre.png" id="144_The Danse Macabre" data-flag="@X" onclick="openSidebar('144_The Danse Macabre',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\12_Holy Feast.png" id="12_Holy Feast" data-flag="@X" onclick="openSidebar('12_Holy Feast',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\44_Ethereal Chains.png" id="44_Ethereal Chains" data-flag="@X" onclick="openSidebar('44_Ethereal Chains',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\80_Evangel of Corvash.png" id="80_Evangel of Corvash" data-flag="@X" onclick="openSidebar('80_Evangel of Corvash',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\111_Gnarled Acolyte.png" id="111_Gnarled Acolyte" data-flag="@X" onclick="openSidebar('111_Gnarled Acolyte',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\148_Gift of Corvash.png" id="148_Gift of Corvash" data-flag="@X" onclick="openSidebar('148_Gift of Corvash',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\14_Itinerant Cultist.png" id="14_Itinerant Cultist" data-flag="@X" onclick="openSidebar('14_Itinerant Cultist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\48_Frantic Scrawl.png" id="48_Frantic Scrawl" data-flag="@X" onclick="openSidebar('48_Frantic Scrawl',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\82_Far from Pious Eyes.png" id="82_Far from Pious Eyes" data-flag="@X" onclick="openSidebar('82_Far from Pious Eyes',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\112_Hearth Crawler.png" id="112_Hearth Crawler" data-flag="@X" onclick="openSidebar('112_Hearth Crawler',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\149_Gnarled Outcast.png" id="149_Gnarled Outcast" data-flag="@X" onclick="openSidebar('149_Gnarled Outcast',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\18_Martyr's Hymn.png" id="18_Martyrs Hymn" data-flag="@X" onclick="openSidebar('18_Martyrs Hymn',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\51_Killing Joke.png" id="51_Killing Joke" data-flag="@X" onclick="openSidebar('51_Killing Joke',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\83_The Fear in the Woods.png" id="83_The Fear in the Woods" data-flag="@X" onclick="openSidebar('83_The Fear in the Woods',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\115_March of the Flagellants.png" id="115_March of the Flagellants" data-flag="@X" onclick="openSidebar('115_March of the Flagellants',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\151_Heretic Harlequin.png" id="151_Heretic Harlequin" data-flag="@X" onclick="openSidebar('151_Heretic Harlequin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\20_Nightwing Hunter.png" id="20_Nightwing Hunter" data-flag="@X" onclick="openSidebar('20_Nightwing Hunter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\52_Leering Jester.png" id="52_Leering Jester" data-flag="@X" onclick="openSidebar('52_Leering Jester',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\87_Knee Deep in the Dead.png" id="87_Knee Deep in the Dead" data-flag="@X" onclick="openSidebar('87_Knee Deep in the Dead',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\120_Ominous Sorcerer.png" id="120_Ominous Sorcerer" data-flag="@X" onclick="openSidebar('120_Ominous Sorcerer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\153_Icon of Sin.png" id="153_Icon of Sin" data-flag="@X" onclick="openSidebar('153_Icon of Sin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\25_Purge Superstition.png" id="25_Purge Superstition" data-flag="@X" onclick="openSidebar('25_Purge Superstition',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\55_Midnight Haunter.png" id="55_Midnight Haunter" data-flag="@X" onclick="openSidebar('55_Midnight Haunter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\89_Morgue Prowler.png" id="89_Morgue Prowler" data-flag="@X" onclick="openSidebar('89_Morgue Prowler',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\121_Outrider of the Eagle.png" id="121_Outrider of the Eagle" data-flag="@X" onclick="openSidebar('121_Outrider of the Eagle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\155_Might of the Weepwood.png" id="155_Might of the Weepwood" data-flag="@X" onclick="openSidebar('155_Might of the Weepwood',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\26_Rats in the Walls.png" id="26_Rats in the Walls" data-flag="@X" onclick="openSidebar('26_Rats in the Walls',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\61_Sinister Summoner.png" id="61_Sinister Summoner" data-flag="@X" onclick="openSidebar('61_Sinister Summoner',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\95_Thy Flesh Consumed.png" id="95_Thy Flesh Consumed" data-flag="@X" onclick="openSidebar('95_Thy Flesh Consumed',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\122_Paranoid Fear.png" id="122_Paranoid Fear" data-flag="@X" onclick="openSidebar('122_Paranoid Fear',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\162_Vaulting Acrobat.png" id="162_Vaulting Acrobat" data-flag="@X" onclick="openSidebar('162_Vaulting Acrobat',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\28_Sainted Eagle.png" id="28_Sainted Eagle" data-flag="@X" onclick="openSidebar('28_Sainted Eagle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\63_Thirst for Mirth.png" id="63_Thirst for Mirth" data-flag="@X" onclick="openSidebar('63_Thirst for Mirth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\96_Weepwood Offering.png" id="96_Weepwood Offering" data-flag="@X" onclick="openSidebar('96_Weepwood Offering',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\126_Sacred Censer.png" id="126_Sacred Censer" data-flag="@X" onclick="openSidebar('126_Sacred Censer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\164_Weepwood's Clutches.png" id="164_Weepwoods Clutches" data-flag="@X" onclick="openSidebar('164_Weepwoods Clutches',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\29_Solemn Deacon.png" id="29_Solemn Deacon" data-flag="@X" onclick="openSidebar('29_Solemn Deacon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\65_What Happens in Secret.png" id="65_What Happens in Secret" data-flag="@X" onclick="openSidebar('65_What Happens in Secret',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\98_Withered Oracle.png" id="98_Withered Oracle" data-flag="@X" onclick="openSidebar('98_Withered Oracle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\131_Weepwood Hunger.png" id="131_Weepwood Hunger" data-flag="@X" onclick="openSidebar('131_Weepwood Hunger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\165_Whispered Warning.png" id="165_Whispered Warning" data-flag="@X" onclick="openSidebar('165_Whispered Warning',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\32_Votive Offering.png" id="32_Votive Offering" data-flag="@X" onclick="openSidebar('32_Votive Offering',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\66_Witching Hour.png" id="66_Witching Hour" data-flag="@X" onclick="openSidebar('66_Witching Hour',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\99_Yog's Flagellant.png" id="99_Yogs Flagellant" data-flag="@X" onclick="openSidebar('99_Yogs Flagellant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\133_Zealous Witchfinder.png" id="133_Zealous Witchfinder" data-flag="@X" onclick="openSidebar('133_Zealous Witchfinder',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\166_Wretched Mendicant.png" id="166_Wretched Mendicant" data-flag="@X" onclick="openSidebar('166_Wretched Mendicant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\173_Procession of Souls.png" id="173_Procession of Souls" data-flag="@X" onclick="openSidebar('173_Procession of Souls',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\192_The Black Goat of Weepwood.png" id="192_The Black Goat of Weepwood" data-flag="@X" onclick="openSidebar('192_The Black Goat of Weepwood',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\217_Carnival of Chaos.png" id="217_Carnival of Chaos" data-flag="@X" onclick="openSidebar('217_Carnival of Chaos',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\184_Kristana, the Blood Gyre.png" id="184_Kristana, the Blood Gyre" data-flag="@X" onclick="openSidebar('184_Kristana, the Blood Gyre',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\204_Cardinal Sin.png" id="204_Cardinal Sin" data-flag="@X" onclick="openSidebar('204_Cardinal Sin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\174_Saint Goustun the Fair.png" id="174_Saint Goustun the Fair" data-flag="@X" onclick="openSidebar('174_Saint Goustun the Fair',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\196_Lord of the Woods.png" id="196_Lord of the Woods" data-flag="@X" onclick="openSidebar('196_Lord of the Woods',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\221_Delowe, Jester of Geesh.png" id="221_Delowe, Jester of Geesh" data-flag="@X" onclick="openSidebar('221_Delowe, Jester of Geesh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\190_Wrack the Mind.png" id="190_Wrack the Mind" data-flag="@X" onclick="openSidebar('190_Wrack the Mind',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\214_Theonomarch Zofiya Cek.png" id="214_Theonomarch Zofiya Cek" data-flag="@X" onclick="openSidebar('214_Theonomarch Zofiya Cek',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\168_Confluence of Yog.png" id="168_Confluence of Yog" data-flag="@X" onclick="openSidebar('168_Confluence of Yog',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\193_Confluence of Corvash.png" id="193_Confluence of Corvash" data-flag="@X" onclick="openSidebar('193_Confluence of Corvash',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\218_Change and Be Merry.png" id="218_Change and Be Merry" data-flag="@X" onclick="openSidebar('218_Change and Be Merry',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\180_Confluence of Vo'Radh.png" id="180_Confluence of VoRadh" data-flag="@X" onclick="openSidebar('180_Confluence of VoRadh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\205_The Coming of the Eagle.png" id="205_The Coming of the Eagle" data-flag="@X" onclick="openSidebar('205_The Coming of the Eagle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\175_Savage Sacrament.png" id="175_Savage Sacrament" data-flag="@X" onclick="openSidebar('175_Savage Sacrament',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\199_Shrine of Inner Shadows.png" id="199_Shrine of Inner Shadows" data-flag="@X" onclick="openSidebar('199_Shrine of Inner Shadows',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\219_Confluence of Geesh.png" id="219_Confluence of Geesh" data-flag="@X" onclick="openSidebar('219_Confluence of Geesh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\186_Shrine of Shifting Flame.png" id="186_Shrine of Shifting Flame" data-flag="@X" onclick="openSidebar('186_Shrine of Shifting Flame',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\206_Confluence of Akhillos.png" id="206_Confluence of Akhillos" data-flag="@X" onclick="openSidebar('206_Confluence of Akhillos',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\177_Shrine of Hushed Prayer.png" id="177_Shrine of Hushed Prayer" data-flag="@X" onclick="openSidebar('177_Shrine of Hushed Prayer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\200_Teachings of Corvash.png" id="200_Teachings of Corvash" data-flag="@X" onclick="openSidebar('200_Teachings of Corvash',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\225_Shrine of Boundless Mirth.png" id="225_Shrine of Boundless Mirth" data-flag="@X" onclick="openSidebar('225_Shrine of Boundless Mirth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\188_Summoned Shapestealer.png" id="188_Summoned Shapestealer" data-flag="@X" onclick="openSidebar('188_Summoned Shapestealer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\213_Shrine of Martyred Blood.png" id="213_Shrine of Martyred Blood" data-flag="@X" onclick="openSidebar('213_Shrine of Martyred Blood',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\171_Hallowdark Borderpost.png" id="171_Hallowdark Borderpost" data-flag="@X" onclick="openSidebar('171_Hallowdark Borderpost',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\191_Avram Von, Hellseeker.png" id="191_Avram Von, Hellseeker" data-flag="@X" onclick="openSidebar('191_Avram Von, Hellseeker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\222_Ghiacci, the Great Joker.png" id="222_Ghiacci, the Great Joker" data-flag="@X" onclick="openSidebar('222_Ghiacci, the Great Joker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\183_Gore Omen.png" id="183_Gore Omen" data-flag="@X" onclick="openSidebar('183_Gore Omen',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\208_Fiercehallow Borderpost.png" id="208_Fiercehallow Borderpost" data-flag="@X" onclick="openSidebar('208_Fiercehallow Borderpost',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\172_Iskanter, Blighted Bishop.png" id="172_Iskanter, Blighted Bishop" data-flag="@X" onclick="openSidebar('172_Iskanter, Blighted Bishop',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\194_Darkrot Borderpost.png" id="194_Darkrot Borderpost" data-flag="@X" onclick="openSidebar('194_Darkrot Borderpost',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\224_Rotwater Borderpost.png" id="224_Rotwater Borderpost" data-flag="@X" onclick="openSidebar('224_Rotwater Borderpost',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\187_The Stolen Shape.png" id="187_The Stolen Shape" data-flag="@X" onclick="openSidebar('187_The Stolen Shape',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\210_Hand of the Eagle.png" id="210_Hand of the Eagle" data-flag="@X" onclick="openSidebar('210_Hand of the Eagle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\178_Solemn Heresiarch.png" id="178_Solemn Heresiarch" data-flag="@X" onclick="openSidebar('178_Solemn Heresiarch',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\197_Lurking Witch.png" id="197_Lurking Witch" data-flag="@X" onclick="openSidebar('197_Lurking Witch',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\226_Soul of Wit.png" id="226_Soul of Wit" data-flag="@X" onclick="openSidebar('226_Soul of Wit',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\189_Waterfierce Borderpost.png" id="189_Waterfierce Borderpost" data-flag="@X" onclick="openSidebar('189_Waterfierce Borderpost',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\212_Metropolite Dmitry XII.png" id="212_Metropolite Dmitry XII" data-flag="@X" onclick="openSidebar('212_Metropolite Dmitry XII',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\170_Folk Ritual.png" id="170_Folk Ritual" data-flag="@X" onclick="openSidebar('170_Folk Ritual',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\195_Forbidden Goliath.png" id="195_Forbidden Goliath" data-flag="@X" onclick="openSidebar('195_Forbidden Goliath',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\215_Blessing of Geesh.png" id="215_Blessing of Geesh" data-flag="@X" onclick="openSidebar('215_Blessing of Geesh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\181_Disciple of Blood.png" id="181_Disciple of Blood" data-flag="@X" onclick="openSidebar('181_Disciple of Blood',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\203_Blood and Thunder.png" id="203_Blood and Thunder" data-flag="@X" onclick="openSidebar('203_Blood and Thunder',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\176_Shambling Sanctuary.png" id="176_Shambling Sanctuary" data-flag="@X" onclick="openSidebar('176_Shambling Sanctuary',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\198_Ritual of the Woods.png" id="198_Ritual of the Woods" data-flag="@X" onclick="openSidebar('198_Ritual of the Woods',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\223_Mischievous Troupe.png" id="223_Mischievous Troupe" data-flag="@X" onclick="openSidebar('223_Mischievous Troupe',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\185_Obsessive Alchemist.png" id="185_Obsessive Alchemist" data-flag="@X" onclick="openSidebar('185_Obsessive Alchemist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\211_Impulsive Inquisitor.png" id="211_Impulsive Inquisitor" data-flag="@X" onclick="openSidebar('211_Impulsive Inquisitor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\227_Creation Myth.png" id="227_Creation Myth" data-flag="@X" onclick="openSidebar('227_Creation Myth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\ARK-files\img\1_Hidden Heretic.png" id="ARK_1_Hidden Heretic" data-flag="@X" onclick="openSidebar('ARK_1_Hidden Heretic',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ARK_e" data-flag="@E" onclick="openSidebar('ARK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ARK_e" data-flag="@E" onclick="openSidebar('ARK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ARK_e" data-flag="@E" onclick="openSidebar('ARK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ARK_e" data-flag="@E" onclick="openSidebar('ARK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\30_Speak No Evil.png" id="ARK_30_Speak No Evil" data-flag="@X" onclick="openSidebar('ARK_30_Speak No Evil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\46_Forbidden Ritual.png" id="ARK_46_Forbidden Ritual" data-flag="@X" onclick="openSidebar('ARK_46_Forbidden Ritual',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\90_Pilgrimage of Sin.png" id="ARK_90_Pilgrimage of Sin" data-flag="@X" onclick="openSidebar('ARK_90_Pilgrimage of Sin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\106_Fall from Grace.png" id="ARK_106_Fall from Grace" data-flag="@X" onclick="openSidebar('ARK_106_Fall from Grace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\142_Crawling Canopy.png" id="ARK_142_Crawling Canopy" data-flag="@X" onclick="openSidebar('ARK_142_Crawling Canopy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\5_Crisis of Faith.png" id="ARK_5_Crisis of Faith" data-flag="@X" onclick="openSidebar('ARK_5_Crisis of Faith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\35_Alchemical Lore.png" id="ARK_35_Alchemical Lore" data-flag="@X" onclick="openSidebar('ARK_35_Alchemical Lore',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\72_Carrion Gorger.png" id="ARK_72_Carrion Gorger" data-flag="@X" onclick="openSidebar('ARK_72_Carrion Gorger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\101_Barsil, Learned Heretic.png" id="ARK_101_Barsil, Learned Heretic" data-flag="@X" onclick="openSidebar('ARK_101_Barsil, Learned Heretic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\134_Beyond the North Winds.png" id="ARK_134_Beyond the North Winds" data-flag="@X" onclick="openSidebar('ARK_134_Beyond the North Winds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\7_Gensis, Witchfinder General.png" id="ARK_7_Gensis, Witchfinder General" data-flag="@X" onclick="openSidebar('ARK_7_Gensis, Witchfinder General',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\39_Cryptic Grotesque.png" id="ARK_39_Cryptic Grotesque" data-flag="@X" onclick="openSidebar('ARK_39_Cryptic Grotesque',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\73_Cilebios, Arch-Cantor.png" id="ARK_73_Cilebios, Arch-Cantor" data-flag="@X" onclick="openSidebar('ARK_73_Cilebios, Arch-Cantor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\103_Catechismal Lore.png" id="ARK_103_Catechismal Lore" data-flag="@X" onclick="openSidebar('ARK_103_Catechismal Lore',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\140_Cino of the Gallow's Fen.png" id="ARK_140_Cino of the Gallows Fen" data-flag="@X" onclick="openSidebar('ARK_140_Cino of the Gallows Fen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\11_Heretical Lore.png" id="ARK_11_Heretical Lore" data-flag="@X" onclick="openSidebar('ARK_11_Heretical Lore',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\42_Divinity through Blood.png" id="ARK_42_Divinity through Blood" data-flag="@X" onclick="openSidebar('ARK_42_Divinity through Blood',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\74_Collector of Curiosities.png" id="ARK_74_Collector of Curiosities" data-flag="@X" onclick="openSidebar('ARK_74_Collector of Curiosities',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\104_Cult Uprising.png" id="ARK_104_Cult Uprising" data-flag="@X" onclick="openSidebar('ARK_104_Cult Uprising',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\141_Comical Lore.png" id="ARK_141_Comical Lore" data-flag="@X" onclick="openSidebar('ARK_141_Comical Lore',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\16_Keeper of Liturgy.png" id="ARK_16_Keeper of Liturgy" data-flag="@X" onclick="openSidebar('ARK_16_Keeper of Liturgy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\49_Harvest Effigy.png" id="ARK_49_Harvest Effigy" data-flag="@X" onclick="openSidebar('ARK_49_Harvest Effigy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\77_Death Cult.png" id="ARK_77_Death Cult" data-flag="@X" onclick="openSidebar('ARK_77_Death Cult',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\105_Divinity through Fire.png" id="ARK_105_Divinity through Fire" data-flag="@X" onclick="openSidebar('ARK_105_Divinity through Fire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\143_Cult Apprentice.png" id="ARK_143_Cult Apprentice" data-flag="@X" onclick="openSidebar('ARK_143_Cult Apprentice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\19_Myth of Akhillos.png" id="ARK_19_Myth of Akhillos" data-flag="@X" onclick="openSidebar('ARK_19_Myth of Akhillos',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\50_The Holy Fools.png" id="ARK_50_The Holy Fools" data-flag="@X" onclick="openSidebar('ARK_50_The Holy Fools',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\78_Diabolic Intent.png" id="ARK_78_Diabolic Intent" data-flag="@X" onclick="openSidebar('ARK_78_Diabolic Intent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\117_Midnight Rite.png" id="ARK_117_Midnight Rite" data-flag="@X" onclick="openSidebar('ARK_117_Midnight Rite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\146_Erythrogoyf.png" id="ARK_146_Erythrogoyf" data-flag="@X" onclick="openSidebar('ARK_146_Erythrogoyf',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\23_Profane Penitent.png" id="ARK_23_Profane Penitent" data-flag="@X" onclick="openSidebar('ARK_23_Profane Penitent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\53_Legacy of Mutation.png" id="ARK_53_Legacy of Mutation" data-flag="@X" onclick="openSidebar('ARK_53_Legacy of Mutation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\91_Primal Lore.png" id="ARK_91_Primal Lore" data-flag="@X" onclick="openSidebar('ARK_91_Primal Lore',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\128_Scion of Akhillos.png" id="ARK_128_Scion of Akhillos" data-flag="@X" onclick="openSidebar('ARK_128_Scion of Akhillos',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\161_Unspeakable Progeny.png" id="ARK_161_Unspeakable Progeny" data-flag="@X" onclick="openSidebar('ARK_161_Unspeakable Progeny',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\24_Prowling Childcatcher.png" id="ARK_24_Prowling Childcatcher" data-flag="@X" onclick="openSidebar('ARK_24_Prowling Childcatcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\62_Stolen Apocrypha.png" id="ARK_62_Stolen Apocrypha" data-flag="@X" onclick="openSidebar('ARK_62_Stolen Apocrypha',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\97_Weepwood Sovereign.png" id="ARK_97_Weepwood Sovereign" data-flag="@X" onclick="openSidebar('ARK_97_Weepwood Sovereign',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\130_Suffer Not the Witch.png" id="ARK_130_Suffer Not the Witch" data-flag="@X" onclick="openSidebar('ARK_130_Suffer Not the Witch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\163_Weepwood Flow.png" id="ARK_163_Weepwood Flow" data-flag="@X" onclick="openSidebar('ARK_163_Weepwood Flow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\2_Ardent Blacksmith.png" id="ARK_2_Ardent Blacksmith" data-flag="@X" onclick="openSidebar('ARK_2_Ardent Blacksmith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\37_Cacophonous Fool.png" id="ARK_37_Cacophonous Fool" data-flag="@X" onclick="openSidebar('ARK_37_Cacophonous Fool',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\70_Blasted Desolation.png" id="ARK_70_Blasted Desolation" data-flag="@X" onclick="openSidebar('ARK_70_Blasted Desolation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\108_Firebrand Orator.png" id="ARK_108_Firebrand Orator" data-flag="@X" onclick="openSidebar('ARK_108_Firebrand Orator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\135_Bleating Blasphemy.png" id="ARK_135_Bleating Blasphemy" data-flag="@X" onclick="openSidebar('ARK_135_Bleating Blasphemy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\4_Cleave to Faith.png" id="ARK_4_Cleave to Faith" data-flag="@X" onclick="openSidebar('ARK_4_Cleave to Faith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\43_Eldritch Engraving.png" id="ARK_43_Eldritch Engraving" data-flag="@X" onclick="openSidebar('ARK_43_Eldritch Engraving',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\76_Corrupting Smog.png" id="ARK_76_Corrupting Smog" data-flag="@X" onclick="openSidebar('ARK_76_Corrupting Smog',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\113_Into the Coven.png" id="ARK_113_Into the Coven" data-flag="@X" onclick="openSidebar('ARK_113_Into the Coven',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\138_Carnival Procession.png" id="ARK_138_Carnival Procession" data-flag="@X" onclick="openSidebar('ARK_138_Carnival Procession',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\10_Harsh Inquistior.png" id="ARK_10_Harsh Inquistior" data-flag="@X" onclick="openSidebar('ARK_10_Harsh Inquistior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\45_Fooling Around.png" id="ARK_45_Fooling Around" data-flag="@X" onclick="openSidebar('ARK_45_Fooling Around',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\79_Eldritch Moon.png" id="ARK_79_Eldritch Moon" data-flag="@X" onclick="openSidebar('ARK_79_Eldritch Moon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\114_Lonely Fisherman.png" id="ARK_114_Lonely Fisherman" data-flag="@X" onclick="openSidebar('ARK_114_Lonely Fisherman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\145_Dour Fisherman.png" id="ARK_145_Dour Fisherman" data-flag="@X" onclick="openSidebar('ARK_145_Dour Fisherman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\13_Inquisitor's Carriage.png" id="ARK_13_Inquisitors Carriage" data-flag="@X" onclick="openSidebar('ARK_13_Inquisitors Carriage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\47_Frantic Musician.png" id="ARK_47_Frantic Musician" data-flag="@X" onclick="openSidebar('ARK_47_Frantic Musician',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\81_False Pontiff.png" id="ARK_81_False Pontiff" data-flag="@X" onclick="openSidebar('ARK_81_False Pontiff',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\116_Merciless Purge.png" id="ARK_116_Merciless Purge" data-flag="@X" onclick="openSidebar('ARK_116_Merciless Purge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\147_Fervent Blacksmith.png" id="ARK_147_Fervent Blacksmith" data-flag="@X" onclick="openSidebar('ARK_147_Fervent Blacksmith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\15_Keen-Eyed Merchant.png" id="ARK_15_Keen-Eyed Merchant" data-flag="@X" onclick="openSidebar('ARK_15_Keen-Eyed Merchant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\54_Mask of Geesh.png" id="ARK_54_Mask of Geesh" data-flag="@X" onclick="openSidebar('ARK_54_Mask of Geesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\84_Gregarious Butcher.png" id="ARK_84_Gregarious Butcher" data-flag="@X" onclick="openSidebar('ARK_84_Gregarious Butcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\118_Mystic Invocation.png" id="ARK_118_Mystic Invocation" data-flag="@X" onclick="openSidebar('ARK_118_Mystic Invocation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\150_Grinning Ringleader.png" id="ARK_150_Grinning Ringleader" data-flag="@X" onclick="openSidebar('ARK_150_Grinning Ringleader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\17_Living Saint.png" id="ARK_17_Living Saint" data-flag="@X" onclick="openSidebar('ARK_17_Living Saint',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\56_Midnight Screecher.png" id="ARK_56_Midnight Screecher" data-flag="@X" onclick="openSidebar('ARK_56_Midnight Screecher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\85_The Horror Beyond.png" id="ARK_85_The Horror Beyond" data-flag="@X" onclick="openSidebar('ARK_85_The Horror Beyond',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\119_Ominous Butcher.png" id="ARK_119_Ominous Butcher" data-flag="@X" onclick="openSidebar('ARK_119_Ominous Butcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\152_Heretic's Amulet.png" id="ARK_152_Heretics Amulet" data-flag="@X" onclick="openSidebar('ARK_152_Heretics Amulet',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\21_Novice Witchfinder.png" id="ARK_21_Novice Witchfinder" data-flag="@X" onclick="openSidebar('ARK_21_Novice Witchfinder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\57_Rousing Innkeeper.png" id="ARK_57_Rousing Innkeeper" data-flag="@X" onclick="openSidebar('ARK_57_Rousing Innkeeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\86_Isolated Woodsman.png" id="ARK_86_Isolated Woodsman" data-flag="@X" onclick="openSidebar('ARK_86_Isolated Woodsman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\123_Persecuted Penitant.png" id="ARK_123_Persecuted Penitant" data-flag="@X" onclick="openSidebar('ARK_123_Persecuted Penitant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\154_Lord of Savages.png" id="ARK_154_Lord of Savages" data-flag="@X" onclick="openSidebar('ARK_154_Lord of Savages',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\22_Offering to Divinity.png" id="ARK_22_Offering to Divinity" data-flag="@X" onclick="openSidebar('ARK_22_Offering to Divinity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\58_Serene Speculation.png" id="ARK_58_Serene Speculation" data-flag="@X" onclick="openSidebar('ARK_58_Serene Speculation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\88_Moon-Blotter Nightwing.png" id="ARK_88_Moon-Blotter Nightwing" data-flag="@X" onclick="openSidebar('ARK_88_Moon-Blotter Nightwing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\124_Praise the Shifting Flame.png" id="ARK_124_Praise the Shifting Flame" data-flag="@X" onclick="openSidebar('ARK_124_Praise the Shifting Flame',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\156_Mischievous Masque.png" id="ARK_156_Mischievous Masque" data-flag="@X" onclick="openSidebar('ARK_156_Mischievous Masque',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\27_Righteous Zeal.png" id="ARK_27_Righteous Zeal" data-flag="@X" onclick="openSidebar('ARK_27_Righteous Zeal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\59_Sharp-Tongued Merchant.png" id="ARK_59_Sharp-Tongued Merchant" data-flag="@X" onclick="openSidebar('ARK_59_Sharp-Tongued Merchant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\92_Shadow of the Crypt.png" id="ARK_92_Shadow of the Crypt" data-flag="@X" onclick="openSidebar('ARK_92_Shadow of the Crypt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\125_Ritualist of Vo'Radh.png" id="ARK_125_Ritualist of VoRadh" data-flag="@X" onclick="openSidebar('ARK_125_Ritualist of VoRadh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\157_Roar of Strength.png" id="ARK_157_Roar of Strength" data-flag="@X" onclick="openSidebar('ARK_157_Roar of Strength',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\31_Veneration of Relics.png" id="ARK_31_Veneration of Relics" data-flag="@X" onclick="openSidebar('ARK_31_Veneration of Relics',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\60_Shibboleth Amulet.png" id="ARK_60_Shibboleth Amulet" data-flag="@X" onclick="openSidebar('ARK_60_Shibboleth Amulet',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\93_Strict Innkeeper.png" id="ARK_93_Strict Innkeeper" data-flag="@X" onclick="openSidebar('ARK_93_Strict Innkeeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\127_Scholar of Secrets.png" id="ARK_127_Scholar of Secrets" data-flag="@X" onclick="openSidebar('ARK_127_Scholar of Secrets',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\158_Sail into Despair.png" id="ARK_158_Sail into Despair" data-flag="@X" onclick="openSidebar('ARK_158_Sail into Despair',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\33_Weeping Martyr.png" id="ARK_33_Weeping Martyr" data-flag="@X" onclick="openSidebar('ARK_33_Weeping Martyr',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\64_Trickster of Geesh.png" id="ARK_64_Trickster of Geesh" data-flag="@X" onclick="openSidebar('ARK_64_Trickster of Geesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\94_Sullen Synod.png" id="ARK_94_Sullen Synod" data-flag="@X" onclick="openSidebar('ARK_94_Sullen Synod',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\129_Scourge the Soul.png" id="ARK_129_Scourge the Soul" data-flag="@X" onclick="openSidebar('ARK_129_Scourge the Soul',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\159_Sift through the Bones.png" id="ARK_159_Sift through the Bones" data-flag="@X" onclick="openSidebar('ARK_159_Sift through the Bones',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\34_Worm-Tongue Pontiff.png" id="ARK_34_Worm-Tongue Pontiff" data-flag="@X" onclick="openSidebar('ARK_34_Worm-Tongue Pontiff',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\67_Witch's Sabbath.png" id="ARK_67_Witchs Sabbath" data-flag="@X" onclick="openSidebar('ARK_67_Witchs Sabbath',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\100_Yog's Scorn.png" id="ARK_100_Yogs Scorn" data-flag="@X" onclick="openSidebar('ARK_100_Yogs Scorn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\132_Witchfinder's Scorn.png" id="ARK_132_Witchfinders Scorn" data-flag="@X" onclick="openSidebar('ARK_132_Witchfinders Scorn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\160_Tincture Peddler.png" id="ARK_160_Tincture Peddler" data-flag="@X" onclick="openSidebar('ARK_160_Tincture Peddler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\3_Backwater Farmhand.png" id="ARK_3_Backwater Farmhand" data-flag="@X" onclick="openSidebar('ARK_3_Backwater Farmhand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\36_Brooding Coven.png" id="ARK_36_Brooding Coven" data-flag="@X" onclick="openSidebar('ARK_36_Brooding Coven',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\68_Architect of Fear.png" id="ARK_68_Architect of Fear" data-flag="@X" onclick="openSidebar('ARK_68_Architect of Fear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\102_Bolt of Vo'Radh.png" id="ARK_102_Bolt of VoRadh" data-flag="@X" onclick="openSidebar('ARK_102_Bolt of VoRadh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\136_Blessing of Change.png" id="ARK_136_Blessing of Change" data-flag="@X" onclick="openSidebar('ARK_136_Blessing of Change',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\6_Faithwing Apprentice.png" id="ARK_6_Faithwing Apprentice" data-flag="@X" onclick="openSidebar('ARK_6_Faithwing Apprentice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\38_Covetous Whispers.png" id="ARK_38_Covetous Whispers" data-flag="@X" onclick="openSidebar('ARK_38_Covetous Whispers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\69_Blasphemous Howl.png" id="ARK_69_Blasphemous Howl" data-flag="@X" onclick="openSidebar('ARK_69_Blasphemous Howl',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\107_Fireband Inquisitor.png" id="ARK_107_Fireband Inquisitor" data-flag="@X" onclick="openSidebar('ARK_107_Fireband Inquisitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\137_Braying Outcast.png" id="ARK_137_Braying Outcast" data-flag="@X" onclick="openSidebar('ARK_137_Braying Outcast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\8_Gevangis Nightwatch.png" id="ARK_8_Gevangis Nightwatch" data-flag="@X" onclick="openSidebar('ARK_8_Gevangis Nightwatch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\40_Curious Specimen.png" id="ARK_40_Curious Specimen" data-flag="@X" onclick="openSidebar('ARK_40_Curious Specimen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\71_By the Light of the Moon.png" id="ARK_71_By the Light of the Moon" data-flag="@X" onclick="openSidebar('ARK_71_By the Light of the Moon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\109_Forged in Faith.png" id="ARK_109_Forged in Faith" data-flag="@X" onclick="openSidebar('ARK_109_Forged in Faith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\139_Carrion Gnawer.png" id="ARK_139_Carrion Gnawer" data-flag="@X" onclick="openSidebar('ARK_139_Carrion Gnawer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\9_Hallowed Raptor.png" id="ARK_9_Hallowed Raptor" data-flag="@X" onclick="openSidebar('ARK_9_Hallowed Raptor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\41_Disciple of Vo'Radh.png" id="ARK_41_Disciple of VoRadh" data-flag="@X" onclick="openSidebar('ARK_41_Disciple of VoRadh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\75_Consult the Sigils.png" id="ARK_75_Consult the Sigils" data-flag="@X" onclick="openSidebar('ARK_75_Consult the Sigils',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\110_Gathering of Witches.png" id="ARK_110_Gathering of Witches" data-flag="@X" onclick="openSidebar('ARK_110_Gathering of Witches',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\144_The Danse Macabre.png" id="ARK_144_The Danse Macabre" data-flag="@X" onclick="openSidebar('ARK_144_The Danse Macabre',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\12_Holy Feast.png" id="ARK_12_Holy Feast" data-flag="@X" onclick="openSidebar('ARK_12_Holy Feast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\44_Ethereal Chains.png" id="ARK_44_Ethereal Chains" data-flag="@X" onclick="openSidebar('ARK_44_Ethereal Chains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\80_Evangel of Corvash.png" id="ARK_80_Evangel of Corvash" data-flag="@X" onclick="openSidebar('ARK_80_Evangel of Corvash',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\111_Gnarled Acolyte.png" id="ARK_111_Gnarled Acolyte" data-flag="@X" onclick="openSidebar('ARK_111_Gnarled Acolyte',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\148_Gift of Corvash.png" id="ARK_148_Gift of Corvash" data-flag="@X" onclick="openSidebar('ARK_148_Gift of Corvash',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\14_Itinerant Cultist.png" id="ARK_14_Itinerant Cultist" data-flag="@X" onclick="openSidebar('ARK_14_Itinerant Cultist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\48_Frantic Scrawl.png" id="ARK_48_Frantic Scrawl" data-flag="@X" onclick="openSidebar('ARK_48_Frantic Scrawl',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\82_Far from Pious Eyes.png" id="ARK_82_Far from Pious Eyes" data-flag="@X" onclick="openSidebar('ARK_82_Far from Pious Eyes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\112_Hearth Crawler.png" id="ARK_112_Hearth Crawler" data-flag="@X" onclick="openSidebar('ARK_112_Hearth Crawler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\149_Gnarled Outcast.png" id="ARK_149_Gnarled Outcast" data-flag="@X" onclick="openSidebar('ARK_149_Gnarled Outcast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\18_Martyr's Hymn.png" id="ARK_18_Martyrs Hymn" data-flag="@X" onclick="openSidebar('ARK_18_Martyrs Hymn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\51_Killing Joke.png" id="ARK_51_Killing Joke" data-flag="@X" onclick="openSidebar('ARK_51_Killing Joke',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\83_The Fear in the Woods.png" id="ARK_83_The Fear in the Woods" data-flag="@X" onclick="openSidebar('ARK_83_The Fear in the Woods',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\115_March of the Flagellants.png" id="ARK_115_March of the Flagellants" data-flag="@X" onclick="openSidebar('ARK_115_March of the Flagellants',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\151_Heretic Harlequin.png" id="ARK_151_Heretic Harlequin" data-flag="@X" onclick="openSidebar('ARK_151_Heretic Harlequin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\20_Nightwing Hunter.png" id="ARK_20_Nightwing Hunter" data-flag="@X" onclick="openSidebar('ARK_20_Nightwing Hunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\52_Leering Jester.png" id="ARK_52_Leering Jester" data-flag="@X" onclick="openSidebar('ARK_52_Leering Jester',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\87_Knee Deep in the Dead.png" id="ARK_87_Knee Deep in the Dead" data-flag="@X" onclick="openSidebar('ARK_87_Knee Deep in the Dead',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\120_Ominous Sorcerer.png" id="ARK_120_Ominous Sorcerer" data-flag="@X" onclick="openSidebar('ARK_120_Ominous Sorcerer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\153_Icon of Sin.png" id="ARK_153_Icon of Sin" data-flag="@X" onclick="openSidebar('ARK_153_Icon of Sin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\25_Purge Superstition.png" id="ARK_25_Purge Superstition" data-flag="@X" onclick="openSidebar('ARK_25_Purge Superstition',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\55_Midnight Haunter.png" id="ARK_55_Midnight Haunter" data-flag="@X" onclick="openSidebar('ARK_55_Midnight Haunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\89_Morgue Prowler.png" id="ARK_89_Morgue Prowler" data-flag="@X" onclick="openSidebar('ARK_89_Morgue Prowler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\121_Outrider of the Eagle.png" id="ARK_121_Outrider of the Eagle" data-flag="@X" onclick="openSidebar('ARK_121_Outrider of the Eagle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\155_Might of the Weepwood.png" id="ARK_155_Might of the Weepwood" data-flag="@X" onclick="openSidebar('ARK_155_Might of the Weepwood',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\26_Rats in the Walls.png" id="ARK_26_Rats in the Walls" data-flag="@X" onclick="openSidebar('ARK_26_Rats in the Walls',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\61_Sinister Summoner.png" id="ARK_61_Sinister Summoner" data-flag="@X" onclick="openSidebar('ARK_61_Sinister Summoner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\95_Thy Flesh Consumed.png" id="ARK_95_Thy Flesh Consumed" data-flag="@X" onclick="openSidebar('ARK_95_Thy Flesh Consumed',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\122_Paranoid Fear.png" id="ARK_122_Paranoid Fear" data-flag="@X" onclick="openSidebar('ARK_122_Paranoid Fear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\162_Vaulting Acrobat.png" id="ARK_162_Vaulting Acrobat" data-flag="@X" onclick="openSidebar('ARK_162_Vaulting Acrobat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\28_Sainted Eagle.png" id="ARK_28_Sainted Eagle" data-flag="@X" onclick="openSidebar('ARK_28_Sainted Eagle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\63_Thirst for Mirth.png" id="ARK_63_Thirst for Mirth" data-flag="@X" onclick="openSidebar('ARK_63_Thirst for Mirth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\96_Weepwood Offering.png" id="ARK_96_Weepwood Offering" data-flag="@X" onclick="openSidebar('ARK_96_Weepwood Offering',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\126_Sacred Censer.png" id="ARK_126_Sacred Censer" data-flag="@X" onclick="openSidebar('ARK_126_Sacred Censer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\164_Weepwood's Clutches.png" id="ARK_164_Weepwoods Clutches" data-flag="@X" onclick="openSidebar('ARK_164_Weepwoods Clutches',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\29_Solemn Deacon.png" id="ARK_29_Solemn Deacon" data-flag="@X" onclick="openSidebar('ARK_29_Solemn Deacon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\65_What Happens in Secret.png" id="ARK_65_What Happens in Secret" data-flag="@X" onclick="openSidebar('ARK_65_What Happens in Secret',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\98_Withered Oracle.png" id="ARK_98_Withered Oracle" data-flag="@X" onclick="openSidebar('ARK_98_Withered Oracle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\131_Weepwood Hunger.png" id="ARK_131_Weepwood Hunger" data-flag="@X" onclick="openSidebar('ARK_131_Weepwood Hunger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\165_Whispered Warning.png" id="ARK_165_Whispered Warning" data-flag="@X" onclick="openSidebar('ARK_165_Whispered Warning',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\32_Votive Offering.png" id="ARK_32_Votive Offering" data-flag="@X" onclick="openSidebar('ARK_32_Votive Offering',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\66_Witching Hour.png" id="ARK_66_Witching Hour" data-flag="@X" onclick="openSidebar('ARK_66_Witching Hour',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\99_Yog's Flagellant.png" id="ARK_99_Yogs Flagellant" data-flag="@X" onclick="openSidebar('ARK_99_Yogs Flagellant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\133_Zealous Witchfinder.png" id="ARK_133_Zealous Witchfinder" data-flag="@X" onclick="openSidebar('ARK_133_Zealous Witchfinder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\166_Wretched Mendicant.png" id="ARK_166_Wretched Mendicant" data-flag="@X" onclick="openSidebar('ARK_166_Wretched Mendicant',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\173_Procession of Souls.png" id="ARK_173_Procession of Souls" data-flag="@X" onclick="openSidebar('ARK_173_Procession of Souls',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\192_The Black Goat of Weepwood.png" id="ARK_192_The Black Goat of Weepwood" data-flag="@X" onclick="openSidebar('ARK_192_The Black Goat of Weepwood',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\217_Carnival of Chaos.png" id="ARK_217_Carnival of Chaos" data-flag="@X" onclick="openSidebar('ARK_217_Carnival of Chaos',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\184_Kristana, the Blood Gyre.png" id="ARK_184_Kristana, the Blood Gyre" data-flag="@X" onclick="openSidebar('ARK_184_Kristana, the Blood Gyre',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\204_Cardinal Sin.png" id="ARK_204_Cardinal Sin" data-flag="@X" onclick="openSidebar('ARK_204_Cardinal Sin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\174_Saint Goustun the Fair.png" id="ARK_174_Saint Goustun the Fair" data-flag="@X" onclick="openSidebar('ARK_174_Saint Goustun the Fair',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\196_Lord of the Woods.png" id="ARK_196_Lord of the Woods" data-flag="@X" onclick="openSidebar('ARK_196_Lord of the Woods',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\221_Delowe, Jester of Geesh.png" id="ARK_221_Delowe, Jester of Geesh" data-flag="@X" onclick="openSidebar('ARK_221_Delowe, Jester of Geesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\190_Wrack the Mind.png" id="ARK_190_Wrack the Mind" data-flag="@X" onclick="openSidebar('ARK_190_Wrack the Mind',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\214_Theonomarch Zofiya Cek.png" id="ARK_214_Theonomarch Zofiya Cek" data-flag="@X" onclick="openSidebar('ARK_214_Theonomarch Zofiya Cek',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\168_Confluence of Yog.png" id="ARK_168_Confluence of Yog" data-flag="@X" onclick="openSidebar('ARK_168_Confluence of Yog',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\193_Confluence of Corvash.png" id="ARK_193_Confluence of Corvash" data-flag="@X" onclick="openSidebar('ARK_193_Confluence of Corvash',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\218_Change and Be Merry.png" id="ARK_218_Change and Be Merry" data-flag="@X" onclick="openSidebar('ARK_218_Change and Be Merry',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\180_Confluence of Vo'Radh.png" id="ARK_180_Confluence of VoRadh" data-flag="@X" onclick="openSidebar('ARK_180_Confluence of VoRadh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\205_The Coming of the Eagle.png" id="ARK_205_The Coming of the Eagle" data-flag="@X" onclick="openSidebar('ARK_205_The Coming of the Eagle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\175_Savage Sacrament.png" id="ARK_175_Savage Sacrament" data-flag="@X" onclick="openSidebar('ARK_175_Savage Sacrament',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\199_Shrine of Inner Shadows.png" id="ARK_199_Shrine of Inner Shadows" data-flag="@X" onclick="openSidebar('ARK_199_Shrine of Inner Shadows',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\219_Confluence of Geesh.png" id="ARK_219_Confluence of Geesh" data-flag="@X" onclick="openSidebar('ARK_219_Confluence of Geesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\186_Shrine of Shifting Flame.png" id="ARK_186_Shrine of Shifting Flame" data-flag="@X" onclick="openSidebar('ARK_186_Shrine of Shifting Flame',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\206_Confluence of Akhillos.png" id="ARK_206_Confluence of Akhillos" data-flag="@X" onclick="openSidebar('ARK_206_Confluence of Akhillos',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\177_Shrine of Hushed Prayer.png" id="ARK_177_Shrine of Hushed Prayer" data-flag="@X" onclick="openSidebar('ARK_177_Shrine of Hushed Prayer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\200_Teachings of Corvash.png" id="ARK_200_Teachings of Corvash" data-flag="@X" onclick="openSidebar('ARK_200_Teachings of Corvash',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\225_Shrine of Boundless Mirth.png" id="ARK_225_Shrine of Boundless Mirth" data-flag="@X" onclick="openSidebar('ARK_225_Shrine of Boundless Mirth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\188_Summoned Shapestealer.png" id="ARK_188_Summoned Shapestealer" data-flag="@X" onclick="openSidebar('ARK_188_Summoned Shapestealer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\213_Shrine of Martyred Blood.png" id="ARK_213_Shrine of Martyred Blood" data-flag="@X" onclick="openSidebar('ARK_213_Shrine of Martyred Blood',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\171_Hallowdark Borderpost.png" id="ARK_171_Hallowdark Borderpost" data-flag="@X" onclick="openSidebar('ARK_171_Hallowdark Borderpost',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\191_Avram Von, Hellseeker.png" id="ARK_191_Avram Von, Hellseeker" data-flag="@X" onclick="openSidebar('ARK_191_Avram Von, Hellseeker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\222_Ghiacci, the Great Joker.png" id="ARK_222_Ghiacci, the Great Joker" data-flag="@X" onclick="openSidebar('ARK_222_Ghiacci, the Great Joker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\183_Gore Omen.png" id="ARK_183_Gore Omen" data-flag="@X" onclick="openSidebar('ARK_183_Gore Omen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\208_Fiercehallow Borderpost.png" id="ARK_208_Fiercehallow Borderpost" data-flag="@X" onclick="openSidebar('ARK_208_Fiercehallow Borderpost',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\172_Iskanter, Blighted Bishop.png" id="ARK_172_Iskanter, Blighted Bishop" data-flag="@X" onclick="openSidebar('ARK_172_Iskanter, Blighted Bishop',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\194_Darkrot Borderpost.png" id="ARK_194_Darkrot Borderpost" data-flag="@X" onclick="openSidebar('ARK_194_Darkrot Borderpost',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\224_Rotwater Borderpost.png" id="ARK_224_Rotwater Borderpost" data-flag="@X" onclick="openSidebar('ARK_224_Rotwater Borderpost',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\187_The Stolen Shape.png" id="ARK_187_The Stolen Shape" data-flag="@X" onclick="openSidebar('ARK_187_The Stolen Shape',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\210_Hand of the Eagle.png" id="ARK_210_Hand of the Eagle" data-flag="@X" onclick="openSidebar('ARK_210_Hand of the Eagle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\178_Solemn Heresiarch.png" id="ARK_178_Solemn Heresiarch" data-flag="@X" onclick="openSidebar('ARK_178_Solemn Heresiarch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\197_Lurking Witch.png" id="ARK_197_Lurking Witch" data-flag="@X" onclick="openSidebar('ARK_197_Lurking Witch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\226_Soul of Wit.png" id="ARK_226_Soul of Wit" data-flag="@X" onclick="openSidebar('ARK_226_Soul of Wit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\189_Waterfierce Borderpost.png" id="ARK_189_Waterfierce Borderpost" data-flag="@X" onclick="openSidebar('ARK_189_Waterfierce Borderpost',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\212_Metropolite Dmitry XII.png" id="ARK_212_Metropolite Dmitry XII" data-flag="@X" onclick="openSidebar('ARK_212_Metropolite Dmitry XII',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\170_Folk Ritual.png" id="ARK_170_Folk Ritual" data-flag="@X" onclick="openSidebar('ARK_170_Folk Ritual',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\195_Forbidden Goliath.png" id="ARK_195_Forbidden Goliath" data-flag="@X" onclick="openSidebar('ARK_195_Forbidden Goliath',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\215_Blessing of Geesh.png" id="ARK_215_Blessing of Geesh" data-flag="@X" onclick="openSidebar('ARK_215_Blessing of Geesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\181_Disciple of Blood.png" id="ARK_181_Disciple of Blood" data-flag="@X" onclick="openSidebar('ARK_181_Disciple of Blood',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\203_Blood and Thunder.png" id="ARK_203_Blood and Thunder" data-flag="@X" onclick="openSidebar('ARK_203_Blood and Thunder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\176_Shambling Sanctuary.png" id="ARK_176_Shambling Sanctuary" data-flag="@X" onclick="openSidebar('ARK_176_Shambling Sanctuary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\198_Ritual of the Woods.png" id="ARK_198_Ritual of the Woods" data-flag="@X" onclick="openSidebar('ARK_198_Ritual of the Woods',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\223_Mischievous Troupe.png" id="ARK_223_Mischievous Troupe" data-flag="@X" onclick="openSidebar('ARK_223_Mischievous Troupe',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\185_Obsessive Alchemist.png" id="ARK_185_Obsessive Alchemist" data-flag="@X" onclick="openSidebar('ARK_185_Obsessive Alchemist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\211_Impulsive Inquisitor.png" id="ARK_211_Impulsive Inquisitor" data-flag="@X" onclick="openSidebar('ARK_211_Impulsive Inquisitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\227_Creation Myth.png" id="ARK_227_Creation Myth" data-flag="@X" onclick="openSidebar('ARK_227_Creation Myth',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ARK_e" data-flag="@E" onclick="openSidebar('ARK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ARK_e" data-flag="@E" onclick="openSidebar('ARK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ARK_e" data-flag="@E" onclick="openSidebar('ARK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ARK_e" data-flag="@E" onclick="openSidebar('ARK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
 				<div id="twobrid" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\169_Coven's Offering.png" id="169_Covens Offering" data-flag="@X" onclick="openSidebar('169_Covens Offering',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\201_Twisted Fealty.png" id="201_Twisted Fealty" data-flag="@X" onclick="openSidebar('201_Twisted Fealty',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\216_Cacophony of Flesh.png" id="216_Cacophony of Flesh" data-flag="@X" onclick="openSidebar('216_Cacophony of Flesh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\182_Flense the Mind.png" id="182_Flense the Mind" data-flag="@X" onclick="openSidebar('182_Flense the Mind',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\209_Fiery Penance.png" id="209_Fiery Penance" data-flag="@X" onclick="openSidebar('209_Fiery Penance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\167_Callous Chaplain.png" id="167_Callous Chaplain" data-flag="@X" onclick="openSidebar('167_Callous Chaplain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\202_Weepwood Null.png" id="202_Weepwood Null" data-flag="@X" onclick="openSidebar('202_Weepwood Null',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\220_Costumed Cultist.png" id="220_Costumed Cultist" data-flag="@X" onclick="openSidebar('220_Costumed Cultist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\179_Captive Beastman.png" id="179_Captive Beastman" data-flag="@X" onclick="openSidebar('179_Captive Beastman',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\207_Devout Harrier.png" id="207_Devout Harrier" data-flag="@X" onclick="openSidebar('207_Devout Harrier',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\169_Coven's Offering.png" id="ARK_169_Covens Offering" data-flag="@X" onclick="openSidebar('ARK_169_Covens Offering',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\201_Twisted Fealty.png" id="ARK_201_Twisted Fealty" data-flag="@X" onclick="openSidebar('ARK_201_Twisted Fealty',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\216_Cacophony of Flesh.png" id="ARK_216_Cacophony of Flesh" data-flag="@X" onclick="openSidebar('ARK_216_Cacophony of Flesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\182_Flense the Mind.png" id="ARK_182_Flense the Mind" data-flag="@X" onclick="openSidebar('ARK_182_Flense the Mind',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\209_Fiery Penance.png" id="ARK_209_Fiery Penance" data-flag="@X" onclick="openSidebar('ARK_209_Fiery Penance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\167_Callous Chaplain.png" id="ARK_167_Callous Chaplain" data-flag="@X" onclick="openSidebar('ARK_167_Callous Chaplain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\202_Weepwood Null.png" id="ARK_202_Weepwood Null" data-flag="@X" onclick="openSidebar('ARK_202_Weepwood Null',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\220_Costumed Cultist.png" id="ARK_220_Costumed Cultist" data-flag="@X" onclick="openSidebar('ARK_220_Costumed Cultist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\179_Captive Beastman.png" id="ARK_179_Captive Beastman" data-flag="@X" onclick="openSidebar('ARK_179_Captive Beastman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\207_Devout Harrier.png" id="ARK_207_Devout Harrier" data-flag="@X" onclick="openSidebar('ARK_207_Devout Harrier',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
 				<div id="hybrid" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\228_Acolyte of All Things.png" id="228_Acolyte of All Things" data-flag="@X" onclick="openSidebar('228_Acolyte of All Things',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\232_Brutal Coven.png" id="232_Brutal Coven" data-flag="@X" onclick="openSidebar('232_Brutal Coven',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\237_Laughter of Geesh.png" id="237_Laughter of Geesh" data-flag="@X" onclick="openSidebar('237_Laughter of Geesh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\230_Cloistered Cultist.png" id="230_Cloistered Cultist" data-flag="@X" onclick="openSidebar('230_Cloistered Cultist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\235_Procession of Faith.png" id="235_Procession of Faith" data-flag="@X" onclick="openSidebar('235_Procession of Faith',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\229_Initiate of Balance.png" id="229_Initiate of Balance" data-flag="@X" onclick="openSidebar('229_Initiate of Balance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\233_Initiate of Strength.png" id="233_Initiate of Strength" data-flag="@X" onclick="openSidebar('233_Initiate of Strength',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\236_Initiate of Change.png" id="236_Initiate of Change" data-flag="@X" onclick="openSidebar('236_Initiate of Change',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\231_Initiate of Fire.png" id="231_Initiate of Fire" data-flag="@X" onclick="openSidebar('231_Initiate of Fire',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\234_Initiate of the Eagle.png" id="234_Initiate of the Eagle" data-flag="@X" onclick="openSidebar('234_Initiate of the Eagle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\228_Acolyte of All Things.png" id="ARK_228_Acolyte of All Things" data-flag="@X" onclick="openSidebar('ARK_228_Acolyte of All Things',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\232_Brutal Coven.png" id="ARK_232_Brutal Coven" data-flag="@X" onclick="openSidebar('ARK_232_Brutal Coven',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\237_Laughter of Geesh.png" id="ARK_237_Laughter of Geesh" data-flag="@X" onclick="openSidebar('ARK_237_Laughter of Geesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\230_Cloistered Cultist.png" id="ARK_230_Cloistered Cultist" data-flag="@X" onclick="openSidebar('ARK_230_Cloistered Cultist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\235_Procession of Faith.png" id="ARK_235_Procession of Faith" data-flag="@X" onclick="openSidebar('ARK_235_Procession of Faith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\229_Initiate of Balance.png" id="ARK_229_Initiate of Balance" data-flag="@X" onclick="openSidebar('ARK_229_Initiate of Balance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\233_Initiate of Strength.png" id="ARK_233_Initiate of Strength" data-flag="@X" onclick="openSidebar('ARK_233_Initiate of Strength',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\236_Initiate of Change.png" id="ARK_236_Initiate of Change" data-flag="@X" onclick="openSidebar('ARK_236_Initiate of Change',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\231_Initiate of Fire.png" id="ARK_231_Initiate of Fire" data-flag="@X" onclick="openSidebar('ARK_231_Initiate of Fire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\234_Initiate of the Eagle.png" id="ARK_234_Initiate of the Eagle" data-flag="@X" onclick="openSidebar('ARK_234_Initiate of the Eagle',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\239_Crypt of the Eagle.png" id="239_Crypt of the Eagle" data-flag="@X" onclick="openSidebar('239_Crypt of the Eagle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\241_Folk Altar.png" id="241_Folk Altar" data-flag="@X" onclick="openSidebar('241_Folk Altar',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\246_Shield of Church and State.png" id="246_Shield of Church and State" data-flag="@X" onclick="openSidebar('246_Shield of Church and State',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\242_Heretical Grimoire.png" id="242_Heretical Grimoire" data-flag="@X" onclick="openSidebar('242_Heretical Grimoire',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\244_Ominous Idol.png" id="244_Ominous Idol" data-flag="@X" onclick="openSidebar('244_Ominous Idol',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\238_Anointed Reliquary.png" id="238_Anointed Reliquary" data-flag="@X" onclick="openSidebar('238_Anointed Reliquary',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\240_Cultic Relic.png" id="240_Cultic Relic" data-flag="@X" onclick="openSidebar('240_Cultic Relic',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\243_Leering Crowcatcher.png" id="243_Leering Crowcatcher" data-flag="@X" onclick="openSidebar('243_Leering Crowcatcher',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\245_Rag and Bone Cart.png" id="245_Rag and Bone Cart" data-flag="@X" onclick="openSidebar('245_Rag and Bone Cart',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\247_Shriekhorn.png" id="247_Shriekhorn" data-flag="@X" onclick="openSidebar('247_Shriekhorn',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\251_Crypt of Lies.png" id="251_Crypt of Lies" data-flag="@X" onclick="openSidebar('251_Crypt of Lies',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\253_Crypt of Potential.png" id="253_Crypt of Potential" data-flag="@X" onclick="openSidebar('253_Crypt of Potential',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\249_Crypt of Filth.png" id="249_Crypt of Filth" data-flag="@X" onclick="openSidebar('249_Crypt of Filth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\252_Crypt of Penance.png" id="252_Crypt of Penance" data-flag="@X" onclick="openSidebar('252_Crypt of Penance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\250_Crypt of Growth.png" id="250_Crypt of Growth" data-flag="@X" onclick="openSidebar('250_Crypt of Growth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\261_Occult Chamber.png" id="261_Occult Chamber" data-flag="@X" onclick="openSidebar('261_Occult Chamber',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\255_Forbidden Library.png" id="255_Forbidden Library" data-flag="@X" onclick="openSidebar('255_Forbidden Library',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\257_Gnarled Backwoods.png" id="257_Gnarled Backwoods" data-flag="@X" onclick="openSidebar('257_Gnarled Backwoods',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\259_Imposing Basilica.png" id="259_Imposing Basilica" data-flag="@X" onclick="openSidebar('259_Imposing Basilica',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\260_Land's End.png" id="260_Lands End" data-flag="@X" onclick="openSidebar('260_Lands End',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\258_Hole in the World.png" id="258_Hole in the World" data-flag="@X" onclick="openSidebar('258_Hole in the World',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\254_Faithbound Cloister.png" id="254_Faithbound Cloister" data-flag="@X" onclick="openSidebar('254_Faithbound Cloister',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\256_Forsaken Chapel.png" id="256_Forsaken Chapel" data-flag="@X" onclick="openSidebar('256_Forsaken Chapel',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\248_Congregant's Cathedral.png" id="248_Congregants Cathedral" data-flag="@X" onclick="openSidebar('248_Congregants Cathedral',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\262_Plains.png" id="262_Plains" data-flag="@X" onclick="openSidebar('262_Plains',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\264_Island.png" id="264_Island" data-flag="@X" onclick="openSidebar('264_Island',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\266_Swamp.png" id="266_Swamp" data-flag="@X" onclick="openSidebar('266_Swamp',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\268_Mountain.png" id="268_Mountain" data-flag="@X" onclick="openSidebar('268_Mountain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\270_Forest.png" id="270_Forest" data-flag="@X" onclick="openSidebar('270_Forest',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\263_Plains.png" id="263_Plains" data-flag="@X" onclick="openSidebar('263_Plains',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\265_Island.png" id="265_Island" data-flag="@X" onclick="openSidebar('265_Island',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\267_Swamp.png" id="267_Swamp" data-flag="@X" onclick="openSidebar('267_Swamp',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\269_Mountain.png" id="269_Mountain" data-flag="@X" onclick="openSidebar('269_Mountain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\271_Forest.png" id="271_Forest" data-flag="@X" onclick="openSidebar('271_Forest',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\239_Crypt of the Eagle.png" id="ARK_239_Crypt of the Eagle" data-flag="@X" onclick="openSidebar('ARK_239_Crypt of the Eagle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\241_Folk Altar.png" id="ARK_241_Folk Altar" data-flag="@X" onclick="openSidebar('ARK_241_Folk Altar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\246_Shield of Church and State.png" id="ARK_246_Shield of Church and State" data-flag="@X" onclick="openSidebar('ARK_246_Shield of Church and State',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\242_Heretical Grimoire.png" id="ARK_242_Heretical Grimoire" data-flag="@X" onclick="openSidebar('ARK_242_Heretical Grimoire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\244_Ominous Idol.png" id="ARK_244_Ominous Idol" data-flag="@X" onclick="openSidebar('ARK_244_Ominous Idol',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\238_Anointed Reliquary.png" id="ARK_238_Anointed Reliquary" data-flag="@X" onclick="openSidebar('ARK_238_Anointed Reliquary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\240_Cultic Relic.png" id="ARK_240_Cultic Relic" data-flag="@X" onclick="openSidebar('ARK_240_Cultic Relic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\243_Leering Crowcatcher.png" id="ARK_243_Leering Crowcatcher" data-flag="@X" onclick="openSidebar('ARK_243_Leering Crowcatcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\245_Rag and Bone Cart.png" id="ARK_245_Rag and Bone Cart" data-flag="@X" onclick="openSidebar('ARK_245_Rag and Bone Cart',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\247_Shriekhorn.png" id="ARK_247_Shriekhorn" data-flag="@X" onclick="openSidebar('ARK_247_Shriekhorn',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\251_Crypt of Lies.png" id="ARK_251_Crypt of Lies" data-flag="@X" onclick="openSidebar('ARK_251_Crypt of Lies',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\253_Crypt of Potential.png" id="ARK_253_Crypt of Potential" data-flag="@X" onclick="openSidebar('ARK_253_Crypt of Potential',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\249_Crypt of Filth.png" id="ARK_249_Crypt of Filth" data-flag="@X" onclick="openSidebar('ARK_249_Crypt of Filth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\252_Crypt of Penance.png" id="ARK_252_Crypt of Penance" data-flag="@X" onclick="openSidebar('ARK_252_Crypt of Penance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\250_Crypt of Growth.png" id="ARK_250_Crypt of Growth" data-flag="@X" onclick="openSidebar('ARK_250_Crypt of Growth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\261_Occult Chamber.png" id="ARK_261_Occult Chamber" data-flag="@X" onclick="openSidebar('ARK_261_Occult Chamber',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\255_Forbidden Library.png" id="ARK_255_Forbidden Library" data-flag="@X" onclick="openSidebar('ARK_255_Forbidden Library',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\257_Gnarled Backwoods.png" id="ARK_257_Gnarled Backwoods" data-flag="@X" onclick="openSidebar('ARK_257_Gnarled Backwoods',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\259_Imposing Basilica.png" id="ARK_259_Imposing Basilica" data-flag="@X" onclick="openSidebar('ARK_259_Imposing Basilica',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\260_Land's End.png" id="ARK_260_Lands End" data-flag="@X" onclick="openSidebar('ARK_260_Lands End',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\258_Hole in the World.png" id="ARK_258_Hole in the World" data-flag="@X" onclick="openSidebar('ARK_258_Hole in the World',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\254_Faithbound Cloister.png" id="ARK_254_Faithbound Cloister" data-flag="@X" onclick="openSidebar('ARK_254_Faithbound Cloister',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\256_Forsaken Chapel.png" id="ARK_256_Forsaken Chapel" data-flag="@X" onclick="openSidebar('ARK_256_Forsaken Chapel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\248_Congregant's Cathedral.png" id="ARK_248_Congregants Cathedral" data-flag="@X" onclick="openSidebar('ARK_248_Congregants Cathedral',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ARK_e" data-flag="@E" onclick="openSidebar('ARK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\262_Plains.png" id="ARK_262_Plains" data-flag="@X" onclick="openSidebar('ARK_262_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\264_Island.png" id="ARK_264_Island" data-flag="@X" onclick="openSidebar('ARK_264_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\266_Swamp.png" id="ARK_266_Swamp" data-flag="@X" onclick="openSidebar('ARK_266_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\268_Mountain.png" id="ARK_268_Mountain" data-flag="@X" onclick="openSidebar('ARK_268_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\270_Forest.png" id="ARK_270_Forest" data-flag="@X" onclick="openSidebar('ARK_270_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\263_Plains.png" id="ARK_263_Plains" data-flag="@X" onclick="openSidebar('ARK_263_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\265_Island.png" id="ARK_265_Island" data-flag="@X" onclick="openSidebar('ARK_265_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\267_Swamp.png" id="ARK_267_Swamp" data-flag="@X" onclick="openSidebar('ARK_267_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\269_Mountain.png" id="ARK_269_Mountain" data-flag="@X" onclick="openSidebar('ARK_269_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\271_Forest.png" id="ARK_271_Forest" data-flag="@X" onclick="openSidebar('ARK_271_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\1t_Human Cleric.png" id="1t_Human Cleric" data-flag="@X" onclick="openSidebar('1t_Human Cleric',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\2t_Human Cleric (B).png" id="2t_Human Cleric (B)" data-flag="@X" onclick="openSidebar('2t_Human Cleric (B)',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\3t_Human Peasant.png" id="3t_Human Peasant" data-flag="@X" onclick="openSidebar('3t_Human Peasant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\4t_Performer.png" id="4t_Performer" data-flag="@X" onclick="openSidebar('4t_Performer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\5t_Horror.png" id="5t_Horror" data-flag="@X" onclick="openSidebar('5t_Horror',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\6t_Human Wizard.png" id="6t_Human Wizard" data-flag="@X" onclick="openSidebar('6t_Human Wizard',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\7t_Mutant.png" id="7t_Mutant" data-flag="@X" onclick="openSidebar('7t_Mutant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\8t_Preach.png" id="8t_Preach" data-flag="@X" onclick="openSidebar('8t_Preach',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\ARK-files\img\9t_ARK Draft Archetypes.png" id="9t_ARK Draft Archetypes" data-flag="@X" onclick="openSidebar('9t_ARK Draft Archetypes',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\1t_Human Cleric.png" id="ARK_1t_Human Cleric" data-flag="@X" onclick="openSidebar('ARK_1t_Human Cleric',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\2t_Human Cleric (B).png" id="ARK_2t_Human Cleric (B)" data-flag="@X" onclick="openSidebar('ARK_2t_Human Cleric (B)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\3t_Human Peasant.png" id="ARK_3t_Human Peasant" data-flag="@X" onclick="openSidebar('ARK_3t_Human Peasant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\4t_Performer.png" id="ARK_4t_Performer" data-flag="@X" onclick="openSidebar('ARK_4t_Performer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\5t_Horror.png" id="ARK_5t_Horror" data-flag="@X" onclick="openSidebar('ARK_5t_Horror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\6t_Human Wizard.png" id="ARK_6t_Human Wizard" data-flag="@X" onclick="openSidebar('ARK_6t_Human Wizard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\7t_Mutant.png" id="ARK_7t_Mutant" data-flag="@X" onclick="openSidebar('ARK_7t_Mutant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\8t_Preach.png" id="ARK_8t_Preach" data-flag="@X" onclick="openSidebar('ARK_8t_Preach',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ARK-files\img\9t_ARK Draft Archetypes.png" id="ARK_9t_ARK Draft Archetypes" data-flag="@X" onclick="openSidebar('ARK_9t_ARK Draft Archetypes',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ARK_e" data-flag="@E" onclick="openSidebar('ARK_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ARK_er" data-flag="@E" onclick="openSidebar('ARK_er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -655,19 +678,111 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 
@@ -702,13 +817,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -862,16 +980,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -881,7 +999,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>

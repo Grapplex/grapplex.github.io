@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/KSH-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/KSH-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>KSH visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
 		@font-face {
 			font-family: Beleren;
-			src: url('/resources/beleren.ttf');
+			src: url('../resources/beleren.ttf');
 		}
 		body {
 			font-family: Arial, sans-serif;
@@ -45,13 +48,15 @@
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -62,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -82,6 +87,7 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
@@ -102,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -118,7 +125,7 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -174,460 +181,476 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/KSH-files/logo.png" />
-	<img class="preload-hidden" src="/sets/TYT-files/icon.png" />
-		<img class="preload-hidden" src="/sets/QYR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/XCO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SSF-files/icon.png" />
-		<img class="preload-hidden" src="/sets/AKI-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MHQ-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ARK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OPH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/CYO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HVY-files/icon.png" />
-		<img class="preload-hidden" src="/sets/CLG-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OVR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HMW-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TAL-files/icon.png" />
-		<img class="preload-hidden" src="/sets/PFG-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SMK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/FSH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HTL-files/icon.png" />
-		<img class="preload-hidden" src="/sets/JMR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SON-files/icon.png" />
-		<img class="preload-hidden" src="/sets/FYF-files/icon.png" />
-		<img class="preload-hidden" src="/sets/APS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/URZ-files/icon.png" />
-		<img class="preload-hidden" src="/sets/666-files/icon.png" />
-		<img class="preload-hidden" src="/sets/FBI-files/icon.png" />
-		<img class="preload-hidden" src="/sets/GRU-files/icon.png" />
-		<img class="preload-hidden" src="/sets/KSH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SPQ-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
-		<img class="preload-hidden" id="bg" src="/sets/KSH-files/bg.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/KSH-files/logo.png" />
+	<img class="preload-hidden" src="../sets/TYT-files/icon.png" />
+		<img class="preload-hidden" src="../sets/QYR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/XCO-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SSF-files/icon.png" />
+		<img class="preload-hidden" src="../sets/AKI-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MHQ-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ARK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/90S-files/icon.png" />
+		<img class="preload-hidden" src="../sets/OPH-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CYO-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HVY-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CLG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/OVR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HMW-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TAL-files/icon.png" />
+		<img class="preload-hidden" src="../sets/PFG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SMK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/FSH-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HTL-files/icon.png" />
+		<img class="preload-hidden" src="../sets/JMR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SON-files/icon.png" />
+		<img class="preload-hidden" src="../sets/FYF-files/icon.png" />
+		<img class="preload-hidden" src="../sets/APS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/URZ-files/icon.png" />
+		<img class="preload-hidden" src="../sets/666-files/icon.png" />
+		<img class="preload-hidden" src="../sets/FBI-files/icon.png" />
+		<img class="preload-hidden" src="../sets/GRU-files/icon.png" />
+		<img class="preload-hidden" src="../sets/KSH-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SPQ-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TGS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/XSK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ELO-files/icon.png" />
+		<img class="preload-hidden" id="bg" src="../sets/KSH-files/bg.png" />
 
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
 
 	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
-		<a class="set-bar" href="KSH"><img src="/sets/KSH-files/icon.png">Kushab: Gods’ Blood</a>
+		<a class="set-bar" href="../previews/KSH"><img src="../sets/KSH-files/icon.png">Kushab: Gods’ Blood</a>
 	
-		<a class="set-bar inactive" href="TYT"><img src="/sets/TYT-files/icon.png">Depths of Tytheus</a>
+		<a class="set-bar inactive" href="../previews/TYT"><img src="../sets/TYT-files/icon.png">Depths of Tytheus</a>
 	
-		<a class="set-bar inactive" href="QYR"><img src="/sets/QYR-files/icon.png">Dreams of Quyrash</a>
+		<a class="set-bar inactive" href="../previews/QYR"><img src="../sets/QYR-files/icon.png">Dreams of Quyrash</a>
 	
-		<a class="set-bar inactive" href="XCO"><img src="/sets/XCO-files/icon.png">Skies Over San Xalco</a>
+		<a class="set-bar inactive" href="../previews/XCO"><img src="../sets/XCO-files/icon.png">Skies Over San Xalco</a>
 	
-		<a class="set-bar inactive" href="SSF"><img src="/sets/SSF-files/icon.png">Shamtar: Search for Fire</a>
+		<a class="set-bar inactive" href="../previews/SSF"><img src="../sets/SSF-files/icon.png">Shamtar: Search for Fire</a>
 	
-		<a class="set-bar inactive" href="AKI"><img src="/sets/AKI-files/icon.png">Akaddi: Empire’s End</a>
+		<a class="set-bar inactive" href="../previews/AKI"><img src="../sets/AKI-files/icon.png">Akaddi: Empire’s End</a>
 	
-		<a class="set-bar inactive" href="MHQ"><img src="/sets/MHQ-files/icon.png">Modern Horizons: Triumph of Qirauz</a>
+		<a class="set-bar inactive" href="../previews/MHQ"><img src="../sets/MHQ-files/icon.png">Modern Horizons: Triumph of Qirauz</a>
 	
-		<a class="set-bar inactive" href="ARK"><img src="/sets/ARK-files/icon.png">Cults of Arkoph</a>
+		<a class="set-bar inactive" href="../previews/ARK"><img src="../sets/ARK-files/icon.png">Cults of Arkoph</a>
 	
-		<a class="set-bar inactive" href="90S"><img src="/sets/90S-files/icon.png">Rath and Storm</a>
+		<a class="set-bar inactive" href="../previews/90S"><img src="../sets/90S-files/icon.png">Rath and Storm</a>
 	
-		<a class="set-bar inactive" href="OPH"><img src="/sets/OPH-files/icon.png">Arkoph: Crisis of Faith</a>
+		<a class="set-bar inactive" href="../previews/OPH"><img src="../sets/OPH-files/icon.png">Arkoph: Crisis of Faith</a>
 	
-		<a class="set-bar inactive" href="CYO"><img src="/sets/CYO-files/icon.png">Chronicles of Yor-Om</a>
+		<a class="set-bar inactive" href="../previews/CYO"><img src="../sets/CYO-files/icon.png">Chronicles of Yor-Om</a>
 	
-		<a class="set-bar inactive" href="HVY"><img src="/sets/HVY-files/icon.png">Heavy Thunder</a>
+		<a class="set-bar inactive" href="../previews/HVY"><img src="../sets/HVY-files/icon.png">Heavy Thunder</a>
 	
-		<a class="set-bar inactive" href="CLG"><img src="/sets/CLG-files/icon.png">Children of Lesser Gods</a>
+		<a class="set-bar inactive" href="../previews/CLG"><img src="../sets/CLG-files/icon.png">Children of Lesser Gods</a>
 	
-		<a class="set-bar inactive" href="OVR"><img src="/sets/OVR-files/icon.png">Overlay</a>
+		<a class="set-bar inactive" href="../previews/OVR"><img src="../sets/OVR-files/icon.png">Overlay</a>
 	
-		<a class="set-bar inactive" href="HMW"><img src="/sets/HMW-files/icon.png">Skand: Heavy Metal War</a>
+		<a class="set-bar inactive" href="../previews/HMW"><img src="../sets/HMW-files/icon.png">Skand: Heavy Metal War</a>
 	
-		<a class="set-bar inactive" href="TAL"><img src="/sets/TAL-files/icon.png">Ulaith: Cos Teilo’s Feast</a>
+		<a class="set-bar inactive" href="../previews/TAL"><img src="../sets/TAL-files/icon.png">Ulaith: Cos Teilo’s Feast</a>
 	
-		<a class="set-bar inactive" href="PFG"><img src="/sets/PFG-files/icon.png">Profondo Giallo</a>
+		<a class="set-bar inactive" href="../previews/PFG"><img src="../sets/PFG-files/icon.png">Profondo Giallo</a>
 	
-		<a class="set-bar inactive" href="SMK"><img src="/sets/SMK-files/icon.png">The Big Smoko</a>
+		<a class="set-bar inactive" href="../previews/SMK"><img src="../sets/SMK-files/icon.png">The Big Smoko</a>
 	
-		<a class="set-bar inactive" href="FSH"><img src="/sets/FSH-files/icon.png">Morstad: City of Shadows</a>
+		<a class="set-bar inactive" href="../previews/FSH"><img src="../sets/FSH-files/icon.png">Morstad: City of Shadows</a>
 	
-		<a class="set-bar inactive" href="HTL"><img src="/sets/HTL-files/icon.png">Heartland of the Real</a>
+		<a class="set-bar inactive" href="../previews/HTL"><img src="../sets/HTL-files/icon.png">Heartland of the Real</a>
 	
-		<a class="set-bar inactive" href="JMR"><img src="/sets/JMR-files/icon.png">Jamuraa: The Mirage War</a>
+		<a class="set-bar inactive" href="../previews/JMR"><img src="../sets/JMR-files/icon.png">Jamuraa: The Mirage War</a>
 	
-		<a class="set-bar inactive" href="SON"><img src="/sets/SON-files/icon.png">Return of the Revenge of the Son of the Terrorscope</a>
+		<a class="set-bar inactive" href="../previews/SON"><img src="../sets/SON-files/icon.png">Return of the Revenge of the Son of the Terrorscope</a>
 	
-		<a class="set-bar inactive" href="FYF"><img src="/sets/FYF-files/icon.png">Yor-Om: Find Your Fate</a>
+		<a class="set-bar inactive" href="../previews/FYF"><img src="../sets/FYF-files/icon.png">Yor-Om: Find Your Fate</a>
 	
-		<a class="set-bar inactive" href="APS"><img src="/sets/APS-files/icon.png">The Apostate of Kushab</a>
+		<a class="set-bar inactive" href="../previews/APS"><img src="../sets/APS-files/icon.png">The Apostate of Kushab</a>
 	
-		<a class="set-bar inactive" href="URZ"><img src="/sets/URZ-files/icon.png">Urza’s Chronicle</a>
+		<a class="set-bar inactive" href="../previews/URZ"><img src="../sets/URZ-files/icon.png">Urza’s Chronicle</a>
 	
-		<a class="set-bar inactive" href="666"><img src="/sets/666-files/icon.png">Circles of Bocacius</a>
+		<a class="set-bar inactive" href="../previews/666"><img src="../sets/666-files/icon.png">Circles of Bocacius</a>
 	
-		<a class="set-bar inactive" href="FBI"><img src="/sets/FBI-files/icon.png">Project Starlight</a>
+		<a class="set-bar inactive" href="../previews/FBI"><img src="../sets/FBI-files/icon.png">Project Starlight</a>
 	
-		<a class="set-bar inactive" href="GRU"><img src="/sets/GRU-files/icon.png">Great Raid of Ulaith</a>
+		<a class="set-bar inactive" href="../previews/GRU"><img src="../sets/GRU-files/icon.png">Great Raid of Ulaith</a>
 	
-		<a class="set-bar inactive" href="SPQ"><img src="/sets/SPQ-files/icon.png">Avicta: Ave Imperator</a>
+		<a class="set-bar inactive" href="../previews/SPQ"><img src="../sets/SPQ-files/icon.png">Avicta: Ave Imperator</a>
 	
-		<a class="set-bar inactive" href="TGS"><img src="/sets/TGS-files/icon.png">Tales from the Grave in Space</a>
+		<a class="set-bar inactive" href="../previews/TGS"><img src="../sets/TGS-files/icon.png">Tales from the Grave in Space</a>
 	
-		<a class="set-bar inactive" href="XSK"><img src="/sets/XSK-files/icon.png">Experiments of Skand</a>
+		<a class="set-bar inactive" href="../previews/XSK"><img src="../sets/XSK-files/icon.png">Experiments of Skand</a>
 	
-		<a class="set-bar inactive" href="ELO"><img src="/sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
+		<a class="set-bar inactive" href="../previews/ELO"><img src="../sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
 	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/KSH-files/logo.png">
+		<img class="logo" src="../sets/KSH-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\20_Herald of Forbiddance.png" id="20_Herald of Forbiddance" data-flag="@X" onclick="openSidebar('20_Herald of Forbiddance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\51_Enter Eternity.png" id="51_Enter Eternity" data-flag="@X" onclick="openSidebar('51_Enter Eternity',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\99_Gorepainted Ritualist.png" id="99_Gorepainted Ritualist" data-flag="@X" onclick="openSidebar('99_Gorepainted Ritualist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\145_Harbinger of the End.png" id="145_Harbinger of the End" data-flag="@X" onclick="openSidebar('145_Harbinger of the End',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\188_Moment of Ascendance.png" id="188_Moment of Ascendance" data-flag="@X" onclick="openSidebar('188_Moment of Ascendance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\37_Shaped by Divinity.png" id="37_Shaped by Divinity" data-flag="@X" onclick="openSidebar('37_Shaped by Divinity',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\71_Pinnacle of Repression.png" id="71_Pinnacle of Repression" data-flag="@X" onclick="openSidebar('71_Pinnacle of Repression',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\124_The Ties that Bind.png" id="124_The Ties that Bind" data-flag="@X" onclick="openSidebar('124_The Ties that Bind',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\150_Nexus of Flesh.png" id="150_Nexus of Flesh" data-flag="@X" onclick="openSidebar('150_Nexus of Flesh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\202_Torrent of Wurms.png" id="202_Torrent of Wurms" data-flag="@X" onclick="openSidebar('202_Torrent of Wurms',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\2_All-Knowing Gaze.png" id="2_All-Knowing Gaze" data-flag="@X" onclick="openSidebar('2_All-Knowing Gaze',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\64_Mabrea, Wisdom Miser.png" id="64_Mabrea, Wisdom Miser" data-flag="@X" onclick="openSidebar('64_Mabrea, Wisdom Miser',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\86_Ascended Acolyte.png" id="86_Ascended Acolyte" data-flag="@X" onclick="openSidebar('86_Ascended Acolyte',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\128_Arcane Idol.png" id="128_Arcane Idol" data-flag="@X" onclick="openSidebar('128_Arcane Idol',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\172_Endweaver.png" id="172_Endweaver" data-flag="@X" onclick="openSidebar('172_Endweaver',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\10_Carve Out.png" id="10_Carve Out" data-flag="@X" onclick="openSidebar('10_Carve Out',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\67_Muse of Disruption.png" id="67_Muse of Disruption" data-flag="@X" onclick="openSidebar('67_Muse of Disruption',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\101_Guilt.png" id="101_Guilt" data-flag="@X" onclick="openSidebar('101_Guilt',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\138_Downward Spiral.png" id="138_Downward Spiral" data-flag="@X" onclick="openSidebar('138_Downward Spiral',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\190_Pick the Bones Clean.png" id="190_Pick the Bones Clean" data-flag="@X" onclick="openSidebar('190_Pick the Bones Clean',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\15_Faith.png" id="15_Faith" data-flag="@X" onclick="openSidebar('15_Faith',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\69_Philosophy.png" id="69_Philosophy" data-flag="@X" onclick="openSidebar('69_Philosophy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\104_Liar's Dominion.png" id="104_Liars Dominion" data-flag="@X" onclick="openSidebar('104_Liars Dominion',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\139_Fierce Hatemonger.png" id="139_Fierce Hatemonger" data-flag="@X" onclick="openSidebar('139_Fierce Hatemonger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\192_Primal Glutton.png" id="192_Primal Glutton" data-flag="@X" onclick="openSidebar('192_Primal Glutton',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\17_Final Gasp.png" id="17_Final Gasp" data-flag="@X" onclick="openSidebar('17_Final Gasp',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\74_Sophist Eikon.png" id="74_Sophist Eikon" data-flag="@X" onclick="openSidebar('74_Sophist Eikon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\106_Merciless Butcher.png" id="106_Merciless Butcher" data-flag="@X" onclick="openSidebar('106_Merciless Butcher',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\143_Gore-Torrent Hellkite.png" id="143_Gore-Torrent Hellkite" data-flag="@X" onclick="openSidebar('143_Gore-Torrent Hellkite',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\194_Ravenous Snapper.png" id="194_Ravenous Snapper" data-flag="@X" onclick="openSidebar('194_Ravenous Snapper',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\28_Over the Face of the Waters.png" id="28_Over the Face of the Waters" data-flag="@X" onclick="openSidebar('28_Over the Face of the Waters',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\78_Time Lacuna.png" id="78_Time Lacuna" data-flag="@X" onclick="openSidebar('78_Time Lacuna',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\108_Mortal Combat.png" id="108_Mortal Combat" data-flag="@X" onclick="openSidebar('108_Mortal Combat',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\147_In the Face of True Power.png" id="147_In the Face of True Power" data-flag="@X" onclick="openSidebar('147_In the Face of True Power',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\196_Sin.png" id="196_Sin" data-flag="@X" onclick="openSidebar('196_Sin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\30_Paragon of Vice.png" id="30_Paragon of Vice" data-flag="@X" onclick="openSidebar('30_Paragon of Vice',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\79_Turbulent Dreams.png" id="79_Turbulent Dreams" data-flag="@X" onclick="openSidebar('79_Turbulent Dreams',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\112_Ocular Vortex.png" id="112_Ocular Vortex" data-flag="@X" onclick="openSidebar('112_Ocular Vortex',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\155_Psalm Chanter.png" id="155_Psalm Chanter" data-flag="@X" onclick="openSidebar('155_Psalm Chanter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\199_Sonata of Creation.png" id="199_Sonata of Creation" data-flag="@X" onclick="openSidebar('199_Sonata of Creation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\38_Solemn Mandator.png" id="38_Solemn Mandator" data-flag="@X" onclick="openSidebar('38_Solemn Mandator',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\80_Unquiet Seas.png" id="80_Unquiet Seas" data-flag="@X" onclick="openSidebar('80_Unquiet Seas',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\119_Slavering Forerunner.png" id="119_Slavering Forerunner" data-flag="@X" onclick="openSidebar('119_Slavering Forerunner',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\159_Shed Mortality.png" id="159_Shed Mortality" data-flag="@X" onclick="openSidebar('159_Shed Mortality',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\204_Tyrant of Filth.png" id="204_Tyrant of Filth" data-flag="@X" onclick="openSidebar('204_Tyrant of Filth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\41_Transcendant Seraph.png" id="41_Transcendant Seraph" data-flag="@X" onclick="openSidebar('41_Transcendant Seraph',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\82_Voiceless Chorister.png" id="82_Voiceless Chorister" data-flag="@X" onclick="openSidebar('82_Voiceless Chorister',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\123_Throne of the Wretched.png" id="123_Throne of the Wretched" data-flag="@X" onclick="openSidebar('123_Throne of the Wretched',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\168_Zeal.png" id="168_Zeal" data-flag="@X" onclick="openSidebar('168_Zeal',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\210_Yawning Chasm.png" id="210_Yawning Chasm" data-flag="@X" onclick="openSidebar('210_Yawning Chasm',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\1_Adorned Exemplar.png" id="1_Adorned Exemplar" data-flag="@X" onclick="openSidebar('1_Adorned Exemplar',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\47_Bonded Fetch.png" id="47_Bonded Fetch" data-flag="@X" onclick="openSidebar('47_Bonded Fetch',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\88_Blood Speaker.png" id="88_Blood Speaker" data-flag="@X" onclick="openSidebar('88_Blood Speaker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\127_Anointed Chosen.png" id="127_Anointed Chosen" data-flag="@X" onclick="openSidebar('127_Anointed Chosen',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\170_Children of Lesser Flesh.png" id="170_Children of Lesser Flesh" data-flag="@X" onclick="openSidebar('170_Children of Lesser Flesh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\3_Ardent Kouropalates.png" id="3_Ardent Kouropalates" data-flag="@X" onclick="openSidebar('3_Ardent Kouropalates',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\48_Breakthrough.png" id="48_Breakthrough" data-flag="@X" onclick="openSidebar('48_Breakthrough',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\90_Cadaver Synod.png" id="90_Cadaver Synod" data-flag="@X" onclick="openSidebar('90_Cadaver Synod',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\131_Bathe in Divinity.png" id="131_Bathe in Divinity" data-flag="@X" onclick="openSidebar('131_Bathe in Divinity',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\173_Erythragennetos.png" id="173_Erythragennetos" data-flag="@X" onclick="openSidebar('173_Erythragennetos',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\4_Ascendance.png" id="4_Ascendance" data-flag="@X" onclick="openSidebar('4_Ascendance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\53_Faceless Ponderer.png" id="53_Faceless Ponderer" data-flag="@X" onclick="openSidebar('53_Faceless Ponderer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\95_Dour Lacerator.png" id="95_Dour Lacerator" data-flag="@X" onclick="openSidebar('95_Dour Lacerator',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\133_Born of Gore.png" id="133_Born of Gore" data-flag="@X" onclick="openSidebar('133_Born of Gore',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\175_Fiend Enslaver.png" id="175_Fiend Enslaver" data-flag="@X" onclick="openSidebar('175_Fiend Enslaver',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\5_Avenger of the First Ones.png" id="5_Avenger of the First Ones" data-flag="@X" onclick="openSidebar('5_Avenger of the First Ones',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\54_Flash of Epiphany.png" id="54_Flash of Epiphany" data-flag="@X" onclick="openSidebar('54_Flash of Epiphany',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\100_Graven Abomination.png" id="100_Graven Abomination" data-flag="@X" onclick="openSidebar('100_Graven Abomination',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\135_Close to Perfection.png" id="135_Close to Perfection" data-flag="@X" onclick="openSidebar('135_Close to Perfection',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\176_Fragment of Ginilla.png" id="176_Fragment of Ginilla" data-flag="@X" onclick="openSidebar('176_Fragment of Ginilla',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\7_Blessings of a Dead God.png" id="7_Blessings of a Dead God" data-flag="@X" onclick="openSidebar('7_Blessings of a Dead God',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\55_Fleshcrafter's Convert.png" id="55_Fleshcrafters Convert" data-flag="@X" onclick="openSidebar('55_Fleshcrafters Convert',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\102_Harvester of the Lost.png" id="102_Harvester of the Lost" data-flag="@X" onclick="openSidebar('102_Harvester of the Lost',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\141_Fleshweb Penitent.png" id="141_Fleshweb Penitent" data-flag="@X" onclick="openSidebar('141_Fleshweb Penitent',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\177_Gaping Colossus.png" id="177_Gaping Colossus" data-flag="@X" onclick="openSidebar('177_Gaping Colossus',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\8_Bonded Scrivener.png" id="8_Bonded Scrivener" data-flag="@X" onclick="openSidebar('8_Bonded Scrivener',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\60_Gore Exemplar.png" id="60_Gore Exemplar" data-flag="@X" onclick="openSidebar('60_Gore Exemplar',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\105_Melancholia.png" id="105_Melancholia" data-flag="@X" onclick="openSidebar('105_Melancholia',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\151_The Number of Fury.png" id="151_The Number of Fury" data-flag="@X" onclick="openSidebar('151_The Number of Fury',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\179_Gods' Grave.png" id="179_Gods Grave" data-flag="@X" onclick="openSidebar('179_Gods Grave',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\24_Legion of the Cold Sun.png" id="24_Legion of the Cold Sun" data-flag="@X" onclick="openSidebar('24_Legion of the Cold Sun',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\65_Mabrea's Scorn.png" id="65_Mabreas Scorn" data-flag="@X" onclick="openSidebar('65_Mabreas Scorn',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\109_Muse of Gluttony.png" id="109_Muse of Gluttony" data-flag="@X" onclick="openSidebar('109_Muse of Gluttony',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\153_Price in Blood.png" id="153_Price in Blood" data-flag="@X" onclick="openSidebar('153_Price in Blood',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\183_The Inevitability of Rot.png" id="183_The Inevitability of Rot" data-flag="@X" onclick="openSidebar('183_The Inevitability of Rot',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\27_The Number of Nothingness.png" id="27_The Number of Nothingness" data-flag="@X" onclick="openSidebar('27_The Number of Nothingness',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\68_The Number of Denial.png" id="68_The Number of Denial" data-flag="@X" onclick="openSidebar('68_The Number of Denial',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\110_Nether Orb.png" id="110_Nether Orb" data-flag="@X" onclick="openSidebar('110_Nether Orb',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\154_Profane Idolator.png" id="154_Profane Idolator" data-flag="@X" onclick="openSidebar('154_Profane Idolator',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\189_The Number of Immortality.png" id="189_The Number of Immortality" data-flag="@X" onclick="openSidebar('189_The Number of Immortality',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\29_Palimpsest.png" id="29_Palimpsest" data-flag="@X" onclick="openSidebar('29_Palimpsest',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\72_Scuttling Ascendant.png" id="72_Scuttling Ascendant" data-flag="@X" onclick="openSidebar('72_Scuttling Ascendant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\111_The Number of Mortality.png" id="111_The Number of Mortality" data-flag="@X" onclick="openSidebar('111_The Number of Mortality',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\160_Sin Is a Good Man's Brother.png" id="160_Sin Is a Good Mans Brother" data-flag="@X" onclick="openSidebar('160_Sin Is a Good Mans Brother',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\197_Sinister Beastcaller.png" id="197_Sinister Beastcaller" data-flag="@X" onclick="openSidebar('197_Sinister Beastcaller',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\32_Perverter of Slumber.png" id="32_Perverter of Slumber" data-flag="@X" onclick="openSidebar('32_Perverter of Slumber',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\76_Stark Monolith.png" id="76_Stark Monolith" data-flag="@X" onclick="openSidebar('76_Stark Monolith',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\113_Pentimento.png" id="113_Pentimento" data-flag="@X" onclick="openSidebar('113_Pentimento',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\162_The Sins of Impure Blood.png" id="162_The Sins of Impure Blood" data-flag="@X" onclick="openSidebar('162_The Sins of Impure Blood',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\198_Solemn Hesychast.png" id="198_Solemn Hesychast" data-flag="@X" onclick="openSidebar('198_Solemn Hesychast',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\36_Shackled Sacrifice.png" id="36_Shackled Sacrifice" data-flag="@X" onclick="openSidebar('36_Shackled Sacrifice',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\77_Thrice Damned.png" id="77_Thrice Damned" data-flag="@X" onclick="openSidebar('77_Thrice Damned',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\116_Ren's Decree.png" id="116_Rens Decree" data-flag="@X" onclick="openSidebar('116_Rens Decree',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\164_Sotak's Cleaver.png" id="164_Sotaks Cleaver" data-flag="@X" onclick="openSidebar('164_Sotaks Cleaver',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\200_Subservience through Faith.png" id="200_Subservience through Faith" data-flag="@X" onclick="openSidebar('200_Subservience through Faith',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\39_Torrent of Fury.png" id="39_Torrent of Fury" data-flag="@X" onclick="openSidebar('39_Torrent of Fury',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\81_Vision of the First Ones.png" id="81_Vision of the First Ones" data-flag="@X" onclick="openSidebar('81_Vision of the First Ones',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\122_Squealing Revel.png" id="122_Squealing Revel" data-flag="@X" onclick="openSidebar('122_Squealing Revel',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\165_Spine of God.png" id="165_Spine of God" data-flag="@X" onclick="openSidebar('165_Spine of God',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\201_To Mega Therion.png" id="201_To Mega Therion" data-flag="@X" onclick="openSidebar('201_To Mega Therion',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\40_Touch Eternity.png" id="40_Touch Eternity" data-flag="@X" onclick="openSidebar('40_Touch Eternity',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\84_Wizened Disciple.png" id="84_Wizened Disciple" data-flag="@X" onclick="openSidebar('84_Wizened Disciple',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\125_Unclean Hands.png" id="125_Unclean Hands" data-flag="@X" onclick="openSidebar('125_Unclean Hands',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\166_Viscera Eater.png" id="166_Viscera Eater" data-flag="@X" onclick="openSidebar('166_Viscera Eater',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\209_Wrought from Suffering.png" id="209_Wrought from Suffering" data-flag="@X" onclick="openSidebar('209_Wrought from Suffering',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\6_Banishing Edict.png" id="6_Banishing Edict" data-flag="@X" onclick="openSidebar('6_Banishing Edict',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\43_Acolyte of Mabrea.png" id="43_Acolyte of Mabrea" data-flag="@X" onclick="openSidebar('43_Acolyte of Mabrea',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\85_Ancient Offering.png" id="85_Ancient Offering" data-flag="@X" onclick="openSidebar('85_Ancient Offering',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\129_Ashen Penitant.png" id="129_Ashen Penitant" data-flag="@X" onclick="openSidebar('129_Ashen Penitant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\169_Carrion Goliath.png" id="169_Carrion Goliath" data-flag="@X" onclick="openSidebar('169_Carrion Goliath',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\9_Breathweaver Acolyte.png" id="9_Breathweaver Acolyte" data-flag="@X" onclick="openSidebar('9_Breathweaver Acolyte',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\44_Acrid Incense.png" id="44_Acrid Incense" data-flag="@X" onclick="openSidebar('44_Acrid Incense',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\87_Beseech the Tyrant.png" id="87_Beseech the Tyrant" data-flag="@X" onclick="openSidebar('87_Beseech the Tyrant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\130_Basal Armillary.png" id="130_Basal Armillary" data-flag="@X" onclick="openSidebar('130_Basal Armillary',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\171_Devotee of Ginilla.png" id="171_Devotee of Ginilla" data-flag="@X" onclick="openSidebar('171_Devotee of Ginilla',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\11_Deathmask Cultist.png" id="11_Deathmask Cultist" data-flag="@X" onclick="openSidebar('11_Deathmask Cultist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\45_Afflicted Failure.png" id="45_Afflicted Failure" data-flag="@X" onclick="openSidebar('45_Afflicted Failure',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\89_Blossoming Corpse.png" id="89_Blossoming Corpse" data-flag="@X" onclick="openSidebar('89_Blossoming Corpse',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\132_Blasphemous Heat.png" id="132_Blasphemous Heat" data-flag="@X" onclick="openSidebar('132_Blasphemous Heat',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\174_Faithless Ogre.png" id="174_Faithless Ogre" data-flag="@X" onclick="openSidebar('174_Faithless Ogre',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\12_Departing Soul.png" id="12_Departing Soul" data-flag="@X" onclick="openSidebar('12_Departing Soul',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\46_Bloodless Winter.png" id="46_Bloodless Winter" data-flag="@X" onclick="openSidebar('46_Bloodless Winter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\91_Certain Death.png" id="91_Certain Death" data-flag="@X" onclick="openSidebar('91_Certain Death',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\134_Burning Shade.png" id="134_Burning Shade" data-flag="@X" onclick="openSidebar('134_Burning Shade',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\178_Gnarled Wastrel.png" id="178_Gnarled Wastrel" data-flag="@X" onclick="openSidebar('178_Gnarled Wastrel',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\13_Empty Prayer.png" id="13_Empty Prayer" data-flag="@X" onclick="openSidebar('13_Empty Prayer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\49_Depths of Despair.png" id="49_Depths of Despair" data-flag="@X" onclick="openSidebar('49_Depths of Despair',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\92_Crumbling Corpse.png" id="92_Crumbling Corpse" data-flag="@X" onclick="openSidebar('92_Crumbling Corpse',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\136_Crimson Cultist.png" id="136_Crimson Cultist" data-flag="@X" onclick="openSidebar('136_Crimson Cultist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\180_Gore-Fed Guardian.png" id="180_Gore-Fed Guardian" data-flag="@X" onclick="openSidebar('180_Gore-Fed Guardian',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\14_Faceless Executioner.png" id="14_Faceless Executioner" data-flag="@X" onclick="openSidebar('14_Faceless Executioner',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\50_Devotee of Pain.png" id="50_Devotee of Pain" data-flag="@X" onclick="openSidebar('50_Devotee of Pain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\93_Deathblade Trainee.png" id="93_Deathblade Trainee" data-flag="@X" onclick="openSidebar('93_Deathblade Trainee',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\137_Disciple of Sotak.png" id="137_Disciple of Sotak" data-flag="@X" onclick="openSidebar('137_Disciple of Sotak',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\181_Grim Anchorite.png" id="181_Grim Anchorite" data-flag="@X" onclick="openSidebar('181_Grim Anchorite',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\16_Fate of the Bloodless.png" id="16_Fate of the Bloodless" data-flag="@X" onclick="openSidebar('16_Fate of the Bloodless',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\52_Exultant Cultist.png" id="52_Exultant Cultist" data-flag="@X" onclick="openSidebar('52_Exultant Cultist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\94_Devour the Young.png" id="94_Devour the Young" data-flag="@X" onclick="openSidebar('94_Devour the Young',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\140_Flesh-Mad Savage.png" id="140_Flesh-Mad Savage" data-flag="@X" onclick="openSidebar('140_Flesh-Mad Savage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\182_Guttural Outcast.png" id="182_Guttural Outcast" data-flag="@X" onclick="openSidebar('182_Guttural Outcast',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\18_Golden Light.png" id="18_Golden Light" data-flag="@X" onclick="openSidebar('18_Golden Light',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\56_Foreboding Skies.png" id="56_Foreboding Skies" data-flag="@X" onclick="openSidebar('56_Foreboding Skies',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\96_Forge from Flesh.png" id="96_Forge from Flesh" data-flag="@X" onclick="openSidebar('96_Forge from Flesh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\142_Gore Feeder.png" id="142_Gore Feeder" data-flag="@X" onclick="openSidebar('142_Gore Feeder',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\184_Infernal Gyre.png" id="184_Infernal Gyre" data-flag="@X" onclick="openSidebar('184_Infernal Gyre',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\19_Harried Ancient.png" id="19_Harried Ancient" data-flag="@X" onclick="openSidebar('19_Harried Ancient',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\57_Frozen Blood.png" id="57_Frozen Blood" data-flag="@X" onclick="openSidebar('57_Frozen Blood',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\97_Gateway to Forever.png" id="97_Gateway to Forever" data-flag="@X" onclick="openSidebar('97_Gateway to Forever',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\144_Gorebound Fetch.png" id="144_Gorebound Fetch" data-flag="@X" onclick="openSidebar('144_Gorebound Fetch',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\185_Into the Dark.png" id="185_Into the Dark" data-flag="@X" onclick="openSidebar('185_Into the Dark',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\21_Humble Supplicant.png" id="21_Humble Supplicant" data-flag="@X" onclick="openSidebar('21_Humble Supplicant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\58_God-Watched Acolyte.png" id="58_God-Watched Acolyte" data-flag="@X" onclick="openSidebar('58_God-Watched Acolyte',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\98_Gnarled Penitent.png" id="98_Gnarled Penitent" data-flag="@X" onclick="openSidebar('98_Gnarled Penitent',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\146_Immolation.png" id="146_Immolation" data-flag="@X" onclick="openSidebar('146_Immolation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\186_Invoke the Congregants.png" id="186_Invoke the Congregants" data-flag="@X" onclick="openSidebar('186_Invoke the Congregants',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\22_Ineffable Incense.png" id="22_Ineffable Incense" data-flag="@X" onclick="openSidebar('22_Ineffable Incense',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\59_Godblood Font.png" id="59_Godblood Font" data-flag="@X" onclick="openSidebar('59_Godblood Font',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\103_It from Beneath.png" id="103_It from Beneath" data-flag="@X" onclick="openSidebar('103_It from Beneath',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\148_Knight of Ruin.png" id="148_Knight of Ruin" data-flag="@X" onclick="openSidebar('148_Knight of Ruin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\187_Merciless Nature.png" id="187_Merciless Nature" data-flag="@X" onclick="openSidebar('187_Merciless Nature',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\23_Journeying Pilgrim.png" id="23_Journeying Pilgrim" data-flag="@X" onclick="openSidebar('23_Journeying Pilgrim',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\61_Great Worm's Progeny.png" id="61_Great Worms Progeny" data-flag="@X" onclick="openSidebar('61_Great Worms Progeny',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\107_Mind Feast.png" id="107_Mind Feast" data-flag="@X" onclick="openSidebar('107_Mind Feast',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\149_Libation of Gore.png" id="149_Libation of Gore" data-flag="@X" onclick="openSidebar('149_Libation of Gore',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\191_Pillars of Tomorrow.png" id="191_Pillars of Tomorrow" data-flag="@X" onclick="openSidebar('191_Pillars of Tomorrow',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\25_Nightghost's Howl.png" id="25_Nightghosts Howl" data-flag="@X" onclick="openSidebar('25_Nightghosts Howl',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\62_Grim Iconoclast.png" id="62_Grim Iconoclast" data-flag="@X" onclick="openSidebar('62_Grim Iconoclast',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\114_Raven's Reaver.png" id="114_Ravens Reaver" data-flag="@X" onclick="openSidebar('114_Ravens Reaver',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\152_Outrider of Sotak.png" id="152_Outrider of Sotak" data-flag="@X" onclick="openSidebar('152_Outrider of Sotak',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\193_Primal Pontiff.png" id="193_Primal Pontiff" data-flag="@X" onclick="openSidebar('193_Primal Pontiff',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\26_Night's Harbinger.png" id="26_Nights Harbinger" data-flag="@X" onclick="openSidebar('26_Nights Harbinger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\63_Knight of Wrack.png" id="63_Knight of Wrack" data-flag="@X" onclick="openSidebar('63_Knight of Wrack',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\115_Reaper of Sotak.png" id="115_Reaper of Sotak" data-flag="@X" onclick="openSidebar('115_Reaper of Sotak',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\156_Sacrament of Filth.png" id="156_Sacrament of Filth" data-flag="@X" onclick="openSidebar('156_Sacrament of Filth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\195_Shattered Spurs.png" id="195_Shattered Spurs" data-flag="@X" onclick="openSidebar('195_Shattered Spurs',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\31_Parasitic Strix.png" id="31_Parasitic Strix" data-flag="@X" onclick="openSidebar('31_Parasitic Strix',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\66_Memory of Failure.png" id="66_Memory of Failure" data-flag="@X" onclick="openSidebar('66_Memory of Failure',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\117_Shadow of the First Ones.png" id="117_Shadow of the First Ones" data-flag="@X" onclick="openSidebar('117_Shadow of the First Ones',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\157_Sanguine Blade.png" id="157_Sanguine Blade" data-flag="@X" onclick="openSidebar('157_Sanguine Blade',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\203_Tortured Earth.png" id="203_Tortured Earth" data-flag="@X" onclick="openSidebar('203_Tortured Earth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\33_Reach through Eternity.png" id="33_Reach through Eternity" data-flag="@X" onclick="openSidebar('33_Reach through Eternity',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\70_Pillar of Smoke.png" id="70_Pillar of Smoke" data-flag="@X" onclick="openSidebar('70_Pillar of Smoke',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\118_Shaper of Pain.png" id="118_Shaper of Pain" data-flag="@X" onclick="openSidebar('118_Shaper of Pain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\158_Shackled Sun.png" id="158_Shackled Sun" data-flag="@X" onclick="openSidebar('158_Shackled Sun',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\205_Vanish into Mortality.png" id="205_Vanish into Mortality" data-flag="@X" onclick="openSidebar('205_Vanish into Mortality',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\34_Sacred Riteknife.png" id="34_Sacred Riteknife" data-flag="@X" onclick="openSidebar('34_Sacred Riteknife',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\73_Sink into Shadow.png" id="73_Sink into Shadow" data-flag="@X" onclick="openSidebar('73_Sink into Shadow',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\120_Smite the Gods.png" id="120_Smite the Gods" data-flag="@X" onclick="openSidebar('120_Smite the Gods',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\161_Sinister Bloodsong.png" id="161_Sinister Bloodsong" data-flag="@X" onclick="openSidebar('161_Sinister Bloodsong',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\206_Vengeance Incarnate.png" id="206_Vengeance Incarnate" data-flag="@X" onclick="openSidebar('206_Vengeance Incarnate',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\35_Sacrificial Ghoul.png" id="35_Sacrificial Ghoul" data-flag="@X" onclick="openSidebar('35_Sacrificial Ghoul',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\75_Soulstorm.png" id="75_Soulstorm" data-flag="@X" onclick="openSidebar('75_Soulstorm',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\121_Sotak's Huntsman.png" id="121_Sotaks Huntsman" data-flag="@X" onclick="openSidebar('121_Sotaks Huntsman',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\163_Sotak's Bloodfire.png" id="163_Sotaks Bloodfire" data-flag="@X" onclick="openSidebar('163_Sotaks Bloodfire',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\207_Will of the Supplicants.png" id="207_Will of the Supplicants" data-flag="@X" onclick="openSidebar('207_Will of the Supplicants',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\42_Vision of the Blessed.png" id="42_Vision of the Blessed" data-flag="@X" onclick="openSidebar('42_Vision of the Blessed',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\83_Wingbeat Dreamer.png" id="83_Wingbeat Dreamer" data-flag="@X" onclick="openSidebar('83_Wingbeat Dreamer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\126_Veil of Beyond.png" id="126_Veil of Beyond" data-flag="@X" onclick="openSidebar('126_Veil of Beyond',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\167_Viscera Thrasher.png" id="167_Viscera Thrasher" data-flag="@X" onclick="openSidebar('167_Viscera Thrasher',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\208_Withered Godhead.png" id="208_Withered Godhead" data-flag="@X" onclick="openSidebar('208_Withered Godhead',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\KSH-files\img\20_Herald of Forbiddance.png" id="KSH_20_Herald of Forbiddance" data-flag="@X" onclick="openSidebar('KSH_20_Herald of Forbiddance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\51_Enter Eternity.png" id="KSH_51_Enter Eternity" data-flag="@X" onclick="openSidebar('KSH_51_Enter Eternity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\99_Gorepainted Ritualist.png" id="KSH_99_Gorepainted Ritualist" data-flag="@X" onclick="openSidebar('KSH_99_Gorepainted Ritualist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\145_Harbinger of the End.png" id="KSH_145_Harbinger of the End" data-flag="@X" onclick="openSidebar('KSH_145_Harbinger of the End',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\188_Moment of Ascendance.png" id="KSH_188_Moment of Ascendance" data-flag="@X" onclick="openSidebar('KSH_188_Moment of Ascendance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\37_Shaped by Divinity.png" id="KSH_37_Shaped by Divinity" data-flag="@X" onclick="openSidebar('KSH_37_Shaped by Divinity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\71_Pinnacle of Repression.png" id="KSH_71_Pinnacle of Repression" data-flag="@X" onclick="openSidebar('KSH_71_Pinnacle of Repression',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\124_The Ties that Bind.png" id="KSH_124_The Ties that Bind" data-flag="@X" onclick="openSidebar('KSH_124_The Ties that Bind',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\150_Nexus of Flesh.png" id="KSH_150_Nexus of Flesh" data-flag="@X" onclick="openSidebar('KSH_150_Nexus of Flesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\202_Torrent of Wurms.png" id="KSH_202_Torrent of Wurms" data-flag="@X" onclick="openSidebar('KSH_202_Torrent of Wurms',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\2_All-Knowing Gaze.png" id="KSH_2_All-Knowing Gaze" data-flag="@X" onclick="openSidebar('KSH_2_All-Knowing Gaze',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\64_Mabrea, Wisdom Miser.png" id="KSH_64_Mabrea, Wisdom Miser" data-flag="@X" onclick="openSidebar('KSH_64_Mabrea, Wisdom Miser',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\86_Ascended Acolyte.png" id="KSH_86_Ascended Acolyte" data-flag="@X" onclick="openSidebar('KSH_86_Ascended Acolyte',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\128_Arcane Idol.png" id="KSH_128_Arcane Idol" data-flag="@X" onclick="openSidebar('KSH_128_Arcane Idol',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\172_Endweaver.png" id="KSH_172_Endweaver" data-flag="@X" onclick="openSidebar('KSH_172_Endweaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\10_Carve Out.png" id="KSH_10_Carve Out" data-flag="@X" onclick="openSidebar('KSH_10_Carve Out',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\67_Muse of Disruption.png" id="KSH_67_Muse of Disruption" data-flag="@X" onclick="openSidebar('KSH_67_Muse of Disruption',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\101_Guilt.png" id="KSH_101_Guilt" data-flag="@X" onclick="openSidebar('KSH_101_Guilt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\138_Downward Spiral.png" id="KSH_138_Downward Spiral" data-flag="@X" onclick="openSidebar('KSH_138_Downward Spiral',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\190_Pick the Bones Clean.png" id="KSH_190_Pick the Bones Clean" data-flag="@X" onclick="openSidebar('KSH_190_Pick the Bones Clean',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\15_Faith.png" id="KSH_15_Faith" data-flag="@X" onclick="openSidebar('KSH_15_Faith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\69_Philosophy.png" id="KSH_69_Philosophy" data-flag="@X" onclick="openSidebar('KSH_69_Philosophy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\104_Liar's Dominion.png" id="KSH_104_Liars Dominion" data-flag="@X" onclick="openSidebar('KSH_104_Liars Dominion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\139_Fierce Hatemonger.png" id="KSH_139_Fierce Hatemonger" data-flag="@X" onclick="openSidebar('KSH_139_Fierce Hatemonger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\192_Primal Glutton.png" id="KSH_192_Primal Glutton" data-flag="@X" onclick="openSidebar('KSH_192_Primal Glutton',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\17_Final Gasp.png" id="KSH_17_Final Gasp" data-flag="@X" onclick="openSidebar('KSH_17_Final Gasp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\74_Sophist Eikon.png" id="KSH_74_Sophist Eikon" data-flag="@X" onclick="openSidebar('KSH_74_Sophist Eikon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\106_Merciless Butcher.png" id="KSH_106_Merciless Butcher" data-flag="@X" onclick="openSidebar('KSH_106_Merciless Butcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\143_Gore-Torrent Hellkite.png" id="KSH_143_Gore-Torrent Hellkite" data-flag="@X" onclick="openSidebar('KSH_143_Gore-Torrent Hellkite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\194_Ravenous Snapper.png" id="KSH_194_Ravenous Snapper" data-flag="@X" onclick="openSidebar('KSH_194_Ravenous Snapper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\28_Over the Face of the Waters.png" id="KSH_28_Over the Face of the Waters" data-flag="@X" onclick="openSidebar('KSH_28_Over the Face of the Waters',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\78_Time Lacuna.png" id="KSH_78_Time Lacuna" data-flag="@X" onclick="openSidebar('KSH_78_Time Lacuna',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\108_Mortal Combat.png" id="KSH_108_Mortal Combat" data-flag="@X" onclick="openSidebar('KSH_108_Mortal Combat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\147_In the Face of True Power.png" id="KSH_147_In the Face of True Power" data-flag="@X" onclick="openSidebar('KSH_147_In the Face of True Power',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\196_Sin.png" id="KSH_196_Sin" data-flag="@X" onclick="openSidebar('KSH_196_Sin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\30_Paragon of Vice.png" id="KSH_30_Paragon of Vice" data-flag="@X" onclick="openSidebar('KSH_30_Paragon of Vice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\79_Turbulent Dreams.png" id="KSH_79_Turbulent Dreams" data-flag="@X" onclick="openSidebar('KSH_79_Turbulent Dreams',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\112_Ocular Vortex.png" id="KSH_112_Ocular Vortex" data-flag="@X" onclick="openSidebar('KSH_112_Ocular Vortex',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\155_Psalm Chanter.png" id="KSH_155_Psalm Chanter" data-flag="@X" onclick="openSidebar('KSH_155_Psalm Chanter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\199_Sonata of Creation.png" id="KSH_199_Sonata of Creation" data-flag="@X" onclick="openSidebar('KSH_199_Sonata of Creation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\38_Solemn Mandator.png" id="KSH_38_Solemn Mandator" data-flag="@X" onclick="openSidebar('KSH_38_Solemn Mandator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\80_Unquiet Seas.png" id="KSH_80_Unquiet Seas" data-flag="@X" onclick="openSidebar('KSH_80_Unquiet Seas',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\119_Slavering Forerunner.png" id="KSH_119_Slavering Forerunner" data-flag="@X" onclick="openSidebar('KSH_119_Slavering Forerunner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\159_Shed Mortality.png" id="KSH_159_Shed Mortality" data-flag="@X" onclick="openSidebar('KSH_159_Shed Mortality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\204_Tyrant of Filth.png" id="KSH_204_Tyrant of Filth" data-flag="@X" onclick="openSidebar('KSH_204_Tyrant of Filth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\41_Transcendant Seraph.png" id="KSH_41_Transcendant Seraph" data-flag="@X" onclick="openSidebar('KSH_41_Transcendant Seraph',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\82_Voiceless Chorister.png" id="KSH_82_Voiceless Chorister" data-flag="@X" onclick="openSidebar('KSH_82_Voiceless Chorister',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\123_Throne of the Wretched.png" id="KSH_123_Throne of the Wretched" data-flag="@X" onclick="openSidebar('KSH_123_Throne of the Wretched',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\168_Zeal.png" id="KSH_168_Zeal" data-flag="@X" onclick="openSidebar('KSH_168_Zeal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\210_Yawning Chasm.png" id="KSH_210_Yawning Chasm" data-flag="@X" onclick="openSidebar('KSH_210_Yawning Chasm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\1_Adorned Exemplar.png" id="KSH_1_Adorned Exemplar" data-flag="@X" onclick="openSidebar('KSH_1_Adorned Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\47_Bonded Fetch.png" id="KSH_47_Bonded Fetch" data-flag="@X" onclick="openSidebar('KSH_47_Bonded Fetch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\88_Blood Speaker.png" id="KSH_88_Blood Speaker" data-flag="@X" onclick="openSidebar('KSH_88_Blood Speaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\127_Anointed Chosen.png" id="KSH_127_Anointed Chosen" data-flag="@X" onclick="openSidebar('KSH_127_Anointed Chosen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\170_Children of Lesser Flesh.png" id="KSH_170_Children of Lesser Flesh" data-flag="@X" onclick="openSidebar('KSH_170_Children of Lesser Flesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\3_Ardent Kouropalates.png" id="KSH_3_Ardent Kouropalates" data-flag="@X" onclick="openSidebar('KSH_3_Ardent Kouropalates',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\48_Breakthrough.png" id="KSH_48_Breakthrough" data-flag="@X" onclick="openSidebar('KSH_48_Breakthrough',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\90_Cadaver Synod.png" id="KSH_90_Cadaver Synod" data-flag="@X" onclick="openSidebar('KSH_90_Cadaver Synod',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\131_Bathe in Divinity.png" id="KSH_131_Bathe in Divinity" data-flag="@X" onclick="openSidebar('KSH_131_Bathe in Divinity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\173_Erythragennetos.png" id="KSH_173_Erythragennetos" data-flag="@X" onclick="openSidebar('KSH_173_Erythragennetos',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\4_Ascendance.png" id="KSH_4_Ascendance" data-flag="@X" onclick="openSidebar('KSH_4_Ascendance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\53_Faceless Ponderer.png" id="KSH_53_Faceless Ponderer" data-flag="@X" onclick="openSidebar('KSH_53_Faceless Ponderer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\95_Dour Lacerator.png" id="KSH_95_Dour Lacerator" data-flag="@X" onclick="openSidebar('KSH_95_Dour Lacerator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\133_Born of Gore.png" id="KSH_133_Born of Gore" data-flag="@X" onclick="openSidebar('KSH_133_Born of Gore',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\175_Fiend Enslaver.png" id="KSH_175_Fiend Enslaver" data-flag="@X" onclick="openSidebar('KSH_175_Fiend Enslaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\5_Avenger of the First Ones.png" id="KSH_5_Avenger of the First Ones" data-flag="@X" onclick="openSidebar('KSH_5_Avenger of the First Ones',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\54_Flash of Epiphany.png" id="KSH_54_Flash of Epiphany" data-flag="@X" onclick="openSidebar('KSH_54_Flash of Epiphany',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\100_Graven Abomination.png" id="KSH_100_Graven Abomination" data-flag="@X" onclick="openSidebar('KSH_100_Graven Abomination',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\135_Close to Perfection.png" id="KSH_135_Close to Perfection" data-flag="@X" onclick="openSidebar('KSH_135_Close to Perfection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\176_Fragment of Ginilla.png" id="KSH_176_Fragment of Ginilla" data-flag="@X" onclick="openSidebar('KSH_176_Fragment of Ginilla',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\7_Blessings of a Dead God.png" id="KSH_7_Blessings of a Dead God" data-flag="@X" onclick="openSidebar('KSH_7_Blessings of a Dead God',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\55_Fleshcrafter's Convert.png" id="KSH_55_Fleshcrafters Convert" data-flag="@X" onclick="openSidebar('KSH_55_Fleshcrafters Convert',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\102_Harvester of the Lost.png" id="KSH_102_Harvester of the Lost" data-flag="@X" onclick="openSidebar('KSH_102_Harvester of the Lost',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\141_Fleshweb Penitent.png" id="KSH_141_Fleshweb Penitent" data-flag="@X" onclick="openSidebar('KSH_141_Fleshweb Penitent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\177_Gaping Colossus.png" id="KSH_177_Gaping Colossus" data-flag="@X" onclick="openSidebar('KSH_177_Gaping Colossus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\8_Bonded Scrivener.png" id="KSH_8_Bonded Scrivener" data-flag="@X" onclick="openSidebar('KSH_8_Bonded Scrivener',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\60_Gore Exemplar.png" id="KSH_60_Gore Exemplar" data-flag="@X" onclick="openSidebar('KSH_60_Gore Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\105_Melancholia.png" id="KSH_105_Melancholia" data-flag="@X" onclick="openSidebar('KSH_105_Melancholia',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\151_The Number of Fury.png" id="KSH_151_The Number of Fury" data-flag="@X" onclick="openSidebar('KSH_151_The Number of Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\179_Gods' Grave.png" id="KSH_179_Gods Grave" data-flag="@X" onclick="openSidebar('KSH_179_Gods Grave',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\24_Legion of the Cold Sun.png" id="KSH_24_Legion of the Cold Sun" data-flag="@X" onclick="openSidebar('KSH_24_Legion of the Cold Sun',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\65_Mabrea's Scorn.png" id="KSH_65_Mabreas Scorn" data-flag="@X" onclick="openSidebar('KSH_65_Mabreas Scorn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\109_Muse of Gluttony.png" id="KSH_109_Muse of Gluttony" data-flag="@X" onclick="openSidebar('KSH_109_Muse of Gluttony',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\153_Price in Blood.png" id="KSH_153_Price in Blood" data-flag="@X" onclick="openSidebar('KSH_153_Price in Blood',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\183_The Inevitability of Rot.png" id="KSH_183_The Inevitability of Rot" data-flag="@X" onclick="openSidebar('KSH_183_The Inevitability of Rot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\27_The Number of Nothingness.png" id="KSH_27_The Number of Nothingness" data-flag="@X" onclick="openSidebar('KSH_27_The Number of Nothingness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\68_The Number of Denial.png" id="KSH_68_The Number of Denial" data-flag="@X" onclick="openSidebar('KSH_68_The Number of Denial',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\110_Nether Orb.png" id="KSH_110_Nether Orb" data-flag="@X" onclick="openSidebar('KSH_110_Nether Orb',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\154_Profane Idolator.png" id="KSH_154_Profane Idolator" data-flag="@X" onclick="openSidebar('KSH_154_Profane Idolator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\189_The Number of Immortality.png" id="KSH_189_The Number of Immortality" data-flag="@X" onclick="openSidebar('KSH_189_The Number of Immortality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\29_Palimpsest.png" id="KSH_29_Palimpsest" data-flag="@X" onclick="openSidebar('KSH_29_Palimpsest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\72_Scuttling Ascendant.png" id="KSH_72_Scuttling Ascendant" data-flag="@X" onclick="openSidebar('KSH_72_Scuttling Ascendant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\111_The Number of Mortality.png" id="KSH_111_The Number of Mortality" data-flag="@X" onclick="openSidebar('KSH_111_The Number of Mortality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\160_Sin Is a Good Man's Brother.png" id="KSH_160_Sin Is a Good Mans Brother" data-flag="@X" onclick="openSidebar('KSH_160_Sin Is a Good Mans Brother',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\197_Sinister Beastcaller.png" id="KSH_197_Sinister Beastcaller" data-flag="@X" onclick="openSidebar('KSH_197_Sinister Beastcaller',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\32_Perverter of Slumber.png" id="KSH_32_Perverter of Slumber" data-flag="@X" onclick="openSidebar('KSH_32_Perverter of Slumber',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\76_Stark Monolith.png" id="KSH_76_Stark Monolith" data-flag="@X" onclick="openSidebar('KSH_76_Stark Monolith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\113_Pentimento.png" id="KSH_113_Pentimento" data-flag="@X" onclick="openSidebar('KSH_113_Pentimento',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\162_The Sins of Impure Blood.png" id="KSH_162_The Sins of Impure Blood" data-flag="@X" onclick="openSidebar('KSH_162_The Sins of Impure Blood',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\198_Solemn Hesychast.png" id="KSH_198_Solemn Hesychast" data-flag="@X" onclick="openSidebar('KSH_198_Solemn Hesychast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\36_Shackled Sacrifice.png" id="KSH_36_Shackled Sacrifice" data-flag="@X" onclick="openSidebar('KSH_36_Shackled Sacrifice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\77_Thrice Damned.png" id="KSH_77_Thrice Damned" data-flag="@X" onclick="openSidebar('KSH_77_Thrice Damned',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\116_Ren's Decree.png" id="KSH_116_Rens Decree" data-flag="@X" onclick="openSidebar('KSH_116_Rens Decree',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\164_Sotak's Cleaver.png" id="KSH_164_Sotaks Cleaver" data-flag="@X" onclick="openSidebar('KSH_164_Sotaks Cleaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\200_Subservience through Faith.png" id="KSH_200_Subservience through Faith" data-flag="@X" onclick="openSidebar('KSH_200_Subservience through Faith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\39_Torrent of Fury.png" id="KSH_39_Torrent of Fury" data-flag="@X" onclick="openSidebar('KSH_39_Torrent of Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\81_Vision of the First Ones.png" id="KSH_81_Vision of the First Ones" data-flag="@X" onclick="openSidebar('KSH_81_Vision of the First Ones',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\122_Squealing Revel.png" id="KSH_122_Squealing Revel" data-flag="@X" onclick="openSidebar('KSH_122_Squealing Revel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\165_Spine of God.png" id="KSH_165_Spine of God" data-flag="@X" onclick="openSidebar('KSH_165_Spine of God',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\201_To Mega Therion.png" id="KSH_201_To Mega Therion" data-flag="@X" onclick="openSidebar('KSH_201_To Mega Therion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\40_Touch Eternity.png" id="KSH_40_Touch Eternity" data-flag="@X" onclick="openSidebar('KSH_40_Touch Eternity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\84_Wizened Disciple.png" id="KSH_84_Wizened Disciple" data-flag="@X" onclick="openSidebar('KSH_84_Wizened Disciple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\125_Unclean Hands.png" id="KSH_125_Unclean Hands" data-flag="@X" onclick="openSidebar('KSH_125_Unclean Hands',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\166_Viscera Eater.png" id="KSH_166_Viscera Eater" data-flag="@X" onclick="openSidebar('KSH_166_Viscera Eater',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\209_Wrought from Suffering.png" id="KSH_209_Wrought from Suffering" data-flag="@X" onclick="openSidebar('KSH_209_Wrought from Suffering',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\6_Banishing Edict.png" id="KSH_6_Banishing Edict" data-flag="@X" onclick="openSidebar('KSH_6_Banishing Edict',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\43_Acolyte of Mabrea.png" id="KSH_43_Acolyte of Mabrea" data-flag="@X" onclick="openSidebar('KSH_43_Acolyte of Mabrea',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\85_Ancient Offering.png" id="KSH_85_Ancient Offering" data-flag="@X" onclick="openSidebar('KSH_85_Ancient Offering',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\129_Ashen Penitant.png" id="KSH_129_Ashen Penitant" data-flag="@X" onclick="openSidebar('KSH_129_Ashen Penitant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\169_Carrion Goliath.png" id="KSH_169_Carrion Goliath" data-flag="@X" onclick="openSidebar('KSH_169_Carrion Goliath',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\9_Breathweaver Acolyte.png" id="KSH_9_Breathweaver Acolyte" data-flag="@X" onclick="openSidebar('KSH_9_Breathweaver Acolyte',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\44_Acrid Incense.png" id="KSH_44_Acrid Incense" data-flag="@X" onclick="openSidebar('KSH_44_Acrid Incense',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\87_Beseech the Tyrant.png" id="KSH_87_Beseech the Tyrant" data-flag="@X" onclick="openSidebar('KSH_87_Beseech the Tyrant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\130_Basal Armillary.png" id="KSH_130_Basal Armillary" data-flag="@X" onclick="openSidebar('KSH_130_Basal Armillary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\171_Devotee of Ginilla.png" id="KSH_171_Devotee of Ginilla" data-flag="@X" onclick="openSidebar('KSH_171_Devotee of Ginilla',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\11_Deathmask Cultist.png" id="KSH_11_Deathmask Cultist" data-flag="@X" onclick="openSidebar('KSH_11_Deathmask Cultist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\45_Afflicted Failure.png" id="KSH_45_Afflicted Failure" data-flag="@X" onclick="openSidebar('KSH_45_Afflicted Failure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\89_Blossoming Corpse.png" id="KSH_89_Blossoming Corpse" data-flag="@X" onclick="openSidebar('KSH_89_Blossoming Corpse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\132_Blasphemous Heat.png" id="KSH_132_Blasphemous Heat" data-flag="@X" onclick="openSidebar('KSH_132_Blasphemous Heat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\174_Faithless Ogre.png" id="KSH_174_Faithless Ogre" data-flag="@X" onclick="openSidebar('KSH_174_Faithless Ogre',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\12_Departing Soul.png" id="KSH_12_Departing Soul" data-flag="@X" onclick="openSidebar('KSH_12_Departing Soul',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\46_Bloodless Winter.png" id="KSH_46_Bloodless Winter" data-flag="@X" onclick="openSidebar('KSH_46_Bloodless Winter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\91_Certain Death.png" id="KSH_91_Certain Death" data-flag="@X" onclick="openSidebar('KSH_91_Certain Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\134_Burning Shade.png" id="KSH_134_Burning Shade" data-flag="@X" onclick="openSidebar('KSH_134_Burning Shade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\178_Gnarled Wastrel.png" id="KSH_178_Gnarled Wastrel" data-flag="@X" onclick="openSidebar('KSH_178_Gnarled Wastrel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\13_Empty Prayer.png" id="KSH_13_Empty Prayer" data-flag="@X" onclick="openSidebar('KSH_13_Empty Prayer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\49_Depths of Despair.png" id="KSH_49_Depths of Despair" data-flag="@X" onclick="openSidebar('KSH_49_Depths of Despair',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\92_Crumbling Corpse.png" id="KSH_92_Crumbling Corpse" data-flag="@X" onclick="openSidebar('KSH_92_Crumbling Corpse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\136_Crimson Cultist.png" id="KSH_136_Crimson Cultist" data-flag="@X" onclick="openSidebar('KSH_136_Crimson Cultist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\180_Gore-Fed Guardian.png" id="KSH_180_Gore-Fed Guardian" data-flag="@X" onclick="openSidebar('KSH_180_Gore-Fed Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\14_Faceless Executioner.png" id="KSH_14_Faceless Executioner" data-flag="@X" onclick="openSidebar('KSH_14_Faceless Executioner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\50_Devotee of Pain.png" id="KSH_50_Devotee of Pain" data-flag="@X" onclick="openSidebar('KSH_50_Devotee of Pain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\93_Deathblade Trainee.png" id="KSH_93_Deathblade Trainee" data-flag="@X" onclick="openSidebar('KSH_93_Deathblade Trainee',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\137_Disciple of Sotak.png" id="KSH_137_Disciple of Sotak" data-flag="@X" onclick="openSidebar('KSH_137_Disciple of Sotak',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\181_Grim Anchorite.png" id="KSH_181_Grim Anchorite" data-flag="@X" onclick="openSidebar('KSH_181_Grim Anchorite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\16_Fate of the Bloodless.png" id="KSH_16_Fate of the Bloodless" data-flag="@X" onclick="openSidebar('KSH_16_Fate of the Bloodless',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\52_Exultant Cultist.png" id="KSH_52_Exultant Cultist" data-flag="@X" onclick="openSidebar('KSH_52_Exultant Cultist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\94_Devour the Young.png" id="KSH_94_Devour the Young" data-flag="@X" onclick="openSidebar('KSH_94_Devour the Young',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\140_Flesh-Mad Savage.png" id="KSH_140_Flesh-Mad Savage" data-flag="@X" onclick="openSidebar('KSH_140_Flesh-Mad Savage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\182_Guttural Outcast.png" id="KSH_182_Guttural Outcast" data-flag="@X" onclick="openSidebar('KSH_182_Guttural Outcast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\18_Golden Light.png" id="KSH_18_Golden Light" data-flag="@X" onclick="openSidebar('KSH_18_Golden Light',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\56_Foreboding Skies.png" id="KSH_56_Foreboding Skies" data-flag="@X" onclick="openSidebar('KSH_56_Foreboding Skies',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\96_Forge from Flesh.png" id="KSH_96_Forge from Flesh" data-flag="@X" onclick="openSidebar('KSH_96_Forge from Flesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\142_Gore Feeder.png" id="KSH_142_Gore Feeder" data-flag="@X" onclick="openSidebar('KSH_142_Gore Feeder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\184_Infernal Gyre.png" id="KSH_184_Infernal Gyre" data-flag="@X" onclick="openSidebar('KSH_184_Infernal Gyre',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\19_Harried Ancient.png" id="KSH_19_Harried Ancient" data-flag="@X" onclick="openSidebar('KSH_19_Harried Ancient',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\57_Frozen Blood.png" id="KSH_57_Frozen Blood" data-flag="@X" onclick="openSidebar('KSH_57_Frozen Blood',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\97_Gateway to Forever.png" id="KSH_97_Gateway to Forever" data-flag="@X" onclick="openSidebar('KSH_97_Gateway to Forever',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\144_Gorebound Fetch.png" id="KSH_144_Gorebound Fetch" data-flag="@X" onclick="openSidebar('KSH_144_Gorebound Fetch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\185_Into the Dark.png" id="KSH_185_Into the Dark" data-flag="@X" onclick="openSidebar('KSH_185_Into the Dark',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\21_Humble Supplicant.png" id="KSH_21_Humble Supplicant" data-flag="@X" onclick="openSidebar('KSH_21_Humble Supplicant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\58_God-Watched Acolyte.png" id="KSH_58_God-Watched Acolyte" data-flag="@X" onclick="openSidebar('KSH_58_God-Watched Acolyte',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\98_Gnarled Penitent.png" id="KSH_98_Gnarled Penitent" data-flag="@X" onclick="openSidebar('KSH_98_Gnarled Penitent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\146_Immolation.png" id="KSH_146_Immolation" data-flag="@X" onclick="openSidebar('KSH_146_Immolation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\186_Invoke the Congregants.png" id="KSH_186_Invoke the Congregants" data-flag="@X" onclick="openSidebar('KSH_186_Invoke the Congregants',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\22_Ineffable Incense.png" id="KSH_22_Ineffable Incense" data-flag="@X" onclick="openSidebar('KSH_22_Ineffable Incense',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\59_Godblood Font.png" id="KSH_59_Godblood Font" data-flag="@X" onclick="openSidebar('KSH_59_Godblood Font',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\103_It from Beneath.png" id="KSH_103_It from Beneath" data-flag="@X" onclick="openSidebar('KSH_103_It from Beneath',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\148_Knight of Ruin.png" id="KSH_148_Knight of Ruin" data-flag="@X" onclick="openSidebar('KSH_148_Knight of Ruin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\187_Merciless Nature.png" id="KSH_187_Merciless Nature" data-flag="@X" onclick="openSidebar('KSH_187_Merciless Nature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\23_Journeying Pilgrim.png" id="KSH_23_Journeying Pilgrim" data-flag="@X" onclick="openSidebar('KSH_23_Journeying Pilgrim',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\61_Great Worm's Progeny.png" id="KSH_61_Great Worms Progeny" data-flag="@X" onclick="openSidebar('KSH_61_Great Worms Progeny',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\107_Mind Feast.png" id="KSH_107_Mind Feast" data-flag="@X" onclick="openSidebar('KSH_107_Mind Feast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\149_Libation of Gore.png" id="KSH_149_Libation of Gore" data-flag="@X" onclick="openSidebar('KSH_149_Libation of Gore',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\191_Pillars of Tomorrow.png" id="KSH_191_Pillars of Tomorrow" data-flag="@X" onclick="openSidebar('KSH_191_Pillars of Tomorrow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\25_Nightghost's Howl.png" id="KSH_25_Nightghosts Howl" data-flag="@X" onclick="openSidebar('KSH_25_Nightghosts Howl',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\62_Grim Iconoclast.png" id="KSH_62_Grim Iconoclast" data-flag="@X" onclick="openSidebar('KSH_62_Grim Iconoclast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\114_Raven's Reaver.png" id="KSH_114_Ravens Reaver" data-flag="@X" onclick="openSidebar('KSH_114_Ravens Reaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\152_Outrider of Sotak.png" id="KSH_152_Outrider of Sotak" data-flag="@X" onclick="openSidebar('KSH_152_Outrider of Sotak',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\193_Primal Pontiff.png" id="KSH_193_Primal Pontiff" data-flag="@X" onclick="openSidebar('KSH_193_Primal Pontiff',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\26_Night's Harbinger.png" id="KSH_26_Nights Harbinger" data-flag="@X" onclick="openSidebar('KSH_26_Nights Harbinger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\63_Knight of Wrack.png" id="KSH_63_Knight of Wrack" data-flag="@X" onclick="openSidebar('KSH_63_Knight of Wrack',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\115_Reaper of Sotak.png" id="KSH_115_Reaper of Sotak" data-flag="@X" onclick="openSidebar('KSH_115_Reaper of Sotak',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\156_Sacrament of Filth.png" id="KSH_156_Sacrament of Filth" data-flag="@X" onclick="openSidebar('KSH_156_Sacrament of Filth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\195_Shattered Spurs.png" id="KSH_195_Shattered Spurs" data-flag="@X" onclick="openSidebar('KSH_195_Shattered Spurs',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\31_Parasitic Strix.png" id="KSH_31_Parasitic Strix" data-flag="@X" onclick="openSidebar('KSH_31_Parasitic Strix',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\66_Memory of Failure.png" id="KSH_66_Memory of Failure" data-flag="@X" onclick="openSidebar('KSH_66_Memory of Failure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\117_Shadow of the First Ones.png" id="KSH_117_Shadow of the First Ones" data-flag="@X" onclick="openSidebar('KSH_117_Shadow of the First Ones',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\157_Sanguine Blade.png" id="KSH_157_Sanguine Blade" data-flag="@X" onclick="openSidebar('KSH_157_Sanguine Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\203_Tortured Earth.png" id="KSH_203_Tortured Earth" data-flag="@X" onclick="openSidebar('KSH_203_Tortured Earth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\33_Reach through Eternity.png" id="KSH_33_Reach through Eternity" data-flag="@X" onclick="openSidebar('KSH_33_Reach through Eternity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\70_Pillar of Smoke.png" id="KSH_70_Pillar of Smoke" data-flag="@X" onclick="openSidebar('KSH_70_Pillar of Smoke',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\118_Shaper of Pain.png" id="KSH_118_Shaper of Pain" data-flag="@X" onclick="openSidebar('KSH_118_Shaper of Pain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\158_Shackled Sun.png" id="KSH_158_Shackled Sun" data-flag="@X" onclick="openSidebar('KSH_158_Shackled Sun',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\205_Vanish into Mortality.png" id="KSH_205_Vanish into Mortality" data-flag="@X" onclick="openSidebar('KSH_205_Vanish into Mortality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\34_Sacred Riteknife.png" id="KSH_34_Sacred Riteknife" data-flag="@X" onclick="openSidebar('KSH_34_Sacred Riteknife',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\73_Sink into Shadow.png" id="KSH_73_Sink into Shadow" data-flag="@X" onclick="openSidebar('KSH_73_Sink into Shadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\120_Smite the Gods.png" id="KSH_120_Smite the Gods" data-flag="@X" onclick="openSidebar('KSH_120_Smite the Gods',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\161_Sinister Bloodsong.png" id="KSH_161_Sinister Bloodsong" data-flag="@X" onclick="openSidebar('KSH_161_Sinister Bloodsong',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\206_Vengeance Incarnate.png" id="KSH_206_Vengeance Incarnate" data-flag="@X" onclick="openSidebar('KSH_206_Vengeance Incarnate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\35_Sacrificial Ghoul.png" id="KSH_35_Sacrificial Ghoul" data-flag="@X" onclick="openSidebar('KSH_35_Sacrificial Ghoul',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\75_Soulstorm.png" id="KSH_75_Soulstorm" data-flag="@X" onclick="openSidebar('KSH_75_Soulstorm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\121_Sotak's Huntsman.png" id="KSH_121_Sotaks Huntsman" data-flag="@X" onclick="openSidebar('KSH_121_Sotaks Huntsman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\163_Sotak's Bloodfire.png" id="KSH_163_Sotaks Bloodfire" data-flag="@X" onclick="openSidebar('KSH_163_Sotaks Bloodfire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\207_Will of the Supplicants.png" id="KSH_207_Will of the Supplicants" data-flag="@X" onclick="openSidebar('KSH_207_Will of the Supplicants',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\42_Vision of the Blessed.png" id="KSH_42_Vision of the Blessed" data-flag="@X" onclick="openSidebar('KSH_42_Vision of the Blessed',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\83_Wingbeat Dreamer.png" id="KSH_83_Wingbeat Dreamer" data-flag="@X" onclick="openSidebar('KSH_83_Wingbeat Dreamer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\126_Veil of Beyond.png" id="KSH_126_Veil of Beyond" data-flag="@X" onclick="openSidebar('KSH_126_Veil of Beyond',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\167_Viscera Thrasher.png" id="KSH_167_Viscera Thrasher" data-flag="@X" onclick="openSidebar('KSH_167_Viscera Thrasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\208_Withered Godhead.png" id="KSH_208_Withered Godhead" data-flag="@X" onclick="openSidebar('KSH_208_Withered Godhead',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\211_Anoa the Ascended.png" id="211_Anoa the Ascended" data-flag="@X" onclick="openSidebar('211_Anoa the Ascended',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\216_Ukarth Ren, Fleshcrafter.png" id="216_Ukarth Ren, Fleshcrafter" data-flag="@X" onclick="openSidebar('216_Ukarth Ren, Fleshcrafter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\218_Lieve, the Bloodreader.png" id="218_Lieve, the Bloodreader" data-flag="@X" onclick="openSidebar('218_Lieve, the Bloodreader',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\222_Sanctifier of the Dead.png" id="222_Sanctifier of the Dead" data-flag="@X" onclick="openSidebar('222_Sanctifier of the Dead',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\224_Hallowed Earth.png" id="224_Hallowed Earth" data-flag="@X" onclick="openSidebar('224_Hallowed Earth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\213_Nahim, the Slow Knife.png" id="213_Nahim, the Slow Knife" data-flag="@X" onclick="openSidebar('213_Nahim, the Slow Knife',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\214_Fleshtheft.png" id="214_Fleshtheft" data-flag="@X" onclick="openSidebar('214_Fleshtheft',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\219_Swallow the Sun.png" id="219_Swallow the Sun" data-flag="@X" onclick="openSidebar('219_Swallow the Sun',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\220_Burdened with Power.png" id="220_Burdened with Power" data-flag="@X" onclick="openSidebar('220_Burdened with Power',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\225_Yoast, Ever-Watchful.png" id="225_Yoast, Ever-Watchful" data-flag="@X" onclick="openSidebar('225_Yoast, Ever-Watchful',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\212_Devotee of the Worm.png" id="212_Devotee of the Worm" data-flag="@X" onclick="openSidebar('212_Devotee of the Worm',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\215_Totem Carver.png" id="215_Totem Carver" data-flag="@X" onclick="openSidebar('215_Totem Carver',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\217_Cultist of Smoke.png" id="217_Cultist of Smoke" data-flag="@X" onclick="openSidebar('217_Cultist of Smoke',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\221_Goreweaver.png" id="221_Goreweaver" data-flag="@X" onclick="openSidebar('221_Goreweaver',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\223_Fleshweb Ritual.png" id="223_Fleshweb Ritual" data-flag="@X" onclick="openSidebar('223_Fleshweb Ritual',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\226_Gods' Blood.png" id="226_Gods Blood" data-flag="@X" onclick="openSidebar('226_Gods Blood',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\231_Profane Oracle.png" id="231_Profane Oracle" data-flag="@X" onclick="openSidebar('231_Profane Oracle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\235_Ginilla, Storied Anchorite.png" id="235_Ginilla, Storied Anchorite" data-flag="@X" onclick="openSidebar('235_Ginilla, Storied Anchorite',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\228_Promise of Forever.png" id="228_Promise of Forever" data-flag="@X" onclick="openSidebar('228_Promise of Forever',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\232_Fury of Sotak.png" id="232_Fury of Sotak" data-flag="@X" onclick="openSidebar('232_Fury of Sotak',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\227_Gods' Bones.png" id="227_Gods Bones" data-flag="@X" onclick="openSidebar('227_Gods Bones',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\230_Behold Magnificence.png" id="230_Behold Magnificence" data-flag="@X" onclick="openSidebar('230_Behold Magnificence',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\234_Distant Ritual.png" id="234_Distant Ritual" data-flag="@X" onclick="openSidebar('234_Distant Ritual',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\229_Sublimated Offering.png" id="229_Sublimated Offering" data-flag="@X" onclick="openSidebar('229_Sublimated Offering',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\233_Perfection through Pain.png" id="233_Perfection through Pain" data-flag="@X" onclick="openSidebar('233_Perfection through Pain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\236_Birthed in Blood.png" id="236_Birthed in Blood" data-flag="@X" onclick="openSidebar('236_Birthed in Blood',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\237_Gateway to the Impossible.png" id="237_Gateway to the Impossible" data-flag="@X" onclick="openSidebar('237_Gateway to the Impossible',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\238_Sheer Brutality.png" id="238_Sheer Brutality" data-flag="@X" onclick="openSidebar('238_Sheer Brutality',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\239_Sotak, First Across the Veil.png" id="239_Sotak, First Across the Veil" data-flag="@X" onclick="openSidebar('239_Sotak, First Across the Veil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\240_Unspeakable Ritual.png" id="240_Unspeakable Ritual" data-flag="@X" onclick="openSidebar('240_Unspeakable Ritual',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\211_Anoa the Ascended.png" id="KSH_211_Anoa the Ascended" data-flag="@X" onclick="openSidebar('KSH_211_Anoa the Ascended',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\216_Ukarth Ren, Fleshcrafter.png" id="KSH_216_Ukarth Ren, Fleshcrafter" data-flag="@X" onclick="openSidebar('KSH_216_Ukarth Ren, Fleshcrafter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\218_Lieve, the Bloodreader.png" id="KSH_218_Lieve, the Bloodreader" data-flag="@X" onclick="openSidebar('KSH_218_Lieve, the Bloodreader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\222_Sanctifier of the Dead.png" id="KSH_222_Sanctifier of the Dead" data-flag="@X" onclick="openSidebar('KSH_222_Sanctifier of the Dead',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\224_Hallowed Earth.png" id="KSH_224_Hallowed Earth" data-flag="@X" onclick="openSidebar('KSH_224_Hallowed Earth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\213_Nahim, the Slow Knife.png" id="KSH_213_Nahim, the Slow Knife" data-flag="@X" onclick="openSidebar('KSH_213_Nahim, the Slow Knife',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\214_Fleshtheft.png" id="KSH_214_Fleshtheft" data-flag="@X" onclick="openSidebar('KSH_214_Fleshtheft',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\219_Swallow the Sun.png" id="KSH_219_Swallow the Sun" data-flag="@X" onclick="openSidebar('KSH_219_Swallow the Sun',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\220_Burdened with Power.png" id="KSH_220_Burdened with Power" data-flag="@X" onclick="openSidebar('KSH_220_Burdened with Power',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\225_Yoast, Ever-Watchful.png" id="KSH_225_Yoast, Ever-Watchful" data-flag="@X" onclick="openSidebar('KSH_225_Yoast, Ever-Watchful',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\212_Devotee of the Worm.png" id="KSH_212_Devotee of the Worm" data-flag="@X" onclick="openSidebar('KSH_212_Devotee of the Worm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\215_Totem Carver.png" id="KSH_215_Totem Carver" data-flag="@X" onclick="openSidebar('KSH_215_Totem Carver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\217_Cultist of Smoke.png" id="KSH_217_Cultist of Smoke" data-flag="@X" onclick="openSidebar('KSH_217_Cultist of Smoke',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\221_Goreweaver.png" id="KSH_221_Goreweaver" data-flag="@X" onclick="openSidebar('KSH_221_Goreweaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\223_Fleshweb Ritual.png" id="KSH_223_Fleshweb Ritual" data-flag="@X" onclick="openSidebar('KSH_223_Fleshweb Ritual',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\226_Gods' Blood.png" id="KSH_226_Gods Blood" data-flag="@X" onclick="openSidebar('KSH_226_Gods Blood',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\231_Profane Oracle.png" id="KSH_231_Profane Oracle" data-flag="@X" onclick="openSidebar('KSH_231_Profane Oracle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\235_Ginilla, Storied Anchorite.png" id="KSH_235_Ginilla, Storied Anchorite" data-flag="@X" onclick="openSidebar('KSH_235_Ginilla, Storied Anchorite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\228_Promise of Forever.png" id="KSH_228_Promise of Forever" data-flag="@X" onclick="openSidebar('KSH_228_Promise of Forever',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\232_Fury of Sotak.png" id="KSH_232_Fury of Sotak" data-flag="@X" onclick="openSidebar('KSH_232_Fury of Sotak',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\227_Gods' Bones.png" id="KSH_227_Gods Bones" data-flag="@X" onclick="openSidebar('KSH_227_Gods Bones',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\230_Behold Magnificence.png" id="KSH_230_Behold Magnificence" data-flag="@X" onclick="openSidebar('KSH_230_Behold Magnificence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\234_Distant Ritual.png" id="KSH_234_Distant Ritual" data-flag="@X" onclick="openSidebar('KSH_234_Distant Ritual',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\229_Sublimated Offering.png" id="KSH_229_Sublimated Offering" data-flag="@X" onclick="openSidebar('KSH_229_Sublimated Offering',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\233_Perfection through Pain.png" id="KSH_233_Perfection through Pain" data-flag="@X" onclick="openSidebar('KSH_233_Perfection through Pain',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\236_Birthed in Blood.png" id="KSH_236_Birthed in Blood" data-flag="@X" onclick="openSidebar('KSH_236_Birthed in Blood',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\237_Gateway to the Impossible.png" id="KSH_237_Gateway to the Impossible" data-flag="@X" onclick="openSidebar('KSH_237_Gateway to the Impossible',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\238_Sheer Brutality.png" id="KSH_238_Sheer Brutality" data-flag="@X" onclick="openSidebar('KSH_238_Sheer Brutality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\239_Sotak, First Across the Veil.png" id="KSH_239_Sotak, First Across the Veil" data-flag="@X" onclick="openSidebar('KSH_239_Sotak, First Across the Veil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\240_Unspeakable Ritual.png" id="KSH_240_Unspeakable Ritual" data-flag="@X" onclick="openSidebar('KSH_240_Unspeakable Ritual',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\242_Aspirant's Crown.png" id="242_Aspirants Crown" data-flag="@X" onclick="openSidebar('242_Aspirants Crown',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\245_Crimson Grimoire.png" id="245_Crimson Grimoire" data-flag="@X" onclick="openSidebar('245_Crimson Grimoire',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\247_Godhorn Relic.png" id="247_Godhorn Relic" data-flag="@X" onclick="openSidebar('247_Godhorn Relic',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\249_Solemn Baetylus.png" id="249_Solemn Baetylus" data-flag="@X" onclick="openSidebar('249_Solemn Baetylus',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\244_Chimeric Staff.png" id="244_Chimeric Staff" data-flag="@X" onclick="openSidebar('244_Chimeric Staff',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\246_Dour Tabernacle.png" id="246_Dour Tabernacle" data-flag="@X" onclick="openSidebar('246_Dour Tabernacle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\241_Artificial Acolyte.png" id="241_Artificial Acolyte" data-flag="@X" onclick="openSidebar('241_Artificial Acolyte',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\243_Ceremonial Attire.png" id="243_Ceremonial Attire" data-flag="@X" onclick="openSidebar('243_Ceremonial Attire',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\248_Mask of the First Ones.png" id="248_Mask of the First Ones" data-flag="@X" onclick="openSidebar('248_Mask of the First Ones',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\250_Walking Reliquary.png" id="250_Walking Reliquary" data-flag="@X" onclick="openSidebar('250_Walking Reliquary',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\251_Wrought Obelisk.png" id="251_Wrought Obelisk" data-flag="@X" onclick="openSidebar('251_Wrought Obelisk',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\252_Bleached Grotto.png" id="252_Bleached Grotto" data-flag="@X" onclick="openSidebar('252_Bleached Grotto',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\255_Desolated Grotto.png" id="255_Desolated Grotto" data-flag="@X" onclick="openSidebar('255_Desolated Grotto',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\257_Gnarled Grotto.png" id="257_Gnarled Grotto" data-flag="@X" onclick="openSidebar('257_Gnarled Grotto',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\254_Charred Grotto.png" id="254_Charred Grotto" data-flag="@X" onclick="openSidebar('254_Charred Grotto',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\258_Knotted Grotto.png" id="258_Knotted Grotto" data-flag="@X" onclick="openSidebar('258_Knotted Grotto',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\260_Temple of Ascent.png" id="260_Temple of Ascent" data-flag="@X" onclick="openSidebar('260_Temple of Ascent',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\253_Cathedral of Hubris.png" id="253_Cathedral of Hubris" data-flag="@X" onclick="openSidebar('253_Cathedral of Hubris',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\256_Forge of Misery.png" id="256_Forge of Misery" data-flag="@X" onclick="openSidebar('256_Forge of Misery',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\261_Temple of the First Ones.png" id="261_Temple of the First Ones" data-flag="@X" onclick="openSidebar('261_Temple of the First Ones',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\259_Slavering Temple.png" id="259_Slavering Temple" data-flag="@X" onclick="openSidebar('259_Slavering Temple',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\262_Plains.png" id="262_Plains" data-flag="@X" onclick="openSidebar('262_Plains',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\263_Island.png" id="263_Island" data-flag="@X" onclick="openSidebar('263_Island',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\264_Swamp.png" id="264_Swamp" data-flag="@X" onclick="openSidebar('264_Swamp',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\265_Mountain.png" id="265_Mountain" data-flag="@X" onclick="openSidebar('265_Mountain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\266_Forest.png" id="266_Forest" data-flag="@X" onclick="openSidebar('266_Forest',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\242_Aspirant's Crown.png" id="KSH_242_Aspirants Crown" data-flag="@X" onclick="openSidebar('KSH_242_Aspirants Crown',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\245_Crimson Grimoire.png" id="KSH_245_Crimson Grimoire" data-flag="@X" onclick="openSidebar('KSH_245_Crimson Grimoire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\247_Godhorn Relic.png" id="KSH_247_Godhorn Relic" data-flag="@X" onclick="openSidebar('KSH_247_Godhorn Relic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\249_Solemn Baetylus.png" id="KSH_249_Solemn Baetylus" data-flag="@X" onclick="openSidebar('KSH_249_Solemn Baetylus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\244_Chimeric Staff.png" id="KSH_244_Chimeric Staff" data-flag="@X" onclick="openSidebar('KSH_244_Chimeric Staff',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\246_Dour Tabernacle.png" id="KSH_246_Dour Tabernacle" data-flag="@X" onclick="openSidebar('KSH_246_Dour Tabernacle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\241_Artificial Acolyte.png" id="KSH_241_Artificial Acolyte" data-flag="@X" onclick="openSidebar('KSH_241_Artificial Acolyte',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\243_Ceremonial Attire.png" id="KSH_243_Ceremonial Attire" data-flag="@X" onclick="openSidebar('KSH_243_Ceremonial Attire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\248_Mask of the First Ones.png" id="KSH_248_Mask of the First Ones" data-flag="@X" onclick="openSidebar('KSH_248_Mask of the First Ones',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\250_Walking Reliquary.png" id="KSH_250_Walking Reliquary" data-flag="@X" onclick="openSidebar('KSH_250_Walking Reliquary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\251_Wrought Obelisk.png" id="KSH_251_Wrought Obelisk" data-flag="@X" onclick="openSidebar('KSH_251_Wrought Obelisk',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="KSH_e" data-flag="@E" onclick="openSidebar('KSH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="KSH_e" data-flag="@E" onclick="openSidebar('KSH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="KSH_e" data-flag="@E" onclick="openSidebar('KSH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="KSH_e" data-flag="@E" onclick="openSidebar('KSH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\252_Bleached Grotto.png" id="KSH_252_Bleached Grotto" data-flag="@X" onclick="openSidebar('KSH_252_Bleached Grotto',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\255_Desolated Grotto.png" id="KSH_255_Desolated Grotto" data-flag="@X" onclick="openSidebar('KSH_255_Desolated Grotto',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\257_Gnarled Grotto.png" id="KSH_257_Gnarled Grotto" data-flag="@X" onclick="openSidebar('KSH_257_Gnarled Grotto',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\254_Charred Grotto.png" id="KSH_254_Charred Grotto" data-flag="@X" onclick="openSidebar('KSH_254_Charred Grotto',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\258_Knotted Grotto.png" id="KSH_258_Knotted Grotto" data-flag="@X" onclick="openSidebar('KSH_258_Knotted Grotto',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\260_Temple of Ascent.png" id="KSH_260_Temple of Ascent" data-flag="@X" onclick="openSidebar('KSH_260_Temple of Ascent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\253_Cathedral of Hubris.png" id="KSH_253_Cathedral of Hubris" data-flag="@X" onclick="openSidebar('KSH_253_Cathedral of Hubris',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\256_Forge of Misery.png" id="KSH_256_Forge of Misery" data-flag="@X" onclick="openSidebar('KSH_256_Forge of Misery',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\261_Temple of the First Ones.png" id="KSH_261_Temple of the First Ones" data-flag="@X" onclick="openSidebar('KSH_261_Temple of the First Ones',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\259_Slavering Temple.png" id="KSH_259_Slavering Temple" data-flag="@X" onclick="openSidebar('KSH_259_Slavering Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\262_Plains.png" id="KSH_262_Plains" data-flag="@X" onclick="openSidebar('KSH_262_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\263_Island.png" id="KSH_263_Island" data-flag="@X" onclick="openSidebar('KSH_263_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\264_Swamp.png" id="KSH_264_Swamp" data-flag="@X" onclick="openSidebar('KSH_264_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\265_Mountain.png" id="KSH_265_Mountain" data-flag="@X" onclick="openSidebar('KSH_265_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\266_Forest.png" id="KSH_266_Forest" data-flag="@X" onclick="openSidebar('KSH_266_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\1t_Effigy1.png" id="1t_Effigy1" data-flag="@X" onclick="openSidebar('1t_Effigy1',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\2t_Effigy2.png" id="2t_Effigy2" data-flag="@X" onclick="openSidebar('2t_Effigy2',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\3t_Demigod.png" id="3t_Demigod" data-flag="@X" onclick="openSidebar('3t_Demigod',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\4t_Eye.png" id="4t_Eye" data-flag="@X" onclick="openSidebar('4t_Eye',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\5t_Mutant.png" id="5t_Mutant" data-flag="@X" onclick="openSidebar('5t_Mutant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\6t_Homunculus.png" id="6t_Homunculus" data-flag="@X" onclick="openSidebar('6t_Homunculus',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\7t_Graveborn.png" id="7t_Graveborn" data-flag="@X" onclick="openSidebar('7t_Graveborn',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\8t_Demigod.png" id="8t_Demigod" data-flag="@X" onclick="openSidebar('8t_Demigod',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\9t_Incarnation.png" id="9t_Incarnation" data-flag="@X" onclick="openSidebar('9t_Incarnation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\10t_Wurm.png" id="10t_Wurm" data-flag="@X" onclick="openSidebar('10t_Wurm',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\11t_Reflection.png" id="11t_Reflection" data-flag="@X" onclick="openSidebar('11t_Reflection',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\12t_Blood1.png" id="12t_Blood1" data-flag="@X" onclick="openSidebar('12t_Blood1',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\13t_Blood2.png" id="13t_Blood2" data-flag="@X" onclick="openSidebar('13t_Blood2',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\KSH-files\img\14t_KSH Draft Archetypes.png" id="14t_KSH Draft Archetypes" data-flag="@X" onclick="openSidebar('14t_KSH Draft Archetypes',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\1t_Effigy1.png" id="KSH_1t_Effigy1" data-flag="@X" onclick="openSidebar('KSH_1t_Effigy1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\2t_Effigy2.png" id="KSH_2t_Effigy2" data-flag="@X" onclick="openSidebar('KSH_2t_Effigy2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\3t_Demigod.png" id="KSH_3t_Demigod" data-flag="@X" onclick="openSidebar('KSH_3t_Demigod',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\4t_Eye.png" id="KSH_4t_Eye" data-flag="@X" onclick="openSidebar('KSH_4t_Eye',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\5t_Mutant.png" id="KSH_5t_Mutant" data-flag="@X" onclick="openSidebar('KSH_5t_Mutant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\6t_Homunculus.png" id="KSH_6t_Homunculus" data-flag="@X" onclick="openSidebar('KSH_6t_Homunculus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\7t_Graveborn.png" id="KSH_7t_Graveborn" data-flag="@X" onclick="openSidebar('KSH_7t_Graveborn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\8t_Demigod.png" id="KSH_8t_Demigod" data-flag="@X" onclick="openSidebar('KSH_8t_Demigod',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\9t_Incarnation.png" id="KSH_9t_Incarnation" data-flag="@X" onclick="openSidebar('KSH_9t_Incarnation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\10t_Wurm.png" id="KSH_10t_Wurm" data-flag="@X" onclick="openSidebar('KSH_10t_Wurm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\11t_Reflection.png" id="KSH_11t_Reflection" data-flag="@X" onclick="openSidebar('KSH_11t_Reflection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\12t_Blood1.png" id="KSH_12t_Blood1" data-flag="@X" onclick="openSidebar('KSH_12t_Blood1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\13t_Blood2.png" id="KSH_13t_Blood2" data-flag="@X" onclick="openSidebar('KSH_13t_Blood2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\KSH-files\img\14t_KSH Draft Archetypes.png" id="KSH_14t_KSH Draft Archetypes" data-flag="@X" onclick="openSidebar('KSH_14t_KSH Draft Archetypes',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="KSH_e" data-flag="@E" onclick="openSidebar('KSH_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="KSH_er" data-flag="@E" onclick="openSidebar('KSH_er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -640,19 +663,111 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 
@@ -687,13 +802,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -847,16 +965,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -866,7 +984,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>

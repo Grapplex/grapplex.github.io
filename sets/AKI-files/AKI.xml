@@ -1,0 +1,4598 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>AKI</name>
+			<longname>Akaddi: Empire&apos;s End</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-01-24</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Timeless Heartwood</name>
+			<text>When Timeless Heartwood enters the battlefield, search your library for a card named Heart of the Sea or a card named Soul of Fire, reveal it, shuffle, then put it on top of your library.
+Tap artifacts you control named Eternity&apos;s Horizon, Heart of the Sea, Bones of the Earth, Soul of Fire, and Timeless Heartwood: Target player loses the game.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/0.jpg" num="246">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Scholar of Harbaz</name>
+			<text>When Scholar of Harbaz enters the battlefield, it studies. (Reveal the top card of your library. Put that card into your hand if it&apos;s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/1.jpg" num="188">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ritual of Honey</name>
+			<text>Arbitrate. (You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/2.jpg" num="69">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Judgment AKI</name>
+			<text>At the beginning of your upkeep, for each judgment counter you have, choose one —
+• [b]Penance [/b]— You lose 1 life.
+• [b]Tithe [/b]— Target opponent creates a tapped Treasure token. You lose a judgment counter.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/3.jpg" num="7">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Emperor&apos;s Hand</name>
+			<text>Whenever Emperor&apos;s Hand deals combat damage to an opponent, that player gets that many judgment counters. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/4.jpg" num="202">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dakazhi Judge</name>
+			<text>When Dakazhi Judge enters the battlefield, each player gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)
+{1}{U}{B}, {T}: Arbitrate. (You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/5.jpg" num="204">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prince&apos;s Tutor</name>
+			<text>When Prince&apos;s Tutor enters the battlefield, it studies. (Reveal the top card of your library. Put that card into your hand if it&apos;s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)
+Whenever another creature you control studies, put a +1/+1 counter on Prince&apos;s Tutor.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/6.jpg" num="211">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Capital Decree</name>
+			<text>Destroy target creature. Its controller gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/7.jpg" num="217">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Patronage of the Arts</name>
+			<text>Sculptures you control get +1/+1.
+Engrave 3—{3}{U}{R} (If you cast this spell for {3}{U}{R}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/8.jpg" num="220">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ancient Etchings</name>
+			<text>Engrave 3—{3}{B}{G} (If you cast this spell for {3}{B}{G}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)
+Draw a card for each creature you control with a +1/+1 counter on it. Those creatures gain haste and menace until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/9.jpg" num="222">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Architect of Wonders</name>
+			<text>Spells you cast for their engrave cost and artifact spells you cast cost {1} less to cast.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/10.jpg" num="228">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sculpture AKI</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/11.jpg" num="5">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact Creature — Sculpture</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>AKI Draft Archetypes AKI</name>
+			<text>{W}{U} JUDGMENT TAPOUT Cast judgment upon your foes with strong control effects.
+{U}{B} ARBITRATE Move judgment and +1/+1 counters, and justice is yours to decide.
+{B}{R} SPELLSLINGER Cast noncreature spells to boost your board presence.
+{R}{G} STUDY Your creatures can research new spells or grow stronger.
+{G}{W} SACRIFICE Your loss is no one&apos;s gain. Sacrifice creatures and Treasures for profit. 
+{W}{B} JUDGMENT CONTROL Wait patiently to pass judgment upon the enemy.
+{B}{G} +1/+1 COUNTERS Grow your creatures through study and engraving.
+{G}{U} ARTIFACTS Build monuments and engrave your legacy with artifact spells.
+{U}{R} SCULPTURES The living statuary of Akaddi is yours to command.
+{R}{W} HARMONY Attack with both artifact and nonartifact creatures for bonuses.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/12.jpg" num="8">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Empire&apos;s End</name>
+			<text>Each player exiles all nonland permanent cards from their graveyard, then sacrifices all nonland permanents they control, then puts all cards they exiled this way onto the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/13.jpg" num="218">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WB</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Assemble the Relics</name>
+			<text>Choose one —
+• Search your library for an artifact card, reveal it, put it into your hand, then shuffle.
+• Reveal an artifact card you own from outside the game and put it into your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/14.jpg" num="45">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gnawing Impatience</name>
+			<text>Exile the top two cards of your library. Until the end of your next turn, you may play those cards.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/15.jpg" num="131">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Survey the Kingdom</name>
+			<text>You may put a land card from your hand onto the battlefield.
+Arbitrate. (You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/16.jpg" num="192">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hidden Magics</name>
+			<text>Target creature gets +2/+2 and gains vigilance until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/17.jpg" num="174">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Visions of Destruction</name>
+			<text>Exile target spell.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/18.jpg" num="78">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Empty Throne</name>
+			<text>Defender</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/19.jpg" num="238">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Sculpture</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>0/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Land of the Dead</name>
+			<text>Return up to two target creature cards from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/20.jpg" num="101">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hubris of Qirauz</name>
+			<text>For each judgment counter each player has, that player sacrifices a creature.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/21.jpg" num="20">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ritual of Time</name>
+			<text>Take an extra turn after this one. You get five judgment counters. Exile Ritual of Time. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/22.jpg" num="205">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1UUB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hungry Shadow</name>
+			<text>{1}, Remove a counter from a creature you control: Hungry Shadow gets +2/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/23.jpg" num="95">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Cat</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Qamurab&apos;s Executioner</name>
+			<text>Menace
+When Qamurab&apos;s Executioner enters the battlefield, target opponent gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/24.jpg" num="108">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Initiate of Gurnal</name>
+			<text>Initiate of Gurnal has deathtouch as long as an opponent has a judgment counter.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/25.jpg" num="98">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rebellious Dreamer</name>
+			<text>At the beginning of your end step, put a +1/+1 counter on Rebellious Dreamer if you&apos;ve cast a noncreature spell this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/26.jpg" num="111">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Purveyor of Lies</name>
+			<text>When Purveyor of Lies enters the battlefield, you draw a card and you lose 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/27.jpg" num="107">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tormented Occultist</name>
+			<text>Flash
+When Tormented Occultist enters the battlefield, if you cast it during your main phase, target opponent gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/28.jpg" num="118">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Peasant</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pestilent Swarm</name>
+			<text>{2}{B}, Exile Pestilent Swarm from your graveyard: Put a +1/+1 counter on each creature you control. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/29.jpg" num="104">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Rat</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Priestess of Ghazuz</name>
+			<text>Menace
+When Priestess of Ghazuz enters the battlefield, arbitrate. (You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/30.jpg" num="106">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghazuz&apos;s Inititate</name>
+			<text>Menace
+When Ghazuz&apos;s Inititate enters the battlefield, it studies. (Reveal the top card of your library. Put that card into your hand if it&apos;s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/31.jpg" num="92">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shadow of Remorse</name>
+			<text>This spell costs {1} less to cast for each creature you control with a +1/+1 counter on it.
+{2}{B}: Shadow of Remorse gets +1/+1 and gains menace until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/32.jpg" num="113">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shade</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ruthless Cobra</name>
+			<text>Sacrifice Ruthless Cobra: Put a +1/+1 counter on target creature you control. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/33.jpg" num="186">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Attentive Learner</name>
+			<text>When Attentive Learner enters the battlefield, it studies. (Reveal the top card of your library. Put that card into your hand if it&apos;s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/34.jpg" num="162">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Isolated Idol</name>
+			<text>Isolated Idol&apos;s power and toughness are each equal to the highest mana value among artifacts you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/35.jpg" num="177">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Sculpture</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Devious Depiction</name>
+			<text>Prevent all combat damage that would be dealt to creatures this turn.
+Engrave 2—{3}{G} (If you cast this spell for {3}{G}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/36.jpg" num="165">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Might of Gurnal</name>
+			<text>Engrave 3—{3}{G} (If you cast this spell for {3}{G}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)
+Put a +1/+1 counter on each creature you control with a +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/37.jpg" num="180">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crafter of Wonders</name>
+			<text>When Crafter of Wonders enters the battlefield, put a +1/+1 counter on target creature you control.
+Each creature you control with a +1/+1 counter on it has trample.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/38.jpg" num="164">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Somber Philosopher</name>
+			<text>Trample
+When Somber Philosopher enters the battlefield, it studies. (Reveal the top card of your library. Put that card into your hand if it&apos;s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/39.jpg" num="190">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wandering Iyazta</name>
+			<text>Wandering Iyazta enters the battlefield with a +1/+1 counter on it if you&apos;ve sacrificed a permanent this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/40.jpg" num="199">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Icon of Sin</name>
+			<text>{3}{G}: Put a +1/+1 counter on another target creature. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/41.jpg" num="175">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Sculpture</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sandstorm Caller</name>
+			<text>Vigilance, reach</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/42.jpg" num="187">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wurm</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wandering Wiseman</name>
+			<text>When Wandering Wiseman enters the battlefield, put a +1/+1 counter on up to one target Sculpture you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/43.jpg" num="160">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Nomad</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gurnal&apos;s Rage</name>
+			<text>Engrave 2—{2}{R} (If you cast this spell for {2}{R}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)
+Up to one creature you control gets +1/+0 and gains haste until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/44.jpg" num="134">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Qamurab&apos;s Legion</name>
+			<text>Create two 1/1 white Soldier creature tokens.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/45.jpg" num="145">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Somber Stargazer</name>
+			<text>When Somber Stargazer enters the battlefield, you may discard a card. If you do, Somber Stargazer studies. (Reveal the top card of your library. Put that card into your hand if it&apos;s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/46.jpg" num="155">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Temple Architect</name>
+			<text>Whenever you attack with an artifact creature and a nonartifact creature, Temple Architect gets +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/47.jpg" num="156">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Coiling Fresco</name>
+			<text>Discard up to two cards, then draw that many cards.
+Engrave 2—{3}{R} (If you cast this spell for {3}{R}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/48.jpg" num="124">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Devotee of Ghazuz</name>
+			<text>Haste
+When Devotee of Ghazuz enters the battlefield, it studies. (Reveal the top card of your library. Put that card into your hand if it&apos;s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/49.jpg" num="125">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pensive Harpist</name>
+			<text>When Pensive Harpist enters the battlefield, create a 0/0 Sculpture artifact creature token. It gets +2/+1 and gains haste until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/50.jpg" num="144">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hippodrome Champion</name>
+			<text>Whenever you cast a noncreature spell, Hippodrome Champion gains haste and menace until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/51.jpg" num="135">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Votary of the Worm</name>
+			<text>When Votary of the Worm enters the battlefield, you may exile a noncreature card from your graveyard. If you do, Votary of the Worm deals 3 damage to target player or planeswalker.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/52.jpg" num="159">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Accomplished Smith</name>
+			<text>{T}: The next artifact spell you cast this turn, or the next spell you cast for its engrave cost you cast this turn costs {1} less to cast.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/53.jpg" num="41">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dour Thiefcatcher</name>
+			<text>When Dour Thiefcatcher enters the battlefield, each opponent gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/54.jpg" num="53">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Squawking Psychopomp</name>
+			<text>Flying
+Squawking Psychopomp enters the battlefield with a +1/+1 counter on it if mana from an artifact was spent to cast it.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/55.jpg" num="71">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wisdom of the Gods</name>
+			<text>Draw a card.
+Engrave 2—{1}{U}{U} (If you cast this spell for {1}{U}{U}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/56.jpg" num="80">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Territorial Rukh</name>
+			<text>Flying
+Whenever Territorial Rukh blocks a creature, you may remove a counter from that creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/57.jpg" num="74">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Marble Marvel</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/58.jpg" num="61">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Bird Sculpture</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Capricious Ibis</name>
+			<text>Flying
+When Capricious Ibis enters the battlefield, look at the top three cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/59.jpg" num="48">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tyrant of the Waterways</name>
+			<text>When Tyrant of the Waterways enters the battlefield, choose one —
+• Put a +1/+1 counter on Tyrant of the Waterways.
+• Scry 2.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/60.jpg" num="75">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Crocodile</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Monument to Wisdom</name>
+			<text>Scry 2, then draw two cards.
+Engrave 3—{5}{U} (If you cast this spell for {5}{U}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/61.jpg" num="63">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Devoted Supplicant</name>
+			<text>When Devoted Supplicant dies, each opponent gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/62.jpg" num="10">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Palace Menagerie</name>
+			<text>Flying
+Sacrifice Palace Menagerie: Target creature gains lifelink until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/63.jpg" num="27">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stern Justicar</name>
+			<text>When Stern Justicar enters the battlefield, each opponent gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/64.jpg" num="36">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Palace Caracal</name>
+			<text>Palace Caracal has first strike and lifelink as long as it&apos;s attacking.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/65.jpg" num="26">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Harrier Rukh</name>
+			<text>Flying
+When Harrier Rukh enters the battlefield, you may put a stun counter on target creature. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/66.jpg" num="18">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Qamurab&apos;s Enforcer</name>
+			<text>Qamurab&apos;s Enforcer gets +1/+1 and has lifelink as long as an opponent has a judgment counter.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/67.jpg" num="32">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Voracious Pest</name>
+			<text>This spell costs {1} less to cast as long as you&apos;ve sacrificed a permanent this turn.
+Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/68.jpg" num="38">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Border Clash</name>
+			<text>Create two 1/1 white Soldier creature tokens. If an opponent has two or more judgment counters, instead create three of those tokens.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/69.jpg" num="4">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dakazhi Keeneye</name>
+			<text>Vigilance
+Dakazhi Keeneye has first strike as long as it&apos;s attacking.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/70.jpg" num="8">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Doom of the Unwary</name>
+			<text>You may cast this spell as though it had flash as long as an opponent has a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)
+When Doom of the Unwary enters the battlefield, target creature you control gets +2/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/71.jpg" num="12">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dakazhi Outrider</name>
+			<text>Whenever you attack with an artifact creature and a nonartifact creature, Dakazhi Outrider gains first strike until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/72.jpg" num="9">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Caravan Camel</name>
+			<text>Vigilance
+At the beginning of combat on your turn, up to one other creature you control gains vigilance until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/73.jpg" num="6">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Camel</type>
+				<maintype>Creature</maintype>
+				<manacost>5W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodied Hands</name>
+			<text>Choose target attacking or blocking creature or target planeswalker. Its controller gets a judgment counter, then Bloodied Hands deals damage to that permanent equal to twice the number of judgment counters its controller has. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/74.jpg" num="2">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Caught Stealing</name>
+			<text>Enchant creature
+When Caught Stealing enters the battlefield, enchanted creature&apos;s controller gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)
+Enchanted creature can&apos;t attack or block.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/75.jpg" num="7">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Expel</name>
+			<text>Exile target tapped creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/76.jpg" num="14">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wisdom of Sahriuz</name>
+			<text>Until end of turn, target creature gains first strike, lifelink, indestructible, and &quot;whenever this creature deals combat damage to an opponent, that player gets a judgment counter&quot;. Untap it. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/77.jpg" num="39">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Regal Bearing</name>
+			<text>Enchant creature
+Enchanted creature gets +1/+1 and has vigilance.
+Sacrifice Regal Bearing: Enchanted creature gains indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/78.jpg" num="33">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Motif of Abundance</name>
+			<text>{1}, Sacrifice Motif of Abundance: You gain 4 life.
+When Motif of Abundance is put into a graveyard from the battlefield, you may pay {W}. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/79.jpg" num="24">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Scapegoat&apos;s Departure</name>
+			<text>Destroy target artifact, enchantment, or attacking creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/80.jpg" num="34">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shaba&apos;s Visage</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/81.jpg" num="35">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Sculpture</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brazen Hireling</name>
+			<text>Brazen Hireling has first strike as long as you&apos;ve sacrificed a permanent this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/82.jpg" num="5">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Paragon of Justice</name>
+			<text>When Paragon of Justice dies, create a 0/0 Sculpture artifact creature token and put X +1/+1 counters on it, where X is Paragon of Justice&apos;s power.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/83.jpg" num="28">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Midnight Patrol</name>
+			<text>Flash
+When Midnight Patrol enters the battlefield, return up to one other permanent you control to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/84.jpg" num="23">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gilded Cataphract</name>
+			<text>Whenever you attack with an artifact creature and a nonartifact creature, put a +1/+1 counter on target attacking creature you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/85.jpg" num="17">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Angelic Justicar</name>
+			<text>Flying
+When Angelic Justicar enters the battlefield, each opponent gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)
+Angelic Justicar gets +1/+1 as long as you&apos;ve sacrificed a permanent this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/86.jpg" num="1">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Outcast Pariah</name>
+			<text>Vigilance
+Outcast Pariah has ward {X}, where X is the greatest number of judgment counters an opponent has. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/87.jpg" num="25">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Nomad</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Honored Epitaph</name>
+			<text>You gain 2 life.
+Draw a card.
+Engrave 2—{3}{W} (If you cast this spell for {3}{W}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/88.jpg" num="19">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Inter</name>
+			<text>Destroy target nonland permanent if its mana value is 1 or less. If you&apos;ve sacrificed a permanent this turn, instead destroy that permanent if its mana value is 3 or less.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/89.jpg" num="22">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Temple Vigil</name>
+			<text>When Temple Vigil enters the battlefield, exile target nonland permanent an opponent controls until Temple Vigil leaves the battlefield. That permanent&apos;s controller gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/90.jpg" num="37">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wretched Supplication</name>
+			<text>Target player gets a judgment counter, then you create a number of 1/1 white Soldier creature tokens equal to the number of judgment counters that player has. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/91.jpg" num="40">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bronze Bastion</name>
+			<text>Whenever another artifact enters the battlefield under your control, put a charge counter on Bronze Bastion.
+Equipped creature gets +1/+1 for each charge counter on Bronze Bastion.
+Equip {3}</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/92.jpg" num="236">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>0</manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Infallible Dictate</name>
+			<text>Flash
+When Infallible Dictate enters the battlefield, counter target spell unless its controller pays {1}.
+Noncreature spells cost {1} more to cast.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/93.jpg" num="21">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wayside Idol</name>
+			<text>Defender
+Wayside Idol can attack as though it didn&apos;t have defender as long as defending player has a judgment counter.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/94.jpg" num="79">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Sculpture</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Empty Promises</name>
+			<text>Counter target spell.
+Arbitrate. (You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/95.jpg" num="57">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Edict of Banishing</name>
+			<text>Counter target spell unless its controller pays {1}. If they do, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/96.jpg" num="54">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Penitent Supplication</name>
+			<text>Enchant creature
+When Penitent Supplication enters the battlefield, tap enchanted creature.
+Enchanted creature doesn&apos;t untap during its controller&apos;s untap step as long as its controller has a judgment counter.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/97.jpg" num="66">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blissful Ignorance</name>
+			<text>Draw two cards, then discard a card unless you get a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/98.jpg" num="46">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Study the Cuneiform</name>
+			<text>Choose one —
+• Scry 3.
+• Scry 1, then draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/99.jpg" num="72">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Depart from the City</name>
+			<text>Return target nonland permanent to its owner&apos;s hand. If that player has two or more judgment counters, instead put that permanent on top of its owner&apos;s library.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/100.jpg" num="51">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fragmentary Stele</name>
+			<text>Engrave 2—{3}{U} (If you cast this spell for {3}{U}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)
+Up to one creature you control gets +0/+3 and gains hexproof until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/101.jpg" num="58">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Motif of Indecision</name>
+			<text>{1}, Sacrifice Motif of Indecision: Tap target creature. Put a stun counter on it.
+When Motif of Indecision is put into a graveyard from the battlefield, you may pay {U}. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/102.jpg" num="64">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Apprehend by Force</name>
+			<text>Enchant creature
+Enchanted creature loses all abilities and gets -X/-0, where X is the number of judgment counters its controller has.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/103.jpg" num="43">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Desperate Escape</name>
+			<text>Return target creature to its owner&apos;s hand. If you controlled that creature, each opponent gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/104.jpg" num="52">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Merciless Judge</name>
+			<text>The first noncreature spell each opponent casts each turn costs {1} more to cast for each judgment counter that player has.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/105.jpg" num="62">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Contemplative Falconer</name>
+			<text>Each creature you control with a +1/+1 counter on it has flying.
+Engrave 2—{3}{U}{U} (If you cast this spell for {3}{U}{U}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/106.jpg" num="49">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Swift Zulufaa</name>
+			<text>Flash
+When Swift Zulufaa enters the battlefield, move any number of counters from target creature onto another target creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/107.jpg" num="73">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Turtle Cat</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghallil Leviathan</name>
+			<text>Flash
+This spell costs {1} less to cast if the player whose turn it is has a judgment counter.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/108.jpg" num="59">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Leviathan</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hand of Qamurab</name>
+			<text>As long as any opponent has two or more judgment counters, Hand of Qamurab is a 5/5 Chimera creature.
+{2}{U}: Scry 1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/109.jpg" num="60">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sandstone Overseer</name>
+			<text>Other Sculpture creatures you control get +1/+1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/110.jpg" num="244">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Sculpture</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brutal Inspiration</name>
+			<text>Counter target spell. Distribute X +1/+1 counters among Sculptures you control, where X is that spell&apos;s mana value.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/111.jpg" num="47">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tyrant&apos;s Remorse</name>
+			<text>When Tyrant&apos;s Remorse enters the battlefield, target player gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)
+At the beginning of each opponent&apos;s upkeep, that player mills four cards for each judgment counter they have.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/112.jpg" num="76">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Preserve in Stone</name>
+			<text>Enchant creature
+Enchanted creature loses all abilities and is a colorless Sculpture artifact creature with base power and toughness 0/0. Put a +1/+1 counter on it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/113.jpg" num="68">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Arbiter&apos;s Mask</name>
+			<text>Equipped gets +1/+1 and has &quot;whenever this creature deals combat damage to an opponent, that player gets a judgment counter.&quot; (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/114.jpg" num="44">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Guilty Blood</name>
+			<text>This spell costs {1} less to cast if it targets a permanent whose controller has a judgment counter.
+Destroy target creature or planeswalker.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/115.jpg" num="93">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Chase Down</name>
+			<text>As an additional cost to cast this spell, you may remove a counter from a permanent you control.
+Target creature gets -2/-2 until end of turn. If the additional cost was paid, that creature gets -3/-3 until end of turn instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/116.jpg" num="84">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stark Warning</name>
+			<text>Target creature gets -3/-3 until end of turn. If that creature would die this turn, exile it instead.
+Engrave 2—{4}{B} (If you cast this spell for {4}{B}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/117.jpg" num="115">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Killing Blow</name>
+			<text>Exile target creature, planeswalker, or enchantment an opponent controls.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/118.jpg" num="100">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Summary Sentence</name>
+			<text>Draw two cards. You get a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/119.jpg" num="116">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Weight of Guilt</name>
+			<text>Target player discards two cards. That player gets a judgment counter for each card type among cards discarded this way. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/120.jpg" num="119">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Motif of Reluctance</name>
+			<text>{1}, Sacrifice Motif of Reluctance: Target creature gets +2/-1 until end of turn. Activate only as a sorcery.
+When Motif of Reluctance is put into a graveyard from the battlefield, you may pay {B}. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/121.jpg" num="102">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Temple of the Worm</name>
+			<text>Engrave 1—{1}{B} (If you cast this spell for {1}{B}, create a 0/0 Sculpture artifact creature token, then distribute a +1/+1 counter among Sculptures you control.)
+Each player sacrifices a creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/122.jpg" num="117">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scholar of the Worm</name>
+			<text>{1}, {T}, Sacrifice an artifact or creature: Scholar of the Worm studies. (Reveal the top card of your library. Put that card into your hand if it&apos;s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/123.jpg" num="112">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Worm&apos;s Evangel</name>
+			<text>When Worm&apos;s Evangel enters the battlefield, target creature you don&apos;t control gets -X/-X end of turn, where X is the number of judgment counters its controller has.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/124.jpg" num="120">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Delver of the Forbidden</name>
+			<text>You may cast Delver of the Forbidden from your graveyard. If you do, when it enters the battlefield, you get a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/125.jpg" num="89">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>BB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ravenous Zulufaa</name>
+			<text>Whenever you cast a noncreature spell, up to one target creature gets -1/-1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/126.jpg" num="110">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Turtle Cat</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Anointed Gravewurm</name>
+			<text>Anointed Gravewurm enters the battlefield with a number of +1/+1 counters on it equal to the number of creature cards in all graveyards.
+You may cast Anointed Gravewurm from your graveyard by discarding two cards in addition to paying its other costs.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/127.jpg" num="82">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wurm Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Harsh Seraph</name>
+			<text>Flying
+When Harsh Seraph enters the battlefield, each opponent gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)
+Whenever an opponent loses life or whenever you sacrifice an artifact, put a +1/+1 counter on Harsh Seraph. This ability triggers only once each turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/128.jpg" num="94">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Emperor&apos;s Envoy</name>
+			<text>When Emperor&apos;s Envoy enters the battlefield, each opponent gets a judgment counter. Then each opponent with three or more judgment counters sacrifices a creature. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/129.jpg" num="91">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Condemn to Damnation</name>
+			<text>Exile target creature. Its controller gets a judgment counter. If that creature&apos;s power was greater than its mana value, instead its controller gets two judgment counters. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/130.jpg" num="86">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Posthumous Sentence</name>
+			<text>Exile target creature card from a graveyard. Create a token that&apos;s a copy of it, except it&apos;s a 3/3 black Zombie.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/131.jpg" num="105">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Absolute Decree</name>
+			<text>Choose one —
+• Remove up to two counters from target permanent. You gain 2 life.
+• Target creature gets -2/-2 until end of turn. You gain 2 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/132.jpg" num="81">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Code of Law</name>
+			<text>As an additional cost to cast this spell, you may sacrifice a creature. If you do, copy it.
+Choose a nonland card name. Target player reveals their hand and discards all cards with that name.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/133.jpg" num="85">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Illicit Trade</name>
+			<text>This spell costs {2} less to cast as long as any opponent has three or more judgment counters.
+Search your library for a card, put that card into your hand, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/134.jpg" num="96">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tower Schematics</name>
+			<text>When Tower Schematics enters the battlefield, arbitrate. (You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)
+{T}, Remove a counter from a permanent you control: Exile up to two target cards from a single graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/135.jpg" num="247">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bread and Circuses</name>
+			<text>This spell costs {1} less to cast if an opponent has gained life this turn.
+Bread and Circuses deals 4 damage to any target.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/136.jpg" num="123">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Recant the Truth</name>
+			<text>Recant the Truth deals 2 damage to target creature or planeswalker. That permanent&apos;s controller gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/137.jpg" num="146">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Threaten the Moneylenders</name>
+			<text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. You get a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/138.jpg" num="157">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Endless Construction</name>
+			<text>Creatures you control get +2/+0 until end of turn.
+Engrave 3—{4}{R} (If you cast this spell for {4}{R}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/139.jpg" num="127">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shrine&apos;s Devotion</name>
+			<text>Enchant creature
+Enchanted creature gets +2/+2.
+Engrave 2—{3}{R} (If you cast this spell for {3}{R}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/140.jpg" num="154">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gather in Awe</name>
+			<text>Target creature gets +2/+0 and gains first strike until end of turn. If it&apos;s a Sculpture, it gets an additional +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/141.jpg" num="130">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Motif of Confusion</name>
+			<text>{1}, Sacrifice Motif of Confusion: Up to two target creatures can&apos;t block this turn.
+When Motif of Confusion is put into a graveyard from the battlefield, you may pay {R}. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/142.jpg" num="140">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>No Prayer for the Dying</name>
+			<text>No Prayer for the Dying deals 1 damage to each opponent and each creature and planeswalker they control. If a permanent dealt damage this way would be put into a graveyard this turn, exile it instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/143.jpg" num="142">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mural of Tranquility</name>
+			<text>Engrave 1—{2}{R} (If you cast this spell for {2}{R}, create a 0/0 Sculpture artifact creature token, then distribute a +1/+1 counter among Sculptures you control.)
+Mural of Tranquility deals damage to any target equal to the number of artifact creatures you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/144.jpg" num="141">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gurnal&apos;s Faithful</name>
+			<text>Engrave 2—{3}{R} (If you cast this spell for {3}{R}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/145.jpg" num="133">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seer of Ghazuz</name>
+			<text>{T}, Discard a card: Seer of Ghazuz studies. (Reveal the top card of your library. Put that card into your hand if it&apos;s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/146.jpg" num="151">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Passionate Architect</name>
+			<text>Whenever you put one or more counters on a creature you control, exile the top card of your library. You may play that card until the end of your next turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/147.jpg" num="143">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Venomous Manticore</name>
+			<text>Whenever a creature you control studies, Venomous Manticore deals 3 damage to target opponent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/148.jpg" num="158">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Manticore</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Artisan of Aggression</name>
+			<text>Sculptures you control have haste and menace.
+Engrave 3—{4}{R}{R} (If you cast this spell for {4}{R}{R}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/149.jpg" num="121">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Midnight Ambusher</name>
+			<text>Flash
+Midnight Ambusher costs {1} less to cast for each noncreature spell cast this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/150.jpg" num="138">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Scorpion</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Rise of Qamurab</name>
+			<text>The Rise of Qamurab deals 2 damage to each creature and each planeswalker.
+Engrave 3—{3}{R}{R} (If you cast this spell for {3}{R}{R}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/151.jpg" num="148">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Liar&apos;s Crown</name>
+			<text>This spell costs {1} less to cast if it targets a player with a judgment counter or a permanent controlled by a player with a judgment counter.
+Liar&apos;s Crown deals 3 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/152.jpg" num="137">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Game of War</name>
+			<text>Engrave 2—{1}{R}{R} (If you cast this spell for {1}{R}{R}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)
+Sacrifice a creature. Game of War deals damage equal to the sacrificed creature&apos;s power to any target.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/153.jpg" num="129">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vessel of Indulgence</name>
+			<text>Equipped creature has lifelink and &quot;{T}: Put a +1/+1 counter on this creature.&quot;
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/154.jpg" num="248">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Riddle of the Sands</name>
+			<text>Until end of turn, target creature&apos;s base power and toughness become either 6/1 or 1/6.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/155.jpg" num="147">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shaba&apos;s Indulgence</name>
+			<text>Choose one —
+• Return target instant or sorcery card from your graveyard to your hand.
+• Destroy target nonbasic land.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/156.jpg" num="153">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ethics of Violence</name>
+			<text>Target creature you control studies. Then it fights target creature you don&apos;t control. (Reveal the top card of your library. Put that card into your hand if it&apos;s a noncreature, nonland card. Otherwise, put a +1/+1 counter on that creature, then put the card on the top or bottom of your library.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/157.jpg" num="171">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Myth of Destruction</name>
+			<text>Myth of Destruction deals damage to target creature with flying equal to the greatest power among creatures you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/158.jpg" num="183">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Wind at Your Back</name>
+			<text>Untap target creature you control. Put two +1/+1 counters on it.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/159.jpg" num="200">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Amulet of Harbaz</name>
+			<text>Equipped creature gets +2/+2 and has trample.
+Equip {3}</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/160.jpg" num="161">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tale of Clear Skies</name>
+			<text>Engrave 2—{3}{G} (If you cast this spell for {3}{G}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)
+Up to one creature you control gets +0/+2 and gains reach until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/161.jpg" num="193">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Motif of Serenity</name>
+			<text>{1}, Sacrifice Motif of Serenity: Destroy target noncreature artifact or noncreature enchantment.
+When Motif of Serenity is put into a graveyard from the battlefield, you may pay {G}. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/162.jpg" num="182">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cast in Bronze</name>
+			<text>Engrave 3—{2}{G}{G} (If you cast this spell for {2}{G}{G}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)
+Create a 0/0 Sculpture artifact creature token, then put a +1/+1 counter on a Sculpture you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/163.jpg" num="163">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vaunted Trireme</name>
+			<text>Trample
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/164.jpg" num="198">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Library Elder</name>
+			<text>When Library Elder enters the battlefield, it studies. (Reveal the top card of your library. Put that card into your hand if it&apos;s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)
+Each creature you control with a +1/+1 counter on it has trample.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/165.jpg" num="178">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Outrider of Akaddi</name>
+			<text>Trample
+Whenever Outrider of Akaddi deals combat damage to an opponent, it studies. (Reveal the top card of your library. Put that card into your hand if it&apos;s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/166.jpg" num="184">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Devouring Ammit</name>
+			<text>Trample
+Whenever Devouring Ammit attacks, you may exile two target cards from a single graveyard. If you exile two cards that share a card type this way, put a +1/+1 counter on Devouring Ammit.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/167.jpg" num="166">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Crocodile Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thrashing Demolisher</name>
+			<text>When Thrashing Demolisher enters the battlefield, destroy target noncreature artifact, noncreature enchantment, or nonbasic land.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/168.jpg" num="194">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Minotaur</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Emperor&apos;s Visage</name>
+			<text>Engrave X—{X}{G}{G} (If you cast this spell for {X}{G}{G}, create a 0/0 Sculpture artifact creature token, then distribute X +1/+1 counters among Sculptures you control.)
+Look at a number of card from the top of your library equal to the greatest power among creatures you control. Put one of those cards into your hand and the rest on the bottom of your library in a random order.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/169.jpg" num="168">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unjustly Condemned</name>
+			<text>Reach
+Unjustly Condemned enters the battlefield with a +1/+1 counter on it for each other creature you control with a +1/+1 counter on it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/170.jpg" num="196">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rebel</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tower of Hubris</name>
+			<text>When Tower of Hubris enters the battlefield, search your library for a land card, reveal it, put it into your hand, then shuffle.
+{1}, {T}: Put a land card from your hand onto the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/171.jpg" num="195">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Endless Procession</name>
+			<text>At the beginning of your end step, put a +1/+1 counter on each creature you control that had a counter put on it this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/172.jpg" num="169">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Monument to the Emperor</name>
+			<text>Each artifact creature you control enters the battlefield with an additional +1/+1 counter on it.
+Engrave 5—{8} (If you cast this spell for {8}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute five +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/173.jpg" num="242">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Monumental Advantage</name>
+			<text>Engrave 2—{1}{G}{G} (If you cast this spell for {1}{G}{G}, create a 0/0 Sculpture artifact creature token, then distribute two +1/+1 counters among Sculptures you control.)
+Until end of turn, target creature gains trample and gets +X/+X, where X is the number of creatures you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/174.jpg" num="181">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ritual of Incense</name>
+			<text>Return target permanent card or card with engrave from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/175.jpg" num="185">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Guardian of the Tomb</name>
+			<text>Whenever you cast a noncreature spell, each opponent loses 1 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/176.jpg" num="207">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wanderer&apos;s Folly</name>
+			<text>Whenever you sacrifice another permanent for the first time each turn, put a +1/+1 counter on Wanderer&apos;s Folly and you gain 2 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/177.jpg" num="215">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Scorpion</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Charge into History</name>
+			<text>Whenever you attack with an artifact creature and a nonartifact creature, Charge into History deals 2 damage to target player or planeswalker.
+Engrave 3—{3}{R}{W} (If you cast this spell for {3}{R}{W}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/178.jpg" num="225">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hunter&apos;s Chariot</name>
+			<text>Whenever Hunter&apos;s Chariot becomes crewed for the first time each turn, put a +1/+1 counter on up to one creature that crewed it.
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/179.jpg" num="240">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hubristic Colossus</name>
+			<text>Trample
+Engrave 3—{8} (If you cast this spell for {8}, when it enters the battlefield, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/180.jpg" num="239">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Sculpture</type>
+				<maintype>Creature</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mace of Command</name>
+			<text>Equipped creature gets +2/+2.
+Equip {3}</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/181.jpg" num="241">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Temple Complex</name>
+			<text>{T}: Add {C}.
+{2}, {T}, Sacrifice Temple Complex: Search your library for a land card, put that card onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/182.jpg" num="259">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Temple Mosaic</name>
+			<text>Temple Mosaic enters the battlefield with a charge counter on it.
+{T}: You may remove a charge counter from Temple Mosaic. If you do, add one mana of any color. Otherwise, add {C}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/183.jpg" num="245">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sea Harbor</name>
+			<text>Sea Harbor enters the battlefield tapped.
+{T}: Add {W} or {U}.
+{4}, {T}: Scry 1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/184.jpg" num="257">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Triumphal Arch</name>
+			<text>Triumphal Arch enters the battlefield tapped.
+{T}: Add {U} or {B}.
+{4}, {T}: Scry 1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/185.jpg" num="261">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Lion&apos;s Passage</name>
+			<text>Lion&apos;s Passage enters the battlefield tapped.
+{T}: Add {B} or {R}.
+{4}, {T}: Scry 1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/186.jpg" num="253">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Teeming Riverbank</name>
+			<text>Teeming Riverbank enters the battlefield tapped.
+{T}: Add {R} or {G}.
+{4}, {T}: Scry 1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/187.jpg" num="258">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Public Temple</name>
+			<text>Public Temple enters the battlefield tapped.
+{T}: Add {G} or {W}.
+{4}, {T}: Scry 1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/188.jpg" num="254">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Emperor Qamurab</name>
+			<text>At the beginning of combat each turn, creatures you control gain first strike until end of turn if an opponent controls a creature with first strike or has a creature card with first strike in their graveyard. The same is true for flying, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, protection, reach, trample, and vigilance.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/189.jpg" num="232">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>UBRG</manacost>
+				<cmc>4</cmc>
+				<colors>UBRG</colors>
+				<coloridentity>UBRG</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Baniphal, Law&apos;s Hammer</name>
+			<text>Flying, lifelink
+Whenever a player shuffles, you may look at the top card of that player&apos;s library. If you do, you may exile that card.
+Baniphal, Law&apos;s Hammer gets +1/+1 for each mana value among cards exiled with it.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/190.jpg" num="231">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Angel Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>GWUB</manacost>
+				<cmc>4</cmc>
+				<colors>WUBG</colors>
+				<coloridentity>WUBG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghazuz, Indolent Worm</name>
+			<text>Whenever a player casts a spell during a turn other than their own, that player draws a card, then put a +1/+1 counter on Ghazuz, Indolent Worm and it deals damage equal to its power to that player.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/191.jpg" num="233">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>BRGW</manacost>
+				<cmc>4</cmc>
+				<colors>WBRG</colors>
+				<coloridentity>WBRG</coloridentity>
+				<pt>2/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sahriuz, Nemesis of Fate</name>
+			<text>Flying
+Whenever a player casts a spell, counter it. That player reveals cards from the top of their library until they reveal a card that shares a type with the countered spell. That player may cast that card without paying its mana cost. Then the player shuffles. This ability triggers only once per player each turn.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/192.jpg" num="235">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Lammasu</type>
+				<maintype>Creature</maintype>
+				<manacost>WUBR</manacost>
+				<cmc>4</cmc>
+				<colors>WUBR</colors>
+				<coloridentity>WUBR</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Qirauz, Impatient Prince</name>
+			<text>Each other creature has base power and toughness 2/2.
+If a land is tapped for two or more mana, it produces only one of that mana instead.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/193.jpg" num="234">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>RGWU</manacost>
+				<cmc>4</cmc>
+				<colors>WURG</colors>
+				<coloridentity>WURG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Treasure AKI</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/194.jpg" num="6">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Divine Arbiter</name>
+			<text>Flying, vigilance
+Divine Arbiter has lifelink as long as an opponent has three or more judgment counters.
+Whenever Divine Arbiter enters the battlefield or attacks, target opponent gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/195.jpg" num="11">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soldier AKI</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/196.jpg" num="2">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Edicts of Qamurab</name>
+			<text>Whenever a player draws a card except the first one they draw in each of their draw steps, or casts a spell during a turn other than their own, that player gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/197.jpg" num="237">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Isolated Bayt</name>
+			<text>({T}: Add {U} or {R}.)
+As Isolated Bayt enters the battlefield, you may get a judgment counter. If you don&apos;t, it enters the battlefield tapped. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/198.jpg" num="252">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gilded Sanctum</name>
+			<text>({T}: Add {W} or {B}.)
+As Gilded Sanctum enters the battlefield, you may get a judgment counter. If you don&apos;t, it enters the battlefield tapped. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/199.jpg" num="249">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Imposing Gate</name>
+			<text>({T}: Add {R} or {W}.)
+As Imposing Gate enters the battlefield, you may get a judgment counter. If you don&apos;t, it enters the battlefield tapped. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/200.jpg" num="250">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Qanat Pool</name>
+			<text>({T}: Add {G} or {U}.)
+As Qanat Pool enters the battlefield, you may get a judgment counter. If you don&apos;t, it enters the battlefield tapped. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/201.jpg" num="255">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Indulgent Garden</name>
+			<text>({T}: Add {B} or {G}.)
+As Indulgent Garden enters the battlefield, you may get a judgment counter. If you don&apos;t, it enters the battlefield tapped. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/202.jpg" num="251">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Ruins of Irum</name>
+			<text>{T}: Add {C}.
+{T}, Sacrifice Ruins of Irum: Destroy target nonbasic land if its controller controls three or more nonbasic lands as you activate this ability.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/203.jpg" num="256">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Dark Apotheosis</name>
+			<text>Put target nonland permanent card from a graveyard onto the battlefield under your control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/204.jpg" num="87">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Thomil, Craven Sadist</name>
+			<text>[+1]: Destroy up to one target artifact. If its mana value was 2 or less, put a loyalty counter on Thomil, Craven Sadist.
+[-X]: Target creature gets -X/-X until end of turn.
+[-6]: Create a 7/7 black Demon creature token with flying and trample.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/205.jpg" num="209">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Thomil</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Profane Incense</name>
+			<text>Whenever a creature enters the battlefield under your control, you gain life equal to its toughness.
+Whenever a creature an opponent controls dies, that player loses life equal to its toughness.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/206.jpg" num="223">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ancient Epiphany</name>
+			<text>Target opponent chooses instant or sorcery. Search your library for any number of cards of the chosen type with total mana value X or less, exile them, then shuffle. You may cast those cards without paying their mana costs.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/207.jpg" num="219">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XUR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Incendiary Intercessor</name>
+			<text>Whenever a noncreature source you control deals damage to an opponent, you gain that much life.
+{T}: Exile target instant or sorcery card with mana value less than or equal to the amount of life you&apos;ve gained this turn from your graveyard. Until end of turn, you may cast that card.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/208.jpg" num="226">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shaba&apos;s Monument</name>
+			<text>Whenever a permanent you control is put into a graveyard from the battlefield, note its card types.
+{1}: Until end of turn, Shaba&apos;s Monument becomes a Sculpture artifact creature with vigilance and &quot;Shaba&apos;s Monument&apos;s power and toughness are each equal to twice the number of types noted for it.&quot;</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/209.jpg" num="214">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Living Archetype</name>
+			<text>As Living Archetype enters the battlefield, each player mills five cards. You may exile two creature cards from among cards milled this way. If you do, Living Archetype enters the battlefield enters the battlefield as a copy of one of those cards with a number of additional +1/+1 counters on it equal to the power of the other card.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/210.jpg" num="230">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lammasu</type>
+				<maintype>Creature</maintype>
+				<manacost>3GU</manacost>
+				<cmc>5</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Emperor&apos;s Courtyard</name>
+			<text>At the beginning of your upkeep and whenever you cast a spell, arbitrate. (You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/211.jpg" num="201">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Temple to Ghazuz</name>
+			<text>{RG}, Sacrifice a creature: Add {R}{G} and put a blood counter on Temple to Ghazuz.
+As long as Temple to Ghazuz has three or more blood counters on it, it&apos;s a land with &quot;{T}: Add {R}{G}.&quot; (It&apos;s no longer an enchantment.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/212.jpg" num="212">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Screaming Prophet</name>
+			<text>At the beginning of your precombat main phase, exile all noncreature, nonland cards from all graveyards, then choose a card at random from among cards exiled with Screaming Prophet. You may cast that card without paying its mana cost.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/213.jpg" num="150">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sin</name>
+			<text>Trample
+If an effect would create one or more tokens under your control, you may instead put that many +1/+1 counters on Sin.
+Whenever Sin attacks, create two 1/1 green Incarnation creature tokens.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/214.jpg" num="189">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2GGG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crucius, the Riddle of Silver</name>
+			<text>Crucius, the Riddle of Silver enters the battlefield with a number of loyalty counters on it equal to the number of artifacts you control.
+[+1]: Create a Clue token.
+[-1]: Put two +1/+1 counters on target artifact you control. It becomes a 0/0 Sculpture creature in addition to its other types.
+[-X]: Search your library for a card with mana value X or less, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/215.jpg" num="50">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Crucius</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<loyalty>0</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nemesis of Order</name>
+			<text>Nemesis of Order enters the battlefield with seven sin counters on it.
+At the beginning of your upkeep, you draw a card, you lose 1 life, and remove a sin counter from Nemesis of Order.
+As long as Nemesis of Order has a sin counter on it, you can&apos;t win the game and your opponents can&apos;t lose the game.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/216.jpg" num="103">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Primacy of Order</name>
+			<text>Flying
+Whenever an opponent casts a spell during your turn, return up to one target permanent card with mana value less than or equal to that spell&apos;s mana value from your graveyard to the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/217.jpg" num="29">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shapeshifter&apos;s Marrow</name>
+			<text>At the beginning of each opponent&apos;s upkeep, that player reveals the top card of their library. If it&apos;s a creature card, the player puts the card into their graveyard and Shapeshifter&apos;s Marrow becomes a copy of that card. (If it does, it loses this ability.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/218.jpg" num="70">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Palace Sphinx</name>
+			<text>When Palace Sphinx enters the battlefield, each opponent gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)
+At the beginning of your upkeep, choose target opponent. For each judgment counter that player has, they choose one from among flying, vigilance, prowess, or hexproof. Palace Sphinx has the chosen abilities until your next turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/219.jpg" num="65">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sphinx</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Iyazta Stylite</name>
+			<text>Menace
+When Iyazta Stylite dies, you may exile it from your graveyard. If you do, return target creature card with lesser mana value from your graveyard to the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/AKI-files/img/220.jpg" num="99">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inexorable Executioner</name>
+			<text>When Inexorable Executioner enters the battlefield, you may remove a judgment counter from an opponent. If you do, target creature gets -3/-3 until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/221.jpg" num="97">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Feet of Clay</name>
+			<text>When Feet of Clay enters the battlefield, choose a basic land type.
+Nonbasic lands are the chosen type.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/222.jpg" num="128">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fated Hero</name>
+			<text>Fated Hero gets +1/+1 and has vigilance as long an opponent controls a creature with power 3 or greater.
+Fated Hero gets +1/+1 and has first strike as long an opponent controls a creature with toughness 3 or greater.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/223.jpg" num="16">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Incendiary Rukh</name>
+			<text>Flying, haste
+Incendiary Rukh gets +1/+1 for each judgment counter each opponent has.
+At the beginning of your upkeep, if Incendiary Rukh is in your graveyard, you may remove a judgment counter from an opponent. If you do, you may cast Incendiary Rukh from your graveyard this turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/224.jpg" num="136">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Phoenix</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Edict of Mortality</name>
+			<text>Edict of Mortality deal 3 damage to any target. If this spell was engraved, Edict of Mortality deals 7 damage instead.
+Engrave 3—{3}{R}{R} (If you cast this spell for {3}{R}{R}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/225.jpg" num="126">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Edict of Remembrance</name>
+			<text>Return target permanent card from your graveyard to your hand. If this spell was engraved, instead return two target permanent cards from your graveyard to your hand.
+Engrave 3—{3}{G}{G} (If you cast this spell for {3}{G}{G}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/226.jpg" num="167">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lord of the Swarm</name>
+			<text>Reach, haste
+When Lord of the Swarm dies, if it wasn&apos;t sacrificed, create six tokens that are copies of it, except they&apos;re 1/1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/227.jpg" num="179">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Face Judgment</name>
+			<text>Exile target nonland permanent. If its mana value was 3 or greater, you get a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/228.jpg" num="15">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unchallenged Lawgiver</name>
+			<text>Flying, ward {7}
+Whenever Unchallenged Lawgiver deals combat damage to an opponent, double the number of each kind of counter on target permanent or that target player has.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/229.jpg" num="77">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lammasu</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Edict of Elimination</name>
+			<text>Target creature gets -3/-3 until end of turn. If this spell was engraved, instead each creature gets -3/-3 until end of turn.
+Engrave 3—{3}{B}{B} (If you cast this spell for {3}{B}{B}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/230.jpg" num="90">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Monument Worshipper</name>
+			<text>First strike
+Whenever you attack with an artifact creature and a nonartifact creature, Monument Worshipper gains double strike until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/231.jpg" num="139">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Minion</type>
+				<maintype>Creature</maintype>
+				<manacost>RR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Golden Harmony</name>
+			<text>If a nonland source you control would produce mana, it produces that mana plus an additional {G}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/232.jpg" num="172">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Boon of Safety</name>
+			<text>Counter target spell, activated ability, or triggered ability that targets you or a permanent you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/233.jpg" num="3">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pleasure Cruise</name>
+			<text>As an additional cost to cast this spell, you may remove a judgment counter from an opponent.
+Draw two cards. If the additional cost was paid, instead draw three cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/234.jpg" num="67">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rabisu&apos;s Temptation</name>
+			<text>As an additional cost to cast this spell, you may pay {1}{B} any number of times. Copy it for each time the additional cost was paid.
+Choose a nonland permanent type. Each opponent sacrifices a permanent of that type. If they can&apos;t, they lose 2 life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/235.jpg" num="109">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scorching Sunset</name>
+			<text>Destroy all artifacts.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/236.jpg" num="149">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Guardian Scourge</name>
+			<text>Haste
+Guardian Scourge enters the battlefield with a number of +1/+1 counters on it equal to X or to the greatest number of counters on a permanent an opponent controls, whichever is greater.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AKI-files/img/237.jpg" num="173">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hydra</type>
+				<maintype>Creature</maintype>
+				<manacost>XG</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Edict of Immortality</name>
+			<text>Your life total becomes equal to half your starting life total. If this spell was engraved, instead your life total becomes equal to your starting life total.
+Engrave 3—{3}{W}{W} (If you cast this spell for {3}{W}{W}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/238.jpg" num="13">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Edict of Oppression</name>
+			<text>Each opponent mills eight cards. If this spell was engraved, instead each opponent mills thirty cards.
+Engrave 3—{3}{U}{U} (If you cast this spell for {3}{U}{U}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/239.jpg" num="55">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sin-Gilded Manticore</name>
+			<text>Flying
+If an effect would create one or more noncreature tokens under your control, it creates twice that many of those tokens instead and you lose 1 life for each token created this way.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/240.jpg" num="114">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Manticore Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shaba, Cloistered Queen</name>
+			<text>{X}, Exile a creature card with mana value X from your graveyard: Create a token that&apos;s a copy of the exiled card, except it&apos;s a Sculpture artifact creature and has haste. Sacrifice it at the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/241.jpg" num="152">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unquestioned Iyazta</name>
+			<text>X can&apos;t be 0.
+When Unquestioned Iyazta enters the battlefield, you may search your library for a green creature card with mana value X or less, put it onto the battlefield, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/242.jpg" num="197">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>XXG</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Enforced Humility</name>
+			<text>When Enforced Humility enters the battlefield, each opponent gets a judgment counter. (At the beginning of a player&apos;s upkeep, for each judgment counter, they choose one—Lose 1 life, or lose a judgment counter and choose an opponent to create a Treasure token.)
+Creatures can&apos;t attack you unless their controller pays {X} for each creature they control that&apos;s attacking you, where X is the number of judgment counters they have.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/243.jpg" num="203">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Unwinding Constrictor</name>
+			<text>If one or more counters would be put on a permanent you don&apos;t control, you may have that many plus one of each of those kinds of counters be put on that permanent instead.
+If a player would get one or more counters, you may have that player get that many plus one of each of those kinds of counters instead.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/244.jpg" num="206">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake</type>
+				<maintype>Creature</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Remorseful General</name>
+			<text>Instant and sorcery spells you control and permanents you control have deathtouch.
+Whenever a creature dies, Remorseful General deals 1 damage to each player.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/245.jpg" num="208">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Great Library of Ghazuz</name>
+			<text>At the beginning of combat on your turn, target creature you control with the lowest power studies. (Reveal the top card of your library. Put that card into your hand if it&apos;s a noncreature, nonland card. Otherwise, put a +1/+1 counter on that creature, then put the card on the top or bottom of your library.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/246.jpg" num="210">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Prince&apos;s Benevolence</name>
+			<text>Destroy up to one target artifact, up to one target enchantment, and up to one target land. Each player who controlled a permanent destroyed this way may search their library for a permanent card that shares a type with it, put it onto the battlefield, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/247.jpg" num="213">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GW</manacost>
+				<cmc>5</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ancient Judge</name>
+			<text>Flying
+Sacrifice a creature: Arbitrate. (You may remove a counter from target player. If you do, another target player gets a counter of the same kind. Repeat this process for creatures, then for noncreature permanents.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/248.jpg" num="216">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lammasu</type>
+				<maintype>Creature</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wild Inspiration</name>
+			<text>Whenever you cast a noncreature spell, create a 0/0 Sculpture artifact creature token and put X +1/+1 counters on it, where X is that spell&apos;s mana value.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/249.jpg" num="221">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Stoic Watcher</name>
+			<text>Flying, vigilance
+Whenever a creatures enters the battlefield, if its power is greater than Stoic Watcher&apos;s, put a +1/+1 counter on Stoic Watcher.
+Whenever a creature dies, if its toughness is greater than Stoic Watcher&apos;s, put a +1/+1 counter on Stoic Watcher.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/250.jpg" num="224">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nephilim</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Winged Justice</name>
+			<text>Haste
+Whenever you attack with an artifact creature and a nonartifact creature, creatures you control gain flying until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/251.jpg" num="227">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Sculpture</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Herald of the Old Ways</name>
+			<text>{X}, {T}, Sacrifice Herald of the Old Ways: Search your library for a Lammasu, Manticore, Nephilim, or Sphinx card with mana value X or less, put it onto the battlefield, then shuffle. If X is 6 or more, create a token that&apos;s a copy of that card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/252.jpg" num="229">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ominous Obelisk</name>
+			<text>{T}: Add {C}. Put a charge counter on Ominous Obelisk.
+{T}, Remove any number of charge counters from Ominous Obelisk: Add {C} for each charge counter removed this way.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/253.jpg" num="243">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tomb of the Forgotten</name>
+			<text>{T}: Add {C}.
+{3}: Put a charge counter on Tomb of the Forgotten. Then if Tomb of the Forgotten has ten or more charge counters on it, sacrifice it. If you do, create ten 2/2 black Horror creature tokens.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/254.jpg" num="260">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Qamesh, Ardent Justicar</name>
+			<text>As Qamesh, Ardent Justicar enters the battlefield, choose law or order.
+• Law — Noncreature spells cost {1} more to cast.
+• Order — Creatures your opponents control enter the battlefield tapped.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/255.jpg" num="31">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eldritch Echo</name>
+			<text>When you cast your next spell this turn, copy that spell. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/256.jpg" num="56">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Decadent Barge</name>
+			<text>Whenever Decadent Barge enters the battlefield or attacks, exile the top two cards of each opponent&apos;s library.
+Decadent Barge&apos;s power and toughness are each equal to the number of cards exiled with it.
+Crew 3</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/257.jpg" num="88">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Graven Ideal</name>
+			<text>Graven Ideal deals X damage to any target.
+Engrave X—{X}{X}{R} (If you cast this spell for {X}{X}{R}, create a 0/0 Sculpture artifact creature token, then distribute X +1/+1 counters among Sculptures you control.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/258.jpg" num="132">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XR</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stoic Stylite</name>
+			<text>Trample
+Whenever Stoic Stylite deals combat damage to an opponent, it studies. (Reveal the top card of your library. Put that card into your hand if it&apos;s a noncreature, nonland card. Otherwise, put a +1/+1 counter on this creature, then put the card on the top or bottom of your library.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/259.jpg" num="191">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Proud Contender</name>
+			<text>When Proud Contender dies, exile it. If you do, create a white enchantment token named Proud Memories with &quot;Creatures you control get +1/+1.&quot;</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/260.jpg" num="30">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Anointed Scarab</name>
+			<text>Flying
+When Anointed Scarab dies, you may pay {X}. If you do, return each other creature with mana value X or less to its owner&apos;s hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/261.jpg" num="42">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Beginning of the End</name>
+			<text>Target player loses X life and you gain X life, where X is the number of permanents put into graveyards from the battlefield this turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/262.jpg" num="83">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Barkhan Hellkite</name>
+			<text>Flying
+Whenever you cast a noncreature spell, Barkhan Hellkite gets +2/+0 until end of turn.
+{1}{R}, Discard a card: Draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/263.jpg" num="122">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Idyllic Pools</name>
+			<text>At the beginning of your end step, you may sacrifice another permanent. If you do, search your library for a permanent card with the same mana cost as that card plus an additional {1}, put it onto the battlefield, then shuffle. (Mana cost includes color. For example, if you sacrifice a permanent with mana cost {2}{W}{B}, search for a permanent with mana cost {3}{W}{B}.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/264.jpg" num="176">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Incarnation AKI</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/265.jpg" num="4">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Horror AKI</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/266.jpg" num="3">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Epic of Strength</name>
+			<text>Engrave 3—{5}{G}{G} (If you cast this spell for {5}{G}{G}, create a 0/0 Sculpture artifact creature token, then distribute three +1/+1 counters among Sculptures you control.)
+Double the number of +1/+1 counters on each creature you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AKI-files/img/267.jpg" num="170">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Proud Memories AKI</name>
+			<text>Creatures you control get +1/+1.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AKI-files/img/268.jpg" num="1">AKI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

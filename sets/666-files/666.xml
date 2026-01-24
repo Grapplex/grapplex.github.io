@@ -1,0 +1,4812 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>666</name>
+			<longname>Circles of Bocacius</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-01-24</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Swallow the Impenitent</name>
+			<text>This spell costs {2} less to cast if you&apos;ve descended this turn. (You descended if a permanent card was put into your graveyard from anywhere this turn.)
+Target nonland permanent&apos;s owner puts it on the top or bottom of their library.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/0.png" num="79">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Underworld 666</name>
+			<text>1 — Surveil 1.
+3 — Draw a card.
+5 — Create a 3/3 black Demon creature token with flying. You lose 3 life.
+7 — Choose all the above.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/1.png" num="11">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Devoured by Vermin</name>
+			<text>Destroy target creature.
+Journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/2.png" num="94">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Descent through the Abyss</name>
+			<text>(As this enters, choose an opponent to protect it. You and others can attack it.)
+When Descent through the Abyss enters the battlefield and whenever a defense counter is removed from it, it deals 1 damage to any target you don&apos;t control, then you journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/3.png" num="231">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Battle — Conflict</type>
+				<maintype>Battle</maintype>
+				<manacost>UBR</manacost>
+				<cmc>3</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+				<loyalty>9</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Celestial Strike</name>
+			<text>Exile target permanent. Create an X/X green Hydra creature token, where X is that permanent&apos;s mana value. If you didn&apos;t control that permanent, the token enters the battlefield tapped with X stun counters on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/4.png" num="230">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>GWU</manacost>
+				<cmc>3</cmc>
+				<colors>WUG</colors>
+				<coloridentity>WUG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lieve, Noonday Witch</name>
+			<text>Whenever you lose life for the first time during each of your turns, put two loyalty counters on Lieve, Noonday Witch.
+[+1]: Journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)
+[-5]: Destroy target permanent.
+[-9]: Target player loses 2 life, exiles a card from their hand, and exiles a permanent they control. Repeat this process for each card type among cards in graveyards.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/5.png" num="235">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Lieve</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1BRG</manacost>
+				<cmc>4</cmc>
+				<colors>BRG</colors>
+				<coloridentity>BRG</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Harrowing the Depths</name>
+			<text>Penance {2}{R}{R}{G}{G}{W}{W} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+For each creature card in your graveyard, create a token that&apos;s a copy of that creature, except it&apos;s [b][1][/b]/[b][1][/b] and has haste and lifelink. Sacrifice those tokens at the beginning of the next end step.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/6.png" num="233">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3RGW</manacost>
+				<cmc>6</cmc>
+				<colors>WRG</colors>
+				<coloridentity>WRG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Leviathan, Heart of Sin</name>
+			<text>When Leviathan, Heart of Sin enters the battlefield, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)
+Unless you&apos;ve journeyed into the Underworld seven or more times, Leviathan is an artifact and isn&apos;t a creature. Otherwise, it has flying, indestructible, and &quot;Leviathan&apos;s power and toughness are each equal to the number of times you&apos;ve journeyed into the Underworld.&quot;</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/7.png" num="9">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Infernal Pseudomonarch</name>
+			<text>You may cast permanent spells with unearth from exile. Spells you cast this way cost an additional &quot;Pay 2 life&quot; to cast.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/8.png" num="7">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghazuz, the Whispered End</name>
+			<text>Menace
+White spells your opponents cast cost {W} more to cast. The same is true for blue and {U}, black and {B}, red and {R}, and green and {G}.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/9.png" num="6">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>2/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Effigy of Desire</name>
+			<text>When Effigy of Desire enters the battlefield, exile target permanent.
+At the beginning of your end step, if you descended this turn, create a token that&apos;s a copy of the exiled permanent. (You descended if a permanent card was put into your graveyard from anywhere this turn.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/10.png" num="243">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cliffs of Spite</name>
+			<text>({T}: Add {G} or {U}.)
+Cliffs of Spite enters the battlefield tapped.
+When Cliffs of Spite enters the battlefield, target player mills two cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/11.png" num="254">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Greater Tormentor</name>
+			<text>Menace
+Whenever one or more creatures with the greatest power among creatures you control attack, create a token that&apos;s a copy of one of those creatures, except it&apos;s a black Demon and is tapped and attacking. Sacrifice that token at the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/12.png" num="232">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>1WBR</manacost>
+				<cmc>4</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hellmarch Reaver</name>
+			<text>Hellmarch Reaver has vigilance as long as there is a white card in your graveyard or among cards you own in exile. The same is true for ward {1} and blue, menace and black, haste and red, and +1/+1 and green.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/13.png" num="234">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>URG</manacost>
+				<cmc>3</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pilloried Titan</name>
+			<text>Each nonland card in your graveyard that&apos;s a creature, an Aura, or that has an activated ability with {T} in its cost has unearth. The unearth cost is equal to its mana cost. (Pay the card&apos;s mana cost: Return it to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/14.png" num="237">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Giant</type>
+				<maintype>Creature</maintype>
+				<manacost>2BGW</manacost>
+				<cmc>5</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Penitent&apos;s Plate</name>
+			<text>Trample
+Penitent&apos;s Plate enters the battlefield with a +1/+1 counter on it for each creature card in your graveyard.
+When Penitent&apos;s Plate dies, distribute its counters among up to two target creatures you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/15.png" num="249">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Primal Lorekeeper</name>
+			<text>Flying
+When Primal Lorekeeper enters the battlefield, exile up to one creature card and up to one noncreature card from your graveyard. Until the end of your next turn, you may play those cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/16.png" num="238">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Manticore</type>
+				<maintype>Creature</maintype>
+				<manacost>1RWU</manacost>
+				<cmc>4</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Perfect Hatred</name>
+			<text>Menace
+Whenever a permanent card enters your graveyard from anywhere or leaves your graveyard, put a +1/+1 counter on Perfect Hatred.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/17.png" num="236">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hydra</type>
+				<maintype>Creature</maintype>
+				<manacost>GUB</manacost>
+				<cmc>3</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kharus, Wretched Ferryman</name>
+			<text>If one or more cards would be put into an opponent&apos;s graveyard, that player may have you create a Treasure token. If they don&apos;t, exile those cards instead and that player loses 1 life for each of those cards.
+{T}: Each opponent mills a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/18.png" num="8">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Depths of Kytos</name>
+			<text>{T}: Add {C}.
+{1}, {T}: Add one mana of any color.
+{X}, {T}: Depths of Kytos becomes a copy of target nontoken creature you control with mana value X. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/19.png" num="257">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Deepest Reaches</name>
+			<text>{T}: Add {C}.
+{5}, {T}: Create a 1/1 red Devil creature token. Activate only as a sorcery. This ability costs {1} less to activate for each time you&apos;ve journeyed into the Underworld.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/20.png" num="256">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Relic of Enmity</name>
+			<text>{2}, {T}, Sacrifice a creature: Return target noncreature permanent card from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/21.png" num="250">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Calumny Collector</name>
+			<text>{T}, Sacrifice Calumny Collector: Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/22.png" num="17">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Recidivist Ritualist</name>
+			<text>Penance {3}{W} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+When Recidivist Ritualist enters the battlefield, you gain [b][2][/b] life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/23.png" num="37">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soulherder Anchorite</name>
+			<text>{2}{W}, Exile Soulherder Anchorite from your graveyard: You gain 1 life and draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/24.png" num="43">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ichorborn Shrike</name>
+			<text>Whenever a permanent card leaves your graveyard, Ichorborn Shrike gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/25.png" num="26">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lurking Nehustan</name>
+			<text>Flash
+When Lurking Nehustan enters the battlefield, you gain 2 life and scry 2.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/26.png" num="31">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Loathsome Gadfly</name>
+			<text>You may cast this spell as though it had flash as long as two or more creatures are attacking you.
+Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/27.png" num="29">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Accursed Crusader</name>
+			<text>Accursed Crusader has double strike as long as it&apos;s attacking.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/28.png" num="11">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grafted Cenobite</name>
+			<text>Flash
+When Grafted Cenobite enters the battlefield, put a +1/+1 counter on another target creature you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/29.png" num="24">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Keeper of the Circles</name>
+			<text>Vigilance
+Keeper of the Circles can&apos;t be blocked by Demons or Devils.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/30.png" num="27">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Apprentice of Menaus</name>
+			<text>Vigilance
+When Apprentice of Menaus enters the battlefield, tap target creature an opponent controls and put two stun counters on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/31.png" num="12">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Minotaur Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>5W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Predatory Grotesque</name>
+			<text>Flying
+Predatory Grotesque has ward {2} as long as it&apos;s untapped. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/32.png" num="34">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Gargoyle</type>
+				<maintype>Creature</maintype>
+				<manacost>5W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Banishing Rite</name>
+			<text>Penance {1}{W} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Banishing Rite deals [b][3][/b] damage to target attacking or blocking creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/33.png" num="14">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lost to Pride</name>
+			<text>When Lost to Pride enters the battlefield, exile another target nonland permanent until Lost to Pride leaves the battlefield.
+Unearth {1}{W} ({1}{W}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/34.png" num="30">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Futile Mercy</name>
+			<text>Flash
+Enchant creature
+Enchanted creature gets +1/+1. As long as it&apos;s your turn, enchanted creature has first strike.
+Unearth {W} ({W}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/35.png" num="22">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Grip of Kytos</name>
+			<text>Destroy target artifact, enchantment, or blocking creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/36.png" num="25">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wrath</name>
+			<text>When Wrath enters the battlefield, destroy all other creatures, then put a +1/+1 counter on Wrath for each creature destroyed this way.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/37.png" num="47">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2WWW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unleash the Damned</name>
+			<text>Penance {1}{W}{W}{W} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Look at the top seven cards of your library. Put any number of creature cards from among them with total mana value [b][3][/b] or less onto the battlefield. Put the rest on the bottom of your library in a random order.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/38.png" num="45">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tamer of Grotesques</name>
+			<text>As Tamer of Grotesques enters the battlefield, note your life total.
+Lifelink
+At the beginning of your upkeep, if your life total is greater than or equal to the last noted life total for Tamer of Grotesques, create a 1/1 white Gargoyle creature token with flying. Then note your life total.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/39.png" num="44">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Profligate&apos;s Progress</name>
+			<text>Penance {3}{W}{W} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Create [b][X][/b] 1/1 white Gargoyle creature tokens with flying.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/40.png" num="36">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XWW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Abandon All Hope</name>
+			<text>Target player can&apos;t cast noncreature spells this turn. Until end of turn, nonbasic lands enter the battlefield tapped.
+Draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/41.png" num="10">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Salvation&apos;s Shadow</name>
+			<text>Flying, vigilance
+If a creature entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+Creatures dying don&apos;t cause triggered abilities of permanents your opponents control to trigger.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/42.png" num="39">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Procession of Souls</name>
+			<text>Spells cast from graveyards cost {2} more to cast.
+Activated abilities of cards in graveyards cost {2} more to activate.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/43.png" num="35">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Shadow of Purgation</name>
+			<text>Destroy up to six hundred and sixty-six target nonland permanents.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/44.png" num="41">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5WWWW</manacost>
+				<cmc>9</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Envious Knave</name>
+			<text>Double strike
+When Envious Knave attacks, if defending player has more cards in hand than you, put a +1/+1 counter on Envious Knave. The same is true if they control more lands than you and if they control more creatures than you.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/45.png" num="20">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Withered Proudblade</name>
+			<text>Discard a card: Tap Withered Proudblade. It gains indestructible until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/46.png" num="46">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arbiter of the Dead</name>
+			<text>Whenever a permanent enters the battlefield from your graveyard or you cast a spell from your graveyard, put a +1/+1 counter on Arbiter of the Dead.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/47.png" num="13">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghost of Injustice</name>
+			<text>Vigilance
+Whenever Ghost of Injustice attacks, other creatures you control get +0/+1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/48.png" num="23">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Remnant of Humanity</name>
+			<text>Remnant of Humanity has first strike as long as it&apos;s attacking.
+{3}{W}{W}: Put a +1/+1 counter on each creature you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/49.png" num="38">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shade</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Legion of the Damned</name>
+			<text>When Legion of the Damned enters the battlefield, creatures you control get +1/+1 and gain vigilance until end of turn.
+Unearth {1}{W} ({1}{W}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/50.png" num="28">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Embittered Wight</name>
+			<text>Penance {3}{W}{W} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+When Embittered Wight enters the battlefield, it deals [b][2][/b] damage to target tapped creature an opponent controls.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/51.png" num="19">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eternal Taskmaster</name>
+			<text>Flying, vigilance
+When Eternal Taskmaster enters the battlefield or attacks, you may return target permanent you control to its owner&apos;s hand. If it has unearth, instead exile it, then return that card to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/52.png" num="21">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Denier of History</name>
+			<text>Flash
+Penance {2}{W}{W} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+When Denier of History enters the battlefield, counter target noncreature spell unless its controller pays [{1}].</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/53.png" num="18">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Son of Perdition</name>
+			<text>When Son of Perdition enters the battlefield, you may destroy target artifact or enchantment.
+Unearth {4}{W} ({4}{W}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/54.png" num="42">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bride of Swords</name>
+			<text>Each other creature you control with toughness greater than its power gets +1/+1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/55.png" num="16">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bathed in Glory</name>
+			<text>Enchant creature
+Enchanted creature has double strike.
+Unearth {W} ({W}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/56.png" num="15">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Oblivion Blade</name>
+			<text>When Oblivion Blade enters the battlefield, exile target creature an opponent controls until Oblivion Blade leaves the battlefield.
+Equipped creature gets +2/+2.
+Equip {3}</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/57.png" num="32">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Path to Ignominy</name>
+			<text>Exile target creature. Its controller may search their library for a noncreature card, reveal it, put it into their hand, then shuffle. If the revealed card is a basic land card, they may put it onto the battlefield tapped instead.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/58.png" num="33">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Seek Remission</name>
+			<text>Enchant nonland permanent
+Enchanted permanent can&apos;t attack or block and loses all abilities.
+Unearth {W} ({W}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/59.png" num="40">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Grisly Skulker</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/60.png" num="60">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bear</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Penitant Squire</name>
+			<text>When Penitant Squire enters the battlefield, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/61.png" num="69">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stygian Witch</name>
+			<text>When Stygian Witch enters the battlefield, target player mills three cards.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/62.png" num="78">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Godless Heresiarch</name>
+			<text>When Godless Heresiarch enters the battlefield, draw two cards, then discard a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/63.png" num="58">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Noisome Corpsefly</name>
+			<text>Flying
+Whenever Noisome Corpsefly attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/64.png" num="67">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Snarl Cannon</name>
+			<text>Defender
+Snarl Cannon can attack as though it didn&apos;t have defender as long as you&apos;ve journeyed into the Underworld.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/65.png" num="76">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Letosine Tyrant</name>
+			<text>When Letosine Tyrant enters the battlefield, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)
+Whenever Letosine Tyrant attacks, you may discard a card. If you do, Letosine Tyrant can&apos;t be blocked this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/66.png" num="64">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Worm Fish</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scourge of the Styges</name>
+			<text>Ward {3} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)
+{3}, Discard Scourge of the Styges: Journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/67.png" num="74">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Serpent</type>
+				<maintype>Creature</maintype>
+				<manacost>5UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ferryman&apos;s Aegis</name>
+			<text>Choose target creature. If you control it, it gets +0/+3 and gains hexproof until end of turn. Otherwise it gets -3/-0 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/68.png" num="55">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scatter in Shame</name>
+			<text>Counter target spell. If that spell&apos;s mana value was 3 or less, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/69.png" num="72">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Thought Scour</name>
+			<text>Target player mills two cards.
+Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/70.png" num="80">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Frantic Inventory</name>
+			<text>Draw a card, then draw cards equal to the number of cards named Frantic Inventory in your graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/71.png" num="56">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Eternal Downfall</name>
+			<text>Enchant creature
+When Eternal Downfall enters the battlefield, tap enchanted creature.
+Enchanted creature loses all abilities and doesn&apos;t untap during its controller&apos;s untap step.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/72.png" num="53">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sprawling Gluttony</name>
+			<text>Tap target nonland permanent and put two stun counters on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/73.png" num="77">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Avarice</name>
+			<text>Whenever you cast an instant or sorcery spell, if its mana value is greater than Avarice&apos;s power, put a +1/+1 counter on Avarice, then copy that spell. You may choose new targets for the copy.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/74.png" num="50">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>UUU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prince of Acedia</name>
+			<text>Flying
+Whenever Prince of Acedia enters the battlefield or attacks, choose one —
+• Tap target creature you don&apos;t control.
+• Put a stun counter on target tapped creature. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/75.png" num="70">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Holder of Cursed Wisdom</name>
+			<text>Flying
+When Holder of Cursed Wisdom enters the battlefield, reveal the top five cards of your library and separate them into two piles. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard.
+Unearth {5}{U}{U}</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/76.png" num="61">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sphinx</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Knave&apos;s Progress</name>
+			<text>Penance {3}{U}{U} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Draw [b][X][/b] cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/77.png" num="62">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XUU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scholar of Sin</name>
+			<text>Flash
+When Scholar of Sin enters the battlefield, choose target instant or sorcery card in your graveyard. If its mana value is less than or equal to the number of times you&apos;ve journeyed into the Underworld, you may cast it without paying its mana cost. If you cast a card this was, exile it as it resolves. Otherwise, put that card into your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/78.png" num="73">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Two-Pronged Crown</name>
+			<text>When Two-Pronged Crown enters the battlefield, attach it to target creature you don&apos;t control.
+Equipped creature gets +1/+1 and can&apos;t be blocked by creatures you control.
+At the beginning of your upkeep, gain control of equipped creature for as long as Two-Pronged Crown is attached to it.
+Equip {2}</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/79.png" num="84">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Echo of Contempt</name>
+			<text>Create two tokens that are copies of target creature you control, except they&apos;re 1/1 black Demons in addition to their other types.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/80.png" num="51">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Weight of Eternity</name>
+			<text>There is an additional beginning phase after this phase. If you&apos;ve journeyed into the Underworld four or more times, instead take an extra turn after this one.
+Exile Weight of Eternity.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/81.png" num="85">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1UUU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tornado of Souls</name>
+			<text>Flying
+At the beginning of your end step, if you descended this turn, put a +1/+1 counter on Tornado of Souls. (You descended if a permanent card was put into your graveyard from anywhere this turn.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/82.png" num="82">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Architect of Spite</name>
+			<text>Vigilance
+Architect of Spite gets +1/+0 as long as you&apos;ve journeyed into the Underworld.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/83.png" num="49">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sentinel of Menaus</name>
+			<text>Flying, vigilance
+Whenever Sentinel of Menaus deals combat damage to a player, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/84.png" num="75">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Gargoyle</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Languid Pustule</name>
+			<text>When Languid Pustule enters the battlefield, mill three cards. You may put an instant or sorcery card from among the cards milled this way into your hand. If you don&apos;t, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/85.png" num="63">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Abomination Shaper</name>
+			<text>When Abomination Shaper enters the battlefield, another target creature you control becomes a blue Leviathan with base power and toughness 5/5 for as long as Abomination Shaper remains on the battlefield.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/86.png" num="48">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Transient Mutation</name>
+			<text>Choose one —
+• Counter target spell unless its controller pays {3}.
+• Create a tapped 3/3 green Worm creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/87.png" num="83">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Frozen in Kytos</name>
+			<text>When Frozen in Kytos enters the battlefield, target creature an opponent controls phases out until Frozen in Kytos leaves the battlefield. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)
+{4}: Destroy Frozen in Kytos. Any player may activate this ability but only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/88.png" num="57">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Great Refusal</name>
+			<text>Choose one —
+• Counter target spell.
+• Until end of turn, triggered abilities don&apos;t trigger.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/89.png" num="59">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mysteries of the Worm</name>
+			<text>{T}, Discard a card: Journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/90.png" num="66">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Reach from the Depths</name>
+			<text>Put target nonland permanent into its owner&apos;s library second from the top.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/91.png" num="71">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Path of Omens</name>
+			<text>Choose one —
+• Return target nonland permanent to its owner&apos;s hand.
+• Exile target nonland permanent, then return it to the battlefield under its owner&apos;s control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/92.png" num="68">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>March of Remission</name>
+			<text>Until end of turn, target creature becomes a blue Wraith with base power and toughness 1/1. It can&apos;t be blocked this turn.
+Journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/93.png" num="65">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Titanic Hubris</name>
+			<text>Journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)
+Draw a card. If you&apos;ve journeyed into the Underworld four or more times, instead draw three cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/94.png" num="81">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sanguine Cenobite</name>
+			<text>Deathtouch
+Unearth {B} ({B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/95.png" num="114">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Exquisite Tormentor</name>
+			<text>{T}, Sacrifice Exquisite Tormentor: Journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/96.png" num="98">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Inquisitor</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gnarled Worm</name>
+			<text>Flash
+When Gnarled Worm enters the battlefield, another target Demon or Devil you control gains deathtouch and indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/97.png" num="102">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mockery of Martyrdom</name>
+			<text>When Mockery of Martyrdom enters the battlefield, you draw a card and you lose 1 life.
+Unearth {2}{B}{B} ({2}{B}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/98.png" num="112">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cruel Admonisher</name>
+			<text>When Cruel Admonisher enters the battlefield or dies, mill a card, then exile up to one target card from a graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/99.png" num="91">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Executioner of Menaus</name>
+			<text>Menace
+{B}, Sacrifice another creature: Put a +1/+1 counter on Executioner of Menaus.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/100.png" num="97">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lumpen Calumny</name>
+			<text>When Lumpen Calumny enters the battlefield, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)
+Unearth {2}{B}{B} ({2}{B}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/101.png" num="109">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Withered Titan</name>
+			<text>This spell costs {1} less to cast for each time you&apos;ve journeyed into the Underworld.
+Menace</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/102.png" num="121">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Giant Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5BB</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Guardian of the Sixth Circle</name>
+			<text>As long as you&apos;ve journeyed into the Underworld two or more times, Guardian of the Sixth Circle has menace.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/103.png" num="104">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scorn of the Damned</name>
+			<text>Enchant creature
+Enchanted creature gets -2/-2.
+Unearth {1}{B}{B} ({1}{B}{B}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/104.png" num="115">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bitter Envy</name>
+			<text>Enchant creature
+Enchanted creature gets +2/+0 and has menace.
+Unearth {1}{B} ({1}{B}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/105.png" num="88">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wails of the Condemned</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature or a permanent with unearth.
+Surveil 1, then draw two cards. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/106.png" num="119">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Leviathan&apos;s Gaze</name>
+			<text>Choose one —
+• Target opponent exiles two cards from their hand.
+• Target opponent reveals their hand. You choose a nonland card from it. That player exiles that card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/107.png" num="108">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Feed the Serpent</name>
+			<text>Exile target creature or planeswalker.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/108.png" num="99">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gluttony</name>
+			<text>If you would draw a card except the first one you draw in each of your draw steps, instead you draw three cards and you lose 3 life.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/109.png" num="101">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>1BBB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Into Treachery&apos;s Maw</name>
+			<text>Sacrifice a creature: Journey into the Underworld. Activate only as a sorcery. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/110.png" num="106">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Envy</name>
+			<text>Envy enters the battlefield with a number of +1/+1 counters on it equal to the greatest mana value among cards in your opponents&apos; graveyards. When it does, you draw that many cards and you lose that much life.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/111.png" num="96">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>3BBB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wretch&apos;s Tomb</name>
+			<text>All creatures get -2/-2.
+Whenever a creature dies, put a soul counter on Wretch&apos;s Tomb. Then if there are three or more soul counters on Wretch&apos;s Tomb, sacrifice it.
+Unearth {1}{B}{B} ({1}{B}{B}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/112.png" num="123">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Rake&apos;s Progress</name>
+			<text>Penance {3}{G}{G} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Search your library for a green creature card with mana value [b][X][/b] or less, reveal it, put it onto the battlefield, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/113.png" num="190">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XGG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Misery&apos;s Confidant</name>
+			<text>Whenever another Demon or Devil enters the battlefield under your control, reveal the top card of your library and put that card into your hand. You lose life equal to its mana value.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/114.png" num="111">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sickly Fleshflower</name>
+			<text>Deathtouch
+Whenever a nontoken Demon or Devil you control dies, you lose 1 life and create a 1/1 red Devil creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/115.png" num="117">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Slavering Council</name>
+			<text>When Slavering Council enters the battlefield, you may sacrifice another nonland permanent. If you do, create two 1/1 red Devil creature tokens.
+Unearth {1}{B} ({1}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/116.png" num="118">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gates of Disyus</name>
+			<text>Search your library for two nonland cards with different names, exile them face up, then shuffle. Target opponent secretly chooses one of them. Put one of those cards in your hand. If it was the chosen card, you lose 3 life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/117.png" num="100">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Doomed Poet</name>
+			<text>Doomed Poet can&apos;t block.
+When Doomed Poet dies, create a 3/3 black Demon creature token with flying and you lose 3 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/118.png" num="95">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prideful Guardian</name>
+			<text>Whenever one or more cards leave your graveyard for the first time each turn, you draw a card and you lose 1 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/119.png" num="113">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Minotaur</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Guilt Scavenger</name>
+			<text>When Guilt Scavenger enters the battlefield, each opponent discards a card, each opponent who didn&apos;t discard a nonland card this way loses 3 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/120.png" num="105">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Basal Tempter</name>
+			<text>Flying
+When Basal Tempter enters the battlefield, each non-Demon, non-Devil creature gets -3/-3 until end of turn.
+Whenever a creature you don&apos;t control dies, you may pay life equal to its mana value. If you do, create a token that&apos;s a copy of it, except it&apos;s a black Demon.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/121.png" num="87">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>5BB</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lumpen Taunter</name>
+			<text>Whenever Lumpen Taunter deals combat damage to a player, that player discards a card. If the player can&apos;t, you draw a card.
+Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/122.png" num="110">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Specter</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shepherd of Pain</name>
+			<text>Whenever a creature you control dies or a permanent card leaves your graveyard, each opponent loses 1 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/123.png" num="116">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Defeat</name>
+			<text>Destroy target creature with power 2 or less.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/124.png" num="93">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Awaiting Judgment</name>
+			<text>When Awaiting Judgment enters the battlefield, mill three cards, then you may return a creature card from your graveyard to your hand.
+Whenever you journey into the Underworld, return Awaiting Judgment to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/125.png" num="86">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Knotted Annihilation</name>
+			<text>This spell costs {2} less to cast if a creature died this turn.
+Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/126.png" num="107">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Grove of the Suicides</name>
+			<text>Enchant creature
+When enchanted creature dies, return that card to the battlefield under your control with a +1/+1 counter on it.
+Unearth {B} ({B}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/127.png" num="103">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cycle of Punishment</name>
+			<text>Put target creature card from a graveyard onto the battlefield under your control. If you own that creature, put a +1/+1 counter on it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/128.png" num="92">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Creeping Filth</name>
+			<text>Destroy target battle, creature, or planeswalker.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/129.png" num="90">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Waste of Good Suffering</name>
+			<text>Choose one —
+• Target creature gets -2/-2 until end of turn.
+• Exile target player&apos;s graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/130.png" num="120">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ocular Takwin</name>
+			<text>Haste
+{T}, Sacrifice Ocular Takwin: It deals 1 damage to any target. If you controlled another Demon or Devil as you activated this ability, it deals 2 damage instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/131.png" num="147">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Eye</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soulsnapper Whelp</name>
+			<text>Whenever Soulsnapper Whelp attacks, another target Demon or Devil you control gains menace until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/132.png" num="155">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Dog</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relentless Shadow</name>
+			<text>{1}, Discard a card: Relentless Shadow gets +2/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/133.png" num="150">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shade Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Screeching Punisher</name>
+			<text>Menace
+When Screeching Punisher enters the battlefield, it deals 1 damage to you.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/134.png" num="153">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bitter Chainflinger</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/135.png" num="128">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Capricious Spitefiend</name>
+			<text>Whenever you cast a noncreature spell, Capricious Spitefiend gets +2/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/136.png" num="130">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Imp</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Remnant of Desire</name>
+			<text>Trample
+When Remnant of Desire dies, it deals 3 damage to target player or planeswalker.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/137.png" num="151">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Maw of Judgment</name>
+			<text>When Maw of Judgment enters the battlefield, return target instant or sorcery card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/138.png" num="144">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Furious Irestoker</name>
+			<text>Penance {5}{R}{R} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Trample
+When Furious Irestoker enters the battlefield, up to one target creature gets +[b][2][/b]/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/139.png" num="133">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dreams of Damnation</name>
+			<text>Dreams of Damnation deals 2 damage to any target.
+Journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/140.png" num="131">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Burning Ire</name>
+			<text>Penance {3}{R} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Target creature gets +[b][1][/b]/+0 and gains first strike until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/141.png" num="129">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>To Know Is to Know Sin</name>
+			<text>As an additional cost to cast this spell, discard a card or sacrifice a creature.
+Draw two cards. If a creature was sacrificed to cast this spell, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/142.png" num="157">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Judgment of Menaus</name>
+			<text>Destroy target artifact or land. If an artifact was destroyed this way, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/143.png" num="140">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scourging Shame</name>
+			<text>Penance {1}{R} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Scourging Shame deals [b][4][/b] damage to target creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/144.png" num="152">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Better to Reign</name>
+			<text>As long as you control a creature with power 4 or greater, you may cast this spell as though it had flash.
+Better to Reign deals 5 damage to any nonplayer target.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/145.png" num="127">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pride</name>
+			<text>When you control another creature, sacrifice Pride.
+Protection from mana value 3 or less (This creature can&apos;t be blocked, targeted, dealt damage, enchanted, or equipped by anything with mana value 3 or less.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/146.png" num="186">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>1GGG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lust</name>
+			<text>Lust attacks each combat if able.
+At the beginning of combat on your turn, untap up to one target creature you don&apos;t control. When you do, until end of turn, if that creature or Lust would deal damage, it deals triple that damage instead.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/147.png" num="143">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>1RRR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hellrider</name>
+			<text>Haste
+Whenever a creature you control attacks, Hellrider deals 1 damage to the player or planeswalker it&apos;s attacking.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/148.png" num="138">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wastrel&apos;s Progress</name>
+			<text>Penance {3}{R}{R} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Exile the top [b][X][/b] cards of your library. You may cast any number of spells with mana value [b][X][/b] or less from among them without paying their mana costs.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/149.png" num="160">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XRR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Avaricious Wretch</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever an opponent casts a spell, exile the top card of your library. Until the end of your next turn, you may play that card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/150.png" num="125">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Peasant</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soulburner Tyrant</name>
+			<text>Flying, haste
+{1}{R}: Soulburner Tyrant gets +2/+0 until end of turn.
+{1}{R}: Each creature you control with power 4 or greater gets +2/+0 until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/151.png" num="154">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Haggard Corpsebird</name>
+			<text>Flying
+Haggard Corpsebird can&apos;t block.
+When Haggard Corpsebird dies, if you&apos;ve journeyed into the Underworld four or more times, return it to its owner&apos;s hand. Otherwise, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/152.png" num="135">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Phoenix</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heart of Disyus</name>
+			<text>Penance {5}{R}{R} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase. Creatures you control get +[b][1][/b]/+0 until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/153.png" num="137">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>No Rest for the Living</name>
+			<text>Create a token that&apos;s a copy of target creature card in your graveyard, except it has haste and &quot;At the beginning of the end step, sacrifice this token.&quot; If you&apos;ve journeyed into the Underworld four or more times, create three of those tokens instead.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/154.png" num="146">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Baying Brute</name>
+			<text>This spell costs {1} less to cast if you control a Demon and {1} less to cast if you control a Devil.
+Menace</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/155.png" num="126">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Dog</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hunter of the Craven</name>
+			<text>Whenever Hunter of the Craven attacks, other Demons and Devils you control get +1/+0 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/156.png" num="139">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Triplicate Cur</name>
+			<text>Triplicate Cur has double strike as long as you&apos;ve journeyed into the Underworld two or more times.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/157.png" num="159">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Dog</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Knave of Perdition</name>
+			<text>Penance {3}{R} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+When Knave of Perdition enters the battlefield, it deals [b][1][/b] damage to any target.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/158.png" num="141">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Punisher of Folly</name>
+			<text>Whenever Punisher of Folly attacks, it gets +1/+1 until end of turn.
+{1}: Punisher of Folly gets +1/-1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/159.png" num="149">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Echo of Witchcraft</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever you journey into the Underworld, exile the top card of your library. Until end of turn, you may play that card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/160.png" num="132">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — NIghtmare Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Furious Primitive</name>
+			<text>Trample
+Creatures you control with power 4 or greater have haste.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/161.png" num="134">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Giant</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Procession of Hate</name>
+			<text>Penance {2}{R}{R} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Gain control of target creature until end of turn. Untap that creature. It gets +[b][1][/b]/+0 and gains haste until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/162.png" num="148">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lead into Temptation</name>
+			<text>Lead into Temptation deals 1 damage to each creature and an additional 1 damage to each non-Demon, non-Devil creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/163.png" num="142">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mired in Grief</name>
+			<text>Mired in Grief deals X damage to any target. If excess damage was dealt this way, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/164.png" num="145">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XR</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Halls of Limbo</name>
+			<text>When Halls of Limbo enters the battlefield, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)
+Whenever you journey into the Underworld, choose one —
+• Halls of Limbo deals 2 damage to target player.
+• Creatures you control get +1/+0 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/165.png" num="136">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spiralling Damnation</name>
+			<text>As an additional cost to cast this spell, you may pay {1}{R}.
+Journey into the Underworld. If the additional cost was paid, instead journey into the Underworld three times. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it for each time you journey.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/166.png" num="156">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Torrent of Wingbeats</name>
+			<text>Target creature gains double strike until end of turn. That creature also gets +1/+0 and gains trample until end of turn if you control a creature with power 4 or greater.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/167.png" num="158">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Words of Blood</name>
+			<text>Words of Blood deals 2 damage to any target. It deals 3 damage instead if you control a creature with power 4 or greater.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/168.png" num="161">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Impenitent Scholar</name>
+			<text>Impenitent Scholar enters the battlefield with a +1/+1 counter on it if you&apos;ve descended this turn. (You descended if a permanent card was put into your graveyard from anywhere this turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/169.png" num="179">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cavernous Trogwalla</name>
+			<text>{1}{G}: Until end of turn, Cavernous Trogwalla gets +X/+X, where X is the greatest toughness among other creatures you control. Activate only once each turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/170.png" num="168">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gnarled Gnostic</name>
+			<text>When Gnarled Gnostic enters the battlefield, put a +1/+1 counter on target creature you control.
+Unearth {2}{G} ({2}{G}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/171.png" num="172">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gluttonous Maw</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/172.png" num="171">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wurm</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wretched Crone</name>
+			<text>When Wretched Crone enters the battlefield, you gain 2 life.
+Unearth {1}{G}{G} ({1}{G}{G}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/173.png" num="199">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hag</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relentless Reaver</name>
+			<text>Penance {1}{G}{G} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+When Relentless Reaver enters the battlefield, surveil [b][2].[/b]</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/174.png" num="191">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Humbled Titan</name>
+			<text>Trample
+Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/175.png" num="178">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Giant Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghost of Acedia</name>
+			<text>Trample
+When Ghost of Acedia enters the battlefield, mill three cards. You may put a creature card from among the cards milled this way into your hand. If you don&apos;t, put a +1/+1 counter on Ghost of Acedia.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/176.png" num="170">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bestial Betrayer</name>
+			<text>Trample
+{2}, Discard Bestial Betrayer: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/177.png" num="167">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ape</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tormented Hatemonger</name>
+			<text>Vigilance, trample
+When Tormented Hatemonger enters the battlefield, target creature gets +X/+X and gains vigilance until end of turn, where X is the number of permanent cards in your graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/178.png" num="195">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Profane Piping</name>
+			<text>Create a 3/3 green Worm creature token.
+As long as you control a creature with power 4 or greater, you may cast Profane Piping from your graveyard. If you cast Profane Piping this way and it would be put into your graveyard, exile it instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/179.png" num="188">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Grasp of the Wretched</name>
+			<text>Choose target creature you control and target creature you don&apos;t control. If you&apos;ve descended this turn, the creature you control deals damage equal to its power to the creature you don&apos;t control. Otherwise those creatures fight each other. (You descended if a permanent card was put into your graveyard from anywhere this turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/180.png" num="174">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sanctified Flesh</name>
+			<text>Penance {2}{G} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Target creature gets +[b][3][/b]/+[b][3][/b] and gains trample until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/181.png" num="192">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Towering Hubris</name>
+			<text>Enchant land
+Enchanted land has &quot;{1}, {T}: Add two mana of any color. This ability costs {1} less to activate if you control a creature with power 4 or greater.&quot;</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/182.png" num="196">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Arcane Puzzlebox</name>
+			<text>{T}: Add {G}.
+{T}, Sacrifice Arcane Puzzlebox: Mill five cards. You may put a creature card from among the cards milled this way into your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/183.png" num="165">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Acedia</name>
+			<text>Menace
+At the beginning of each player&apos;s end step, if that player didn&apos;t cast a spell this turn, put a +1/+1 counter on Acedia and it deals 2 damage to that player.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/184.png" num="124">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>1RRR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sin-Gift Cenobite</name>
+			<text>{T}: Add one mana of any color.
+Whenever a land enters the battlefield under your control, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/185.png" num="193">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Abyssal Orchestra</name>
+			<text>Trample
+Abyssal Orchestra enters the battlefield with X +1/+1 counters on it.
+When Abyssal Orchestra enters the battlefield, you may put a green creature card with mana value X or less from your hand onto the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/186.png" num="162">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>XG</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Original Sin</name>
+			<text>Ward {2}
+Original Sin enters the battlefield with a +1/+1 counter on it.
+At the beginning of your end step, if you descended this turn, double the number of +1/+1 counters on Original Sin. (You descended if a permanent card was put into your graveyard from anywhere this turn.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/187.png" num="184">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hydra</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Primal Bedrock</name>
+			<text>You may have Primal Bedrock enter the battlefield tapped as a copy of a land you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/188.png" num="187">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wretch&apos;s Progress</name>
+			<text>Penance {3}{B}{B} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Wretch&apos;s Progress deals [b][X][/b] damage to any target and you gain [b][X][/b] life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/189.png" num="122">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XBB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Guilt Gnawer</name>
+			<text>When Guilt Gnawer enters the battlefield, destroy target artifact, enchantment, or land.
+Unearth {2}{G}{G} ({2}{G}{G}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/190.png" num="176">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nesting Beast</name>
+			<text>Vigilance, deathtouch, haste
+When Nesting Beast dies, create a 1/1 green Cat creature token with vigilance, a 1/1 green Crocodile creature token with deathtouch, and a 1/1 green Beast creature token with haste.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/191.png" num="183">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Chimera</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Balat, Accursed Liege</name>
+			<text>Vigilance, trample, haste
+Balat, Accursed Liege can block up to six hundred and sixty-six creatures each combat.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/192.png" num="166">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Devil Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pitiless Sentinel</name>
+			<text>When Pitiless Sentinel enters the battlefield, you may search your library for a basic Forest card, put it onto the battlefield tapped, then shuffle.
+Unearth {2}{G}{G} ({2}{G}{G}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/193.png" num="185">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gorging Glutton</name>
+			<text>Whenever another creature enters the battlefield under your control, if that creature has greater power or toughness than Gorging Glutton, put a +1/+1 counter on Gorging Glutton.
+Gorging Glutton has vigilance as long as it has three or more counters on it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/194.png" num="173">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Maw of Disyus</name>
+			<text>Reach
+Whenever a creature dealt damage by Maw of Disyus this turn dies, mill two cards, then you gain life equal to the number of card types among cards in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/195.png" num="182">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Groom of Swords</name>
+			<text>Each other creature you control with toughness greater than its power gets +1/+1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/196.png" num="175">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Punisher of Kytos</name>
+			<text>Whenever Punisher of Kytos becomes blocked, destroy up to one target artifact or enchantment you don&apos;t control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/197.png" num="189">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>March into Nothingness</name>
+			<text>Return target permanent card from your graveyard to your hand.
+Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/198.png" num="181">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Indolent Leech</name>
+			<text>When Indolent Leech enters the battlefield, target creature card in your graveyard gains unearth until end of turn. The unearth cost is equal to its mana cost reduced by {2}.
+Unearth {2}{G} ({2}{G}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/199.png" num="180">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Conqueror Wurm</name>
+			<text>Vigilance, reach, trample</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/200.png" num="169">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wurm</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Slavering Wretch</name>
+			<text>Slavering Wretch can&apos;t be blocked by creatures with power 2 or less.
+Whenever Slavering Wretch attacks, it gets +1/+1 until end of turn for each other creature you control with power 4 or greater.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/201.png" num="194">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unquiet Tomb</name>
+			<text>When Unquiet Tomb enters the battlefield, mill two cards.
+Whenever one or more permanent cards leave your graveyard, create a 3/3 green Worm creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/202.png" num="197">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hell&apos;s Wrath</name>
+			<text>Target creature you control deals damage equal to its power to up to one target creature and damage equal to its toughness to up to one other target creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/203.png" num="177">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Against Thee Wickedly</name>
+			<text>Penance {4}{G} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Creatures you control get +[b][2][/b]/+[b][2][/b] and gain trample until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/204.png" num="163">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Antediluvian Idol</name>
+			<text>Creatures you control enter the battlefield with an additional +1/+1 counter on them.
+Unearth {G} ({G}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/205.png" num="164">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Weight of Guilt</name>
+			<text>Penance {1}{G} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Exile target artifact, enchantment, or creature with flying if its mana value is [b][2][/b] or less.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/206.png" num="198">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Giacco, Slavering Maggot</name>
+			<text>Vigilance
+At the beginning of your end step, put a +1/+1 counter on Giacco, Slavering Maggot for each time you&apos;ve descended this turn. (You descended if a permanent card was put into your graveyard from anywhere this turn.)
+Whenever Giacco deals combat damage to a player, surveil 1, then draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/207.png" num="227">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Altar of Remorse</name>
+			<text>Unearth costs you pay cost {BG} less. (They cost up to {B} or {G} less.)
+{2}, {T}, Sacrifice a nonland permanent: You gain 1 life and draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/208.png" num="221">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Refuse to Repent</name>
+			<text>Penance {1}{R}{W} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+This spell has lifelink if you cast it for its penance cost.
+Refuse to Repent deals [3] damage to each creature, planeswalker, and battle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/209.png" num="225">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Icon of Hubris</name>
+			<text>You have no maximum hand size.
+Whenever you draw a card, you gain 1 life.
+As long as you&apos;ve drawn two or more cards this turn, Icon of Hubris is a 3/3 Nightmare creature in addition to its other types and has &quot;Whenever this creature deals combat damage to a player, draw a card.&quot;</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/210.png" num="201">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Leviathan&apos;s End</name>
+			<text>Journey into the Underworld. Then for each time you&apos;ve journeyed into the Underworld, repeat the following process. Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/211.png" num="205">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Infernal Piper</name>
+			<text>Flying, haste
+Whenever Infernal Piper deals combat damage to a player, reveal the top card of your library. If it&apos;s a Demon or Devil card, or if you pay life equal to its mana value, put it into your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/212.png" num="208">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Liege of Disyus</name>
+			<text>This spell can&apos;t be countered.
+Creature spells you cast can&apos;t be countered and may be cast as though they had flash.
+As long as it&apos;s your turn, creatures you control have hexproof.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/213.png" num="210">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Leviathan&apos;s Mercy</name>
+			<text>Penance {1}{G}{W} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Return any number of target creature cards with total mana value [b][3][/b] or less from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/214.png" num="213">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tyrant&apos;s End</name>
+			<text>Target opponent chooses a number. When they do, you may have that player&apos;s life total become that number. If you don&apos;t, destroy up to that many target nonland permanents that player controls.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/215.png" num="217">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4WB</manacost>
+				<cmc>6</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Piyt Bruut, Artist of the Abyss</name>
+			<text>Whenever you cast an instant or sorcery spell, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/216.png" num="220">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trammel in Darkness</name>
+			<text>Choose one or both —
+• Counter target spell unless its controller pays {4}.
+• Destroy target creature with power 4 or greater.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/217.png" num="202">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deepgate Guardian</name>
+			<text>Whenever a creature you control dies, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/218.png" num="203">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Beast of the Pit</name>
+			<text>Flying
+At the beginning of each player&apos;s upkeep, that player may sacrifice a creature. If they don&apos;t, Beast of the Pit deals 3 damage to them.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/219.png" num="207">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3BR</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sin Harvester</name>
+			<text>Whenever Sin Harvester enters the battlefield or attacks, put a +1/+1 counter on a creature with the least power among creatures you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/220.png" num="211">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stroker of Pride</name>
+			<text>Vigilance
+At the beginning of combat on your turn, another target creature you control gets +1/+3 and gains vigilance until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/221.png" num="214">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Suckling Spawn</name>
+			<text>When Suckling Spawn enters the battlefield or dies, mill three cards.
+Artifact cards and enchantment cards in your graveyard have unearth. The unearth cost is equal to their mana cost. (Pay the card&apos;s mana cost: Return it to the battlefield. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/222.png" num="216">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Immortal Sin</name>
+			<text>{X}, Pay X life, Sacrifice Immortal Sin: Exile each nonland permanent with mana value X or less. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/223.png" num="222">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>As Above, So Below</name>
+			<text>Journey into the Underworld twice. (Enter the Underworld if you haven&apos;t already, then put two damnation counters on it.)
+Draw two cards, then discard two cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/224.png" num="218">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scourging Flame</name>
+			<text>Penance {2}{R}{W} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Scourging Flame deals [b][2][/b] damage to any target and you gain [b][2][/b] life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/225.png" num="226">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fallen Outcast</name>
+			<text>Flying, vigilance
+Whenever Fallen Outcast becomes the target of a spell or ability an opponent controls, that player creates a colorless artifact token named Scourge with &quot;You can&apos;t draw cards&quot; and &quot;{2}, {T}: Destroy this artifact.&quot;</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/226.png" num="200">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inglorious Cavalier</name>
+			<text>When Inglorious Cavalier enters the battlefield, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)
+As long as you&apos;ve journeyed into the Underworld four or more times, Inglorious Cavalier gets +2/+3 and has menace.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/227.png" num="204">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Backbroken Tormentor</name>
+			<text>Other Demons and Devils you control get +1/+1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/228.png" num="206">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Envious Wretch</name>
+			<text>Trample
+At the beginning of combat on your turn, Envious Wretch gets +1/+1 until end of turn for each other creature you control with power 4 or greater.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/229.png" num="209">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>De Profundis</name>
+			<text>Penance {2}{G}{W} (If you cast this for its penance cost, replace all numbers in brackets with the greatest power or toughness among your creatures.)
+Create a [b][3][/b]/[b][3][/b] green Worm creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/230.png" num="212">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lamenter of Souls</name>
+			<text>Lifelink
+Whenever a permanent enters the battlefield from your graveyard, put a +1/+1 counter on Lamenter of Souls.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/231.png" num="215">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Penitent Sister</name>
+			<text>Whenever Penitent Sister or another creature you control dies or is put into exile, each opponent loses 1 life and you gain 1 life.
+Unearth {B}{G} ({B}{G}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/232.png" num="223">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blooded Guiltseeker</name>
+			<text>Haste
+Whenever you journey into the Underworld, you may tap Blooded Guiltseeker. If you do, it deals 2 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/233.png" num="219">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Hound</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghost of Wrath</name>
+			<text>At the beginning of combat on your turn, choose one —
+• Target creature you control gets +2/+0 until end of turn.
+• Up to two target creatures you control each get +1/+0 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/234.png" num="224">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Basilica&apos;s Bane</name>
+			<text>Flying
+When Basilica&apos;s Bane enters the battlefield or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/235.png" num="1">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Idol of Truth and Death</name>
+			<text>Whenever Idol of Truth and Death enters the battlefield or dies, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/236.png" num="248">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tattered Revenant</name>
+			<text>This spell costs {1} less to cast for each time you descended this turn. (You descended if a permanent card was put into your graveyard from anywhere this turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/237.png" num="252">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Skeleton</type>
+				<maintype>Creature</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Behold the City</name>
+			<text>Mill four cards, then you may return a land card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/238.png" num="2">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Damnation Clock</name>
+			<text>{T}: Add one mana of any color.
+{4}, {T}: Journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/239.png" num="242">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Forbidden Tome</name>
+			<text>{5}, {T}, Sacrifice Forbidden Tome: Put target nonland permanent on the bottom of its owner&apos;s library.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/240.png" num="245">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Flayed Exemplar</name>
+			<text>Vigilance
+Whenever Flayed Exemplar enters the battlefield or attacks, exile up to one target card from a graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/241.png" num="5">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crawling Conflict</name>
+			<text>When Crawling Conflict enters the battlefield, if it entered from your graveyard or was cast from your graveyard, draw a card.
+Unearth {7} ({7}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/242.png" num="3">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Graven Icon</name>
+			<text>When Graven Icon enters the battlefield, each opponent creates a colorless artifact token named Scourge with &quot;You can&apos;t draw cards&quot; and &quot;{2}, {T}: Destroy this artifact.&quot;
+Whenever an artifact is put into an opponent&apos;s graveyard from the battlefield, put a +1/+1 counter on Graven Icon.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/243.png" num="246">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Sculpture</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Effigy of Sin</name>
+			<text>Menace
+When Effigy of Sin enters the battlefield, choose one —
+• Put a +1/+1 counter on Effigy of Sin.
+• Journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/244.png" num="244">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hellforged Necroscope</name>
+			<text>Whenever you journey into the Underworld, you may have Hellforged Necroscope become a 3/3 Demon creature with menace in addition to its other types until end of turn.
+{2}, {T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/245.png" num="247">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Chains of Eternity</name>
+			<text>{T}: Target player exiles a card from their graveyard.
+{1}, Sacrifice Chains of Eternity: Exile target card from a graveyard. Draw a card.
+Unearth {2} ({2}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/246.png" num="241">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Eternal Remission</name>
+			<text>As Eternal Remission enters the battlefield, choose a nonland card name.
+Activated abilities of sources with the chosen name can&apos;t be activated and triggered abilities of sources with the chosen name don&apos;t trigger.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/247.png" num="4">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bruut&apos;s Plate</name>
+			<text>At the beginning of your end step, if you&apos;ve descended this turn, put a vision counter on Bruut&apos;s Plate. (You descended if a permanent card was put into your graveyard from anywhere this turn.)
+Equipped creature gets +1/+1 for each vision counter on Bruut&apos;s Plate.
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/248.png" num="240">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Altar of Insolence</name>
+			<text>{T}: Add {C}.
+{4}, {T}: Journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/249.png" num="253">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Wretched Spire</name>
+			<text>Wretched Spire enters the battlefield with a charge counter on it.
+{T}: Add {C}.
+{T}, Remove a charge counter from Wretched Spire: Add one mana of any color.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/250.png" num="261">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/251.png" num="262">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/252.png" num="263">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/253.png" num="264">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/254.png" num="265">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/255.png" num="266">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Devil 666</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/256.png" num="4">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Devil</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>666 Draft Archetypes 666</name>
+			<text>{W}{U} CONTROL The underworld is yours to dictate. Carve out your heinous throne.
+{U}{B} UNDERWORLD CREATURES Traverse the dark circles of Bocacius in search of sin.
+{B}{R} HELLSPAWN Gather Demons and Devils to rule the damned.
+{R}{G} FEROCIOUS In the freezing depths of the underworld, true strength is all that matters.
+{G}{W} PENANCE TOUGHNESS Repent your sins by embracing your endurance. 
+{W}{B} UNEARTH Dig foul magicks and relics from the infernal muck.
+{B}{G} UNEARTH The restless damned cry out for a second chance.
+{G}{U} DESCEND Reach deep into the abyss and find power.
+{U}{R} UNDERWORLD SPELLS Sinful magicks secure your place in the underworld.
+{R}{W} PENANCE POWER Might makes right. Purge your guilt through a strong offense.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/257.png" num="12">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Underworld Poet</name>
+			<text>Trample
+At the beginning of combat on your turn, if you descended this turn, double Underworld Poet&apos;s power until end of turn. (You descended if a permanent card was put into your graveyard from anywhere this turn.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/258.png" num="229">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tombs of the Ignoble</name>
+			<text>At the beginning of your upkeep, mill three cards. Then if there are seven or more cards in your graveyard, draw a card.
+{1}{G}{U}, {T}, Exile Tombs of the Ignoble: Return target card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/259.png" num="228">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Maze of Torment</name>
+			<text>({T}: Add {W} or {B}.)
+Maze of Torment enters the battlefield tapped.
+When Maze of Torment enters the battlefield, target player mills two cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/260.png" num="259">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gates of Agony</name>
+			<text>({T}: Add {R} or {W}.)
+Gates of Agony enters the battlefield tapped.
+When Gates of Agony enters the battlefield, target player mills two cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/261.png" num="258">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Crossroads of Grief</name>
+			<text>({T}: Add {U} or {R}.)
+Crossroads of Grief enters the battlefield tapped.
+When Crossroads of Grief enters the battlefield, target player mills two cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/262.png" num="255">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Slough of Despair</name>
+			<text>({T}: Add {B} or {G}.)
+Slough of Despair enters the battlefield tapped.
+When Slough of Despair enters the battlefield, target player mills two cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/263.png" num="260">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Spirit Wall 666</name>
+			<text>Defender</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/264.png" num="2">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit Wall</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Collector of Faces</name>
+			<text>When Collector of Faces enters the battlefield or dies, look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/265.png" num="89">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>False Seer</name>
+			<text>When False Seer enters the battlefield, journey into the Underworld. (Enter the Underworld if you haven&apos;t already, then put a damnation counter on it.)
+As long as you&apos;ve journeyed into the Underworld four or more times, False Seer gets +1/+1 and can&apos;t be blocked.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/666-files/img/266.png" num="54">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Peasant</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scourge 666</name>
+			<text>You can&apos;t draw cards
+{2}, {T}: Destroy this artifact.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/267.png" num="10">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Gargoyle 666</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/268.png" num="1">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Gargoyle</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Shield of Smoke and Fire</name>
+			<text>Equipped creature gets +1/+3 and has hexproof from black and from red.
+Whenever equipped creature blocks or becomes blocked, you draw a card and each player loses 2 life.
+Equip {3}</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/269.png" num="251">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Reaper across Time</name>
+			<text>Flying
+When Reaper across Time enters the battlefield, exile up to one target creature, up to one target card from an opponent&apos;s graveyard, and up to one card from an opponent&apos;s hand. Return the exiled cards to their owners&apos; hands when Reaper across Time leaves the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/666-files/img/270.png" num="239">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>2WUB</manacost>
+				<cmc>5</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Demon 666</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/271.png" num="3">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Hydra 666</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/272.png" num="8">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Hydra</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Cat 666</name>
+			<text>Vigilance</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/273.png" num="6">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Cat</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Worm 666</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/274.png" num="9">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Worm</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Beast 666</name>
+			<text>Haste</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/275.png" num="5">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Crocodile 666</name>
+			<text>Deathtouch</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/666-files/img/276.png" num="7">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Crocodile</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Embrace Damnation</name>
+			<text>At the beginning of your postcombat main phase, mill X cards, where X is the number of cards in your graveyard. You may cast a spell from among the milled cards without paying its mana cost.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/666-files/img/277.png" num="52">666</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

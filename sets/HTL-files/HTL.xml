@@ -1,0 +1,4744 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>HTL</name>
+			<longname>Heartland of the Real</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-01-24</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Starlight Dome</name>
+			<text>Whenever a battle you control is defeated or whenever a creature you control dies, put a charge counter on Starlight Dome.
+Once during each of your turns, you may cast a permanent spell from your hand or graveyard with mana value less than or equal to the number of charge counters on Starlight Dome without paying its mana cost.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/0.png" num="248">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Project Starlight</name>
+			<text>Each player reveals their hand and library. Exile all enchantment cards, non-Human creature cards, and planeswalker cards from the battlefield, from graveyards, and from among the revealed cards. Each player shuffles, then draws a card for each card exiled from their hand this way.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/1.png" num="7">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>8</manacost>
+				<cmc>8</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Genomic Blueprint</name>
+			<text>As Genomic Blueprint enters the battlefield, choose a nonland card name.
+Triggered abilities of sources with the chosen name don&apos;t trigger.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/2.png" num="244">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Liminal Vista</name>
+			<text>{T}: Add {C}.
+{T}: Put a +1/+1 counter on target creature if it dealt combat damage to a battle or planeswalker this turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/3.png" num="256">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Unseen Pursuer</name>
+			<text>Menace
+During you turn, other Assassins you control and noncreature permanents you control have deathtouch.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/4.png" num="129">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ultimate Weapon</name>
+			<text>Trample
+When Ultimate Weapon enters the battlefield, if it was cast, destroy target noncreature permanent an opponent controls.
+Other artifact creatures you control get +1/+1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/5.png" num="204">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Collective Revenant</name>
+			<text>You may have Collective Revenant assign its combat damage as though it weren&apos;t blocked.
+Whenever another permanent enters the battlefield under your control, for each kind of counter on it, put another counter of that kind on it or remove one from it.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/6.png" num="171">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flesh Siphon</name>
+			<text>{T}: Exile target card from a graveyard.
+{T}: Create a 3/3 green Human Horror creature token. Activate only as a sorcery and only if seven or more cards are exiled with Flesh Siphon.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/7.png" num="243">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Total Annihilation</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Total Annihilation enters the battlefield or is defeated, destroy target permanent an opponent controls.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/8.png" num="10">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Multiversal Passage</name>
+			<text>As Multiversal Passage enters the battlefield, choose a basic land type. Then you may pay 2 life. If you don&apos;t, it enters the battlefield tapped.
+Multiversal Passage is the chosen type.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/9.png" num="257">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Nodal Tyrant</name>
+			<text>Flying, ward {2}
+Other Drones you control get +1/+1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/10.png" num="76">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Drowned Mire</name>
+			<text>{T}: Add {C}.
+{T}: Add {U} or {B}. Activate only if you control an Island.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/11.png" num="255">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Colonize</name>
+			<text>Gain control of target land unless its controller sacrifices two creatures.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/12.png" num="215">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Starlight Researcher</name>
+			<text>Starlight Researcher enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/13.png" num="45">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Black-Op Vanguard</name>
+			<text>Whenever Black-Op Vanguard attacks a player or permanent, if no other creatures are attacking that player or permanent, put a +1/+1 counter on Black-Op Vanguard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/14.png" num="18">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Starlight Enforcer</name>
+			<text>Vigilance</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/15.png" num="44">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Consummate Thief</name>
+			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/16.png" num="21">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aerial Operative</name>
+			<text>Flying
+Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/17.png" num="13">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>X-Open Pursuer</name>
+			<text>When X-Open Pursuer enters the battlefield, put a +1/+1 counter on each of up to two target creatures.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/18.png" num="51">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spectrograph Analyst</name>
+			<text>Whenever you cast a noncreature spell, Spectrograph Analyst gains indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/19.png" num="43">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crackdown Enforcer</name>
+			<text>Vigilance
+At the beginning of combat on your turn, if you&apos;ve cast or copied a noncreature spell this turn, put a +1/+1 counter on Crackdown Enforcer.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/20.png" num="25">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Detective</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Astralnaut Deployer</name>
+			<text>Vigilance
+Battle spells you cast cost {1} less to cast.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/21.png" num="16">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Troop Transport</name>
+			<text>Flying
+{2}, Discard Troop Transport: Search your library for a basic Plains card or a card named Wetworks Lens, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/22.png" num="48">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Carrier</type>
+				<maintype>Creature</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Containment Unit</name>
+			<text>When Containment Unit enters the battlefield, exile target creature an opponent controls until Containment Unit leaves the battlefield.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/23.png" num="22">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Into the Night</name>
+			<text>When Into the Night enters the battlefield, target nonland permanent an opponent controls phases out until Into the Night leaves the battlefield. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/24.png" num="34">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Haunted Crossroads</name>
+			<text>Haunted Crossroads deals 3 damage to target attacking or blocking creature. If that creature would die this turn, exile it instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/25.png" num="33">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Precision Strike</name>
+			<text>Exile target artifact, battle, or enchantment.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/26.png" num="39">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Consciousness Uploader</name>
+			<text>Nonland permanents are enchantments in addition to their other types. The same is true for permanent spells and nonland permanent cards that aren&apos;t on the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/27.png" num="20">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Protracted Occupation</name>
+			<text>Whenever a creature you control dies, if it was attacking a player or permanent that no other creature was attacking, create a token that&apos;s a copy of it.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/28.png" num="40">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Build a Colony on a Grave</name>
+			<text>Exile all nonland permanents.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/29.png" num="19">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5WW</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Assault Valkyrie</name>
+			<text>Flying, double strike
+Whenever a battle you control is defeated, put a +1/+1 counter on Assault Valkyrie.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/30.png" num="15">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Out of Time and Place</name>
+			<text>Exile a creature you control, then return it to the battlefield under it owner&apos;s control. Then repeat this process X more times.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/31.png" num="38">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XXW</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shadowy Manipulator</name>
+			<text>Flash
+Noncreature permanents entering the battlefield don&apos;t cause abilities to trigger.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/32.png" num="42">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>L-Bit Sentinel</name>
+			<text>You may look at the top card of your library any time.
+You may cast battle spells from the top of your library.
+Whenever you cast a battle spell, create two 1/1 white Advisor creature tokens with first strike and &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/33.png" num="35">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crisis of Faith</name>
+			<text>Destroy target nonland permanent with mana value 1 or less.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/34.png" num="26">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Twin-Rotor Transport</name>
+			<text>Flying, vigilance
+Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/35.png" num="49">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Carrier</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Corporate Cut-Out</name>
+			<text>Vigilance
+When Corporate Cut-Out enters the battlefield, look at the top four cards of your library. You may reveal a creature card with power 2 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/36.png" num="24">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Radiological Observer</name>
+			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
+Whenever a player casts a noncreature spell, put a +1/+1 counter on Radiological Observer.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/37.png" num="41">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grizzled Wardog</name>
+			<text>Whenever Grizzled Wardog attacks a player or permanent, if no other creatures are attacking that player or permanent, return target battle card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/38.png" num="32">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Embedded Observer</name>
+			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
+{T}: Target creature you control gains shielded until end of turn. Activate only as a sorcery. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/39.png" num="30">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Controlled Opposition</name>
+			<text>Whenever a creature you control attacks a player or permanent, if no other creatures are attacking that player or permanent, create a 1/1 white Advisor creature token with first strike and &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/40.png" num="23">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rebel</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mission Controller</name>
+			<text>Whenever you cast a noncreature spell, if Mission Controller has first strike, it gains double strike until end of turn. Otherwise, it gains first strike until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/41.png" num="37">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Architect of War</name>
+			<text>When Architect of War enters the battlefield, create a 2/2 colorless Drone artifact creature token.
+Drones you control have vigilance.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/42.png" num="14">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Barrack Destroyer</name>
+			<text>Flying
+Whenever another creature you control attacks a battle, untap it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/43.png" num="17">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stealth Raid</name>
+			<text>Choose three. You may choose the same mode more than once.
+• Tap target creature.
+• Put a stun counter on target creature. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/44.png" num="46">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Last Known Sighting</name>
+			<text>Exile target creature. At the beginning of the next end step, you may pay {4}. If you don&apos;t, return that creature to the battlefield under its owner&apos;s control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/45.png" num="36">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Witness at Midnight</name>
+			<text>Destroy target nonland permanent. Its controller creates a 1/1 white Advisor creature token with first strike and &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/46.png" num="50">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>X-Open Harrier</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/47.png" num="90">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spectral Doll</name>
+			<text>Whenever Spectral Doll deals combat damage to a player or battle, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/48.png" num="83">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Spirit Toy</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unstable Asset</name>
+			<text>Flash
+When Unstable Asset enters the battlefield, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/49.png" num="88">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>L-Bit Skytyrant</name>
+			<text>Flying
+Foretell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/50.png" num="73">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eternal Audience</name>
+			<text>When Eternal Audience enters the battlefield, mill two cards, then you may put an instant, sorcery, or battle card from your graveyard on top of your library.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/51.png" num="62">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Infiltration Specialist</name>
+			<text>Vigilance
+Infiltration Specialist can&apos;t be blocked as long as it&apos;s attacking a battle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/52.png" num="69">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warped Amalgam</name>
+			<text>{2}, Discard Warped Amalgam: Search your library for a basic Island card or a card named Wetworks Lens, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/53.png" num="89">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Autonomous Bomber</name>
+			<text>Flying
+When Autonomous Bomber enters the battlefield, return target nonland permanent an opponent controls to its owner&apos;s hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/54.png" num="53">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Can&apos;t Rain All the Time</name>
+			<text>Target creature you control gets +1/+1 and gains hexproof until end of turn. Untap it.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/55.png" num="55">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deny Everything</name>
+			<text>Choose one —
+• Counter target spell.
+• Tap target creature and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/56.png" num="57">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dream</name>
+			<text>Look at the top three cards of your library, then put them back in any order. You may shuffle.
+Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/57.png" num="59">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Uncover</name>
+			<text>Surveil 2, then draw two cards. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/58.png" num="86">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Spectral Capture</name>
+			<text>Enchant creature
+Enchanted creature loses all abilities and is a blue Spirit creature with flying and base power and toughness 1/1. (It loses all other card types and creature types.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/59.png" num="82">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Extraordinary Rendition</name>
+			<text>Target artifact or creature&apos;s owner puts it on their choice of the top or bottom of their library. Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/60.png" num="64">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Paraphysical Investigation</name>
+			<text>Paraphysical Investigation enters the battlefield with a time counter on it.
+Whenever you cast a spell with mana value equal to the number of time counters on Paraphysical Investigation, put a time counter on it. Then if there are eight or more time counters on it, exile it and take an extra turn after this one.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/61.png" num="77">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Intrusive Intelligence</name>
+			<text>Draw X cards. If this spell was foretold, instead surveil 3, then draw X cards.
+Foretell {X}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/62.png" num="70">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XUU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Biological Entity</name>
+			<text>Flying
+Biological Entity enters the battlefield tapped with four stun counters on it.
+Whenever you draw a card other than the first one you draw in each of your draw steps, untap Biological Entity.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/63.png" num="54">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Emergency Hotline</name>
+			<text>Copy target instant or sorcery spell you control twice. You may choose new targets for the copies.
+Foretell {2}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/64.png" num="61">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Possession Engine</name>
+			<text>When Possession Engine enters the battlefield, gain control of target creature an opponent controls for as long as you control Possession Engine. That creature can&apos;t attack or block for as long as you control Possession Engine.
+Crew 3</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/65.png" num="78">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Unidentified Operative</name>
+			<text>Flash
+When Unidentified Operative enters the battlefield, counter target spell. If that spell is countered this way, put it into its owner&apos;s hand instead of into that player&apos;s graveyard.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/66.png" num="87">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inexorable Ironclad</name>
+			<text>Whenever Inexorable Ironclad becomes the target of a spell, create a 1/1 colorless Drone artifact creature with flying.
+Tap two untapped creatures you control: Inexorable Ironclad can&apos;t be blocked this turn. You may have it phase out.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/67.png" num="67">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Leviathan</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Extermination Engine</name>
+			<text>When Extermination Engine enters the battlefield, return up to one other target artifact or battle to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/68.png" num="63">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Subject Suppressor</name>
+			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
+Whenever a battle you control is defeated, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/69.png" num="84">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lingering Revenant</name>
+			<text>When Lingering Revenant enters the battlefield, draw two cards, then discard a card.
+Foretell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/70.png" num="74">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Anticontaminator</name>
+			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
+Whenever Anticontaminator attacks, draw a card, then discard a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/71.png" num="52">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>L-Bit Annihilator</name>
+			<text>Vigilance
+Whenever you cast a spell from anywhere other than your hand, you may have L-Bit Annihilator&apos;s base power and toughness become X/X until end of turn, where X is that spell&apos;s mana value.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/72.png" num="72">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rendition Czar</name>
+			<text>Whenever you cast a battle spell, create a 2/2 colorless Drone artifact creature token.
+Whenever a battle you control is defeated, put a +1/+1 counter on each Drone you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/73.png" num="80">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Temerity</name>
+			<text>Enchant creature
+Enchanted creature gets +1/+1 and has flying.
+When Temerity is put into a graveyard from the battlefield, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/74.png" num="85">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Grip of Anxiety</name>
+			<text>The owner of target nonland permanent puts it on their choice of the top or bottom of their library. If they put it on the bottom, they may draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/75.png" num="65">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Disappear into the Crowd</name>
+			<text>Prevent all combat damage that would be dealt to creatures and players this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/76.png" num="58">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Monumental Scorn</name>
+			<text>Counter target noncreature spell unless its controller pays {2}. Draw a card, then discard a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/77.png" num="75">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Impossible Object</name>
+			<text>{T}: Add {C}. Spend this mana only to foretell a card from your hand or cast a spell from anywhere other than your hand.
+{2}, Sacrifice Impossible Object: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/78.png" num="66">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Clue</type>
+				<maintype>Artifact</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Collude with Power</name>
+			<text>Draw three cards. Then discard a card if Collude with Power was cast from your hand.
+Foretell {2}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/79.png" num="56">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Expendable Infiltrator</name>
+			<text>Whenever Expendable Infiltrator attacks, defending player loses 1 life and you gain 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/80.png" num="103">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Interference Drone</name>
+			<text>Flying
+Interference Drone enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/81.png" num="110">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Apprentice Astralnaut</name>
+			<text>Whenever you cast a battle spell or whenever a battle you control is defeated, each opponent loses 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/82.png" num="92">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eager Conscript</name>
+			<text>Whenever Eager Conscript attacks a player or permanent, if no other creatures are attacking that player or permanent, Eager Conscript gains lifelink until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/83.png" num="101">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Contract Eradicator</name>
+			<text>When Contract Eradicator enters the battlefield, if it was cast from exile, each opponent discards a card.
+Foretell {2}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/84.png" num="95">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unmarked Transport</name>
+			<text>Flying
+When Unmarked Transport dies, create a 1/1 white Advisor creature token with first strike and &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/85.png" num="127">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Carrier</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nuclear Technician</name>
+			<text>During your turn, Nuclear Technician has deathtouch.
+When Nuclear Technician enters the battlefield, each opponent loses 2 life and you gain 2 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/86.png" num="115">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spectral Tormentor</name>
+			<text>This spell costs {1} less to cast for each battle and/or creature card in your graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/87.png" num="123">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unidentified Entity</name>
+			<text>Ward—Discard a card. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player discards a card.)
+{2}, Discard Unidentified Entity: Search your library for a basic Swamp card or a card named Wetworks Lens, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/88.png" num="126">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Radiation Leak</name>
+			<text>Until end of turn, target creature gets -2/-2 and gains &quot;At the beginning of the end step, sacrifice this creature unless you discard a card.&quot;</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/89.png" num="118">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Made to Disappear</name>
+			<text>Draw two cards. You lose 2 life unless a creature died under your control this turn.
+Foretell {1}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/90.png" num="111">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fall of Man</name>
+			<text>Exile target creature or planeswalker. You gain 2 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/91.png" num="105">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Incriminate</name>
+			<text>Choose two target creatures controlled by the same player. That player sacrifices one of them of their choice.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/92.png" num="109">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Descent into Barbarism</name>
+			<text>Skip your draw step.
+You may cast creature spells from your graveyard. If you cast a spell this way, pay life equal to its mana value rather than pay its mana cost.
+Whenever a creature you control dies, you draw a card and you lose 1 life.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/93.png" num="97">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Stolen Secrets</name>
+			<text>Search target opponent&apos;s library for up to three cards with different names, then that player shuffles. That opponent exiles two of those cards, then you may cast the last without paying its mana cost.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/94.png" num="125">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BBB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Abduction Craft</name>
+			<text>Flying
+When Abduction Craft enters the battlefield, if it was cast, exile target creature an opponent controls.
+Whenever you cast a spell with mana value greater than the exiled card, you draw a card and you lose 1 life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/95.png" num="91">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Massacre Chamber</name>
+			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
+When Massacre Chamber enters the battlefield, each opponent sacrifices a creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/96.png" num="113">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Driven by Obsession</name>
+			<text>Target opponent chooses a card type. When they do, choose one —
+• That player reveals their hand and discards all cards of the chosen type.
+• That player reveals their hand and discards all cards not of the chosen type.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/97.png" num="100">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Paradrop Extractionist</name>
+			<text>Flying
+Whenever Paradrop Extractionist attacks, you may pay 2 life. When you do, choose one —
+• Return target creature or battle card from your graveyard to your hand.
+• Draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/98.png" num="116">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Astralnaut&apos;s Demise</name>
+			<text>You gain X life. Then choose one or both — 
+• Target creature gets -X/-X until end of turn.
+• Remove up to X counters from target permanent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/99.png" num="94">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XB</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ruthless Outrider</name>
+			<text>Whenever Ruthless Outrider deals combat damage to a battle, you may put that many defense counters on up to one target battle an opponent controls.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/100.png" num="121">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Architect of Atrocity</name>
+			<text>Deathtouch
+Whenever you cast a spell, each opponent loses 1 life. If that spell was cast from anywhere other than your hand, instead each opponent loses life equal to Architect of Atrocity&apos;s power.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/101.png" num="93">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Starlight Colonist</name>
+			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
+Starlight Colonist can&apos;t be blocked as long as a creature died this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/102.png" num="124">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Disappearancer</name>
+			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
+Whenever Disappearancer deals combat damage to a player or battle, you may sacrifice another creature. If you do, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/103.png" num="98">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Roadside Revenant</name>
+			<text>Flying, deathtouch, haste
+Foretell {1}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/104.png" num="120">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heartless Executioner</name>
+			<text>When Heartless Executioner enters the battlefield, remove up to five counters from target permanent or opponent. (A battle is defeated when its last defense counter is removed.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/105.png" num="108">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spatial Aggressor</name>
+			<text>Whenever you cast a spell, each opponent loses 1 life. If that spell was cast from anywhere other than your hand, return up to one target creature card from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/106.png" num="122">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>BB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Paraphysical Research</name>
+			<text>Target creature you control gains deathtouch, lifelink, and shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/107.png" num="117">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cry of the Carnarium</name>
+			<text>All creatures get -2/-2 until end of turn. Exile all creature cards in all graveyards that were put there from the battlefield this turn. If a creature would die this turn, exile it instead.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/108.png" num="96">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Network Requisition</name>
+			<text>Return target creature card from your graveyard to the battlefield with an argent counter on it. It&apos;s a Drone artifact in addition to its other types.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/109.png" num="114">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Right To Defend</name>
+			<text>Destroy target creature or planeswalker. If that permanent was tapped, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+Foretell {1}{B} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/110.png" num="119">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cleanup Specialist</name>
+			<text>Whenever a creature you control attacks a player or permanent, if no other creatures are attacking that player or permanent, you gain 1 life and surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/111.png" num="224">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Furious Protester</name>
+			<text>Haste
+{1}{R}: Furious Protester gets +2/+0 until end of turn. Activate only once each turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/112.png" num="141">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen Rebel</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frenzied Slasher</name>
+			<text>Haste
+Frenzied Slasher enters the battlefield with a +1/+1 counter on it if it was foretold.
+Foretell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/113.png" num="140">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unwitting Witness</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/114.png" num="164">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relentless Silencer</name>
+			<text>Haste
+{R}, Exile Relentless Silencer from your graveyard: Create a 1/1 red Spirit creature token. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/115.png" num="156">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eager Vivisector</name>
+			<text>{1}{R}, Discard Eager Vivisector: Target creature gets +3/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/116.png" num="138">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Callous Observer</name>
+			<text>When Callous Observer enters the battlefield, exile the top card of your library. Until the end of your next turn, you may play that card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/117.png" num="134">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rabid Ape</name>
+			<text>Trample
+When Rabid Ape enters the battlefield, target creature can&apos;t block this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/118.png" num="153">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Armored Skystriker</name>
+			<text>Reach
+{2}, Discard Armored Skystriker: Search your library for a basic Mountain card or a card named Wetworks Lens, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/119.png" num="130">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Autonomous Carrier</name>
+			<text>Trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/120.png" num="131">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Juggernaut</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rig for War</name>
+			<text>Target creature gets +3/+0 and gains first strike and reach until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/121.png" num="158">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Reality Fissure</name>
+			<text>Exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+Foretell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/122.png" num="154">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sabotage</name>
+			<text>Exile target artifact.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/123.png" num="159">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Impending Collapse</name>
+			<text>Damage can&apos;t be prevented this turn.
+Impending Collapse deals 3 damage to any target.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/124.png" num="143">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Incinerating Blast</name>
+			<text>Incinerating Blast deals 6 damage to target creature.
+You may discard a card. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/125.png" num="144">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The World That Was</name>
+			<text>Each player sacrifices four lands. Then each player discards their hand and draws cards equal to the number of basic lands they sacrificed this way.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/126.png" num="166">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Born of Blood</name>
+			<text>For each creature on the battlefield, create a token that&apos;s a copy of it, except it&apos;s 1/1. Those tokens gain haste. Sacrifice them at the beginning of the next end step.
+Foretell {3}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/127.png" num="133">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Inevitable Depopulation</name>
+			<text>If this spell was foretold, it can&apos;t be countered and damage can&apos;t be prevented this turn.
+Inevitable Depopulation deals X damage to each creature and planeswalker and to each battle you control.
+Foretell {X}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/128.png" num="145">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XRR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>X-Open Hellkite</name>
+			<text>Flying, haste
+Whenever a battle you control is defeated, create a 1/1 colorless Drone artifact creature with flying.
+{R}, Sacrifice another artifact: X-Open Hellkite gets +2/+2 until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/129.png" num="168">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Constant Surveillance</name>
+			<text>Nonbasic lands enter the battlefield tapped unless their controller controls two or fewer other lands.
+{2}{R}, Sacrifice Constant Surveillance: Exile the top two cards of your library. Until the end of your next turn, you may play those cards. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/130.png" num="135">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Midnight Happening</name>
+			<text>Midnight Happening deals 4 damage to any target. Create a number of 1/1 white Advisor creature tokens with first strike and &quot;This creature can&apos;t block&quot; equal to the excess damage deal this way.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/131.png" num="148">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Phenomenon Zone</name>
+			<text>Whenever you cast a spell, add {R}. If that spell was cast from anywhere other than your hand, create a Treasure token instead. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/132.png" num="151">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Stealth Agent</name>
+			<text>Haste
+Whenever Stealth Agent attacks a player, it gets -1/-1 until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/133.png" num="161">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sabotage Specialist</name>
+			<text>When Sabotage Specialist enters the battlefield, choose one. If it was cast from exile, you may choose both instead.
+• Each opponent sacrifices an artifact.
+• Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/134.png" num="160">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mission Specialist</name>
+			<text>Menace, reach
+Whenever a spell or ability causes an opponent to shuffle their library, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/135.png" num="149">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Perilous Whistleblower</name>
+			<text>Flash
+When Perilous Whistleblower enters the battlefield or dies, create a 1/1 white Advisor creature token with first strike and &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/136.png" num="150">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vengeful Repressor</name>
+			<text>Haste
+When Vengeful Repressor enters the battlefield, you may discard a card or put a foretold card you own in exile into your graveyard. If you do, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/137.png" num="165">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frantic Witness</name>
+			<text>Haste
+Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/138.png" num="139">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Invasive Colonist</name>
+			<text>Whenever you cast a spell, Invasive Colonist deals 2 damage to target opponent. If that spell was cast from anywhere other than your hand, you may have Invasive Colonist deal damage equal to that spell&apos;s mana value instead.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/139.png" num="146">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Convergent Trauma</name>
+			<text>Convergent Trauma deals 3 damage divided as you choose among one, two, or three targets.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/140.png" num="136">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Uncaged Paradox</name>
+			<text>At the beginning of your upkeep, exile the top card of your library. It becomes foretold. Its foretell cost is equal to its mana cost. (On a later turn, you may cast it for its foretell cost.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/141.png" num="162">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Liminal Pulse</name>
+			<text>Target creature you control gets +X/+0 until end of turn. If this spell was cast from exile, X is 5.
+Foretell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/142.png" num="147">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XR</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Proportional Response</name>
+			<text>Until end of turn, if a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals that much damage plus 1 instead. Then Proportional Response deals 1 damage to each opponent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/143.png" num="152">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unmanned Strike</name>
+			<text>Create a tapped 2/2 colorless Drone artifact creature token. When you do, up to X target creatures can&apos;t block this turn, where X is the number of Drones you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/144.png" num="163">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Furnace Pit</name>
+			<text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. You may have Furnace Pit deal 2 damage to that creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/145.png" num="142">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crush the Weak</name>
+			<text>Crush the Weak deals 2 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.
+Foretell {R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/146.png" num="137">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Toxic Kulak</name>
+			<text>Deathtouch</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/147.png" num="203">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Impassive Watcher</name>
+			<text>{3}{G}, Sacrifice Impassive Watcher: Destroy target creature with flying. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/148.png" num="185">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Combat Android</name>
+			<text>Flash
+Foretell {G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/149.png" num="173">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Non-State Actor</name>
+			<text>When Non-State Actor enters the battlefield, if it was cast from exile, draw a card.
+Foretell {2}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/150.png" num="192">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Escaped Subject</name>
+			<text>Deathtouch</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/151.png" num="181">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Color Revolutionist</name>
+			<text>Color Revolutionist can&apos;t be blocked by creatures with power 2 or less.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/152.png" num="172">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hardwired Experiment</name>
+			<text>Trample
+When Hardwired Experiment dies, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/153.png" num="184">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Liminal Vision</name>
+			<text>{2}{G}{G}: Liminal Vision gets +4/+4 until end of turn. Activate only once each turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/154.png" num="190">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spatial Simulacrum</name>
+			<text>Trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/155.png" num="198">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Avatar Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Architect of Occupation</name>
+			<text>Architect of Occupation can&apos;t be blocked by creatures with power 2 or less.
+{2}, Discard Architect of Occupation: Search your library for a basic Forest card or a card named Wetworks Lens, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/156.png" num="169">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Juggernaut</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Encounter Zone</name>
+			<text>Choose one —
+• Create a 2/2 colorless Drone artifact creature token.
+• Target creature you control fights target creature you don&apos;t control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/157.png" num="179">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tactical Encroachment</name>
+			<text>Target creature you control deals damage equal to its power to target creature you don&apos;t control or target battle. If the creature you don&apos;t control would die this turn, exile it instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/158.png" num="200">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Fear of the Beyond</name>
+			<text>Target creature gets +3/+3 and gains trample until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/159.png" num="182">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Commune with Fear</name>
+			<text>Look at the top three cards of your library. You may reveal a creature or battle card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/160.png" num="174">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Together in Division</name>
+			<text>As Together in Division enters the battlefield, choose a creature type.
+Creatures you control have base power and toughness X/X, where X is the number of creatures you control of the chosen type.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/161.png" num="202">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Jehia Khusam, Partisan</name>
+			<text>Trample, haste, ward {2}
+Whenever a battle you control is defeated, each opponent gets a poison counter. (A player with ten or more poison counters loses the game.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/162.png" num="188">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rebel</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relentless Engine</name>
+			<text>Trample
+Relentless Engine enters the battlefield with X +1/+1 counters on it.
+Whenever Relentless Engine attacks a player or permanent, if no other creatures are attacking that player or permanent, double the number of +1/+1 counters on Relentless Engine.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/163.png" num="195">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Juggernaut</type>
+				<maintype>Creature</maintype>
+				<manacost>XGG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Genomic Tampering</name>
+			<text>Search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle. If this spell was cast from exile, X is equal to the greatest power among creatures you control.
+Foretell {1}{G}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/164.png" num="183">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XGG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Beacon of Resistance</name>
+			<text>Creature spells you control can&apos;t be countered.
+Each other creature you control that&apos;s a Citizen or a Rebel gets +1/+1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/165.png" num="132">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rebel</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Secrets of Flesh</name>
+			<text>Look at the top five cards of your library. You may put a creature card from among them or from your hand onto the battlefield. Put the remaining cards on the bottom of your library in a random order.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/166.png" num="196">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Starlight Reactor</name>
+			<text>{X}, {T}, Sacrifice Starlight Reactor: Destroy each artifact and enchantment with mana value X or less. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/167.png" num="199">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Embedded Agent</name>
+			<text>Whenever you cast a spell from anywhere other than your hand—
+• If Embedded Agent is a Citizen, put a +1/+1 counter on it and it becomes a Human Detective.
+• If Embedded Agent is a Detective, put a +1/+1 counter on it and it becomes a Human Advisor.
+• If Embedded Agent is an Advisor, put two +1/+1 counters on it.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/168.png" num="178">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Embattled Commando</name>
+			<text>Vigilance, reach, deathtouch</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/169.png" num="177">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Multiversal Intruder</name>
+			<text>Trample over battles (This creature can deal excess combat damage to the protector of battles it attacks.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/170.png" num="191">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Displaced Civilian</name>
+			<text>{1}{G}, Sacrifice Displaced Civilian: Destroy target artifact, battle, or enchantment. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/171.png" num="176">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vivisected Prisoner</name>
+			<text>When Vivisected Prisoner enters the battlefield, you may return target battle you control or target battle card in your graveyard to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/172.png" num="206">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mutant Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Phenomenon Container</name>
+			<text>Phenomenon Container can&apos;t be blocked by creatures with power 2 or less.
+Whenever a battle you control is defeated, put a +1/+1 counter on Phenomenon Container.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/173.png" num="193">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bioengineered Threat</name>
+			<text>Trample
+Bioengineered Threat enters the battlefield with two +1/+1 counters on it if it was cast from exile.
+Foretell {3}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/174.png" num="170">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Slug</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>L-Bit Pilot</name>
+			<text>When L-Bit Pilot enters the battlefield, create a 2/2 colorless Drone artifact creature token, then put a +1/+1 counter on each Drone you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/175.png" num="189">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Desperate Patsy</name>
+			<text>Desperate Patsy must be blocked if able.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/176.png" num="175">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unexplained Visitation</name>
+			<text>Return target permanent card from your graveyard to your hand. You may put a land card from your hand onto the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/177.png" num="205">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Enhanced Interrogation</name>
+			<text>Up to two target creatures you control each deal damage equal to their power to target creature an opponent controls.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/178.png" num="180">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Invert Existence</name>
+			<text>Destroy target artifact, battle, enchantment, or creature with flying.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/179.png" num="186">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Zone of Alienation</name>
+			<text>Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
+Foretell {1}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/180.png" num="207">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Abrupt Decay</name>
+			<text>This spell can&apos;t be countered.
+Destroy target nonland permanent with mana value 3 or less.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/181.png" num="229">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Urgent Intifada</name>
+			<text>Each player chooses up to one permanent they control or protect. Urgent Intifada deals 3 damage to each player and to each permanent not chosen this way.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/182.png" num="234">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Supreme Verdict</name>
+			<text>This spell can&apos;t be countered.
+Destroy all creatures.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/183.png" num="210">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WWU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Green Door, Rogue Agent</name>
+			<text>When Green Door, Rogue Agent enters the battlefield, you may look at any number of face down cards on the battlefield or in exile.
+Whenever Green Door attacks, exile up to one target instant or sorcery card from your graveyard. It becomes foretold. Its foretell cost is equal to its mana cost. (On a later turn, you may cast it for its foretell cost.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/184.png" num="211">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Division Chief</name>
+			<text>Whenever Division Chief enters the battlefield or deals combat damage to a player, create a 1/1 white Advisor creature token with first strike and &quot;This creature can&apos;t block.&quot;
+Other Advisors you control get +1/+1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/185.png" num="29">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Distant Strike</name>
+			<text>Exile target noncreature permanent
+Foretell—{R}{G}, Sacrifice a land. (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/186.png" num="218">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ben Grun, Colonial Agent</name>
+			<text>Deathtouch
+When Ben Grun, Colonial Agent enters the battlefield, destroy each other creature with base power X or less.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/187.png" num="223">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>XWBB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Redevelopment Plan</name>
+			<text>Destroy all lands. Each player may search their library for up to four lands, put them onto the battlefield tapped, then shuffle.
+If it&apos;s your turn, end the turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/188.png" num="220">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Nightbird Prototype</name>
+			<text>Flying
+Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/189.png" num="209">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spectral Visitation</name>
+			<text>Haste
+When Spectral Visitation dies, you may pay 2 life. If you do, exile it face down. It becomes foretold.
+Foretell {B}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/190.png" num="216">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warped Witness</name>
+			<text>When Warped Witness enters the battlefield, exile the top two cards of your library. Until end of turn, you may play those cards.
+Foretell {R}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/191.png" num="219">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scornful Agent</name>
+			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
+At the beginning of combat on your turn, another target creature you control gains lone wolf until end of turn. (Each instance triggers separately.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/192.png" num="221">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Emergency Deployment</name>
+			<text>Create three 1/1 white Advisor creature tokens with first strike and &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/193.png" num="31">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Infiltrate the Archives</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Infiltrate the Archives enters the battlefield or is defeated, put a +1/+1 counter on a creature you control, then draw a card for each creature you control with a counter on it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/194.png" num="235">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Altered State</name>
+			<text>When Altered State enters the battlefield, exile up to one target instant or sorcery card from graveyard face down. It becomes foretold. The foretell cost is equal to its mana cost. (On a later turn, you may cast it for its foretell cost.)
+Spells you cast from anywhere other than your hand cost either {U} or {R} (or {1}) less to cast.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/195.png" num="226">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Planar Transgression</name>
+			<text>As an additional cost to cast this spell, discard a card.
+Draw two cards. Create a 1/1 red Spirit creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/196.png" num="233">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Combat Analyst</name>
+			<text>Whenever a creature you control deals combat damage to a player, planeswalker, or battle, draw a card. Then discard a card unless no other creatures were attacking that player or permanent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/197.png" num="208">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wetwork Specialist</name>
+			<text>Whenever Wetwork Specialist deals combat damage to a player or battle, draw a card.
+Each battle you control enters the battlefield with one fewer defense counter on it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/198.png" num="213">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Captured Specimen</name>
+			<text>Lifelink
+Whenever a creature enters the battlefield under your control, if it wasn&apos;t cast from your hand, Captured Specimen deals 1 damage to each opponent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/199.png" num="214">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Anomaly Extractor</name>
+			<text>Double strike
+Whenever you cast a spell, Anomaly Extractor gets +1/+1 until end of turn. If that spell was cast from anywhere other than your hand, instead put a +1/+1 counter on Anomaly Extractor.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/200.png" num="217">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>You Were Never Here</name>
+			<text>Whenever a creature you control attacks a player or permanent, if no other creatures are attacking that player or permanent, choose one —
+• Put a +1/+1 counter on that creature.
+• That creature gains double strike until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/201.png" num="222">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fear in a Dead City</name>
+			<text>Destroy target non-Advisor creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/202.png" num="106">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Asset Handler</name>
+			<text>When Asset Handler enters the battlefield, return target creature or battle card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/203.png" num="230">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stoic Agent</name>
+			<text>Trample
+Whenever a battle enters the battlefield under your control or whenever a battle you control is defeated, put a +1/+1 counter on Stoic Agent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/204.png" num="237">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Extrasensory Witness</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Haste
+Whenever you cast a spell, draw a card. Then discard a card if that spell was cast from your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/205.png" num="227">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Liminal Space</name>
+			<text>Creatures you control get +1/+0.
+Whenever you cast a noncreature spell, you may pay {RW}. If you do, create a 1/1 red Spirit creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/206.png" num="232">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Combat Prototype</name>
+			<text>When Combat Prototype enters the battlefield or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/207.png" num="242">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Invasive Hunter</name>
+			<text>Flying
+Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/208.png" num="246">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Walking Weapon</name>
+			<text>When Walking Weapon enters the battlefield, surveil 2, then draw a card. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/209.png" num="250">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Normality Fracture</name>
+			<text>Destroy target nonland permanent.
+Foretell {5} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/210.png" num="6">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wetworks Lens</name>
+			<text>{T}: Add one mana of any color.
+Whenever you tap Wetworks Lens for mana, you may remove a defense counter from a battle you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/211.png" num="251">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Behold the City</name>
+			<text>Mill four cards, then you may return a land card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/212.png" num="1">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Aleph Module</name>
+			<text>Whenever one or more counters are put on another permanent you control, you may put that many +1/+1 counters on Aleph Module. Do this only once each turn.
+{3}: Aleph Module becomes a 0/0 Horror creature in addition to its other types until end of turn. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/213.png" num="240">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hardwired Oppressor</name>
+			<text>Flying
+Other Drones you control get +1/+1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/214.png" num="245">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Experimental Host</name>
+			<text>Whenever another creature you control dies, put a +1/+1 counter on Experimental Host.
+When Experimental Host dies, you may put its counters on another target creature you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/215.png" num="3">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Precision Eradicator</name>
+			<text>Flying
+Whenever Precision Eradicator enters the battlefield or attacks, you may pay {1}. When you do, exile target card from a graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/216.png" num="247">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Trace of the Self</name>
+			<text>{T}: Put a static counter on A Trace of the Self. Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+{1} {T}, Remove a static counter from A Trace of the Self: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/217.png" num="249">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>A Long Way to Fall</name>
+			<text>Put up to one target card from your graveyard on top of your library. Then exile all cards from all graveyards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/218.png" num="4">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Astral Fragment</name>
+			<text>Whenever a battle you control is dealt combat damage, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/219.png" num="241">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Melt</name>
+			<text>Melt deals 3 damage to target creature, planeswalker, or battle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/220.png" num="5">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Contested Frontier</name>
+			<text>{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast a battle spell.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/221.png" num="254">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Aleph Outpost</name>
+			<text>When Aleph Outpost enters the battlefield, you may pay {3}. If you do, draw a card.
+{T}: Add {C}.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/222.png" num="252">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Advisor HTL</name>
+			<text>First strike
+This creature can&apos;t block.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/223.png" num="1">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>HTL Draft Archetypes HTL</name>
+			<text>{W}{U} LONE WOLF Attack players and battles with solitary creatures to boost your success.
+{U}{B} OPERATIONS These battles are fought in secret, with solitary attackers.
+{B}{R} PARADOX Cast spells from anywhere other than your hand.
+{R}{G} FORETELL Something strange and hidden is in the air. Lay your spells aside for later and revel in mystery.
+{G}{W} LONE WOLF Your lonely attackers thrive in solitude with buffs and boosts.
+{W}{B} ALONE Spread your attackers out—Operations and lone wolf triggers are your weapons.
+{B}{G} OPERATIONS Outgrind your opponents with stealthy attackers and recursion.
+{G}{U} OPERATIONS Your hardened agents adapt and overcome in the face of fresh battles.
+{U}{R} FORETELL Hold a spell in secret like the threat of mass destruction, and out-bluff your foe.
+{R}{W} NONCREATURES Civilians mean nothing to you. Forge victory by casting nnoncreature spells to succeed.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/224.png" num="8">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Yuri Belyik, Astralnaut</name>
+			<text>Menace
+When Yuri Belyik, Astralnaut enters the battlefield, search your library for a battle or planeswalker card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/225.png" num="239">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>3WUB</manacost>
+				<cmc>6</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Midnight Dead-Drop</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Midnight Dead-Drop enters the battlefield or is defeated, look at the top three cards of your library. Put one of those cards into your hand and the rest into your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/226.png" num="212">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Secure the Blacksite</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Secure the Blacksite enters the battlefield or is defeated, search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/227.png" num="197">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/228.png" num="262">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/229.png" num="263">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/230.png" num="264">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/231.png" num="265">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/232.png" num="266">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Recover the Asset</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Recover the Asset enters the battlefield or is defeated, you draw a card, lose 1 life, and create a 1/1 white Advisor creature token with first strike and &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/233.png" num="225">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Asymmetric Warfare</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Asymmetric Warfare enters the battlefield or is defeated, mill three cards, then you may return a non-battle card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/234.png" num="231">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Extract the Files</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Extract the Files enters the battlefield or is defeated, search your library for a card, put it into your hand, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/235.png" num="104">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>One with Tomorrow</name>
+			<text>Exile each card from your hand face down. They become foretold. The foretell cost is their mana cost reduced by {2}. (On a later turn, you may cast them for their foretell cost.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/236.png" num="228">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rendition Raid</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Rendition Raid enters the battlefield or is defeated, it deals 2 damage to target creature an opponent controls and 1 damage to that creature&apos;s controller.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/237.png" num="157">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bayt Al-Tiyn, Besieged</name>
+			<text>({T}: Add {W} or {U}.)
+Bayt Al-Tiyn, Besieged enters the battlefield tapped.
+{WU}{WU}{WU}{WU}{WU}, {T}, Exile Bayt Al-Tiyn: After this phase, there is an additional beginning phase. Activate only as a sorcery.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/238.png" num="253">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Plains Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sickly Gestation</name>
+			<text>Exile all graveyards, then create a token that&apos;s a copy of a permanent card exiled this way.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/239.png" num="238">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GUB</manacost>
+				<cmc>4</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Eliminate Any Collateral</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Eliminate Any Collateral enters the battlefield or is defeated, target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/240.png" num="102">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Unrealized Dread</name>
+			<text>Target creature gains deathtouch and lifelink until end of turn.
+Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/241.png" num="128">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Triumph of Liberalism</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Triumph of Liberalism enters the battlefield or is defeated, it deals 3 damage to up to one target tapped creature or creature that blocked this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/242.png" num="47">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<loyalty>2</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Infiltrate the Industry</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Infiltrate the Industry enters the battlefield or is defeated, surveil 3. (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/243.png" num="68">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<loyalty>2</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Recover Lost Assets</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Recover Lost Assets enters the battlefield or is defeated, return target instant or sorcery card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/244.png" num="79">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Yuri Belyik, Astralnaut (headliner promo)</name>
+			<text>Menace
+When Yuri Belyik, Astralnaut enters the battlefield, search your library for a battle or planeswalker card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/245.png" num="268">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>3WUB</manacost>
+				<cmc>6</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sickly Gestation (bundle promo)</name>
+			<text>Exile all graveyards, then create a token that&apos;s a copy of a permanent card exiled this way.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/246.png" num="267">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GUB</manacost>
+				<cmc>4</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Spirit (red) HTL</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/247.png" num="3">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Tainted Peak</name>
+			<text>{T}: Add {C}.
+{T}: Add {B} or {R}. Activate only if you control a Swamp.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/248.png" num="261">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Overgrown Field</name>
+			<text>{T}: Add {C}.
+{T}: Add {G} or {W}. Activate only if you control a Forest.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/249.png" num="258">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Rugged Wood</name>
+			<text>{T}: Add {C}.
+{T}: Add {R} or {G}. Activate only if you control a Mountain.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/250.png" num="259">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sweeping Isle</name>
+			<text>{T}: Add {C}.
+{T}: Add {W} or {U}. Activate only if you control a Plains.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/251.png" num="260">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mainframe Hack</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Mainframe Hack enters the battlefield, draw four cards.
+Whenever you draw a card, you lose 1 life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/252.png" num="112">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Urban Legend</name>
+			<text>Regression {3}{G}{G} (If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)
+When Urban Legend enters the battlefield, distribute a number of +1/+1 counters equal to its power among creatures you control.
+
+ [3/3]</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/253.png" num="12">HTL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brutalist Phantasm</name>
+			<text>Regression {3}{U}{U} (If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)
+When Brutalist Phantasm enters the battlefield, draw cards equal to its power.
+
+ [3/5]</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/254.png" num="2">HTL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unseen Hand</name>
+			<text>Regression {3}{W}{W} (If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)
+When Unseen Hand enters the battlefield, destroy target nonland permanent an opponent controls with mana value less than or equal to Unseen Hand&apos;s power.
+
+ [5/5]</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/255.png" num="11">HTL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Investigate the Signal</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Investigate the Signal enters the battlefield or is defeated, create a 1/1 blue Spirit creature token with flying.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/256.png" num="71">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<loyalty>2</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spirit HTL</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/257.png" num="2">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Spectral Executioner</name>
+			<text>Regression {2}{B}{B} (If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)
+When Spectral Executioner enters the battlefield, each other creature gets -X/-X until end of turn, where X is Spectral Executioner&apos;s power.
+
+ [3/3]</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/258.png" num="9">HTL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ritual Visitation</name>
+			<text>Regression {3}{R}{R} (If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)
+When Ritual Visitation enters the battlefield, create a number of 1/1 white Advisor creature tokens with first strike and &quot;This creature can&apos;t block&quot; equal to Ritual Visitation&apos;s power.
+
+ [3/3]</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/259.png" num="8">HTL</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Drone HTL</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/260.png" num="5">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Tie Up Any Loose Ends</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Tie Up Any Loose Ends enters the battlefield or is defeated, exile target artifact or enchantment.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/261.png" num="201">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<loyalty>2</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>X-Open Deployment</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When X-Open Deployment enters the battlefield or is defeated, create a 2/2 colorless Drone artifact creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/262.png" num="167">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<loyalty>2</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Investigate the Cult</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Investigate the Cult enters the battlefield or is defeated, create a token that&apos;s a copy of target creature you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/263.png" num="187">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Treasure HTL</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/264.png" num="7">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Disrupt the Compound</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Disrupt the Compound enters the battlefield or is defeated, exile up to two target creatures you control, then return those cards to the battlefield under their owner&apos;s control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/265.png" num="28">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Drive to Extinction</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Drive to Extinction enters the battlefield or is defeated, each opponent sacrifices a creature of their choice.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/266.png" num="99">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Reinforce the Front</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Reinforce the Front enters the battlefield or is defeated, discard your hand, then draw three cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/267.png" num="155">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Pursue the Sighting</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Pursue the Sighting enters the battlefield or is defeated, create a 3/3 green Human Horror creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/268.png" num="194">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Human Horror HTL</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/269.png" num="4">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Human Horror</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Observe and Report</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Observe and Report enters the battlefield or is defeated, you may discard your hand. When you do, draw cards equal to the greatest power among creatures you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/270.png" num="236">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Harvest the Organs of the Dead</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Harvest the Organs of the Dead enters the battlefield or is defeated, each player loses 1 life, discards a card, and sacrifices a nonland permanent of their choice.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/271.png" num="107">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Drone (flying) HTL</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/272.png" num="6">HTL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Deploy Materiel</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Deploy Matériel enters the battlefield or is defeated, create a 1/1 colorless Drone artifact creature token with flying for each creature you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/273.png" num="27">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sabotage the Research</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Sabotage the Research enters the battlefield or is defeated, create a token that&apos;s a copy of target nonbattle permanent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/274.png" num="81">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Eliminate Every Trace</name>
+			<text>(As this enters, choose an opponent to protect it. A creature attacking an Operation alone has menace.)
+When Eliminate Every Trace enters the battlefield or is defeated, each player shuffles their hand and graveyard into their library, then draws seven cards.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/275.png" num="60">HTL</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Operation</type>
+				<maintype>Battle</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<loyalty>6</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

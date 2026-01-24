@@ -1,0 +1,5330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>PFG</name>
+			<longname>Profondo Giallo</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-01-24</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>All the Colors of the Dark</name>
+			<text>Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+(Melds with all of your darkest fears.)
+---
+(Back): Profondo Giallo</text>
+			<set rarity="special" picurl="https://grapplex.github.io/sets/PFG-files/img/0_front.png" num="1a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Profondo Giallo</related>
+		</card>
+		<card>
+			<name>Profondo Giallo</name>
+			<text>---
+(Front): All the Colors of the Dark</text>
+			<set rarity="special" picurl="https://grapplex.github.io/sets/PFG-files/img/0_back.png" num="1b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">All the Colors of the Dark</related>
+		</card>
+		<card>
+			<name>Il Diavolo a Sette Facce</name>
+			<text>Target opponent exiles cards from the top of their library until they&apos;ve exiled two nonland cards. Choose one of those cards. That player sacrifices all but X nonland permanents, where X is the chosen card&apos;s mana value. Then they lose life equal to the other card&apos;s mana value.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/1.png" num="212">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5BR</manacost>
+				<cmc>7</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sonno Profondo</name>
+			<text>Reveal your library. For each color and each combination of colors, you may put a card that&apos;s exactly those colors from among the revealed cards into your hand. Then shuffle. You have no maximum hand size for the rest of the game.
+Exile Sonno Profondo.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/2.png" num="244">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WUBRG</manacost>
+				<cmc>8</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Live in Fear of the Beyond</name>
+			<text>Destroy target permanent. When you do, choose one —
+• Return up to one target Nightmare permanent card from your graveyard to the battlefield.
+• Exile target double-faced card from your graveyard and copy it. You may cast the copy without paying its mana cost.
+---
+(Back): Città della Paura</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/3_front.png" num="4a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>8</manacost>
+				<cmc>8</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Città della Paura</related>
+		</card>
+		<card>
+			<name>Città della Paura</name>
+			<text>Città della Paura enters the battlefield tapped unless a creature died this turn.
+{T}, Pay 1 life: Add one mana of any color.
+---
+(Front): Live in Fear of the Beyond</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/3_back.png" num="4b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<related attach="transform">Live in Fear of the Beyond</related>
+		</card>
+		<card>
+			<name>L&apos;altro Inferno</name>
+			<text>Creatures you control gain vigilance until end of turn. After this main phase, there are X additional combat phases.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/4.png" num="236">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XXRW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rend the Mind Like Flesh</name>
+			<text>Whenever you cast a spell, Rend the Mind Like Flesh deals 1 damage to you.
+At the beginning of your end step, draw cards equal to the amount of damage dealt to you this turn.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/5.png" num="229">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hush Hush, Sweet Alice</name>
+			<text>Ward—Pay {3} or discard an instant or sorcery card.
+Whenever you cast or copy an instant or sorcery spell, you may reveal a Nightmare card with lesser mana value from your graveyard or outside the game and put it into your hand.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/6.png" num="242">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>To Torture the Duckling</name>
+			<text>Return target artifact card, target creature card, target enchantment card, and target land card from your graveyard to the battlefield. (You can&apos;t cast this spell unless you have legal choices for all its targets.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/7.png" num="226">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dreams of Drowning</name>
+			<text>Tap target creature and put one hundred +1/+1 counters on it.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/8.png" num="222">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5GW</manacost>
+				<cmc>7</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Feticcio della Strega</name>
+			<text>Once during each of your turns, you may cast an instant or sorcery spell you own from outside the game.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/9.png" num="248">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Forlorn Gondola</name>
+			<text>Whenever Forlorn Gondola deals combat damage to a player, draw a card.
+Whenever you cast or copy an instant or sorcery spell, Forlorn Gondola becomes an artifact creature until end of turn.
+Crew 2</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/10.png" num="249">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Painted Corpseflower</name>
+			<text>When Painted Corpseflower enters the battlefield, each player chooses a nonland card name.
+Spells without a name chosen for Painted Corpseflower cost an additional 1 life to cast.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/11.png" num="252">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>In the Grip of Madness</name>
+			<text>Exile target instant or sorcery card from your graveyard. Until end of turn, you may cast a copy of that card. (You still pay its costs.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/12.png" num="3">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Untamed Potential</name>
+			<text>If one or more creature tokens would be created under your control, you may instead create that many tokens that are a copy of Untamed Potential.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/13.png" num="198">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vision of Sickly Plumage</name>
+			<text>Flying, haste
+Whenever Vision of Sickly Plumage enters the battlefield, it envisions X, where X is the number of instant and sorcery cards in your graveyard. (To envision X, put X +1/+1 counters on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to X less.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/14.png" num="161">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Last Dream of the Dead</name>
+			<text>Flying, trample
+Whenever you cast or copy an instant or sorcery spell, you draw a card and you lose X life, where X is the number of times this ability has resolved this turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/15.png" num="104">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bat-Winged Myth</name>
+			<text>Flash
+Flying
+Bat-Winged Myth enters the battlefield tapped unless you&apos;ve cast an instant or sorcery spell this turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/16.png" num="50">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Pegasus</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prima Assoluta</name>
+			<text>Flying, vigilance, lifelink
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/17.png" num="34">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Poignant Memento</name>
+			<text>Instant and sorcery spells you cast cost {1} less to cast.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/18.png" num="253">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Concealed Courtyard</name>
+			<text>Concealed Courtyard enters the battlefield tapped unless you control two or fewer other lands.
+{T}: Add {W} or {B}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/19.png" num="258">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Blooming Marsh</name>
+			<text>Blooming Marsh enters the battlefield tapped unless you control two or fewer other lands.
+{T}: Add {B} or {G}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/20.png" num="256">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Spirebluff Canal</name>
+			<text>Spirebluff Canal enters the battlefield tapped unless you control two or fewer other lands.
+{T}: Add {U} or {R}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/21.png" num="261">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Botanical Sanctum</name>
+			<text>Botanical Sanctum enters the battlefield tapped unless you control two or fewer other lands.
+{T}: Add {G} or {U}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/22.png" num="257">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Inspiring Vantage</name>
+			<text>Inspiring Vantage enters the battlefield tapped unless you control two or fewer other lands.
+{T}: Add {R} or {W}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/23.png" num="260">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sink into Dream</name>
+			<text>Exile target artifact, creature, or enchantment.
+---
+(Back): Slinking Dreamer</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/24_front.png" num="38a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Slinking Dreamer</related>
+		</card>
+		<card>
+			<name>Slinking Dreamer</name>
+			<text>Flying
+---
+(Front): Sink into Dream</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/24_back.png" num="38b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+				<loyalty>11</loyalty>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Sink into Dream</related>
+		</card>
+		<card>
+			<name>Cinico Infame</name>
+			<text>Flash
+{1}, Sacrifice Cinico Infame: Destroy target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/25.png" num="13">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Detective</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>What Happened to Solange</name>
+			<text>Flying
+When What Happened to Solange enters the battlefield, scry 2, then you may reveal the top card of your library. If it&apos;s an instant or sorcery card, put it into your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/26.png" num="47">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Girl Who Knew Too Much</name>
+			<text>Lifelink
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/27.png" num="23">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Police Shoot First</name>
+			<text>As long as it&apos;s your turn, The Police Shoot First has first strike.
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/28.png" num="33">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Detective</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dream Shepherd</name>
+			<text>Vigilance
+Creature tokens you control have ward {1}. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/29.png" num="17">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Idle Dreamer</name>
+			<text>Vigilance
+Whenever you cast or copy an instant or sorcery spell, you gain 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/30.png" num="25">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Widow&apos;s Remorse</name>
+			<text>Flying
+Widow&apos;s Remorse gets +1/+0 and has lifelink as long as you&apos;ve cast or copied an instant or sorcery spell this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/31.png" num="48">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Skeleton</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Faceless Grief</name>
+			<text>This spell costs {1} less to cast for each creature you control with a +1/+1 counter on it.
+When Faceless Grief enters the battlefield, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/32.png" num="20">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>You Will Die Another Death</name>
+			<text>Return target creature card from your graveyard to the battlefield. You gain 3 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/33.png" num="49">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Giorni dell&apos;Ira</name>
+			<text>Giorni dell&apos;Ira deals 3 damage to target attacking or blocking creature. If that creature would die this turn, exile it instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/34.png" num="22">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Into the Night</name>
+			<text>When Into the Night enters the battlefield, target nonland permanent an opponent controls phases out until Into the Night leaves the battlefield. (Treat it and anything attached to it as though they don&apos;t exist until it phases back in.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/35.png" num="26">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Deepest Fears</name>
+			<text>Target creature gets +1/+1 and gains first strike until end of turn. You may have it lose all other abilities until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/36.png" num="15">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Make Your Move</name>
+			<text>Destroy target artifact, enchantment, or creature with power 4 or greater.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/37.png" num="29">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Rush of Dread</name>
+			<text>Create X 1/1 white Citizen creature tokens with tension. (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/38.png" num="36">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XW</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>So Sweet ... So Perverse</name>
+			<text>Look at the top five cards of your library. Put up to two creature cards with mana value 3 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
+Storm (When you cast this spell, copy it for each spell cast before it this turn.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/39.png" num="40">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Know Peace</name>
+			<text>Exile all creatures.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/40.png" num="27">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Experiment in Torture</name>
+			<text>When Experiment in Torture enters the battlefield, each opponent exiles a card from their hand and may play that card for as long as it remains exiled.
+Spells your opponents cast from anywhere other than their hands cost {1} more to cast.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/41.png" num="19">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ercole Luca, a Mano Armata</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, put a +1/+1 counter on Ercole Luca, a Mano Armata unless an opponent pays {1}.
+As long as Ercole Luca has three or more counters on it, it has double strike.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/42.png" num="18">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Detective</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shattered Screen</name>
+			<text>Throwback {2} (You may pay an additional {2} as you cast this. If you do, copy it, and you may choose new modes for the copy.)
+Choose one —
+• Each player sacrifices three creatures.
+• Destroy all artifacts and enchantments.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/43.png" num="37">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>There Will Come New Dawns</name>
+			<text>Throwback {1}{W} (You may pay an additional {1}{W} as you cast this. If you do, copy it.)
+Distribute a stun counter, a decayed counter, and a finality counter among creatures your opponents control. (A creature with a decayed counter on it can&apos;t block. When it attacks, sacrifice it at end of combat. If a creature with a finality counter on it would die, exile it instead.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/44.png" num="43">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Guilt-Stained Gumshoe</name>
+			<text>Instant and sorcery spells your opponents cast don&apos;t cause abilities to trigger.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/45.png" num="24">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Detective</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Your Vice Is a Prison</name>
+			<text>Distribute four stun counters among nonland permanents target opponent controls
+---
+(Back): And I Have the Key</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/46_front.png" num="205a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">And I Have the Key</related>
+		</card>
+		<card>
+			<name>And I Have the Key</name>
+			<text>Flying
+And I Have the Key gets +1/+0 for each tapped permanent your opponents control.
+---
+(Front): Your Vice Is a Prison</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/46_back.png" num="205b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/UW/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Your Vice Is a Prison</related>
+		</card>
+		<card>
+			<name>Soul of the Starlings</name>
+			<text>Flash
+When Soul of the Starlings enters the battlefield, up to one other target creature gains shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/47.png" num="41">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The New Extremity</name>
+			<text>Double strike
+When The New Extremity enters the battlefield, target creature phases out until The New Extremity leaves the battlefield. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/48.png" num="30">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fearful Witness</name>
+			<text>Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)
+When Fearful Witness enters the battlefield, create a 1/1 white Citizen creature token with tension.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/49.png" num="21">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Diabolical Danger</name>
+			<text>Flash
+When Diabolical Danger enters the battlefield, it deals X damage to up to one target creature, planeswalker, or battle, where X is the number of other creatures you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/50.png" num="16">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Red Queen Will Kill Again</name>
+			<text>The Red Queen Will Kill Again has double strike as long as you&apos;ve gained 3 or more life this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/51.png" num="35">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Police Know No Law</name>
+			<text>Whenever another creature you control dies, The Police Know No Law envisions 1. This ability triggers only once each turn. (To envision 1, put a +1/+1 counter on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to 1 less.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/52.png" num="32">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Detective Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lambent Prowler</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, Lambent Prowler gets +1/+1 until end of turn. Then if that spell was a copy, Lambent Prowler gains lifelink until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/53.png" num="28">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>An Unwelcome Guest</name>
+			<text>Create a 1/1 white and black Assassin creature token. Creatures you control gain first strike until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/54.png" num="46">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sweet Song of Remorse</name>
+			<text>Flying
+Instant and sorcery spells you cast have lifelink.
+As long as you have at least 7 life more than your starting life total, Sweet Song of Remorse gets +2/+2.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/55.png" num="42">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tormented Professor</name>
+			<text>Shielded from Nightmare (Prevent all damage that would be dealt to this by Nightmare sources.)
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/56.png" num="44">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sleep&apos;s Metamorphosis</name>
+			<text>Destroy target nonland permanent. Its controller may return a card from their graveyard to their hand that doesn&apos;t share a type with that permanent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/57.png" num="39">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Paint from Memory</name>
+			<text>Return up to three target creature cards with total mana value 3 or less from your graveyard to the battlefield. Distribute two +1/+1 counters among them.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/58.png" num="31">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cold Eyes of Night</name>
+			<text>Throwback {2} (You may pay an additional {2} as you cast this. If you do, copy it.)
+Creatures you control get +1/+1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/59.png" num="14">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bloodstained Butterflies</name>
+			<text>Create three 1/1 red Citizen creature tokens.
+As Bloodstained Butterflies resolves, if there is a card in your graveyard named All the Colors of the Dark, exile them, then meld them into Profondo Giallo.
+---
+(Back): Profondo Giallo</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/60_front.png" num="12a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Profondo Giallo</related>
+		</card>
+		<card>
+			<name>Profondo Giallo</name>
+			<text>Attacking creatures you control get +1/+0.
+---
+(Front): Bloodstained Butterflies</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/60_back.png" num="12b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Bloodstained Butterflies</related>
+		</card>
+		<card>
+			<name>The Taste of Smoke</name>
+			<text>Draw three cards.
+---
+(Back): Lingering Taste</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/61_front.png" num="79a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Lingering Taste</related>
+		</card>
+		<card>
+			<name>Lingering Taste</name>
+			<text>When Lingering Taste enters the battlefield, draw a card.
+---
+(Front): The Taste of Smoke</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/61_back.png" num="79b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Nightmare Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">The Taste of Smoke</related>
+		</card>
+		<card>
+			<name>Pensive Poet</name>
+			<text>Vigilance
+When Pensive Poet enters the battlefield, scry 2, then you may reveal the top card of your library. If it&apos;s an instant or sorcery card, put it into your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/62.png" num="72">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Voice on the Telephone</name>
+			<text>Vigilance
+When The Voice on the Telephone enters the battlefield, it envisions 2. (Put two +1/+1 counters on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to 2 less.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/63.png" num="85">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Piper at Twilight</name>
+			<text>Vigilance
+Whenever A Piper at Twilight attacks while you control another Nightmare, it gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/64.png" num="73">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Killer Wore No Face</name>
+			<text>Flying
+Whenever another Nightmare enters the battlefield under your control, The Killer Wore No Face gets +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/65.png" num="63">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trauma Bearer</name>
+			<text>Throwback costs you pay cost {1} less.
+Whenever you cast or copy an instant or sorcery spell, put a +1/+1 counter on Trauma Bearer.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/66.png" num="82">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Suspicion Walks</name>
+			<text>Vigilance
+Whenever you cast or copy an instant or sorcery spell, you may have Suspicion Walks&apos;s base power and toughness become 5/2 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/67.png" num="78">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hounds of Guilt and Shame</name>
+			<text>Ward—Pay {2} or discard an instant or sorcery card. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 2 or discards an instant or sorcery card.)
+Hounds of Guilt and Shame can&apos;t be blocked except by Nightmares.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/68.png" num="62">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Dog</type>
+				<maintype>Creature</maintype>
+				<manacost>5UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Citta Violenta</name>
+			<text>Put a +1/+1 counter on target creature you control. It gains hexproof and shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/69.png" num="52">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dream</name>
+			<text>Look at the top three cards of your library, then put them back in any order. You may shuffle.
+Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/70.png" num="56">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>When the Night Is Over</name>
+			<text>This spell costs {1} less to cast if you control a Nightmare.
+Scry 2, then draw two cards.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/71.png" num="86">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unraveling Mind</name>
+			<text>Enchant creature
+Enchanted creature loses all abilities and is a blue Survivor creature with base power and toughness 1/1. 
+{6}, Sacrifice Unraveling Mind: Return target instant or sorcery card from your graveyard to your hand. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/72.png" num="84">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Through the Eyes of a Stranger</name>
+			<text>This spell costs {3} more to cast if it targets a creature you don&apos;t control.
+Target creature&apos;s owner puts it on their choice of the top or bottom of their library.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/73.png" num="81">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Hand in the Darkness</name>
+			<text>Target creature can&apos;t be blocked this turn.
+Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/74.png" num="61">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wings of Crystal</name>
+			<text>Flash
+Flying
+When Wings of Crystal enters the battlefield, exile target spell.
+When Wings of Crystal deals combat damage to an opponent, you may cast the exiled spell without paying its mana cost.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/75.png" num="87">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Memories of Crime</name>
+			<text>Exile target instant card from your graveyard and copy it. You may cast the copy without paying its mana cost.
+Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/76.png" num="69">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Lingering Visage</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/77.png" num="64">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lost in Ennui</name>
+			<text>Throwback {U} (You may pay an additional {U} as you cast this. If you do, copy it, and you may choose new targets for the copy.)
+Counter target spell.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/78.png" num="65">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Melancholic Intent</name>
+			<text>As an additional cost to cast this spell, discard an instant or sorcery card.
+Search your library for a card, put that card into your hand, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/79.png" num="68">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Consider Your Options</name>
+			<text>Draw a card for each different mana value among instant and sorcery cards in your graveyard.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/80.png" num="53">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Shadow of the Self</name>
+			<text>Throwback {2} (You may pay an additional {2} as you cast this. If you do, copy it, and you may choose new modes for the copy.)
+Choose one —
+• Create a token that&apos;s a copy of a creature you control.
+• Create a token that&apos;s a copy of an artifact or enchantment you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/81.png" num="75">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dead by Daylight</name>
+			<text>Target player mills twelve cards.
+---
+(Back): Eternal Dancer</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/82_front.png" num="207a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Eternal Dancer</related>
+		</card>
+		<card>
+			<name>Eternal Dancer</name>
+			<text>Eternal Dancer enters the battlefield with a +1/+1 counter on it for each card type among cards in graveyards.
+---
+(Front): Dead by Daylight</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/82_back.png" num="207b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Nightmare Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>U/BU/B</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Dead by Daylight</related>
+		</card>
+		<card>
+			<name>Hacksaw Honeymooner</name>
+			<text>{3}{U}: Hacksaw Honeymooner envisions 3. Activate only as a sorcery and only once. (To envision 3, put three +1/+1 counters on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to 3 less.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/83.png" num="60">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The One You Least Expect</name>
+			<text>When The One You Least Expect enters the battlefield or dies, look at the top two cards of your library. Put one into your hand and the other into your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/84.png" num="71">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fumetto Nero</name>
+			<text>Flying
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/85.png" num="59">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Suspect Above Reproach</name>
+			<text>Vigilance
+{T}: Add {U}. Spend this mana only to cast an instant or sorcery spell or to pay a throwback cost.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/86.png" num="77">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Many Lives of the Self</name>
+			<text>Whenever another Nightmare enters the battlefield under your control, put a +1/+1 counter on The Many Lives of the Self.
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/87.png" num="67">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>L&apos;uccello dalle Ali Lacerati</name>
+			<text>Flying
+Whenever you cast or copy an instant or sorcery spell, L&apos;uccello dalle Ali Lacerati gets +1/+1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/88.png" num="66">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Break Like Shattered Glass</name>
+			<text>Return up to three target creatures to their owners&apos; hands.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/89.png" num="51">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Etch in Nitrate</name>
+			<text>Draw two cards. If this spell is a copy, instead draw four cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/90.png" num="58">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Non Si Sevizia un Paperino</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, target player mills three cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/91.png" num="70">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Startle Awake</name>
+			<text>You may cast this spell as though it had flash if it targets a permanent you control.
+Return target nonland permanent to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/92.png" num="76">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unravel</name>
+			<text>Counter target spell. If the amount of mana spent to cast that spell was less than its mana value, you draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/93.png" num="83">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Reveal the Secret</name>
+			<text>Search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/94.png" num="74">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Thirst for Serenity</name>
+			<text>Draw three cards. Then discard two cards unless you discard an instant or sorcery card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/95.png" num="80">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Don&apos;t Look Back</name>
+			<text>Draw two cards, then discard a card.
+As Don&apos;t Look Back resolves, if there is a card in your graveyard named All the Colors of the Dark, exile them, then meld them into Profondo Giallo.
+---
+(Back): Profondo Giallo</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/96_front.png" num="54a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Profondo Giallo</related>
+		</card>
+		<card>
+			<name>Profondo Giallo</name>
+			<text>Noncreature spells your opponents cast cost {1} more to cast.
+---
+(Front): Don&apos;t Look Back</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/96_back.png" num="54b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Don&apos;t Look Back</related>
+		</card>
+		<card>
+			<name>Night&apos;s Witness</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, you may pay 2 life. If you do, return Night&apos;s Witness from your graveyard to the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/97.png" num="107">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fierce Ingenue</name>
+			<text>Menace
+When Fierce Ingénue enters the battlefield, scry 2, then you may reveal the top card of your library. If it&apos;s an instant or sorcery card, put it into your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/98.png" num="98">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Silhouette in Red Mist</name>
+			<text>When A Silhouette in Red Mist enters the battlefield, put a +1/+1 counter on another target Nightmare you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/99.png" num="115">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shadows in an Empty Room</name>
+			<text>Menace
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/100.png" num="112">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Bride Wore a Shroud</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, each opponent loses 1 life and you gain 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/101.png" num="91">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Witness for Persecution</name>
+			<text>Witness for Persecution can&apos;t be blocked by Citizens or Survivors.
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/102.png" num="123">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>You Will Forget Tomorrow</name>
+			<text>Mill three cards, then return a card from your graveyard to your hand. Create a 0/0 green Nightmare creature token and put a number of +1/+1 counters on it equal to the returned card&apos;s mana value.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/103.png" num="124">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Disfigure</name>
+			<text>Target creature gets -2/-2 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/104.png" num="97">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sleep No Longer</name>
+			<text>Throwback {1}{B} (You may pay an additional {1}{B} as you cast this. If you do, copy it, and you may choose new targets for the copy.)
+Target creature gets +1/+1 until end of turn. Another target creature gets -1/-1 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/105.png" num="116">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Days of Lead and Wine</name>
+			<text>Throwback {2} (You may pay an additional {2} as you cast this. If you do, copy it.)
+You draw a card and you lose 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/106.png" num="93">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sospiro</name>
+			<text>Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player puts that card on the bottom of their library.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/107.png" num="118">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deadly Derision</name>
+			<text>Destroy target creature or planeswalker. Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/108.png" num="94">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Twitch of the Death Nerve</name>
+			<text>Destroy target creature or planeswalker. Its controller loses 3 life unless they discard a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/109.png" num="120">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Jaded Sadist</name>
+			<text>Whenever you cast an instant or sorcery spell—
+• If Jaded Sadist is a Detective, put a +1/+1 counter on it and it becomes a Human Rogue.
+• If Jaded Sadist is a Rogue, put a +1/+1 counter on it and it becomes a Human Assassin. 
+• If Jaded Sadist is an Assassin, you draw a card and you lose 1 life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/110.png" num="102">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Detective</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Night She Left her Grave</name>
+			<text>Return target creature card from your graveyard to the battlefield.
+Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/111.png" num="105">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Forbidden Photographs</name>
+			<text>Target opponent reveals the top five cards of their library. Choose one of those cards. That player may pay life equal to the chosen card&apos;s mana value. If they don&apos;t, you may cast that card without paying its mana cost. Put all cards not cast this way into their owner&apos;s graveyard.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/112.png" num="99">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Splinter in the Mind</name>
+			<text>Destroy all nontoken creatures.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/113.png" num="119">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Seven Notes in Yellow</name>
+			<text>Target opponent may sacrifice a creature of their choice with the greatest mana value among creatures they control. If they don&apos;t, they sacrifice all other creatures they control. Repeat this process for enchantments and for planeswalkers.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/114.png" num="111">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Il Miele di Diavolo</name>
+			<text>Deathtouch, lifelink, haste
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/115.png" num="101">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Quiet Place to Kill</name>
+			<text>Throwback {3} (You may pay an additional {3} as you cast this. If you do, copy it, and you may choose new modes for the copy.)
+Choose one —
+• Each opponent loses 3 life. You gain life equal to the life lost this way.
+• You draw three cards and you lose 3 life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/116.png" num="108">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Night Is Cold</name>
+			<text>Target opponent loses life equal to the greatest amount of life lost by an opponent this turn.
+---
+(Back): The Heart Is Colder</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/117_front.png" num="213a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BR</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">The Heart Is Colder</related>
+		</card>
+		<card>
+			<name>The Heart Is Colder</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, The Heart Is Colder deals 1 damage to target creature or planeswalker. This ability can&apos;t target more than one permanent each turn.
+---
+(Front): The Night Is Cold</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/117_back.png" num="213b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>B/RB/R</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">The Night Is Cold</related>
+		</card>
+		<card>
+			<name>The Shape of Murder</name>
+			<text>As long as it&apos;s your turn, The Shape of Murder has deathtouch.
+{T}, Sacrifice The Shape of Murder: Create a 2/2 black Nightmare creature token. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/118.png" num="113">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bather in Darkness</name>
+			<text>At the beginning of combat on your turn, you may have target creature token get +2/+0 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/119.png" num="88">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blood Muse</name>
+			<text>{B}, Sacrifice a creature token: Blood Muse envisions 1. Activate only as a sorcery. (To envision 1, put a +1/+1 counter on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to 1 less.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/120.png" num="90">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artist</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ragazza nel Buio</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, mill three cards.
+{4}{B}, Sacrifice Ragazza nel Buio: Return target creature card from your graveyard to the battlefield. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/121.png" num="109">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Solvi di Finecco, L&apos;Assassino</name>
+			<text>Unless a player has 5 or less life, Solvi di Finecco, L&apos;Assassino has base power and toughness 1/1.
+Whenever a player casts or copies an instant or sorcery spell, they lose 1 life.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/122.png" num="117">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Nightmare Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>17/17</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>I Cibavi Ammazzano di Notte</name>
+			<text>When I Cibavi Ammazzano di Notte enters the battlefield, each player sacrifices a creature of their choice.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/123.png" num="100">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Knife-Edge Moment</name>
+			<text>Target creature gets +2/-2 until end of turn. When it dies under your control this turn, draw two cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/124.png" num="103">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>By the Edge of the Grave</name>
+			<text>By the Edge of the Grave deals 2 damage to any target and you gain 2 life. If you&apos;ve cast or copied another instant or sorcery spell this turn, create a 2/2 black Nightmare creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/125.png" num="92">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Death Gazes Longingly</name>
+			<text>Throwback—Pay 2 life. (You may pay 2 life in addition to any other costs as you cast this. If you do, copy it, and you may choose new targets for the copy.)
+Target opponent may sacrifice a creature. If they don&apos;t, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/126.png" num="96">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>What Is Real Is Not Righteous</name>
+			<text>Choose one —
+• Remove all counters from target permanent an opponent controls or protects.
+• Destroy target nonartifact token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/127.png" num="122">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Nightmare in a Damaged Brain</name>
+			<text>Exile target creature or planeswalker card from a graveyard. Create a token that&apos;s a copy of it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/128.png" num="106">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Voyeur&apos;s Delight</name>
+			<text>Exile the top three cards of your library. You lose life equal to the highest mana value among cards exiled this way. Then put two of those cards into your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/129.png" num="121">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Night is Open Wide</name>
+			<text>Destroy target artifact or land.
+---
+(Back): Nocturnal Stalker</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/130_front.png" num="147a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Nocturnal Stalker</related>
+		</card>
+		<card>
+			<name>Nocturnal Stalker</name>
+			<text>Menace, reach
+---
+(Front): The Night is Open Wide</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/130_back.png" num="147b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">The Night is Open Wide</related>
+		</card>
+		<card>
+			<name>Citta Aperta</name>
+			<text>Città Aperta deals 2 damage to any target. Create a 1/1 red Citizen creature token.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/131.png" num="127">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fury&apos;s Daughter</name>
+			<text>Haste
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/132.png" num="134">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Who She Could Have Been</name>
+			<text>Haste
+When Who She Could Have Been enters the battlefield, scry 2, then you may reveal the top card of your library. If it&apos;s an instant or sorcery card, put it into your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/133.png" num="162">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Face in the Crowd</name>
+			<text>Throwback {2}{R} (You may pay an additional {2}{R} as you cast this. If you do, copy it.)
+Create a 1/1 red Citizen creature token. If this spell is a copy, instead create two of those tokens.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/134.png" num="133">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Memories of Blood and Anger</name>
+			<text>Reach
+When Memories of Blood and Anger enters the battlefield, it envisions 2. (Put two +1/+1 counters on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to 2 less.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/135.png" num="145">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Cop Knows No Mercy</name>
+			<text>When A Cop Knows No Mercy enters the battlefield, you may discard up to two cards. If you do, draw that many cards.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/136.png" num="128">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Detective</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Its Face Was Not Its Own</name>
+			<text>Trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/137.png" num="140">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Live As a Pig or Die As a Man</name>
+			<text>Throwback {4}{R} (You may pay an additional {4}{R} as you cast this. If you do, copy it, and you may choose new targets for the copy.)
+Live As a Pig or Die As a Man deals 2 damage to any target.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/138.png" num="143">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Acrobatic Leap</name>
+			<text>Target creature gets +2/+0 and gains first strike and trample until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/139.png" num="126">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Thriving Darkness</name>
+			<text>Throwback—{R}, Discard a card. (You may pay an additional {R} and discard a card as you cast this. If you do, copy it.)
+Exile the top two cards of your library. Until the end of your next turn, you may play those cards.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/140.png" num="156">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crime and Dissonance</name>
+			<text>Choose one or both —
+• Destroy target noncreature artifact.
+• Target creature can&apos;t block this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/141.png" num="129">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Projected Fear</name>
+			<text>As an additional cost to cast this spell, reveal an instant or sorcery card from your hand.
+Projected Fear deals damage to target creature or planeswalker equal to the revealed card&apos;s mana value.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/142.png" num="149">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Strange Colors of Fear</name>
+			<text>The Strange Colors of Fear deals 6 damage to target creature, planeswalker, or battle. The damage can&apos;t be prevented.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/143.png" num="153">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>On the Brink of Demise</name>
+			<text>Put up to X instant or sorcery cards from graveyards onto the battlefield face down under your control. They&apos;re 3/1 Nightmare Incarnation creatures with &quot;Whenever this creature deals combat damage to a player, exile it. You may cast that card for as long as it remains exiled and mana of any type can be spent to cast it.&quot;</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/144.png" num="148">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XRR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Facade of Madness</name>
+			<text>Create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+Storm (When you cast this spell, copy it for each spell cast before it this turn.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/145.png" num="132">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Hour of the Wolf</name>
+			<text>Discard your hand, then draw a card for each instant or sorcery spell that&apos;s been cast this turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/146.png" num="137">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Regina del Sangue</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, Regina del Sangue deals 1 damage to each opponent.
+At the beginning of your second main phase, if Regina del Sangue dealt 3 or more damage to players this turn, put a +1/+1 counter on it.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/147.png" num="151">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gatto Surriscaldato</name>
+			<text>Menace
+When Gatto Surriscaldato dies, you may exile an instant or sorcery card from your graveyard. If you do, return Gatto Surriscaldato from your graveyard to the battlefield at the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/148.png" num="135">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Cat</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Transgressive Director</name>
+			<text>You don&apos;t lose unspent red mana as steps or phases end.
+Whenever you cast or copy an instant or sorcery spell, add {R}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/149.png" num="159">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artist</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Guts and the Glory</name>
+			<text>Gain control of target creature until end of turn. Untap it. Until end of turn it gets +1/+0 and gains haste, trample, and &quot;Whenever this creature deals combat damage to a player, it deals that much damage to each other permanent.&quot;</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/150.png" num="136">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tenebrist Skyline</name>
+			<text>Throwback {3} (You may pay an additional {3} as you cast this. If you do, copy it, and you may choose new modes for the copy.)
+Choose one —
+• Tenebrist Skyline deals 3 damage to each creature and planeswalker.
+• Tenebrist Skyline deals 3 damage to each player.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/151.png" num="155">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Killing Screen</name>
+			<text>The Killing Screen deals X damage to any target. You may put a creature card with mana value X from your hand onto the battlefield.
+---
+(Back): Screen-Tested Killer</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/152_front.png" num="217a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XRG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Screen-Tested Killer</related>
+		</card>
+		<card>
+			<name>Screen-Tested Killer</name>
+			<text>Trample
+Whenever you cast or copy an instant or sorcery spell, put a +1/+1 counter on Screen-Tested Killer.
+---
+(Front): The Killing Screen</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/152_back.png" num="217b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>1R/G</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">The Killing Screen</related>
+		</card>
+		<card>
+			<name>Death Walks on High Heels</name>
+			<text>When Death Walks on High Heels enters the battlefield, it envisions 1. (Put a +1/+1 counter on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to 1 less.)
+Whenever you cast a spell from anywhere other than your hand, create a 1/1 red Citizen creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/153.png" num="131">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Laughing Death</name>
+			<text>You may cast this spell as though it had flash as long as you&apos;ve cast an instant spell this turn.
+Shielded from Survivor (Prevent all damage that would be dealt to this by Survivor sources.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/154.png" num="142">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Clown</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mondo Selvaggio</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, Mondo Selvaggio deals 1 damage to each opponent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/155.png" num="146">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jaded Investigator</name>
+			<text>Flash
+When Jaded Investigator enters the battlefield, target creature you control envisions 1. (Put a +1/+1 counter on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to 1 less.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/156.png" num="141">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Detective</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pyre of Ambition</name>
+			<text>Menace
+Whenever you cast or copy an instant or sorcery spell, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/157.png" num="150">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Turbulent Dreaming</name>
+			<text>Throwback {6} (You may pay an additional {6} as you cast this. If you do, copy it, and you may choose new targets for the copy.)
+Double target creature&apos;s power until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/158.png" num="160">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>To Dream of Violence</name>
+			<text>Target creature you control gets +3/+2 until end of turn. If it has a +1/+1 counter on it, it also gains haste and trample until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/159.png" num="157">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>How Thick Is Blood</name>
+			<text>Gain control of target creature until end of turn. Untap it. It gains tension and haste until end of turn. (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/160.png" num="138">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Tangled Cradle</name>
+			<text>A Tangled Cradle deals 2 damage to each creature. If a Nightmare dealt damage this way would die this turn, exile it instead.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/161.png" num="154">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>You Have Always Lived Here</name>
+			<text>Target creature you control envisions 2. (Put two +1/+1 counters on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to 2 less.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/162.png" num="163">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crushing Steps</name>
+			<text>Damage can&apos;t be prevented this turn.
+Crushing Steps deals 2 damage divided as you choose among one or two targets.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/163.png" num="130">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hurry Up and Kill Me</name>
+			<text>Hurry Up and Kill Me deals 4 damage to target creature, planeswalker, or battle.
+As Hurry Up and Kill Me resolves, if there is a card in your graveyard named All the Colors of the Dark, exile them, then meld them into Profondo Giallo.
+---
+(Back): Profondo Giallo</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/164_front.png" num="139a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Profondo Giallo</related>
+		</card>
+		<card>
+			<name>Profondo Giallo</name>
+			<text>If an instant or sorcery you control would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus 1 instead.
+---
+(Front): Hurry Up and Kill Me</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/164_back.png" num="139b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Hurry Up and Kill Me</related>
+		</card>
+		<card>
+			<name>August Birdsong</name>
+			<text>Put a +1/+1 counter on target creature you control. It deals damage equal to its power to target creature an opponent controls.
+---
+(Back): Child of the Nightingale</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/165_front.png" num="165a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Child of the Nightingale</related>
+		</card>
+		<card>
+			<name>Child of the Nightingale</name>
+			<text>When Child of the Nightingale enters the battlefield, put a +1/+1 counter on target creature you control.
+---
+(Front): August Birdsong</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/165_back.png" num="165b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">August Birdsong</related>
+		</card>
+		<card>
+			<name>It Walks At Midnight</name>
+			<text>Throwback {3} (You may pay an additional {3} as you cast this. If you do, copy it.)
+Create a 2/2 black Nightmare creature token.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/166.png" num="182">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Contemplative Critic</name>
+			<text>When Contemplative Critic enters the battlefield, scry 2, then you may reveal the top card of your library. If it&apos;s an instant or sorcery card, put it into your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/167.png" num="170">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sposa della Dannazione</name>
+			<text>Vigilance
+When Sposa della Dannazione enters the battlefield, create a 1/1 red Citizen creature token.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/168.png" num="197">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Contemptuous Cynic</name>
+			<text>When Contemptuous Cynic enters the battlefield, if you control a creature token, draw a card.
+Vigilance
+{T}: Add {G}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/169.png" num="171">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Production Expert</name>
+			<text>When Production Expert enters the battlefield, reveal cards from the top of your library until you reveal a land card. Put that card onto the battlefield tapped and the rest on the bottom of your library in a random order.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/170.png" num="191">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Butterfly Muse</name>
+			<text>When Butterfly Muse enters the battlefield, put a +1/+1 counter on each of up to two target Nightmares you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/171.png" num="168">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artist</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shadow of Guilt</name>
+			<text>Shadow of Guilt can&apos;t be blocked by creatures with power 2 or less.
+At the beginning of combat on your turn, choose target Nightmare you control. That creature can&apos;t be blocked by creatures with power 2 or less this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/172.png" num="193">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Impressions of Murder</name>
+			<text>This spell costs {1} less to cast for each creature token you control.
+Trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/173.png" num="180">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>6G</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Masque of Fear</name>
+			<text>Vigilance, reach, trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/174.png" num="185">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Skeleton</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Faces of Brutality</name>
+			<text>Target creature you control deals damage equal to its power to another target creature, planeswalker, or battle. You may have it deal excess to that permanent&apos;s controller or protector.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/175.png" num="174">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Porte del Silenzio</name>
+			<text>Choose target creature you control and target creature you don&apos;t control. If the creature you control is a Nightmare, it gains shielded until end of turn. Then those creatures fight each other. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/176.png" num="190">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Fear of the Beyond</name>
+			<text>Target creature gets +3/+3 and gains trample until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/177.png" num="175">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Laughing Townhouse</name>
+			<text>As an additional cost to cast this spell, reveal an instant or sorcery card from your hand or pay {1}.
+Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/178.png" num="183">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>What Happened Yesterday</name>
+			<text>Throwback {2} (You may pay an additional {2} as you cast this. If you do, copy it.)
+Mill three cards, then you may return a creature or land card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/179.png" num="200">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Nightly Angelus</name>
+			<text>For each nontoken creature you control with mana value X or less, create a token that&apos;s a copy of it, except it&apos;s an X/X Nightmare in addition to its other types.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/180.png" num="188">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XXGG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sin Does Not Wash Away</name>
+			<text>Search your library and/or graveyard for a land card and put it onto the battlefield tapped. Then if you searched your library this way, shuffle.
+Storm (When you cast this spell, copy it for each spell cast before it this turn.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/181.png" num="195">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>An Ecology of Fear</name>
+			<text>As an additional cost to cast this spell, sacrifice a land.
+Search your library for any number of land cards that a share a type with the sacrificed land, put them onto the battlefield tapped, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/182.png" num="173">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Waves Will Wash Away</name>
+			<text>Throwback—Sacrifice a creature with mana value X. (You may sacrifice a creature with mana value X in addition to any other costs as you cast this. If you do, copy it.)
+Search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/183.png" num="199">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XGG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>I&apos;ll Find You in the Dark</name>
+			<text>Trample
+Whenever I&apos;ll Find You in the Dark or another Nightmare enters the battlefield under your control, put a +1/+1 counter on each other Nightmare you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/184.png" num="179">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lurid Nightcaller</name>
+			<text>Instant and sorcery spells you cast cost {G} less to cast.
+As long as it&apos;s your turn, Lurid Nightcaller has deathtouch.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/185.png" num="184">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Cat</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fruit of a Laughing Garden</name>
+			<text>Fruit of a Laughing Garden deals 3 damage to each artifact creature and each creature with flying.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/186.png" num="176">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blood Waters the Vine</name>
+			<text>Throwback {3} (You may pay an additional {3} as you cast this. If you do, copy it, and you may choose new modes for the copy.)
+Choose one —
+• Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
+• Create a 0/0 green Nightmare creature token. Put a number of +1/+1 counters on it equal to the number of lands you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/187.png" num="166">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Dream Is a Canvas</name>
+			<text>Search your library for a creature card, reveal that card, put it into your hand, then shuffle.
+---
+(Back): Paper-Doll Butcher</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/188_front.png" num="221a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Paper-Doll Butcher</related>
+		</card>
+		<card>
+			<name>Paper-Doll Butcher</name>
+			<text>When Paper-Doll Butcher enters the battlefield, create two 1/1 red Citizen creature tokens.
+Whenever another creature enters the battlefield under your control, you gain 1 life.
+---
+(Front): A Dream Is a Canvas</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/188_back.png" num="221b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>1G/WG/W</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">A Dream Is a Canvas</related>
+		</card>
+		<card>
+			<name>Bloodstained Shadow</name>
+			<text>Vigilance, reach, trample</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/189.png" num="167">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Soul in a Glass Maze</name>
+			<text>Creature tokens you control can&apos;t be blocked by creatures with power 2 or less.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/190.png" num="196">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mostro Senza Volta</name>
+			<text>Reach
+Each other Nightmare you control enters the battlefield with an additional +1/+1 counter on it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/191.png" num="186">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dellamorte Dellamore</name>
+			<text>Trample
+Dellamorte Dellamore gets +1/+1 for each other Nightmare you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/192.png" num="172">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seer of the Beyond</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, put a +1/+1 counter on Seer of the Beyond.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/193.png" num="192">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Haunted Witness</name>
+			<text>Vigilance
+When Haunted Witness enters the battlefield, you may return target card from your graveyard to your hand</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/194.png" num="177">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Paura dei Ragazzi</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, creature tokens you control get +1/+1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/195.png" num="189">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Night of the Ripper</name>
+			<text>Throwback {G} (You may pay an additional {G} as you cast this. If you do, copy it.)
+Create a 0/0 green Nightmare creature token. Put X +1/+1 counters on it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/196.png" num="187">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XG</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hell of the Living Dead</name>
+			<text>Whenever a nontoken creature you control dies, create a 2/2 black Nightmare creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/197.png" num="178">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cold Light of Day</name>
+			<text>Target creature you control deals damage equal to its power to each of up to one other target creature and up to one other target creature with flying.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/198.png" num="169">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>All You See is Fear</name>
+			<text>Creatures you control get +2/+2 and gain trample until end of turn. Until end of turn, you may have Nightmares you control assign their combat damage as though they weren&apos;t blocked.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/199.png" num="164">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>She Sang a Song of Wildness</name>
+			<text>Search your library for up to two land cards that share a land type, put them onto the battlefield tapped, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/200.png" num="194">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Who Saw Her Drown</name>
+			<text>Search your library for a land card, put that card onto the battlefield, then shuffle.
+As Who Saw Her Drown resolves, if there is a card in your graveyard named All the Colors of the Dark, exile them, then meld them into Profondo Giallo.
+---
+(Back): Profondo Giallo</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/201_front.png" num="201a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Profondo Giallo</related>
+		</card>
+		<card>
+			<name>Profondo Giallo</name>
+			<text>Basic lands you control untap during each player&apos;s untap step.
+---
+(Front): Who Saw Her Drown</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/201_back.png" num="201b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Who Saw Her Drown</related>
+		</card>
+		<card>
+			<name>A Cat in the Brain</name>
+			<text>Search your library for a creature, instant, or sorcery card with mana value X or less, exile it, then shuffle. You may cast the exiled card without paying its mana cost.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/202.png" num="241">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XGGU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Artless Revival</name>
+			<text>Choose target nonlegendary creature you control or target nonlegendary creature card in a graveyard. Create a token that&apos;s a copy of it, except it&apos;s legendary.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/203.png" num="232">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sign of the Wolf</name>
+			<text>Haste
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)
+Whenever another Nightmare enters the battlefield under your control, Sign of the Wolf deals 1 damage to each opponent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/204.png" num="237">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Wolf</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Death Smiles on the Lamb</name>
+			<text>At the beginning of your first main phase, target creature you control envisions 1. (Put a +1/+1 counter on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to 1 less.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/205.png" num="203">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Il Cielo in Una Stanza</name>
+			<text>You draw two cards and you lose 2 life.
+Whenever a Nightmare you control deals 3 or more combat damage to a player, return Il Cielo in Una Stanza from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/206.png" num="208">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Genco Rossi, Visual Poet</name>
+			<text>Spells you cast have &quot;Throwback—Sacrifice a creature.&quot; (You may sacrifice a creature as an additional cost to cast a spell. If you do, copy it, and you may choose new targets or modes for the copy.)
+Whenever you sacrifice a nontoken permanent, you lose 1 life and create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/207.png" num="211">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artist</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seen by an Unseen Witness</name>
+			<text>Choose two. You may choose the same mode more than once.
+• Seen by an Unseen Witness deals 1 damage to any target.
+• Create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+• Draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/208.png" num="231">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Absolve</name>
+			<text>Destroy all artifacts and enchantments.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/209.png" num="219">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fate Is an Endless Loop</name>
+			<text>Throwback—{R}{G} (You may pay an additional {R}{G} as you cast this. If you do, copy it, and you may choose new targets for the copy.)
+Destroy target artifact, enchantment, or land. If a land is destroyed this way, its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/210.png" num="216">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Trace of Perversion</name>
+			<text>Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)
+Each other creature you control with tension gets +1/+1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/211.png" num="227">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Anguished Unsane</name>
+			<text>Nightmares you control get +1/+1 and have menace.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/212.png" num="240">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dreams of Dread</name>
+			<text>Throwback—{1}{B}{R}, Pay 3 life (You may pay an additional {1}{B}{R} and pay 3 life as you cast this. If you do, copy it, and you may choose new targets for the copy.)
+Destroy target creature. Its controller loses life equal to the number of spells you&apos;ve cast or copied this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/213.png" num="210">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Anguished Insomniac</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, put a +1/+1 counter on each of up to two target creatures you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/214.png" num="215">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chrysanthemums for a Killer</name>
+			<text>Lifelink
+Chrysanthemums for a Killer has double strike as long as you&apos;ve cast an instant or sorcery spell this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/215.png" num="220">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Citizen Above Suspicion</name>
+			<text>Deathtouch
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/216.png" num="224">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Outrun the Sunset</name>
+			<text>Throwback {2}{B}{G} (You may pay an additional {2}{B}{G} as you cast this. If you do, copy it, and you may choose new targets for the copy.)
+Create a 2/2 black Nightmare creature token. If this spell is a copy, instead create two of those tokens.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/217.png" num="233">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sopravvissuta Urlante</name>
+			<text>Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)
+Whenever a Nightmare you control leaves the battlefield, each opponent loses life equal to that Nightmare&apos;s power.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/218.png" num="209">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sapore di Sangue</name>
+			<text>Whenever Sapore di Sangue attacks and isn&apos;t blocked, it envisions 1. (Put a +1/+1 counter on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to 1 less.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/219.png" num="230">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artist</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Who Cries for the Clown</name>
+			<text>Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)
+At the beginning of combat on your turn, up to one other target creature you control gains first strike and tension until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/220.png" num="239">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Clown</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>L&apos;odio e una Stanza Chiusa</name>
+			<text>You gain 3 life and draw two cards. Then discard a card if L&apos;odio è una Stanza Chiusa was cast from your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/221.png" num="204">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>At the End of the Hall</name>
+			<text>Until end of turn, creatures you control get +1/+1 and gain menace and tension. (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)
+---
+(Back): Hallowed Endling</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/222_front.png" num="206a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Hallowed Endling</related>
+		</card>
+		<card>
+			<name>Hallowed Endling</name>
+			<text>Flying
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)
+---
+(Front): At the End of the Hall</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/222_back.png" num="206b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">At the End of the Hall</related>
+		</card>
+		<card>
+			<name>Seven Deaths in the Cat&apos;s Eye</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, put a +1/+1 counter on Seven Deaths in the Cat&apos;s Eye and each opponent loses 1 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/223.png" num="214">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Of Flowers and Feathers</name>
+			<text>Throwback {2} (You may pay an additional {2} as you cast this. If you do, copy it, and you may choose new targets for the copy.)
+Target creature gets +1/+1 and gains double strike and trample until end of turn.
+---
+(Back): Bloodfeather Muse</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/224_front.png" num="218a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Bloodfeather Muse</related>
+		</card>
+		<card>
+			<name>Bloodfeather Muse</name>
+			<text>Spells with throwback you cast cost {1} less to cast. (Regardless of whether you pay the throwback cost.)
+---
+(Front): Of Flowers and Feathers</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/224_back.png" num="218b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Of Flowers and Feathers</related>
+		</card>
+		<card>
+			<name>Transfixed Dreamer</name>
+			<text>Whenever you gain life, put a +1/+1 counter on Transfixed Dreamer.
+As long as you&apos;ve gained life this turn, spells you cast cost {1} less to cast.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/225.png" num="223">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stoic Unraveler</name>
+			<text>Whenever a Nightmare token enters the battlefield under your control, you draw a card and you lose 1 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/226.png" num="225">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Detective</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Scream at Midnight</name>
+			<text>Creature two 2/2 black Nightmare creature tokens. Distribute a +1/+1 counter and a flying counter among them.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/227.png" num="110">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Study on Velvet</name>
+			<text>Draw three cards, then discard a card. When you do, create a 0/0 green Nightmare creature token and put a number of +1/+1 counters on it equal to the mana value of the discarded card.
+---
+(Back): Velveteen Prowler</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/228_front.png" num="243a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3GU</manacost>
+				<cmc>5</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Velveteen Prowler</related>
+		</card>
+		<card>
+			<name>Velveteen Prowler</name>
+			<text>Whenever you cast an instant or sorcery spell, put a +1/+1 counter on target Nightmare you control.
+---
+(Front): A Study on Velvet</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/228_back.png" num="243b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">A Study on Velvet</related>
+		</card>
+		<card>
+			<name>The Air Crackles with Fear</name>
+			<text>The Air Crackles with Fear deals 4 damage to target creature, planeswalker, or battle. If that permanent would leave the battlefield this turn, you may exile it instead.
+Draw a card.
+---
+(Back): Paura Elettrica</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/229_front.png" num="228a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Paura Elettrica</related>
+		</card>
+		<card>
+			<name>Paura Elettrica</name>
+			<text>When Paura Elettrica enters the battlefield, it envisions 1. (Put a +1/+1 counter on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to 1 less.)
+Each creature you control with a +1/+1 counter on it has menace.
+---
+(Front): The Air Crackles with Fear</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/229_back.png" num="228b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">The Air Crackles with Fear</related>
+		</card>
+		<card>
+			<name>Unmissable Appointment</name>
+			<text>Creatures you control get +2/+0 until end of turn. Put a +1/+1 counter on each creature you control with tension.
+---
+(Back): Appointment for Death</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/230_front.png" num="238a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Appointment for Death</related>
+		</card>
+		<card>
+			<name>Appointment for Death</name>
+			<text>As long as it&apos;s your turn, Appointment for Death has double strike
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)
+---
+(Front): Unmissable Appointment</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/230_back.png" num="238b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Unmissable Appointment</related>
+		</card>
+		<card>
+			<name>A Taste of Tomorrow</name>
+			<text>Look at the top three cards of your library. Put one of them into your hand and the rest on top of your library in any order. You may shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/231.png" num="10">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Night Is Dark but No Longer Young</name>
+			<text>Create two 2/2 black Nightmare creature tokens.
+Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/232.png" num="7">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Melt</name>
+			<text>Melt deals 3 damage to target creature, planeswalker, or battle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/233.png" num="5">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Baleful Streetlight</name>
+			<text>{1}, {T}: Add one mana of any color.
+{T}: Add one mana of any color. Spend this mana only to cast an instant or sorcery spell.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/234.png" num="246">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fragment</name>
+			<text>This spell costs {3} less to cast if it targets a permanent with mana value 3 or less.
+Destroy target nonland permanent.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/235.png" num="2">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Animate Animus</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, Animate Animus gets +2/+0 until end of turn.
+{2}, Sacrifice Animate Animus: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/236.png" num="245">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Sculpture</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Macabre Maquette</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, Macabre Maquette gets +1/+1 until end of turn.
+{2}, Exile Macabre Maquette: Create a 0/0 green Nightmare creature token and put a number of +1/+1 counters on it equal to Macabre Maquette&apos;s power. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/237.png" num="251">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Preparati la Bara</name>
+			<text>Vigilance
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/238.png" num="254">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Night Bleeds Yellow</name>
+			<text>Create a 2/2 black Nightmare creature token. Put a +1/+1 counter on it if you&apos;ve cast an instant spell this turn and a +1/+1 counter on it if you&apos;ve cast another sorcery spell this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/239.png" num="6">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Sweet Smell of Death</name>
+			<text>Target creature has base power and toughness 0/0 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/240.png" num="9">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Night Swimming</name>
+			<text>Target player shuffles all instant and sorcery cards from their graveyard into their library. Then exile all cards from all graveyards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/241.png" num="8">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Una Sull&apos;altra</name>
+			<text>Throwback {2} (You may pay an additional {2} as you cast this. If you do, copy it.)
+Create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+If Una Sull&apos;altra is a copy, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/242.png" num="11">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Devil&apos;s Face</name>
+			<text>{T}: Add one mana of any color. Spend this mana only to cast an instant or sorcery spell.
+{1}: Put an argent counter on The Devil&apos;s Face. It gains &quot;{T}: Add one mana of any color.&quot; (This effect lasts indefinitely.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/243.png" num="247">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Electric Night</name>
+			<text>{T}: Add {C}.
+Whenever you cast an instant or sorcery spell, if its mana value is greater than the number of pulse counters on Electric Night, put a pulse counter on Electric Night, then you may have it become a 3/3 Nightmare creature with vigilance until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/244.png" num="259">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Artist&apos;s Haven</name>
+			<text>As Artist&apos;s Haven enters the battlefield, choose instant or sorcery.
+{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast a spell of the chosen type. When you do, scry 1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/245.png" num="255">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/246.png" num="272">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/247.png" num="273">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/248.png" num="274">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/249.png" num="275">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Treasure PFG</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/250.png" num="7">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>PFG Draft Archetypes PFG</name>
+			<text>{W}{U} ENVISION Art is catharsis. Purge your fears and outlive your foes.
+{U}{B} TENSION Live on a knife edge and take advantage of the Nightmares in the dark.
+{B}{R} THROWBACK Play aggressively and know your copied throwback spells can recoup lost cards.
+{R}{G} SPELLSLINGER The mind rattles with gnawing potential. Let it out aggressively.
+{G}{W} LIFEGAIN Enjoy the fruits of the long, hot evenings and prosper as you gain life.
+{W}{B} TENSION Protect the dark things that flit when the sun sets, and ride evasive damage to victory.
+{B}{G} TOKENS Token creatures know no fear, leave no bodies, show no mercy.
+{G}{U} NIGHTMARES Paranoia breeds claws and teeth on Cibavo. Embrace the dark.
+{U}{R} ENVISION Are you a tortured genius, or a genius of torture?
+{R}{W} TENSION Attack aggressively, and your nightmares will split your opponent&apos;s focus.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/251.png" num="8">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Ego Scramble</name>
+			<text>Counter target spell unless its controller pays {X}, where X is the number of spells that have been cast this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/252.png" num="57">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Solstizia, the August Moon</name>
+			<text>[+1]: Draw a card, then discard a card. If a nonland card was discarded this way, create a tapped Treasure token.
+[-2]: Choose target artifact, creature, or enchantment card in your graveyard. You may cast that card this turn.
+[-4]: You get an emblem with &quot;Whenever one or more permanent cards enter your graveyard from anywhere or leave your graveyard, each opponent loses 1 life.&quot;</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/253.png" num="235">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Solstizia</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/254.png" num="276">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>And You Will Live in Terror</name>
+			<text>Destroy target non-Human creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/255.png" num="125">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Assassin PFG</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/256.png" num="6">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Black Days of Vice</name>
+			<text>All creatures get -2/-2 until end of turn.
+As Black Days of Vice resolves, if there is a card in your graveyard named All the Colors of the Dark, exile them, then meld them into Profondo Giallo.
+---
+(Back): Profondo Giallo</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/257_front.png" num="89a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">Profondo Giallo</related>
+		</card>
+		<card>
+			<name>Profondo Giallo</name>
+			<text>Creatures your opponents control get -1/-1. This ability can&apos;t reduce a creature&apos;s toughness to 0 or below.
+---
+(Front): Black Days of Vice</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/257_back.png" num="89b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Black Days of Vice</related>
+		</card>
+		<card>
+			<name>A Lizard in a Stranger&apos;s Skin</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, A Lizard in a Stranger&apos;s Skin gets +1/+1 until end of turn.
+Whenever A Lizard in a Stranger&apos;s Skin attacks, you may discard a card. If you do, exile the top card of your library. Until end of turn, you may play that card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/258.png" num="144">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tangled Islet</name>
+			<text>({T}: Add {G} or {U}.)
+Tangled Islet enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/259.png" num="270">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sunlit Marsh</name>
+			<text>({T}: Add {W} or {B}.)
+Sunlit Marsh enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/260.png" num="269">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Idyllic Beachfront</name>
+			<text>({T}: Add {W} or {U}.)
+Idyllic Beachfront enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/261.png" num="265">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Geothermal Bog</name>
+			<text>({T}: Add {B} or {R}.)
+Geothermal Bog enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/262.png" num="263">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Wooded Ridgeline</name>
+			<text>({T}: Add {R} or {G}.)
+Wooded Ridgeline enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/263.png" num="271">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Radiant Grove</name>
+			<text>({T}: Add {G} or {W}.)
+Radiant Grove enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/264.png" num="267">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sacred Peaks</name>
+			<text>({T}: Add {R} or {W}.)
+Sacred Peaks enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/265.png" num="268">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Contaminated Aquifer</name>
+			<text>({T}: Add {U} or {B}.)
+Contaminated Aquifer enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/266.png" num="262">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Haunted Mire</name>
+			<text>({T}: Add {B} or {G}.)
+Haunted Mire enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/267.png" num="264">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Molten Tributary</name>
+			<text>({T}: Add {U} or {R}.)
+Molten Tributary enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/268.png" num="266">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Nightmare (black) PFG</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/269.png" num="3">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Citizen PFG</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/270.png" num="4">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Paranoid Soundscape</name>
+			<text>Creature tokens you control get +1/+1 and have trample.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/271.png" num="234">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nightmare (Tension) PFG</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/272.png" num="1">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Death Calls at All Hours</name>
+			<text>Destroy target creature or planeswalker. Return up to one target creature or planeswalker card from your graveyard to your hand.
+---
+(Back): The Waking Hour</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/273_front.png" num="95a">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<related attach="transform">The Waking Hour</related>
+		</card>
+		<card>
+			<name>The Waking Hour</name>
+			<text>As long as it&apos;s your turn, The Waking Hour has deathtouch.
+---
+(Front): Death Calls at All Hours</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/273_back.png" num="95b">PFG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Nightmare Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Death Calls at All Hours</related>
+		</card>
+		<card>
+			<name>Sinister Secretary</name>
+			<text>Whenever Sinister Secretary deals combat damage to a player, it envisions 1. (Put a +1/+1 counter on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to 1 less.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/274.png" num="152">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tortured Expressionist</name>
+			<text>Vigilance
+When Tortured Expressionist enters the battlefield, it envisions 1. (Put a +1/+1 counter on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to 1 less.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/275.png" num="45">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artist</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bambola di Vetro</name>
+			<text>Bambola di Vetro can&apos;t be blocked by Nightmares.
+When Bambola di Vetro enters the battlefield, it envisions 2. (Put two +1/+1 counters on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to 2 less.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/276.png" num="202">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artist</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nightmare (green) PFG</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/277.png" num="5">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Tormented Model</name>
+			<text>Haste
+When Tormented Model enters the battlefield, it envisions 1. (Put a +1/+1 counter on it, or exile an instant or sorcery from your graveyard and you may cast a copy of it by paying up to 1 less.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/278.png" num="158">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artist</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Feticcio Della Strega (Headliner promo)</name>
+			<text>Once during each of your turns, you may cast an instant or sorcery spell you own from outside the game.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/279.png" num="278">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Solvi di Finecco, L&apos;Assassino (Bundle promo)</name>
+			<text>Unless a player has 5 or less life, Solvi di Finecco, L&apos;Assassino has base power and toughness 1/1.
+Whenever a player casts or copies an instant or sorcery spell, they lose 1 life.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/PFG-files/img/280.png" num="277">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Nightmare Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>17/17</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Locked Room of Vice</name>
+			<text>Whenever you cast or copy an instant or sorcery spell, target player gets a poison counter. (A player with ten or more poison counters loses the game.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/281.png" num="250">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Inscrutable Vamp</name>
+			<text>Whenever a creature dies, you gain 1 life.
+At the beginning of your end step, if you&apos;ve gained 3 or more life this turn, put a +1/+1 counter on Inscrutable Vamp.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/282.png" num="181">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shrieking Nighthawk</name>
+			<text>Flying, deathtouch
+Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/PFG-files/img/283.png" num="114">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Citizen (Tension) PFG</name>
+			<text>Tension (Whenever you attack with X creatures with tension, create a tapped and attacking colorless X/X Nightmare creature token with flying if you haven&apos;t this turn. Exile it at end of combat.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/PFG-files/img/284.png" num="2">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Doubt Is the Slow Knife</name>
+			<text>Discard your hand. For each card type among cards discarded this way, draw two cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/PFG-files/img/285.png" num="55">PFG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

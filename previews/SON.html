@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/SON-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/SON-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>SON visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
 		@font-face {
 			font-family: Beleren;
-			src: url('/resources/beleren.ttf');
+			src: url('../resources/beleren.ttf');
 		}
 		body {
 			font-family: Arial, sans-serif;
@@ -45,13 +48,15 @@
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -62,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -82,6 +87,7 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
@@ -102,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -118,7 +125,7 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -174,375 +181,416 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/SON-files/logo.png" />
-	<img class="preload-hidden" src="/sets/TYT-files/icon.png" />
-		<img class="preload-hidden" src="/sets/QYR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/XCO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SSF-files/icon.png" />
-		<img class="preload-hidden" src="/sets/AKI-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MHQ-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ARK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/90S-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OPH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/CYO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HVY-files/icon.png" />
-		<img class="preload-hidden" src="/sets/CLG-files/icon.png" />
-		<img class="preload-hidden" src="/sets/OVR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HMW-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TAL-files/icon.png" />
-		<img class="preload-hidden" src="/sets/PFG-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SMK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/FSH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HTL-files/icon.png" />
-		<img class="preload-hidden" src="/sets/JMR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SON-files/icon.png" />
-		<img class="preload-hidden" src="/sets/FYF-files/icon.png" />
-		<img class="preload-hidden" src="/sets/APS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/URZ-files/icon.png" />
-		<img class="preload-hidden" src="/sets/666-files/icon.png" />
-		<img class="preload-hidden" src="/sets/FBI-files/icon.png" />
-		<img class="preload-hidden" src="/sets/GRU-files/icon.png" />
-		<img class="preload-hidden" src="/sets/KSH-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SPQ-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TGS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/XSK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ELO-files/icon.png" />
-		<img class="preload-hidden" id="bg" src="/sets/SON-files/bg.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/SON-files/logo.png" />
+	<img class="preload-hidden" src="../sets/TYT-files/icon.png" />
+		<img class="preload-hidden" src="../sets/QYR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/XCO-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SSF-files/icon.png" />
+		<img class="preload-hidden" src="../sets/AKI-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MHQ-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ARK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/90S-files/icon.png" />
+		<img class="preload-hidden" src="../sets/OPH-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CYO-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HVY-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CLG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/OVR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HMW-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TAL-files/icon.png" />
+		<img class="preload-hidden" src="../sets/PFG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SMK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/FSH-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HTL-files/icon.png" />
+		<img class="preload-hidden" src="../sets/JMR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SON-files/icon.png" />
+		<img class="preload-hidden" src="../sets/FYF-files/icon.png" />
+		<img class="preload-hidden" src="../sets/APS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/URZ-files/icon.png" />
+		<img class="preload-hidden" src="../sets/666-files/icon.png" />
+		<img class="preload-hidden" src="../sets/FBI-files/icon.png" />
+		<img class="preload-hidden" src="../sets/GRU-files/icon.png" />
+		<img class="preload-hidden" src="../sets/KSH-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SPQ-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TGS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/XSK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ELO-files/icon.png" />
+		<img class="preload-hidden" id="bg" src="../sets/SON-files/bg.png" />
 
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
 
 	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
-		<a class="set-bar" href="SON"><img src="/sets/SON-files/icon.png">Return of the Revenge of the Son of the Terrorscope</a>
+		<a class="set-bar" href="../previews/SON"><img src="../sets/SON-files/icon.png">Return of the Revenge of the Son of the Terrorscope</a>
 	
-		<a class="set-bar inactive" href="TYT"><img src="/sets/TYT-files/icon.png">Depths of Tytheus</a>
+		<a class="set-bar inactive" href="../previews/TYT"><img src="../sets/TYT-files/icon.png">Depths of Tytheus</a>
 	
-		<a class="set-bar inactive" href="QYR"><img src="/sets/QYR-files/icon.png">Dreams of Quyrash</a>
+		<a class="set-bar inactive" href="../previews/QYR"><img src="../sets/QYR-files/icon.png">Dreams of Quyrash</a>
 	
-		<a class="set-bar inactive" href="XCO"><img src="/sets/XCO-files/icon.png">Skies Over San Xalco</a>
+		<a class="set-bar inactive" href="../previews/XCO"><img src="../sets/XCO-files/icon.png">Skies Over San Xalco</a>
 	
-		<a class="set-bar inactive" href="SSF"><img src="/sets/SSF-files/icon.png">Shamtar: Search for Fire</a>
+		<a class="set-bar inactive" href="../previews/SSF"><img src="../sets/SSF-files/icon.png">Shamtar: Search for Fire</a>
 	
-		<a class="set-bar inactive" href="AKI"><img src="/sets/AKI-files/icon.png">Akaddi: Empire’s End</a>
+		<a class="set-bar inactive" href="../previews/AKI"><img src="../sets/AKI-files/icon.png">Akaddi: Empire’s End</a>
 	
-		<a class="set-bar inactive" href="MHQ"><img src="/sets/MHQ-files/icon.png">Modern Horizons: Triumph of Qirauz</a>
+		<a class="set-bar inactive" href="../previews/MHQ"><img src="../sets/MHQ-files/icon.png">Modern Horizons: Triumph of Qirauz</a>
 	
-		<a class="set-bar inactive" href="ARK"><img src="/sets/ARK-files/icon.png">Cults of Arkoph</a>
+		<a class="set-bar inactive" href="../previews/ARK"><img src="../sets/ARK-files/icon.png">Cults of Arkoph</a>
 	
-		<a class="set-bar inactive" href="90S"><img src="/sets/90S-files/icon.png">Rath and Storm</a>
+		<a class="set-bar inactive" href="../previews/90S"><img src="../sets/90S-files/icon.png">Rath and Storm</a>
 	
-		<a class="set-bar inactive" href="OPH"><img src="/sets/OPH-files/icon.png">Arkoph: Crisis of Faith</a>
+		<a class="set-bar inactive" href="../previews/OPH"><img src="../sets/OPH-files/icon.png">Arkoph: Crisis of Faith</a>
 	
-		<a class="set-bar inactive" href="CYO"><img src="/sets/CYO-files/icon.png">Chronicles of Yor-Om</a>
+		<a class="set-bar inactive" href="../previews/CYO"><img src="../sets/CYO-files/icon.png">Chronicles of Yor-Om</a>
 	
-		<a class="set-bar inactive" href="HVY"><img src="/sets/HVY-files/icon.png">Heavy Thunder</a>
+		<a class="set-bar inactive" href="../previews/HVY"><img src="../sets/HVY-files/icon.png">Heavy Thunder</a>
 	
-		<a class="set-bar inactive" href="CLG"><img src="/sets/CLG-files/icon.png">Children of Lesser Gods</a>
+		<a class="set-bar inactive" href="../previews/CLG"><img src="../sets/CLG-files/icon.png">Children of Lesser Gods</a>
 	
-		<a class="set-bar inactive" href="OVR"><img src="/sets/OVR-files/icon.png">Overlay</a>
+		<a class="set-bar inactive" href="../previews/OVR"><img src="../sets/OVR-files/icon.png">Overlay</a>
 	
-		<a class="set-bar inactive" href="HMW"><img src="/sets/HMW-files/icon.png">Skand: Heavy Metal War</a>
+		<a class="set-bar inactive" href="../previews/HMW"><img src="../sets/HMW-files/icon.png">Skand: Heavy Metal War</a>
 	
-		<a class="set-bar inactive" href="TAL"><img src="/sets/TAL-files/icon.png">Ulaith: Cos Teilo’s Feast</a>
+		<a class="set-bar inactive" href="../previews/TAL"><img src="../sets/TAL-files/icon.png">Ulaith: Cos Teilo’s Feast</a>
 	
-		<a class="set-bar inactive" href="PFG"><img src="/sets/PFG-files/icon.png">Profondo Giallo</a>
+		<a class="set-bar inactive" href="../previews/PFG"><img src="../sets/PFG-files/icon.png">Profondo Giallo</a>
 	
-		<a class="set-bar inactive" href="SMK"><img src="/sets/SMK-files/icon.png">The Big Smoko</a>
+		<a class="set-bar inactive" href="../previews/SMK"><img src="../sets/SMK-files/icon.png">The Big Smoko</a>
 	
-		<a class="set-bar inactive" href="FSH"><img src="/sets/FSH-files/icon.png">Morstad: City of Shadows</a>
+		<a class="set-bar inactive" href="../previews/FSH"><img src="../sets/FSH-files/icon.png">Morstad: City of Shadows</a>
 	
-		<a class="set-bar inactive" href="HTL"><img src="/sets/HTL-files/icon.png">Heartland of the Real</a>
+		<a class="set-bar inactive" href="../previews/HTL"><img src="../sets/HTL-files/icon.png">Heartland of the Real</a>
 	
-		<a class="set-bar inactive" href="JMR"><img src="/sets/JMR-files/icon.png">Jamuraa: The Mirage War</a>
+		<a class="set-bar inactive" href="../previews/JMR"><img src="../sets/JMR-files/icon.png">Jamuraa: The Mirage War</a>
 	
-		<a class="set-bar inactive" href="FYF"><img src="/sets/FYF-files/icon.png">Yor-Om: Find Your Fate</a>
+		<a class="set-bar inactive" href="../previews/FYF"><img src="../sets/FYF-files/icon.png">Yor-Om: Find Your Fate</a>
 	
-		<a class="set-bar inactive" href="APS"><img src="/sets/APS-files/icon.png">The Apostate of Kushab</a>
+		<a class="set-bar inactive" href="../previews/APS"><img src="../sets/APS-files/icon.png">The Apostate of Kushab</a>
 	
-		<a class="set-bar inactive" href="URZ"><img src="/sets/URZ-files/icon.png">Urza’s Chronicle</a>
+		<a class="set-bar inactive" href="../previews/URZ"><img src="../sets/URZ-files/icon.png">Urza’s Chronicle</a>
 	
-		<a class="set-bar inactive" href="666"><img src="/sets/666-files/icon.png">Circles of Bocacius</a>
+		<a class="set-bar inactive" href="../previews/666"><img src="../sets/666-files/icon.png">Circles of Bocacius</a>
 	
-		<a class="set-bar inactive" href="FBI"><img src="/sets/FBI-files/icon.png">Project Starlight</a>
+		<a class="set-bar inactive" href="../previews/FBI"><img src="../sets/FBI-files/icon.png">Project Starlight</a>
 	
-		<a class="set-bar inactive" href="GRU"><img src="/sets/GRU-files/icon.png">Great Raid of Ulaith</a>
+		<a class="set-bar inactive" href="../previews/GRU"><img src="../sets/GRU-files/icon.png">Great Raid of Ulaith</a>
 	
-		<a class="set-bar inactive" href="KSH"><img src="/sets/KSH-files/icon.png">Kushab: Gods’ Blood</a>
+		<a class="set-bar inactive" href="../previews/KSH"><img src="../sets/KSH-files/icon.png">Kushab: Gods’ Blood</a>
 	
-		<a class="set-bar inactive" href="SPQ"><img src="/sets/SPQ-files/icon.png">Avicta: Ave Imperator</a>
+		<a class="set-bar inactive" href="../previews/SPQ"><img src="../sets/SPQ-files/icon.png">Avicta: Ave Imperator</a>
 	
-		<a class="set-bar inactive" href="TGS"><img src="/sets/TGS-files/icon.png">Tales from the Grave in Space</a>
+		<a class="set-bar inactive" href="../previews/TGS"><img src="../sets/TGS-files/icon.png">Tales from the Grave in Space</a>
 	
-		<a class="set-bar inactive" href="XSK"><img src="/sets/XSK-files/icon.png">Experiments of Skand</a>
+		<a class="set-bar inactive" href="../previews/XSK"><img src="../sets/XSK-files/icon.png">Experiments of Skand</a>
 	
-		<a class="set-bar inactive" href="ELO"><img src="/sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
+		<a class="set-bar inactive" href="../previews/ELO"><img src="../sets/ELO-files/icon.png">Eldraine: Sacred Oath</a>
 	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/SON-files/logo.png">
+		<img class="logo" src="../sets/SON-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img loading="lazy" alt="/sets\SON-files\img\264.png" id="264" data-flag="@X" onclick="openSidebar('264',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\315.png" id="315" data-flag="@X" onclick="openSidebar('315',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\74.png" id="74" data-flag="@X" onclick="openSidebar('74',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\105.png" id="105" data-flag="@X" onclick="openSidebar('105',true)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\142.png" id="142" data-flag="@X" onclick="openSidebar('142',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\180.png" id="180" data-flag="@X" onclick="openSidebar('180',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\257.png" id="257" data-flag="@X" onclick="openSidebar('257',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\68.png" id="68" data-flag="@X" onclick="openSidebar('68',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\107.png" id="107" data-flag="@X" onclick="openSidebar('107',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\149.png" id="149" data-flag="@X" onclick="openSidebar('149',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\182.png" id="182" data-flag="@X" onclick="openSidebar('182',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\33.png" id="33" data-flag="@X" onclick="openSidebar('33',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\67.png" id="67" data-flag="@X" onclick="openSidebar('67',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\309.png" id="309" data-flag="@X" onclick="openSidebar('309',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\143.png" id="143" data-flag="@X" onclick="openSidebar('143',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\181.png" id="181" data-flag="@X" onclick="openSidebar('181',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\46.png" id="46" data-flag="@X" onclick="openSidebar('46',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\88.png" id="88" data-flag="@X" onclick="openSidebar('88',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\116.png" id="116" data-flag="@X" onclick="openSidebar('116',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\160.png" id="160" data-flag="@X" onclick="openSidebar('160',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\195.png" id="195" data-flag="@X" onclick="openSidebar('195',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\47.png" id="47" data-flag="@X" onclick="openSidebar('47',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\78.png" id="78" data-flag="@X" onclick="openSidebar('78',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\124.png" id="124" data-flag="@X" onclick="openSidebar('124',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\156.png" id="156" data-flag="@X" onclick="openSidebar('156',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\255.png" id="255" data-flag="@X" onclick="openSidebar('255',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\45.png" id="45" data-flag="@X" onclick="openSidebar('45',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\79.png" id="79" data-flag="@X" onclick="openSidebar('79',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\118.png" id="118" data-flag="@X" onclick="openSidebar('118',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\162.png" id="162" data-flag="@X" onclick="openSidebar('162',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\194.png" id="194" data-flag="@X" onclick="openSidebar('194',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\44.png" id="44" data-flag="@X" onclick="openSidebar('44',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\80.png" id="80" data-flag="@X" onclick="openSidebar('80',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\117.png" id="117" data-flag="@X" onclick="openSidebar('117',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\163.png" id="163" data-flag="@X" onclick="openSidebar('163',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\199.png" id="199" data-flag="@X" onclick="openSidebar('199',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\18.png" id="18" data-flag="@X" onclick="openSidebar('18',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\87.png" id="87" data-flag="@X" onclick="openSidebar('87',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\125.png" id="125" data-flag="@X" onclick="openSidebar('125',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\161.png" id="161" data-flag="@X" onclick="openSidebar('161',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\200.png" id="200" data-flag="@X" onclick="openSidebar('200',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\30.png" id="30" data-flag="@X" onclick="openSidebar('30',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\61.png" id="61" data-flag="@X" onclick="openSidebar('61',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\90.png" id="90" data-flag="@X" onclick="openSidebar('90',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\131.png" id="131" data-flag="@X" onclick="openSidebar('131',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\171.png" id="171" data-flag="@X" onclick="openSidebar('171',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\28.png" id="28" data-flag="@X" onclick="openSidebar('28',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\63.png" id="63" data-flag="@X" onclick="openSidebar('63',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\101.png" id="101" data-flag="@X" onclick="openSidebar('101',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\132.png" id="132" data-flag="@X" onclick="openSidebar('132',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\173.png" id="173" data-flag="@X" onclick="openSidebar('173',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\24.png" id="24" data-flag="@X" onclick="openSidebar('24',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\58.png" id="58" data-flag="@X" onclick="openSidebar('58',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\103.png" id="103" data-flag="@X" onclick="openSidebar('103',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\127.png" id="127" data-flag="@X" onclick="openSidebar('127',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\174.png" id="174" data-flag="@X" onclick="openSidebar('174',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\19.png" id="19" data-flag="@X" onclick="openSidebar('19',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\60.png" id="60" data-flag="@X" onclick="openSidebar('60',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\98.png" id="98" data-flag="@X" onclick="openSidebar('98',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\133.png" id="133" data-flag="@X" onclick="openSidebar('133',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\164.png" id="164" data-flag="@X" onclick="openSidebar('164',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\25.png" id="25" data-flag="@X" onclick="openSidebar('25',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\59.png" id="59" data-flag="@X" onclick="openSidebar('59',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\102.png" id="102" data-flag="@X" onclick="openSidebar('102',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\137.png" id="137" data-flag="@X" onclick="openSidebar('137',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\178.png" id="178" data-flag="@X" onclick="openSidebar('178',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\17.png" id="17" data-flag="@X" onclick="openSidebar('17',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\64.png" id="64" data-flag="@X" onclick="openSidebar('64',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\97.png" id="97" data-flag="@X" onclick="openSidebar('97',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\139.png" id="139" data-flag="@X" onclick="openSidebar('139',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\165.png" id="165" data-flag="@X" onclick="openSidebar('165',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\29.png" id="29" data-flag="@X" onclick="openSidebar('29',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\51.png" id="51" data-flag="@X" onclick="openSidebar('51',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\93.png" id="93" data-flag="@X" onclick="openSidebar('93',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\130.png" id="130" data-flag="@X" onclick="openSidebar('130',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\177.png" id="177" data-flag="@X" onclick="openSidebar('177',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\263.png" id="263" data-flag="@X" onclick="openSidebar('263',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\54.png" id="54" data-flag="@X" onclick="openSidebar('54',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\95.png" id="95" data-flag="@X" onclick="openSidebar('95',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\134.png" id="134" data-flag="@X" onclick="openSidebar('134',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\167.png" id="167" data-flag="@X" onclick="openSidebar('167',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\62.png" id="62" data-flag="@X" onclick="openSidebar('62',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\92.png" id="92" data-flag="@X" onclick="openSidebar('92',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\138.png" id="138" data-flag="@X" onclick="openSidebar('138',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\175.png" id="175" data-flag="@X" onclick="openSidebar('175',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\SON-files\img\242.jpg" id="SON_242" data-flag="@X" onclick="openSidebar('SON_242',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\264.jpg" id="SON_264" data-flag="@X" onclick="openSidebar('SON_264',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SON_e" data-flag="@E" onclick="openSidebar('SON_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SON_e" data-flag="@E" onclick="openSidebar('SON_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SON_e" data-flag="@E" onclick="openSidebar('SON_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\315.jpg" id="SON_315" data-flag="@X" onclick="openSidebar('SON_315',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\74.jpg" id="SON_74" data-flag="@X" onclick="openSidebar('SON_74',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\105.jpg" id="SON_105" data-flag="@X" onclick="openSidebar('SON_105',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\142.jpg" id="SON_142" data-flag="@X" onclick="openSidebar('SON_142',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\180.jpg" id="SON_180" data-flag="@X" onclick="openSidebar('SON_180',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\257.jpg" id="SON_257" data-flag="@X" onclick="openSidebar('SON_257',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\68.jpg" id="SON_68" data-flag="@X" onclick="openSidebar('SON_68',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\107.jpg" id="SON_107" data-flag="@X" onclick="openSidebar('SON_107',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\149.jpg" id="SON_149" data-flag="@X" onclick="openSidebar('SON_149',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\182.jpg" id="SON_182" data-flag="@X" onclick="openSidebar('SON_182',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\33.jpg" id="SON_33" data-flag="@X" onclick="openSidebar('SON_33',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\67.jpg" id="SON_67" data-flag="@X" onclick="openSidebar('SON_67',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\309.jpg" id="SON_309" data-flag="@X" onclick="openSidebar('SON_309',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\143.jpg" id="SON_143" data-flag="@X" onclick="openSidebar('SON_143',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\181.jpg" id="SON_181" data-flag="@X" onclick="openSidebar('SON_181',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\42.jpg" id="SON_42" data-flag="@X" onclick="openSidebar('SON_42',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\88.jpg" id="SON_88" data-flag="@X" onclick="openSidebar('SON_88',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\116.jpg" id="SON_116" data-flag="@X" onclick="openSidebar('SON_116',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\155.jpg" id="SON_155" data-flag="@X" onclick="openSidebar('SON_155',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\193.jpg" id="SON_193" data-flag="@X" onclick="openSidebar('SON_193',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\46.jpg" id="SON_46" data-flag="@X" onclick="openSidebar('SON_46',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\85.jpg" id="SON_85" data-flag="@X" onclick="openSidebar('SON_85',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\124.jpg" id="SON_124" data-flag="@X" onclick="openSidebar('SON_124',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\160.jpg" id="SON_160" data-flag="@X" onclick="openSidebar('SON_160',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\198.jpg" id="SON_198" data-flag="@X" onclick="openSidebar('SON_198',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\43.jpg" id="SON_43" data-flag="@X" onclick="openSidebar('SON_43',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\86.jpg" id="SON_86" data-flag="@X" onclick="openSidebar('SON_86',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\118.jpg" id="SON_118" data-flag="@X" onclick="openSidebar('SON_118',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\159.jpg" id="SON_159" data-flag="@X" onclick="openSidebar('SON_159',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\195.jpg" id="SON_195" data-flag="@X" onclick="openSidebar('SON_195',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\47.jpg" id="SON_47" data-flag="@X" onclick="openSidebar('SON_47',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\78.jpg" id="SON_78" data-flag="@X" onclick="openSidebar('SON_78',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\115.jpg" id="SON_115" data-flag="@X" onclick="openSidebar('SON_115',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\156.jpg" id="SON_156" data-flag="@X" onclick="openSidebar('SON_156',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\255.jpg" id="SON_255" data-flag="@X" onclick="openSidebar('SON_255',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\45.jpg" id="SON_45" data-flag="@X" onclick="openSidebar('SON_45',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\79.jpg" id="SON_79" data-flag="@X" onclick="openSidebar('SON_79',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\117.jpg" id="SON_117" data-flag="@X" onclick="openSidebar('SON_117',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\162.jpg" id="SON_162" data-flag="@X" onclick="openSidebar('SON_162',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\194.jpg" id="SON_194" data-flag="@X" onclick="openSidebar('SON_194',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\258.jpg" id="SON_258" data-flag="@X" onclick="openSidebar('SON_258',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\80.jpg" id="SON_80" data-flag="@X" onclick="openSidebar('SON_80',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\125.jpg" id="SON_125" data-flag="@X" onclick="openSidebar('SON_125',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\163.jpg" id="SON_163" data-flag="@X" onclick="openSidebar('SON_163',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\199.jpg" id="SON_199" data-flag="@X" onclick="openSidebar('SON_199',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\44.jpg" id="SON_44" data-flag="@X" onclick="openSidebar('SON_44',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\87.jpg" id="SON_87" data-flag="@X" onclick="openSidebar('SON_87',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\123.jpg" id="SON_123" data-flag="@X" onclick="openSidebar('SON_123',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\161.jpg" id="SON_161" data-flag="@X" onclick="openSidebar('SON_161',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\200.jpg" id="SON_200" data-flag="@X" onclick="openSidebar('SON_200',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\18.jpg" id="SON_18" data-flag="@X" onclick="openSidebar('SON_18',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\57.jpg" id="SON_57" data-flag="@X" onclick="openSidebar('SON_57',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\90.jpg" id="SON_90" data-flag="@X" onclick="openSidebar('SON_90',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\131.jpg" id="SON_131" data-flag="@X" onclick="openSidebar('SON_131',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\171.jpg" id="SON_171" data-flag="@X" onclick="openSidebar('SON_171',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\30.jpg" id="SON_30" data-flag="@X" onclick="openSidebar('SON_30',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\61.jpg" id="SON_61" data-flag="@X" onclick="openSidebar('SON_61',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\101.jpg" id="SON_101" data-flag="@X" onclick="openSidebar('SON_101',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\132.jpg" id="SON_132" data-flag="@X" onclick="openSidebar('SON_132',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\173.jpg" id="SON_173" data-flag="@X" onclick="openSidebar('SON_173',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\28.jpg" id="SON_28" data-flag="@X" onclick="openSidebar('SON_28',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\63.jpg" id="SON_63" data-flag="@X" onclick="openSidebar('SON_63',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\103.jpg" id="SON_103" data-flag="@X" onclick="openSidebar('SON_103',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\127.jpg" id="SON_127" data-flag="@X" onclick="openSidebar('SON_127',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\174.jpg" id="SON_174" data-flag="@X" onclick="openSidebar('SON_174',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\24.jpg" id="SON_24" data-flag="@X" onclick="openSidebar('SON_24',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\58.jpg" id="SON_58" data-flag="@X" onclick="openSidebar('SON_58',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\96.jpg" id="SON_96" data-flag="@X" onclick="openSidebar('SON_96',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\133.jpg" id="SON_133" data-flag="@X" onclick="openSidebar('SON_133',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\164.jpg" id="SON_164" data-flag="@X" onclick="openSidebar('SON_164',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\19.jpg" id="SON_19" data-flag="@X" onclick="openSidebar('SON_19',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\60.jpg" id="SON_60" data-flag="@X" onclick="openSidebar('SON_60',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\98.jpg" id="SON_98" data-flag="@X" onclick="openSidebar('SON_98',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\137.jpg" id="SON_137" data-flag="@X" onclick="openSidebar('SON_137',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\178.jpg" id="SON_178" data-flag="@X" onclick="openSidebar('SON_178',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\25.jpg" id="SON_25" data-flag="@X" onclick="openSidebar('SON_25',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\59.jpg" id="SON_59" data-flag="@X" onclick="openSidebar('SON_59',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\102.jpg" id="SON_102" data-flag="@X" onclick="openSidebar('SON_102',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\139.jpg" id="SON_139" data-flag="@X" onclick="openSidebar('SON_139',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\165.jpg" id="SON_165" data-flag="@X" onclick="openSidebar('SON_165',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\26.jpg" id="SON_26" data-flag="@X" onclick="openSidebar('SON_26',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\64.jpg" id="SON_64" data-flag="@X" onclick="openSidebar('SON_64',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\97.jpg" id="SON_97" data-flag="@X" onclick="openSidebar('SON_97',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\130.jpg" id="SON_130" data-flag="@X" onclick="openSidebar('SON_130',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\177.jpg" id="SON_177" data-flag="@X" onclick="openSidebar('SON_177',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\17.jpg" id="SON_17" data-flag="@X" onclick="openSidebar('SON_17',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\51.jpg" id="SON_51" data-flag="@X" onclick="openSidebar('SON_51',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\93.jpg" id="SON_93" data-flag="@X" onclick="openSidebar('SON_93',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\134.jpg" id="SON_134" data-flag="@X" onclick="openSidebar('SON_134',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\167.jpg" id="SON_167" data-flag="@X" onclick="openSidebar('SON_167',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\29.jpg" id="SON_29" data-flag="@X" onclick="openSidebar('SON_29',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\54.jpg" id="SON_54" data-flag="@X" onclick="openSidebar('SON_54',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\95.jpg" id="SON_95" data-flag="@X" onclick="openSidebar('SON_95',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\135.jpg" id="SON_135" data-flag="@X" onclick="openSidebar('SON_135',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\172.jpg" id="SON_172" data-flag="@X" onclick="openSidebar('SON_172',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\263.jpg" id="SON_263" data-flag="@X" onclick="openSidebar('SON_263',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\62.jpg" id="SON_62" data-flag="@X" onclick="openSidebar('SON_62',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\92.jpg" id="SON_92" data-flag="@X" onclick="openSidebar('SON_92',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\138.jpg" id="SON_138" data-flag="@X" onclick="openSidebar('SON_138',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\175.jpg" id="SON_175" data-flag="@X" onclick="openSidebar('SON_175',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\260.png" id="260" data-flag="@X" onclick="openSidebar('260',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\4.png" id="4" data-flag="@X" onclick="openSidebar('4',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\261.png" id="261" data-flag="@X" onclick="openSidebar('261',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\259.png" id="259" data-flag="@X" onclick="openSidebar('259',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\262.png" id="262" data-flag="@X" onclick="openSidebar('262',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\211.png" id="211" data-flag="@X" onclick="openSidebar('211',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\222.png" id="222" data-flag="@X" onclick="openSidebar('222',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\223.png" id="223" data-flag="@X" onclick="openSidebar('223',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\224.png" id="224" data-flag="@X" onclick="openSidebar('224',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\225.png" id="225" data-flag="@X" onclick="openSidebar('225',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\221.png" id="221" data-flag="@X" onclick="openSidebar('221',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\212.png" id="212" data-flag="@X" onclick="openSidebar('212',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\213.png" id="213" data-flag="@X" onclick="openSidebar('213',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\214.png" id="214" data-flag="@X" onclick="openSidebar('214',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\215.png" id="215" data-flag="@X" onclick="openSidebar('215',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\216.png" id="216" data-flag="@X" onclick="openSidebar('216',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\217.png" id="217" data-flag="@X" onclick="openSidebar('217',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\228.png" id="228" data-flag="@X" onclick="openSidebar('228',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\219.png" id="219" data-flag="@X" onclick="openSidebar('219',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\230.png" id="230" data-flag="@X" onclick="openSidebar('230',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\226.png" id="226" data-flag="@X" onclick="openSidebar('226',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\227.png" id="227" data-flag="@X" onclick="openSidebar('227',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\218.png" id="218" data-flag="@X" onclick="openSidebar('218',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\229.png" id="229" data-flag="@X" onclick="openSidebar('229',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\220.png" id="220" data-flag="@X" onclick="openSidebar('220',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\260.jpg" id="SON_260" data-flag="@X" onclick="openSidebar('SON_260',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\4.jpg" id="SON_4" data-flag="@X" onclick="openSidebar('SON_4',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\261.jpg" id="SON_261" data-flag="@X" onclick="openSidebar('SON_261',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\259.jpg" id="SON_259" data-flag="@X" onclick="openSidebar('SON_259',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\262.jpg" id="SON_262" data-flag="@X" onclick="openSidebar('SON_262',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\211.jpg" id="SON_211" data-flag="@X" onclick="openSidebar('SON_211',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\222.jpg" id="SON_222" data-flag="@X" onclick="openSidebar('SON_222',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\223.jpg" id="SON_223" data-flag="@X" onclick="openSidebar('SON_223',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\224.jpg" id="SON_224" data-flag="@X" onclick="openSidebar('SON_224',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\225.jpg" id="SON_225" data-flag="@X" onclick="openSidebar('SON_225',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\221.jpg" id="SON_221" data-flag="@X" onclick="openSidebar('SON_221',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\212.jpg" id="SON_212" data-flag="@X" onclick="openSidebar('SON_212',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\213.jpg" id="SON_213" data-flag="@X" onclick="openSidebar('SON_213',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\214.jpg" id="SON_214" data-flag="@X" onclick="openSidebar('SON_214',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\215.jpg" id="SON_215" data-flag="@X" onclick="openSidebar('SON_215',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\208.jpg" id="SON_208" data-flag="@X" onclick="openSidebar('SON_208',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\202.jpg" id="SON_202" data-flag="@X" onclick="openSidebar('SON_202',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\201.jpg" id="SON_201" data-flag="@X" onclick="openSidebar('SON_201',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\14.jpg" id="SON_14" data-flag="@X" onclick="openSidebar('SON_14',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\203.jpg" id="SON_203" data-flag="@X" onclick="openSidebar('SON_203',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\216.jpg" id="SON_216" data-flag="@X" onclick="openSidebar('SON_216',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\217.jpg" id="SON_217" data-flag="@X" onclick="openSidebar('SON_217',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\228.jpg" id="SON_228" data-flag="@X" onclick="openSidebar('SON_228',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\219.jpg" id="SON_219" data-flag="@X" onclick="openSidebar('SON_219',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\230.jpg" id="SON_230" data-flag="@X" onclick="openSidebar('SON_230',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\226.jpg" id="SON_226" data-flag="@X" onclick="openSidebar('SON_226',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\227.jpg" id="SON_227" data-flag="@X" onclick="openSidebar('SON_227',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\218.jpg" id="SON_218" data-flag="@X" onclick="openSidebar('SON_218',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\229.jpg" id="SON_229" data-flag="@X" onclick="openSidebar('SON_229',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\220.jpg" id="SON_220" data-flag="@X" onclick="openSidebar('SON_220',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\254.png" id="254" data-flag="@X" onclick="openSidebar('254',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\243.png" id="243" data-flag="@X" onclick="openSidebar('243',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\234.png" id="234" data-flag="@X" onclick="openSidebar('234',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\232.png" id="232" data-flag="@X" onclick="openSidebar('232',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\233.png" id="233" data-flag="@X" onclick="openSidebar('233',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\231.png" id="231" data-flag="@X" onclick="openSidebar('231',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\235.png" id="235" data-flag="@X" onclick="openSidebar('235',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\15.png" id="15" data-flag="@X" onclick="openSidebar('15',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\310.png" id="310" data-flag="@X" onclick="openSidebar('310',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\16.png" id="16" data-flag="@X" onclick="openSidebar('16',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\312.png" id="312" data-flag="@X" onclick="openSidebar('312',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\311.png" id="311" data-flag="@X" onclick="openSidebar('311',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\254.jpg" id="SON_254" data-flag="@X" onclick="openSidebar('SON_254',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\210.jpg" id="SON_210" data-flag="@X" onclick="openSidebar('SON_210',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\243.jpg" id="SON_243" data-flag="@X" onclick="openSidebar('SON_243',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\239.jpg" id="SON_239" data-flag="@X" onclick="openSidebar('SON_239',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\240.jpg" id="SON_240" data-flag="@X" onclick="openSidebar('SON_240',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\234.jpg" id="SON_234" data-flag="@X" onclick="openSidebar('SON_234',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\232.jpg" id="SON_232" data-flag="@X" onclick="openSidebar('SON_232',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\233.jpg" id="SON_233" data-flag="@X" onclick="openSidebar('SON_233',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\231.jpg" id="SON_231" data-flag="@X" onclick="openSidebar('SON_231',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\235.jpg" id="SON_235" data-flag="@X" onclick="openSidebar('SON_235',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\15.jpg" id="SON_15" data-flag="@X" onclick="openSidebar('SON_15',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\310.jpg" id="SON_310" data-flag="@X" onclick="openSidebar('SON_310',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\16.jpg" id="SON_16" data-flag="@X" onclick="openSidebar('SON_16',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\312.jpg" id="SON_312" data-flag="@X" onclick="openSidebar('SON_312',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\311.jpg" id="SON_311" data-flag="@X" onclick="openSidebar('SON_311',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
 				<div id="tapland" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\298.png" id="298" data-flag="@X" onclick="openSidebar('298',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\296.png" id="296" data-flag="@X" onclick="openSidebar('296',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\303.png" id="303" data-flag="@X" onclick="openSidebar('303',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\300.png" id="300" data-flag="@X" onclick="openSidebar('300',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\304.png" id="304" data-flag="@X" onclick="openSidebar('304',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\302.png" id="302" data-flag="@X" onclick="openSidebar('302',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\297.png" id="297" data-flag="@X" onclick="openSidebar('297',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\301.png" id="301" data-flag="@X" onclick="openSidebar('301',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\295.png" id="295" data-flag="@X" onclick="openSidebar('295',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\299.png" id="299" data-flag="@X" onclick="openSidebar('299',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\298.jpg" id="SON_298" data-flag="@X" onclick="openSidebar('SON_298',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\296.jpg" id="SON_296" data-flag="@X" onclick="openSidebar('SON_296',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\303.jpg" id="SON_303" data-flag="@X" onclick="openSidebar('SON_303',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\300.jpg" id="SON_300" data-flag="@X" onclick="openSidebar('SON_300',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\304.jpg" id="SON_304" data-flag="@X" onclick="openSidebar('SON_304',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\302.jpg" id="SON_302" data-flag="@X" onclick="openSidebar('SON_302',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\297.jpg" id="SON_297" data-flag="@X" onclick="openSidebar('SON_297',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\301.jpg" id="SON_301" data-flag="@X" onclick="openSidebar('SON_301',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\295.jpg" id="SON_295" data-flag="@X" onclick="openSidebar('SON_295',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\299.jpg" id="SON_299" data-flag="@X" onclick="openSidebar('SON_299',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
 				<div id="otherland" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\246.png" id="246" data-flag="@X" onclick="openSidebar('246',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\247.png" id="247" data-flag="@X" onclick="openSidebar('247',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\248.png" id="248" data-flag="@X" onclick="openSidebar('248',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\249.png" id="249" data-flag="@X" onclick="openSidebar('249',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\250.png" id="250" data-flag="@X" onclick="openSidebar('250',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\251.png" id="251" data-flag="@X" onclick="openSidebar('251',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\246.jpg" id="SON_246" data-flag="@X" onclick="openSidebar('SON_246',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SON_e" data-flag="@E" onclick="openSidebar('SON_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SON_e" data-flag="@E" onclick="openSidebar('SON_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SON_e" data-flag="@E" onclick="openSidebar('SON_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SON_e" data-flag="@E" onclick="openSidebar('SON_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\247.jpg" id="SON_247" data-flag="@X" onclick="openSidebar('SON_247',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\248.jpg" id="SON_248" data-flag="@X" onclick="openSidebar('SON_248',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\249.jpg" id="SON_249" data-flag="@X" onclick="openSidebar('SON_249',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\250.jpg" id="SON_250" data-flag="@X" onclick="openSidebar('SON_250',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\251.jpg" id="SON_251" data-flag="@X" onclick="openSidebar('SON_251',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
 				<div id="spacewar" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\273.png" id="273" data-flag="@X" onclick="openSidebar('273',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\265.png" id="265" data-flag="@X" onclick="openSidebar('265',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\279.png" id="279" data-flag="@X" onclick="openSidebar('279',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\292.png" id="292" data-flag="@X" onclick="openSidebar('292',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\286.png" id="286" data-flag="@X" onclick="openSidebar('286',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\274.png" id="274" data-flag="@X" onclick="openSidebar('274',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\236.png" id="236" data-flag="@X" onclick="openSidebar('236',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\272.png" id="272" data-flag="@X" onclick="openSidebar('272',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\273.jpg" id="SON_273" data-flag="@X" onclick="openSidebar('SON_273',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\283.jpg" id="SON_283" data-flag="@X" onclick="openSidebar('SON_283',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\265.jpg" id="SON_265" data-flag="@X" onclick="openSidebar('SON_265',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\280.jpg" id="SON_280" data-flag="@X" onclick="openSidebar('SON_280',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\279.jpg" id="SON_279" data-flag="@X" onclick="openSidebar('SON_279',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\292.jpg" id="SON_292" data-flag="@X" onclick="openSidebar('SON_292',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\286.jpg" id="SON_286" data-flag="@X" onclick="openSidebar('SON_286',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\274.jpg" id="SON_274" data-flag="@X" onclick="openSidebar('SON_274',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\281.jpg" id="SON_281" data-flag="@X" onclick="openSidebar('SON_281',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\236.jpg" id="SON_236" data-flag="@X" onclick="openSidebar('SON_236',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\284.jpg" id="SON_284" data-flag="@X" onclick="openSidebar('SON_284',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\272.jpg" id="SON_272" data-flag="@X" onclick="openSidebar('SON_272',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SON_e" data-flag="@E" onclick="openSidebar('SON_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SON_e" data-flag="@E" onclick="openSidebar('SON_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SON_e" data-flag="@E" onclick="openSidebar('SON_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
 				<div id="promo" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SON-files\img\314.png" id="314" data-flag="@X" onclick="openSidebar('314',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SON-files\img\314.jpg" id="SON_314" data-flag="@X" onclick="openSidebar('SON_314',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SON_e" data-flag="@E" onclick="openSidebar('SON_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SON_e" data-flag="@E" onclick="openSidebar('SON_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SON_e" data-flag="@E" onclick="openSidebar('SON_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SON_e" data-flag="@E" onclick="openSidebar('SON_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
 			</div>
 			<div class="banner">
-					<img id="SPG-logo" class="logo" src="/sets/SPG-files/logo.png">
+					<img id="SPG-logo" class="logo" src="../sets/SPG-files/logo.png">
 			</div>
 			<div class="grid-container">
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
 				<div id="SPG" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\149.png" id="149" data-flag="@X" onclick="openSidebar('149',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\143.png" id="143" data-flag="@X" onclick="openSidebar('143',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\145.png" id="145" data-flag="@X" onclick="openSidebar('145',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\148.png" id="148" data-flag="@X" onclick="openSidebar('148',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\146.png" id="146" data-flag="@X" onclick="openSidebar('146',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\140.png" id="140" data-flag="@X" onclick="openSidebar('140',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\147.png" id="147" data-flag="@X" onclick="openSidebar('147',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\150.png" id="150" data-flag="@X" onclick="openSidebar('150',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\144.png" id="144" data-flag="@X" onclick="openSidebar('144',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\SPG-files\img\142.png" id="142" data-flag="@X" onclick="openSidebar('142',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\149.png" id="SPG_149" data-flag="@X" onclick="openSidebar('SPG_149',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\143.png" id="SPG_143" data-flag="@X" onclick="openSidebar('SPG_143',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\145.png" id="SPG_145" data-flag="@X" onclick="openSidebar('SPG_145',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\148.png" id="SPG_148" data-flag="@X" onclick="openSidebar('SPG_148',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\146.png" id="SPG_146" data-flag="@X" onclick="openSidebar('SPG_146',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\140.png" id="SPG_140" data-flag="@X" onclick="openSidebar('SPG_140',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\147.png" id="SPG_147" data-flag="@X" onclick="openSidebar('SPG_147',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\150.png" id="SPG_150" data-flag="@X" onclick="openSidebar('SPG_150',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\144.png" id="SPG_144" data-flag="@X" onclick="openSidebar('SPG_144',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\142.png" id="SPG_142" data-flag="@X" onclick="openSidebar('SPG_142',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SON_er" data-flag="@E" onclick="openSidebar('SON_er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -555,19 +603,111 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 
@@ -602,13 +742,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -762,16 +905,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -781,7 +924,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>

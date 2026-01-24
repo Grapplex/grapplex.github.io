@@ -1,0 +1,4876 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>CLG</name>
+			<longname>Children of Lesser Gods</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-01-24</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Throne of Blugu</name>
+			<text>You may cast spells that are exactly three colors without paying their mana costs.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/0.png" num="247">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Moonstone</name>
+			<text>You may have Moonstone enter the battlefield as a copy of any land on the battlefield or any land card in a graveyard, except it&apos;s an artifact in addition to its other types.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/1.png" num="241">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Holy Word</name>
+			<text>The first noncreature spell you cast each turn costs {X} less to cast, where X is The Holy Word&apos;s toughness.
+As long as your devotion to red, white, and blue is less than eight, The Holy Word is a 1/1 Illusion creature with hexproof. (Each {R}, {W}, or {U} in the mana costs of permanents you control counts toward your devotion to red, white, and blue.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/2.png" num="202">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>RWU</manacost>
+				<cmc>3</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Soul of Winterisle</name>
+			<text>{T}, Sacrifice a creature: You may cast a spell from your hand with mana value X or less without paying its mana cost, where X is twice The Soul of Winterisle&apos;s power. Activate only as a sorcery.
+As long as your devotion to blue, red, and green is less than eight, The Soul of Winterisle is a 1/1 Illusion creature with hexproof. (Each {U}, {R}, or {G} in the mana costs of permanents you control counts toward your devotion to blue, red, and green.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/3.png" num="217">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>URG</manacost>
+				<cmc>3</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elandra, Lady Eternal</name>
+			<text>Whenever another nontoken creature you control dies, create a token that&apos;s a copy of it, except it&apos;s 0/0. Put a number of +1/+1 counters on it equal to Elandra, Lady Eternal&apos;s power.
+As long as your devotion to white, black, and red is less than eight, Elandra is a 1/1 Illusion creature with hexproof. (Each {W}, {B}, or {R} in the mana costs of permanents you control counts toward your devotion to white, black, and red.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/4.png" num="194">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>WBR</manacost>
+				<cmc>3</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gurgle, Jolly Jelly</name>
+			<text>Whenever Gurgle, Jolly Jelly enters the battlefield or attacks, creatures you control get +X/+X until end of turn, where X is Gurgle&apos;s power.
+As long as your devotion to black, green, and white is less than eight, Gurgle is a 1/1 Illusion creature with hexproof. (Each {B}, {G}, or {W} in the mana costs of permanents you control counts toward your devotion to black, green, and white.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/5.png" num="199">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>BGW</manacost>
+				<cmc>3</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kohrm, Bigger Than You</name>
+			<text>Vigilance, trample, lifelink
+As long as your devotion to green, blue, and black is less than eight, Kohrm, Bigger Than You is a 1/1 Illusion creature with hexproof. (Each {G}, {U}, or {B} in the mana costs of permanents you control counts toward your devotion to green, blue, and black.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/6.png" num="206">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>GUB</manacost>
+				<cmc>3</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cruel Tusker</name>
+			<text>Cruel Tusker enters the battlefield with two +1/+1 counters on it.
+{T}, Remove a counter from a creature you control: Draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/7.png" num="155">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Walrus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rotroot Hatchling</name>
+			<text>Rotroot Hatchling enters the battlefield with a flying counter, a vigilance counter, a trample counter, and a +1/+1 counter on it.
+If Rotroot Hatchling would be destroyed while it has a counter on it, instead remove from it all damage and one of those counters chosen at random.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/8.png" num="174">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lionize</name>
+			<text>Counter target spell. Put two +1/+1 counters on up to one target creature you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/9.png" num="184">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Truth in Fire</name>
+			<text>At the beginning of combat on your turn, surveil 1, then exile the top card of your library. When you do, choose one —
+• You may play that card this turn.
+• Truth in Fire deals 2 damage to each opponent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/10.png" num="165">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Night&apos;s Sway</name>
+			<text>If a creature attacking causes a triggered ability of a permanent you control to trigger, you may put two +1/+1 counters on that creature.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/11.png" num="178">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Slavering Mimic</name>
+			<text>As Slavering Mimic enters the battlefield, choose a color.
+Slavering Mimic is the chosen color.
+Other creatures you control of the chosen color get +1/+1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/12.png" num="245">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Shapeshifter</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Moonmist Shadow</name>
+			<text>If you would lose unspent white mana, lose all but one of that mana instead. The same is true for blue, black, red, green, and colorless.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/13.png" num="7">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Troll</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shard of the Moon</name>
+			<text>During turns other than their own, players can&apos;t add mana.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/14.png" num="243">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Children of Lesser Gods</name>
+			<text>Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+Each other creature you control with base power and toughness 1/1 gets +1/+1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/15.png" num="3">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lambent Moonlight</name>
+			<text>Vigilance
+As Lambent Moonlight enters the battlefield, choose a color.
+Whenever you cast a spell of the chosen color, put a +1/+1 counter on Lambent Moonlight.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/16.png" num="5">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Littlest Witch</name>
+			<text>When Littlest Witch enters the battlefield, beckon the moon. (Put a +1/+1 counter on a creature you control, or remove two counters from among your creatures to create a 3/3 Spirit creature token with flying.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/17.png" num="27">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Patchwork Assistant</name>
+			<text>Haste
+{1}{W}, Sacrifice Patchwork Assistant: Put a +1/+1 counter on each creature you control with a +1/+1 counter on it. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/18.png" num="151">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Peasant</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Guardian of Elandra</name>
+			<text>{3}, {T}: Add three mana in any combination of {W}, {B}, or {R}.
+{3}{W}{B}{R}: Put three +1/+1 counters on Guardian of Elandra. It deals 3 damage to each opponent and you gain 3 life. Activate only as a sorcery and only once.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/19.png" num="235">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+				<coloridentity>WBR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inquiring Squire</name>
+			<text>When Inquiring Squire enters the battlefield, put a +1/+1 counter on another target creature you control with a +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/20.png" num="23">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Homunculus Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ritual Reciter</name>
+			<text>Vigilance
+{2}{R}: Ritual Reciter gets +2/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/21.png" num="219">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Defiant Warlord</name>
+			<text>Vigilance
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/22.png" num="15">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shadow of Hospitality</name>
+			<text>Whenever another creature enters the battlefield under your control, you gain 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/23.png" num="32">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Castle Familiar</name>
+			<text>Flying
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/24.png" num="12">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Gremlin Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Night&apos;s Vizier</name>
+			<text>Flying
+{2}, Discard Night&apos;s Vizier: Search your library for a basic Swamp or Mountain card or a card named Nomad Outpost, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/25.png" num="31">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skybound Spook</name>
+			<text>This spell costs {1} less to cast for each creature you control with a +1/+1 counter on it.
+Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/26.png" num="33">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>5W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Liminal Chant</name>
+			<text>Destroy target creature if it&apos;s tapped or has power 4 or greater.
+Beckon the moon. (Put a +1/+1 counter on a creature you control, or remove two counters from among your creatures to create a 3/3 Spirit creature token with flying.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/27.png" num="26">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>To the Manor Dead</name>
+			<text>When To the Manor Dead enters the battlefield, exile target nonland permanent an opponent controls until To the Manor Dead leaves the battlefield, then beckon the moon. (Put a +1/+1 counter on a creature you control, or remove two counters from among your creatures to create a 3/3 Spirit creature token with flying.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/28.png" num="160">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Into the Fray</name>
+			<text>Target creature gets +3/+0 and gains first strike and lifelink until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/29.png" num="177">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vindictive Urge</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Exile target nonland permanent.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/30.png" num="35">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Immortal Grace</name>
+			<text>Enchant creature
+Enchanted creature has lifelink and ward {2}.
+Whenever you gain life, put a +1/+1 counter on each creature you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/31.png" num="22">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Silverbark Ancient</name>
+			<text>Menace, lifelink
+Whenever a creature you control dies or whenever you pay life to cast a spell or activate an ability, beckon the moon. (Put a +1/+1 counter on a creature you control, or remove two counters from among your creatures to create a 3/3 Spirit creature token with flying.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/32.png" num="159">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Treefolk</type>
+				<maintype>Creature</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hare-Raising Goliath</name>
+			<text>Vigilance
+Whenever Hare-Raising Goliath attacks, it gets +1/+1 until end of turn for each other creature you control. Then if its power is 15 or greater, destroy all creatures you don&apos;t control.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/33.png" num="18">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Rabbit</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Angelic Snapper</name>
+			<text>Flying, vigilance
+Whenever a creature enters the battlefield under your control, if it wasn&apos;t cast, put a +1/+1 counter on Angelic Snapper. This ability triggers only once each turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/34.png" num="9">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cemetery Warden</name>
+			<text>Vigilance
+When this Cemetery Warden enters the battlefield, exile all graveyards.
+If a card or token would be put into a graveyard from anywhere, exile it instead.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/35.png" num="13">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Scarecrow</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bride of the Moon</name>
+			<text>At the beginning of your upkeep, beckon the moon. (Put a +1/+1 counter on a creature you control, or remove two counters from among your creatures to create a 3/3 Spirit creature token with flying.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/36.png" num="11">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Moon&apos;s Blessing</name>
+			<text>Up to one target creature you control gains undying until end of turn. Then destroy all creatures. (When that creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/37.png" num="30">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5WW</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Elandra&apos;s Demand</name>
+			<text>Choose one. If {B}{R} was spent to cast this spell, you may choose two instead.
+• Destroy all artifacts.
+• Destroy all creatures with mana value 3 or less.
+• Destroy all enchantments.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/38.png" num="16">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>WBR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Polarized Lightning</name>
+			<text>Whenever a permanent enters the battlefield under you control, if it wasn&apos;t cast, Polarized Lightning deals 1 damage to each opponent and you gain 1 life. If this is the third time this ability has resolved this turn, draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/39.png" num="214">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>RWU</manacost>
+				<cmc>3</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Elandra&apos;s Executioner</name>
+			<text>{1}, Sacrifice a creature: Elandra&apos;s Executioner gains indestructible until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/40.png" num="17">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Homunculus Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lunar Maiden</name>
+			<text>When Lunar Maiden enters the battlefield, beckon the moon twice. (To beckon the moon, put a +1/+1 counter on a creature you control, or remove two counters from among your creatures to create a 3/3 Spirit creature token with flying.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/41.png" num="28">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hag Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bearer of Bad News</name>
+			<text>Flying
+Whenever a creature enters the battlefield under your control, if it wasn&apos;t cast, you may destroy target artifact or enchantment. Do this only once each turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/42.png" num="10">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drake Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Harried Harrier</name>
+			<text>Flying
+When Harried Harrier enters the battlefield or dies, exile another target creature. Return that card to the battlefield under its owner&apos;s control at the beginning of the next end step.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/43.png" num="19">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bride of Elandra</name>
+			<text>Flying
+When Bride of Elandra enters the battlefield, create a 2/1 red and white Elemental creature token with &quot;This creature can&apos;t block.&quot;
+Creature tokens you control get +1/+1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/44.png" num="224">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>WB/RB/R</manacost>
+				<cmc>3</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Moat Trawler</name>
+			<text>At the beginning of your end step, if you&apos;ve cast a black spell or a red spell this turn, return target creature card with mana value 3 or less from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/45.png" num="29">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Haughty Elitist</name>
+			<text>Double strike
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/46.png" num="20">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Impatient Host</name>
+			<text>Flying, haste
+{W}, Exile Impatient Host from your hand: Target land gains &quot;{T}: Add {B} or {R}.&quot; until Impatient Host is cast from exile. You may cast Impatient Host for as long as it remains exiled.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/47.png" num="204">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2WBR</manacost>
+				<cmc>5</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kiss of the Moon</name>
+			<text>Beckon the moon, then each creature you control gets +2/+1 until end of turn. (To beckon the moon, put a +1/+1 counter on a creature you control, or remove two counters from among your creatures to create a 3/3 Spirit creature token with flying.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/48.png" num="25">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>An Unwise Bargain</name>
+			<text>Target creature gets +1/+1 and gains lifelink and undying until end of turn. (When that creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/49.png" num="34">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Home to Roost</name>
+			<text>Return any number of target nonland permanent cards with total mana value 3 or less from your graveyard to your hand.
+Exile Home to Roost.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/50.png" num="21">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Invoke Faith</name>
+			<text>Look at the top five cards of your library. You may reveal a white creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/51.png" num="24">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stinky Tinkerer</name>
+			<text>Menace
+{3}{U}, Sacrifice Stinky Tinkerer: Choose a card type. Reveal the top four cards of your library. Put all cards of the chosen type revealed this way into your hand and the rest into your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/52.png" num="152">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Boar Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Guardian of Winterisle</name>
+			<text>{3}, {T}: Add three mana in any combination of {U}, {R}, or {G}.
+{3}{U}{R}{G}: Put three +1/+1 counters on Guardian of Winterisle. Draw two cards, then discard a card. Activate only as a sorcery and only once.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/53.png" num="239">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+				<coloridentity>URG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Exultant Cultist</name>
+			<text>When Exultant Cultist dies, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/54.png" num="45">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Breaching Skysnapper</name>
+			<text>Flying
+{3}{G}: Put a +1/+1 counter on Breaching Skysnapper.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/55.png" num="220">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shark Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>2U/B</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Callow Willow</name>
+			<text>Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/56.png" num="42">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Dryad</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Artificer&apos;s Guile</name>
+			<text>When Artificer&apos;s Guile enters the battlefield or dies, draw a card, then discard a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/57.png" num="39">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Winterisle Worldheart</name>
+			<text>Winterisle Worldheart can&apos;t be blocked by artifact creatures or enchantment creatures.
+{2}, Discard Winterisle Worldheart: Search your library for a basic Mountain or Forest card or a card named Frontier Bivouac, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/58.png" num="63">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Dryad</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Patient Practitioner</name>
+			<text>Mumbo jumbo (For each card type, you may exile a card of that type from your graveyard while casting this spell. Each card you exile this way pays for {1}.)
+Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/59.png" num="56">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>6U</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>No, You First</name>
+			<text>Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose a new target for the copy.)
+Put a +1/+1 counter on target creature you control. You may have it phase out. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/60.png" num="54">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Forbidden Foreboding</name>
+			<text>Mumbo jumbo (For each card type, you may exile a card of that type from your graveyard while casting this spell. Each card you exile this way pays for {1}.)
+Counter target noncreature spell unless its controller pays {X}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/61.png" num="47">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XU</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Midnight Quiet</name>
+			<text>Reveal the top five cards of your library. Put up to one creature card and up to one noncreature card from among them into your hand and the rest into your graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/62.png" num="185">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Thirst for Inspiration</name>
+			<text>Draw three cards. Then discard two cards unless you discard a red card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/63.png" num="61">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gaze Not Long Into the Orb</name>
+			<text>Enchant creature or artifact
+Enchanted permanent is a Treasure artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color,&quot; and it loses all other abilities.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/64.png" num="50">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Release the Hounds</name>
+			<text>Mumbo jumbo (For each card type, you may exile a card of that type from your graveyard while casting this spell. Each card you exile this way pays for {1}.)
+The owner of target nonland permanent puts it on their choice of the top or bottom of their library.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/65.png" num="187">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4GU</manacost>
+				<cmc>6</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ambling Cairn</name>
+			<text>Defender
+As long as a creature card was put into or left your graveyard this turn, Ambling Cairn can attack as though it didn&apos;t have defender.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/66.png" num="38">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seagrass Muncher</name>
+			<text>Flash
+When Seagrass Muncher enters the battlefield, search target opponent&apos;s library for an instant or sorcery card with mana value X or less and exile it. That player shuffles. Until end of turn, you may cast that card without paying its mana cost.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/67.png" num="58">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sheep</type>
+				<maintype>Creature</maintype>
+				<manacost>X2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ready for Slime Time</name>
+			<text>Mumbo jumbo (For each card type, you may exile a card of that type from your graveyard while casting this spell. Each card you exile this way pays for {1}.)
+Choose target creature you control. Create X tokens that are copies of it, except they&apos;re X/X.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/68.png" num="186">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XXGU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Covert Chameleon</name>
+			<text>Covert Chameleon can&apos;t be blocked.
+You may cast spells as though they had flash.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/69.png" num="43">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Filigree Experiment</name>
+			<text>Flash
+Flying
+When Filigree Experiment enters the battlefield, return target spell or nonland permanent to its controller&apos;s hand. Until your next turn, spells that player casts cost {1} more to cast.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/70.png" num="46">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Griffin</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Accursed Orb</name>
+			<text>The first instant or sorcery spell you cast each turn has casualty X, where X is that spell&apos;s mana value. (As you cast that spell, you may sacrifice a creature with power X or greater. When you do, copy it.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/71.png" num="37">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Form of the Shapeshifter</name>
+			<text>As Form of the Shapeshifter enters the battlefield, choose target opponent. Your life total becomes equal to that player&apos;s life total.
+Whenever the chosen player draws a card, you draw a card.
+Whenever the chosen player gains life, you gain that much life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/72.png" num="48">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Weird Fruit</name>
+			<text>Mumbo jumbo (For each card type, you may exile a card of that type from your graveyard while casting this spell. Each card you exile this way pays for {1}.)
+Search your library for a noncreature artifact card or noncreature enchantment card with mana value X or less, put it onto the battlefield, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/73.png" num="62">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XUU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Winterisle&apos;s Demand</name>
+			<text>Choose one. If {R}{G} was spent to cast this spell, you may choose two instead.
+• Target player draws three cards, then discards two cards.
+• Create a tapped token that&apos;s a copy of target creature you control.
+• Copy target instant or sorcery spell. You may choose new targets for the copy.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/74.png" num="64">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>URG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hybor, Kohrm&apos;s Hand</name>
+			<text>When Hybor, Kohrm&apos;s Hand enters the battlefield, return target permanent card from your graveyard to your hand.
+Hybor&apos;s power and toughness are each equal to 1 plus the greatest mana value among permanents on the battlefield.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/75.png" num="203">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>1GUB</manacost>
+				<cmc>4</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>1+*/1+*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Projection of Power</name>
+			<text>When Projection of Power dies, return target noncreature, nonland card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/76.png" num="57">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Squawkslopper</name>
+			<text>Mumbo jumbo (For each card type, you may exile a card of that type from your graveyard while casting this spell. Each card you exile this way pays for {1}.)
+Squawkslopper can&apos;t be blocked by creatures with power less than or equal to the number of card types among cards you own in exile.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/77.png" num="60">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Squid</type>
+				<maintype>Creature</maintype>
+				<manacost>7UU</manacost>
+				<cmc>9</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brother of the Briar</name>
+			<text>Flash
+Reach
+When Brother of the Briar enters the battlefield, choose one —
+• Counter target noncreature spell.
+• Brother of the Briar fights target creature you don&apos;t control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/78.png" num="225">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Scarecrow</type>
+				<maintype>Creature</maintype>
+				<manacost>UR/GR/G</manacost>
+				<cmc>3</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cackling Lantern</name>
+			<text>At the beginning of your end step, if you&apos;ve cast a red spell or a green spell this turn, draw a card, then discard a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/79.png" num="41">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Happy Harvester</name>
+			<text>Vigilance, reach, trample
+{U}, Exile Happy Harvester from your hand: Target land gains &quot;{T}: Add {R} or {G}.&quot; until Happy Harvester is cast from exile. You may cast Happy Harvester for as long as it remains exiled.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/80.png" num="201">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>2URG</manacost>
+				<cmc>5</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cackling Croaker</name>
+			<text>Whenever Cackling Croaker deals combat damage to a player, draw a card.
+Cackling Croaker enters the battlefield with a +1/+1 counter on it if {R}{G} was spent to cast it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/81.png" num="40">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Frog Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sea&apos;s Whisper</name>
+			<text>Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell.)
+Surveil 2, then draw a card. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/82.png" num="59">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ornery Slugabed</name>
+			<text>When Ornery Slugabed enters the battlefield or dies, mill three cards</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/83.png" num="55">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fish Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Invocation of Kohrm</name>
+			<text>Create a 0/0 green Barbarian creature token. Put a +1/+1 counter on it for each card type among cards you own in exile and in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/84.png" num="52">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Monumental Scorn</name>
+			<text>Counter target noncreature spell unless its controller pays {2}. Draw a card, then discard a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/85.png" num="53">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Down to the Bone</name>
+			<text>Casualty 3 (As you cast this spell, you may sacrifice a creature with power 3 or greater. When you do, copy this spell and you may choose a new target for the copy.)
+Target player mills eight cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/86.png" num="44">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gainsay</name>
+			<text>Counter target blue spell.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/87.png" num="49">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Grand Spooking</name>
+			<text>Mumbo jumbo (For each card type, you may exile a card of that type from your graveyard while casting this spell. Each card you exile this way pays for {1}.)
+Draw three cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/88.png" num="51">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>6U</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gleeful Scavenger</name>
+			<text>Legacy 1—{1}{B} ({1}{B}, Exile this card from your graveyard: Put a +1/+1 counter on target creature you control. It gains the following abilities until end of turn. Activate only as a sorcery.)
+Menace</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/89.png" num="69">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hyena Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bitterly Departed</name>
+			<text>Menace
+{1}{W}: Bitterly Departed gains lifelink until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/90.png" num="221">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>2B/R</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prince of Fools</name>
+			<text>Legacy 1—{2}{B} ({2}{B}, Exile this card from your graveyard: Put a +1/+1 counter on target creature you control. It gains the following abilities until end of turn. Activate only as a sorcery.)
+Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/91.png" num="87">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Balloon</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Undergrubbler</name>
+			<text>Menace
+When Undergrubbler enters the battlefield, you may discard a card. If you do, draw a card. If you discarded a creature card this way, put a +1/+1 counter on Undergrubbler.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/92.png" num="91">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Primal Practitioner</name>
+			<text>Menace
+Whenever one or more +1/+1 counters are put a creature you control, each opponent loses 1 life and you gain 1 life. This ability triggers only once each turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/93.png" num="86">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Homunculus Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ambiguous Amphibuous</name>
+			<text>Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell.)
+When Ambiguous Amphibuous enters the battlefield, exile the top card of your library. Until the end of your next turn, you may play that card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/94.png" num="161">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Frog</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oozing Ghastlypod</name>
+			<text>Deathtouch
+{2}, Discard Oozing Ghastlypod: Search your library for a basic Forest or Plains card or a card named Sandsteppe Citadel, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/95.png" num="83">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Slug Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Steal Strength</name>
+			<text>Target creature gets +1/+1 until end of turn. Another target creature gets -1/-1 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/96.png" num="90">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Warrior&apos;s Reprieve</name>
+			<text>Until end of turn, target creature gains &quot;When this creature dies, return it to the battlefield tapped under its owner&apos;s control. When you do, beckon the moon.&quot; (To beckon the moon, put a +1/+1 counter on a creature you control, or remove two counters from among your creatures to create a 3/3 Spirit creature token with flying.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/97.png" num="92">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Eyes of Night</name>
+			<text>You draw two cards and you lose 2 life.
+Beckon the moon. (Put a +1/+1 counter on a creature you control, or remove two counters from among your creatures to create a 3/3 Spirit creature token with flying.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/98.png" num="68">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Castigate</name>
+			<text>Target opponent reveals their hand. You choose a nonland card from it and exile that card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/99.png" num="154">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Consuming Ashes</name>
+			<text>Exile target creature. If it had mana value 3 or less, surveil 2. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/100.png" num="67">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Something in the Walls</name>
+			<text>This spell costs {1} less to cast for each creature card you own in exile and in your graveyard.
+Exile target creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/101.png" num="88">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Soul of the Farmyard</name>
+			<text>Menace
+At the beginning of your upkeep, sacrifice two nonland permanents.
+Your opponents can&apos;t win the game and you can&apos;t lose the game.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/102.png" num="89">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Scarecrow Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gurgle&apos;s Handmaid</name>
+			<text>Trample
+Legacy 13—{3}{B}{G} ({3}{B}{G}, Exile this card from your graveyard: Put thirteen +1/+1 counters on target creature you control. It gains the following abilities until end of turn. Activate only as a sorcery.)
+This creature gets -X/-X, where X is your life total.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/103.png" num="172">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>13/13</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Killer Kelp</name>
+			<text>Legacy 2—{3}{B} ({3}{B}, Exile this card from your graveyard: Put two +1/+1 counters on target creature you control. It gains the following abilities until end of turn. Activate only as a sorcery.)
+This creature gets +X/+0, where X is the greatest power among creature cards you own in exile and in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/104.png" num="76">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>0/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Obsessive Prowler</name>
+			<text>Lifelink
+At the beginning of each player&apos;s end step, that player loses 4 life unless they attacked this turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/105.png" num="82">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Misshapen Marauder</name>
+			<text>Legacy 1—{3}{B} ({3}{B}, Exile this card from your graveyard: Put a +1/+1 counter on target creature you control. It gains the following abilities until end of turn. Activate only as a sorcery.)
+Whenever this creature attacks, up to X target creatures you don&apos;t control each get -1/-1 until end of turn, where X is this creature&apos;s power.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/106.png" num="80">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Nomad Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nightgrin Cultist</name>
+			<text>{1}, Sacrifice a creature: Beckon the moon. Activate only as a sorcery. (To beckon the moon, put a +1/+1 counter on a creature you control, or remove two counters from among your creatures to create a 3/3 Spirit creature token with flying.)
+{1}, Exile two cards from your graveyard: Beckon the moon. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/107.png" num="81">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Griller Killer</name>
+			<text>Whenever another nontoken creature you control dies, you gain 3 life and draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/108.png" num="72">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gurgle&apos;s Demand</name>
+			<text>Choose one. If {G}{W} was spent to cast this spell, you may choose two instead.
+• Each opponent sacrifices a creature.
+• Each opponent loses 3 life and you gain 3 life.
+• Return up to two creature cards from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/109.png" num="73">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>WBG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Jeave Maitre D&apos;Undead</name>
+			<text>Vigilance
+Whenever a nontoken creature you control dies, if it had counters on it, create an X/X white Zombie creature token, where X is the number of counters it had on it.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/110.png" num="205">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Zombie Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>WBR</manacost>
+				<cmc>3</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ambitious Mastermind</name>
+			<text>Deathtouch
+Sacrifice Ambitious Mastermind: Beckon the moon. Activate only as a sorcery. (To beckon the moon, put a +1/+1 counter on a creature you control, or remove two counters from among your creatures to create a 3/3 Spirit creature token with flying.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/111.png" num="65">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Homunculus Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crawling Chaos</name>
+			<text>Deathtouch, lifelink
+When Crawling Chaos enters the battlefield, if you cast it, destroy target nonland permanent with mana 3 or less you don&apos;t control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/112.png" num="226">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Tentacle Ooze</type>
+				<maintype>Creature</maintype>
+				<manacost>BG/WG/W</manacost>
+				<cmc>3</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Merciless Mollusc</name>
+			<text>At the beginning of your end step, if you&apos;ve cast a green spell or a white spell this turn, put a +1/+1 counter on Merciless Mollusc and you gain 2 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/113.png" num="78">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Slug Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Castle Sneak</name>
+			<text>Legacy 2—{2}{B} ({2}{B}, Exile this card from your graveyard: Put two +1/+1 counters on target creature you control. It gains the following abilities until end of turn. Activate only as a sorcery.)
+Whenever this creature attacks, you draw a card and you lose 1 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/114.png" num="66">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mystic Mushroom</name>
+			<text>When Mystic Mushroom enters the battlefield, you draw a card and you gain 1 life.
+{B}, Exile Mystic Mushroom from your hand: Target land gains &quot;{T}: Add {G} or {W}.&quot; until Mystic Mushroom is cast from exile. You may cast Mystic Mushroom for as long as it remains exiled.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/115.png" num="210">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>2BGW</manacost>
+				<cmc>5</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jolly Rotman</name>
+			<text>Menace
+Jolly Rotman enters the battlefield with a +1/+1 counter on it if {G}{W} was spent to cast it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/116.png" num="75">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Ooze</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Midnight Rictus</name>
+			<text>Destroy target creature.
+Beckon the moon. (Put a +1/+1 counter on a creature you control, or remove two counters from among your creatures to create a 3/3 Spirit creature token with flying.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/117.png" num="79">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Oversold Cemetery</name>
+			<text>At the beginning of your upkeep, if you have four or more creature cards in your graveyard, you may return target creature card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/118.png" num="84">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Make Demands</name>
+			<text>Search your library for two cards, put one of them into your hand, one of them into your graveyard, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/119.png" num="77">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hallowed Bones</name>
+			<text>When Hallowed Bones enters the battlefield, mill three cards.
+{3}{B}, {T}, Sacrifice Hallowed Bones: Return up to two target creature cards from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/120.png" num="74">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Great Disappointment</name>
+			<text>Destroy target black creature or black planeswalker. Its controller loses 2 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/121.png" num="71">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Eager Contraptioneer</name>
+			<text>{2}{R}, Sacrifice Eager Contraptioneer: Copy target instant or sorcery spell you control. You may choose new targets for the copy.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/122.png" num="149">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Homunculus Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Experimental Turbohorn</name>
+			<text>Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)
+When Experimental Turbohorn dies, it deals 1 damage to target opponent.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/123.png" num="96">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Rhino</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>It&apos;s Alive</name>
+			<text>Create two 1/1 colorless Golem artifact creature tokens with menace.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/124.png" num="101">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Spiteful Squash</name>
+			<text>Trample
+{2}{U}: Draw a card, then discard a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/125.png" num="222">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2R/G</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brawling Banquet</name>
+			<text>When Brawling Banquet enters the battlefield, create a 2/1 red and white Elemental creature token with &quot;This creature can&apos;t block.&quot;
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/126.png" num="175">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jack of No Trades</name>
+			<text>Menace
+{2}, Discard Jack of No Trades: Search your library for a basic Plains or Island card or a card named Mystic Monastery, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/127.png" num="102">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Homunculus Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stubborn Slitherblade</name>
+			<text>Stubborn Slitherblade can&apos;t block.
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/128.png" num="114">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Naga Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Swarm of Fuzzy Bees</name>
+			<text>Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell and you may choose a new target for the copy.)
+Swarm of Fuzzy Bees deals 2 damage to any target.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/129.png" num="115">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shock Treatment</name>
+			<text>Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell and you may choose a new target for the copy.)
+Target creature gets +2/+0 and gains first strike until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/130.png" num="111">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>An Unquiet Rest</name>
+			<text>Exile the top card of your library and up to one target instant or sorcery card from your graveyard. Until the end of your next turn, you may play those cards.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/131.png" num="118">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Reduce to Junk</name>
+			<text>Choose one —
+• Counter target artifact or enchantment spell.
+• Put target artifact or enchantment into its owner&apos;s library second from the top.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/132.png" num="163">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Oopsie</name>
+			<text>Oopsie deals 4 damage to target creature. The damage can&apos;t be prevented. If that creature would die this turn, exile it instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/133.png" num="105">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>This is Fine</name>
+			<text>This is Fine deals 6 damage to target creature, planeswalker, or battle.
+Create a 2/1 red and white Elemental creature token with &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/134.png" num="116">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Night Has a Thousand Eyes</name>
+			<text>Whenever an instant or sorcery you control deals damage to an opponent, create that many 1/1 red Goblin creature tokens with haste.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/135.png" num="104">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Plarb&apos;s Prototype</name>
+			<text>Plarb&apos;s Prototype enters the battlefield with two +1/+1 counters on it.
+When Plarb&apos;s Prototype dies, if it had any +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with one fewer +1/+1 counter on it.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/136.png" num="106">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Goblin</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Studious Dracomancer</name>
+			<text>Flying
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)
+Whenever Studious Dracomancer attacks, each creature you control with lesser power gains undying until end of turn.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/137.png" num="180">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3RW</manacost>
+				<cmc>5</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fiery Manifestation</name>
+			<text>Casualty 4 (As you cast this spell, you may sacrifice a creature with power 4 or greater. When you do, copy this spell.)
+Fiery Manifestation deals 3 damage to each creature and planeswalker and to each battle you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/138.png" num="97">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gore Snapper</name>
+			<text>Haste
+When Gore Snapper enters the battlefield, you may discard your hand. If you do, draw cards equal to Gore Snapper&apos;s power.
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/139.png" num="98">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Crocodile Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Holy Word&apos;s Demand</name>
+			<text>Choose one. If {W}{U} was spent to cast this spell, you may choose two instead.
+• Creatures you control gain double strike until end of turn.
+• Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.
+• Holy Word&apos;s Demand deals 2 damage to each opponent and each creature they control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/140.png" num="100">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>WUR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bone Moon</name>
+			<text>Nonbasic lands have &quot;As this land enters the battlefield, you may pay 2 life. If you don&apos;t, it enters tapped.&quot;</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/141.png" num="93">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gribbly Gourd</name>
+			<text>Menace
+Whenever a creature you control dies or whenever one or more creature cards leave your graveyard, you may return target noncreature card from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/142.png" num="197">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Scorpion</type>
+				<maintype>Creature</maintype>
+				<manacost>URG</manacost>
+				<cmc>3</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cragtusk</name>
+			<text>When Cragtusk enters the battlefield, it deals 3 damage to target player, planeswalker, or battle.
+When Cragtusk leaves the battlefield, create a 3/3 red Beast creature token.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/143.png" num="95">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wolf Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Splat Frog</name>
+			<text>When Splat Frog dies, add {R}{R}{R}. Until end of turn, you don&apos;t lose this mana as steps and phases end.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/144.png" num="113">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Frog</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reckless Wrangler</name>
+			<text>Haste
+When Reckless Wrangler enters the battlefield, target creature with power less than or equal to Reckless Wrangler&apos;s power can&apos;t block until the end of your next turn.
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/145.png" num="108">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Homunculus Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Venomous Vellum</name>
+			<text>Spell you cast cost {2} less to cast as long as a creature you control died this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/146.png" num="228">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Serpent</type>
+				<maintype>Creature</maintype>
+				<manacost>RW/UW/U</manacost>
+				<cmc>3</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Work in Progress</name>
+			<text>At the beginning of your end step, if you&apos;ve cast a white spell or a blue spell this turn, Work in Progress deals 2 damage to target player or planeswalker.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/147.png" num="119">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pyretic Paladin</name>
+			<text>Whenever Pyretic Paladin attacks, other attacking creatures you control get +1/+1 until end of turn.
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/148.png" num="107">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Natterjack Necromancer</name>
+			<text>When Natterjack Necromancer enters the battlefield, it deals 3 damage to target opponent.
+{R}, Exile Natterjack Necromancer from your hand: Target land gains &quot;{T}: Add {W} or {U}.&quot; until Natterjack Necromancer is cast from exile. You may cast Natterjack Necromancer for as long as it remains exiled.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/149.png" num="211">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Frog Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2RWU</manacost>
+				<cmc>5</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Scholar and a Gentleman</name>
+			<text>Prowess
+A Scholar and a Gentleman enters the battlefield with a +1/+1 counter on it if {W}{U} was spent to cast it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/150.png" num="110">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wizard Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wretched Strike</name>
+			<text>Wretched Strike deals 4 damage to any target. If excess damage was dealt to a permanent this way, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/151.png" num="120">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lunar Betrayal</name>
+			<text>Gain control of target creature until end of turn. Untap it. Until end of turn, it gains haste and &quot;When this creature dies, it deals 2 damage to each opponent.&quot;</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/152.png" num="103">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Haunting Memory</name>
+			<text>Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell.)
+Return a noncreature card at random from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/153.png" num="99">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Soul Anchor</name>
+			<text>Equipped creature gets +2/+0 and has menace.
+Whenever a creature enters the battlefield from your graveyard, you may pay {1}. If you do, attach Soul Anchor to that creature.
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/154.png" num="112">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Renewed Focus</name>
+			<text>If a red instant or sorcery spell you control would deal damage, it deals double that damage instead.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/155.png" num="109">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Consult the Idol</name>
+			<text>Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell.)
+Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/156.png" num="94">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Grisly Gatecrasher</name>
+			<text>Legacy 1—{B}{G} ({B}{G}, Exile this card from your graveyard: Put a +1/+1 counter on target creature you control. It gains the following abilities until end of turn. Activate only as a sorcery.)
+Lifelink, deathtouch</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/157.png" num="171">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hapless Pilferer</name>
+			<text>{2}{G}, Sacrifice Hapless Pilferer: Return target permanent card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/158.png" num="150">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Viashino Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sockox Rider</name>
+			<text>Legacy 1—{3} ({3}, Exile this card from your graveyard: Put a +1/+1 counter on target creature you control. It gains the following abilities until end of turn. Activate only as a sorcery.)
+This creature can&apos;t be blocked by creatures with power 2 or less.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/159.png" num="145">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Recycled Regurgitator</name>
+			<text>Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+{5}{B}: Each opponent loses 2 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/160.png" num="223">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2G/W</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prickly Painbug</name>
+			<text>Trample
+{G}, Discard Prickly Painbug: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/161.png" num="139">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Scorpion</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aetherblast Cannoneer</name>
+			<text>Legacy 1—{1}{G} ({1}{G}, Exile this card from your graveyard: Put a +1/+1 counter on target creature you control. It gains the following abilities until end of turn. Activate only as a sorcery.)
+Vigilance, trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/162.png" num="121">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Croaked Croaker</name>
+			<text>When Croaked Croaker enters the battlefield, you may return target card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/163.png" num="128">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Frog</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sinister Shockodile</name>
+			<text>Mumbo jumbo (For each card type, you may exile a card of that type from your graveyard while casting this spell. Each card you exile this way pays for {1}.)
+Trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/164.png" num="144">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Crocodile Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warriorbane Stag</name>
+			<text>Warriorbane Stag can&apos;t be blocked by creatures with power 2 or less.
+{2}, Discard Warriorbane Stag: Search your library for a basic Island or Swamp card or a card named Opulent Palace, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/165.png" num="148">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Entangle</name>
+			<text>Target creature you control fights target creature you don&apos;t control. When the creature you don&apos;t control dies this turn, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/166.png" num="169">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Assault on the Senses</name>
+			<text>This spell costs {1} less to cast if it targets a creature you control with a +1/+1 counter on it.
+Target creature you control deals damage equal to its power to target creature an opponent controls.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/167.png" num="124">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gelatinous Growth</name>
+			<text>Mumbo jumbo (For each card type, you may exile a card of that type from your graveyard while casting this spell. Each card you exile this way pays for {1}.)
+Target creature gets +5/+5 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/168.png" num="132">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Font of Fertility</name>
+			<text>{1}{G}, Sacrifice Font of Fertility: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/169.png" num="131">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mulch</name>
+			<text>Reveal the top four cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/170.png" num="136">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sickly Dewdragon</name>
+			<text>Reach, trample, haste
+Each other creature you control that&apos;s an Elemental, a Plant, or a Treefolk gets +1/+1.
+Whenever Sickly Dewdragon deals combat damage to a player, create a 1/1 green Plant Dog creature token named Mossdog with &quot;Whenever this creature becomes the target of a spell or ability an opponent controls, put a +1/+1 counter on it.&quot;</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/171.png" num="143">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wild Rumpus</name>
+			<text>Casualty 4 (As you cast this spell, you may sacrifice a creature with power 4 or greater. When you do, copy this spell.)
+Take an extra turn after this one. Exile Wild Rumpus.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/172.png" num="167">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4UR</manacost>
+				<cmc>6</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dreams of Survival</name>
+			<text>{G}, Discard an enchantment card: Search your library for an enchantment card, reveal that card, put it into your hand, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/173.png" num="130">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Velocirooster</name>
+			<text>Ward—Tap two untapped creatures you control. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player taps two untapped creatures they control.)
+Trample, haste</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/174.png" num="147">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Dinosaur</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mulch Ado About Nothing</name>
+			<text>At the beginning of combat on your turn, put a thorn counter on Mulch Ado About Nothing. When you do, target creature you control gets +X/+X and gains trample until end of turn, where X is the number of thorn counters on Mulch Ado About Nothing.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/175.png" num="137">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Innocuous Hatchling</name>
+			<text>Mumbo jumbo (For each card type, you may exile a card of that type from your graveyard while casting this spell. Each card you exile this way pays for {1}.)
+Vigilance, reach, trample
+Innocuous Hatchling enters the battlefield with X +1/+1 counters on it.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/176.png" num="134">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hydra</type>
+				<maintype>Creature</maintype>
+				<manacost>XGG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prophet of Kohrm</name>
+			<text>Legacy 3—{4}{G} ({4}{G}, Exile this card from your graveyard: Put three +1/+1 counters on target creature you control. It gains the following abilities until end of turn. Activate only as a sorcery.)
+Trample
+Whenever this creature deals combat damage to a player, create a 0/0 green Barbarian creature token and put that many +1/+1 counters on it.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/177.png" num="141">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kohrm&apos;s Demand</name>
+			<text>Choose one. If {U}{B} was spent to cast this spell, you may choose two instead.
+• Distribute two +1/+1 counters among creatures you control.
+• Draw a card for each creature you control with power 4 or greater.
+• Mill three cards, then return a card from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/178.png" num="135">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>UBG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gulp</name>
+			<text>Exile target permanent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/179.png" num="198">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>BGW</manacost>
+				<cmc>3</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Priest of Gurgle</name>
+			<text>Legacy 1—{1}{G} ({1}{G}, Exile this card from your graveyard: Put a +1/+1 counter on target creature you control. It gains the following abilities until end of turn. Activate only as a sorcery.)
+Whenever this creature attacks, double its power and toughness until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/180.png" num="140">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brutal Crabnormality</name>
+			<text>Legacy 2—{3}{G} ({3}{G}, Exile this card from your graveyard: Put two +1/+1 counters on target creature you control. It gains the following abilities until end of turn. Activate only as a sorcery.)
+This creature has shielded as long as it&apos;s attacking. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/181.png" num="127">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Homarid</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brazen Bush</name>
+			<text>Trample
+At the beginning of combat on your turn, if you control the creature with the greatest power or tied for the greatest power, Brazen Bush gets +2/+2 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/182.png" num="126">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gutless Devourer</name>
+			<text>Gutless Devourer can&apos;t be blocked by creatures with power 2 or less.
+Gutless Devourer&apos;s power is equal to the number of card types among cards you own in exile and in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/183.png" num="227">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Wurm</type>
+				<maintype>Creature</maintype>
+				<manacost>GU/BU/B</manacost>
+				<cmc>3</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>*/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grinning Alliguard</name>
+			<text>Trample
+Whenever one or more cards leave your graveyard, Grinning Alliguard gets +1/+1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/184.png" num="133">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Crocodile Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Anxious Adventurer</name>
+			<text>At the beginning of your end step, if you&apos;ve cast a blue spell or a black spell this turn, mill three cards. You may put a permanent card from among the cards milled this way into your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/185.png" num="123">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scaredragon</name>
+			<text>Mumbo jumbo (For each card type, you may exile a card of that type from your graveyard while casting this spell. Each card you exile this way pays for {1}.)
+Vigilance, reach, trample</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/186.png" num="142">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Scarecrow</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Diminutive Destroyer</name>
+			<text>When Diminutive Destroyer enters the battlefield, create two 1/1 green Barbarian creature tokens.
+{G}, Exile Diminutive Destroyer from your hand: Target land gains &quot;{T}: Add {U} or {B}.&quot; until Diminutive Destroyer is cast from exile. You may cast Diminutive Destroyer for as long as it remains exiled.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/187.png" num="193">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>2GUB</manacost>
+				<cmc>5</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unevolved Brawler</name>
+			<text>Vigilance, trample
+Unevolved Brawler enters the battlefield with a +1/+1 counter on it if {U}{B} was spent to cast it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/188.png" num="146">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dinosaur Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Munch</name>
+			<text>Destroy target noncreature, nonland permanent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/189.png" num="138">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Among the Hens</name>
+			<text>At the beginning of combat on your turn, mill a card. When you do, you may have Among the Hens become an X/X Basilisk creature with deathtouch until end of turn, where X is the number of card types among cards you own in exile and in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/190.png" num="122">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>A Bloody Harvest</name>
+			<text>Mumbo jumbo (For each card type, you may exile a card of that type from your graveyard while casting this spell. Each card you exile this way pays for {1}.)
+Target creature gets +5/+5 and gains trample until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/191.png" num="125">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>6G</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dramatic Entrance</name>
+			<text>You may put a green creature card from your hand onto the battlefield.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/192.png" num="129">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Slime&apos;s Foresight</name>
+			<text>Search your library for a creature card with mana value 3, reveal it, and put it into your hand. Then repeat this process for creature cards with mana values 2 and 1. Then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/193.png" num="188">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>5GU</manacost>
+				<cmc>7</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ghastly Graverobber</name>
+			<text>Legacy 2—{1}{B}{G} ({1}{B}{G}, Exile this card from your graveyard: Put two +1/+1 counters on target creature you control. It gains the following abilities until end of turn. Activate only as a sorcery.)
+At the beginning of each of your postcombat main phases, add an amount of mana in any combination of colors equal to the amount of combat damage this creature dealt this turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/194.png" num="170">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elandra&apos;s Paladin</name>
+			<text>Double strike, vigilance, trample
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/195.png" num="176">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Plarb, the Occultest</name>
+			<text>Each card in your library is a red sorcery in addition to its other types and colors.
+Whenever you cast a spell, reveal the top card of your library. When you do, Plarb, the Occultest deals X damage to any target, where X is the number of colors the revealed card has. Put the revealed card on the bottom of your library.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/196.png" num="213">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Homunculus Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>RWU</manacost>
+				<cmc>3</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Komastogoyf</name>
+			<text>Menace
+Komastogoyf gets +1/+1 for each card type among cards you own in exile.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/197.png" num="208">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lhurgoyf</type>
+				<maintype>Creature</maintype>
+				<manacost>GUB</manacost>
+				<cmc>3</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Lady Perseveres</name>
+			<text>Whenever a non-Prism creature enters the battlefield under your control, if it wasn&apos;t cast, create a token that&apos;s a copy of that creature, except it&apos;s a 1/1 white Prism.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/198.png" num="209">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WBR</manacost>
+				<cmc>3</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Swain, Lord Winterisle</name>
+			<text>Menace
+Whenever Swain, Lord Winterisle enters the battlefield or attacks, exile up to two cards from your graveyard. Target opponent chooses trick or treat. If they chose trick, draw a card. If they chose treat, put the exiled cards into your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/199.png" num="218">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1URG</manacost>
+				<cmc>4</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Duskbringer</name>
+			<text>Flying, deathtouch
+Whenever Duskbringer deals combat damage to a player, beckon the moon. (Put a +1/+1 counter on a creature you control, or remove two counters from among your creatures to create a 3/3 Spirit creature token with flying.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/200.png" num="156">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Elk</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blrb, Bard of Gurgle</name>
+			<text>Blrb, Bard of Gurgle can&apos;t be blocked by creatures with power or toughness 2 or less.
+Blrb&apos;s power and toughness are each equal to the number of creatures you control plus the number of creature cards you own in exile and in your graveyard.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/201.png" num="189">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Zombie Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>BGW</manacost>
+				<cmc>3</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Magnum Oops</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Search your library for an instant or sorcery card with mana value equal to 1 plus the sacrificed creature&apos;s mana value and exile it. You may cast that card without paying its mana cost.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/202.png" num="162">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ornery Booklender</name>
+			<text>Vigilance
+{1}, Sacrifice a creature: Look at the top two cards of your library. Put one of them into your hand and exile one of them. You may play the exiled card this turn. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/203.png" num="212">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Gremlin</type>
+				<maintype>Creature</maintype>
+				<manacost>RWU</manacost>
+				<cmc>3</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brash Hero</name>
+			<text>Menace
+When Brash Hero enters the battlefield, look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/204.png" num="190">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>GUB</manacost>
+				<cmc>3</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Demanding Debutante</name>
+			<text>When Demanding Debutante enters the battlefield, return target creature card from your graveyard to the battlefield if its mana value is less than or equal to the number of creatures you control with counters on them.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/205.png" num="192">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1WBR</manacost>
+				<cmc>4</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shubbery Ambush</name>
+			<text>When Shubbery Ambush enters the battlefield, create a 3/3 red Beast creature token.
+Whenever a creature enters the battlefield under your control or whenever a creature you control dies, target player mills a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/206.png" num="215">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>URG</manacost>
+				<cmc>3</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gutless Scuttler</name>
+			<text>Gutless Scuttler enters the battlefield with three +1/+1 counters on it.
+Whenever one or more +1/+1 counters are put on another permanent you control, if it&apos;s the first time +1/+1 counters have been put on that permanent this turn, put a +1/+1 counter on Gutless Scuttler.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/207.png" num="200">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Crab Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>BGW</manacost>
+				<cmc>3</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heartless Ace</name>
+			<text>Lifelink
+When Heartless Ace enters the battlefield or dies, beckon the moon. (Put a +1/+1 counter on a creature you control, or remove two counters from among your creatures to create a 3/3 Spirit creature token with flying.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/208.png" num="157">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Homunculus Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relentless Muckraker</name>
+			<text>Legacy 1—{B}{G} ({B}{G}, Exile this card from your graveyard: Put a +1/+1 counter on target creature you control. It gains the following abilities until end of turn. Activate only as a sorcery.)
+When this creature dies, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/209.png" num="173">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ooze Skeleton</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ambling Sarcophaguy</name>
+			<text>When Ambling Sarcophaguy enters the battlefield, mill three cards, then you may return a card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/210.png" num="182">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unspeakable Dictum</name>
+			<text>Casualty 3 (As you cast this spell, you may sacrifice a creature with power 3 or greater. When you do, copy this spell and you may choose a new target for the copy.)
+Unspeakable Dictum deals 3 damage to any target. Draw a card, then discard a card unless Unspeakable Dictum is a copy.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/211.png" num="166">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wicker Squawker</name>
+			<text>Menace, lifelink
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/212.png" num="181">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Bird Scarecrow</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Forbidden Reagent</name>
+			<text>Whenever another creature you control dies, choose one that hasn&apos;t been chosen this turn —
+• Draw a card.
+• Forbidden Reagent deals 1 damage to any target and you gain 1 life.
+• Create a 1/1 colorless Golem artifact creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/213.png" num="195">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>1RWU</manacost>
+				<cmc>4</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kohrm&apos;s Valkyrie</name>
+			<text>Flying, vigilance
+Whenever one or more cards leave your graveyard, put a +1/+1 counter on Kohrm&apos;s Valkyrie.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/214.png" num="207">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>1GUB</manacost>
+				<cmc>4</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chilling Governess</name>
+			<text>Menace, lifelink
+Whenever a creature enters the battlefield under your control, if it wasn&apos;t cast, put a +1/+1 counter on Chilling Governess.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/215.png" num="191">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>WBR</manacost>
+				<cmc>3</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soul Harvester</name>
+			<text>Whenever a creature you control dies or whenever one or more creature cards leave your graveyard, create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)
+{T}, Sacrifice another creature: Draw a card. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/216.png" num="216">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>1URG</manacost>
+				<cmc>4</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Giving Tree</name>
+			<text>Whenever one or more counters are put on a permanent you control, draw a card. This ability triggers only once each turn.
+Whenever one or more counters are removed from a permanent you control, draw a card. This ability triggers only once each turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/217.png" num="196">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Dryad</type>
+				<maintype>Creature</maintype>
+				<manacost>1BGW</manacost>
+				<cmc>4</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Raving Unraveler</name>
+			<text>At the beginning of combat on your turn, choose target creature you control that&apos;s a Spirit or that has a +1/+1 counter on it. It gets +1/+1 and gains lifelink until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/218.png" num="158">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cunning Copycat</name>
+			<text>Menace
+Whenever a creature you control not named Cunning Copycat becomes the target of a legacy ability, copy that ability. The copy targets Cunning Copycat.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/219.png" num="168">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Viashino Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bargain Driver</name>
+			<text>Mumbo jumbo (For each card type, you may exile a card of that type from your graveyard while casting this spell. Each card you exile this way pays for {1}.)
+When Bargain Driver enters the battlefield, if it was cast, you gain 2 life and you draw two cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/220.png" num="183">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>4GU</manacost>
+				<cmc>6</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Selfish Shellfish</name>
+			<text>When Selfish Shellfish dies, create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/221.png" num="164">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Oyster</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stoic Skelemental</name>
+			<text>Each creature you control with undying gets +1/+0 and has &quot;Whenever this creature deals combat damage to a player, exile the top card of your library. Until end of turn, you may play that card.&quot;</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/222.png" num="179">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tagliaterror</name>
+			<text>When Tagliaterror dies, you may search your library for a basic land card, put it into your hand, then shuffle.
+{2}, {T}, Sacrifice Tagliaterror: You gain 3 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/223.png" num="246">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Food Squid</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Accursed Scapegoat</name>
+			<text>Reach
+When Accursed Scapegoat dies, you gain life equal to its power.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/224.png" num="2">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Goat</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Night&apos;s Echo</name>
+			<text>As an additional cost to cast this spell, you may sacrifice a creature. If you do, this spell costs {2} less to cast.
+Flying, trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/225.png" num="8">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aether Trap</name>
+			<text>{1}, {T}: Add one mana of any color.
+{6}, {T}, Sacrifice Aether Trap: Exile target creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/226.png" num="229">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Evolving Wilds</name>
+			<text>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/227.png" num="249">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Copper Cogwing</name>
+			<text>Flying
+{6}: Put three +1/+1 counters on Copper Cogwing. Activate only as a sorcery and only once.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/228.png" num="232">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Knave of Hearts</name>
+			<text>As an additional cost to cast this spell, you may pay {1}.
+When Knave of Hearts enters the battlefield, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. If the additional cost was paid, put that card into your hand instead.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/229.png" num="240">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alchemical Guardsman</name>
+			<text>Trample
+Whenever you cast a spell, Alchemical Guardsman gets +1/+1 until end of turn for each of that spell&apos;s colors.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/230.png" num="230">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fated Wonder</name>
+			<text>{3}, Sacrifice Fated Wonder: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/231.png" num="4">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Unicorn</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eerie Skullpture</name>
+			<text>If you would surveil a number of cards, surveil that many cards plus one instead.
+{1}, {T}, Sacrifice Eerie Skullpture: Exile each opponent&apos;s graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/232.png" num="234">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ritual Bloodletter</name>
+			<text>Equipped creature gets +1/+1 for each of its colors.
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/233.png" num="242">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dragon Arch</name>
+			<text>{2}, {T}: You may put a multicolored creature card from your hand onto the battlefield.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/234.png" num="233">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Moonlit Basilica</name>
+			<text>Moonlit Basilica enters the battlefield tapped. As it enters, choose a color.
+{T}: Add one mana of the chosen color.
+{3}, {T}, Sacrifice Moonlit Basilica: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/235.png" num="255">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Isolated Hovel</name>
+			<text>Isolated Hovel enters the battlefield tapped. As it enters, choose two colors.
+{T}: Add {C}.
+{T}: Add one mana of one of the chosen colors. Spend this mana only to cast a spell of the other chosen color.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/236.png" num="253">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Serpent Monument</name>
+			<text>{T}: Add {C}.
+{1}, {T}: Add one mana of any color.
+{2}, {T}, Sacrifice Serpent Monument: Surveil 1, then draw a card. Activate only if there are three or more colors among permanents you control. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/237.png" num="259">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/238.png" num="267">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/239.png" num="268">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/240.png" num="269">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/241.png" num="270">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/242.png" num="271">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Spirit CLG</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/243.png" num="8">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Draft Archetypes CLG</name>
+			<text>{W}{B} BECKON Call the moon for aid with +1/+1 counters or Spirit tokens.
+{B}{G} LEGACY Those who come before leave their skills behind.
+{G}{U} MUMBO Go big, go home, come back and go big again.
+{U}{R} CASUALTY Your creatures are expendable. Expend them.
+{R}{W} UNDYING Like, really expendable.
+{W}{B}{R} ELANDRA The Lady Eternal enjoys a focus on uncast creatures.
+{U}{R}{G} WINTERISLE The spooky island is home to an unquiet graveyard which cards will enter and leave.
+{B}{G}{W} GURGLE The jovial rotking is lord of +1/+1 counters.
+{R}{W}{U} LEAST KEY Scholars of the Holy Word have a tendency to die, and often.
+{G}{U}{B} KOHRM The warrior god cares for little but glory—Seek it with cards in your graveyard or in exile.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/244.png" num="11">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Haunted Manse</name>
+			<text>{T}, Sacrifice Haunted Manse: Search your library for a basic Plains, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.
+{W}{B}{R}, Discard Haunted Manse: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/245.png" num="251">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WBR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Plundered Splendor</name>
+			<text>{T}, Sacrifice Plundered Splendor: Search your library for a basic Forest, Island, or Swamp card, put it onto the battlefield tapped, then shuffle.
+{G}{U}{B}, Discard Plundered Splendor: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/246.png" num="257">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UBG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Night Garden</name>
+			<text>({T}: Add {W}.)
+As Night Garden enters the battlefield, you may reveal a white card from your hand that&apos;s two or more colors. If you don&apos;t, Night Garden enters tapped.
+{T}, Pay 1 life: Add {B} or {R}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/247.png" num="256">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WBR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Ritual Site</name>
+			<text>({T}: Add {U}.)
+As Ritual Site enters the battlefield, you may reveal a blue card from your hand that&apos;s two or more colors. If you don&apos;t, Ritual Site enters tapped.
+{T}, Pay 1 life: Add {R} or {G}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/248.png" num="258">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>URG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Fecund Hovel</name>
+			<text>({T}: Add {B}.)
+As Fecund Hovel enters the battlefield, you may reveal a black card from your hand that&apos;s two or more colors. If you don&apos;t, Fecund Hovel enters tapped.
+{T}, Pay 1 life: Add {G} or {W}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/249.png" num="250">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BWG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Moldering Vestry</name>
+			<text>{T}, Sacrifice Moldering Vestry: Search your library for a basic Swamp, Forest, or Plains card, put it onto the battlefield tapped, then shuffle.
+{B}{G}{W}, Discard Moldering Vestry: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/250.png" num="254">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WBG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sinister Holdfast</name>
+			<text>{T}, Sacrifice Sinister Holdfast: Search your library for a basic Mountain, Plains, or Island card, put it onto the battlefield tapped, then shuffle.
+{R}{W}{U}, Discard Sinister Holdfast: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/251.png" num="260">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sorcerous Spire</name>
+			<text>({T}: Add {R}.)
+As Sorcerous Spire enters the battlefield, you may reveal a red card from your hand that&apos;s two or more colors. If you don&apos;t, Sorcerous Spire enters tapped.
+{T}, Pay 1 life: Add {W} or {U}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/252.png" num="261">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RWU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Brutal Monument</name>
+			<text>({T}: Add {G}.)
+As Brutal Monument enters the battlefield, you may reveal a green card from your hand that&apos;s two or more colors. If you don&apos;t, Brutal Monument enters tapped.
+{T}, Pay 1 life: Add {U} or {B}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/253.png" num="248">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>GUB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Imposing Manor</name>
+			<text>{T}, Sacrifice Imposing Manor: Search your library for a basic Island, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle.
+{U}{R}{G}, Discard Imposing Manor: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/254.png" num="252">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>URG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Nomad Outpost</name>
+			<text>Nomad Outpost enters the battlefield tapped.
+{T}: Add {W}, {B}, or {R}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/255.png" num="264">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WBR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sandsteppe Citadel</name>
+			<text>Sandsteppe Citadel enters the battlefield tapped.
+{T}: Add {B}, {G}, or {W}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/256.png" num="266">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WBG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Opulent Palace</name>
+			<text>Opulent Palace enters the battlefield tapped.
+{T}: Add {G}, {U}, or {B}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/257.png" num="265">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UBG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Frontier Bivouac</name>
+			<text>Frontier Bivouac enters the battlefield tapped.
+{T}: Add {U}, {R}, or {G}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/258.png" num="262">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>URG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mystic Monastery</name>
+			<text>Mystic Monastery enters the battlefield tapped.
+{T}: Add {R}, {W}, or {U}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/259.png" num="263">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gleeb, A Man for All Seasons</name>
+			<text>Gleeb, A Man for All Seasons gets +1/+1 for each color you have three or more devotion to.
+Gleeb has first strike as long as your devotion to white is three or more. The same is true for flying and blue, lifelink and black, menace and red, and trample and green. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/260.png" num="1">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deathless Siren</name>
+			<text>Flying
+Deathless Siren enters the battlefield with a +1/+1 counter on it if {B}{R} was spent to cast it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/261.png" num="14">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Exuberant Extoller</name>
+			<text>{3}{B}, Sacrifice Exuberant Extoller: Return target creature card from your graveyard to the battlefield. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/262.png" num="153">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shield of Time and Space</name>
+			<text>Equipped creature gets +1/+3 and has hexproof from green and from blue.
+Whenever equipped creature blocks or becomes blocked, exile up to one target creature from the battlefield and up to one target land card from your graveyard. Return the exiled cards to the battlefield under theirs owners&apos; control.
+Equip {3}</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/263.png" num="244">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ungracious Demonhost</name>
+			<text>Reach
+When Ungracious Demonhost dies, exile the top card of your library. You may play it until the end of your next turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/264.png" num="117">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Golem CLG</name>
+			<text>Menace</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/265.png" num="9">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Beast CLG</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/266.png" num="3">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Guardian of the Rotmen</name>
+			<text>{3}, {T}: Add three mana in any combination of {B}, {G}, or {W}.
+{3}{B}{G}{W}: Put three +1/+1 counters on Guardian of the Rotmen. Return up to one target permanent card from your graveyard to your hand. Activate only as a sorcery and only once.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/267.png" num="238">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+				<coloridentity>WBG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Guardian of the Least Key</name>
+			<text>{3}, {T}: Add three mana in any combination of {R}, {W}, or {U}.
+{3}{R}{W}{U}: Put three +1/+1 counters on Guardian of the Least Key. Exile the top two cards of your library. Until the end of your next turn, you may play those cards. Activate only as a sorcery and only once.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/268.png" num="237">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+				<coloridentity>WUR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Guardian of Kohrm&apos;s Ire</name>
+			<text>{3}, {T}: Add three mana in any combination of {G}, {U}, or {B}.
+{3}{G}{U}{B}: Put three +1/+1 counters on Guardian of Kohrm&apos;s Ire. It fights up to one target creature you don&apos;t control. Activate only as a sorcery and only once.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/269.png" num="236">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+				<coloridentity>UBG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Captive Wyrmsoul</name>
+			<text>Captive Wyrmsoul enters the battlefield tapped. As it does, choose three colors.
+{T}: Add one mana of one of the chosen colors.
+{3}, {T}, Sacrifice Captive Wyrmsoul: Draw a card if mana of each of the chosen colors was spent to activate this ability.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/270.png" num="231">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Treasure CLG</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/271.png" num="10">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Elemental CLG</name>
+			<text>This creature can&apos;t block</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/272.png" num="7">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Gravesoil Mimic</name>
+			<text>You may have Gravesoil Mimic enter the battlefield as a copy of a creature card in your graveyard, except it has menace in addition to its other abilities.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/CLG-files/img/273.png" num="70">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Shapeshifter</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zombie CLG</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/274.png" num="2">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Pick Off</name>
+			<text>Target player discards two cards. If fewer than two cards were discarded this way, that player sacrifices a number of creatures equal to the difference.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/275.png" num="85">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wight Watchman</name>
+			<text>When Wight Watchman enters the battlefield, put a +1/+1 counter on each of up to two target creatures you control.
+Each creature you control with a +1/+1 counter on it has vigilance.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/276.png" num="36">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Peasant</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lord Blugu Swallows the Moon</name>
+			<text>(As this enters, choose an opponent to protect it. You can attack it.)
+When Lord Blugu Swallows the Moon enters the battlefield, draw five cards.
+Spells you cast cost {X} more to cast, where X is the number of defense counters on Lord Blugu Swallows the Moon.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/277.png" num="6">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Battle — Conflict</type>
+				<maintype>Battle</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Barbarian CLG</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/278.png" num="5">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Prism CLG</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/279.png" num="1">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Prism</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Throne of Blugu (bundle promo)</name>
+			<text>You may cast spells that are exactly three colors without paying their mana costs.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/CLG-files/img/280.png" num="272">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mossdog CLG</name>
+			<text>Whenever this creature becomes the target of a spell or ability an opponent controls, put a +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/281.png" num="6">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Dog</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Goblin CLG</name>
+			<text>Haste</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/282.png" num="4">CLG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Goblin</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

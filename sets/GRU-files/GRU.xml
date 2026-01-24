@@ -1,0 +1,4557 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>GRU</name>
+			<longname>Great Raid of Ulaith</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-01-24</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>GRU Draft Archetypes GRU</name>
+			<text>{W}{U} DESTINY Your creatures are meant for more. Seek their destiny and thrive.
+{U}{B} TAPPING Your coven of witches can conjure powerful magic together through tap effects.
+{B}{R} SPIRITS Call upon the Aos Si of the Otherworld and lead a Spirit army.
+{R}{G} RAID Go forth, warrior, and conquer. Attack and reap the benefits.
+{G}{W} ATTACK Lead an army and benefit when you attack with three or more creatures.
+{W}{B} OATHS Your word is sacred. Stick to your sworn Oaths and be rewarded.
+{B}{G} LIFEGAIN Seek immortality, or at least seek to outlast your opponents.
+{G}{U} STRENGTH Only the strongest can reach the top. Focus on power 4 or greater and let might make right.
+{U}{R} TACTICS Manage your attacks with support: Vehicles, abilities, and combat tricks will see you succeed.
+{R}{W} GRAVEYARD The memories of the dead will lead you to victory; use your graveyard as a resource to win.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/0.png" num="8">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Solemn Caoineag</name>
+			<text>Solemn Caoineag gets +1/+0 as long as you&apos;ve gained life this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/1.png" num="116">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hawthorn Witch</name>
+			<text>Whenever Hawthorn Witch becomes tapped, each opponent loses 1 life and you gain 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/2.png" num="95">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mournful Muse</name>
+			<text>When Mournful Muse enters the battlefield, each opponent discards a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/3.png" num="104">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relentless Galloglas</name>
+			<text>Relentless Galloglas can&apos;t block.
+{2}{B}: Return Relentless Galloglas from your graveyard to the battlefield.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/4.png" num="113">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>An-Drim Brigand</name>
+			<text>When An-Drim Brigand enters the battlefield, it swears an Oath. (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on this creature.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/5.png" num="82">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloody Handed Coven</name>
+			<text>{2}, {T}: Target player loses 2 life. Activate only if you own two or more cards in exile.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/6.png" num="84">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Loathsome Dullahan</name>
+			<text>When Loathsome Dullahan dies, each opponent loses 2 life and you gain 2 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/7.png" num="98">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ar Dacha Bloodletter</name>
+			<text>When Ar Dacha Bloodletter enters the battlefield, it swears an Oath. (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on this creature.)
+Ar Dacha Bloodletter has menace as long as it has a +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/8.png" num="83">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Monarch of Night</name>
+			<text>When Monarch of Night enters the battlefield, if you control two or more other Spirits, up to one target creature gets -2/-2 until end of turn. If that creature would die this turn, exile it instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/9.png" num="103">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Night-Wreathed Raider</name>
+			<text>When Night-Wreathed Raider enters the battlefield, if you&apos;ve gained 3 or more life this turn, each opponent loses 3 life. Otherwise, each opponent loses 1 life and you gain 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/10.png" num="105">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tur Aun Rover</name>
+			<text>Vigilance
+Tur Aun Rover enters the battlefield with a +1/+1 counter on it as long as you&apos;ve gained life this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/11.png" num="190">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nimble Scrambler</name>
+			<text>At the beginning of your upkeep, if you control another creature with power 4 or greater, you gain 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/12.png" num="181">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Squirrel</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inspiring Brigand</name>
+			<text>When Inspiring Brigand dies, create a 2/2 green and white Human Warrior creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/13.png" num="172">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>GG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fehr Maun Reaver</name>
+			<text>Raid — This spell costs {1} less to cast if you attacked this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/14.png" num="166">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dún Raider</name>
+			<text>Dún Raider has haste as long as you control another creature with power 4 or greater.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/15.png" num="165">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Handmaid of Cos Teilo</name>
+			<text>When Handmaid of Cos Teilo enters the battlefield, you gain 3 life.
+Whenever you attack with three or more creatures, add {G}. Until end of turn, you don&apos;t lose this mana as step and phases end.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/16.png" num="168">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Nomad</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ornery Badger</name>
+			<text>Trample
+Whenever Ornery Badger becomes blocked, it gets +3/+3 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/17.png" num="186">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Badger</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reclusive Druid</name>
+			<text>When Reclusive Druid enters the battlefield, create a 2/2 green Wolf creature token and a green artifact token named Mistletoe with &quot;{1}, Sacrifice Mistletoe: Target player loses 1 life and you gain 1 life.&quot;</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/18.png" num="187">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wolftamer</name>
+			<text>When Wolftamer enters the battlefield, create a 2/2 green Wolf creature token, then you gain 1 life for each Wolf you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/19.png" num="197">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hungry Forager</name>
+			<text>{5}{G}: Hungry Forager gets +3/+3 until end of turn. This ability costs {X} less to activate, where X is the amount of life you&apos;ve gain this turn. Activate only once each turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/20.png" num="169">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bear</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lord of the Glens</name>
+			<text>Trample, haste</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/21.png" num="177">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk</type>
+				<maintype>Creature</maintype>
+				<manacost>6G</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brash Upstart</name>
+			<text>Haste
+{T}, Sacrifice Brash Upstart: Brash Upstart deals 1 damage to any target.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/22.png" num="126">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloody Handed Novitiate</name>
+			<text>{2}, Exile Bloody Handed Novitiate from your graveyard: Create a 1/1 red and white Spirit creature token with &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/23.png" num="124">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Roving Galloglas</name>
+			<text>{R}, Exile two cards from your graveyard: Roving Galloglas gets +2/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/24.png" num="150">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Barrow Watcher</name>
+			<text>When Barrow Watcher enters the battlefield, if you control another Spirit, up to one target creature can&apos;t block this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/25.png" num="121">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fervent Raiders</name>
+			<text>Haste
+Raid — Fervent Raiders enters the battlefield with a +1/+1 counter on it if you attacked this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/26.png" num="132">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Canny Swordmaster</name>
+			<text>Raid — {2}{R}: Canny Swordmaster gains first strike until end of turn. Activate only if you attacked this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/27.png" num="127">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blade of Fehr Maun</name>
+			<text>When Blade of Fehr Maun deals combat damage to a player, you may discard a card. If you do, Blade of Fehr Maun swears an Oath. (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on this creature.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/28.png" num="123">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Otherworld Stalker</name>
+			<text>As an additional cost to cast this spell, pay {2} or exile two creature cards from your graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/29.png" num="145">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hand of the Black Horse</name>
+			<text>Trample
+Raid — When Hand of the Black Horse enters the battlefield, if you attacked this turn, you may discard a card. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/30.png" num="134">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Marsh Light</name>
+			<text>Whenever Marsh Light becomes tapped, target creature you control gains ward {1} until the beginning of your next upkeep.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/31.png" num="58">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Honored Raven</name>
+			<text>Flying
+Whenever Honored Raven becomes tapped, scry 1.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/32.png" num="56">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lake Guardian</name>
+			<text>Flash
+When Lake Guardian enters the battlefield, put two destined counters on target creature you control with destiny.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/33.png" num="57">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unell&apos;s Stag</name>
+			<text>Unell&apos;s Stag can&apos;t be blocked as long as you control another creature with power 4 or greater.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/34.png" num="77">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Elk</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shoreline Shrieker</name>
+			<text>Flying
+Whenever Shoreline Shrieker becomes tapped, target creature an opponent controls gets -2/-0 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/35.png" num="72">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>An-Drim Tidecaller</name>
+			<text>When An-Drim Tidecaller enters the battlefield, untap up to two target creatures you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/36.png" num="43">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scourge of the Seas</name>
+			<text>Scourge of the Seas can&apos;t attack unless you control another creature with power 4 or greater.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/37.png" num="71">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Serpent</type>
+				<maintype>Creature</maintype>
+				<manacost>5U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Keening Psychopomp</name>
+			<text>Flying
+When Keening Psychopomp enters the battlefield, target Human gains indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/38.png" num="17">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tur Aun Trapper</name>
+			<text>First strike</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/39.png" num="39">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ill-Fated Raven</name>
+			<text>Flying
+Whenever you attack with three or more creatures, you gain 2 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/40.png" num="16">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Proud Stalwart</name>
+			<text>When Proud Stalwart enters the battlefield, it swears an Oath. (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on this creature.)
+First strike</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/41.png" num="29">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Noble Savage</name>
+			<text>Flash</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/42.png" num="22">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Placid Cattle</name>
+			<text>{W}, Exile Placid Cattle from your graveyard: Put a +1/+1 counter on target creature. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/43.png" num="27">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ox</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hero of Ar Dacha</name>
+			<text>When Hero of Ar Dacha enters the battlefield, it swears an Oath. (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on this creature.)
+Lifelink</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/44.png" num="14">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Take Up the Cause</name>
+			<text>Create two 2/2 green and white Human Warrior creature tokens. You gain life equal to the number of creatures that attacked this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/45.png" num="37">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Towering Paragon</name>
+			<text>At the beginning of combat on your turn, the creature you control with the least power swears an Oath. (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on that creature.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/46.png" num="38">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>5W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Face the Mighty</name>
+			<text>Choose one —
+• Exile target creature with power 4 or greater.
+• Target creature you control swears an Oath (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on that creature.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/47.png" num="10">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bones of the Past</name>
+			<text>Enchant creature
+Enchanted creature can&apos;t attack or block.
+Tap any number of untapped creatures you control with total power 4 or greater: Exile enchanted creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/48.png" num="7">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Urgent Exorcism</name>
+			<text>Destroy target Spirit or enchantment.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/49.png" num="40">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Menhir&apos;s Might</name>
+			<text>Target creature gets +1/+1 until end of turn for each counter on it.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/50.png" num="21">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Puca&apos;s Blessing</name>
+			<text>Enchant creature
+When Púca&apos;s Blessing enters the battlefield, draw a card.
+Whenever a card you own is put into exile, put a +1/+1 counter on enchanted creature. This ability triggers only once per turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/51.png" num="30">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Oath of Penance</name>
+			<text>At the beginning of your end step, if you control two or more untapped creatures, Oath of Penance is fulfilled.
+When Oath of Penance is fulfilled, exile it and distribute two +1/+1 counters among one or two target creatures.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/52.png" num="24">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Oath of Purity</name>
+			<text>At the beginning of your end step, if you attacked with creatures with total power 3 or more this turn, Oath of Purity is fulfilled.
+When Oath of Purity is fulfilled, exile it and destroy up to one target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/53.png" num="25">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Guardian Fenoderee</name>
+			<text>Flash
+When Guardian Fenoderee enters the battlefield, untap target creature you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/54.png" num="13">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aspiring Hero</name>
+			<text>Whenever Aspiring Hero attacks, you may exile X cards from your graveyard, where X is Aspiring Hero&apos;s power. If you do, put a +1/+1 counter on Aspiring Hero.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/55.png" num="5">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Priest of Annan</name>
+			<text>Flash
+When Priest of Annan enters the battlefield, prevent the next 3 damage that would be dealt to target creature or player this turn. If damage is prevented this way and if you&apos;ve fulfilled an Oath, Priest of Annan deals that much damage to any target.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/56.png" num="28">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fehr Maun Tactician</name>
+			<text>Destiny (Whenever this creature becomes tapped, put a destined counter on it. Stop at three.)
+Whenever Fehr Maun Tactician attacks, target creature you control gets +1/+1 until end of turn for each destined counter on Fehr Maun Tactician.
+ [3/3]</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/57.png" num="12">GRU</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>An-Drim Cavalry</name>
+			<text>When An-Drim Cavalry enters the battlefield, create a 2/2 green and white Human Warrior creature token.
+Whenever you attack with three or more creatures, tap up to one target creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/58.png" num="3">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Legion of Annan</name>
+			<text>Create two 1/1 red and white Spirit creature tokens with &quot;This creature can&apos;t block.&quot;
+You may cast Legion of Annan from your graveyard by discarding a card in addition to paying its other costs.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/59.png" num="19">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Luth&apos;s Prodigy</name>
+			<text>When Luth&apos;s Prodigy enters the battlefield, return target nonland permanent card with mana value 2 or less from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/60.png" num="20">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stormfront</name>
+			<text>Exile target tapped creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/61.png" num="36">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Spirit Ring</name>
+			<text>When Spirit Ring enters the battlefield, exile target nonland permanent an opponent controls until Spirit Ring leaves the battlefield.
+{1}{W}, Exile Spirit Ring from your graveyard: You gain 3 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/62.png" num="35">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Humble Beginnings</name>
+			<text>Whenever a creature you control dies, target creature you control swears an Oath. (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on that creature.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/63.png" num="15">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Divine Spear</name>
+			<text>Equipped creature gets +2/+2.
+Equipment you control have &quot;Equip—Tap two untapped creatures you control.&quot;</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/64.png" num="9">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Oath of Silence</name>
+			<text>At the beginning of your end step, you may tap an untapped creature you control. If you do, Oath of Silence is fulfilled.
+When Oath of Silence is fulfilled, exile it and target opponent can&apos;t cast noncreature spells until your next turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/65.png" num="26">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sinister Bodach</name>
+			<text>Defender
+Whenever a creature with flying enters the battlefield, untap Sinister Bodach.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/66.png" num="74">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Scarecrow</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>0/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Yew-Tree Omen</name>
+			<text>As an additional cost to cast this spell, tap an untapped creature you control or pay {1}.
+Counter target spell.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/67.png" num="80">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Northern Storm</name>
+			<text>Counter target spell unless its controller pays {2}. If you control a creature with power 4 or greater, counter that spell unless its controller pays {4} instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/68.png" num="59">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Punishment of Seantas</name>
+			<text>Enchant creature
+When Punishment of Seantas enters the battlefield, you may tap an untapped creature you control. If you do, tap enchanted creature.
+Enchanted creature doesn&apos;t untap during its controller&apos;s untap step.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/69.png" num="66">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Oath of Remembrance</name>
+			<text>At the beginning of your end step, you have seen two or more cards while scrying this turn, Oath of Remembrance is fulfilled.
+When Oath of Remembrance is fulfilled, exile it and draw two cards then discard a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/70.png" num="61">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Crow&apos;s Knowledge</name>
+			<text>Draw two cards, then discard a card unless you tap an untapped creature you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/71.png" num="51">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Winter&apos;s Cut</name>
+			<text>Return target creature to its owner&apos;s hand. If it&apos;s your turn, untap up to one target creature you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/72.png" num="79">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fox&apos;s Guile</name>
+			<text>Untap target creature. It gets +0/+3 and gains hexproof until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/73.png" num="54">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Prepare a Voyage</name>
+			<text>As an additional cost to cast this spell, you may tap any number of untapped creatures you control.
+Target creature gets -X/-0 until end of turn, where X is 2 plus the total power of creatures tapped to pay for this spell.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/74.png" num="65">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Otherworldly Protection</name>
+			<text>Target nonland permanent you control phases out. Scry 1. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/75.png" num="63">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Salmon of Wisdom</name>
+			<text>When Salmon of Wisdom enters the battlefield, scry 2.
+{1}{G}, Sacrifice Salmon of Wisdom: Put a +1/+1 counter on target creature and draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/76.png" num="70">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fish</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Raven-Caller</name>
+			<text>Whenever Raven-Caller becomes tapped, create a 1/1 black Bird creature token with flying.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/77.png" num="67">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fehr Maun Dredger</name>
+			<text>When Fehr Maun Dredger enters the battlefield, return target creature an opponent controls to its owner&apos;s hand. If you control a creature with power 4 or greater, instead put that creature on top of its owner&apos;s library.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/78.png" num="53">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Peasant</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Devouring Mist</name>
+			<text>Flying
+Whenever a creature you control becomes tapped, if it isn&apos;t being declared as an attacker, Devouring Mist gets +1/+1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/79.png" num="52">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blind Phantasm</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/80.png" num="46">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ponder the Ogham</name>
+			<text>As an additional cost to cast this spell, tap an untapped creature you control.
+Scry 2, then draw two cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/81.png" num="64">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Consult the Oillipheist</name>
+			<text>Counter target spell unless its controller pays {1} for each creature you control with power 4 or greater. If that spell is countered this way, exile it instead of putting it into its owner&apos;s graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/82.png" num="48">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Council of Ravens</name>
+			<text>Tap an untapped creature you control: Target player mills a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/83.png" num="49">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wash Downriver</name>
+			<text>Return target permanent to its owner&apos;s hand.
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/84.png" num="78">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Behind the Veil</name>
+			<text>Enchant nonland permanent
+Tap any number of untapped creatures you control with total power 3 or greater: Enchanted permanent phases out. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/85.png" num="45">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Great Game</name>
+			<text>{2}, {T}: Put a game counter on The Great Game, then tap target nonland permanent with mana value less than or equal to the number of game counters on The Great Game.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/86.png" num="55">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Feast of Skulls</name>
+			<text>Choose one —
+• Destroy target creature.
+• Exile target planeswalker.
+• Exile target player&apos;s graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/87.png" num="94">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Touch of the Otherworld</name>
+			<text>Target creature gets -3/-3 until end of turn. If you have fulfilled an Oath, instead that creature gets -5/-5 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/88.png" num="117">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Night&apos;s Edict</name>
+			<text>Target opponent sacrifices a creature or an enchantment. If you control two or more Spirits as you cast this spell, instead that player sacrifices a creature and an enchantment.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/89.png" num="106">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Plague of Par Holon</name>
+			<text>As an additional cost to cast this spell, exile a creature card from your graveyard.
+Target creature gets -X/-X until end of turn, where X is the exiled card&apos;s power.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/90.png" num="112">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Oath of Pilgrimage</name>
+			<text>At the beginning of your end step, if a player lost 2 or more life this turn, Oath of Pilgrimage is fulfilled.
+When Oath of Pilgrimage is fulfilled, exile it and you draw two cards and lose 2 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/91.png" num="108">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Etched Epitaph</name>
+			<text>Choose one —
+• Return target creature card from your graveyard to your hand. 
+• Target creature you control swears an Oath. (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on that creature.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/92.png" num="93">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crow&apos;s Feast</name>
+			<text>Target player discards two cards. If they discard a creature card, create a 1/1 black Bird creature token with flying.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/93.png" num="91">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Midnight Bloom</name>
+			<text>Until end of turn, target creature gains deathtouch and &quot;When this creature dies, return it to the battlefield tapped under its owner&apos;s control.&quot;</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/94.png" num="102">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bloody Handed Cultist</name>
+			<text>Spirits you control get +1/+1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/95.png" num="85">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>BB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warmonger of Dún</name>
+			<text>{1}, Sacrifice a creature: Warmonger of Dún swears an Oath (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on this creature.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/96.png" num="119">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rigann&apos;s Scion</name>
+			<text>Whenever you gain life, put a +1/+1 counter on Rigann&apos;s Scion and each opponent loses 1 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/97.png" num="115">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rigann&apos;s Herald</name>
+			<text>When Rigann&apos;s Herald enters the battlefield, choose one —
+• Choose up to two nonlegendary Oaths you control. Those Oaths are fulfilled.
+• Return target creature or enchantment card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/98.png" num="114">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unstoppable Cateran</name>
+			<text>Destiny (Whenever this creature becomes tapped, put a destined counter on it. Stop at three.)
+When Unstoppable Cateran dies, if it had three or more destined counters on it, return it to the battlefield tapped.
+ [3/2]</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/99.png" num="118">GRU</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Keening Maiden</name>
+			<text>Menace
+Whenever a non-Spirit creature would die, exile it instead.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/100.png" num="97">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>After the Storm</name>
+			<text>Destroy target nonartifact, nonland permanent an opponent controls. You lose 2 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/101.png" num="81">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Oath of Resurrection</name>
+			<text>At the beginning of your end step, if there are four or more creature cards in your graveyard, Oath of Resurrection is fulfilled.
+When Oath of Resurrection is fulfilled, exile it and return target creature card from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/102.png" num="109">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Druid&apos;s Sickle</name>
+			<text>Equipped creature has deathtouch and &quot;{T}, Tap an untapped land you control: Create a green artifact token named Mistletoe with &quot;{1}, Sacrifice Mistletoe: Target player loses 1 life and you gain 1 life.&quot;
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/103.png" num="92">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Invoke the Black Horse</name>
+			<text>Target opponent reveals all but one of the cards in their hand. Choose a nonland card from among the revealed cards. That player discards that card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/104.png" num="96">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Oath of Storytelling</name>
+			<text>At the beginning of your end step, you may reveal any number of cards from your hand with at least three different mana values. If you do, Oath of Storytelling is fulfilled.
+When Oath of Storytelling is fulfilled, exile it and search your library for a card. Put that card into your hand and shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/105.png" num="110">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lost to Time</name>
+			<text>Choose one —
+• Exile target player&apos;s graveyard. That player loses life equal to the number of card types exiled this way.
+• Remove all counters from target permanent. That permanent&apos;s controller loses life equal to the number of counters removed this way.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/106.png" num="99">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Oath of Celebration</name>
+			<text>At the beginning of your end step, if you have discarded two or more cards this turn, Oath of Celebration is fulfilled.
+When Oath of Celebration is fulfilled, exile it and it deals 3 damage to target opponent.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/107.png" num="142">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Rise to the Occasion</name>
+			<text>Rise to the Occasion deals 3 damage to target creature. If that creature&apos;s mana value is 6 or greater, Rise to the Occasion deals 6 damage to it instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/108.png" num="149">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Becoming the Hound</name>
+			<text>Becoming the Hound deals 2 damage to target creature. Gain control of that until end of turn. Untap it. It gains haste until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/109.png" num="122">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Swords Raised</name>
+			<text>Creatures you control get +2/+0 until end of turn. You may discard a card. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/110.png" num="154">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dreams of the Black Horse</name>
+			<text>Discard two cards, then draw three cards.
+{2}, Exile Dreams of the Black Horse from your graveyard: Create a 1/1 red and white Spirit creature token with &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/111.png" num="130">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Weathered Claymore</name>
+			<text>Whenever equipped creature becomes tapped, if it isn&apos;t being declared as an attacker, Weathered Claymore deals 1 damage to target player.
+Equip {1}</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/112.png" num="158">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Frenzy of Battle</name>
+			<text>Target creature gets +3/+1 until end of turn. Frenzy of Battle deals 1 damage to target player.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/113.png" num="133">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Coastal Storm</name>
+			<text>Exile target artifact.
+Raid — If you attacked this turn, Coastal Storm deals 2 damage to that artifact&apos;s controller.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/114.png" num="128">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Night&apos;s Herd</name>
+			<text>Whenever a creature blocks this turn, it deals 1 damage to itself. If a creature dealt damage this way would die this turn, exile it instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/115.png" num="141">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bog Swine</name>
+			<text>Whenever Bog Swine becomes tapped, if it isn&apos;t being declared as an attacker, up to one target creature can&apos;t block this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/116.png" num="125">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Boar</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dún Cutpurse</name>
+			<text>When Dún Cutpurse enters the battlefield, discard up to two cards, then draw that many cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/117.png" num="131">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unell&apos;s Charger</name>
+			<text>Trample
+Whenever Unell&apos;s Charger attacks, you may tap any number of untapped creatures you control. Unell&apos;s Charger gets +1/+1 for each creature tapped this way.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/118.png" num="156">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Elk</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unell&apos;s Summons</name>
+			<text>Create four 1/1 red and white Spirit creature tokens with &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/119.png" num="157">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Martial Sluagh</name>
+			<text>Martial Sluagh has menace and trample as long as you control three or more Spirits.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/120.png" num="140">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wolf of Usraigh</name>
+			<text>Haste
+As long as it&apos;s not your turn, Wolf of Usraigh is a 1/3 Human Peasant.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/121.png" num="196">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Werewolf</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Padraig, Bear of Tur Aun</name>
+			<text>Whenever Padraig, Bear of Tur Aun enters the battlefield or attacks, you may exile three cards from your graveyard. When you do, Padraig deals 2 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/122.png" num="146">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sacred Menhir</name>
+			<text>When Sacred Menhir enters the battlefield, it deals damage to target player equal to the number of Shrines you control.
+Tap four untapped creatures you control: Create a token that&apos;s a copy of Sacred Menhir.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/123.png" num="151">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Artifact — Shrine</type>
+				<maintype>Artifact</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Oath of Destruction</name>
+			<text>At the beginning of your end step, if you control two or more tapped creatures, Oath of Destruction is fulfilled.
+When Oath of Destruction is fulfilled, exile it and it deals 3 damage to each creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/124.png" num="143">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Luth&apos;s Judgement</name>
+			<text>As an additional cost to cast this spell, you may exile three cards from your graveyard.
+Choose target creature you control and target creature you don&apos;t control. The creature you control gets +3/+1 until end of turn if the additional cost was paid. Then those creatures fight each other.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/125.png" num="138">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Patience of Annan</name>
+			<text>Enchant creature
+Enchanted creature has first strike and &quot;{T}: This creature deals 1 damage to target player or planeswalker.&quot;</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/126.png" num="147">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dolmen of the Si</name>
+			<text>Attacking Spirits you control get +1/+1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/127.png" num="129">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Luth&apos;s Ire</name>
+			<text>Destroy target noncreature, nonenchantment permanent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/128.png" num="137">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Calm Before the Storm</name>
+			<text>Put a +1/+1 counter on target creature you control, then that creature deals damage equal to its power to another target creature or planeswalker.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/129.png" num="163">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Oath of Might</name>
+			<text>At the beginning of your end step, if you control a creature with power 4 or greater, Oath of Might is fulfilled.
+When Oath of Might is fulfilled, exile it and put two +1/+1 counters on target creature you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/130.png" num="182">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Foggy Dew</name>
+			<text>Prevent all combat damage that would be dealt this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/131.png" num="167">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>In the Wild Woods</name>
+			<text>Look at the top five cards of your library. You may reveal a creature card and/or a land card from among them and put them into your hand. Put the rest on the bottom of your library in any order.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/132.png" num="171">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Moonlight Raid</name>
+			<text>Enchant creature
+Whenever you attack with three or more creatures, untap enchanted creature and put a +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/133.png" num="180">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Impenetrable Oaks</name>
+			<text>Enchant land
+When Impenetrable Oaks enters the battlefield, it deals 4 damage to up to one target creature with flying.
+Enchanted land has &quot;{T}: Add {G}{G}.&quot;</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/134.png" num="170">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Into the Barrow Mounds</name>
+			<text>Raid — Put a land card onto the battlefield tapped. Then if you attacked this turn, untap that land.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/135.png" num="173">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Break the Oath</name>
+			<text>Exile target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/136.png" num="161">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Roving Bard</name>
+			<text>Destiny (Whenever this creature becomes tapped, put a destined counter on it. Stop at three.)
+{T}: Add {G}. If there are three or more destined counters on Roving Bard as you activate this ability, instead add three mana of any one color.
+ [1/2]</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/137.png" num="189">GRU</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Joint Eater</name>
+			<text>Whenever an opponent gains life, you gain half that much life, rounded down. This ability triggers only once each turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/138.png" num="174">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Salamander</type>
+				<maintype>Creature</maintype>
+				<manacost>GG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ar Dacha Stalwart</name>
+			<text>Whenever Ar Dacha Stalwart deals combat damage to a player, it swears an Oath. (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on this creature.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/139.png" num="160">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wandering Raider</name>
+			<text>Whenever you attack with three or more creatures, put a +1/+1 counter on Wandering Raider.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/140.png" num="194">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Nomad</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Steed of Annan</name>
+			<text>Whenever Steed of Annan attacks, you may exile two cards from your graveyard. If you do, exile the top card of your library. You may play it this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/141.png" num="153">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wild-Song Chanter</name>
+			<text>When Wild-Song Chanter enters the battlefield, create three 2/2 green Wolf creature tokens.
+Whenever a creature you control enters the battlefield, you gain 1 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/142.png" num="195">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lurking Dobharchú</name>
+			<text>Haste
+Hexproof from blue</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/143.png" num="178">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Otter</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>An-Drim Exemplar</name>
+			<text>Sacrifice An-Drim Exemplar: Until the beginning of your next end step, if one or more creature tokens would be created under your control, that many 2/2 green and white Human Warrior creature tokens are created instead.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/144.png" num="159">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relentless Clash</name>
+			<text>Destroy target noncreature permanent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/145.png" num="188">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unite the Kingdoms</name>
+			<text>Whenever you attack with three or more creatures, you may put a land card from your hand onto the battlefield tapped.
+As long as you control eight or more lands, creatures you control have vigilance.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/146.png" num="192">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Oath of Serenity</name>
+			<text>At the beginning of your end step, if you control three or more creatures with power 4 or greater, Oath of Serenity is fulfilled.
+When Oath of Serenity is fulfilled, create a 6/6 green Spirit Bear creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/147.png" num="183">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bull-Rush of Culaigh</name>
+			<text>Target creature gets +X/+X until end of turn, where X is the greatest power among creatures you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/148.png" num="162">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Oath of Sorrows</name>
+			<text>At the beginning of your end step, if there are seven or more cards in your graveyard, Oath of Sorrows is fulfilled.
+When Oath of Sorrows is fulfilled, exile it and return target card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/149.png" num="184">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ominous Banshee</name>
+			<text>When Ominous Banshee enters the battlefield, target opponent loses life equal to the number of Spirits you control.
+Other Spirits you control get +1/+1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/150.png" num="203">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Barrow Mounds</name>
+			<text>Tap two untapped creatures you control: You draw a card and you lose 1 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/151.png" num="200">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Stag of High Tara</name>
+			<text>At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Stag of High Tara.
+{G}{U}, Tap an untapped creature you control: Stag of High Tara can&apos;t be blocked this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/152.png" num="222">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk</type>
+				<maintype>Creature</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unell&apos;s Warleader</name>
+			<text>Raid — At the beginning of your end step, if you attacked this turn, put a +1/+1 counter on Unell&apos;s Warleader and up to one other target creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/153.png" num="205">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Battle Fury</name>
+			<text>Whenever you attack with three or more creatures, create a 2/2 green and white Human Warrior creature token that&apos;s tapped and attacking.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/154.png" num="206">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>An-Drim Mourncaller</name>
+			<text>When An-Drim Mourncaller enters the battlefield, it swears an Oath. (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on this creature.)
+Whenever you fulfill an Oath, put a +1/+1 counter on An-Drim Mourncaller.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/155.png" num="208">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Otherworld Chariot</name>
+			<text>Flying
+Whenever Otherworld Chariot becomes crewed for the first time each turn, you may draw a card. If you do, discard a card.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/156.png" num="212">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fearr Gorta</name>
+			<text>Whenever you gain life, each opponent loses that much life. This ability triggers only once each turn.
+Sacrifice a creature: Fearr Gorta gains lifelink until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/157.png" num="215">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Howling Lamentation</name>
+			<text>When Howling Lamentation enters the battlefield, you may discard up to two cards. If you do, draw that many cards.
+{1}, Exile a creature card from a graveyard: Create a 1/1 red and white Spirit creature token with &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/158.png" num="218">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Roving Birlinn</name>
+			<text>Menace
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/159.png" num="233">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bloody Handed Idol</name>
+			<text>Tap two untapped creatures you control: Untap target creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/160.png" num="230">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>War-Tested Chariot</name>
+			<text>Haste
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/161.png" num="235">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Oath to the High King</name>
+			<text>At the beginning of your end step, if you control two or more basic lands, Oath to the High King is fulfilled.
+When Oath to the High King is fulfilled, create a 2/2 green and white Human Warrior creature token.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/162.png" num="1">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Clairseach Harp</name>
+			<text>{T}, Tap an untapped creature you control: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/163.png" num="232">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Solemn Cloister</name>
+			<text>{T}: Add {C}.
+{T}, Tap an untapped creature you control: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/164.png" num="249">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sheer Coast</name>
+			<text>Sheer Coast enters the battlefield tapped.
+{T}, Sacrifice Sheer Coast: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/165.png" num="247">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sacred Tomb</name>
+			<text>Sacred Tomb enters the battlefield tapped.
+{T}, Sacrifice Sacred Tomb: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/166.png" num="245">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gloomy Clearing</name>
+			<text>Gloomy Clearing enters the battlefield tapped.
+{T}, Sacrifice Gloomy Clearing: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/167.png" num="239">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Scoured Spire</name>
+			<text>Scoured Spire enters the battlefield tapped.
+{T}, Sacrifice Scoured Spire: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/168.png" num="244">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Overgrown Wreck</name>
+			<text>Overgrown Wreck enters the battlefield tapped.
+{T}, Sacrifice Overgrown Wreck: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/169.png" num="243">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>The Answerer</name>
+			<text>Equipped creature gets +2/+0 and has vigilance and &quot;{2}: This creature gets +1/+1 until end of turn.
+Equip {3}
+{T}: Attach The Answerer to target creature you control. Activate only as a sorcery and only if you have fulfilled an Oath.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/170.png" num="228">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ar Dacha Braggart</name>
+			<text>When Ar Dacha Braggart enters the battlefield, it swears an Oath. (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on this creature.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/171.png" num="4">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oath of Vengeance</name>
+			<text>At the beginning of your end step, if two or more creatures you don&apos;t control died this turn, Oath of Vengeance is fulfilled.
+When Oath of Vengeance is fulfilled, exile it and target player loses 1 life for each creature card in their graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/172.png" num="111">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Capal Dú, High King</name>
+			<text>Capal Dú, High King isn&apos;t a creature unless you own two or more cards in exile.
+Menace
+Whenever an attacking creature you control dies, you draw a card and you lose 1 life.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GRU-files/img/173.png" num="86">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unell, the Wanderer</name>
+			<text>Unell, the Wanderer isn&apos;t a creature unless you own two or more cards in exile.
+You may spend mana as though it were mana of any color.
+Unell&apos;s power and toughness are each equal to the number of lands you control.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GRU-files/img/174.png" num="191">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oath Fulfilled GRU</name>
+			<text>When you have fulfilled an Oath, you can place the exiled card here.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/175.png" num="7">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/176.png" num="250">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/177.png" num="252">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/178.png" num="254">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/179.png" num="256">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/180.png" num="258">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Luth, Forge&apos;s Fire</name>
+			<text>Luth, Forge&apos;s Fire isn&apos;t a creature unless you own two or more cards in exile.
+Skip your draw step.
+At the beginning of your upkeep, exile the top two cards of your library. You may play them this turn. Spell cast this way cost {1} less to cast.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GRU-files/img/181.png" num="136">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Annan, Wry Voyager</name>
+			<text>Annan, Wry Voyager isn&apos;t a creature unless you own two or more cards in exile.
+Whenever another creature you control becomes tapped, put a wind counter on Annan.
+{3}{U}, {T}, Remove X wind counters from Annan: Put target creature into its owner&apos;s library just beneath the top X cards of that library. X can&apos;t be zero.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GRU-files/img/182.png" num="44">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rigann, Thread Cutter</name>
+			<text>Rigann, Thread Cutter isn&apos;t a creature unless you own two or more cards in exile.
+Whenever a creature you don&apos;t control deals combat damage, put a fate counter on it.
+{X}{X}, {T}: Destroy each creature with mana value X or less with a fate counter on it.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GRU-files/img/183.png" num="33">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bard of Dún</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/184.png" num="6">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Orflaith the Still</name>
+			<text>[+1]: Up to two target creatures you control each swear an Oath.
+[-2]: Target creature gets -3/-3 until end of turn.
+[-5]: Each opponent loses 3 life for each Oath you&apos;ve fulfilled.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GRU-files/img/185.png" num="225">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Orflaith</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>BGW</manacost>
+				<cmc>3</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bird GRU</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/186.png" num="1">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Spirit GRU</name>
+			<text>This creature can&apos;t block</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/187.png" num="6">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Teller of Truths</name>
+			<text>Destiny (Whenever this creature becomes tapped, put a destined counter on it. Stop at three.)
+Teller of Truths gets +2/+0 as long as it has three or more destined counters on it.
+ [1/3]</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/188.png" num="75">GRU</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rigann&apos;s Seer</name>
+			<text>Destiny (Whenever this creature becomes tapped, put a destined counter on it. Stop at three.)
+{T}: Draw a card. Activate only if Rigann&apos;s Seer has three or more destined counters on it.
+ [1/3]</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/189.png" num="69">GRU</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rigann&apos;s Blackguard</name>
+			<text>Destiny (Whenever this creature becomes tapped, put a destined counter on it. Stop at three.)
+Whenever Rigann&apos;s Blackguard attacks, untap up to X target creatures you control, where X is the number of destined counters on Rigann&apos;s Blackguard.
+ [2/2]</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/190.png" num="199">GRU</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prophecy of the Hound</name>
+			<text>At the beginning of your end step, if a creature you control named Seantas, Hound of Ulaith dealt combat damage to an opponent this turn, Prophecy of the Hound is fulfilled.
+When Prophecy of the Hound is fulfilled, exile it and target player loses the game.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GRU-files/img/191.png" num="226">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WBR</manacost>
+				<cmc>3</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Seantas, Hound of Ulaith</name>
+			<text>When Seantas, Hound of Ulaith enters the battlefield, destroy target non-Human creature an opponent controls.
+Whenever Seantas attacks alone, you may exile an enchantment card from your hand. If you do, Seantas swears an Oath. (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on this creature.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/192.png" num="210">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>1WBB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cos Teilo, Generous King</name>
+			<text>Whenever a creature enters the battlefield, its controller chooses one. This ability triggers only once each turn.
+• Each player draws a card.
+• Cos Teilo, Generous King deals 2 damage to each player.
+• Each player may put a +1/+1 counter on a creature they control.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GRU-files/img/193.png" num="223">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>URG</manacost>
+				<cmc>3</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>1/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Human Warrior GRU</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/194.png" num="4">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Luth&apos;s Favored</name>
+			<text>Destiny (Whenever this creature becomes tapped, put a destined counter on it. Stop at three.)
+Sacrifice Luth&apos;s Favored: You draw X cards and you lose X life, where X is the number of destined counters on Luth&apos;s Favored.
+ [1/1]</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/195.png" num="100">GRU</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Meaha, Onerous Queen</name>
+			<text>Whenever a creature deals combat damage to you, put a doom counter on target creature you control.
+Creatures with doom counters on them deal damage to players in the form of poison counters. (A player with ten or more poison counters loses the game.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GRU-files/img/196.png" num="224">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>GUB</manacost>
+				<cmc>3</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Black Coach</name>
+			<text>Whenever a creature crews Black Coach, put a mortality counter on that creature. Do this only once each turn.
+Whenever a creature you control with a mortality counter on it dies, return it to its owner&apos;s hand at the beginning of the next end step.
+Crew 3</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/197.png" num="229">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mistletoe GRU</name>
+			<text>{1}, Sacrifice Mistletoe: Target player loses 1 life and you gain 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/198.png" num="5">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Maebh of the Bloody Hand</name>
+			<text>Whenever a Warlock you control becomes untapped, each opponent loses 1 life.
+Tap five untapped creatures you control: You may cast target instant or sorcery card in your graveyard without paying its mana cost. When you do, exile it when it resolves. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/199.png" num="201">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oath of Pursuit</name>
+			<text>At the beginning of your end step, if an opponent controls at least two more lands than you, Oath of Pursuit is fulfilled.
+When Oath of Pursuit is fulfilled, exile it and destroy target land.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/200.png" num="144">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Craven Haunter</name>
+			<text>Destiny (Whenever this creature becomes tapped, put a destined counter on it. Stop at three.)
+Craven Haunter gets +1/+0 and has flying as long as it has three or more destined counters on it.
+ [1/2]</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/201.png" num="50">GRU</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tur Aun Brawler</name>
+			<text>Destiny (Whenever this creature becomes tapped, put a destined counter on it. Stop at three.)
+Tur Aun Brawler can&apos;t blocked by creatures with power less than the number of destined counters on it.
+ [2/2]</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/202.png" num="155">GRU</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Youthful Hurler</name>
+			<text>Destiny (Whenever this creature becomes tapped, put a destined counter on it. Stop at three.)
+Youthful Hurler gets +2/+2 and has first strike as long as it has three or more destiny counters on it.
+ [1/1]</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/203.png" num="41">GRU</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wolf GRU</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/204.png" num="3">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Wolf</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Chieftan of the Black Horse</name>
+			<text>Flying
+Whenever Chieftan of the Black Horse enters the battlefield or attacks, choose one —
+• Each player discards a card.
+• You draw a card and you lose 1 life.
+• Remove all counters from target permanent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/205.png" num="87">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Specter</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ciara, Blood Witch</name>
+			<text>Ciara, Blood Witch gets +1/+1 for each enchantment card you own in exile.
+Sacrifice a creature: Target creature you control swears an Oath. (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on this creature.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/206.png" num="88">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Si of the Heaths</name>
+			<text>Destiny (Whenever this creature becomes tapped, put a destined counter on it. Stop at three.)
+Si of the Heaths gets +2/+1 and has flying as long as it has three or more destined counters on it.
+ [2/3]</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/207.png" num="34">GRU</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tur Aun Mystic</name>
+			<text>Destiny (Whenever this creature becomes tapped, put a destined counter on it. Stop at three.)
+As long as Tur Aun Mystic has three or more destined counters on it, if you would draw a card, instead scry 1 then draw a card.
+ [2/1]</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GRU-files/img/208.png" num="76">GRU</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spirit Bear GRU</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/209.png" num="2">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit Bear</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>The Oillipheist</name>
+			<text>The Oillipheist enters the battlefield with a +1/+1 counter on it.
+At the beginning of your upkeep, double the number of +1/+1 counters on The Oillipheist. Then if its power is 4 or greater, it gains ward {2} until the beginning of your next upkeep, and if its power is 8 or greater, it gains trample until the beginning of your next upkeep.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/210.png" num="221">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Serpent</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Victorious Galloglas</name>
+			<text>Raid — {2}: Victorious Galloglas gets +2/+2 until end of turn. Activate only once each turn and only if you&apos;ve attacked this turn.
+If a creature dealt damage by Victorious Galloglas this turn would die, exile it instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/211.png" num="193">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Knight of Cos Teilo</name>
+			<text>When Knight of Cos Teilo enters the battlefield, it swears an Oath. (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on this creature.)
+Double strike</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/212.png" num="18">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Destiny&apos;s End</name>
+			<text>Each player who controls a creature with three or more counters on it draws a card, then destroy all creatures.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/213.png" num="8">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bloody Handed Seer</name>
+			<text>Destiny (Whenever this creature becomes tapped, put a destined counter on it. Stop at three.)
+At the beginning of your upkeep, if Bloody Handed Seer has three or more destined counters on it, draw a card.
+ [0/4]</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/214.png" num="47">GRU</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Queen of the Si</name>
+			<text>Play with the top card of your library revealed
+Queen of the Si gets +2/+2 as long as the top card of your library is a creature.
+{1}{R}, Discard a card: Exile the top card of your library. You may play it this turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/215.png" num="148">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oath of the Wilds</name>
+			<text>At the beginning of your end step, if you control four or more creatures that don&apos;t share a creature type, Oath of the Wilds is fulfilled.
+When Oath of the Wilds is fulfilled, exile it and search your library for a green creature card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/216.png" num="185">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2GGG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Reaver of Tur Aun</name>
+			<text>Destiny
+Reaver of Tur Aun gets +1/+1 for each destined counter on it.
+Sacrifice Reaver of Tur Aun: Return target permanent card with mana value X or less from your graveyard to the battlefield, where X is Reaver of Tur Aun&apos;s power. Activate only as a sorcery.
+ [2/2]</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/217.png" num="32">GRU</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oath of Memory</name>
+			<text>At the beginning of your end step, if any player milled three or more cards this turn, Oath of Memory is fulfilled.
+When Oath of Memory is fulfilled, exile it and target player mills half their library, rounded up.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/218.png" num="60">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Inexorable Assault</name>
+			<text>Raid — If you&apos;ve attacked this turn, this spell can&apos;t be countered, players can&apos;t gain life this turn and damage can&apos;t be prevented this turn.
+Inexorable Assault deals 4 damage to any target.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/219.png" num="135">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>March Across Ulaith</name>
+			<text>Whenever you tap a basic land for mana, add one mana of any type that land produced.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/220.png" num="179">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Otherworldly Dreams</name>
+			<text>As an additional cost to cast this spell, tap any number of untapped creatures you control.
+Look at the top X cards of your library, where X is the total power of creatures tapped this way. Put two of them into your hand and the rest on the bottom of your library in a random order.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/221.png" num="62">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Inevitable Fate</name>
+			<text>Counter target spell. If a spell is countered this way, put it into its owner&apos;s library just beneath the top X cards of that library, where X is the number of creatures you control with destiny.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/222.png" num="198">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ciara&apos;s Disciple</name>
+			<text>Whenever Ciara&apos;s Disciple becomes tapped, reveal the top card of your library and put that card into your hand. You lose life equal to that card&apos;s mana value.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/223.png" num="89">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Meaha&apos;s Promise</name>
+			<text>At the beginning of your end step, you may pay 3 life. If you, Meaha&apos;s Promise is fulfilled.
+When Meaha&apos;s Promise is fulfilled, exile it and destroy up to two target nonland permanents an opponent controls.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/224.png" num="202">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Naira, Vindictive Sluagh</name>
+			<text>Destiny (Whenever this creature becomes tapped, put a destined counter on it. Stop at three.)
+Raid — At the beginning of your end step, if you&apos;ve attacked this turn, Naira, Vindictive Sluagh deals damage equal to the number of destined counters on it to any target.
+ [3/4]</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/225.png" num="204">GRU</set>
+			<prop>
+				<layout>leveler</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glorious Raid</name>
+			<text>Whenever you attack with three or more creatures, creature you control get +1/+1 until end of turn and you draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/226.png" num="207">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Siofra the Changeling</name>
+			<text>You may have Siofra the Changeling enter as a copy of a creature on the battlefield, except it&apos;s a Spirit in addition to its other types and it has &quot;Tap three other untapped creatures you control: Exile this creature, then return it to the battlefield under its owner&apos;s control.&quot;</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/227.png" num="213">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Falniss, Fated Hound</name>
+			<text>As long as Falniss, Fated Hound is attacking, prevent all damage that would be dealt to it.
+Whenever Falniss becomes the target of a spell or ability, you gain 3 life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/228.png" num="214">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dog</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ellein Trechend</name>
+			<text>Flying, first strike, haste
+Whenever Ellein Trechend enters the battlefield or attacks, you may exile three target cards from a single graveyard. If you do, it deals 3 damage to target player and you gain 3 life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/229.png" num="217">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Bird Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3RW</manacost>
+				<cmc>5</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fehr Maun Marksman</name>
+			<text>First strike
+Tap another untapped creature you control: Put an aim counter on Fehr Maun Marksman.
+{2}{W}, Remove two aim counters from Fehr Maun Marksman: Destroy target artifact or enchantment.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/230.png" num="11">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shoreline Sovereign</name>
+			<text>Flash
+If you cast this spell during your main phase, it enters the battlefield with a breach counter on it.
+Shoreline Sovereign has ward {4} as long as it has a breach counter on it.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/231.png" num="73">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Whale</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cross from Beyond</name>
+			<text>As an additional cost to cast this spell, tap three untapped creatures you control.
+Return target creature card from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/232.png" num="90">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Balar, the Burning Eye</name>
+			<text>Balar, the Burning Eye enters the battlefield with three omen counters on it.
+Whenever Balar becomes tapped, remove an omen counter from it.
+{T}: Balar deals 6 damage to target player. Activate only if there are no omen counters on Balar.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/233.png" num="120">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Journey Home</name>
+			<text>When Journey Home enters the battlefield, create a 2/2 green and white Human Warrior creature token.
+At the beginning of your end step, target creature you control swears an Oath if it attacked this turn. (Reveal an Oath you own from outside the game and put it into your hand, or put a +1/+1 counter on that creature.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/234.png" num="175">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Quiet Reverence</name>
+			<text>Your opponents can&apos;t cast noncreature spells this turn. Up to one target nonlegendary Oath you control is fulfilled.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/235.png" num="31">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rigann&apos;s Denial</name>
+			<text>Counter target spell, activated ability, or triggered ability unless its controller pays {2}</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/236.png" num="68">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Maebh&apos;s Ritual</name>
+			<text>As an additional cost to cast this spell, pay 3 life.
+All creatures get -3/-3 until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/237.png" num="101">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Make a Break for It</name>
+			<text>Until end of turn, creatures you control gain &quot;When this creature dies, return it to the battlefield under its owner&apos;s control. Sacrifice it at the beginning of its controller&apos;s next end step.&quot;</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/238.png" num="139">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deep-Forest Prowler</name>
+			<text>Whenever a nontoken creature you control dies, you may draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/239.png" num="164">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bear</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sea&apos;s Edge</name>
+			<text>Sea&apos;s Edge enters the battlefield tapped.
+When Sea&apos;s Edge enters the battlefield, untap target creature you control.
+{T}: Add {W} or {U}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/240.png" num="246">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Coastline Village</name>
+			<text>Coastline Village enters the battlefield tapped.
+When Coastline Village enters the battlefield, untap target creature you control.
+{T}: Add {U} or {B}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/241.png" num="237">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Midnight Dolmens</name>
+			<text>Midnight Dolmens enters the battlefield tapped.
+When Midnight Dolmens enters the battlefield, untap target creature you control.
+{T}: Add {B} or {R}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/242.png" num="241">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>High King&apos;s Hall</name>
+			<text>High King&apos;s Hall enters the battlefield tapped.
+When High King&apos;s Hall enters the battlefield, untap target creature you control.
+{T}: Add {R} or {G}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/243.png" num="240">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Apple Orchard</name>
+			<text>Apple Orchard enters the battlefield tapped.
+When Apple Orchard enters the battlefield, untap target creature you control.
+{T}: Add {G} or {W}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/244.png" num="236">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Oath of Humility</name>
+			<text>At the beginning of your end step, if an opponent controls a creature with power 4 or greater, Oath of Humility is fulfilled.
+When Oath of Humility is fulfilled, exile it and exile target creature an opponent controls. That creature&apos;s controller draws a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/245.png" num="23">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Across the Sea</name>
+			<text>Enchant Spirit
+When Across the Sea enters the battlefield, target non-Spirit creature phases out. It can&apos;t phase back in as long as you control enchanted creature. (Treat phased out permanents and anything attached to them as though they don&apos;t exist.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/246.png" num="42">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Oath of Negation</name>
+			<text>At the beginning of your end step, if you have 7 life or less, Oath of Negation is fulfilled.
+When Oath of Negation is fulfilled, exile it and it deals 3 damage to any target, you gain 3 life, and if a creature would die this turn, exile it instead.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/247.png" num="107">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sea&apos;s Wrath</name>
+			<text>Sea&apos;s Wrath deals 3 damage to each creature, each planeswalker, and each opponent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/248.png" num="152">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Life Anew</name>
+			<text>Target creature you control deals damage equal to its power to target creature you don&apos;t control. For each point of excess damage dealt this way, return up to one target permanent card from your graveyard to your hand. Exile Life Anew.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/249.png" num="176">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Giant&apos;s Causeway</name>
+			<text>{T}: Add {C}. If that mana is spent on an enchantment spell, that spell can&apos;t be countered.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/250.png" num="238">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Rigann&apos;s Prophecy</name>
+			<text>At the beginning of your end step, if a legendary creature died this turn, Rigann&apos;s Prophecy is fulfilled.
+When Rigann&apos;s Prophecy is fulfilled, exile it and search your library for a legendary creature card, put that card onto the battlefield, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/251.png" num="2">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Oath</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Slumbering Hill</name>
+			<text>{T}: Add {C}.
+{4}: Slumbering Hill becomes a 3/4 Giant creature until end of turn. It&apos;s still a land.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/252.png" num="248">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Naira&apos;s Gallows</name>
+			<text>{T}: Add {C}.
+{T}, Tap an untapped creature you control: Scry 1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/253.png" num="242">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sceatha&apos;s Marvel</name>
+			<text>Equipped creature gets +2/+2 and has first strike.
+Whenever a creature blocks or becomes blocked by equipped creature, that creature loses indestructible and trample until end of turn.
+Equip legendary creature {2}</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/254.png" num="234">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Brooch of High Tara</name>
+			<text>{1}, {T}: Put a destined counter on target creature. If that creature doesn&apos;t have destiny, it gains destiny and &quot;This creature gets +2/+2 as long as it has three or more destined counters on it.&quot; (Whenever a creature with destiny becomes tapped, put a destined counter on it. Stop at three.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GRU-files/img/255.png" num="231">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Stone of Destiny</name>
+			<text>If a triggered ability of another legendary permanent you control would trigger, that ability triggers an additional time.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GRU-files/img/256.png" num="227">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>RWU</manacost>
+				<cmc>3</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Rigann&apos;s Dreaming</name>
+			<text>Whenever a creature dies, choose one —
+• Exile that creature card from its owner&apos;s graveyard. If you do, you gain life equal to its mana value.
+• You may pay life equal to that creature&apos;s mana value. If you do, return it to the battlefield tapped under your control.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GRU-files/img/257.png" num="209">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3WB</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fables of Unell</name>
+			<text>Whenever a creature you control enters the battlefield, you may have Fables of Unell become a copy of that creature until end of turn. If you do, put a +1/+1 counter on Fables of Unell. This ability triggers only once each turn.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GRU-files/img/258.png" num="220">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Great Hunt of Capal Dú</name>
+			<text>As an additional cost to cast this spell, pay X life. X can&apos;t be zero.
+Destroy each permanent with mana value X.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GRU-files/img/259.png" num="216">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Annan&apos;s Voyage</name>
+			<text>Target opponent takes an extra turn after this one. That player skips the combat phase of that turn.
+At the beginning of your next upkeep, take an extra turn after that one. The first time you attack during that turn, untap all creatures you control and there is an additional combat phase after that phase.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GRU-files/img/260.png" num="211">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2UUR</manacost>
+				<cmc>5</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Luth&apos;s Decree</name>
+			<text>Players can&apos;t win the game unless a source they control has dealt combat damage to a player this turn.
+Players can&apos;t lose the game unless they have been dealt combat damage this turn.
+Each creature you control has vigilance and can block an additional creature each combat.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GRU-files/img/261.png" num="219">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/262.png" num="259">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/263.png" num="257">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/264.png" num="255">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/265.png" num="253">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GRU-files/img/266.png" num="251">GRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>
