@@ -1,0 +1,19 @@
+<img src="https://grapplex.github.io/sets/SON-files/logo.png" alt="Return of the Revenge of the Son of the Terrorscope" width="400" height="164">
+
+**<p style="text-align: center;">It got worse.</p>**
+
+The night sky glitters with a thousand pinpricks of light, each gleam a world alive with its peoples' hopes, dreams, histories and futures. And one of those shimmering gleams is the *Paradise Eight*, the most recent flagship for brash space captain Flash Byrn—a man too handsome, or stupid, to die. Join Flash as he stumbles his way through pulp adventures, cosmic capers, and robotronic mayhem as we witness the **Return of the Revenge of the Son of the Terrorscope**.
+
+A sequel to [Tales from the Grave in Space](https://grapplex.github.io/sets/TGS), **Return of the Revenge of the Son of the Terrorscope** continues the saga of a time beyond the stars, focusing on artifact creatures, Interstellar space magic, and the strange cosmic phenomena that can only arise during the heat of a space war.
+
+**Return of the Revenge of the Son of the Terrorscope** is a draftable premier set using Play Boosters, containing 306 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, 5 basic lands, 10 basic land-rarity taplands, and 30 special-rarity phenomena). Bundle purchasers will also obtain a promotional alternate art copy of [I don't know yet], while all boosters have a chance of containing a Headliner pulp adventure version of Miss Universe. Additionally, limited formats for **Return of the Revenge of the Son of the Terrorscope** make use of an additional five-card Spacewar Booster, each of which contains three randomised special-rarity phenomena, a two-colour tapland, and a copy of Bridge to ... Somewhere.
+
+##Mechanics
+
+<img align="right" width="200" height="353" style="margin:15px" src="https://i.ibb.co/8D5MQMqX/booster.png" alt="SON booster"/>The mechanics of **Return of the Revenge of the Son of the Terrorscope** include:
+
+<img align="right" width="200" height="353" style="margin:15px" src="https://i.ibb.co/Z6q36Ys6/spacewar-booster.png" alt="Spacewar booster"/>**Spacewar!:** Laser wars... there's nothing but laser wars. Spacewar! is a keyword action that makes use of a special extra deck called the cosmic deck, a collection of phenomenon cards assembled before the game. When playing a constructed game, your cosmic deck must contain at least ten phenomena, with no two cards sharing a name. In limited, these restrictions are relaxed to a minimum of five cards with duplicates allowed. Each spacewar! effect will reveal the top card of the cosmic deck and trigger its effects. Once the phenomenon has resolved, shuffle it back into the cosmic deck—there is no graveyard for this deck, and it is always shuffled back to its starting size before any further actions take place. 
+
+**Open a wormhole:** Don't put your hand in there. Wormholes are a new way to interact with the Interstellar subtype, which returns from *Tales from the Grave in Space*. When a creature opens a wormhole, choose an Interstellar card from your graveyard and exile it. On a future turn, whenever the wormhole-causing creature becomes tapped, you may cast that card—this ignores timing restrictions, and is not mandatory, in case you want to save it for a later moment. Whenever the card is cast it will return to your graveyard as normal, awaiting another wormhole to rescue it again.
+
+**Remodulate:** It's very easy to build a new robot when you've got a workshop full of robot parts. Remodulate is a keyword seen exclusively on artifact creatures in the set, accompanied by a number. Remodulate N means the creature enters the battlefield with N +1/+1 counters on it, and when it dies, its counters are placed on another creature you control. Notably this includes all kinds of counter on the creature, allowing you to also salvage its keyword counters too where appropriate, so that your board presence becomes harder to completely remove.
