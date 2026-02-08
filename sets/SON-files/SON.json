@@ -435,7 +435,7 @@
             "number": 34,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "When Reflective Wanderer enters the battlefield, create a 1/1 colorless Robot Ranger creature token with remodulate 1. [i](It enters the battlefield with a +1/+1 counter on it. When it dies, put its counters on another creature you control.)[/i]",
+            "rules_text": "When Reflective Wanderer enters the battlefield, create a 0/0 colorless Robot Ranger artifact creature token with remodulate 1. [i](It enters the battlefield with a +1/+1 counter on it. When it dies, put its counters on another creature you control.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -897,7 +897,7 @@
             "number": 13,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
-            "rules_text": "Vigilance, flying\nWhenever you cast an Interstellar spell, put a +1/+1 counter on Charioteer of the Gods.",
+            "rules_text": "Flying, vigilance\nWhenever you cast an Interstellar spell, put a +1/+1 counter on Charioteer of the Gods.",
             "flavor_text": "[i]\u201cSay, young man, can I interest you in a pyramid scheme?\u201d[/i]",
             "pt": "4/3",
             "special_text": "",
@@ -1464,7 +1464,7 @@
             "number": 53,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "Vigilance, flying\nWhenever Drifting Cetecean deals combat damage to a player, draw a card.\nIf you would draw a card other than the first one you draw in each of your draw steps, you may spacewar! instead. [i](To spacewar!, encounter the top card of your cosmic deck.)[/i]",
+            "rules_text": "Flying, vigilance\nWhenever Drifting Cetecean deals combat damage to a player, draw a card.\nIf you would draw a card other than the first one you draw in each of your draw steps, you may spacewar! instead. [i](To spacewar!, encounter the top card of your cosmic deck.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "4/5",
             "special_text": "",
@@ -1611,7 +1611,7 @@
             "number": 65,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "Vigilance, flying",
+            "rules_text": "Flying, vigilance",
             "flavor_text": "[i]\u201cWho built this? Why did they build this? For what possible purpose could this thing have been built? ... It was Ironblood, wasn't it.\u201d\n\u2014Captain Flash Byrn[/i]",
             "pt": "4/4",
             "special_text": "",
@@ -6707,5 +6707,5 @@
             "notes": "!group token\n!sort 03"
         }
     ],
-    "version": 13
+    "version": 14
 }

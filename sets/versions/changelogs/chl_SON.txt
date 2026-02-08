@@ -1,4 +1,28 @@
-﻿VERSION 13 CHANGELOG
+﻿VERSION 14 CHANGELOG
+====================
+
+
+
+Reflective Wanderer
+rules_text: When Reflective Wanderer enters the battlefield, create a 1/1 colorless Robot Ranger creature token with remodulate 1. [i](It enters the battlefield with a +1/+1 counter on it. When it dies, put its counters on another creature you control.)[/i] => When Reflective Wanderer enters the battlefield, create a 0/0 colorless Robot Ranger artifact creature token with remodulate 1. [i](It enters the battlefield with a +1/+1 counter on it. When it dies, put its counters on another creature you control.)[/i]
+
+Charioteer of the Gods
+rules_text: Vigilance, flying
+Whenever you cast an Interstellar spell, put a +1/+1 counter on Charioteer of the Gods. => Flying, vigilance
+Whenever you cast an Interstellar spell, put a +1/+1 counter on Charioteer of the Gods.
+
+Drifting Cetecean
+rules_text: Vigilance, flying
+Whenever Drifting Cetecean deals combat damage to a player, draw a card.
+If you would draw a card other than the first one you draw in each of your draw steps, you may spacewar! instead. [i](To spacewar!, encounter the top card of your cosmic deck.)[/i] => Flying, vigilance
+Whenever Drifting Cetecean deals combat damage to a player, draw a card.
+If you would draw a card other than the first one you draw in each of your draw steps, you may spacewar! instead. [i](To spacewar!, encounter the top card of your cosmic deck.)[/i]
+
+Iron Hydrazoa
+rules_text: Vigilance, flying => Flying, vigilance
+
+
+VERSION 13 CHANGELOG
 ====================
 
 Lagrangian Stabilizer added.
