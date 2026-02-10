@@ -5,7 +5,7 @@
 			<name>CLG</name>
 			<longname>Children of Lesser Gods</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-01-24</releasedate>
+			<releasedate>2026-02-10</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -972,7 +972,7 @@ Exile Home to Roost.</text>
 		</card>
 		<card>
 			<name>Callow Willow</name>
-			<text>Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell.)</text>
+			<text>Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell. The copy enters as a token.)</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/56.png" num="42">CLG</set>
 			<prop>
 				<layout>normal</layout>
@@ -1635,7 +1635,7 @@ Whenever one or more +1/+1 counters are put a creature you control, each opponen
 		</card>
 		<card>
 			<name>Ambiguous Amphibuous</name>
-			<text>Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell.)
+			<text>Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell. The copy enters as a token.)
 When Ambiguous Amphibuous enters the battlefield, exile the top card of your library. Until the end of your next turn, you may play that card.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/94.png" num="161">CLG</set>
 			<prop>
@@ -3888,7 +3888,7 @@ When Bargain Driver enters the battlefield, if it was cast, you gain 2 life and 
 		</card>
 		<card>
 			<name>Tagliaterror</name>
-			<text>When Tagliaterror dies, you may search your library for a basic land card, put it into your hand, then shuffle.
+			<text>When Tagliaterror dies, you may search your library for a basic land or Lair card, put it into your hand, then shuffle.
 {2}, {T}, Sacrifice Tagliaterror: You gain 3 life.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/CLG-files/img/223.png" num="246">CLG</set>
 			<prop>
@@ -4013,7 +4013,7 @@ Whenever you cast a spell, Alchemical Guardsman gets +1/+1 until end of turn for
 		</card>
 		<card>
 			<name>Fated Wonder</name>
-			<text>{3}, Sacrifice Fated Wonder: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.</text>
+			<text>{3}, Sacrifice Fated Wonder: Search your library for up to two basic land or Lair cards, put them onto the battlefield tapped, then shuffle.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/CLG-files/img/231.png" num="4">CLG</set>
 			<prop>
 				<layout>normal</layout>
@@ -4277,7 +4277,7 @@ As Night Garden enters the battlefield, you may reveal a white card from your ha
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Land — Plains</type>
+				<type>Land — Plains Lair</type>
 				<maintype>Land</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
@@ -4294,7 +4294,7 @@ As Ritual Site enters the battlefield, you may reveal a blue card from your hand
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Land — Island</type>
+				<type>Land — Island Lair</type>
 				<maintype>Land</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
@@ -4311,7 +4311,7 @@ As Fecund Hovel enters the battlefield, you may reveal a black card from your ha
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Land — Swamp</type>
+				<type>Land — Swamp Lair</type>
 				<maintype>Land</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
@@ -4360,7 +4360,7 @@ As Sorcerous Spire enters the battlefield, you may reveal a red card from your h
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Land — Mountain</type>
+				<type>Land — Mountain Lair</type>
 				<maintype>Land</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
@@ -4377,7 +4377,7 @@ As Brutal Monument enters the battlefield, you may reveal a green card from your
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Land — Forest</type>
+				<type>Land — Forest Lair</type>
 				<maintype>Land</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
