@@ -6,7 +6,7 @@ The **Reimagined Series** is a collection of Magic: The Gathering sets spread ac
 
 ##Reimagined Series
 
-**The Eternal Ice**: Telling the story of Dominaria's frozen past as seen in *Ice Age*, *Alliances*, and *Coldsnap*.
+<img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/AGE-files/icon.png" alt="AGE"/>[**<font color="#004628">The Eternal Ice</font>**](https://grapplex.github.io/previews/AGE): Blood runs cold. In the depths of Terisiare's endless winter, Heidar's rime-mages vow never to let chaos disrupt the purity of ice. Telling the story of Dominaria's frozen past as seen in *Ice Age*, *Alliances*, and *Coldsnap*.
 
 <img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/JMR-files/icon.png" alt="JMR"/>[**<font color="#004628">Jamuraa: The Mirage War</font>**](https://grapplex.github.io/previews/JMR): A new vision of war. Revisiting *Mirage*, *Visions*, and *Weatherlight*, *Jamuraa: The Mirage War* retells the story of the eponymous conflict as mages and empires vie for control of Dominaria's most coveted treasure. 
 
