@@ -1,4 +1,61 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+
+
+Changed Chaplain
+rules_text: When Changed Chaplain enters the battlefield, target opponent loses 2 life and you gain 2 life.
+Compleat {4}{B} [i]({4}{B}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a Phyrexian artifact in addition to its other types. Activate only as a sorcery.)[/i] => When Changed Chaplain enters the battlefield, target opponent loses 2 life and you gain 2 life.
+Compleat {4}{B} [i](You may cast this card from your graveyard for its compleat cost. If you do, it enters the battlefield with a finality counter on it and is a Phyrexian artifact in addition to its other types.)[/i]
+
+Scion of Crovax
+rules_text: Noxious 1 [i](Whenever this creature becomes blocked, defending player gets a poison counter.)[/i]
+Compleat {2}{B} [i]({2}{B}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a Phyrexian artifact in addition to its other types. Activate only as a sorcery.)[/i] => Noxious 1 [i](Whenever this creature becomes blocked, defending player gets a poison counter.)[/i]
+Compleat {2}{B} [i](You may cast this card from your graveyard for its compleat cost. If you do, it enters the battlefield with a finality counter on it and is a Phyrexian artifact in addition to its other types.)[/i]
+
+Cemetery Scrabbler
+rules_text: Reach
+Compleat {2}{B}{B} [i]({2}{B}{B}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a Phyrexian artifact in addition to its other types. Activate only as a sorcery.)[/i] => Reach
+Compleat {2}{B}{B} [i](You may cast this card from your graveyard for its compleat cost. If you do, it enters the battlefield with a finality counter on it and is a Phyrexian artifact in addition to its other types.)[/i]
+
+Corrupted Knotwood
+rules_text: Trample
+Compleat {4}{G}{G} [i]({4}{G}{G}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a Phyrexian artifact in addition to its other types. Activate only as a sorcery.)[/i] => Trample
+Compleat {4}{G}{G} [i](You may cast this card from your graveyard for its compleat cost. If you do, it enters the battlefield with a finality counter on it and is a Phyrexian artifact in addition to its other types.)[/i]
+
+Evolution of Scripture
+rules_text: Target creature card in your graveyard gains compleat until end of turn. Its compleat cost is equal to its mana cost. [i](Pay its compleat cost and exile it from your graveyard: Create a token that's a copy of it, except it's a Phyrexian artifact creature in addition to its other types. Activate only as a sorcery.)[/i] => Target creature card in your graveyard gains compleat until end of turn. Its compleat cost is equal to its mana cost. [i](You may cast it from your graveyard for its compleat cost. If you do, it enters the battlefield with a finality counter on it and is a Phyrexian artifact in addition to its other types.)[/i]
+
+Crawling Carrion
+rules_text: Crawling Carrion can't block.
+Compleat—Pay 2 life [i](Pay 2 life, Exile this card from your graveyard: Create a token that's a copy of it, except it's a Phyrexian artifact in addition to its other types. Activate only as a sorcery.)[/i] => Crawling Carrion can't block.
+Compleat—Pay 2 life [i](You may cast this card from your graveyard for its compleat cost. If you do, it enters the battlefield with a finality counter on it and is a Phyrexian artifact in addition to its other types.)[/i]
+
+Shepherd of Scripture
+rules_text: Noxious 1 [i](Whenever this creature becomes blocked, defending player gets a poison counter.)[/i]
+Compleat {B}{G} [i]({B}{G}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a Phyrexian artifact in addition to its other types. Activate only as a sorcery.)[/i] => Noxious 1 [i](Whenever this creature becomes blocked, defending player gets a poison counter.)[/i]
+Compleat {B}{G} [i](You may cast this card from your graveyard for its compleat cost. If you do, it enters the battlefield with a finality counter on it and is a Phyrexian artifact in addition to its other types.)[/i]
+
+Skittering Injector
+rules_text: When Skittering Injector enters the battlefield, draw a card.
+Compleat {5} [i]({5}, Exile this card from your graveyard: Create a token that's a copy of it, except it's an artifact in addition to its other types. Activate only as a sorcery.)[/i] => When Skittering Injector enters the battlefield, draw a card.
+Compleat {5} [i](You may cast this card from your graveyard for its compleat cost. If you do, it enters the battlefield with a finality counter on it and is an artifact in addition to its other types.)[/i]
+
+Gensis, Oildrinker Heretic
+rules_text: When Gensis, Oildrinker Heretic enters the battlefield, creatures you don't control get -2/-2 until end of turn.
+Compleat {3}{B}{B} [i]({3}{B}{B}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a Phyrexian artifact in addition to its other types. Activate only as a sorcery.)[/i] => When Gensis, Oildrinker Heretic enters the battlefield, creatures you don't control get -2/-2 until end of turn.
+Compleat {3}{B}{B} [i](You may cast this card from your graveyard for its compleat cost. If you do, it enters the battlefield with a finality counter on it and is a Phyrexian artifact in addition to its other types.)[/i]
+
+Overgrown Husk
+rules_text: When Overgrown Husk enters the battlefield, you may put a land card from your hand onto the battlefield tapped.
+Compleat {1}{G}{G} [i]({1}{G}{G}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a Phyrexian artifact in addition to its other types. Activate only as a sorcery.)[/i] => When Overgrown Husk enters the battlefield, you may put a land card from your hand onto the battlefield tapped.
+Compleat {1}{G}{G} [i](You may cast this card from your graveyard for its compleat cost. If you do, it enters the battlefield with a finality counter on it and is a Phyrexian artifact in addition to its other types.)[/i]
+
+Compleat
+type: Token Artifact Creature — Phyrexian => Creature
+
+
+VERSION 4 CHANGELOG
 ====================
 
 Effluence Sump added.
