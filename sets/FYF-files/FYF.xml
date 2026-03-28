@@ -5,14 +5,4030 @@
 			<name>FYF</name>
 			<longname>Yor-Om: Find Your Fate</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-02-15</releasedate>
+			<releasedate>2026-03-28</releasedate>
 		</set>
 	</sets>
 	<cards>
 		<card>
+			<name>Into the Dark // Out of the Dark</name>
+			<text>Exile target nonland permanent.
+
+---
+
+Return target permanent card from your graveyard to the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/0.png" num="236">FYF</set>
+			<prop>
+				<layout>split</layout>
+				<side>front</side>
+				<type>Instant // Sorcery</type>
+				<maintype>Instant</maintype>
+				<manacost>2WB // 3BG</manacost>
+				<cmc>9</cmc>
+				<colors>WB</colors>
+				<coloridentity>WBG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ancient Petroglyph</name>
+			<text>At the beginning of your upkeep, if you control a legendary artifact, a legendary creature, a legendary enchantment, and a legendary planeswalker, you win the game. Otherwise, draw a card.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/1.png" num="238">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tysothak, Violent Inciter</name>
+			<text>Flying, trample, lifelink
+Whenever Tysothak, Violent Inciter deals combat damage to a player, untap each other creature you control with mana value less than or equal to the damage dealt. After this main phase, there is an additional combat phase followed by an additional main phase.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/2.png" num="184">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>4RW</manacost>
+				<cmc>6</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Promise of Tomorrow</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1} — Draw a card. You may put a land card from your hand onto the battlefield.
++ {2}{G} — Distribute X +1/+1 counters among creatures you control, where X is the number of lands you control.
++ {2}{U}{U} — Take an extra turn after this one. Exile The Promise of Tomorrow.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/3.png" num="189">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crossroads of Fate</name>
+			<text>Choose one —
+• Target player takes two extra turns after this one. Exile Crossroads of Fate.
+• You control target player during that player&apos;s next turn. Exile Crossroads of Fate.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/4.png" num="173">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>8UB</manacost>
+				<cmc>10</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pillars of Conformity</name>
+			<text>At the beginning of each player&apos;s upkeep, that player chooses a color. Until end of turn, if a permanent of than a basic land is tapped for mana, it produces one of mana of the chosen color instead of any other type and amount.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/5.png" num="247">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Firetop Hall</name>
+			<text>{T}: Add {C}.
+{6}, {T}: Draw a card. This ability costs {1} less to activate for each other Lair you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/6.png" num="253">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Lair</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Impulse Amplifier</name>
+			<text>If a creature you control attacking or dealing combat damage causes a triggered ability of that creature to trigger, that ability triggers an additional time.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/7.png" num="225">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Viashino Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>1R/W</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Struggle Beyond Time</name>
+			<text>Reveal cards from the top of your library until you reveal X nonland cards, where X is the number of colors mana spent to cast this spell. Exile those cards and put the rest on the bottom of your library in a random order. Until the end of your next turn, you may play those cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/8.png" num="220">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U/R</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Into the Silver Citadel</name>
+			<text>Create a token that&apos;s a copy of target creature you control, except it has &quot;Whenever this creature deals combat damage to a player, draw a card.&quot;</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/9.png" num="229">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G/UG/U</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>An Immortal Duel</name>
+			<text>Whenever you cast a noncreature spell, return target creature card from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/10.png" num="223">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B/GB/G</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Confront an Endless Fear</name>
+			<text>At the beginning of your upkeep, return a creature card with the lowest mana value among creature cards in your graveyard to the battlefield with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/11.png" num="217">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W/BW/B</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Arena of the Ancients</name>
+			<text>Legendary creatures don&apos;t untap during their controllers&apos; untap steps.
+When Arena of the Ancients enters the battlefield, tap all legendary creatures.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/12.png" num="239">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Escape Portal</name>
+			<text>At the beginning of each player&apos;s end step, that player returns a nontoken creature they control with the lowest mana value to their hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/13.png" num="243">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tragic Lyrist</name>
+			<text>{T}, Sacrifice Tragic Lyrist: Return target artifact card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/14.png" num="36">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Acolyte of All Things</name>
+			<text>Lifelink</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/15.png" num="216">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/B</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Outcast Squire</name>
+			<text>Outcast Squire gets +1/+1 as long as you control a legendary creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/16.png" num="25">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warbringer&apos;s Vanguard</name>
+			<text>When Warbringer&apos;s Vanguard enters the battlefield, for each kind of counter on target permanent, put another counter of that kind on it or remove one from it.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/17.png" num="40">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thuul&apos;s Acolyte</name>
+			<text>When Thuul&apos;s Acolyte enters the battlefield, exile up to one other target permanent you control. Return it to the battlefield under its owner&apos;s control at the beginning of the next end step.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/18.png" num="35">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elfling Scout</name>
+			<text>When Elfling Scout enters the battlefield, choose one —
+• Put a +1/+1 counter on Elfling Scout.
+• Return target artifact or enchantment card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/19.png" num="14">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Burnished Ram</name>
+			<text>Impending 3—Tap an untapped white creature you control. (If you cast this spell for its impending cost, it enters with three time counters and isn&apos;t a creature until the last is removed. At the beginning of your end step, remove a time counter from it.)
+Vigilance</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/20.png" num="10">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Goat</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ivory Paladin</name>
+			<text>Impending 3—{W} (If you cast this spell for its impending cost, it enters with three time counters and isn&apos;t a creature until the last is removed. At the beginning of your end step, remove a time counter from it.)
+When Ivory Paladin enters the battlefield, put a +1/+1 counter on target creature you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/21.png" num="21">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hearthbound Sage</name>
+			<text>Vigilance
+When Hearthbound Sage enters the battlefield, you may have target creature you control make an experience check. (Exile a card from your graveyard with mana value greater than that creature&apos;s power to put a +1/+1 counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/22.png" num="17">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Sisters of Prophecy</name>
+			<text>Memory {2}{W} — 2/2 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
+Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/23.png" num="31">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Harpy Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Harried by the Imps</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1} — Tap target creature and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
++ {1}{W} — Destroy target creature if it&apos;s tapped.
++ {B}{R} — Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/24.png" num="16">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>WBR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Banishment Circle</name>
+			<text>When Banishment Circle enters the battlefield, exile target nonland permanent an opponent controls until Banishment Circle leaves the battlefield.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/25.png" num="8">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Legacy of Thuul</name>
+			<text>Choose one —
+• Target creature gets +2/+1 and gains first strike until end of turn.
+• Target creature gets +1/+2 and gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/26.png" num="22">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Through a Sorcerous Portal</name>
+			<text>Choose one —
+• Destroy target artifact.
+• Destroy target enchantment.
+• Exile target card from a graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/27.png" num="34">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pious Drake of Good Omen</name>
+			<text>Flying
+Whenever Pious Drake of Good Omen deals combat damage to a player, search your library for a legendary permanent card with mana value less than or equal to the damage dealt, put that card onto the battlefield, then shuffle.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/28.png" num="27">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Find Your Fate</name>
+			<text>Choose one —
+• Destroy all legendary creatures.
+• Destroy all non-legendary creatures.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/29.png" num="15">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Warbringer&apos;s Seraph</name>
+			<text>Flying, vigilance
+During your turn, Warbringer&apos;s Seraph has double strike.
+{BR}: Warbringer&apos;s Seraph gets +1/+0 until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/30.png" num="39">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spirit Vortex</name>
+			<text>As Spirit Vortex enters the battlefield, choose a nonland permanent type.
+Activated abilities of permanents of the chosen type can&apos;t be activated.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/31.png" num="33">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Heed the Beacon&apos;s Warning</name>
+			<text>Creatures you control get +1/+1.
+Narrative — Whenever you cast a modal or split instant or sorcery spell, put a +1/+1 counter on each creature you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/32.png" num="18">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>In Pursuit of the Warbringer</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1} — Target player creates two 1/1 black Skeleton creature tokens.
++ {BR} — In Pursuit of the Warbringer deals 2 damage to any target.
++ {1}{B}{R} — Destroy target nonland permanent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/33.png" num="20">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>WBR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Paladin of Borrowed Time</name>
+			<text>Whenever Paladin of Borrowed Time enters the battlefield or attacks, you may have target creature you control make an experience check. (Exile a card from your graveyard with mana value greater than that creature&apos;s power to put a +1/+1 counter on it.)
+Each creature you control with two or more counters on it has double strike.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/34.png" num="26">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cleric of the Winds</name>
+			<text>During your turn, white creatures, black creatures, and red creatures you control have flying.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/35.png" num="12">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Roving Adventurer</name>
+			<text>Whenever a creature you control attacks, you may have it make an experience check. (Exile a card from your graveyard with mana value greater than that creature&apos;s power to put a +1/+1 counter on it.)
+Each creature you control with a counter on it gets +1/+1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/36.png" num="30">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Questing Exemplar</name>
+			<text>Whenever Questing Exemplar attacks, you may discard a card or sacrifice another artifact or creature. When you do, Questing Exemplar gains shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/37.png" num="28">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rider on Wings of Dawn</name>
+			<text>Flying, vigilance
+Creatures your opponents control can&apos;t have +1/+1 counters put on them.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/38.png" num="29">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Archon</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Motley Assemblage</name>
+			<text>During your turn, Motley Assemblage has first strike.
+Whenever Motley Assemblage attacks, you may remove two counters from among artifacts and creatures you control. If you do, create a 2/2 red Beast creature token that&apos;s tapped and attacking.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/39.png" num="24">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Nomad</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Legion of the Black Throne</name>
+			<text>Whenever Legion of the Black Throne attacks, you may have it make an experience check. (Exile a card from your graveyard with mana value greater than this creature&apos;s power to put a +1/+1 counter on it.)
+When Legion of the Black Throne dies, create a number of 1/1 black Skeleton creature tokens equal to its power.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/40.png" num="23">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hellkite Crystalkeeper</name>
+			<text>Flying, haste
+Whenever Hellkite Crystalkeeper attacks, you may have it make an experience check. (Exile a card from your graveyard with mana value greater than this creature&apos;s power to put a +1/+1 counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/41.png" num="232">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3WB/R</manacost>
+				<cmc>5</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chaos Rover</name>
+			<text>When Chaos Rover enters the battlefield, choose one. If {B}{R} was spent to cast it, you may choose both instead.
+• Create a 2/2 red Beast creature token.
+• Put a +1/+1 counter on each other creature you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/42.png" num="11">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bronze Beastman</name>
+			<text>Impending 3—{2}{W} (If you cast this spell for its impending cost, it enters with three time counters and isn&apos;t a creature until the last is removed. At the beginning of your end step, remove a time counter from it.)
+When Bronze Beastman enters the battlefield, exile target creature an opponent controls until Bronze Beastman leaves the battlefield.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/43.png" num="9">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Beast Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Iaxon&apos;s Housecarl</name>
+			<text>When Iaxon&apos;s Housecarl enters the battlefield, you may have it make an experience check. (Exile a card from your graveyard with mana value greater than this creature&apos;s power to put a +1/+1 counter on it.)
+Each creature you control with a +1/+1 counter on it has lifelink.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/44.png" num="19">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Vision of Future Triupmh</name>
+			<text>Whenever a nontoken legendary permanent enters the battlefield under your control, choose one —
+• Create a 1/1 white Soldier creature token with lifelink.
+• Put a +1/+1 counter on target creature you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/45.png" num="38">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spectral Confrontation</name>
+			<text>Creatures you control get +2/+1 until end of turn. Each creature you control with a counter on it gains flying until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/46.png" num="32">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Strike Down</name>
+			<text>Destroy target creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/47.png" num="218">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W/BW/B</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stormcarved Ridge</name>
+			<text>{T}, Sacrifice Stormcarved Ridge: Search your library for a basic Mountain, Plains, or Island card, put it onto the battlefield tapped, then shuffle.
+{R}{W}{U}, Discard Stormcarved Ridge: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/48.png" num="260">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Wavesinger</name>
+			<text>When Wavesinger enters the battlefield, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/49.png" num="70">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Devotee of Akathax</name>
+			<text>Vigilance
+When Devotee of Akathax enters the battlefield, you may have it make an experience check. (Exile a card from your graveyard with mana value greater than this creature&apos;s power to put a +1/+1 counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/50.png" num="50">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Gorgon Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Iaxon&apos;s Architect</name>
+			<text>As Iaxon&apos;s Architect enters the battlefield, choose a basic land type.
+Lands you control are the chosen type in addition to their other types.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/51.png" num="56">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Benthic Guardian</name>
+			<text>Vigilance
+Narrative — Whenever you cast a modal or split instant or sorcery spell, put a +1/+1 counter on Benthic Guardian.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/52.png" num="46">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skybound Sage</name>
+			<text>Flying
+Skybound Sage gets +1/+1 as long as you control a legendary creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/53.png" num="63">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Barque of Akathax</name>
+			<text>Impending 4—{1}{U} (If you cast this spell for its impending cost, it enters with four time counters and isn&apos;t a creature until the last is removed. At the beginning of your end step, remove a time counter from it.)
+Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/54.png" num="45">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Constuct</type>
+				<maintype>Creature</maintype>
+				<manacost>5U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Resplendent Watcher</name>
+			<text>Flying
+When Resplendent Watcher enters the battlefield, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/55.png" num="60">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sphinx</type>
+				<maintype>Creature</maintype>
+				<manacost>5U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>On the Threshold of Time</name>
+			<text>Target creature gets +1/+1 and gains shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/56.png" num="230">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G/U</manacost>
+				<cmc>1</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Face a Raging River</name>
+			<text>Spree (Choose one or more additional costs.)
++ {2} — Target player draws two cards, then discards a card.
++ {1}{U} — Counter target spell.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/57.png" num="53">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gameral&apos;s Prysight</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1} — Surveil 1, then draw a card. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)
++ {1} — Draw a card, then discard a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/58.png" num="55">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vision of Another Future</name>
+			<text>Choose one —
+• Scry 4, then draw two cards.
+• Draw three cards.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/59.png" num="67">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ocean&apos;s Grip</name>
+			<text>Enchant creature
+When Ocean&apos;s Grip enters the battlefield, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+Enchanted creature loses all abilities and is a green Octopus creature with base power and toughness 1/1.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/60.png" num="59">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tides of Treachery</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1} — Return target creature to its owner&apos;s hand.
++ {2} — Target creature&apos;s owner puts it on their choice of the top or bottom of their library.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/61.png" num="65">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Skeins of Futures Past</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1} — Target player mills four cards
++ {1}{U} — Return target instant or sorcery card from your graveyard to your hand.
++ {R}{G} — Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/62.png" num="62">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>URG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Catch the Mist // Catch the Myth</name>
+			<text>Search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.
+
+---
+
+Draw X cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/63.png" num="71">FYF</set>
+			<prop>
+				<layout>split</layout>
+				<side>front</side>
+				<type>Instant // Sorcery</type>
+				<maintype>Instant</maintype>
+				<manacost>3U // XUU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bane of Scholars</name>
+			<text>Flying, vigilance, prowess
+Narrative — Whenever you cast a modal or split instant or sorcery spell, you may pay {1}{RG}. When you do, Bane of Scholars fights target creature an opponent controls.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/64.png" num="44">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Manticore</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vortex Tyrant</name>
+			<text>Vortex Tyrant can&apos;t be blocked by nonlegendary creatures.
+Narrative — Whenever you cast a modal or split instant or sorcery spell, draw two cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/65.png" num="68">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Kraken</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/8</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shared Fate</name>
+			<text>If a player would draw a card, that player exiles the top card of one of their opponents&apos; libraries face down instead.
+Each player may look at cards they exiled with Shared Fate, and they may play lands and cast spells from among those cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/66.png" num="61">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Caught in the Act</name>
+			<text>Choose a color. Return all blue creatures and all creatures of the chosen color to their owners&apos; hands.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/67.png" num="48">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Awoken Pteropterix</name>
+			<text>Flying
+Narrative — Whenever you cast a modal or split instant or sorcery spell, create a token that&apos;s a copy of Awoken Pteropterix.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/68.png" num="42">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Dinosaur</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Empyreoplasm</name>
+			<text>Empyreoplasm has hexproof as long as it has no counters on it and no permanents attached to it.
+Empyreoplasm can&apos;t be blocked.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/69.png" num="52">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mirrordrake Rider</name>
+			<text>This spell costs {1} less to cast for each noncreature, nonland card in your graveyard.
+Flying</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/70.png" num="58">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>5UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Azure Cloudthresher</name>
+			<text>Flying
+When Azure Cloudthresher enters the battlefield, search your library for a modal instant or sorcery card or a split card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/71.png" num="43">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Armored Daredevil</name>
+			<text>When Armored Daredevil enters the battlefield, choose one. If {R}{G} was spent to cast it, you may choose both instead.
+• Target creature gets -4/-0 until end of turn.
+• Switch target creature&apos;s power and toughness until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/72.png" num="41">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Echo of Time // Echo of Form</name>
+			<text>Copy target instant or sorcery spell. You may choose new targets for the copy.
+
+---
+
+Create a token that&apos;s a copy of target artifact, creature, or land.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/73.png" num="72">FYF</set>
+			<prop>
+				<layout>split</layout>
+				<side>front</side>
+				<type>Instant // Sorcery</type>
+				<maintype>Instant</maintype>
+				<manacost>2U // 3UU</manacost>
+				<cmc>8</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Brainsurge</name>
+			<text>Draw four cards, then put two cards from your hand on top of your library in any order.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/74.png" num="47">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Spellgyre</name>
+			<text>Choose one —
+• Counter target spell.
+• Surveil 2, then draw two cards. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/75.png" num="64">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cower Before the Light</name>
+			<text>Spree (Choose one or more additional costs.)
++ {U} — Counter target noncreature spell.
++ {1} — Tap target creature and put a stun counter on it.
++ {0} — Target creature you control gains hexproof until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/76.png" num="49">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>To Arms // To the Winds</name>
+			<text>Put a +1/+1 counter on target creature. It gains hexproof and shielded until end of turn. (Prevent all damage that would be dealt to it.)
+
+---
+
+Choose two target creatures controlled by different players. Return those creatures to their owners&apos; hands.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/77.png" num="73">FYF</set>
+			<prop>
+				<layout>split</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U // 2U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Timeless Wisdom</name>
+			<text>Draw two cards. When you do, up to one target creature gets +X/+X until end of turn, where X is the number of cards in your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/78.png" num="234">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UR/G</manacost>
+				<cmc>3</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Legacy of Akathax</name>
+			<text>When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new modes and targets for the copy. If that spell is a split spell or a modal instant or sorcery spell, you may copy it twice instead.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/79.png" num="219">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U/R</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Black Throne Supplicant</name>
+			<text>Whenever Black Throne Supplicant attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/80.png" num="75">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prodigal Heir</name>
+			<text>Whenever this creature attacks, other creatures you control get +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/81.png" num="227">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1R/W</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Keeper of the Vault</name>
+			<text>Whenever an artifact is put into your graveyard from the battlefield, each opponent loses 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/82.png" num="90">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Labyrinth Revenant</name>
+			<text>Menace
+Labyrinth Revenant gets +1/+1 as long as you control a legendary creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/83.png" num="92">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Minotaur</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pewter Spitewing</name>
+			<text>Impending 3—{B} (If you cast this spell for its impending cost, it enters with three time counters and isn&apos;t a creature until the last is removed. At the beginning of your end step, remove a time counter from it.)
+Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/84.png" num="97">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Firetop Marauders</name>
+			<text>When Firetop Marauders enters the battlefield, choose one —
+• You draw a card and you lose 1 life.
+• Each opponent loses 2 life and you gain 2 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/85.png" num="89">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wilderness Rover</name>
+			<text>Menace
+When Wilderness Rover enters the battlefield, you may have it make an experience check. (Exile a card from your graveyard with mana value greater than this creature&apos;s power to put a +1/+1 counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/86.png" num="136">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fiend of Dark Bargains</name>
+			<text>Flying
+When Fiend enters the battlefield, choose one —
+• Each opponent loses 1 life and you gain 1 life.
+• Target creature gets -1/-1 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/87.png" num="87">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Lords of Mount Elsewhere</name>
+			<text>Memory {3}{B} — 3/3 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
+Menace</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/88.png" num="93">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Yeti Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Under a Low, Cold Sun</name>
+			<text>Choose one —
+• Target creature gets -2/-2 until end of turn.
+• Remove up to two counters from target permanent.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/89.png" num="102">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Undying Malice</name>
+			<text>Until end of turn, target creature gains &quot;When this creature dies, return it to the battlefield tapped under its owner&apos;s control with a +1/+1 counter on it.&quot;</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/90.png" num="103">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Breach the Unquiet Tomb</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1} — Target player creates a 1/1 black Skeleton creature token.
++ {3}{B} — Destroy target creature.
++ {G}{W} — Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/91.png" num="76">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>WBG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dungeon&apos;s Prize</name>
+			<text>Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/92.png" num="84">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wrong Choice</name>
+			<text>As an additional cost to cast this spell, sacrifice an artifact or creature.
+Exile target creature or planeswalker.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/93.png" num="105">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Seize What Is Yours</name>
+			<text>Choose one or both —
+• Sacrifice an artifact. If you do, draw two cards.
+• Sacrifice a creature. If you do, draw two cards.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/94.png" num="100">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scream Bloody Gore</name>
+			<text>Until end of turn, whenever a creature you control dies, each other player sacrifices a creature of their choice.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/95.png" num="99">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Whispers of What Once Was</name>
+			<text>At the beginning of your upkeep, exile a card at random from your graveyard. You lose life equal to its mana value. Until end of turn, you may play that card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/96.png" num="104">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fiend of Mount Elsewhere</name>
+			<text>Flying
+Whenever a player casts a modal spell, you draw X cards and you lose X life, where X is the number of times a mode was chosen for that spell.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/97.png" num="88">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Destiny, Give Me a Day</name>
+			<text>All creatures get -1/-1 until end of turn for each land you control with a basic land type.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/98.png" num="82">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Disciple of Hargau</name>
+			<text>Deathtouch, lifelink
+Whenever you gain life, you may pay {2}{GW}. When you do, put X +1/+1 counters on Disciple of Hargau, where X is the amount of life you gained.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/99.png" num="83">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brod&apos;s Gravethief</name>
+			<text>When Brod&apos;s Gravethief enters the battlefield, exile target artifact card from your graveyard. You may cast that card for as long as it remains exiled. If you cast a spell this way, pay life equal to its mana value rather than pay its mana cost.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/100.png" num="77">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chaos Armor</name>
+			<text>Flying
+Whenever Chaos Armor enters the battlefield or attacks, draw a card. Then you lose 1 life unless you control a green permanent, and you lose 1 life unless you control a white permanent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/101.png" num="78">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ebony-Bone Maquette</name>
+			<text>Impending 2—{4}{B} (If you cast this spell for its impending cost, it enters with two time counters and isn&apos;t a creature until the last is removed. At the beginning of your end step, remove a time counter from it.)
+When Ebony-Bone Maquette enters the battlefield, each player sacrifices a creature of their choice.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/102.png" num="85">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Skeleton</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Young Necromancer</name>
+			<text>When Young Necromancer enters the battlefield, you may exile two cards from your graveyard. When you do, return target creature card from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/103.png" num="106">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tempting Fiend</name>
+			<text>Flying
+At the beginning of your upkeep, you lose 1 life and create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/104.png" num="101">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Moldering Gentry</name>
+			<text>When Moldering Gentry enters the battlefield, choose one —
+• You may have Moldering Gentry make an experience check. (Exile a card from your graveyard with mana value greater than this creature&apos;s power to put a +1/+1 counter on it.)
+• Remove up to three counters from target permanent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/105.png" num="95">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sandstone Savage</name>
+			<text>Impending 2—{1}{B} (If you cast this spell for its impending cost, it enters with two time counters and isn&apos;t a creature until the last is removed. At the beginning of your end step, remove a time counter from it.)
+You may cast Sandstone Savage from your graveyard for its impending cost.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/106.png" num="98">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dark Summoner</name>
+			<text>When Dark Summoner enters the battlefield, choose one. If {G}{W} was spent to cast it, you may choose both instead.
+• Return target creature card from your graveyard to your hand.
+• Target opponent reveals their hand. You choose a creature card from it. That player discards that card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/107.png" num="80">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pestilent Haze</name>
+			<text>Choose one —
+• All creatures get -2/-2 until end of turn.
+• Remove two loyalty counters from each planeswalker.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/108.png" num="96">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Make Demands</name>
+			<text>Search your library for two cards, put one of them into your hand, one of them into your graveyard, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/109.png" num="94">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Eerie Monolith</name>
+			<text>{B}, {T}, Sacrifice an artifact or creature: You gain 1 life and draw a card. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/110.png" num="86">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Deadly Derision</name>
+			<text>Destroy target creature or planeswalker. Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/111.png" num="81">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ignominious End</name>
+			<text>Target creature gets -3/-3 until end of turn. You gain 3 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/112.png" num="233">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>BG/W</manacost>
+				<cmc>2</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ritual of New Life</name>
+			<text>Return up to two target creature cards from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/113.png" num="224">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B/G</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Foolhardy Adventurer</name>
+			<text>Haste
+Foolhardy Adventurer gets +1/+1 as long as you control a legendary creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/114.png" num="123">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Copper Cavalier</name>
+			<text>Impending 5—{B} (If you cast this spell for its impending cost, it enters with five time counters and isn&apos;t a creature until the last is removed. At the beginning of your end step, remove a time counter from it.)
+When Copper Cavalier enters the battlefield, you draw a card and you lose 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/115.png" num="79">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dragontamer Apprentice</name>
+			<text>When Dragontamer Apprentice enters the battlefield, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/116.png" num="119">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hate-Dreamer&apos;s Familiar</name>
+			<text>{1}{R}: Hate-Dreamer&apos;s Familiar makes an experience check. (Exile a card from your graveyard with mana value greater than this creature&apos;s power to put a +1/+1 counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/117.png" num="126">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Familiar of Zuvas</name>
+			<text>Noncreature spells you cast cost {R} (or {1}) less to cast.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/118.png" num="121">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Gremlin</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wrathful Ignificus</name>
+			<text>When Wrathful Ignificus enters the battlefield, choose one —
+• Put a +1/+1 counter on Wrathful Ignificus.
+• Wrathful Ignificus gains haste and menace until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/119.png" num="137">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bifurcated Brute</name>
+			<text>Menace
+When Bifurcated Brute enters the battlefield, choose one —
+• Put a +1/+1 counter on Bifurcated Brute.
+• Target creature can&apos;t block this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/120.png" num="108">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Citadel Deathweb</name>
+			<text>Reach, trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/121.png" num="113">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Scourge of Man</name>
+			<text>Memory {2}{R} — 3/2 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
+Trample, reach</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/122.png" num="130">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Lizard</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Charge Over // Charge Past</name>
+			<text>Charge Over deals 2 damage to any target.
+
+---
+
+Up to three target creatures can&apos;t block this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/123.png" num="138">FYF</set>
+			<prop>
+				<layout>split</layout>
+				<side>front</side>
+				<type>Instant // Sorcery</type>
+				<maintype>Instant</maintype>
+				<manacost>R // 3R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Under Death&apos;s Hollow Gaze</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1} — Target creature gets +1/+0 and gains first strike until end of turn.
++ {1}{R} — Target creature gains double strike until end of turn.
++ {W}{U} — Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/124.png" num="134">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>WUR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Urgent Preparation</name>
+			<text>As an additional cost to cast this spell, discard a card.
+Draw two cards.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/125.png" num="221">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U/R</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deep in the Ancient Mines</name>
+			<text>Spree (Choose one or more additional costs.)
++ {2} — Deep in the Ancient Mines deals 3 damage to any target.
++ {2} — Destroy target artifact.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/126.png" num="117">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Iaxon&apos;s Wrath</name>
+			<text>Choose one —
+• Iaxon&apos;s Wrath deals 4 damage to target creature or battle.
+• Iaxon&apos;s Wrath deals 6 damage to target planeswalker.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/127.png" num="127">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Confront the Acid-Wyrm</name>
+			<text>Confront the Acid-Wyrm deals 6 damage to target creature, planeswalker, or battle. Up to one target creature you control makes an experience check. (Exile a card from your graveyard with mana value greater than that creature&apos;s power to put a +1/+1 counter on it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/128.png" num="114">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cruel Incinerator</name>
+			<text>Flying, trample
+Whenever Cruel Incinerator deals combat damage to a player, you may have it make an experience check. When you put a counter on Cruel Incinerator this way, it deals damage equal to its power to each creature and planeswalker that player controls. (To make a successful experience check, exile a card from your graveyard with mana value greater than this creature&apos;s power to put a +1/+1 counter on it.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/129.png" num="115">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Caught in the Hate-Dream</name>
+			<text>Choose one or more —
+• Caught in the Hate-Dream deals 3 damage to each creature.
+• Caught in the Hate-Dream deals 3 damage to each planeswalker.
+• Caught in the Hate-Dream deals 3 damage to each battle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/130.png" num="112">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Slumbering Dragon</name>
+			<text>Flying
+Slumbering Dragon can&apos;t attack or block unless it has five or more +1/+1 counters on it.
+Whenever a creature attacks you or a planeswalker you control, put a +1/+1 counter on Slumbering Dragon.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/131.png" num="133">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ornery Boglim</name>
+			<text>Ornery Boglim can&apos;t attack or block unless you&apos;ve cast a noncreature spell this turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/132.png" num="129">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Firetop Scavenger</name>
+			<text>Haste
+Whenever Firetop Scavenger attacks, you may pay {WU}. When you do, tap target creature an opponent controls.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/133.png" num="122">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Nomad</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Decree of the Boglim King</name>
+			<text>Whenever you attack, put a +1/+1 counter on a red creature you control, a +1/+1 counter on a white creature you control, and a +1/+1 counter on a blue creature you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/134.png" num="116">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Archfiend&apos;s Charm</name>
+			<text>Choose one —
+• Target creature you control deals damage equal to its power to any other target.
+• Each of up to two target creatures gain double strike until end of turn.
+• Discard your hand, then draw three cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/135.png" num="107">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>RRR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Diviner of Zuvas</name>
+			<text>Whenever Diviner of Zuvas deals combat damage to a player, exile the top card of your library. When you do, choose one —
+• You may play that card this turn.
+• Put a +1/+1 counter on Diviner of Zuvas.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/136.png" num="118">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>From the Hellkite&apos;s Nest</name>
+			<text>Until end of turn, each of up to two target creatures you control become red Dragons with base power and toughness 4/4 and gain flying.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/137.png" num="124">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Black Throne Marauders</name>
+			<text>Narrative — Whenever you cast a modal or split instant or sorcery spell, Black Throne Marauders gains trample and haste until end of turn. If this is the second time this ability has resolved this turn, Black Throne Marauders gains double strike until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/138.png" num="109">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Slavering Gargant</name>
+			<text>Menace
+{2}, Discard Slavering Gargant: Put a +1/+1 counter on target creature. It gains menace until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/139.png" num="132">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Leviathan</type>
+				<maintype>Creature</maintype>
+				<manacost>5RR</manacost>
+				<cmc>7</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Boglim Warband</name>
+			<text>When Boglim Warband enters the battlefield or attacks, you may discard a card. If you do, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/140.png" num="110">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elven Bloodwitch</name>
+			<text>When Elven Bloodwitch enters the battlefield, choose one. If {W}{U} was spent to cast it, you may choose both instead.
+• Create two 1/1 black Skeleton creature tokens.
+• Creatures you control get +1/+0 and gain haste until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/141.png" num="120">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Burning Intrigue</name>
+			<text>At the beginning of combat on your turn, you may discard a card. If you do, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/142.png" num="111">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Inexorable Horde</name>
+			<text>When Inexorable Horde enters the battlefield, you may discard a nonland card. If you do, draw a card.
+Whenever you discard one or more cards, put that many +1/+1 counters on Inexorable Horde.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/143.png" num="128">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fury of the Hate-Dreamer</name>
+			<text>This spell costs {2} less to cast if you control a creature with a +1/+1 counter on it.
+Fury of the Hate-Dreamer deals 2 damage to each creature and each planeswalker. Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/144.png" num="125">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vision of Akathax</name>
+			<text>Creatures you control get +2/+0 and gain flying until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/145.png" num="235">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RW/U</manacost>
+				<cmc>4</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Khulut&apos;s Wrath</name>
+			<text>Khulut&apos;s Wrath deals 4 damage to target attacking or blocking creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/146.png" num="226">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R/W</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Horde&apos;s Rage // Horde&apos;s Rebellion</name>
+			<text>Horde&apos;s Rage deals 4 damage to target creature, planeswalker, or battle.
+
+---
+
+Creatures you control get +2/+0 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/147.png" num="139">FYF</set>
+			<prop>
+				<layout>split</layout>
+				<side>front</side>
+				<type>Sorcery // Instant</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R // 3R</manacost>
+				<cmc>7</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Placid Seraphrog</name>
+			<text>Reach
+{T}: Add one mana of any color.
+{2}: Placid Seraphrog gains deathtouch until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/148.png" num="157">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Frog Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Priest of Brod</name>
+			<text>{2}{G}: Priest of Brod gets +2/+2 until end of turn. Activate only once each turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/149.png" num="158">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shade Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Autumnal Steed</name>
+			<text>Trample
+When Autumnal Steed enters the battlefield, choose one —
+• You may put a basic land card from your hand onto the battlefield tapped.
+• Put a +1/+1 counter on Autumnal Steed.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/150.png" num="140">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Orc Warband</name>
+			<text>Trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/151.png" num="156">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Savage Rabble</name>
+			<text>You may cast this spell as though it had flash by tapping two untapped artifacts you control as an additional cost to cast it.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/152.png" num="162">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ycct&apos;s Chamberlain</name>
+			<text>When Ycct&apos;s Chamberlain enters the battlefield, choose one —
+• Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+• You may put a land card from your hand onto the battlefield.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/153.png" num="171">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Soom Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thuul&apos;s Scavengers</name>
+			<text>When Thuul&apos;s Scavengers enters the battlefield, choose creature or land, then reveal the top three cards of your library. Put all cards of the chosen type revealed this way into your hand and the rest into your graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/154.png" num="168">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Triumphant Brute</name>
+			<text>Triumphant Brute gets +1/+1 as long as you control a legendary creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/155.png" num="169">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thogagog the Conjured</name>
+			<text>Memory {1}{G} — 2/2 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
+Trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/156.png" num="166">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Troll Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Taxidermied Necroghast</name>
+			<text>Impending 7—{G} (If you cast this spell for its impending cost, it enters with seven time counters and isn&apos;t a creature until the last is removed. At the beginning of your end step, remove a time counter from it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/157.png" num="165">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Skeleton Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Forceful Interruption</name>
+			<text>Target creature you control deals damage equal to its power to another target creature, planeswalker, or battle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/158.png" num="222">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B/G</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dragon&apos;s Vengeance</name>
+			<text>Choose one —
+• Target creature you control deals damage to equal to its power to another target creature.
+• Dragon&apos;s Vengeance deals 4 damage to target creature with flying.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/159.png" num="147">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Quest into Exotic Lands</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1} — Target creature gets +2/+2 and gains trample until end of turn.
++ {1} — Target creature gets +2/+2 and gains trample until end of turn.
++ {U}{B} — Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/160.png" num="159">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>UBG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Splendor of Ancient Days</name>
+			<text>Enchant land
+When Splendor of Ancient Days enters the battlefield, draw a card.
+Enchanted land has &quot;{T}: Create a Treasure token.&quot; (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/161.png" num="164">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Awaiting the Rightful Heir</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1} — Mill three cards.
++ {G} — You may return a creature card from your graveyard to your hand.
++ {G} — You may return a land card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/162.png" num="141">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Everything, Protean Clay</name>
+			<text>Whenever Everything, Protean Clay enters the battlefield or attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+{X}, Exile a creature card with mana value X or less from a graveyard: Everything becomes a copy of the exiled card, except it&apos;s still legendary and has this ability. Activate only as a sorcery.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/163.png" num="148">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Shapeshifter</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hyperboria</name>
+			<text>At the beginning of each opponent&apos;s end step, if that player didn&apos;t attack, cast a spell, or put a nontoken permanent onto the battlefield this turn, you draw a card and create a 2/2 red Beast creature token.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/164.png" num="149">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Metamorphosis</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Add X mana of any one color, where X is 1 plus the sacrificed creature&apos;s mana value. Spend this mana only to cast creature spells.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/165.png" num="152">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ravenous Viashino</name>
+			<text>Trample
+Each creature you control with toughness greater than its power assigns combat damage equal to its toughness rather than its power.
+{1}{UB}: Ravenous Viashino gains flying until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/166.png" num="160">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Viashino Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>2/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thogagog&apos;s Reaver</name>
+			<text>Trample, haste
+Whenever you cast a blue spell or a black spell, put a +1/+1 counter on Thogagog&apos;s Reaver.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/167.png" num="167">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chaos Exemplar</name>
+			<text>Vigilance, reach, deathtouch</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/168.png" num="144">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>World Reaver</name>
+			<text>When World Reaver enters the battlefield, if it was cast, choose one —
+• Destroy target nonbasic land.
+• Search your library for a Forest card, put that card onto the battlefield tapped, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/169.png" num="170">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mossborn Dead</name>
+			<text>Whenever Mossborn Dead deals combat damage to a player, put that many +1/+1 counters on it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/170.png" num="153">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Magic Mushroom</name>
+			<text>When Magic Mushroom enters the battlefield, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+Whenever an artifact you control enters the battlefield, you gain 1 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/171.png" num="151">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nachtwood Outcast</name>
+			<text>Vigilance, trample, reach
+Narrative — Whenever you cast a split or modal instant or sorcery spell, put a +1/+1 counter on Nachtwood Outcast.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/172.png" num="154">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gateway Lich</name>
+			<text>Gateway Lich can&apos;t be blocked by creatures with power 2 or less.
+When Gateway Lich enters the battlefield, look at target player&apos;s hand. You may put a land card from it onto the battlefield tapped under your control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/173.png" num="231">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2GU/B</manacost>
+				<cmc>4</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ycct&apos;s Legion</name>
+			<text>Spree (Choose one or more additional costs.)
++ {G} — Create a 3/3 green Soom creature token.
++ {1}{G} — Create a 3/3 green Soom creature token.
++ {2}{G} — Create a 3/3 green Soom creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/174.png" num="172">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bonegrove Nurturer</name>
+			<text>When Bonegrove Nurturer enters the battlefield, choose one. If {U}{B} was spent to cast it, you may choose both instead.
+• You may put a land card from your hand onto the battlefield.
+• Put a +1/+1 counter on Bonegrove Nurturer.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/175.png" num="142">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Catch the Falling Light</name>
+			<text>Distribute four +1/+1 counters among up to four target creatures you control. Creatures you control gain vigilance and trample until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/176.png" num="143">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Confront the Duskprowler</name>
+			<text>Target creature you control deals damage equal to its power to each of two other target creatures.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/177.png" num="145">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Legacy of Ancient Power</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1} — Destroy target artifact.
++ {1} — Destroy target enchantment.
++ {2}{G} — Destroy target land.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/178.png" num="150">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ancient Power</name>
+			<text>Whenever you cast a spell, if 5 or more mana was spent to cast it, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/179.png" num="228">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G/U</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Yiven the Illustrated</name>
+			<text>Vigilance
+If you would lose unspent green or blue mana, that mana becomes colorless instead.
+{T}: Add {G}{U}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/180.png" num="190">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artist</type>
+				<maintype>Creature</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gulp</name>
+			<text>Exile target permanent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/181.png" num="197">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>BGW</manacost>
+				<cmc>3</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Grith, a Dying Breed</name>
+			<text>Whenever you cast an instant or sorcery spell that targets only a single creature you control, you may pay {3}. If you do, copy that spell for each other permanent the spell could target. Each copy targets a different one of those permanents.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/182.png" num="183">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Scion Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soul Parry</name>
+			<text>Counter target spell. When you do, Soul Parry deals damage equal to that spell&apos;s mana value to up to one target creature, planeswalker, or battle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/183.png" num="209">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>RWU</manacost>
+				<cmc>3</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tyrant&apos;s Prize</name>
+			<text>You can&apos;t cast this spell during the first four turns of the game.
+Return target permanent card from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/184.png" num="211">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GUB</manacost>
+				<cmc>4</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fervent Charge</name>
+			<text>Whenever a creature you control attacks, it gets +2/+2 until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/185.png" num="195">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WBR</manacost>
+				<cmc>4</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Overwhelming Force</name>
+			<text>Creatures you control get +X/+X, where X is the total amount of mana you&apos;ve spent to cast spells this turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/186.png" num="206">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>URG</manacost>
+				<cmc>3</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Shrine to Yesterday</name>
+			<text>Whenever Shrine to Yesterday or another artifact enters the battlefield under your control, each opponent loses 1 life and you gain 1 life.
+{T}, Tap two untapped artifacts you control: Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/187.png" num="208">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>BGW</manacost>
+				<cmc>3</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Kuwal, Mirror-Blessed</name>
+			<text>During your turn Kuwal, Mirror-Blessed has double strike.
+Whenever a creature dies, if its power was greater than Kuwal&apos;s power, put a +1/+1 counter on Kuwal.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/188.png" num="176">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kulk, Born of Dragonblood</name>
+			<text>Vigilance
+Whenever you cast an instant or sorcery spell, you may have Kulk, Born of Dragonblood become an X/X Dragon creature with flying until end of turn, where X is the greatest mana value among cards in your graveyard.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/189.png" num="178">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Viashino Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Into Glory // Into Despair</name>
+			<text>Create two 1/1 white Warrior creature tokens. Until end of turn, creatures you control get +1/+1 and gain vigilance and haste.
+
+---
+
+Counter target noncreature spell. Into Despair deals 2 damage to that spell&apos;s controller.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/190.png" num="215">FYF</set>
+			<prop>
+				<layout>split</layout>
+				<side>front</side>
+				<type>Sorcery // Instant</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RWU // RWU</manacost>
+				<cmc>8</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Twin Tusks of Gunragao</name>
+			<text>At the beginning of each end step, if you&apos;ve spent X or more total mana this turn, where X is Twin Tusks of Gunragao&apos;s power, put a +1/+1 counter on Twin Tusks of Gunragao and draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/191.png" num="210">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>GUB</manacost>
+				<cmc>3</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Opportunistic Warband</name>
+			<text>Deathtouch, lifelink
+Whenever you put one or more counters on another permanent you control, Opportunistic Warband deals 1 damage to each opponent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/192.png" num="205">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1WBR</manacost>
+				<cmc>4</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Iaxon&apos;s Blessing</name>
+			<text>Choose one —
+• Draw two cards.
+• When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new modes and targets for the copy.
+• Return target card not named Iaxon&apos;s Blessing from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/193.png" num="198">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>URG</manacost>
+				<cmc>3</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Skolk the Dragonraiser</name>
+			<text>When Skolk the Dragonraiser enters the battlefield, return target permanent card from your graveyard to the battlefield with a gold counter on it. It&apos;s an artifact in addition to its other types.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/194.png" num="182">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Viashino Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>5BG</manacost>
+				<cmc>7</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bronze Seraph</name>
+			<text>Impending 3—{W}{B} (If you cast this spell for its impending cost, it enters with three time counters and isn&apos;t a creature until the last is removed. At the beginning of your end step, remove a time counter from it.)
+Flying, lifelink</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/195.png" num="175">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prophecy Stone</name>
+			<text>When Prophecy Stone enters the battlefield and whenever you cast an artifact spell, choose one —
+• Create a 1/1 black Skeleton creature token.
+• Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/196.png" num="181">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Akathax&apos;s Siren</name>
+			<text>When Akathax&apos;s Siren enters the battlefield, draw a card.
+{T}: Add {G}{U}. Spend this mana only to cast modal spells or pay spree costs.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/197.png" num="187">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brave Charge // Craven Ambush</name>
+			<text>Brave Charge deals 2 damage to target creature, planeswalker, or battle.
+Draw a card.
+
+---
+
+Draw two cards. Then you may discard a nonland card. When you do, Craven Ambush deals 4 damage to target player.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/198.png" num="179">FYF</set>
+			<prop>
+				<layout>split</layout>
+				<side>front</side>
+				<type>Instant // Sorcery</type>
+				<maintype>Instant</maintype>
+				<manacost>UR // 4UR</manacost>
+				<cmc>8</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Looming Spires // Looming Spooks</name>
+			<text>You gain 2 life. Then you may discard a card. If you do, draw two cards
+
+---
+
+Create two 2/2 red Beast creature tokens.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/199.png" num="186">FYF</set>
+			<prop>
+				<layout>split</layout>
+				<side>front</side>
+				<type>Instant // Sorcery</type>
+				<maintype>Instant</maintype>
+				<manacost>RW // 3RW</manacost>
+				<cmc>7</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bestial Guardian</name>
+			<text>When Bestial Guardian enters the battlefield, you may exile a card from your graveyard. When you do, Bestial Guardian deals X damage divided as you choose between up to one target creature and up to one target planeswalker or battle, where X is the exiled card&apos;s mana value.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/200.png" num="192">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Satyr Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1RWU</manacost>
+				<cmc>4</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Consult the Mirrorhall</name>
+			<text>Whenever you tap a permanent for mana, you lose 1 life and add an additional {C}.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/201.png" num="194">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1GUB</manacost>
+				<cmc>4</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Necromantic Paladin</name>
+			<text>Menace
+Whenever Necromantic Paladin attacks, draw a card, then discard a card. When you do, you may have Necromantic Paladin make an experience check. (Exile a card from your graveyard with mana value greater than this creature&apos;s power to put a +1/+1 counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/202.png" num="203">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>WBR</manacost>
+				<cmc>3</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reaver of the Dragon</name>
+			<text>Narrative — Whenever you cast a modal or split instant or sorcery spell, reveal the top three cards of your library. You may put a land card from among them onto the battlefield tapped. If you don&apos;t, put a nonland card from among them into your hand. Put the rest on the bottom of your library in a random order.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/203.png" num="207">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1URG</manacost>
+				<cmc>4</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wight Regent</name>
+			<text>Menace, lifelink
+Whenever a nontoken artifact enters the battlefield under your control, put a +1/+1 counter on Wight Regent and draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/204.png" num="212">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>BGW</manacost>
+				<cmc>3</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Black Throne Revenant</name>
+			<text>Lifelink
+{T}, Remove a counter from an artifact or creature you control: You draw a card and you lose 1 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/205.png" num="174">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Infernal Custodian</name>
+			<text>Flying
+When Infernal Custodian enters the battlefield, choose one —
+• Return target permanent card from your graveyard to your hand.
+• Sacrifice an artifact. When you do, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/206.png" num="180">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>3BG</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Into the Wyvern&apos;s Lair</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1} — Until end of turn, whenever a creature enters the battlefield under your control, draw a card.
++ {1} — Create a 3/3 green Soom creature token.
++ {G}{U} — Create a token that&apos;s a copy of a creature you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/207.png" num="188">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Brash Moonreader</name>
+			<text>{T}, Discard a card: Draw a card
+Narrative — Whenever you cast a modal or split instant or sorcery spell, untap Brash Moonreader.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/208.png" num="177">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Nomad</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wyrmslayer Mage</name>
+			<text>Haste
+Whenever Wyrmslayer Mage deals combat damage to a player, you may have it make an experience check. (Exile a card from your graveyard with mana value greater than this creature&apos;s power to put a +1/+1 counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/209.png" num="185">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wandering Mage</name>
+			<text>When Wandering Mage enters the battlefield or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/210.png" num="7">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Equine Raider</name>
+			<text>When Equine Raider enters the battlefield, choose one. Choose both instead if three or more colors of mana were spent to cast it.
+• Put a +1/+1 counter on Equine Raider.
+• Put a menace counter on Equine Raider.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/211.png" num="2">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Noggle Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Go Forth Into Glory</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1}: Draw a card.
++ {1}: Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
++ {6}: Destroy target nonland permanent.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/212.png" num="4">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Exotic Altar</name>
+			<text>When Exotic Altar enters the battlefield, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.
+{1}, {T}: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/213.png" num="244">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wayfinder&apos;s Sword</name>
+			<text>Equipped creature has vigilance and &quot;{T}: Add one mana of any color.&quot;
+Equip {1}</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/214.png" num="248">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Emissary of Hatred</name>
+			<text>Whenever one or more counters are put on a creature you control not named Emissary of Hatred, put a +1/+1 counter on Emissary of Hatred.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/215.png" num="1">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Icon of Gilt Ivory</name>
+			<text>Narrative — Whenever you cast a modal or split instant or sorcery spell, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/216.png" num="246">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Sculpture</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Artificer&apos;s Skelemental</name>
+			<text>Impending 4—{3} (If you cast this spell for its impending cost, it enters with four time counters and isn&apos;t a creature until the last is removed. At the beginning of your end step, remove a time counter from it.)
+Flying
+{T}: Add one mana of any color.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/217.png" num="241">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Luminous Boongiver</name>
+			<text>Flying
+Whenever Luminous Boongiver enters the battlefield or attacks, choose one —
+• Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+• Put target card in a graveyard on the bottom of its owner&apos;s library.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/218.png" num="6">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>All-Fates Scroll</name>
+			<text>{T}: Add one mana of any color.
+{7}, {T}, Sacrifice All-Fates Scroll: Draw X cards, where X is the number of differently named lands you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/219.png" num="237">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>History&apos;s Bones</name>
+			<text>As History&apos;s Bones enters the battlefield, choose a nonland card name, then exile all cards in graveyards with the chosen name.
+Spells with the chosen name can&apos;t be cast.
+If a card with the chosen name would be put into a graveyard from anywhere, exile it instead.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/220.png" num="245">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Electrum Greatsword</name>
+			<text>Equipped creature gets +1/+1 for each of its colors and has &quot;{T}: Add one mana of each of this creature&apos;s colors.&quot;
+Equip {3}</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/221.png" num="242">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>From the Depths of the Dark</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1} — Create a tapped colorless land token named Everywhere that is every basic land type.
++ {3} — Create a token that&apos;s a copy of a permanent you control, except it&apos;s not legendary.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/222.png" num="3">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ancient Bough</name>
+			<text>{T}: Add {C}.
+{2}: Ancient Bough becomes a 1/1 Dryad creature type until end of turn. You may have it make an experience check. Activate only as a sorcery. (To make a successful experience check, exile a card from your graveyard with mana value greater than Ancient Bough&apos;s power to put a +1/+1 counter on it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/223.png" num="249">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Shores of Potential</name>
+			<text>Shores of Potential enters the battlefield tapped.
+{T}: Add {C}.
+{2}, {T}, Sacrifice Shores of Potential: Search your library for two basic land cards with different names, put them onto the battlefield tapped, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/224.png" num="258">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>King of the Black Throne (bundle promo)</name>
+			<text>Creatures you control attacking cause abilities of permanents you control to trigger as though those creatures entered the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/225.png" num="272">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>BBGW</manacost>
+				<cmc>4</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crossroads of Fate (headliner promo)</name>
+			<text>Choose one —
+• Target player takes two extra turns after this one. Exile Crossroads of Fate.
+• You control target player during that player&apos;s next turn. Exile Crossroads of Fate.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/226.png" num="273">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>8UB</manacost>
+				<cmc>10</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Skeleton FYF</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/227.png" num="2">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Skeleton</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>FYF Draft Archetypes FYF</name>
+			<text>{W}{B} IMPENDING WIll you cast your creatures early and wait for their arrival?
+{B}{G} ARTIFACTS Will your trinkets help you out-grind your foes?
+{G}{U} SPREE Will your mana ramp help you add to your spells&apos; effects?
+{U}{R} NARRATIVE Will your modal spells be rewarded twofold?
+{R}{W} +1/+1 COUNTERS Will experience help strengthen your creatures?
+{W}{B}{R} COUNTERS Whether experience or impending, will your creatures&apos; counters lend you glory?
+{U}{R}{G} NARRATIVE Ramp into big spells with many choices—But will you make the right call?
+{B}{G}{W} ARTIFACTS Will triumph and treasure come your way?
+{R}{W}{U} GRAVEYARD Experience, split cards, modal costs—Will all paths reward you for expensive spells in your graveyard?
+{G}{U}{B} BIG MANA Artifacts, ramp, and big spree payoffs—Can you contain the might of Yor-Om&apos;s mana?</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/228.png" num="9">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
 			<name>Plains</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/242.png" num="262">FYF</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/229.png" num="267">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -27,7 +4043,7 @@
 		<card>
 			<name>Island</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/243.png" num="263">FYF</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/230.png" num="268">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -42,7 +4058,7 @@
 		<card>
 			<name>Swamp</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/244.png" num="264">FYF</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/231.png" num="269">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -57,7 +4073,7 @@
 		<card>
 			<name>Mountain</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/245.png" num="265">FYF</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/232.png" num="270">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -72,7 +4088,7 @@
 		<card>
 			<name>Forest</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/246.png" num="266">FYF</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/233.png" num="271">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -85,10 +4101,25 @@
 			<tablerow>0</tablerow>
 		</card>
 		<card>
+			<name>Memory FYF</name>
+			<text>You can mark a nonlegendary creature cast for its memory cost with this reminder card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/234.png" num="8">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Reminder</type>
+				<maintype>Reminder</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
 			<name>Jusra, Savage Gothique</name>
 			<text>Memory {2} — 1/1 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
 When Jusra, Savage Gothique enters the battlefield, create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/248.png" num="2">FYF</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/235.png" num="5">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -97,6 +4128,802 @@ When Jusra, Savage Gothique enters the battlefield, create a tapped Treasure tok
 				<manacost>4</manacost>
 				<cmc>4</cmc>
 				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Karnath, War Eternal</name>
+			<text>Memory {1}{W} — 1/1 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
+Double strike</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/236.png" num="199">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>WBR</manacost>
+				<cmc>3</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Katheon Blackhorn</name>
+			<text>Memory {1}{R}{R} — 2/3 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
+Whenever Katheon Blackhorn deals combat damage to a player, discard your hand, then draw that many cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/237.png" num="200">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1RWU</manacost>
+				<cmc>4</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Old One-Eye</name>
+			<text>Memory {1}{U} — 1/1 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
+Whenever Old One-Eye attacks, tap target creature defending player controls, then put a number of stun counters on it equal to Old One-Eye&apos;s power.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/238.png" num="204">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Kraken</type>
+				<maintype>Creature</maintype>
+				<manacost>2URG</manacost>
+				<cmc>5</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glaiston, Dagger-Tongue</name>
+			<text>Memory {1}{G}{G} — 2/2 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
+When Glaiston, Dagger-Tongue enters the battlefield, if it was cast, choose target nonland permanent. If it&apos;s an artifact or enchantment, or if Glaiston is legendary, exile that permanent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/239.png" num="196">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2GUB</manacost>
+				<cmc>5</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brrth, the Risible Tide</name>
+			<text>Memory {1}{B} — 1/1 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
+Flying, deathtouch, lifelink</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/240.png" num="193">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Soom Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>BGW</manacost>
+				<cmc>3</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Iridescent Babaluma</name>
+			<text>Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+You may cast blue spells, red spells, and green spells as though they had flash.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/241.png" num="57">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gameral, the Lightbender</name>
+			<text>Memory {1}{U} — 2/1 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
+Whenever Gameral, the Lightbender deals combat damage to a player, draw a card. Then discard a card unless Gameral is legendary</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/242.png" num="54">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Akathax, Sage Immortal</name>
+			<text>Your maximum hand size is two.
+Whenever you cast a spell or whenever a land enters the battlefield under your control, draw a card.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/243.png" num="191">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>UURG</manacost>
+				<cmc>4</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Khulut the Warbringer</name>
+			<text>Flying, menace, haste
+If another creature you control with flying, menace, or haste would deal damage, it deals double that damage instead. If that creature has flying, menace, and haste, it deals three times that damage instead.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/244.png" num="201">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>WWBR</manacost>
+				<cmc>4</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>King of the Black Throne</name>
+			<text>Creatures you control attacking cause abilities of permanents you control to trigger as though those creatures entered the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/245.png" num="202">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>BBGW</manacost>
+				<cmc>4</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zuvas, Hate-Dreamer</name>
+			<text>During your turn, Zuvas, Hate-Dreamer has hexproof.
+Whenever Zuvas attacks, create an X/X red and white Elemental creature token with trample and lifelink that&apos;s tapped and attacking, where X is the number of attacking creatures.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/246.png" num="214">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>RRWU</manacost>
+				<cmc>4</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ycct, Savage Naturalist</name>
+			<text>Whenever Ycct, Savage Naturalist deals combat damage to a player, destroy all noncreature, nonland permanents.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/247.png" num="213">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Soom Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>GGUB</manacost>
+				<cmc>4</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eternal Battlefield</name>
+			<text>({T}: Add {B} or {R}.)
+Eternal Battlefield enters the battlefield tapped unless you control a basic Plains.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/248.png" num="252">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sheltered Hamlet</name>
+			<text>({T}: Add {G} or {W}.)
+Sheltered Hamlet enters the battlefield tapped unless you control a basic Swamp.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/249.png" num="257">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mastermind&apos;s Castle</name>
+			<text>({T}: Add {W} or {U}.)
+Mastermind&apos;s Castle enters the battlefield tapped unless you control a basic Mountain.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/250.png" num="255">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gnarled Monument</name>
+			<text>({T}: Add {U} or {B}.)
+Gnarled Monument enters the battlefield tapped unless you control a basic Forest.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/251.png" num="254">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Citadel of Might</name>
+			<text>({T}: Add {R} or {G}.)
+Citadel of Might enters the battlefield tapped unless you control a basic Island.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/252.png" num="251">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Melancholy Coast</name>
+			<text>{T}, Sacrifice Melancholy Coast: Search your library for a basic Forest, Island, or Swamp card, put it onto the battlefield tapped, then shuffle.
+{G}{U}{B}, Discard Melancholy Coast: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/253.png" num="256">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UBG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Brooding Keep</name>
+			<text>{T}, Sacrifice Brooding Keep: Search your library for a basic Swamp, Forest, or Plains card, put it onto the battlefield tapped, then shuffle.
+{B}{G}{W}, Discard Brooding Keep: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/254.png" num="250">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WBG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Volatile Peak</name>
+			<text>{T}, Sacrifice Volatile Peak: Search your library for a basic Island, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle.
+{U}{R}{G}, Discard Volatile Peak: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/255.png" num="261">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>URG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Stark Sunset</name>
+			<text>{T}, Sacrifice Stark Sunset: Search your library for a basic Plains, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.
+{W}{B}{R}, Discard Stark Sunset: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/256.png" num="259">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WBR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Soom FYF</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/257.png" num="4">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Soom</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Beast FYF</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/258.png" num="3">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Dawnbringer Cleric</name>
+			<text>When Dawnbringer Cleric enters the battlefield, choose one —
+• You gain 2 life.
+• Destroy target enchantment.
+• Exile target card from a graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/259.png" num="13">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sunlit Marsh</name>
+			<text>({T}: Add {W} or {B}.)
+Sunlit Marsh enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/260.png" num="265">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Haunted Mire</name>
+			<text>({T}: Add {B} or {G}.)
+Haunted Mire enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/261.png" num="262">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tangled Islet</name>
+			<text>({T}: Add {G} or {U}.)
+Tangled Islet enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/262.png" num="266">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Molten Tributary</name>
+			<text>({T}: Add {U} or {R}.)
+Molten Tributary enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/263.png" num="263">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sacred Peaks</name>
+			<text>({T}: Add {R} or {W}.)
+Sacred Peaks enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/264.png" num="264">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Elemental FYF</name>
+			<text>Trample, lifelink</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/265.png" num="5">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>X/X</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Diverging Predator</name>
+			<text>Trample
+Diverging Predator enters the battlefield with two +1/+1 counters on it.
+Narrative — Whenever you cast a modal or split instant or sorcery spell, double the number of +1/+1 counters on Diverging Predator.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/266.png" num="146">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hydra</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Everywhere FYF</name>
+			<text>This land is a Plains, Island, Swamp, Mountain, and Forest. ({T}: Add {W}, {U}, {B}, {R}, or {G}.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/267.png" num="7">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Treasure FYF</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/268.png" num="6">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Remnants of the Architect</name>
+			<text>Search your library for two creature cards with different names, exile them, then shuffle. When you do, target opponent chooses one of the exiled cards. Put the chosen card into your graveyard and the other into your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/269.png" num="161">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>To Outwit the Sage Immortal</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1} — Draw two cards.
++ {RG} — Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
++ {R}{G} — For each artifact you control, create a token that&apos;s a copy of it.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/270.png" num="66">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>URG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Black Throne Sits Empty</name>
+			<text>Spree (Choose one or more additional costs.)
++ {1} — Search your library for a card, put it into your graveyard, then shuffle.
++ {GW} — Each player sacrifices an artifact or enchantment of their choice.
++ {G}{W} — Return up to three nonland permanent cards with total mana value 4 or less from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/271.png" num="74">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>WBG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Visions of the Hate-Dreamer</name>
+			<text>Spree (Choose one or more additional costs.)
++ {2} — Creatures you control get +2/+0 until end of turn.
++ {WU} — Put a flying counter on a creature you control.
++ {2}{W}{U} — Untap all creatures you control. After this phase, there is an additional combat phase.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/272.png" num="135">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>WUR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Savagery of the Soom</name>
+			<text>Spree (Choose one or more additional costs.)
++ {2} — Create a 3/3 green Soom creature token.
++ {UB} — Surveil 2.
++ {1}{U}{B} — Choose a creature on the battlefield or a creature card in a graveyard. Until end of turn, each creature you control becomes a copy of the chosen creature.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/273.png" num="163">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>UBG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Arms of the Gorgon</name>
+			<text>{T}, Tap an untapped creature you control: Target player mills cards equal to the tapped creature&apos;s power.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/274.png" num="240">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wavebender</name>
+			<text>Flash
+When Wavebender enters the battlefield, choose one —
+• Tap target creature and put a stun counter on it. It loses all abilities until your next turn.
+• Put a +1/+1 counter on target creature. It gains hexproof until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/275.png" num="69">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soldier FYF</name>
+			<text>Lifelink</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/276.png" num="1">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Oggogg, the Gods&apos; Fist</name>
+			<text>Memory {1}{G}{G} — 2/2 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
+When Oggogg, the Gods&apos; Fist enters the battlefield, or whenever it attacks while legendary, you may search your library for a land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/277.png" num="155">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ogre Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Urgrell, Wight Lord</name>
+			<text>Memory {4}{W} — 2/2 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
+When Urgrell, Wight Lord enters the battlefield, or whenever it attacks while legendary, return target artifact card from your graveyard to the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/278.png" num="37">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Skeleton Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>5WW</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Krelmar, Necrosavant</name>
+			<text>Memory {2}{B}{B} — 3/2 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
+When Krelmar, Necrosavant enters the battlefield, or whenever it attacks while legendary, target creature an opponent controls gets -X/-X until end of turn, where X is Krelmar&apos;s power.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/279.png" num="91">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>5BB</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sithera, the Burning Gyre</name>
+			<text>Memory {1}{R}{R} — 2/1 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
+When Sithera, the Burning Gyre enters the battlefield, or whenever it attacks while legendary, exile the top card of your library. You may play that card this turn. Whenever you cast an instant or sorcery spell this way, copy it and you may choose new targets for the copy.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/280.png" num="131">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>5RR</manacost>
+				<cmc>7</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Empty Paladin</name>
+			<text>Memory {1}{U}{U} — 2/2 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
+When The Empty Paladin enters the battlefield, or whenever it attacks while legendary, draw two cards, then discard a card.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/281.png" num="51">FYF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>5UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>

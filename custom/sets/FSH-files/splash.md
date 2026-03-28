@@ -8,11 +8,11 @@ High in the heavens, the stars shifted. One twinkled just a little brighter than
 
 But this was no ordinary star, and the coming of its fiery impact changed something in the air. A bolt of pure demon-magic, the Night Star shed shards of itself in its wake, cast up clouds of sorcerous dust on its landing. Those who survived the onslaught report miracles wrought by these nightstone pieces—lead transmuting into gold, statues laughing and speaking, the dead breathing once more. Whether or not there is truth to the rumours, the allure of wealth and power has drawn mercenaries and scouts from across the wounded empire to the ruins of the City of Shadows, eager to pick its haunted corpse clean. But they are not alone, for strange things in the ruins have learned to walk that ought to crawl...
 
-**Morstad: City of Shadows** is a draftable premier set using Play Boosters, containing 276 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, 10 basic-rarity dual lands, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of Gnawbone,Skurl Prophet, while all boosters have a chance of containing the Headliner rulebook frame version of Peer into the Nightpit.
+**Morstad: City of Shadows** is a draftable premier set using Play Boosters, containing 276 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, 10 basic-rarity dual lands, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of Gnawbone, Skurl Prophet, while all boosters have a chance of containing the Headliner rulebook frame version of Peer into the Nightpit.
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/zW7pWd3h/booster.png "FSH booster"/>**Morstad: City of Shadows** features the following mechanic:
+<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/zW7pWd3h/booster.png "FSH booster"/>**Morstad: City of Shadows** features the following mechanics:
 
 **Encounters:** The ruins of the Cursed City are highly contested, with fortune-seekers and mercenaries clashing over precious nightstone and looted gold. Encounter tokens represent these sudden skirmishes—they're colourless Conflict battle tokens with 2 starting defence, which will allow you to draw a card and create a Treasure token upon defeat, representing the spoils looted from your rival scavengers. Encounters can be created through a variety of means—keep an evasive attacker handy to reap the spoils.
 
