@@ -5,7 +5,7 @@
 			<name>SPG</name>
 			<longname>Special Guests</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-03-28</releasedate>
+			<releasedate>2026-04-10</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -2569,7 +2569,7 @@ Choose one or more —
 • Destroy target enchantment.
 • Destroy target land.
 • Destroy target planeswalker.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/153.png" num="159">SPG</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/153.png" num="160">SPG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2640,21 +2640,22 @@ Choose one or more —
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Monument to Endurance</name>
-			<text>Whenever you discard a card, choose one that hasn&apos;t been chosen this turn —
-• Draw a card.
-• Create a Treasure token.
-• Each opponent loses 3 life.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/157.png" num="160">SPG</set>
+			<name>Moment of Reckoning</name>
+			<text>Choose up to four. You may choose the same mode more than once.
+• Destroy target nonland permanent.
+• Return target nonland permanent card from your graveyard to the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/157.png" num="159">SPG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Artifact</type>
-				<maintype>Artifact</maintype>
-				<manacost>3</manacost>
-				<cmc>3</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WWBB</manacost>
+				<cmc>7</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
 			<name>Mastermind&apos;s Acquisition</name>
