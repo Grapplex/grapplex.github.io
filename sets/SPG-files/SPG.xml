@@ -5,7 +5,7 @@
 			<name>SPG</name>
 			<longname>Special Guests</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-04-10</releasedate>
+			<releasedate>2026-04-14</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -2264,6 +2264,24 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 			<tablerow>3</tablerow>
 		</card>
 		<card>
+			<name>Phyrexian Scriptures</name>
+			<text>I — Put a +1/+1 counter on up to one target creature. That creature becomes an artifact in addition to its other types.
+II — Destroy all nonartifact creatures.
+III — Exile all opponents&apos; graveyards</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/133.png" num="173">SPG</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
 			<name>Terrasymbiosis</name>
 			<text>Whenever you put one or more +1/+1 counters on a creature you control, you may draw that many cards. Do this only once each turn.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/134.png" num="139">SPG</set>
@@ -2882,6 +2900,161 @@ You may cast Gravecrawler from your graveyard as long as you control a Zombie.</
 				<pt>2/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Urza&apos;s Saga</name>
+			<text>I — Urza&apos;s Saga gains &quot;{T}: Add {C}.&quot;
+II — Urza&apos;s Saga gains &quot;{2}, {T}: Create a 0/0 colorless Construct artifact creature token with ‘This creature gets +1/+1 for each artifact you control.&apos;&quot;
+III — Search your library for an artifact card with mana cost {0} or {1}, put it onto the battlefield, then shuffle.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/171.png" num="180">SPG</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment Land — Saga</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Binding the Old Gods</name>
+			<text>I — Destroy target nonland permanent an opponent controls.
+II — Search your library for a Forest card, put it onto the battlefield tapped, then shuffle.
+III — Creatures you control gain deathtouch until end of turn.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/172.png" num="178">SPG</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fall of the Thran</name>
+			<text>I — Destroy all lands.
+II, III — Each player returns two land cards from their graveyard to the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/173.png" num="171">SPG</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>5W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Awaken the Honored Dead</name>
+			<text>I — Destroy target nonland permanent.
+II — Mill three cards.
+III — You may discard a card. When you do, return target creature or land card from your graveyard to your hand.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/174.png" num="179">SPG</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>GUB</manacost>
+				<cmc>3</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Brothers War</name>
+			<text>I — Create two tapped Powerstone tokens. (They&apos;re artifacts with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)
+II — Choose two target players. Until your next turn, each creature they control attacks the other chosen player each combat if able.
+III — The Brothers War deals X damage to any target and X damage to any other target, where X is the number of artifacts you control.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/175.png" num="174">SPG</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fall of the Imposter</name>
+			<text>I, II — Put a +1/+1 counter on up to one target creature.
+III — Exile a creature with the greatest power among creatures target opponent controls.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/176.png" num="176">SPG</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Apprentice&apos;s Folly</name>
+			<text>I, II — Choose target nontoken creature you control that doesn&apos;t have the same name as a token you control. Create a token that&apos;s a copy of it, except it isn&apos;t legendary, is a Reflection in addition to its other types, and has haste.
+III — Sacrifice all Reflections you control.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/177.png" num="177">SPG</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nightmares and Daydreams</name>
+			<text>I, II, III — Until your next turn, whenever you cast an instant or sorcery spell, target player mills cards equal to that spell&apos;s mana value.
+IV — Draw a card. If a graveyard has twenty or more cards in it, draw three cards instead.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/178.png" num="172">SPG</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>City of Death</name>
+			<text>I — Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+II, III, IV, V, VI — Create a token that&apos;s a copy of target non-Saga token you control.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/179.png" num="175">SPG</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
 		</card>
 	</cards>
 </cockatrice_carddatabase>
