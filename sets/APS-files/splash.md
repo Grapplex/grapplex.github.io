@@ -1,4 +1,4 @@
-<img src="https://grapplex.github.io/sets/APS-files/logo.png" alt="The Apostate of Kushab" width="600">
+<img src="https://grapplex.github.io/sets/APS-files/logo.png" alt="The Apostate of Kushab" width="500">
 
 **<p style="text-align: center;">Suffer not the heretic.</p>**
 
