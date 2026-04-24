@@ -5,7 +5,7 @@
 			<name>FYF</name>
 			<longname>Yor-Om: Find Your Fate</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-03-28</releasedate>
+			<releasedate>2026-04-24</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -116,7 +116,7 @@ Whenever Tysothak, Violent Inciter deals combat damage to a player, untap each o
 			<name>Firetop Hall</name>
 			<text>{T}: Add {C}.
 {6}, {T}: Draw a card. This ability costs {1} less to activate for each other Lair you control.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/6.png" num="253">FYF</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/6.png" num="252">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -841,10 +841,10 @@ Each creature you control with a +1/+1 counter on it has lifelink.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Stormcarved Ridge</name>
-			<text>{T}, Sacrifice Stormcarved Ridge: Search your library for a basic Mountain, Plains, or Island card, put it onto the battlefield tapped, then shuffle.
-{R}{W}{U}, Discard Stormcarved Ridge: Draw a card.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/48.png" num="260">FYF</set>
+			<name>Sinister Holdfast</name>
+			<text>{T}, Sacrifice Sinister Holdfast: Search your library for a basic Mountain, Plains, or Island card, put it onto the battlefield tapped, then shuffle.
+{R}{W}{U}, Discard Sinister Holdfast: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/48.png" num="261">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1036,7 +1036,7 @@ When Resplendent Watcher enters the battlefield, tap target creature an opponent
 		<card>
 			<name>Vision of Another Future</name>
 			<text>Choose one —
-• Scry 4, then draw two cards.
+• Surveil 4, then draw two cards. (To surveil 4, look at the top four cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 • Draw three cards.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/59.png" num="67">FYF</set>
 			<prop>
@@ -1090,7 +1090,7 @@ Enchanted creature loses all abilities and is a green Octopus creature with base
 		<card>
 			<name>Skeins of Futures Past</name>
 			<text>Spree (Choose one or more additional costs.)
-+ {1} — Target player mills four cards
++ {1} — Target player mills four cards.
 + {1}{U} — Return target instant or sorcery card from your graveyard to your hand.
 + {R}{G} — Draw a card.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/FYF-files/img/62.png" num="62">FYF</set>
@@ -2693,7 +2693,7 @@ When Autumnal Steed enters the battlefield, choose one —
 				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
-				<pt>3/3</pt>
+				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3550,7 +3550,7 @@ Create two 2/2 red Beast creature tokens.</text>
 		</card>
 		<card>
 			<name>Consult the Mirrorhall</name>
-			<text>Whenever you tap a permanent for mana, you lose 1 life and add an additional {C}.</text>
+			<text>Whenever you tap a permanent for mana, you may pay 1 life. If you do, add {C}.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/201.png" num="194">FYF</set>
 			<prop>
 				<layout>normal</layout>
@@ -3645,7 +3645,7 @@ When Infernal Custodian enters the battlefield, choose one —
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature</type>
+				<type>Creature — Demon</type>
 				<maintype>Creature</maintype>
 				<manacost>3BG</manacost>
 				<cmc>5</cmc>
@@ -3936,7 +3936,7 @@ Equip {3}</text>
 			<text>Shores of Potential enters the battlefield tapped.
 {T}: Add {C}.
 {2}, {T}, Sacrifice Shores of Potential: Search your library for two basic land cards with different names, put them onto the battlefield tapped, then shuffle.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/224.png" num="258">FYF</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/224.png" num="260">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4330,7 +4330,7 @@ Whenever Zuvas attacks, create an X/X red and white Elemental creature token wit
 		</card>
 		<card>
 			<name>Ycct, Savage Naturalist</name>
-			<text>Whenever Ycct, Savage Naturalist deals combat damage to a player, destroy all noncreature, nonland permanents.</text>
+			<text>Whenever Ycct, Savage Naturalist deals combat damage to a player, destroy each artifact, battle, enchantment, and planeswalker.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/247.png" num="213">FYF</set>
 			<prop>
 				<layout>normal</layout>
@@ -4349,7 +4349,7 @@ Whenever Zuvas attacks, create an X/X red and white Elemental creature token wit
 			<name>Eternal Battlefield</name>
 			<text>({T}: Add {B} or {R}.)
 Eternal Battlefield enters the battlefield tapped unless you control a basic Plains.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/248.png" num="252">FYF</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/248.png" num="251">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4365,7 +4365,7 @@ Eternal Battlefield enters the battlefield tapped unless you control a basic Pla
 			<name>Sheltered Hamlet</name>
 			<text>({T}: Add {G} or {W}.)
 Sheltered Hamlet enters the battlefield tapped unless you control a basic Swamp.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/249.png" num="257">FYF</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/249.png" num="259">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4381,7 +4381,7 @@ Sheltered Hamlet enters the battlefield tapped unless you control a basic Swamp.
 			<name>Mastermind&apos;s Castle</name>
 			<text>({T}: Add {W} or {U}.)
 Mastermind&apos;s Castle enters the battlefield tapped unless you control a basic Mountain.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/250.png" num="255">FYF</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/250.png" num="256">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4397,7 +4397,7 @@ Mastermind&apos;s Castle enters the battlefield tapped unless you control a basi
 			<name>Gnarled Monument</name>
 			<text>({T}: Add {U} or {B}.)
 Gnarled Monument enters the battlefield tapped unless you control a basic Forest.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/251.png" num="254">FYF</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/251.png" num="253">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4413,7 +4413,7 @@ Gnarled Monument enters the battlefield tapped unless you control a basic Forest
 			<name>Citadel of Might</name>
 			<text>({T}: Add {R} or {G}.)
 Citadel of Might enters the battlefield tapped unless you control a basic Island.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/252.png" num="251">FYF</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/252.png" num="250">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4426,10 +4426,10 @@ Citadel of Might enters the battlefield tapped unless you control a basic Island
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>Melancholy Coast</name>
-			<text>{T}, Sacrifice Melancholy Coast: Search your library for a basic Forest, Island, or Swamp card, put it onto the battlefield tapped, then shuffle.
-{G}{U}{B}, Discard Melancholy Coast: Draw a card.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/253.png" num="256">FYF</set>
+			<name>Plundered Splendor</name>
+			<text>{T}, Sacrifice Plundered Splendor: Search your library for a basic Forest, Island, or Swamp card, put it onto the battlefield tapped, then shuffle.
+{G}{U}{B}, Discard Plundered Splendor: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/253.png" num="258">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4442,10 +4442,10 @@ Citadel of Might enters the battlefield tapped unless you control a basic Island
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>Brooding Keep</name>
-			<text>{T}, Sacrifice Brooding Keep: Search your library for a basic Swamp, Forest, or Plains card, put it onto the battlefield tapped, then shuffle.
-{B}{G}{W}, Discard Brooding Keep: Draw a card.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/254.png" num="250">FYF</set>
+			<name>Haunted Manse</name>
+			<text>{T}, Sacrifice Haunted Manse: Search your library for a basic Swamp, Forest, or Plains card, put it onto the battlefield tapped, then shuffle.
+{W}{B}{R}, Discard Haunted Manse: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/254.png" num="254">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4453,15 +4453,15 @@ Citadel of Might enters the battlefield tapped unless you control a basic Island
 				<maintype>Land</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
-				<coloridentity>WBG</coloridentity>
+				<coloridentity>WBR</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>Volatile Peak</name>
-			<text>{T}, Sacrifice Volatile Peak: Search your library for a basic Island, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle.
-{U}{R}{G}, Discard Volatile Peak: Draw a card.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/255.png" num="261">FYF</set>
+			<name>Imposing Manor</name>
+			<text>{T}, Sacrifice Imposing Manor: Search your library for a basic Island, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle.
+{U}{R}{G}, Discard Imposing Manor: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/255.png" num="255">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4474,10 +4474,10 @@ Citadel of Might enters the battlefield tapped unless you control a basic Island
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>Stark Sunset</name>
-			<text>{T}, Sacrifice Stark Sunset: Search your library for a basic Plains, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.
-{W}{B}{R}, Discard Stark Sunset: Draw a card.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/256.png" num="259">FYF</set>
+			<name>Moldering Vestry</name>
+			<text>{T}, Sacrifice Moldering Vestry: Search your library for a basic Plains, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.
+{B}{G}{W}, Discard Moldering Vestry: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FYF-files/img/256.png" num="257">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4485,7 +4485,7 @@ Citadel of Might enters the battlefield tapped unless you control a basic Island
 				<maintype>Land</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
-				<coloridentity>WBR</coloridentity>
+				<coloridentity>WBG</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
 		</card>
