@@ -5,7 +5,7 @@
 			<name>FYF</name>
 			<longname>Yor-Om: Find Your Fate</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-04-24</releasedate>
+			<releasedate>2026-04-26</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -31,7 +31,7 @@ Return target permanent card from your graveyard to the battlefield.</text>
 		</card>
 		<card>
 			<name>Ancient Petroglyph</name>
-			<text>At the beginning of your upkeep, if you control a legendary artifact, a legendary creature, a legendary enchantment, and a legendary planeswalker, you win the game. Otherwise, draw a card.</text>
+			<text>At the beginning of your upkeep, you win the game if you control a legendary artifact, a legendary creature, a legendary enchantment, and a legendary planeswalker. Otherwise, draw a card.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/1.png" num="238">FYF</set>
 			<prop>
 				<layout>normal</layout>
@@ -507,7 +507,7 @@ Whenever Pious Drake of Good Omen deals combat damage to a player, search your l
 			<name>Find Your Fate</name>
 			<text>Choose one —
 • Destroy all legendary creatures.
-• Destroy all non-legendary creatures.</text>
+• Destroy all nonlegendary creatures.</text>
 			<set rarity="rare" picurl="https://grapplex.github.io/sets/FYF-files/img/29.png" num="15">FYF</set>
 			<prop>
 				<layout>normal</layout>
@@ -791,7 +791,7 @@ Each creature you control with a +1/+1 counter on it has lifelink.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>A Vision of Future Triupmh</name>
+			<name>A Vision of Future Triumph</name>
 			<text>Whenever a nontoken legendary permanent enters the battlefield under your control, choose one —
 • Create a 1/1 white Soldier creature token with lifelink.
 • Put a +1/+1 counter on target creature you control.</text>
@@ -4840,15 +4840,15 @@ When Wavebender enters the battlefield, choose one —
 		<card>
 			<name>Oggogg, the Gods&apos; Fist</name>
 			<text>Memory {1}{G}{G} — 2/2 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
-When Oggogg, the Gods&apos; Fist enters the battlefield, or whenever it attacks while legendary, you may search your library for a land card, put it onto the battlefield tapped, then shuffle.</text>
+When Oggogg, the Gods&apos; Fist enters the battlefield and whenever it attacks while legendary, you may search your library for a land card, put it onto the battlefield tapped, then shuffle.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/277.png" num="155">FYF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Legendary Creature — Ogre Barbarian</type>
 				<maintype>Creature</maintype>
-				<manacost>5GG</manacost>
-				<cmc>7</cmc>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 				<pt>6/6</pt>
@@ -4858,7 +4858,7 @@ When Oggogg, the Gods&apos; Fist enters the battlefield, or whenever it attacks 
 		<card>
 			<name>Urgrell, Wight Lord</name>
 			<text>Memory {4}{W} — 2/2 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
-When Urgrell, Wight Lord enters the battlefield, or whenever it attacks while legendary, return target artifact card from your graveyard to the battlefield.</text>
+When Urgrell, Wight Lord enters the battlefield and whenever it attacks while legendary, return target artifact card from your graveyard to the battlefield.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/278.png" num="37">FYF</set>
 			<prop>
 				<layout>normal</layout>
@@ -4876,7 +4876,7 @@ When Urgrell, Wight Lord enters the battlefield, or whenever it attacks while le
 		<card>
 			<name>Krelmar, Necrosavant</name>
 			<text>Memory {2}{B}{B} — 3/2 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
-When Krelmar, Necrosavant enters the battlefield, or whenever it attacks while legendary, target creature an opponent controls gets -X/-X until end of turn, where X is Krelmar&apos;s power.</text>
+When Krelmar, Necrosavant enters the battlefield and whenever it attacks while legendary, target creature an opponent controls gets -X/-X until end of turn, where X is Krelmar&apos;s power.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/279.png" num="91">FYF</set>
 			<prop>
 				<layout>normal</layout>
@@ -4894,7 +4894,7 @@ When Krelmar, Necrosavant enters the battlefield, or whenever it attacks while l
 		<card>
 			<name>Sithera, the Burning Gyre</name>
 			<text>Memory {1}{R}{R} — 2/1 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
-When Sithera, the Burning Gyre enters the battlefield, or whenever it attacks while legendary, exile the top card of your library. You may play that card this turn. Whenever you cast an instant or sorcery spell this way, copy it and you may choose new targets for the copy.</text>
+When Sithera, the Burning Gyre enters the battlefield and whenever it attacks while legendary, exile the top card of your library. You may play that card this turn. Whenever you cast an instant or sorcery spell this way, copy it and you may choose new targets for the copy.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/280.png" num="131">FYF</set>
 			<prop>
 				<layout>normal</layout>
@@ -4912,7 +4912,7 @@ When Sithera, the Burning Gyre enters the battlefield, or whenever it attacks wh
 		<card>
 			<name>The Empty Paladin</name>
 			<text>Memory {1}{U}{U} — 2/2 (If you cast this for its memory cost, it&apos;s not legendary, and has a different power and toughness.)
-When The Empty Paladin enters the battlefield, or whenever it attacks while legendary, draw two cards, then discard a card.</text>
+When The Empty Paladin enters the battlefield and whenever it attacks while legendary, draw two cards, then discard a card.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FYF-files/img/281.png" num="51">FYF</set>
 			<prop>
 				<layout>normal</layout>
