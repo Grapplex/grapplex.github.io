@@ -5,15 +5,3367 @@
 			<name>APS</name>
 			<longname>The Apostate of Kushab</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-02-15</releasedate>
+			<releasedate>2026-05-06</releasedate>
 		</set>
 	</sets>
 	<cards>
 		<card>
+			<name>Champion of Blood</name>
+			<text>Double strike
+Whenever Champion of Blood deals combat damage to a player, put a +1/+1 counter on it.
+Effigy {2}{R} (When you discard this card, you may pay {2}{R}. If you do, create a token that&apos;s a copy of it except it&apos;s a 1/1 Construct creature.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/0.png" num="124">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stern Archimandrite</name>
+			<text>If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Effigy {1}{W}{W} (When you discard this card, you may pay {1}{W}{W}. If you do, create a token that&apos;s a copy of it except it&apos;s a 1/1 Construct creature.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/1.png" num="40">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Primordial Behemoth</name>
+			<text>At the beginning of your upkeep, distribute three +1/+1 counters among creatures you control.
+Effigy {2}{G}{G} (When you discard this card, you may pay {2}{G}{G}. If you do, create a token that&apos;s a copy of it except it&apos;s a 1/1 Construct creature.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/2.png" num="183">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Meat Shepherd</name>
+			<text>Lifelink
+At the beginning of your upkeep, you lose 1 life and create a 1/1 white Homunculus creature token.
+Effigy {2}{B} (When you discard this card, you may pay {2}{B}. If you do, create a token that&apos;s a copy of it except it&apos;s a 1/1 Construct creature.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/3.png" num="110">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arbiter of Time</name>
+			<text>Whenever Arbiter of Time attacks, after this phase, there is an additional beginning phase. (The beginning phase includes the untap, upkeep, and draw steps.)
+Effigy {2}{U} (When you discard this card, you may pay {2}{U}. If you do, create a token that&apos;s a copy of it except it&apos;s a 1/1 Construct creature.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/4.png" num="47">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bitter Schism</name>
+			<text>Exile target nonland permanent. Its controller creates a token that&apos;s a copy of it, except it&apos;s a Saga enchantment with &quot;r{4}—You lose the game&quot; in addition to its other types and abilities.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/5.png" num="214">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WB</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ascend to Godhood</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Choose a legendary permanent card name.
+II — Sacrifice a nonland permanent.
+III — Search your library for a card with the chosen name, put it onto the battlefield, then shuffle.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/6.png" num="220">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Piousion, the Gods&apos; Grave</name>
+			<text>({T}: Add {B} or {G}.)
+Piousion, the Gods&apos; Grave enters the battlefield tapped.
+{BG}{BG}{BG}{BG}{BG}, {T}, Exile Piousion: Return target creature card with mana value 5 or less from your graveyard to the battlefield tapped.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/7.png" num="256">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Swamp Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sotak, the Bloodbringer</name>
+			<text>As long as you control fewer than seven nonland permanents, Sotak, the Bloodbringer is an enchantment and isn&apos;t a creature.
+{B}, Pay 1 life: Create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)
+{G}{W}, Sacrifice seven Bloods: Exile target permanent.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/8.png" num="230">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon God</type>
+				<maintype>Creature</maintype>
+				<manacost>BGW</manacost>
+				<cmc>3</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gore Altar</name>
+			<text>As Gore Altar enters the battlefield, choose a nonland card name.
+Activated abilities of sources with the chosen name can&apos;t be activated.
+{1}, {T}, Sacrifice Gore Altar: Draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/9.png" num="241">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Blood</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Shrouded Temple</name>
+			<text>At the beginning of the end step, if you control no enchantments, sacrifice Shrouded Temple.
+{T}: Add one mana of any color.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/10.png" num="259">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forgotten Vista</name>
+			<text>You may have Forgotten Vista enters the battlefield tapped as a copy of any land card in a graveyard.
+{T}: Add {C}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/11.png" num="251">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Helm of the Gods</name>
+			<text>Equipped creature gets +1/+1 for each enchantment you control.
+Equip {1}</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/12.png" num="244">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Solemn Sentinel</name>
+			<text>When Solemn Sentinel enters the battlefield, you may return target land card from your graveyard to the battlefield.
+When Solemn Sentinel dies, exile it. When you do, return target card from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/13.png" num="5">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Indignant Godgrave</name>
+			<text>When Indignant Godgrave enters the battlefield, it deals 3 damage to each opponent.
+{1}{R}{R}, {T}, Sacrifice Indignant Godgrave or discard a sorcery card: Indignant Godgrave deals 3 damage to each opponent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/14.png" num="133">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Painted Supplicant</name>
+			<text>When Painted Supplicant dies, create a 1/1 blue Eye enchantment creature token.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/15.png" num="31">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mournsong Shadow</name>
+			<text>Whenever an enchantment enters the battlefield under your control, you gain 1 life.
+{3}{W}: Mournsong Shadow gets +1/+1 until end of turn for each enchantment you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/16.png" num="30">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flesh Haulier</name>
+			<text>When Flesh Haulier enters the battlefield, you may sacrifice an artifact, creature, or enchantment. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/17.png" num="22">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Anoa&apos;s Reaver</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/18.png" num="10">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Violent Exemplar</name>
+			<text>Lifelink</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/19.png" num="236">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/B</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Silent Paladin</name>
+			<text>Vigilance
+When Silent Paladin dies, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/20.png" num="39">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pshryke Swarm</name>
+			<text>Flying
+Oblation — Whenever Pshryke Swarm attacks, it gets +1/+0 until end of turn if you&apos;ve sacrificed a permanent or discarded a card this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/21.png" num="33">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gaunt Reaver</name>
+			<text>Vigilance
+When Gaunt Reaver enters the battlefield, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/22.png" num="231">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wraith Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3W/U</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hallowed Scartificer</name>
+			<text>Flying
+When Hallowed Scartificer enters the battlefield, create a 1/1 white Homunculus creature token.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/23.png" num="25">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reliquary Custodian</name>
+			<text>When Reliquary Custodian enters the battlefield, creatures you control get +1/+1 and gain vigilance until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/24.png" num="35">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kushabi Gaoler</name>
+			<text>When Kushabi Gaoler enters the battlefield, exile target creature an opponent controls until Kushabi Gaoler leaves the battlefield.
+Communion {1}{W}{W} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/25.png" num="27">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Ogre Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>5W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Expel</name>
+			<text>Exile target tapped creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/26.png" num="20">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Banishing Light</name>
+			<text>When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/27.png" num="11">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Godkiller Strike</name>
+			<text>Put a +1/+1 counter on target creature. It gains flying and shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/28.png" num="24">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Climb to the Firmament</name>
+			<text>When Climb to the Firmament enters the battlefield, choose 3, 4, or 5, then exile all creatures with the chosen mana value until Climb to the Firmament leaves the battlefield.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/29.png" num="17">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Anoa, Man Made God</name>
+			<text>As long as you control fewer than seven nonland permanents, Anoa, Man Made God is an enchantment and isn&apos;t a creature.
+Whenever a creature you control dies, put a +1/+1 counter on each creature you control.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/30.png" num="7">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon God</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Schismatic Purge</name>
+			<text>As an additional cost to cast this spell, you may sacrifice a creature and an enchantment.
+Destroy all creatures and enchantments. If the additional cost was paid, exile those permanents instead.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/31.png" num="37">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Seraph Erythratokos</name>
+			<text>Flying, vigilance
+Whenever you sacrifice Blood or a nontoken permanent, create a 1/1 white Homunculus creature token.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/32.png" num="38">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Carving the World Anew</name>
+			<text></text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/33.png" num="14">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Flesh Gives Way to Divinity</name>
+			<text>Create X 1/1 white Homunculus creature token. Then if X is 5 or more, distribute X +1/+1 counters among creatures you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/34.png" num="21">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XW</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Consumption</name>
+			<text>If you would gain life, you gain twice that much life instead.
+Your opponents can&apos;t gain life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/35.png" num="224">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Harsh Pantokrator</name>
+			<text>Flying
+Whenever an enchantment enters the battlefield under your control, exile target nonland permanent an opponent controls until Harsh Pantokrator leaves the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/36.png" num="26">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Archon</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Anointed Kouropalates</name>
+			<text>Whenever one or more Demons you control attack, each opponent discards a card. For each opponent who didn&apos;t discard a nonland card this way, you draw a card.
+Communion {1}{B}{B} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/37.png" num="83">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Triumph of True Faith</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/38.png" num="41">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Viscera Carver</name>
+			<text>Vigilance
+Whenever you cast a noncreature spell, create a 1/1 white Homunculus creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/39.png" num="43">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Masterwork of Meat</name>
+			<text>Flying, first strike</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/40.png" num="29">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Homunculus</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sainted Carapace</name>
+			<text>Oblation — At the beginning of combat on your turn, put a +1/+1 counter on target creature you control if you&apos;ve sacrificed a permanent or discarded a card this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/41.png" num="36">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Scion Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blind Custodian</name>
+			<text>When Blind Custodian dies, you may return target enchantment card from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/42.png" num="12">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Anoa&apos;s Anointed</name>
+			<text>Flying, vigilance</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/43.png" num="9">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Human Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Living Martyr</name>
+			<text>Flying
+Oblation — Living Martyr gets +1/+0 and has vigilance as long as you&apos;ve sacrificed a permanent or discarded a card this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/44.png" num="28">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shade</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Venereal Mother</name>
+			<text>When Venereal Mother enters the battlefield or ides, return target nonland permanent card with mana value 2 or less from your graveyard to the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/45.png" num="42">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Caught in Oblivion</name>
+			<text>This spell costs {1} less to cast for each enchantment you control.
+Exile target creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/46.png" num="15">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>5W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Reflect</name>
+			<text>Return target enchantment card from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/47.png" num="34">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Duty Beyond Death</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Creatures you control gain indestructible until end of turn. Put a +1/+1 counter on each creature you control. (Damage and effects that say &quot;destroy&quot; don&apos;t destroy those creatures.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/48.png" num="18">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Yoast&apos;s Watcher</name>
+			<text>Oblation — Yoast&apos;s Watcher can&apos;t be blocked as long as you&apos;ve sacrificed a permanent or discarded a card this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/49.png" num="81">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Eye Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ren&apos;s Heretic</name>
+			<text>Flash</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/50.png" num="232">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1U/B</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sage of the Worm</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/51.png" num="237">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>2U/R</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Keening Hormagaunt</name>
+			<text>Flying
+When Keening Hormagaunt enters the battlefield, create a 1/1 blue Eye enchantment creature token.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/52.png" num="61">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cockatrice</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crackling Wraith</name>
+			<text>Vigilance
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/53.png" num="53">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Basilica Pestwing</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/54.png" num="48">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Psychopomp Harrier</name>
+			<text>Flying
+When Psychopomp Harrier enters the battlefield, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/55.png" num="69">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cockatrice</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blade of Mabrea</name>
+			<text>When Blade of Mabrea enters the battlefield, put target creature an opponent controls into its owner&apos;s library second from the top.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/56.png" num="49">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Forgive the Wretched</name>
+			<text>Target creature you control gains hexproof and shielded until end of turn. (Prevent all damage that would be dealt to it.)
+Create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/57.png" num="56">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Prayer of Atonement</name>
+			<text>Counter target spell.
+Oblation — If you&apos;ve sacrificed a permanent or discarded a card this turn, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/58.png" num="68">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Leviathan&apos;s Promise</name>
+			<text>Surveil 1, then draw a card. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)
+Oblation — {1}{U}, Exile Leviathan&apos;s Promise from your graveyard: Draw a card. Activate only if you&apos;ve sacrificed a permanent or discarded a card this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/59.png" num="62">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Thirst for Meaning</name>
+			<text>Draw three cards. Then discard two cards unless you discard an enchantment card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/60.png" num="77">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Hatebound Heart</name>
+			<text>Enchant artifact or creature
+Enchanted permanent is a Blood artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card,&quot; and it loses all other abilities. (If it was a creature, it&apos;s no longer a creature.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/61.png" num="58">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lost in Ignominy</name>
+			<text>Target creature&apos;s owner puts it on their choice of bottom of their library or into their library second from the top.
+Create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/62.png" num="63">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sacred Mysteries</name>
+			<text>Each opponent shuffles, then exiles a number of cards from the top of their library, equal to half their starting library, rounded up.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/63.png" num="72">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Glorious Triumph</name>
+			<text>Exile all creatures, then return them to the battlefield under your control.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/64.png" num="57">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>7UUU</manacost>
+				<cmc>10</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hesychast&apos;s Chant</name>
+			<text>As an additional cost to cast this spell, you may sacrifice an enchantment. If you do, this spell costs {X} less to cast, where X is the sacrificed enchantment&apos;s mana value.
+Draw X cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/65.png" num="60">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XUU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Riddle of Pain</name>
+			<text>Flying, vigilance
+Whenever The Riddle of Pain deals combat damage to a player, create that many Blood tokens. (They&apos;re artifacts with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)
+Bloods you control have &quot;{T}, Sacrifice two Bloods: Draw a card.&quot;</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/66.png" num="70">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Sphinx</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thief of Insight</name>
+			<text>Flying, prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever Thief of Insight deals combat damage to a player, you win the game if your library has fewer than that many cards in it.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/67.png" num="76">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Anoa Lifts the Truthcarver</name>
+			<text></text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/68.png" num="46">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Heresy Flays the Holy Word</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Each opponent mills cards until that player has milled a land card.
+II — Each opponent mills cards until that player has milled a creature card.
+III — Each opponent mills cards until that player has milled a noncreature, nonland card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/69.png" num="59">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cachexia</name>
+			<text>Flying
+If you would draw a card except the first one you draw in each of your draw steps, draw two cards instead.
+Each opponent can&apos;t draw more than one card each turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/70.png" num="227">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>4GU</manacost>
+				<cmc>6</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Youthful Scholar</name>
+			<text>When Youthful Scholar dies, draw two cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/71.png" num="82">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Evrotas Ferryman</name>
+			<text>When Evrotas Ferryman enters the battlefield, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)
+Oblation — As you&apos;ve sacrificed a permanent or discarded a card this turn, Evrotas Ferryman has hexproof and can&apos;t be blocked.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/72.png" num="55">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wretched Cultist</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+{T}: Create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/73.png" num="80">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodpsalm Chorister</name>
+			<text>{T}: Add {U}. Spend this mana only to cast an enchantment spell. If that mana is spent to cast a Saga spell, you may have that Saga enter the battlefield with an additional lore counter on it. (Skipped chapters don&apos;t trigger.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/74.png" num="50">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Penumbral Conjurer</name>
+			<text>Enchantment spells you cast cost {U} (or {1}) less to cast.
+Communion {1}{U} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/75.png" num="67">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Annul</name>
+			<text>Counter target artifact or enchantment spell.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/76.png" num="45">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Temerity</name>
+			<text>Enchant creature
+Enchanted creature gets +1/+1 and has flying.
+When Temerity is put into a graveyard from the battlefield, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/77.png" num="75">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ritual Refusal</name>
+			<text>As an additional cost to cast this spell, sacrifice a Blood or pay {2}.
+The owner of target spell or creature puts it on their choice of the top or bottom of their library.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/78.png" num="71">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dream</name>
+			<text>Look at the top three cards of your library, then put them back in any order. You may shuffle.
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/79.png" num="54">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Taste of Divinity</name>
+			<text>Until end of turn, target non-Aura permanent becomes a 3/3 blue Demon creature with flying and vigilance.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/80.png" num="74">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Carver of Histories</name>
+			<text>When Carver enters the battlefield, mill three cards, then you may return an enchantment card from your graveyard to your hand.
+Whenever the final chapter ability of a Saga you control resolves, put a number of +1/+1 counters on Carver of Histories equal to that ability&apos;s chapter number.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/81.png" num="51">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Mutant Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spite Merchant</name>
+			<text>{B}, Sacrifice Spite Merchant: Target opponent sacrifices an enchantment of their choice.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/82.png" num="117">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Homunculus</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sanguine Vassal</name>
+			<text>{1}, {T}, Sacrifice Sanguine Vassal: Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/83.png" num="233">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Blood</type>
+				<maintype>Creature</maintype>
+				<manacost>1B/R</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fleshmeld Expendable</name>
+			<text>Fleshmeld Expendable can&apos;t block.
+When Fleshmeld Expendable dies, create two tapped 1/1 white Homunculus creature tokens.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/84.png" num="98">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Desolation Paladin</name>
+			<text>Menace
+Oblation — At the beginning of your end step, if you&apos;ve sacrificed a permanent or discarded a card this turn, put a +1/+1 counter on Desolation Paladin.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/85.png" num="93">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Once and Forgotten King</name>
+			<text>Oblation — As long as you&apos;ve sacrificed a permanent or discarded a card this turn, Once and Forgotten King has menace and deathtouch.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/86.png" num="111">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Living Incense</name>
+			<text>At the beginning of your end step, each opponent loses 1 life and you gain 1 life.
+Communion {3}{B} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/87.png" num="106">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soukia Rootcorpse</name>
+			<text>Whenever you sacrifice a permanent, you gain 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/88.png" num="238">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>4B/G</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Breakbone Aspirant</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature or pay {2}.
+Menace
+When Breakbone Aspirant enters the battlefield, you draw a card and you lose 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/89.png" num="88">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Evrotos Muckspawn</name>
+			<text>Oblation — This spell costs {2} less to cast as long as you&apos;ve discarded a card or sacrificed a permanent this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/90.png" num="95">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ooze Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5BB</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>7/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Caught By Hubris</name>
+			<text>Target creature gets +2/-2 and gains lifelink until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/91.png" num="89">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Diresight</name>
+			<text>Surveil 2, then draw two cards. You lose 2 life. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/92.png" num="94">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Winter&apos;s Intervention</name>
+			<text>Winter&apos;s Intervention deals 2 damage to target creature. You gain 2 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/93.png" num="120">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Grim Hymnal</name>
+			<text>Destroy target creature, enchantment, or planeswalker.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/94.png" num="100">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mabrea&apos;s Grasp</name>
+			<text>Exile target creature, enchantment, or planeswalker. Create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/95.png" num="108">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sotak Demands Obedience</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/96.png" num="115">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hand of Sotak</name>
+			<text>Flying
+At the beginning of your upkeep, you draw a card and you lose 1 life.
+Communion {1}{B}{B} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/97.png" num="101">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>An Architect&apos;s Hubris</name>
+			<text></text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/98.png" num="84">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blooddrinker Hesychast</name>
+			<text>Menace
+When Blooddrinker Hesychast enters the battlefield, each other creature gets -X/-X until end of turn, where X is the number of enchantments you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/99.png" num="87">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lord of the Gallows</name>
+			<text>Lifelink
+Whenever you gain life, you may have target opponent lose that much life. Do this only once each turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/100.png" num="107">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Consult the Haruspex</name>
+			<text>Target player reveals their hand. You choose a nonland card from it. That player discards that card and creates two Blood tokens. (They&apos;re artifacts with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/101.png" num="90">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dyscrasia</name>
+			<text>Whenever a creature enters the battlefield under you control, create a 1/1 white Homunculus creature token. This ability triggers only once each turn.
+Whenever a creature an opponent controls dies, that player sacrifices a creature. This ability triggers only once each turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/102.png" num="215">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cull the Impenitent</name>
+			<text>All creatures get -3/-3 until end of turn. Until end of turn, if a creature would die, instead exile it and you create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/103.png" num="91">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sanctified Meat</name>
+			<text>Flash
+When Sanctified Meat dies, target creature an opponent controls gets -1/-1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/104.png" num="114">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Homunculus</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Gift of Blood</name>
+			<text>As an additional cost to cast this spell, sacrifice an artifact or creature.
+Create a 1/1 white Homunculus creature token, a Blood token, and a Treasure token. (They&apos;re artifact. Blood has &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot; Treasure has &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/105.png" num="99">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Profane Incense</name>
+			<text>Flying, menace, deathtouch</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/106.png" num="113">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Khoe&apos;s Revenant</name>
+			<text>Flash
+When Khoe&apos;s Revenant enters the battlefield, return to your hand all cards in your graveyard that you discarded this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/107.png" num="105">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tattered Corpsewing</name>
+			<text>Flying, menace
+When Tattered Corpsewing enters the battlefield, you may discard a card. If you do, all creatures get -2/-2 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/108.png" num="119">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Basal Retributor</name>
+			<text>Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life.
+Communion {1}{B}{B} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/109.png" num="85">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Ogre Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spawn of Apostasy</name>
+			<text>Deathtouch
+Whenever a nontoken creature dies, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/110.png" num="116">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Holy Words Are Writ In Blood</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/111.png" num="103">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>A Peerless Offering</name>
+			<text>Target creature gets -1/-1 until end of turn.
+Target creature gets -2/-2 until end of turn.
+Target creature gets -3/-3 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/112.png" num="112">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Beseech the Dark</name>
+			<text>Look at the top card of your library. As many times as you choose, you may pay 1 life, exile that card, then look at the top card of your library. Then draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/113.png" num="86">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Exquisite Torturer</name>
+			<text>{B}, {T}, Discard a creature card: Return target creature card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/114.png" num="96">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Human Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Khoe&apos;s Harvest</name>
+			<text>Return target creature card from your graveyard to the battlefield. Put a soul counter on it. It&apos;s a Graveborn enchantment creature in addition to its other types.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/115.png" num="104">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Flesh to Ash</name>
+			<text>Destroy target nonenchantment creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/116.png" num="97">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Oudh Whisperer</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Oblation — As long as you&apos;ve sacrificed a permanent or discarded a card this turn, Oudh Whisperer has menace.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/117.png" num="138">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Efreet</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tide of Flesh</name>
+			<text>Create two 1/1 white Homunculus creature tokens.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/118.png" num="151">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Guardian of the Hearth</name>
+			<text>During your turn, Guardian of the Hearth has first strike.
+When Guardian of the Hearth dies, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/119.png" num="131">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Scion Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skinless Paladin</name>
+			<text>During your turn, Skinless Paladin has double strike.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/120.png" num="239">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Scion Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2R/W</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grasping Spawn</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/121.png" num="130">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Homunculus</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scion Canonarch</name>
+			<text>Trample, reach</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/122.png" num="234">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Scion Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>3R/G</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sotak&apos;s Handmaid</name>
+			<text>This spell costs {2} less to cast if you&apos;ve sacrificed a permanent this turn.
+Haste</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/123.png" num="149">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wretchflayer Duo</name>
+			<text>Reach
+When Wretchflayer Duo enters the battlefield or dies, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/124.png" num="158">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Savage Gutripper</name>
+			<text>Trample, haste
+When Savage Gutripper enters the battlefield, you may discard a card. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/125.png" num="143">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wade through Gore</name>
+			<text>Wade through Gore deals 2 damage to target creature. If that creature would die this turn, exile it instead.
+Create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/126.png" num="156">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Gnashing of Teeth</name>
+			<text>Target creature gains double strike and trample until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/127.png" num="129">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sotak Learns the Secret of Blood</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/128.png" num="147">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Strip Away Layers</name>
+			<text>• Strip Away Layers deals 1 damage to target creature and 1 damage to that creature&apos;s controller.
+• Exile target artifact.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/129.png" num="150">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fires of the First Ones</name>
+			<text>Fires of the First Ones deals 4 damage to target creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/130.png" num="128">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shagohod&apos;s Wrath</name>
+			<text>Shagohod&apos;s Wrath deals 5 damage to target creature, planeswalker, or battle. If a creature or planeswalker dealt damage this way would die this turn, exile it instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/131.png" num="146">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Insidious Inciter</name>
+			<text>Menace
+Ward—Discard a card.
+If another creature or enchantment you control would deal damage to an opponent or a permanent an opponent controls, it deals double that damage instead.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/132.png" num="134">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Fires of Mount Tayget</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/133.png" num="127">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>5RR</manacost>
+				<cmc>7</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Wages of Apostasy</name>
+			<text></text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/134.png" num="157">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Scourge of Holy Kush</name>
+			<text>Flying
+Whenever you sacrifice a permanent, creatures you control get +1/+0 until end of turn.
+{R}: Create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/135.png" num="144">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sotak&apos;s Firebird</name>
+			<text>Flying
+Creatures you control have haste.
+Communion {1}{R}{R} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/136.png" num="148">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Phoenix</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brutal Tribute</name>
+			<text>Create a number of Treasure tokens equal to target spell&apos;s mana value. (They&apos;re artifacts with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/137.png" num="123">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Promising Neophyte</name>
+			<text>Haste
+Whenever Promising Neophyte attacks, defending player creates a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/138.png" num="139">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Epithumia</name>
+			<text>Flying
+Noncreature spells you cast cost {1} less to cast.
+Noncreature spells your opponents cast cost {1} more to cast.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/139.png" num="218">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lowly Wretch</name>
+			<text>Prowess, prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn for each instance of prowess it has.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/140.png" num="136">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mortifier of Flesh</name>
+			<text>Damage can&apos;t be prevented.
+Whenever Mortifier attacks, it deals 1 damage to the player or permanent it&apos;s attacking.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/141.png" num="137">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vulturine Phoenix</name>
+			<text>Flying, haste
+Oblation — At the beginning of combat on your turn, if you&apos;ve sacrificed a permanent or discarded a card this turn, you may pay {3}{R}{R}. If you do, return Vulturine Phoenix from your graveyard to the battlefield with a decayed counter on it. (It can&apos;t block. When it attacks, sacrifice it at end of combat.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/142.png" num="155">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Phoenix</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pyre Titan</name>
+			<text>Oblation — When Pyre Titan enters the battlefield, it deals 4 damage to each opponent. If you&apos;ve sacrificed a permanent or discarded a card this turn, it deals 6 damage to each opponent instead.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/143.png" num="140">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Ogre Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Veil Parter</name>
+			<text>When Veil Parter dies, it deals 3 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/144.png" num="153">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Titan Carver</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever Titan Carver attacks, you may discard a card. If you do, exile the top card of your library. Until end of turn, you may play that card and you may cast it as though it had flash.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/145.png" num="152">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Scion Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Viscera Diviner</name>
+			<text>When Viscera Diviner enters the battlefield, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)
+Whenever Viscera Diviner attacks, you may sacrifice another artifact or creature. If you do, Viscera Diviner gets +2/+0 and gains menace until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/146.png" num="154">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shadow of Greatness</name>
+			<text>Exile target noncreature card from your graveyard. Until end of turn, you may cast a copy of that card. (A copy of a permanent spell becomes a token.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/147.png" num="145">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hymnal of Hailfire</name>
+			<text>Oblation — At the beginning of each of your postcombat main phases, if you&apos;ve sacrificed a permanent or discarded a card this turn, Hymnal of Hailfire deals 2 damage to each opponent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/148.png" num="132">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Insidious Incitment</name>
+			<text>Target creature gains menace and haste until end of turn.
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/149.png" num="135">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bloodborn Frenzy</name>
+			<text>Gain control of target creature until end of turn. Untap that creature. It gains haste and prowess until end of turn. Create a Blood token. (Whenever you cast a noncreature spell, that creature gets +1/+1 until end of turn. A Blood token is an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/150.png" num="121">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bloodied Ascendance</name>
+			<text>Bloodied Ascendance deals 4 damage to any target. If excess damage was dealt to a permanent this way, create that many Blood tokens. (They&apos;re artifacts with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/151.png" num="122">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gore Widow</name>
+			<text>Deathtouch
+{T}, Tap an untapped creature you control: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/152.png" num="175">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ginilla&apos;s Daughter</name>
+			<text>{T}: Add {G}.
+{T}: Add one mana of any color. Spend this mana only to cast an enchantment spell.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/153.png" num="170">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Knightly Vestigate</name>
+			<text>Reach
+When Knightly Vestigate dies, create a 2/2 green Ogre creature token.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/154.png" num="177">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Homunculus</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Evrotos Tyrant</name>
+			<text>Deathtouch
+Whenever Evrotos Tyrant deals combat damage to a player, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/155.png" num="168">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Basilisk</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gnarled Wastrel</name>
+			<text>Trample
+When Gnarled Wastrel dies, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/156.png" num="171">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sotak&apos;s Executioner</name>
+			<text>When Sotak&apos;s Executioner enters the battlefield, create a 2/2 green Ogre creature token.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/157.png" num="235">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3G/W</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mucktiller Spawn</name>
+			<text>When Mucktiller Spawn enters the battlefield, you may sacrifice a land. If you do, create a tapped colorless land token named Everywhere that is every basic land type.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/158.png" num="179">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Evrotas Savage</name>
+			<text>Vigilance, reach</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/159.png" num="167">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mabrea&apos;s Warden</name>
+			<text>When Mabrea&apos;s Warden enters the battlefield, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/160.png" num="240">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spider Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5G/U</manacost>
+				<cmc>6</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Famished Husk</name>
+			<text>Trample
+When Famished Husk enters the battlefield, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/161.png" num="169">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Wraith</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Strike the Face of God</name>
+			<text>Oblation — Put a +1/+1 counter on target creature you control if you&apos;ve sacrificed a permanent or discarded a card this turn. Then it fights target creature you don&apos;t control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/162.png" num="190">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Enormity of Flesh</name>
+			<text>Target creature gets +3/+3 until end of turn.
+Create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/163.png" num="166">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Splendor in Ruins</name>
+			<text>Mill three cards, then you may put a land card from your hand or graveyard onto the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/164.png" num="189">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Commune with Spirits</name>
+			<text>Look at the top four cards of your library. You may reveal an enchantment or land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/165.png" num="164">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Colossal Emergence</name>
+			<text>Creatures you control have base power and toughness 20/20.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/166.png" num="163">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>12GG</manacost>
+				<cmc>14</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Khoe, Gore Harvester</name>
+			<text>As long as you control fewer than seven nonland permanents, Khoe, Gore Harvester is an enchantment and isn&apos;t a creature.
+Creatures you control can&apos;t block.
+You may cast creature spells from your graveyard.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/167.png" num="176">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon God</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Primeval Growth</name>
+			<text>Primeval Growth can&apos;t be blocked by creatures with power 2 or less.
+Whenever you put one or more counters on a noncreature permanent you control, put that many +1/+1 counters on Primeval Growth.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/168.png" num="182">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hydra</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Apostasy of Flesh</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Create a 2/2 green Ogre creature token.
+II, III — Search your library for a creature card, exile it, then shuffle. If its power is less than or equal to the number of creatures you control, put it onto the battlefield. Otherwise, put it into your hand.
+​</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/169.png" num="160">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Reaping the Gore Harvest</name>
+			<text></text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/170.png" num="185">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Godgrave Ceremony</name>
+			<text>You may play lands from your graveyard.
+Whenever a land enters the battlefield under your control, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/171.png" num="174">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Autumnal Equinox</name>
+			<text>You may cast creature and enchantment spells as though they had flash.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/172.png" num="161">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cacochymia</name>
+			<text>Once during each of your turns, you may cast a creature spell from your graveyard. Whenever you cast a creature spell this way, it enters the battlefield with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead.)
+If a creature an opponent controls would die, exile it instead.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/173.png" num="221">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>3BG</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Yawning Devourer</name>
+			<text>Yawning Devourer can&apos;t be blocked by creatures with power 2 or less.
+{G}: Exile target card from a graveyard and put a +1/+1 counter on Yawning Devourer.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/174.png" num="196">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Godblood Martyr</name>
+			<text>Flash
+When Godblood Martyr enters the battlefield, up to two other target creatures you control gain shielded until end of turn. (Prevent all damage that would be dealt to them.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/175.png" num="172">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Scion Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wretched Inevitability</name>
+			<text>Trample
+When Wretched Inevitability enters the battlefield, return target permanent card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/176.png" num="195">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Pilgrimage of Flesh</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/177.png" num="181">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Thrasher of Penitents</name>
+			<text>When Thrasher of Penitents enters the battlefield, create a 2/2 green Ogre creature token.
+Oblation — As long as you&apos;ve sacrificed a permanent or discarded a card this turn, creatures you control can&apos;t be blocked by creatures with power 2 or less.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/178.png" num="191">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Destiny Spinner</name>
+			<text>Creature and enchantment spells you control can&apos;t be countered.
+{3}{G}: Target land you control becomes an X/X Elemental creature with trample and haste until end of turn, where X is the number of enchantments you control. It&apos;s still a land.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/179.png" num="165">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shackled Impenitent</name>
+			<text>Whenever you sacrifice a permanent, put a +1/+1 counter on Shackled Impenitent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/180.png" num="188">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>World Eater</name>
+			<text>Trample
+When World Eater enters the battlefield, each opponent sacrifices a noncreature, nonland permanent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/181.png" num="194">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wurm</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Savage Hesychast</name>
+			<text>Whenever a creature with power 4 or greater enters the battlefield under your control, draw a card.
+Communion {2}{G} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/182.png" num="186">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Ogre Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Overwhelming Brutality</name>
+			<text>Enchant creature
+Enchanted creature gets +1/+1 for each enchantment you control and has trample.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/183.png" num="180">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bridge to Infinity</name>
+			<text>Whenever you sacrifice a permanent with mana value 3 or greater, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/184.png" num="162">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Godblood Wellspring</name>
+			<text>You may play an additional land on each of your turns.
+Lands you control enter the battlefield untapped.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/185.png" num="173">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Seer of Fable</name>
+			<text>{T}: Add {C}.
+Oblation — {1}{G}: Seer of Fable has base power and toughness 3/3 until end of turn. Activate only if you&apos;ve sacrificed a permanent or discarded a card this turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/186.png" num="187">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spoils of Blood</name>
+			<text>Create an X/X black Horror creature token, where X is the number of creatures that died this turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/187.png" num="118">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Raw Chaos</name>
+			<text>Choose target nonenchantment, nonland permanent. Exile cards from the top of your library until you reveal a nonland card with equal or lesser mana value. When you do, the chosen permanent&apos;s controller may sacrifice it. If they don&apos;t, you may cast the card without paying its mana value.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/188.png" num="141">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ethereal Ritual</name>
+			<text>When Ethereal Ritual enters the battlefield, draw a card.
+Enchantments you cast cost {1} less to cast.
+Enchantment creatures you control get +1/+1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/189.png" num="199">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mangle</name>
+			<text>Destroy target nonland permanent. You lose life equal to its mana value.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/190.png" num="205">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Burning Mendicant</name>
+			<text>Trample
+Burning Mendicant gets +X/+0, where X is the amount of damage it has dealt this turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/191.png" num="207">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Ogre Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cemetery Metropolite</name>
+			<text>At the beginning of your upkeep, if you have four or more enchantment cards in your graveyard, you may return target enchantment card from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/192.png" num="16">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hallowed Mass</name>
+			<text>Whenever another nontoken permanent you control is put into a graveyard from the battlefield, you may create a token that&apos;s a copy of it. Do this only once each turn.
+Communion {3}{G}{W} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/193.png" num="210">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vivisected Fleshthief</name>
+			<text>Whenever Vivisected Fleshthief attacks, put target nonland permanent an opponent controls into its owner&apos;s library third from the top.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/194.png" num="78">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre Mutant Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Ascended Anchorite</name>
 			<text>Whenever a creature you control deals combat damage to a player, draw a card. Then discard a card unless that creature was an enchantment.
 Communion {1}{W}{U} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/216.png" num="209">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/195.png" num="197">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -31,7 +3383,7 @@ Communion {1}{W}{U} (You may cast this from your graveyard for its communion cos
 			<name>Mabrea&apos;s Shrike</name>
 			<text>Flying
 Whenever Mabrea&apos;s Shrike enters the battlefield or attacks, you may discard a card. If you do, draw a card.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/217.png" num="212">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/196.png" num="201">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -49,7 +3401,7 @@ Whenever Mabrea&apos;s Shrike enters the battlefield or attacks, you may discard
 			<name>Brutal Offering</name>
 			<text>As an additional cost to cast this spell, sacrifice a creature or discard a card.
 Draw two cards and create two Blood tokens. (They&apos;re artifacts with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/218.png" num="216">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/197.png" num="204">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -68,7 +3420,7 @@ Draw two cards and create two Blood tokens. (They&apos;re artifacts with &quot;{
 I — You may sacrifice a creature. If you do, draw a card.
 II — You may sacrifice an enchantment. If you do, draw a card.
 III — Return target non-Saga permanent card from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/219.png" num="220">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/198.png" num="209">APS</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -85,7 +3437,7 @@ III — Return target non-Saga permanent card from your graveyard to your hand.<
 			<name>Withered Warden</name>
 			<text>Lifelink
 Enchantment spells you cast cost {1} less to cast.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/220.png" num="224">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/199.png" num="212">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -103,7 +3455,7 @@ Enchantment spells you cast cost {1} less to cast.</text>
 			<name>Acolyte of the Fleshcrafter</name>
 			<text>Oblation — At the beginning of your end step, if you&apos;ve sacrificed a permanent or discarded a card this turn, create a 1/1 white Homunculus creature token.
 {W}{B}, Sacrifice a creature: Draw a card.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/221.png" num="225">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/200.png" num="213">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -121,7 +3473,7 @@ Enchantment spells you cast cost {1} less to cast.</text>
 			<name>Soukia Remnant</name>
 			<text>{T}: Add one mana of any color.
 Whenever you tap Soukia Remnant for mana, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/222.png" num="233">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/201.png" num="223">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -141,7 +3493,7 @@ Whenever you tap Soukia Remnant for mana, create a Blood token. (It&apos;s an ar
 I — Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
 II — Create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)
 III — Return target land card from your graveyard to the battlefield tapped.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/223.png" num="239">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/202.png" num="229">APS</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -158,7 +3510,7 @@ III — Return target land card from your graveyard to the battlefield tapped.</
 			<name>Pureblood Reeve</name>
 			<text>Vigilance, prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 When Pureblood Reeve enters the battlefield, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/224.png" num="229">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/203.png" num="219">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -176,7 +3528,7 @@ When Pureblood Reeve enters the battlefield, create a Blood token. (It&apos;s an
 			<name>Sin-Gilt Scribes</name>
 			<text>When Sin-Gilt Scribes enters the battlefield, exile the top card of your library. Until the end of your next turn, you may play that card.
 Whenever you cast a noncreature spell, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/225.png" num="236">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/204.png" num="226">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -194,7 +3546,7 @@ Whenever you cast a noncreature spell, create a Blood token. (It&apos;s an artif
 			<name>Disciple of Yoast</name>
 			<text>Whenever Disciple of Yoast or another nontoken enchantment enters the battlefield under your control, create a 1/1 blue Eye enchantment creature token.
 Communion {1}{W}{U} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/226.png" num="210">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/205.png" num="198">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -212,7 +3564,7 @@ Communion {1}{W}{U} (You may cast this from your graveyard for its communion cos
 			<name>Void Hermit</name>
 			<text>When Void Hermit enters the battlefield, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)
 Whenever you discard a card, you may exile that card from your graveyard. If you do, you may play that card this turn.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/227.png" num="215">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/206.png" num="203">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -230,7 +3582,7 @@ Whenever you discard a card, you may exile that card from your graveyard. If you
 			<name>Sotak&apos;s Paladin</name>
 			<text>Menace
 Oblation — When Sotak&apos;s Paladin enters the battlefield, if you&apos;ve sacrificed a permanent or discarded a card this turn, each opponent sacrifices a creature of their choice.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/228.png" num="218">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/207.png" num="206">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -248,7 +3600,7 @@ Oblation — When Sotak&apos;s Paladin enters the battlefield, if you&apos;ve sa
 			<name>Mayhem Lasher</name>
 			<text>Trample
 Whenever you sacrifice a permanent, Mayhem Lasher deals 1 damage to each opponent.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/229.png" num="219">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/208.png" num="208">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -265,7 +3617,7 @@ Whenever you sacrifice a permanent, Mayhem Lasher deals 1 damage to each opponen
 		<card>
 			<name>Hesychast&apos;s Solitude</name>
 			<text>Whenever an enchantment enters the battlefield under your control, draw a card.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/230.png" num="222">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/209.png" num="211">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -282,7 +3634,7 @@ Whenever you sacrifice a permanent, Mayhem Lasher deals 1 damage to each opponen
 			<name>Sotak&apos;s Scourge</name>
 			<text>Oblation — At the beginning of combat on your turn, if you&apos;ve sacrificed a permanent or discarded a card this turn, you may have Sotak&apos;s Scourge become a 3/3 Demigod creature with flying until end of turn.
 Communion {W}{B} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/231.png" num="227">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/210.png" num="216">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -298,9 +3650,9 @@ Communion {W}{B} (You may cast this from your graveyard for its communion cost. 
 		</card>
 		<card>
 			<name>Evrotos Dredger</name>
-			<text>Oblation — At the beginning of your end step, if you sacrificed a permanent or discarded a card this turn, draw a card.
+			<text>Oblation — At the beginning of your end step, if you&apos;ve sacrificed a permanent or discarded a card this turn, draw a card.
 Communion {2}{B}{G} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/232.png" num="231">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/211.png" num="222">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -318,7 +3670,7 @@ Communion {2}{B}{G} (You may cast this from your graveyard for its communion cos
 			<name>Lorespeaker</name>
 			<text>Lorespeaker can&apos;t be blocked by creatures with power 2 or less.
 Whenever Lorespeaker deals combat damage to a player, you may exile a Saga card from your graveyard. When you do, copy a chapter ability of the exiled card.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/233.png" num="237">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/212.png" num="228">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -335,7 +3687,7 @@ Whenever Lorespeaker deals combat damage to a player, you may exile a Saga card 
 		<card>
 			<name>Blood Forges the World Anew</name>
 			<text></text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/234.png" num="228">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/213.png" num="217">APS</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -351,7 +3703,7 @@ Whenever Lorespeaker deals combat damage to a player, you may exile a Saga card 
 		<card>
 			<name>The First to Bleed Has Bled</name>
 			<text></text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/235.png" num="234">APS</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/214.png" num="225">APS</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -365,9 +3717,237 @@ Whenever Lorespeaker deals combat damage to a player, you may exile a Saga card 
 			<tablerow>1</tablerow>
 		</card>
 		<card>
+			<name>Sanguine Initiate</name>
+			<text>When Sanguine Initiate enters the battlefield or dies, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/215.png" num="4">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fleshdreaming</name>
+			<text>Create two 1/1 white Homunculus creature tokens and two Blood tokens. (They&apos;re artifacts with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/216.png" num="1">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Iron Giant</name>
+			<text>Vigilance, reach, trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/217.png" num="245">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Terramorphic Expanse</name>
+			<text>{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/218.png" num="260">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gore Sluice</name>
+			<text>When Gore Sluice enters the battlefield, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+{1}, {T}, Discard a card, Sacrifice Gore Sluice: Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/219.png" num="243">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Blood</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sacred Surrogate</name>
+			<text>Whenever you sacrifice a permanent, put a clay counter on Sacred Surrogate.
+As long as Sacred Surrogate has three or more clay counters on it, it&apos;s a 0/0 Golem artifact creature with &quot;Sacred Surrogate gets +1/+1 for each clay counter on it.&quot;</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/220.png" num="247">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sacred Failure</name>
+			<text>As an additional cost to cast this spell, sacrifice a nonland permanent or pay {2}.
+Trample</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/221.png" num="3">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Demigod</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mockery of Life</name>
+			<text>When Mockery of Life enters the battlefield, create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)
+{T}, Sacrifice an artifact: Exile target player&apos;s graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/222.png" num="246">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sintered Cenobite</name>
+			<text>{2}, {T}, Sacrifice Sintered Cenobite: Until end of turn, whenever a chapter ability of a Saga you control triggers, copy it and you may choose new targets for the copy.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/223.png" num="249">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scorned Grave</name>
+			<text>When Scorned Grave enters the battlefield, draw a card.
+You may sacrifice Scorned Grave as though it were a creature to pay a cost.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/224.png" num="248">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Unborn God</name>
+			<text>Oblation — At the beginning of your end step, if you&apos;ve sacrificed a permanent or discarded a card this turn, put a +1/+1 counter on Unborn God.
+Whenever a creature you control attacks, you may move any number of +1/+1 counters from Unborn God onto it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/225.png" num="250">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gore Barque</name>
+			<text>Flying
+Sacrifice a Blood: Gore Barque becomes an artifact creature until end of turn.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/226.png" num="242">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spreading Filth</name>
+			<text>Destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/227.png" num="6">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Moonlit Basilica</name>
+			<text>Moonlit Basilica enters the battlefield tapped. As it enters, choose a color.
+{T}: Add one mana of the chosen color.
+{3}, {T}, Sacrifice Moonlit Basilica: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/228.png" num="255">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Monument to Divinity</name>
+			<text>{T}: Add {C}.
+Oblation — {2}: Monument to Divinity becomes a 3/3 Demigod creature until end of turn. It&apos;s still a land. Activate only if you&apos;ve sacrificed a permanent or discarded a card this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/229.png" num="254">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
 			<name>Plains</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/252.png" num="262">APS</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/230.png" num="262">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -382,7 +3962,7 @@ Whenever Lorespeaker deals combat damage to a player, you may exile a Saga card 
 		<card>
 			<name>Island</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/253.png" num="263">APS</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/231.png" num="263">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -397,7 +3977,7 @@ Whenever Lorespeaker deals combat damage to a player, you may exile a Saga card 
 		<card>
 			<name>Swamp</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/254.png" num="264">APS</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/232.png" num="264">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -412,7 +3992,7 @@ Whenever Lorespeaker deals combat damage to a player, you may exile a Saga card 
 		<card>
 			<name>Mountain</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/255.png" num="265">APS</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/233.png" num="265">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -427,7 +4007,7 @@ Whenever Lorespeaker deals combat damage to a player, you may exile a Saga card 
 		<card>
 			<name>Forest</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/256.png" num="266">APS</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/234.png" num="266">APS</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -438,6 +4018,749 @@ Whenever Lorespeaker deals combat damage to a player, you may exile a Saga card 
 				<coloridentity>G</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>APS Draft Archetypes APS</name>
+			<text>{W}{U} ENCHANTMENTS Magic hangs thick in the air of Kushab. Your enchantment creatures are power made real.
+UB OBLATION Give offering to power. What you discard or sacrifice will be repaid in kind.
+{B}{R} OBLATION Strike quickly, discard your worldly burdens, and your reward will come.
+{R}{G} SACRIFICE Sagas, creatures, Blood... All is fodder for the gods.
+{G}{W} ENCHANTMENTS Craft myths with Sagas and offer communion through enchantment creatures.
+{W}{B} OBLATION Slowly, surely, your offerings will be accepted by the First Ones.
+{B}{G} BLOOD Amass the power of Kushab through sanguine libations.
+{G}{U} SAGAS Great myths are retold through the recounting of Sagas.
+{U}{R} SPELLS Through blood you will persevere, and find the flurry of spells to win.
+{R}{W} NONCREATURES Enchantments, spells, evoked Sagas—The way of flesh requires greater magic to functions.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/235.png" num="11">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Anoa Sheds His Flesh</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Create a 1/1 white Homunculus creature token.
+III — Put a +1/+1 counter on each creature you control.
+​</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/236.png" num="8">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ukarth Ren, Worldflayer</name>
+			<text>When Ukarth Ren, Worldflayer enters the battlefield, create a black enchantment token named Fleshweave with &quot;Whenever a player discards a card, each opponent loses 1 life.&quot;
+[+1]: Draw a card, then discard a card.
+[-3]: Return target permanent to its owner&apos;s hand. Then that player discards a card.
+[-6]: Each opponent discards their hand, then draws that many cards and sacrifices that many permanents.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/237.png" num="202">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Ren</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fleshweave APS</name>
+			<text>Whenever a player discards a card, each opponent loses 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/238.png" num="4">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>The Procession of the First</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/239.png" num="184">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Brutal Mendicant</name>
+			<text>During your turn, Brutal Mendicant has double strike.
+Oblation — Brutal Mendicant gets +1/+1 as long as you&apos;ve sacrificed a permanent or discarded a card this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/240.png" num="13">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rimespire Vista</name>
+			<text>({T}: Add {U} or {R}.)
+Rimespire Vista enters the battlefield tapped unless seven or more cards are in your graveyard.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/241.png" num="257">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Rotroot Vista</name>
+			<text>({T}: Add {B} or {G}.)
+Rotroot Vista enters the battlefield tapped unless seven or more cards are in your graveyard.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/242.png" num="258">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Ironcourt Vista</name>
+			<text>({T}: Add {R} or {W}.)
+Ironcourt Vista enters the battlefield tapped unless seven or more cards are in your graveyard.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/243.png" num="253">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Wildstone Vista</name>
+			<text>({T}: Add {G} or {U}.)
+Wildstone Vista enters the battlefield tapped unless seven or more cards are in your graveyard.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/244.png" num="261">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Hallowgrave Vista</name>
+			<text>({T}: Add {W} or {B}.)
+Hallowgrave Vista enters the battlefield tapped unless seven or more cards are in your graveyard.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/245.png" num="252">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Homunculus APS</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/246.png" num="2">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Homunculus</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Eye APS</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/247.png" num="3">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Enchantment Creature — Eye</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Blood APS</name>
+			<text>{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/248.png" num="8">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Blood</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Even a Worm Can Moult</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/249.png" num="19">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Change in the House of Flies</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/250.png" num="52">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Meat on the Perfect Table</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/251.png" num="109">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fragment</name>
+			<text>This spell costs {3} less to cast if it targets a permanent with mana value 3 or less.
+Destroy target nonland permanent.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/252.png" num="2">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Anchorite Leaves Seclusion</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/253.png" num="159">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Congregation of Flesh</name>
+			<text>You may have Congregation of Flesh enter the battlefield as a copy of any creature or enchantment on the battlefield, except if it entered from a graveyard it&apos;s an enchantment and not a creature.
+Communion {4}{U}{B} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/254.png" num="200">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Slow, Lonely Climb</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/255.png" num="73">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Withdrawal of Ginilla</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/256.png" num="79">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Even a God Can Bleed</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/257.png" num="126">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ogre APS</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/258.png" num="7">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Ogre</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Mabrea Hoards New Wisdom</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/259.png" num="64">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Yoast Discovers a Soul</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/260.png" num="44">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Heresy of Ukarth Ren</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/261.png" num="102">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Rite of the First Ones</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/262.png" num="142">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Weight of Divinity</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/263.png" num="193">APS</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Treasure APS</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/264.png" num="9">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Loathsome Shagohod</name>
+			<text>Whenever one or more Beasts you control attack, up to one target creature you control fights up to one target creature you don&apos;t control.
+Communion {1}{G}{G} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/265.png" num="178">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Patchwork Mandragora</name>
+			<text>Whenever one or more Homunculi you control attack, create a token that&apos;s a copy of target creature with the least power among creatures you control.
+Communion {1}{W} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/266.png" num="32">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Homunculus</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Diviner of Holy Blood</name>
+			<text>Whenever one or more Ogres you control attack, exile the top two cards of your library. Until end of turn, you may play those cards.
+Communion {3}{R} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/267.png" num="125">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Ogre Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Optos Masterwork</name>
+			<text>Whenever one or more Eyes you control attack, target creature you control gains flying until end of turn.
+Communion {U} (You may cast this from your graveyard for its communion cost. If you do, it enters with a finality counter on it and isn&apos;t a creature.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/268.png" num="66">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Eye</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Horror APS</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/269.png" num="5">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Desolate Godgrave</name>
+			<text>When Desolate Godgrave enters the battlefield, you draw two cards and you lose 2 life.
+{1}{B}, {T}, Sacrifice Desolate Godgrave or discard a creature card: You draw two cards and you lose 2 life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/270.png" num="92">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Verdant Godgrave</name>
+			<text>When Verdant Godgrave enters the battlefield, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
+{3}{G}, {T}, Sacrifice Verdant Godgrave or discard a land card: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/271.png" num="192">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Occluded Godgrave</name>
+			<text>When Occluded Godgrave enters the battlefield, create a token that&apos;s a copy of target permanent you control not named Occluded Godgrave.
+{2}{U}, {T}, Sacrifice Occluded Godgrave or discard an instant card: Create a token that&apos;s a copy of target permanent you control not named Occluded Godgrave.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/272.png" num="65">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Glistening Godgrave</name>
+			<text>When Glistening Godgrave enters the battlefield, return target creature card with mana value 3 or less from your graveyard to the battlefield.
+{1}{W}, {T}, Sacrifice Glistening Godgrave or discard an enchantment card: Return target creature card with mana value 3 or less from your graveyard to the battlefield. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/273.png" num="23">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dragon APS</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/274.png" num="6">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Everywhere APS</name>
+			<text>This land is a Plains, Island, Swamp, Mountain, and Forest. ({T}: Add {W}, {U}, {B}, {R}, or {G}.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/275.png" num="10">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bitter Schism (bundle promo)</name>
+			<text>Exile target nonland permanent. Its controller creates a token that&apos;s a copy of it, except it&apos;s a Saga enchantment with &quot;r{4}—You lose the game&quot; in addition to its other types and abilities.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/276.png" num="267">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WB</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Colossal Emergence (headliner promo)</name>
+			<text>Creatures you control have base power and toughness 20/20.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/277.png" num="268">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>12GG</manacost>
+				<cmc>14</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Effigy APS</name>
+			<text>This token can be used to represent a token that&apos;s a copy of a permanent.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/APS-files/img/278.png" num="1">APS</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

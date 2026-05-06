@@ -6,7 +6,7 @@ Kushab is a dark world of greasy smoke and acrid incense, where the coppery scen
 
 But Kushab's society is experiencing schism as heresy takes hold. Freed from the prison-colony of Skand, the elven scientist Ukarth Ren took refuge on Kushab to recover his power, feasting on holy blood as his reclaimed planeswalker spark recuperated. Ren is no religious mystic, however, and has no interest in the trappings of faith—but Kushab is a realm rich in menfolk and ogres alike for him to practice his vivisection and flesh-change upon, eternally prying at the secrets of life. Many have flocked to his banner, eager to learn the dark arts of biology and chemistry under the tutelage of the apostate of Kushab, setting the scene for a schism that could challenge even the gods.
 
-**The Apostate of Kushab** is a draftable premier set using Play Boosters, containing 266 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of ???, while all boosters have a chance of containing the Headliner ?? version of ???.
+**The Apostate of Kushab** is a draftable premier set using Play Boosters, containing 266 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of Bitter Schism, while all boosters have a chance of containing the Headliner gilt foil version of Colossal Emergence.
 
 ###Mechanics
 
