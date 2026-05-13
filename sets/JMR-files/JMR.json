@@ -57,7 +57,7 @@
             "number": 206,
             "color_identity": "WG",
             "cost": "{1}{G}{W}",
-            "rules_text": "Whenever Hero of Femeref deals combat damage to a player or battle, amass X, where X is the damage dealt. [i](To amass X, put X +1/+1 counters on an Army you control. If you don't control an Army, create a 0/0 black Army creature token first.)[/i]\nWhenever an Army token you control attacks, each attacking creature with lesser power gains double strike until end of turn.",
+            "rules_text": "Whenever Hero of Femeref deals combat damage to a player or battle, amass X, where X is the damage dealt. [i](To amass X, where X, put X +1/+1 counters on an Army you control. It's also a X, where. If you don't control an Army, create a 0/0 black X, where Army creature token first.)[/i]\nWhenever an Army token you control attacks, each attacking creature with lesser power gains double strike until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -404,7 +404,7 @@
             "alias": "",
             "position": "18",
             "rotated": false,
-            "notes": "!group otherland2\n!sort 03"
+            "notes": "!group otherland2\n!sort 03\n!tag tainted"
         },
         {
             "card_name": "Tainted Wood",
@@ -425,7 +425,7 @@
             "alias": "",
             "position": "19",
             "rotated": false,
-            "notes": "!tag reprint\n!group otherland2\n!sort 02"
+            "notes": "!tag reprint\n!group otherland2\n!sort 02\n!tag tainted"
         },
         {
             "card_name": "Drowned Peak",
@@ -446,7 +446,7 @@
             "alias": "",
             "position": "20",
             "rotated": false,
-            "notes": "!tag greprint\n!group otherland2\n!sort 04"
+            "notes": "!tag greprint\n!group otherland2\n!sort 04\n!tag tainted"
         },
         {
             "card_name": "Sweeping Mire",
@@ -467,7 +467,7 @@
             "alias": "",
             "position": "21",
             "rotated": false,
-            "notes": "!group otherland2\n!sort 01"
+            "notes": "!group otherland2\n!sort 01\n!tag tainted"
         },
         {
             "card_name": "Mtenda Scavenger",
@@ -2570,7 +2570,7 @@
             "notes": ""
         },
         {
-            "card_name": "Eternal March (old)",
+            "card_name": "Eternal March",
             "color": "B",
             "rarity": "uncommon",
             "type": "Battle \u2014 Conflict",
@@ -2588,7 +2588,7 @@
             "alias": "",
             "position": "122",
             "rotated": true,
-            "notes": "!exportname Eternal March (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 10"
+            "notes": "!!battleslot\n!tag old\n!group oldframe\n!sort 10"
         },
         {
             "card_name": "Tome Raider",
@@ -3963,7 +3963,7 @@
             "number": 166,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "[i](As this enters, choose an opponent to protect it. You can attack it.)[/i]\nWhen Massed Engagement enters the battlefield or is defeated,reveal the top four cards of your library. You may put a creature card and/or a land card from among them into your hand. Put the rest into your graveyard.",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You can attack it.)[/i]\nWhen Massed Engagement enters the battlefield or is defeated, reveal the top four cards of your library. You may put a creature card and/or a land card from among them into your hand. Put the rest into your graveyard.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5108,7 +5108,7 @@
             "alias": "",
             "position": "242",
             "rotated": false,
-            "notes": "!group otherland2\n!sort 05"
+            "notes": "!group otherland2\n!sort 05\n!tag tainted"
         },
         {
             "card_name": "Warrior",
@@ -5195,7 +5195,7 @@
             "notes": "!tag greprint"
         },
         {
-            "card_name": "The Law of the Jungle (old)",
+            "card_name": "The Law of the Jungle",
             "color": "B",
             "rarity": "common",
             "type": "Battle \u2014 Conflict",
@@ -5213,10 +5213,10 @@
             "alias": "",
             "position": "247",
             "rotated": true,
-            "notes": "!exportname The Law of the Jungle (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 11"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 11"
         },
         {
-            "card_name": "To Prepare for War (old)",
+            "card_name": "To Prepare for War",
             "color": "R",
             "rarity": "common",
             "type": "Battle \u2014 Conflict",
@@ -5234,7 +5234,7 @@
             "alias": "",
             "position": "248",
             "rotated": true,
-            "notes": "!exportname To Prepare for War (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 14"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 14"
         },
         {
             "card_name": "Plains",
@@ -5363,7 +5363,7 @@
             "notes": "!tag greprint"
         },
         {
-            "card_name": "Cross the Great Desert (old)",
+            "card_name": "Cross the Great Desert",
             "color": "G",
             "rarity": "common",
             "type": "Battle \u2014 Conflict",
@@ -5381,7 +5381,7 @@
             "alias": "",
             "position": "255",
             "rotated": true,
-            "notes": "!exportname Cross the Great Desert (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 16"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 16"
         },
         {
             "card_name": "The Rally of Quirion",
@@ -5426,7 +5426,7 @@
             "notes": "!battleslot"
         },
         {
-            "card_name": "The Rally of Quirion (old)",
+            "card_name": "The Rally of Quirion",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Battle \u2014 Conflict",
@@ -5444,7 +5444,7 @@
             "alias": "",
             "position": "258",
             "rotated": true,
-            "notes": "!exportname The Rally of Quirion (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 20"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 20"
         },
         {
             "card_name": "The Song of Uktabi",
@@ -5468,7 +5468,7 @@
             "notes": "!battleslot"
         },
         {
-            "card_name": "The Song of Uktabi (old)",
+            "card_name": "The Song of Uktabi",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Battle \u2014 Conflict",
@@ -5486,7 +5486,7 @@
             "alias": "",
             "position": "260",
             "rotated": true,
-            "notes": "!exportname The Song of Uktabi (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 21"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 21"
         },
         {
             "card_name": "Army",
@@ -5552,7 +5552,7 @@
             "notes": "!tag greprint\n!group otherland"
         },
         {
-            "card_name": "Mutoto, Soul of Uktabi (bundle promo)",
+            "card_name": "Mutoto, Soul of Uktabi",
             "color": "G",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Elemental",
@@ -5570,10 +5570,10 @@
             "alias": "",
             "position": "264",
             "rotated": false,
-            "notes": "!tag bundle\n!group promo\n!exportname Mutoto, Soul of Uktabi (bundle promo)\n!sort 01\n!tag old"
+            "notes": "!tag bundle\n!group promo\n!sort 01\n!tag old"
         },
         {
-            "card_name": "Teferi, Steward of Zhalfir (headliner promo)",
+            "card_name": "Teferi, Steward of Zhalfir",
             "color": "WU",
             "rarity": "mythic",
             "type": "Planeswalker \u2014 Teferi",
@@ -5591,7 +5591,7 @@
             "alias": "",
             "position": "265",
             "rotated": false,
-            "notes": "!tag headliner\n!group promo\n!exportname Teferi, Steward of Zhalfir (headliner promo)\n!sort 01"
+            "notes": "!tag headliner\n!group promo\n!sort 01"
         },
         {
             "card_name": "Kaervek's Advance",
@@ -5615,7 +5615,7 @@
             "notes": "!battleslot"
         },
         {
-            "card_name": "Kaervek's Advance (old)",
+            "card_name": "Kaervek's Advance",
             "color": "W",
             "rarity": "common",
             "type": "Battle \u2014 Conflict",
@@ -5633,7 +5633,7 @@
             "alias": "",
             "position": "267",
             "rotated": true,
-            "notes": "!exportname Kaervek's Advance (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 02"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 02"
         },
         {
             "card_name": "The Harshness of the Sea",
@@ -5657,7 +5657,7 @@
             "notes": "!battleslot"
         },
         {
-            "card_name": "The Harshness of the Sea (old)",
+            "card_name": "The Harshness of the Sea",
             "color": "U",
             "rarity": "common",
             "type": "Battle \u2014 Conflict",
@@ -5675,7 +5675,7 @@
             "alias": "",
             "position": "269",
             "rotated": true,
-            "notes": "!exportname The Harshness of the Sea (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 06"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 06"
         },
         {
             "card_name": "Treasure",
@@ -5720,7 +5720,7 @@
             "notes": "!battleslot\n!group clear"
         },
         {
-            "card_name": "Into the Heart of Darkness (old)",
+            "card_name": "Into the Heart of Darkness",
             "color": "",
             "rarity": "common",
             "type": "Battle \u2014 Conflict",
@@ -5738,7 +5738,7 @@
             "alias": "",
             "position": "272",
             "rotated": true,
-            "notes": "!exportname Into the Heart of Darkness (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 01"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 01"
         },
         {
             "card_name": "Kaervek's Bauble",
@@ -5783,7 +5783,7 @@
             "notes": "!battleslot"
         },
         {
-            "card_name": "Conquer Trade Routes (old)",
+            "card_name": "Conquer Trade Routes",
             "color": "U",
             "rarity": "uncommon",
             "type": "Battle \u2014 Conflict",
@@ -5801,10 +5801,10 @@
             "alias": "",
             "position": "275",
             "rotated": true,
-            "notes": "!exportname Conquer Trade Routes (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 04"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 04"
         },
         {
-            "card_name": "Protect the Souk (old)",
+            "card_name": "Protect the Souk",
             "color": "W",
             "rarity": "uncommon",
             "type": "Battle \u2014 Conflict",
@@ -5822,7 +5822,7 @@
             "alias": "",
             "position": "276",
             "rotated": true,
-            "notes": "!exportname Protect the Souk (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 03"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 03"
         },
         {
             "card_name": "Gloomy Clearing",
@@ -5951,7 +5951,7 @@
             "notes": ""
         },
         {
-            "card_name": "Brave the Gold Road (old)",
+            "card_name": "Brave the Gold Road",
             "color": "G",
             "rarity": "rare",
             "type": "Battle \u2014 Conflict",
@@ -5969,10 +5969,10 @@
             "alias": "",
             "position": "283",
             "rotated": true,
-            "notes": "!exportname Brave the Gold Road (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 15"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 15"
         },
         {
-            "card_name": "Nature's Grandeur (old)",
+            "card_name": "Nature's Grandeur",
             "color": "G",
             "rarity": "uncommon",
             "type": "Battle \u2014 Conflict",
@@ -5990,10 +5990,10 @@
             "alias": "",
             "position": "284",
             "rotated": true,
-            "notes": "!exportname Nature's Grandeur (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 18"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 18"
         },
         {
-            "card_name": "Caravan Raid (old)",
+            "card_name": "Caravan Raid",
             "color": "R",
             "rarity": "uncommon",
             "type": "Battle \u2014 Conflict",
@@ -6011,7 +6011,7 @@
             "alias": "",
             "position": "285",
             "rotated": true,
-            "notes": "!exportname Caravan Raid (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 12"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 12"
         },
         {
             "card_name": "Caravan Raid",
@@ -6035,7 +6035,7 @@
             "notes": "!battleslot"
         },
         {
-            "card_name": "Carve Out a New History (old)",
+            "card_name": "Carve Out a New History",
             "color": "R",
             "rarity": "uncommon",
             "type": "Battle \u2014 Conflict",
@@ -6053,7 +6053,7 @@
             "alias": "",
             "position": "287",
             "rotated": true,
-            "notes": "!exportname Carve Out a New History (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 13"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 13"
         },
         {
             "card_name": "Gather a Flotilla",
@@ -6098,7 +6098,7 @@
             "notes": "!battleslot"
         },
         {
-            "card_name": "Gather a Flotilla (old)",
+            "card_name": "Gather a Flotilla",
             "color": "U",
             "rarity": "rare",
             "type": "Battle \u2014 Conflict",
@@ -6116,10 +6116,10 @@
             "alias": "",
             "position": "290",
             "rotated": true,
-            "notes": "!exportname Gather a Flotilla (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 05"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 05"
         },
         {
-            "card_name": "Confront the Endbringer (old)",
+            "card_name": "Confront the Endbringer",
             "color": "B",
             "rarity": "rare",
             "type": "Battle \u2014 Conflict",
@@ -6137,7 +6137,7 @@
             "alias": "",
             "position": "291",
             "rotated": true,
-            "notes": "!exportname Confront the Endbringer (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 09"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 09"
         },
         {
             "card_name": "Cross the Great Desert",
@@ -6161,14 +6161,14 @@
             "notes": "!battleslot"
         },
         {
-            "card_name": "Massed Engagement (old)",
+            "card_name": "Massed Engagement",
             "color": "G",
             "rarity": "common",
             "type": "Battle \u2014 Conflict",
             "number": 283,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "[i](As this enters, choose an opponent to protect it. You can attack it.)[/i]\nWhen Massed Engagement enters the battlefield or is defeated,reveal the top four cards of your library. You may put a creature card and/or a land card from among them into your hand. Put the rest into your graveyard.",
+            "rules_text": "[i](As this enters, choose an opponent to protect it. You can attack it.)[/i]\nWhen Massed Engagement enters the battlefield or is defeated, reveal the top four cards of your library. You may put a creature card and/or a land card from among them into your hand. Put the rest into your graveyard.",
             "flavor_text": "[i][/i]",
             "pt": "4",
             "special_text": "",
@@ -6179,7 +6179,7 @@
             "alias": "",
             "position": "293",
             "rotated": true,
-            "notes": "!exportname Massed Engagement (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 17"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 17"
         },
         {
             "card_name": "Zhalfirin Exemplar",
@@ -6224,7 +6224,7 @@
             "notes": "!battleslot"
         },
         {
-            "card_name": "Portent of War (old)",
+            "card_name": "Portent of War",
             "color": "U",
             "rarity": "uncommon",
             "type": "Battle \u2014 Conflict",
@@ -6242,7 +6242,7 @@
             "alias": "",
             "position": "296",
             "rotated": true,
-            "notes": "!exportname Portent of War (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 08"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 08"
         },
         {
             "card_name": "Elephant",
@@ -6266,7 +6266,7 @@
             "notes": "!group token\n!sort 03"
         },
         {
-            "card_name": "Protracted Siege (old)",
+            "card_name": "Protracted Siege",
             "color": "UB",
             "rarity": "rare",
             "type": "Battle \u2014 Conflict",
@@ -6284,10 +6284,10 @@
             "alias": "",
             "position": "298",
             "rotated": true,
-            "notes": "!exportname Protracted Siege (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 19"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 19"
         },
         {
-            "card_name": "On the Cusp of Triumph (old)",
+            "card_name": "On the Cusp of Triumph",
             "color": "U",
             "rarity": "mythic",
             "type": "Battle \u2014 Conflict",
@@ -6305,8 +6305,8 @@
             "alias": "",
             "position": "299",
             "rotated": true,
-            "notes": "!exportname On the Cusp of Triumph (old)\n!battleslot\n!tag old\n!group oldframe\n!sort 07"
+            "notes": "!battleslot\n!tag old\n!group oldframe\n!sort 07"
         }
     ],
-    "version": 16
+    "version": 17
 }
