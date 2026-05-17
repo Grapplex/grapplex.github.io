@@ -5,7 +5,7 @@
 			<name>OVR</name>
 			<longname>Overlay</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-13</releasedate>
+			<releasedate>2026-05-18</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -645,7 +645,7 @@ Grand evolution 3—{3}{W} ({3}{W}: If this isn&apos;t a creature, it becomes a 
 		</card>
 		<card>
 			<name>Practiced Tactics</name>
-			<text>As long as it&apos;s your turn, this spell costs {2} less to cast.
+			<text>As long as it&apos;s your turn, Practiced Tactics costs {2} less to cast.
 Creatures you control get +2/+1 until end of turn.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/OVR-files/img/37.png" num="21">OVR</set>
 			<prop>
@@ -1214,7 +1214,7 @@ Whenever Molimo&apos;s Wrathbark attacks or blocks, it gets +1/+1 until end of t
 		</card>
 		<card>
 			<name>Urgent Preparation</name>
-			<text>As an additional cost to cast this spell, discard a card.
+			<text>As an additional cost to cast Urgent Preparation, discard a card.
 Draw two cards.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/OVR-files/img/70.png" num="219">OVR</set>
 			<prop>
@@ -1406,7 +1406,7 @@ Scry 2, then draw X cards.</text>
 		</card>
 		<card>
 			<name>Innocence Lost</name>
-			<text>As an additional cost to cast this spell, return a permanent you control to its owner&apos;s hand.
+			<text>As an additional cost to cast Innocence Lost, return a permanent you control to its owner&apos;s hand.
 Flying</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/OVR-files/img/81.png" num="40">OVR</set>
 			<prop>
@@ -1498,7 +1498,7 @@ Whenever Phyrexian Debilitator becomes blocked by a creature, tap that creature 
 		</card>
 		<card>
 			<name>Urborg Devourer</name>
-			<text>This spell costs {1} less to cast for each artifact you control.
+			<text>Urborg Devourer costs {1} less to cast for each artifact you control.
 Flying</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/OVR-files/img/86.png" num="56">OVR</set>
 			<prop>
@@ -1690,7 +1690,7 @@ Flying</text>
 		</card>
 		<card>
 			<name>Shorn Sleeper</name>
-			<text>As an additional cost to cast this spell, pay {2} or remove two counters from among artifacts and/or creatures you control.</text>
+			<text>As an additional cost to cast Shorn Sleeper, pay {2} or remove two counters from among artifacts and/or creatures you control.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/OVR-files/img/97.png" num="86">OVR</set>
 			<prop>
 				<layout>normal</layout>
@@ -1744,7 +1744,7 @@ When Barrow Wraith enters the battlefield, choose one —
 		</card>
 		<card>
 			<name>Inexorable Hunger</name>
-			<text>As an additional cost to cast this spell, pay {1} or remove a +1/+1 counter from a creature you control.
+			<text>As an additional cost to cast Inexorable Hunger, pay {1} or remove a +1/+1 counter from a creature you control.
 Target creature gets -3/-3 until end of turn.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/OVR-files/img/100.png" num="75">OVR</set>
 			<prop>
@@ -1795,7 +1795,7 @@ Target creature gets -3/-3 until end of turn.</text>
 		</card>
 		<card>
 			<name>Barrin&apos;s Vengeance</name>
-			<text>This spell costs {1}{B} less to cast if a creature you controlled died this turn.
+			<text>Barrin&apos;s Vengeance costs {1}{B} less to cast if a creature you controlled died this turn.
 Destroy target creature or planeswalker.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/OVR-files/img/103.png" num="62">OVR</set>
 			<prop>
@@ -1994,7 +1994,7 @@ During each of your turns, each creature you control with a +1/+1 counter on it 
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Phyrexian Minion</type>
+				<type>Creature — Newt Minion</type>
 				<maintype>Creature</maintype>
 				<manacost>1BB</manacost>
 				<cmc>3</cmc>
@@ -2083,7 +2083,7 @@ When Scourge of Dakmor enters the battlefield, return target artifact or creatur
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Phyrexian</type>
+				<type>Creature — Newt</type>
 				<maintype>Creature</maintype>
 				<manacost>1B</manacost>
 				<cmc>2</cmc>
@@ -2350,7 +2350,7 @@ When Talruum Boltweaver enters the battlefield, return target instant or sorcery
 		</card>
 		<card>
 			<name>Keldon Auxiliary</name>
-			<text>This spell costs {2} less to cast as long as there are four or more colors in your coalition. (Your coalition contains up to one different permanent of each color.)
+			<text>Keldon Auxiliary costs {2} less to cast as long as there are four or more colors in your coalition. (Your coalition contains up to one different permanent of each color.)
 Menace</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/OVR-files/img/135.png" num="99">OVR</set>
 			<prop>
@@ -2401,8 +2401,8 @@ Grand evolution 4—{4}{R} ({4}{R}: If this isn&apos;t a creature, it becomes a 
 		</card>
 		<card>
 			<name>At Any Cost</name>
-			<text>As an additional cost to cast this spell, discard a card.
-Draw two cards and create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<text>As an additional cost to cast At Any Cost, discard a card.
+Draw two cards and create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/OVR-files/img/138.png" num="89">OVR</set>
 			<prop>
 				<layout>normal</layout>
@@ -2733,7 +2733,7 @@ Whenever Bogardan Hellmaw enters the battlefield or attacks, if a permanent you 
 		</card>
 		<card>
 			<name>Torment&apos;s Toll</name>
-			<text>As an additional cost to cast this spell, sacrifice a creature or pay {3}.
+			<text>As an additional cost to cast Torment&apos;s Toll, sacrifice a creature or pay {3}.
 Torment&apos;s Toll deals 4 damage to any target.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/OVR-files/img/157.png" num="115">OVR</set>
 			<prop>
@@ -2819,7 +2819,7 @@ Equip {2}</text>
 		</card>
 		<card>
 			<name>Eruption</name>
-			<text>Destroy target artifact or land. If an artifact is destroyed this way, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<text>Destroy target artifact or land. If an artifact is destroyed this way, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/OVR-files/img/162.png" num="212">OVR</set>
 			<prop>
 				<layout>normal</layout>
@@ -3011,7 +3011,7 @@ Grand evolution 1—{1} ({1}: If this isn&apos;t a creature, it becomes a 0/0 Ph
 		</card>
 		<card>
 			<name>Titanic Brawl</name>
-			<text>This spell costs {1} less to cast if it targets a creature you control with a +1/+1 counter on it.
+			<text>Titanic Brawl costs {1} less to cast if it targets a creature you control with a +1/+1 counter on it.
 Target creature you control fights target creature you don&apos;t control.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/OVR-files/img/173.png" num="140">OVR</set>
 			<prop>
@@ -3344,7 +3344,7 @@ Whenever Craw Goliath attacks, you may pay {1}{R}. When you do, it deals 2 damag
 			<name>Perfected Invader</name>
 			<text>Trample
 Perfected Invader enters the battlefield with X +1/+1 counters on it.
-When Perfected Invader enters the battlefield or dies, create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+When Perfected Invader enters the battlefield or dies, create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/OVR-files/img/192.png" num="131">OVR</set>
 			<prop>
 				<layout>normal</layout>
@@ -3361,7 +3361,7 @@ When Perfected Invader enters the battlefield or dies, create a tapped Treasure 
 		</card>
 		<card>
 			<name>Vitality Extractor</name>
-			<text>When Vitality Extractor enters the battlefield, you may tap an untapped land you control. If you do, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<text>When Vitality Extractor enters the battlefield, you may tap an untapped land you control. If you do, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/OVR-files/img/193.png" num="144">OVR</set>
 			<prop>
 				<layout>normal</layout>
@@ -3378,7 +3378,7 @@ When Perfected Invader enters the battlefield or dies, create a tapped Treasure 
 		</card>
 		<card>
 			<name>Tolarian Prodigy</name>
-			<text>This spell costs {1} less to cast if there are three or more colors in your coalition. (Your coalition contains up to one different permanent of each color.)
+			<text>Tolarian Prodigy costs {1} less to cast if there are three or more colors in your coalition. (Your coalition contains up to one different permanent of each color.)
 When Tolarian Prodigy enters the battlefield, draw a card.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/OVR-files/img/194.png" num="225">OVR</set>
 			<prop>
@@ -3773,7 +3773,7 @@ When Venturing Viscerid enters the battlefield, search your library for a land c
 		</card>
 		<card>
 			<name>Out of the Trenches</name>
-			<text>As an additional cost to cast this spell, sacrifice a nonland permanent.
+			<text>As an additional cost to cast Out of the Trenches, sacrifice a nonland permanent.
 Draw two cards. Create a 1/1 red Goblin creature token.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/OVR-files/img/217.png" num="185">OVR</set>
 			<prop>
@@ -3883,7 +3883,7 @@ Whenever you put one or more counters on an artifact or creature you control, Ho
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Phyrexian Zombie</type>
+				<type>Creature — Newt Zombie</type>
 				<maintype>Creature</maintype>
 				<manacost>WB</manacost>
 				<cmc>2</cmc>
@@ -4056,7 +4056,7 @@ Ramshackle Guardian enters the battlefield with a +1/+1 counter on it for each c
 		</card>
 		<card>
 			<name>Draco&apos;s Attendant</name>
-			<text>This spell costs {1} less to cast for each color in your coalition. (Your coalition contains up to one different permanent of each color.)
+			<text>Draco&apos;s Attendant costs {1} less to cast for each color in your coalition. (Your coalition contains up to one different permanent of each color.)
 Flying, trample</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/OVR-files/img/234.png" num="232">OVR</set>
 			<prop>
@@ -4647,7 +4647,7 @@ Whenever a source deals damage to Phrexian Eviscerator, put that many +1/+1 coun
 			<token>1</token>
 		</card>
 		<card>
-			<name>Yawgmoth, Father of Machines</name>
+			<name>Yawgmoth Father of Machines (bundle promo)</name>
 			<text>Menace, trample, lifelink
 At the beginning of each player&apos;s upkeep, that player loses life equal to the number of artifacts they don&apos;t control. Then if each player has 5 or more life, Yawgmoth, Father of Machines becomes an artifact until end of turn.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OVR-files/img/270.png" num="277">OVR</set>
