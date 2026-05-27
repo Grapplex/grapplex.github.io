@@ -5,7 +5,7 @@
 			<name>APS</name>
 			<longname>The Apostate of Kushab</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-13</releasedate>
+			<releasedate>2026-05-27</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -120,9 +120,9 @@ Effigy {2}{U} (When you discard this card, you may pay {2}{U}. If you do, create
 		<card>
 			<name>Ascend to Godhood</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Choose a legendary permanent card name.
+I — Choose a legendary permanent card name.
 Sacrifice a nonland permanent.
-Search your library for a card with the chosen name, put it onto the battlefield, then shuffle.</text>
+II — Search your library for a card with the chosen name, put it onto the battlefield, then shuffle.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/6.png" num="220">APS</set>
 			<prop>
 				<layout>saga</layout>
@@ -1091,7 +1091,7 @@ Create a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card
 		</card>
 		<card>
 			<name>Sacred Mysteries</name>
-			<text>Each opponent shuffles, then exiles a number of cards from the top of their library, equal to half their starting library, rounded up.</text>
+			<text>Each opponent shuffles, then exiles a number of cards from the top of their library equal to half their starting library, rounded up.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/APS-files/img/63.png" num="72">APS</set>
 			<prop>
 				<layout>normal</layout>
@@ -1194,9 +1194,9 @@ Whenever Thief of Insight deals combat damage to a player, you win the game if y
 		<card>
 			<name>Heresy Flays the Holy Word</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Each opponent mills cards until that player has milled a land card.
+I — Each opponent mills cards until that player has milled a land card.
 Each opponent mills cards until that player has milled a creature card.
-Each opponent mills cards until that player has milled a noncreature, nonland card.</text>
+II — Each opponent mills cards until that player has milled a noncreature, nonland card.</text>
 			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/69.png" num="59">APS</set>
 			<prop>
 				<layout>saga</layout>
@@ -1815,7 +1815,7 @@ When Sanctified Meat dies, target creature an opponent controls gets -1/-1 until
 		<card>
 			<name>A Gift of Blood</name>
 			<text>As an additional cost to cast this spell, sacrifice an artifact or creature.
-Create a 1/1 white Homunculus creature token, a Blood token, and a Treasure token. (They&apos;re artifact. Blood has &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot; Treasure has &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+Create a 1/1 white Homunculus creature token, a Blood token, and a Treasure token. (They&apos;re artifacts. A Blood has &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot; A Treasure has &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/105.png" num="99">APS</set>
 			<prop>
 				<layout>normal</layout>
@@ -2915,8 +2915,8 @@ Whenever you put one or more counters on a noncreature permanent you control, pu
 		<card>
 			<name>The Apostasy of Flesh</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Create a 2/2 green Ogre creature token.
-Search your library for a creature card, exile it, then shuffle. If its power is less than or equal to the number of creatures you control, put it onto the battlefield. Otherwise, put it into your hand.
+I — Create a 2/2 green Ogre creature token.
+II, III — Search your library for a creature card, exile it, then shuffle. If its power is less than or equal to the number of creatures you control, put it onto the battlefield. Otherwise, put it into your hand.
 ​</text>
 			<set rarity="rare" picurl="https://grapplex.github.io/sets/APS-files/img/169.png" num="160">APS</set>
 			<prop>
@@ -4047,8 +4047,8 @@ UB OBLATION Give offering to power. What you discard or sacrifice will be repaid
 		<card>
 			<name>Anoa Sheds His Flesh</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Create a 1/1 white Homunculus creature token.
-Put a +1/+1 counter on each creature you control.
+I, II — Create a 1/1 white Homunculus creature token.
+III — Put a +1/+1 counter on each creature you control.
 ​</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/APS-files/img/236.png" num="8">APS</set>
 			<prop>

@@ -2,7 +2,7 @@
     "name": "Skand: Heavy Metal War",
     "formats": "",
     "image_type": "png",
-    "draft_structure": "none",
+    "draft_structure": "play booster",
     "unpreviewed": "card back",
     "image_name": "position",
     "v_mana": "",
@@ -3759,7 +3759,7 @@
             "number": 184,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
-            "rules_text": "Reach\nIf you would gain life, you gain that much life plus 1 instead.\nThis creature gets +2/+2 as long as you have at least 5 life more than your starting life total.",
+            "rules_text": "Reach\nIf you would gain life, you gain that much life plus 1 instead.\nLightgazer Sprout gets +2/+2 as long as you have at least 5 life more than your starting life total.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -5249,7 +5249,7 @@
             "notes": "!group token\n!sort 10"
         },
         {
-            "card_name": "Vitho Baun, Progress Grafter",
+            "card_name": "Vitho Baun, Progress Grafter (bundle promo)",
             "color": "WU",
             "rarity": "mythic",
             "type": "Legendary Artifact Creature \u2014 Human",
@@ -5267,7 +5267,7 @@
             "alias": "",
             "position": "237",
             "rotated": false,
-            "notes": "!tag bundle\n!group promo\n!sort 1"
+            "notes": "!exportname Vitho Baun, Progress Grafter (bundle promo)\n!tag bundle\n!group promo\n!sort 1"
         },
         {
             "card_name": "Pained Instar",
@@ -6062,7 +6062,7 @@
             "notes": "!group token\n!sort 01"
         },
         {
-            "card_name": "Alpha, Genetic Martyr",
+            "card_name": "Alpha Genetic Martyr (headliner promo)",
             "color": "U",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Octopus Demon",
@@ -6080,7 +6080,7 @@
             "alias": "",
             "position": "270",
             "rotated": false,
-            "notes": "!tag headliner\n!group promo\n!sort 2"
+            "notes": "!exportname Alpha Genetic Martyr (headliner promo)\n!tag headliner\n!group promo\n!sort 2"
         },
         {
             "card_name": "Incision Adept",
@@ -6356,5 +6356,5 @@
             "notes": "!group token\n!sort 07"
         }
     ],
-    "version": 4
+    "version": 5
 }

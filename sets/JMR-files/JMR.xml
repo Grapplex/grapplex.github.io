@@ -5,7 +5,7 @@
 			<name>JMR</name>
 			<longname>Jamuraa: The Mirage War</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-13</releasedate>
+			<releasedate>2026-05-26</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -28,7 +28,7 @@
 		<card>
 			<name>Opal Horn</name>
 			<text>Basic lands you control have &quot;Whenever you tap this land for mana, it deals 1 damage to each opponent.&quot;</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/JMR-files/img/1.png" num="201">JMR</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/JMR-files/img/1.png" num="200">JMR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -45,7 +45,7 @@
 			<name>Hero of Femeref</name>
 			<text>Whenever Hero of Femeref deals combat damage to a player or battle, amass X, where X is the damage dealt. (To amass X, where X, put X +1/+1 counters on an Army you control. It&apos;s also a X, where. If you don&apos;t control an Army, create a 0/0 black X, where Army creature token first.)
 Whenever an Army token you control attacks, each attacking creature with lesser power gains double strike until end of turn.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/JMR-files/img/2.png" num="206">JMR</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/JMR-files/img/2.png" num="205">JMR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -130,18 +130,18 @@ Whenever you tap a land with a cadaver counter on it for mana, add one mana of a
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Spiteful Deed</name>
-			<text>{X}, Sacrifice Spiteful Deed: Destroy each artifact, creature, and enchantment with mana value X or less.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/JMR-files/img/7.png" num="200">JMR</set>
+			<name>Pernicious Deed</name>
+			<text>{X}, Sacrifice Pernicious Deed: Destroy each artifact, creature, and enchantment with mana value X or less.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/JMR-files/img/7.png" num="214">JMR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>1BR</manacost>
+				<manacost>1BG</manacost>
 				<cmc>3</cmc>
-				<colors>BR</colors>
-				<coloridentity>BR</coloridentity>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
@@ -3330,7 +3330,7 @@ Whenever Hand of Kaervek outflanks, exile the top card of each player&apos;s lib
 			<name>Vintara Charger</name>
 			<text>Vintara Charger can&apos;t be blocked by more than one creature.
 Whenever Vintara Charger outflanks, put two +1/+1 counters on it. (A creature outflanks when it attacks and isn&apos;t blocked by creatures with equal or greater total power.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/JMR-files/img/194.png" num="204">JMR</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/JMR-files/img/194.png" num="203">JMR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3349,7 +3349,7 @@ Whenever Vintara Charger outflanks, put two +1/+1 counters on it. (A creature ou
 			<text>As Rashida, Beacon of Resistance enters the battlefield, choose Angel, Sphinx, Demon, Dragon, or Hydra.
 Creatures of the chosen type get -1/-1.
 {T}, Exile Rashida: Exile target creature of the chosen type. Activate only as a sorcery.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/JMR-files/img/195.png" num="211">JMR</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/JMR-files/img/195.png" num="210">JMR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3368,7 +3368,7 @@ Creatures of the chosen type get -1/-1.
 			<text>Flash
 Flying, vigilance
 Asmira, Mournful Prophet enters the battlefield with a +1/+1 counter on it for each creature that died under your control this turn.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/JMR-files/img/196.png" num="205">JMR</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/JMR-files/img/196.png" num="204">JMR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3385,7 +3385,7 @@ Asmira, Mournful Prophet enters the battlefield with a +1/+1 counter on it for e
 		<card>
 			<name>Souk of Wonders</name>
 			<text>Whenever you cast a noncreature spell, copy it for each nontoken creature you control. You may choose new targets for the copies.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/JMR-files/img/197.png" num="214">JMR</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/JMR-files/img/197.png" num="213">JMR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3436,7 +3436,7 @@ Flying, vigilance</text>
 		<card>
 			<name>Endbringer&apos;s Presence</name>
 			<text>At the beginning of combat on your turn, target creature you control gains deathtouch and lifelink until end of turn.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/200.png" num="209">JMR</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/200.png" num="208">JMR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3452,7 +3452,7 @@ Flying, vigilance</text>
 		<card>
 			<name>Sent to the Front</name>
 			<text>Amass 3. When you do, target creature you control gets +X/+X until end of turn, where X is the amassed Army&apos;s power. (To amass 3, put three +1/+1 counters on an Army you control. If you don&apos;t control an Army, create a 0/0 black Army creature token first.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/201.png" num="208">JMR</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/201.png" num="207">JMR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3503,7 +3503,7 @@ When Chaza Guardian enters the battlefield, you gain 3 life and draw a card, the
 		<card>
 			<name>Femeref Artisan</name>
 			<text>Whenever you cast a noncreature spell, create a 1/1 colorless Drake artifact creature token with flying.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/204.png" num="213">JMR</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/204.png" num="212">JMR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3590,7 +3590,7 @@ Whenever a creature you control phases in, put a +1/+1 counter on Scourge of Eku
 		<card>
 			<name>Relentless Invasion</name>
 			<text>Attacking creatures you control get +1/+0 and have trample.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/209.png" num="203">JMR</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/209.png" num="202">JMR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3607,7 +3607,7 @@ Whenever a creature you control phases in, put a +1/+1 counter on Scourge of Eku
 			<name>Mtenda Griffin</name>
 			<text>Flying
 Whenever you put one or more +1/+1 counters on an Army you control, you may put that many +1/+1 counters on Mtenda Griffin. Do this only once each turn.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/210.png" num="207">JMR</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/210.png" num="206">JMR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3659,7 +3659,7 @@ Whenever you cast a spell with mana value greater than Child of Mutoto&apos;s po
 		<card>
 			<name>Asmira&apos;s Dreaming</name>
 			<text>Exile the top two cards of your library. Until the end of your next turn, you may play those cards. Noncreature spells you cast this way cost {1} less to cast.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/213.png" num="212">JMR</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/213.png" num="211">JMR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4110,7 +4110,7 @@ Whenever Kondo, Martial Sidar outflanks, each other attacking Knight you control
 		<card>
 			<name>Hand of the Sidar</name>
 			<text>Whenever Hand of the Sidar outflanks, return up to one target creature card from your graveyard to your hand. (A creature outflanks when it attacks and isn&apos;t blocked by creatures with equal or greater total power.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/241.png" num="210">JMR</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/241.png" num="209">JMR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4363,7 +4363,7 @@ When Cross the Great Desert enters the battlefield or is defeated, amass 2. (Put
 			<name>The Rally of Quirion</name>
 			<text>(As this enters, choose an opponent to protect it. You can attack it.)
 When The Rally of Quirion enters the battlefield or is defeated, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. When you do, The Rally of Quirion deals damage to target opponent equal to the number of basic lands you control.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/256.png" num="202">JMR</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/JMR-files/img/256.png" num="201">JMR</set>
 			<prop>
 				<layout>battle</layout>
 				<side>front</side>
