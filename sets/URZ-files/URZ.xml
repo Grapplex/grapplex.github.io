@@ -5,16 +5,3551 @@
 			<name>URZ</name>
 			<longname>Urza&apos;s Chronicle</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-09</releasedate>
+			<releasedate>2026-06-15</releasedate>
 		</set>
 	</sets>
 	<cards>
+		<card>
+			<name>World Breacher</name>
+			<text>Once during each of your turns, you may cast a historic spell you own from outside the game. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/0.png" num="245">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Urza&apos;s Chronicle</name>
+			<text>Search your library for a card, exile it face down, then shuffle. You may cast it without paying its mana cost if its mana value is 4 or less. Put it into your hand if it wasn&apos;t cast this way.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/1.png" num="1">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gamelen, Citanul Elder</name>
+			<text>As Gamelen, Citanul Elder enters the battlefield, choose a nonland permanent type.
+Spells you cast of the chosen type cost {G} (or {1}) less to cast.
+{T}: Add {G} for each permanent you control of the chosen type.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/2.png" num="154">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Radiant, Mad Regent</name>
+			<text>Flying
+Whenever a player attacks you, that player sacrifices a black creature of their choice.
+Whenever Radiant, Mad Regent becomes tapped, put a paranoia counter on target creature an opponent controls. It becomes a 2/2 black Phyrexian in addition to its other types and colors.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/3.png" num="21">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Urza, Heartless Savior</name>
+			<text>[+2]: Untap up to two lands.
+[-4]: Each player may put a nonlegendary permanent card from their hand onto the battlefield.
+[-9]: Each opponent chooses four permanents they control and sacrifices the rest. Add {C} for each permanent sacrificed this way.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/4.png" num="212">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Urza</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1WUB</manacost>
+				<cmc>4</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Memory Burner</name>
+			<text>{T}, Exile Memory Burner: Each player exiles all cards from their hand face down and draws that many cards. At the beginning of the next end step, each player discards their hand and returns to their hand each card they exiled this way.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/5.png" num="236">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Genomic Blueprint</name>
+			<text>As Genomic Blueprint enters the battlefield, choose a nonland card name.
+Triggered abilities of sources with the chosen name don&apos;t trigger.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/6.png" num="231">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Realmstone</name>
+			<text>When The Realmstone is put into a graveyard from the battlefield, exile target nonland permanent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/7.png" num="24">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gauntlet of Oppression</name>
+			<text>At the beginning of each player&apos;s upkeep, if Gauntlet of Oppression is untapped, that player may pay {2}. If they don&apos;t, they return a permanent they control to its owner&apos;s hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/8.png" num="230">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gilded Lotus</name>
+			<text>{T}: Add three mana of any one color.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/9.png" num="233">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cursed Heirloom</name>
+			<text>Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)
+At the beginning of your end step, discard your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/10.png" num="226">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Broken Relic</name>
+			<text>Broken Relic enters the battlefield with three charge counters on it.
+{2}, {T}, Remove a charge counter from Broken Relic: Copy target activated or triggered ability you control. You may choose new targets for the copy.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/11.png" num="224">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Urza&apos;s Chibouk</name>
+			<text>Recollection {3} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {3}.)
+{T}: Draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/12.png" num="244">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Drowned Wood</name>
+			<text>{T}: Add {C}.
+{T}: Add {G} or {U}. Activate only if you control an Island.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/13.png" num="251">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Wanderer il-Vec</name>
+			<text>When Wanderer il-Vec dies, create a 1/1 white Soldier creature token.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/14.png" num="222">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Nomad</type>
+				<maintype>Creature</maintype>
+				<manacost>R/W</manacost>
+				<cmc>1</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arizon Refugee</name>
+			<text>Lifelink
+{W}, Sacrifice Arizon Refugee: Destroy target artifact or enchantment. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/15.png" num="2">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thran Remnant</name>
+			<text>Whenever you cast a historic spell, put a +1/+1 counter on Thran Remnant. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/16.png" num="214">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Sleepers Awaken</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II, III — Create a 1/1 black Phyrexian creature token.
+​
+​</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/17.png" num="28">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Radiant&apos;s Chosen</name>
+			<text>Radiant&apos;s Chosen has flying as long as you&apos;ve gained life this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/18.png" num="22">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Auramancer</name>
+			<text>When Auramancer enters the battlefield, you may return target enchantment card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/19.png" num="3">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Guardian of the Realm</name>
+			<text>Flying
+When Guardian of the Realm enters the battlefield, put a +1/+1 counter on target historic creature you control. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/20.png" num="12">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thran Enforcer</name>
+			<text>Thran Enforcer costs {1} less to cast for each artifact you control.
+Vigilance</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/21.png" num="32">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>6W</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Null Sphere Sentinel</name>
+			<text>Whenever another historic permanent enters the battlefield under your control, tap target creature an opponent controls. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/22.png" num="18">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wistful Remembrancer</name>
+			<text>Flying
+Wistful Remembrancer has lifelink as long as you control a historic permanent. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/23.png" num="35">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Isel, Master Carver</name>
+			<text>When Isel, Master Carver enters the battlefield, return up to two target artifact cards from your graveyard to your hand.
+Farcycling {2} ({2}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/24.png" num="14">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Divine Arrow</name>
+			<text>Divine Arrow deals 4 damage to target attacking or blocking creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/25.png" num="10">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Borrowed Time</name>
+			<text>When Borrowed Time enters, exile target nonland permanent an opponent controls until Borrowed Time leaves the battlefield.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/26.png" num="5">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Citanul Blade</name>
+			<text>Flash
+When Citanul Blade enters the battlefield, attach it to target creature you control. That creature gains first strike until end of turn.
+Equipped creature gets +1/+0.
+Equip {3}</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/27.png" num="8">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Moment of Crisis</name>
+			<text>Moment of Crisis costs {2} less to cast if it targets a historic permanent. (Artifacts, legendaries, and Sagas are historic.)
+Destroy target nonland permanent.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/28.png" num="17">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Waking Dream</name>
+			<text>Each player exiles all enchantment cards from their graveyard, then sacrifices all enchantments they control, then puts all cards they exiled this way onto the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/29.png" num="34">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Invasion of Tolaria</name>
+			<text>(As this enters, choose an opponent to protect it. You can attack it.)
+When Invasion of Tolaria enters the battlefield or is defeated, choose up to two target nonland permanents controlled by the same opponent. That player puts one permanent on top of their library and the other on the bottom.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/30.png" num="177">URZ</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Conflict</type>
+				<maintype>Battle</maintype>
+				<manacost>1WWU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<loyalty>7</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Fall of Serra</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+Destroy all creatures.
+I, II — Return target artifact or creature card from your graveyard to your hand.
+III — Create a 4/4 white Angel creature token with flying and vigilance.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/31.png" num="11">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Radiant Angel</name>
+			<text>Recollection {1}{W}{W} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {1}{W}{W}.)
+Flying, vigilance</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/32.png" num="20">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Write into History</name>
+			<text>Whenever a nonlegendary creature you control dies, create a token that&apos;s a copy of it, except it&apos;s legendary and enters the battlefield with an additional +1/+1 counter on it.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/33.png" num="36">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Obsessive Rector</name>
+			<text>When Obsessive Rector dies, you may exile it. If you do, search your library for a historic card, put it onto the battlefield, then shuffle. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/34.png" num="19">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghitu Mirrorblade</name>
+			<text>Whenever equipped creature attacks, put a mirage counter on Ghitu Mirrorblade, then for each mirage counter on it, create a token that&apos;s a copy of equipped creature, except it&apos;s 1/1, isn&apos;t legendary, and is tapped and attacking.
+Equip {3}</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/35.png" num="232">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Rewrite</name>
+			<text>As an additional cost to cast Rewrite, sacrifice an enchantment.
+Search your library for an enchantment card with mana value X or less, put it onto the battlefield, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/36.png" num="25">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XWW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Day of Destiny</name>
+			<text>Legendary creatures you control get +2/+2.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/37.png" num="9">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Keldon Warweaver</name>
+			<text>Recollection {1}{W} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {1}{W}.)
+When Keldon Warweaver enters the battlefield, creatures you control get +1/+0 and gain first strike until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/38.png" num="16">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hallowed Embalmer</name>
+			<text>When Hallowed Embalmer enters the battlefield, return target creature card with mana value 1 or 2 from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/39.png" num="13">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thran Goliath</name>
+			<text>Whenever an enchantment enters the battlefield under your control, put a +1/+1 counter on Thran Goliath. If this is the second time this ability has resolved this turn, Thran Goliath gains flying, first strike, and trample until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/40.png" num="33">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Storied Automaton</name>
+			<text>Double strike
+Whenever another permanent you control leaves the battlefield, if it had counters on it, put a +1/+1 counter on Storied Automaton.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/41.png" num="30">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Capashen Scion</name>
+			<text>Whenever you sacrifice a nontoken permanent, create a tapped 1/1 white Soldier creature token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/42.png" num="7">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rayne, Tolaria&apos;s Steward</name>
+			<text>Whenever you cast a historic spell, draw a card. If Rayne, Tolaria&apos;s Steward is enchanted, instead draw two cards. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/43.png" num="55">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blinding Seraph</name>
+			<text>Flying
+Whenever Blinding Seraph enters the battlefield or attacks, tap target creature an opponent controls.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/44.png" num="4">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Radiant&apos;s Shieldmaid</name>
+			<text>Sacrifice Radiant&apos;s Shieldmaid: Target creature gains hexproof and shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/45.png" num="23">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Serra&apos;s Oracle</name>
+			<text>When Serra&apos;s Oracle enters the battlefield, look at the top four cards of your library. You may reveal a historic card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/46.png" num="27">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sanctum Keeper</name>
+			<text>Whenever you gain life, put a +1/+1 counter on Sanctum Keeper.
+Sanctum Keeper has flying as long as there are two or more counters on it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/47.png" num="26">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Temporal Prison</name>
+			<text>Exile target noncreature artifact or noncreature enchantment.
+Farcycling {3} ({3}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/48.png" num="31">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Burnished Heirloom</name>
+			<text>Whenever you attack, put a +1/+1 counter on target attacking creature.
+{1}{W}, Sacrifice Burnished Heirloom: Put a +1/+1 counter on target attacking creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/49.png" num="6">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Song of All</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Create a 1/1 white Soldier creature token.
+III — Create a 4/4 white Angel creature token with flying and vigilance.
+​</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/50.png" num="29">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Relic Runner</name>
+			<text>Relic Runner can&apos;t be blocked if you&apos;ve cast a historic spell this turn. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/51.png" num="56">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tolarian Visionary</name>
+			<text>When Tolarian Visionary enters the battlefield, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/52.png" num="70">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Effigy of Grief</name>
+			<text>When Effigy of Grief enters the battlefield, draw a card, then discard a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/53.png" num="215">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Sculpture</type>
+				<maintype>Creature</maintype>
+				<manacost>2U/B</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soaring Digestor</name>
+			<text>Flying
+Whenever another artifact enters the battlefield under your control, you may draw a card. If you do, discard a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/54.png" num="60">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Phyrexian</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kukemssa Raider</name>
+			<text>When Kukemssa Raider enters the battlefield, draw a card. Then discard a card unless you control a historic permanent. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/55.png" num="49">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thran Cocoon</name>
+			<text>When Thran Cocoon enters the battlefield, you may sacrifice an artifact. When you do, put a +1/+1 counter on target creature and draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/56.png" num="66">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Drone</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Omen, Dramatic Pretender</name>
+			<text>When Omen, Dramatic Pretender enters the battlefield, tap target creature an opponent controls and put two stun counters on it.
+Farcycling {2} ({2}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/57.png" num="50">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Merfolk Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tolarian Humpback</name>
+			<text>Tolarian Humpback costs {1} less to cast for each historic permanent you control. (Artifacts, legendaries, and Sagas are historic.)
+{2}{U}, Tap an untapped artifact you control: Tolarian Humpback can&apos;t be blocked this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/58.png" num="69">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Whale</type>
+				<maintype>Creature</maintype>
+				<manacost>5UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Temporal Pause</name>
+			<text>Target creature gains hexproof and shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/59.png" num="223">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G/U</manacost>
+				<cmc>1</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stoic Rebuttal</name>
+			<text>Stoic Rebuttal costs {1} less to cast if you control three or more artifacts.
+Counter target spell.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/60.png" num="61">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Essence Dispersal</name>
+			<text>Counter target spell unless its controller pays {2}.
+Farcycling {1}{U} ({1}{U}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/61.png" num="45">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Applied Psychophysics</name>
+			<text>Applied Psychophysics costs {1} less to cast as long as you&apos;ve discarded a card this turn.
+Draw two cards.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/62.png" num="39">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Remnant of the Past</name>
+			<text>Enchant creature
+Enchanted creature loses all abilities and is a legendary 1/1 artifact creature named Vestige of History.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/63.png" num="57">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Aether Migration</name>
+			<text>Target creature&apos;s owner puts it on their choice of the top or bottom of their library.
+Farcycling {1}{U} ({1}{U}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/64.png" num="37">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gathan Incubator</name>
+			<text>When Gathan Incubator enters the battlefield or is put into a graveyard from the battlefield, draw a card.
+{2}{U}, Sacrifice Gathan Incubator: Create a tapped 2/2 blue Metathran creature token.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/65.png" num="48">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tolarian Chronomancer</name>
+			<text>Vigilance
+{U}, {T}: Copy target triggered ability you control twice. You may choose new targets for the copies.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/66.png" num="67">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Temporal Crisis</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Skip your next turn.
+III — Take an extra turn after this one.
+​</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/67.png" num="63">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Eon Spiral</name>
+			<text>Each player shuffles their hand and graveyard into their library, then draws cards equal to the greatest number of cards a player shuffled into their library this way. Exile Eon Spiral.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/68.png" num="44">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tolarian Gatekeeper</name>
+			<text>Flying, vigilance
+When Tolarian Gatekeeper enters the battlefield, return each nonland permanent that&apos;s not historic to its owner&apos;s hand. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/69.png" num="68">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sphinx</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chronoshriek</name>
+			<text>Each opponent mills cards equal to the number of cards in their graveyard.
+Farcycling {1}{U} ({1}{U}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/70.png" num="41">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vodalian Sifter</name>
+			<text>Prowess
+Each instant and sorcery card in your hand has farcycling {3}. ({3}, Discard that card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/71.png" num="71">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flight of the Palinchron</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Untap up to four lands.
+II — Return target non-Saga permanent to its owner&apos;s hand.
+III — Create a 4/5 blue Illusion creature token with flying.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/72.png" num="46">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Paax, Vat Priest</name>
+			<text>Artifact creatures you control get +1/+1.
+When Paax, Vat Priest enters the battlefield, you may have target noncreature artifact become a 0/0 Phyrexian creature. If you do, put three +1/+1 counters on it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/73.png" num="51">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Phyrexian</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shiftling</name>
+			<text>{U}: Shiftling gains prowess until end of turn. (Multiple instances of prowess trigger separately.)
+{U}: Shiftling phases out. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)
+{1}: Shiftling gets +1/-1 or -1/+1 until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/74.png" num="59">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shapeshifter</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Paradoxysm</name>
+			<text>Flash
+Flying
+When Paradoxysm enters the battlefield, exile target instant or sorcery card with a cycling ability from your graveyard. You may cast it this turn. (You still pay its costs.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/75.png" num="52">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Chimera</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Primordial Transmutation</name>
+			<text>Until end of turn, target artifact or creature becomes a Serpent artifact creature with base power and toughness 4/4 in addition to its other types.
+Farcycling {2}{U} ({2}{U}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/76.png" num="53">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shadow Chaser</name>
+			<text>Recollection {1}{U} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {1}{U}.)
+When Shadow Chaser enters the battlefield, return target creature an opponent controls to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/77.png" num="58">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jarsyl, Obsessive Searcher</name>
+			<text>When Jarsyl, Obsessive Searcher enters the battlefield, look at the top three cards of your library. You may reveal a historic card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. (Artifacts, legendaries, and Sagas are historic.)
+{7}: Exile Jarsyl and target nonland permanent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/78.png" num="15">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Clay Sentinel</name>
+			<text>Recollection {2}{U} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {2}{U}.)
+When Clay Sentinel enters the battlefield, look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/79.png" num="42">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Diligent Sculptor</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Historic creatures you control have prowess. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/80.png" num="43">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artist</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prismatic Filter</name>
+			<text>{T}: Add {C}.
+You may spend mana as though it were mana of any type to cast historic spells. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/81.png" num="54">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Thirst for the Past</name>
+			<text>Draw three cards. Then discard two cards unless you discard a historic card. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/82.png" num="65">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Theoretical Device</name>
+			<text>Whenever a historic permanent enters the battlefield under your control, target player mills four cards. (Artifacts, legendaries, and Sagas are historic.)
+{2}, Sacrifice Theoretical Device: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/83.png" num="64">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Aether Orrery</name>
+			<text>At the beginning of your upkeep, you may put a charge counter on Aether Orrery.
+{T}: You may put an artifact card with mana value equal to the number of charge counters on Aether Orrery from your hand onto the battlefield.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/84.png" num="38">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Founding of Tolaria</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II, III, IV — Mill three cards. You may put a historic card from among them into your hand. (Artifacts, legendaries, and Sagas are historic.)
+Historic spells you cast this turn cost {2} less to cast.
+​</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/85.png" num="47">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Careful Plan</name>
+			<text>Draw a card, then discard a card.
+Untap a land you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/86.png" num="40">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Temerity</name>
+			<text>Enchant creature
+Enchanted creature gets +1/+1 and has flying.
+When Temerity is put into a graveyard from the battlefield, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/87.png" num="62">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Psychoplasm</name>
+			<text>Recollection {1}{B} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {1}{B}.)
+When Psychoplasm enters the battlefield, each opponent discards a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/88.png" num="94">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Acolyte of All Things</name>
+			<text>Lifelink</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/89.png" num="219">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/B</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nether Ghast</name>
+			<text>When Nether Ghast enters the battlefield, return target creature card with recollection from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/90.png" num="89">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vhelnish Ghoul</name>
+			<text>Menace
+Whenever you discard a card, Vhelnish Ghoul gets +2/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/91.png" num="104">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Urborg Bruiser</name>
+			<text>Whenever you sacrifice a permanent, Urborg Bruiser gets +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/92.png" num="102">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Neurothrax</name>
+			<text>Flying
+Whenever you discard a card, Neurothrax gets +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/93.png" num="90">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Necrophage</name>
+			<text>Whenever you gain life, each opponent loses 1 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/94.png" num="87">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gorig, Thorn Within</name>
+			<text>When Gorig, Thorn Within enters the battlefield, it deals 2 damage to any target and you gain 2 life.
+Farcycling {2} ({2}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/95.png" num="83">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Phyrexian</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frightmare</name>
+			<text>Frightmare costs {1} less to cast for each historic card in your graveyard. (Artifacts, legendaries, and Sagas are historic.)
+Farcycling {1}{B} ({1}{B}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/96.png" num="79">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>6B</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mortal Blow</name>
+			<text>Target creature gets +2/-2 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/97.png" num="216">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B/R</manacost>
+				<cmc>1</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Return to Action</name>
+			<text>Until end of turn, target creature gets +1/+0 and gains lifelink and &quot;When this creature dies, return it to the battlefield tapped under its owner&apos;s control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/98.png" num="95">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Nasty End</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Draw two cards. If the sacrificed creature was legendary, draw three cards instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/99.png" num="86">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Duress</name>
+			<text>Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/100.png" num="77">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Utter Desolation</name>
+			<text>Exile target creature or planeswalker.
+Farcycling {1}{B} ({1}{B}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/101.png" num="103">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scorn of the Untouchables</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/102.png" num="278">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>From Void Evolved Phyrexia</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Each player sacrifices a nonland permanent of their choice.
+II — Each player loses 3 life.
+III — You may pay any amount of life. When you do, draw that many cards.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/103.png" num="302">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cursed Talisman</name>
+			<text>Each other nonland permanent you control is a Saga enchantment in addition to its other types and has &quot;r{3} — You draw two cards and you lose 2 life.&quot; (They&apos;re sacrificed when their last chapter ability resolves.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/104.png" num="75">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Academy Desecrator</name>
+			<text>Menace, trample
+Whenever you put a lore counter on a Saga you control, each other creature gets -1/-1 until end of turn.
+Whenever the final chapter ability of a Saga you control triggers, you draw a card and you lose 1 life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/105.png" num="72">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bone Engineer</name>
+			<text>Whenever a nontoken creature you control dies, you lose 1 life and you create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+{T}, Sacrifice an artifact: Draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/106.png" num="73">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Negator&apos;s Embrace</name>
+			<text>Enchant creature
+Enchanted creature gets +2/+2 and has &quot;Whenever this creature is dealt damage, sacrifice that many permanents.&quot;</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/107.png" num="88">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Croag, Rath&apos;s Eminence</name>
+			<text>Whenever Croag, Rath&apos;s Eminence enters the battlefield or attacks, you may sacrifice a nonartifact, nonland permanent. When you do, each opponent sacrifices a permanent of their choice of the same type.
+{1}{B}, Pay 1 life: Create a tapped 1/1 black Phyrexian creature token.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/108.png" num="74">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Phyrexian</type>
+				<maintype>Creature</maintype>
+				<manacost>2BBB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scent of Pomegranate</name>
+			<text>Reveal any number of black cards in your hand. Each creature gets -X/-X until end of turn, where X is the number of cards revealed this way. If a creature an opponent controls would die this turn, exile it instead.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/109.png" num="96">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Thoughtseize</name>
+			<text>Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/110.png" num="101">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stronghold Engineer</name>
+			<text>Whenever you discard a card, you may pay 1 life. If you do, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/111.png" num="99">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Newt Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Funereal Imp</name>
+			<text>Flying
+Whenever a creature you control dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/112.png" num="81">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Imp</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Death Defier</name>
+			<text>{3}{B}, Sacrifice Death Defier: Return target creature card from your graveyard to the battlefield. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/113.png" num="76">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Greel, the Mindflayer</name>
+			<text>Whenever you discard one or more cards, target creature an opponent controls gets -X/-X until end of turn, where X is the number of cards you discarded.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/114.png" num="84">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Phyrexian Denigrator</name>
+			<text>Creatures have base toughness 1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/115.png" num="91">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Phyrexian Carrier</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spliced Hybrid</name>
+			<text>Deathtouch, lifelink
+{1}, Sacrifice Spliced Hybrid: Distribute a deathtouch counter and a lifelink counter among creatures you control. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/116.png" num="98">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ape Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tattered Colos</name>
+			<text>Recollection—{B}, Pay 1 life (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {B} and pay 1 life.)
+You may cast Tattered Colos from your graveyard for its recollection cost.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/117.png" num="100">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inner Turmoil</name>
+			<text>Enchant permanent
+When enchanted permanent is put into a graveyard from the battlefield, you draw three cards and you lose 3 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/118.png" num="85">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Withering Torment</name>
+			<text>Destroy target creature or enchantment. You lose 2 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/119.png" num="106">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vicious Reprisal</name>
+			<text>Destroy target creature if its total power and toughness are 4 or less, or if you&apos;ve sacrificed a creature this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/120.png" num="105">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Plague of Koilos</name>
+			<text>All creatures get -1/-1 until end of turn. If you&apos;ve discarded a card this turn, all creatures get -2/-2 until end of turn instead.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/121.png" num="93">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fall to Ignominy</name>
+			<text>Destroy target creature if it isn&apos;t historic. (Artifacts, legendaries, and Sagas are historic.)
+Farcycling {2} ({2}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/122.png" num="78">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scrapwork Skitterer</name>
+			<text>Haste
+Discard a card, Sacrifice Scrapwork Skitterer: Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/123.png" num="135">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Latulla&apos;s Chosen</name>
+			<text>Recollection {1}{R} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {1}{R}.)
+Menace</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/124.png" num="126">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mycothrax</name>
+			<text>Recollection {1}{RG} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {1}{RG}.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/125.png" num="217">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>1R/GR/G</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Furnace Ticks</name>
+			<text>{1}, Sacrifice Furnace Ticks: Exile target artifact. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/126.png" num="120">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grudge Elemental</name>
+			<text>Recollection {1}{R} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {1}{R}.)
+When Grudge Elemental dies, it deals 2 damage to each opponent.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/127.png" num="122">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Firefright Summoner</name>
+			<text>Recollection {1}{R} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {1}{R}.)
+When Firefright Summoner enters the battlefield, target creature an opponent controls can&apos;t block this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/128.png" num="118">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fiery Corpse</name>
+			<text>Trample, haste</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/129.png" num="117">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Salvaged Su-Chi</name>
+			<text>Recollection {2}{R} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {2}{R}.)
+Reach</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/130.png" num="134">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mg&apos;razzgh, Scourge of Shiv</name>
+			<text>Flying
+{2}{R}: Mg&apos;razzgh, Scourge of Shiv gets +2/+0 until end of turn.
+Farcycling {2} ({2}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/131.png" num="131">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shock</name>
+			<text>Shock deals 2 damage to any target.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/132.png" num="138">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Timeless Fury</name>
+			<text>Target creature gets +X/+0 and gains trample until end of turn, where X is 1 plus the number of cards named Timeless Fury in your graveyard.
+A deck can have any number of cards named Timeless Fury.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/133.png" num="141">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Urgent Preparation</name>
+			<text>As an additional cost to cast Urgent Preparation, discard a card.
+Draw two cards.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/134.png" num="220">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U/R</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mana Decay</name>
+			<text>Choose one —
+• Mana Decay deals 3 damage to target creature. If that creature would die this turn, exile it instead.
+• Exile target artifact.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/135.png" num="129">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Liquidate</name>
+			<text>Players can&apos;t gain life this turn. Damage can&apos;t be prevented this turn. Liquidate deals 4 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/136.png" num="127">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shivan Firestorm</name>
+			<text>Shivan Firestorm costs {1} less to cast for each artifact you control.
+Shivan Firestorm deals 6 damage to target creature, planeswalker, or battle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/137.png" num="136">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Burning Confidant</name>
+			<text>At the beginning of your upkeep, exile the top card of your library. When you do, Burning Confidant deals damage to you equal to that card&apos;s mana value. You may play that card this turn.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/138.png" num="110">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Burnished Pteropterix</name>
+			<text>Flying, trample
+Whenever Burnished Pteropterix attacks, it gets +1/+0 until end of turn for each artifact you control. Then if its power is 6 or greater, it gains double strike until end of turn.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/139.png" num="111">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Dinosaur</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cataclysm of Twelve Worlds</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Cataclysm of Twelve Worlds deals 4 damage to each creature, planeswalker, and battle.
+II — Sacrifice a land.
+III — Each opponent sacrifices two lands of their choice.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/140.png" num="112">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Barded Hellkite</name>
+			<text>Flying
+When Barded Hellkite enters the battlefield, create two Treasure tokens. (They&apos;re artifacts with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+At the beginning of the end step, sacrifice Barded Hellkite if you control no artifacts.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/141.png" num="109">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mana Rig Crew</name>
+			<text>Double strike
+Whenever an artifact enters the battlefield under your control, Mana Rig Crew deals 1 damage to any target.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/142.png" num="130">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Viashino Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stalker Engine</name>
+			<text>Menace
+Whenever Stalker Engine deals combat damage to a player, you may have that player gain control of it. If you do, create four tapped Treasure tokens. (They&apos;re artifacts with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/143.png" num="139">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Phyrexian</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Recreate the Past</name>
+			<text>Create a token that&apos;s a copy of target historic permanent you control, except it isn&apos;t legendary and has haste. Sacrifice it at the beginning of the end step. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/144.png" num="132">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Acridian Queen</name>
+			<text>Recollection {2}{R} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {2}{R}.)
+When Acridian Queen enters the battlefield or dies, it deals 2 damage to any target.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/145.png" num="107">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Into the Tolarian Vale</name>
+			<text></text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/146.png" num="280">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ferocious Sandstalker</name>
+			<text>Haste
+Whenever a historic permanent enters the battlefield under your control, creatures you control get +1/+0 and gain haste until end of turn. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/147.png" num="116">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Viashino Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Havoc Djinn</name>
+			<text>Protection from artifacts (This creature can&apos;t be blocked, targeted, dealt damage, or equipped by artifacts.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/148.png" num="123">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Djinn</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shivan Skytyrant</name>
+			<text>Flying
+Shivan Skytyrant has haste as long as you&apos;ve sacrificed a permanent this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/149.png" num="137">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kreig, Butchered Witch-King</name>
+			<text>Haste
+Whenever you sacrifice a permanent, put a +1/+1 counter on Kreig, Butchered Witch-King.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/150.png" num="125">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deimosaur</name>
+			<text>Deimosaur costs {1} less to cast for each historic permanent you control. (Artifacts, legendaries, and Sagas are historic.)
+Farcycling {2} ({2}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/151.png" num="113">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dinosaur</type>
+				<maintype>Creature</maintype>
+				<manacost>7R</manacost>
+				<cmc>8</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Avalanche Shepherd</name>
+			<text>Recollection {2}{R} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {2}{R}.)
+When Avalanche Shepherd enters the battlefield, destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield tapped with a stun counter on it, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/152.png" num="108">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Nomad</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rig Scavenger</name>
+			<text>When Rig Scavenger enters the battlefield, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+Rig Scavenger gets +1/+0 for each artifact you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/153.png" num="133">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Viashino Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Engineered Potential</name>
+			<text>As Engineered Potential enters the battlefield and at the beginning of your upkeep, you may have it become a copy of another artifact or creature you control until end of turn, except it has haste and is still an artifact.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/154.png" num="115">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Geoclasm</name>
+			<text>Geoclasm deals 4 damage to target creature, planeswalker, or battle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/155.png" num="121">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Furnace Celebration</name>
+			<text>Whenever you sacrifice another permanent, you may pay {2}. If you do, Furnace Celebration deals 2 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/156.png" num="119">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Disastrous Impact</name>
+			<text>Choose one —
+• Exile target artifact.
+• Disastrous Impact deals 3 damage to target creature. If that creature would die this turn, exile it instead.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/157.png" num="114">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Magma Torrent</name>
+			<text>Magma Torrent deals 2 damage to each creature.
+Farcycling {1}{R} ({1}{R}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/158.png" num="128">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Time of Dark</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
+III — Whenever a creature you control attacks this turn, it gets +1/+0 until end of turn.
+​</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/159.png" num="140">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Yavimaya Remembrancer</name>
+			<text>When Yavimaya Remembrancer enters the battlefield, choose one —
+• Remove a lore counter from target Saga you control. (Removing lore counters doesn&apos;t cause chapter abilities to trigger.)
+ • Put a lore counter on target Saga you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/160.png" num="218">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G/W</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Citanul Outcast</name>
+			<text>When Citanul Outcast enters the battlefield or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/161.png" num="221">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1B/G</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Argothian Wayfinder</name>
+			<text>Recollection {G} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {G}.)
+{T}: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/162.png" num="145">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Molimo Guards Yavimaya</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Create a 3/3 green Beast creature token.
+III — Put a +1/+1 counter on target creature you control.
+​</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/163.png" num="161">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Rofellos, Llanowar Rover</name>
+			<text>Vigilance
+{T}: Add {G} for each basic land you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/164.png" num="167">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Citanul Remembrancer</name>
+			<text>When Citanul Remembrancer enters the battlefield, return target historic card from your graveyard to your hand. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/165.png" num="150">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Toxic Hellbender</name>
+			<text>Reach, deathtouch
+{1}{G}: Toxic Hellbender vets +2/+2 until end of turn. Activate only once each turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/166.png" num="175">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Salamander</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Primal Granger</name>
+			<text>Recollection {1}{G}{G} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {1}{G}{G}.)
+When Primal Granger enters the battlefield, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/167.png" num="164">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Liefellen, Quirion Exarch</name>
+			<text>Liefellen, Quirion Exarch enters the battlefield with a number of +1/+1 counters on it equal to the number of lands you control.
+Farcycling {2} ({2}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/168.png" num="158">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Magnigoth Council</name>
+			<text>Magnigoth Council costs {1} less to cast for each historic permanent you control. (Artifacts, legendaries, and Sagas are historic.)
+Trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/169.png" num="160">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Treefolk</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tempting Dryad</name>
+			<text>Reach
+When Tempting Dryad enters the battlefield, another target creature you control deals damage equal to its power to target creature you don&apos;t control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/170.png" num="172">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dryad</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ancient Animus</name>
+			<text>Put a +1/+1 counter on target creature you control if it&apos;s legendary. Then it fights target creature an opponent controls.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/171.png" num="142">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Llanowar Draught</name>
+			<text>Flash
+When Llanowar Draught enters the battlefield, target creature you control gets +2/+2 until end of turn.
+{4}, {T}, Sacrifice Llanowar Draught: Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/172.png" num="159">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>What Remains of Argoth</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — You may put a land card from your hand onto the battlefield.
+II, III — Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+​</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/173.png" num="176">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Argothian Revel</name>
+			<text>Reveal the top four cards of your library. You may put a historic card and/or a land card from among them into your hand. Put the rest into your graveyard. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/174.png" num="144">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Carnage Tyrant</name>
+			<text>Carnage Tyrant can&apos;t be countered.
+Trample, hexproof</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/175.png" num="149">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dinosaur</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Exerter of Will</name>
+			<text>When Exerter of Will enters the battlefield, if it entered from a graveyard or was cast from a graveyard, until end of turn, you may play lands and cast spells from your graveyard. If a card would be put into your graveyard from anywhere this turn, exile that card instead.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/176.png" num="202">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Phyrexian</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Argothian Colossus</name>
+			<text>Argothian Colossus costs {2} less to cast for each historic permanent you control. (Artifacts, legendaries, and Sagas are historic.)
+Trample
+Argothian Colossus enters the battlefield with X +1/+1 counters on it.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/177.png" num="143">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hydra</type>
+				<maintype>Creature</maintype>
+				<manacost>XGG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Song of Gaea</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Search your library for a creature card with mana value X or less, exile it, then shuffle.
+II — You may put the exiled card onto the battlefield.
+III — Put a +1/+1 counter on a creature you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/178.png" num="170">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>XG</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gift of Titania</name>
+			<text>Create a token that&apos;s a copy of target creature you control, except it&apos;s not legendary and has base power and toughness 7/7.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/179.png" num="155">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>History Uncovered</name>
+			<text>Return target card from your graveyard to your hand. Distribute X +1/+1 counters among creatures you control, where X is that card&apos;s mana value. Exile History Uncovered.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/180.png" num="156">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Emperor Megasuchus</name>
+			<text>Recollection {2}{G}{G} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {2}{G}{G}.)
+At the beginning of your end step, put X +1/+1 counters on target creature you control, where X is Emperor Megasuchus&apos;s power.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/181.png" num="153">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dinosaur</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elven Eulogist</name>
+			<text>When Elven Eulogist enters the battlefield, you may search your library for an enchantment card, put it into your graveyard, then shuffle.
+{G}, {T}, Sacrifice an enchantment: Return target enchantment card with mana value 3 or less from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/182.png" num="152">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scripture Incisor</name>
+			<text>Deathtouch
+Whenever you put a lore counter on a Saga you control, target opponent gets a poison counter. (A player with ten or more poison counters loses the game.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/183.png" num="168">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Phyrexian Minion</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Quagthrak</name>
+			<text>Recollection {1}{G} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {1}{G}.)
+Whenever a creature you control dies, you may search your library for a basic land card, put it into the battlefield tapped, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/184.png" num="165">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Titania&apos;s Burlwing</name>
+			<text>Vigilance, reach, trample</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/185.png" num="174">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Summerbloom Hydra</name>
+			<text>Trample
+Whenever an enchantment enters the battlefield under your control, put a +1/+1 counter on each of up to two target creatures.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/186.png" num="171">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Hydra</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rampaging Hive</name>
+			<text>Recollection {2}{G} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {2}{G}.)
+When Rampaging Hive enters the battlefield or dies, put two +1/+1 counters on target creature you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/187.png" num="166">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pharyngion</name>
+			<text>Flash
+Pharyngion&apos;s power and toughness are each equal to the number of creature cards in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/188.png" num="163">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scroll of Beginnings</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Put three +1/+1 counters on target artifact or land you control. It becomes a 0/0 Elemental creature in addition to its other types.
+II — Surveil 1.
+III — Target creature you control gets +1/+1 until end of turn for each card in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/189.png" num="169">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Audacity</name>
+			<text>Enchant creature
+Enchanted creature gets +2/+0 and has trample.
+When Audacity is put into a graveyard from the battlefield, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/190.png" num="146">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Jolrael&apos;s Devotee</name>
+			<text>Recollection {1}{G} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {1}{G}.)
+Reach</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/191.png" num="157">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oak-Bark Memories</name>
+			<text>Target creature gets +X/+X and gains trample until end of turn, where X is the greatest mana value among permanents you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/192.png" num="162">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blossoming Defense</name>
+			<text>Target creature you control gets +2/+2 and gains hexproof until end of turn. (It can&apos;t be the target of spells or abilities your opponents control.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/193.png" num="147">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Citanul Ritual</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Destroy target noncreature permanent.
+III — Add {G}{G}. Until end of turn, you don&apos;t lose mana as steps or phases end.
+​</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/194.png" num="151">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Thorn Goliath</name>
+			<text>You may have Thorn Goliath assign its combat damage as though it weren&apos;t blocked.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/195.png" num="173">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cradle of Learning</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+III — Add X mana of any one color, where X is the number of historic permanents you control. (Artifacts, legendaries, and Sagas are historic.)
+​</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/196.png" num="210">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ready for War</name>
+			<text>As an additional cost to cast Ready for War, sacrifice an artifact or enchantment.
+Return target artifact or enchantment card from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/197.png" num="208">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Processor Colossus</name>
+			<text>Processor Colossus enters the battlefield tapped with a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+Whenever Processor Colossus becomes tapped, put a stun counter on it.
+Processor Colossus can&apos;t be blocked except by three or more creatures.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/198.png" num="179">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Phyrexian</type>
+				<maintype>Creature</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>8/8</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nightmare Void</name>
+			<text>Whenever you discard a card, create a 2/2 black Zombie creature token with decayed. (It can&apos;t block. When it attacks, sacrifice it at end of combat.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/199.png" num="182">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Slumbering Tyrant</name>
+			<text>Recollection {2}{R}{G} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {2}{R}{G}.)
+Flying
+When Slumbering Tyrant enters the battlefield or attacks, creatures you control get +2/+2 until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/200.png" num="189">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4RG</manacost>
+				<cmc>6</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pristine Grove</name>
+			<text>Each enchantment you control has ward {2}. (Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+{1}, Sacrifice Pristine Grove: Search your library for an enchantment card, reveal it, then shuffle and put that card on top.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/201.png" num="192">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Imperial Assassin</name>
+			<text>Vigilance, lifelink
+{1}{W}{B}, {T}: Destroy target creature if its power is less than or equal to the amount of life you&apos;ve gained this turn. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/202.png" num="193">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fossil Merchant</name>
+			<text>When Fossil Merchant enters the battlefield, create X Treasure tokens, where X is the number of nontoken artifacts you control. (They&apos;re artifacts with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/203.png" num="198">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Peasant</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
 		<card>
 			<name>Thran Skimmer</name>
 			<text>Flying
 When Thran Skimmer enters the battlefield, you gain 2 life and draw two cards.
 Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/212.png" num="210">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/204.png" num="180">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -32,7 +3567,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 			<name>Relic of Tawnos</name>
 			<text>Each basic land card in your hand has farcycling {U}{B}.
 Farcycling {2} ({2}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/213.png" num="212">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/205.png" num="183">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -48,9 +3583,9 @@ Farcycling {2} ({2}, Discard this card: Look at the top two cards of your librar
 		</card>
 		<card>
 			<name>Tormented Sleeper</name>
-			<text>Recollection {B}{R} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {B}{R}.)
+			<text>Recollection {1}{BR} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {1}{BR}.)
 When Tormented Sleeper enters the battlefield, create a 1/1 black Phyrexian creature token. That token gains haste until end of turn.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/214.png" num="216">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/206.png" num="186">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -69,7 +3604,7 @@ When Tormented Sleeper enters the battlefield, create a 1/1 black Phyrexian crea
 			<text>Recollection {1}{R}{G} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {1}{R}{G}.)
 Menace
 When Gaea&apos;s Weaver enters the battlefield, create two 2/1 green Kavu creature tokens.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/215.png" num="217">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/207.png" num="187">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -89,7 +3624,7 @@ When Gaea&apos;s Weaver enters the battlefield, create two 2/1 green Kavu creatu
 I, II — Create a 2/1 green Kavu creature token.
 III — Return target creature or enchantment card from your graveyard to your hand.
 ​</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/216.png" num="221">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/208.png" num="191">URZ</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -105,7 +3640,7 @@ III — Return target creature or enchantment card from your graveyard to your h
 		<card>
 			<name>Argothian Excavation</name>
 			<text>Reveal the top five cards of your library. You may put a card from among them into your hand. Put the rest into your graveyard.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/217.png" num="231">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/209.png" num="201">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -122,7 +3657,7 @@ III — Return target creature or enchantment card from your graveyard to your h
 			<name>Savage Dreamer</name>
 			<text>When Savage Dreamer enters the battlefield, if you control a historic permanent, draw a card. (Artifacts, legendaries, and Sagas are historic.)
 Savage Dreamer has flying as long as you control a historic permanent.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/218.png" num="239">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/210.png" num="211">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -139,7 +3674,7 @@ Savage Dreamer has flying as long as you control a historic permanent.</text>
 		<card>
 			<name>Bitter Untouchable</name>
 			<text>When Bitter Untouchable enters the battlefield, create a tapped artifact token named Powerstone Shard with &quot;{T}: Add {C} for each artifact you control named Powerstone Shard.&quot;</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/219.png" num="227">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/211.png" num="197">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -155,9 +3690,9 @@ Savage Dreamer has flying as long as you control a historic permanent.</text>
 		</card>
 		<card>
 			<name>Mana Lance</name>
-			<text>As an additional cost to cast this spell, sacrifice a nonland permanent.
+			<text>As an additional cost to cast Mana Lance, sacrifice a nonland permanent.
 Exile target nonland permanent.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/220.png" num="235">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/212.png" num="207">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -174,7 +3709,7 @@ Exile target nonland permanent.</text>
 			<name>Metathran Tactician</name>
 			<text>When Metathran Tactician enters the battlefield, return target artifact card from your graveyard to your hand.
 Whenever a historic permanent enters the battlefield under your control, put a +1/+1 counter on Metathran Tactician. (Artifacts, legendaries, and Sagas are historic.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/221.png" num="208">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/213.png" num="178">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -192,7 +3727,7 @@ Whenever a historic permanent enters the battlefield under your control, put a +
 			<name>Blind Devourer</name>
 			<text>Flying
 Whenever you discard a card, put a +1/+1 counter on Blind Devourer.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/222.png" num="211">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/214.png" num="181">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -209,7 +3744,7 @@ Whenever you discard a card, put a +1/+1 counter on Blind Devourer.</text>
 		<card>
 			<name>Drudge Regent</name>
 			<text>Whenever another creature you control dies, put a +1/+1 counter on Drudge Regent. Then if you sacrificed that creature, Drudge Regent gains menace and deathtouch until end of turn.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/223.png" num="215">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/215.png" num="185">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -226,7 +3761,7 @@ Whenever you discard a card, put a +1/+1 counter on Blind Devourer.</text>
 		<card>
 			<name>Llanowar Warden</name>
 			<text>Recollection costs you pay cost {1} less. (This applies to both halves of the cost.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/224.png" num="218">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/216.png" num="188">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -244,7 +3779,7 @@ Whenever you discard a card, put a +1/+1 counter on Blind Devourer.</text>
 			<name>Argothian Remnant</name>
 			<text>Trample
 Whenever Argothian Remnant attacks, you may remove a lore counter from each of any number of Sagas you control. Put a +1/+1 counter on Argothian Remnant for each lore counter removed this way.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/225.png" num="220">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/217.png" num="190">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -262,9 +3797,9 @@ Whenever Argothian Remnant attacks, you may remove a lore counter from each of a
 			<name>Radiant&apos;s Torment</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 Create two 1/1 black Phyrexian creature tokens.
-I — Distribute a deathtouch counter and a lifelink counter among creatures you control.
-II — Whenever a creature dies this turn, each opponent loses 1 life and you gain 1 life.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/226.png" num="223">URZ</set>
+I, II — Distribute a deathtouch counter and a lifelink counter among creatures you control.
+III — Whenever a creature dies this turn, each opponent loses 1 life and you gain 1 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/218.png" num="194">URZ</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -278,14 +3813,14 @@ II — Whenever a creature dies this turn, each opponent loses 1 life and you ga
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Gamelen, Citanul Elder</name>
-			<text>Gamelen, Citanul Elder&apos;s power and toughness are each equal to the number of permanent cards in your graveyard.
+			<name>Ilsa Braven, Stoic Captain</name>
+			<text>Ilsa Braven, Stoic Captain&apos;s power and toughness are each equal to the number of permanent cards in your graveyard.
 Farcycling {2} ({2}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/227.png" num="232">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/219.png" num="204">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Human Druid</type>
+				<type>Legendary Creature — Human Pilot</type>
 				<maintype>Creature</maintype>
 				<manacost>1BG</manacost>
 				<cmc>3</cmc>
@@ -299,7 +3834,7 @@ Farcycling {2} ({2}, Discard this card: Look at the top two cards of your librar
 			<name>Grafted Breacher</name>
 			<text>Flying
 Grafted Breacher&apos;s power and toughness are each equal to the number of artifacts you control.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/228.png" num="229">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/220.png" num="200">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -317,7 +3852,7 @@ Grafted Breacher&apos;s power and toughness are each equal to the number of arti
 			<name>Gatha, Eugenic Renegade</name>
 			<text>Menace
 Whenever you sacrifice a nontoken permanent, you may pay {2}. If you do, create a 2/2 blue Metathran creature token.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/229.png" num="234">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/221.png" num="206">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -332,12 +3867,499 @@ Whenever you sacrifice a nontoken permanent, you may pay {2}. If you do, create 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Silver Precursor</name>
+			<text>Flying
+When Silver Precursor enters the battlefield, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/222.png" num="239">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fallaji Remnant</name>
+			<text>Recollection {3} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {3}.)
+When Fallaji Remnant enters the battlefield, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/223.png" num="227">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stasis Cage</name>
+			<text>When Stasis Cage enters, exile target nonland permanent an opponent controls until Stasis Cage leaves the battlefield.
+Farcycling {2} ({2}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/224.png" num="241">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Xantcha&apos;s Heart</name>
+			<text>{T}: Add one mana of any color. Spend this mana only to cast a historic spell. (Artifacts, legendaries, and Sagas are historic.)
+{2}, {T}: Add two mana in any combination of colors.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/225.png" num="247">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Conversion Vat</name>
+			<text>When Conversion Vat enters the battlefield, draw a card.
+{T}, Tap an untapped artifact or creature you control: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/226.png" num="225">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Koilos Effigy</name>
+			<text>{T}: Add one mana of any color. Spend this mana only to cast a historic spell or activate an ability of a historic source. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/227.png" num="235">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thran Simulacrum</name>
+			<text>Recollection {3} (If you cast this for its recollection cost, after your next draw step, sacrifice it unless you pay {3}.)
+When Thran Simulacrum enters the battlefield or dies, search your library for a basic land card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/228.png" num="242">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Quicksilver Metamorph</name>
+			<text>You may have Quicksilver Metamorph enters the battlefield as a copy of an artifact or creature you control.
+Farcycling {3} ({3}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/229.png" num="237">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Urza&apos;s Automaton</name>
+			<text>Urza&apos;s Automaton gets +1/+1 for each artifact you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/230.png" num="243">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Slumbering Dynamo</name>
+			<text>{T}: Exile target card from a graveyard.
+As long there are three or more cards exiled with it, Slumbering Dynamo is a 3/3 Construct artifact creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/231.png" num="240">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Worn Powerstone</name>
+			<text>Worn Powerstone enters the battlefield tapped.
+{T}: Add {C}{C}.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/232.png" num="246">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Volatile Workshop</name>
+			<text>{T}: Add {C}.
+{5}: Volatile Workshop becomes a 3/3 Assembly-Worker artifact creature with vigilance until end of turn. It&apos;s still a land. This ability costs {1} less to activate for each historic permanent you control. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/233.png" num="261">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Feral Masticore</name>
+			<text>When Feral Masticore enters the battlefield, discard a card.
+Whenever you discard a card, Feral Masticore deals 1 damage to any target.
+{4}: Draw a card, then discard a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/234.png" num="228">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Masticore</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Karn, Legacy&apos;s Steward</name>
+			<text>Other artifacts you control have indestructible.
+Karn, Legacy&apos;s Steward can&apos;t attack unless defending player controls no creatures.
+{7}: Put a silver counter on target creature. It becomes an artifact. (It&apos;s no longer a creature.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/235.png" num="234">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/236.png" num="266">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/237.png" num="267">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/238.png" num="268">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/239.png" num="269">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Karn, Legacy&apos;s Steward</name>
+			<text>Other artifacts you control have indestructible.
+Karn, Legacy&apos;s Steward can&apos;t attack unless defending player controls no creatures.
+{7}: Put a silver counter on target creature. It becomes an artifact. (It&apos;s no longer a creature.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/240.png" num="300">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>URZ Draft Archetypes URZ</name>
+			<text>{W}{U} HISTORIC ARTIFACTS History is tangible. Rely on the relics of the past.
+{U}{B} DISCARD Farcycle your way to success, picking your key cards out along the way.
+{B}{R} SACRIFICE Sagas and recollection spells will help reward you for your sacrifices.
+{R}{G} RECOLLECTION Build your manabase for large spells, or split their cost across time.
+{G}{W} HISTORIC SAGAS Write history anew as you rely on the power of Sagas for your historic effects.
+{W}{B} LIFEGAIN Serra&apos;s boons and Phyrexian drain effects alike will help your life total.
+{B}{G} GRAVEYARD Your Sagas, recollected spells, or farcycled cards will help you from beyond the grave.
+{G}{U} HISTORIC Artifacts, Sagas, and legends alike contribute to Dominaria&apos;s history.
+{U}{R} ARTIFACTS Artifacts are history, but also very much the future.
+{R}{W} SACRIFICE Victory has a price, and Phyrexia will not be defeated without casualties.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/241.png" num="11">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
 			<name>Bloodline Project</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Create a 2/2 blue Metathran creature token.
 II, III — Target creature you control gets +1/+1 until end of turn. If you control another historic permanent, put a +1/+1 counter on it instead. (Artifacts, legendaries, and Sagas are historic.)
 ​</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/252.png" num="237">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/242.png" num="209">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Glacian&apos;s Sickness</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Create a tapped artifact token named Powerstone Shard with &quot;{T}: Add {C} for each artifact you control named Powerstone Shard.&quot;
+III — Target creature you don&apos;t control gets -X/-X until end of turn, where X is the number of artifacts you control.
+​</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/243.png" num="203">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Yotian Mine</name>
+			<text>{T}: Add {C}. If you control an Urza&apos;s Power-Plant and an Urza&apos;s Tower, instead create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/244.png" num="262">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Urza&apos;s Mine</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Yotian Power-Plant</name>
+			<text>{T}: Add {C}. If you control an Urza&apos;s Mine and an Urza&apos;s Tower, instead create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/245.png" num="263">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Urza&apos;s Power-Plant</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Yotian Tower</name>
+			<text>{T}: Add {C}. If you control an Urza&apos;s Mine and an Urza&apos;s Power-Plant, instead create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/246.png" num="264">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Urza&apos;s Tower</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tawnos Enters the Coffin</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Exile up to one target creature until Tawnos Enters the Coffin leaves the battlefield.
+III — Destroy all nonland permanents.
+​</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/247.png" num="195">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tawnos Enters the Coffin</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/248.png" num="290">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Assault on the Spheres</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — All creatures get -1/-1 until end of turn.
+III — Destroy target artifact, creature, or planeswalker an opponent controls.
+​</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/249.png" num="184">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Assault on the Spheres</name>
+			<text></text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/250.png" num="287">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Glacian&apos;s Sickness</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Create a tapped artifact token named Powerstone Shard with &quot;{T}: Add {C}: For each artifact you control named Powerstone Shard.&quot;
+III — Target creature you don&apos;t control gets -X/-X until end of turn, where X is the number of artifacts you control.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/251.png" num="292">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bloodline Project</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Distribute two +1/+1 counters among creatures you control.
+III — Create an X/X blue Metathran creature token, where X is the greatest power among creatures you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/252.png" num="293">URZ</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -352,8 +4374,335 @@ II, III — Target creature you control gets +1/+1 until end of turn. If you con
 		</card>
 		<card>
 			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/253.png" num="265">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Radiant&apos;s Opus</name>
+			<text>Flying
+Radiant&apos;s Opus enters the battlefield with a +1/+1 counter on it if you control another historic permanent. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/254.png" num="238">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Powerstone Shard URZ</name>
+			<text>{T}: Add {C} for each artifact you control named Powerstone Shard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/255.png" num="9">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Metathran URZ</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/256.png" num="4">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Metathran</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>The Fall of Serra</name>
+			<text></text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/257.png" num="270">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Sleepers Awaken</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/258.png" num="271">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Phyrexian URZ</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/259.png" num="5">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Phyrexian</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Gathering the Legacy</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Search your library for an artifact card, exile it, then shuffle.
+III — Put an artifact card exiled with Gathering the Legacy onto the battlefield under your control.
+​</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/260.png" num="199">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gathering the Legacy</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/261.png" num="291">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>What Remains of Argoth</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/262.png" num="286">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Rugged Isle</name>
+			<text>{T}: Add {C}.
+{T}: Add {U} or {R}. Activate only if you control a Mountain.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/263.png" num="254">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Overgrown Mire</name>
+			<text>{T}: Add {C}.
+{T}: Add {B} or {G}. Activate only if you control a Forest.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/264.png" num="253">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tainted Field</name>
+			<text>{T}: Add {C}.
+{T}: Add {W} or {B}. Activate only if you control a Swamp.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/265.png" num="257">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sweeping Peak</name>
+			<text>{T}: Add {C}.
+{T}: Add {R} or {W}. Activate only if you control a Plains.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/266.png" num="256">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Phyrexian Denouncement</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Create two 1/1 black Phyrexian creature tokens.
+II, III — You may sacrifice a creature. When you do, target creature gets -2/-2 until end of turn.
+​</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/267.png" num="92">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Treasure URZ</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/268.png" num="10">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Thran Mine</name>
+			<text>{T}: Add {C}.
+{3}, {T}, Sacrifice Thran Mine: Return target historic card from your graveyard to your hand. (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/269.png" num="259">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mine</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Temporal Window</name>
+			<text>{T}: Add {C}.
+{3}, {T}: Draw a card. Then discard a card unless you exile a historic card from your graveyard (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/270.png" num="258">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Kavu URZ</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/271.png" num="7">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Kavu</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Winds of Ascension</name>
+			<text>Destroy all nonland permanents your opponents control. Your life total becomes equal to your starting life total.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/272.png" num="213">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WUBRG</manacost>
+				<cmc>8</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
 			<text>{T}: Add {W}.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/283.png" num="285">URZ</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/273.png" num="295">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -368,7 +4717,7 @@ II, III — Target creature you control gets +1/+1 until end of turn. If you con
 		<card>
 			<name>Island</name>
 			<text>{T}: Add {U}.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/284.png" num="286">URZ</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/274.png" num="296">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -383,7 +4732,7 @@ II, III — Target creature you control gets +1/+1 until end of turn. If you con
 		<card>
 			<name>Swamp</name>
 			<text>{T}: Add {B}.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/285.png" num="287">URZ</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/275.png" num="297">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -398,7 +4747,7 @@ II, III — Target creature you control gets +1/+1 until end of turn. If you con
 		<card>
 			<name>Mountain</name>
 			<text>{T}: Add {R}.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/286.png" num="288">URZ</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/276.png" num="298">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -413,7 +4762,7 @@ II, III — Target creature you control gets +1/+1 until end of turn. If you con
 		<card>
 			<name>Forest</name>
 			<text>{T}: Add {G}.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/287.png" num="289">URZ</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/277.png" num="299">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -426,10 +4775,63 @@ II, III — Target creature you control gets +1/+1 until end of turn. If you con
 			<tablerow>0</tablerow>
 		</card>
 		<card>
+			<name>Scorn of the Untouchables</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Destroy target creature or planeswalker.
+II, III — Exile target card from a graveyard. Each opponent loses 1 life.
+​</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/278.png" num="97">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Into the Tolarian Vale</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+III — Create a Black Lotus token. (It&apos;s an artifact with &quot;{T}, Sacrifice Black Lotus: Add three mana of any one color.&quot;)
+​</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/279.png" num="124">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Black Lotus URZ</name>
+			<text>{T}, Sacrifice Black Lotus: Add three mana of any one color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/280.png" num="8">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
 			<name>Trine, Fallen Angel</name>
 			<text>Flying
 Whenever you gain life, put a +1/+1 counter on Trine, Fallen Angel.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/292.png" num="226">URZ</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/281.png" num="196">URZ</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -442,6 +4844,524 @@ Whenever you gain life, put a +1/+1 counter on Trine, Fallen Angel.</text>
 				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Radiant&apos;s Torment</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/282.png" num="289">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gaea&apos;s Last Gift</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/283.png" num="288">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Phyrexian Denouncement</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/284.png" num="277">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Beast URZ</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/285.png" num="6">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Molimo Guards Yavimaya</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/286.png" num="283">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Song of Gaea</name>
+			<text></text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/287.png" num="285">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>XG</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Soldier URZ</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/288.png" num="2">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Angel URZ</name>
+			<text>Flying, vigilance</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/289.png" num="1">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Song of All</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/290.png" num="272">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Scroll of Beginnings</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/291.png" num="284">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Time of Dark</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/292.png" num="281">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gix, Hand of Phthisis</name>
+			<text>Menace, deathtouch
+Whenever Gix, Hand of Phthisis attacks, you may sacrifice another creature. When you do, return target artifact or creature from your graveyard to the battlefield with a finality counter on it.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/293.png" num="82">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Phyrexian Praetor</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Founding of Tolaria</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/294.png" num="274">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bridge to Infinity</name>
+			<text>Whenever you sacrifice a permanent with mana value 3 or greater, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/295.png" num="148">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Yavimaya Amulet</name>
+			<text>Equipped creature gets +2/+2 and has vigilance and trample.
+Equip {3}
+Equip historic creature {1} (Artifacts, legendaries, and Sagas are historic.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/296.png" num="248">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Heart of Shiv</name>
+			<text>Heart of Shiv enters the battlefield tapped.
+{T}: Add {B} or {R}.
+Farcycling {B}{R} ({B}{R}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/297.png" num="252">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Fluctuating Portal</name>
+			<text>When Fluctuating Portal enters the battlefield, return target card with a cycling ability from your graveyard to your hand.
+The first cycling ability you activate each turn costs {1} less to activate.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/298.png" num="229">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Argothian Ridge</name>
+			<text>Argothian Ridge enters the battlefield tapped.
+{T}: Add {R} or {G}.
+Farcycling {R}{G} ({R}{G}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/299.png" num="250">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tolarian Coast</name>
+			<text>Tolarian Coast enters the battlefield tapped.
+{T}: Add {W} or {U}.
+Farcycling {W}{U} ({W}{U}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/300.png" num="260">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sewers of Terisia</name>
+			<text>Sewers of Terisia enters the battlefield tapped.
+{T}: Add {U} or {B}.
+Farcycling {U}{B} ({U}{B}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/301.png" num="255">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Argivian Expanse</name>
+			<text>Argivian Expanse enters the battlefield tapped.
+{T}: Add {G} or {W}.
+Farcycling {G}{W} ({G}{W}, Discard this card: Look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/302.png" num="249">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>From Void Evolved Phyrexia</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/303.png" num="276">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>From Void Evolved Phyrexia</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Each player sacrifices a nonland permanent of their choice.
+II — Each player loses 3 life.
+III — You may pay any amount of life. When you do, draw that many cards.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/304.png" num="80">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>From Void Evolved Phyrexia</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Each player sacrifices a nonland permanent of their choice.
+II — Each player loses 3 life.
+III — You may pay any amount of life. When you do, draw that many cards.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/305.png" num="301">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Citanul Ritual</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/URZ-files/img/306.png" num="282">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Plague Rock</name>
+			<text>When Plague Rock enters the battlefield, create two 1/1 black Phyrexian creature tokens.
+{1}{B}, Sacrifice a creature: Target creature gets -1/-1 until end of turn.
+{1}{G}, Sacrifice a creature: You may put a land card from your hand onto the battlefield.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/307.png" num="205">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cataclysm of Twelve Worlds</name>
+			<text></text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/308.png" num="279">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Flight of the Palinchron</name>
+			<text></text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/309.png" num="273">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Illusion URZ</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/URZ-files/img/310.png" num="3">URZ</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Cradle of Learning</name>
+			<text></text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/URZ-files/img/311.png" num="294">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Temporal Crisis</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/URZ-files/img/312.png" num="275">URZ</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
 		</card>
 	</cards>
 </cockatrice_carddatabase>
