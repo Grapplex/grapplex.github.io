@@ -5,7 +5,7 @@
 			<name>SPG</name>
 			<longname>Special Guests</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-04-14</releasedate>
+			<releasedate>2026-06-25</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -3053,6 +3053,326 @@ II, III, IV, V, VI — Create a token that&apos;s a copy of target non-Saga toke
 				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blessing of Frost</name>
+			<text>Distribute X +1/+1 counters among any number of creatures you control, where X is the amount of {S} spent to cast Blessing of Frost. Then draw a card for each creature you control with power 4 or greater.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/181.png" num="185">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Snow-Covered Wastes</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/182.png" num="190">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Scrying Sheets</name>
+			<text>{T}: Add {C}.
+{1}{S}, {T}: Look at the top card of your library. If that card is snow, you may reveal it and put it into your hand.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/183.png" num="189">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Faceless Haven</name>
+			<text>{T}: Add {C}.
+{S}{S}{S}: Faceless Haven becomes a 4/3 creature with vigilance and all creature types until end of turn. It&apos;s still a land.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/184.png" num="188">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Coldsteel Heart</name>
+			<text>Coldsteel Heart enters the battlefield tapped.
+As Coldsteel Heart enters the battlefield, choose a color.
+{T}: Add one mana of the chosen color.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/185.png" num="187">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blizzard Brawl</name>
+			<text>Choose target creature you control and target creature you don&apos;t control. If you control three or more snow permanents, the creature you control gets +1/+0 and gains indestructible until end of turn. Then those creatures fight each other.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/186.png" num="186">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tundra Fumarole</name>
+			<text>Tundra Fumarole deals 4 damage to target creature or planeswalker. Add {C} for each {S} spent to cast Tundra Fumarole. Until end of turn, you don&apos;t lose this mana as steps and phases end.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/187.png" num="184">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blood on the Snow</name>
+			<text>Choose one —
+• Destroy all creatures.
+• Destroy all planeswalkers.
+Then return a creature or planeswalker card with mana value X or less from your graveyard to the battlefield, where X is the amount of {S} spent to cast Blood on the Snow.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/188.png" num="183">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Graven Lore</name>
+			<text>Scry X, where X is the amount of {S} spent to cast Graven Lore, then draw three cards.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/189.png" num="182">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>On Thin Ice</name>
+			<text>Enchant snow land you control
+When On Thin Ice enters the battlefield, exile target creature an opponent controls until On Thin Ice leaves the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/190.png" num="181">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tempting Contract</name>
+			<text>At the beginning of your upkeep, each opponent may create a Treasure token. For each opponent who does, you create a Treasure token.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/201.png" num="209">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spell Swindle</name>
+			<text>Counter target spell. Create X Treasure tokens, where X is that spell&apos;s mana value.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/202.png" num="203">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hell to Pay</name>
+			<text>Hell to Pay deals X damage to target creature. Create a number of tapped Treasure tokens equal to the amount of excess damage dealt to that creature this way.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/203.png" num="206">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XR</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deadly Dispute</name>
+			<text>As an additional cost to cast Deadly Dispute, sacrifice an artifact or creature.
+Draw two cards and create a Treasure token.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/204.png" num="204">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Treasure Vault</name>
+			<text>{T}: Add {C}.
+{X}{X}, {T}, Sacrifice Treasure Vault: Create X Treasure tokens.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/205.png" num="210">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Bootlegger&apos;s Stash</name>
+			<text>Lands you control have &quot;{T}: Create a Treasure token.&quot;</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/206.png" num="208">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Strike It Rich</name>
+			<text>Create a Treasure token. 
+Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/207.png" num="207">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>An Offer You Can&apos;t Refuse</name>
+			<text>Counter target noncreature spell. Its controller creates two Treasure tokens.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/208.png" num="202">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Revel in Riches</name>
+			<text>Whenever a creature an opponent controls dies, create a Treasure token.
+At the beginning of your upkeep, if you control ten or more Treasures, you win the game.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/209.png" num="205">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Smothering Tithe</name>
+			<text>Whenever an opponent draws a card, that player may pay {2}. If the player doesn&apos;t, you create a Treasure token.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/210.png" num="201">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
