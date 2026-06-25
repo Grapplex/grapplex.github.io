@@ -58,7 +58,7 @@
         flex: 0 1 auto;
         min-width: 0;
     }
-    .article-content p:has(img) {
+    .article-content p.image-paragraph {
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
@@ -68,7 +68,7 @@
         margin: 20px auto;
     }
     /* Only hide BR tags that are immediately between images in a flex row */
-    .article-content p:has(img) img + br {
+    .article-content p.image-paragraph img + br {
         display: none;
     }
     h4 {
@@ -153,7 +153,7 @@
 	</script>
     <div class="article-container">
         <div class="article-content">
-            <p><img src="https://grapplex.github.io/articles/Projects/The%20Reimagined%20Series/logo.png" alt="Reimagined Series" width="467" height="139"></p>
+            <p class="image-paragraph"><img src="https://grapplex.github.io/articles/Projects/The%20Reimagined%20Series/logo.png" alt="Reimagined Series" width="467" height="139"></p>
 <p><strong><p style="text-align: center;">Revisit the shores of imagination.</p></strong></p>
 <hr />
 <p>The <strong>Reimagined Series</strong> is a collection of Magic: The Gathering sets spread across multiple blocks, a loose banner of premier sets with one aim in common—to recapture and reinterpret the feel of Magic's earliest years. Each Reimagined set tells, in its own way, the story of one of the eight pre-modern blocks in Magic's history—whether that means remaking its original story, telling new tales within that world, or setting the scene for what we know would come to pass. Using modern design principles and up-to-date approaches to set building, each Reimagined set straddles both the past and present to recapture a moment in time.</p>
