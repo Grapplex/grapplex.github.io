@@ -229,7 +229,9 @@
 				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
 			</div>
 			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
-			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a id="header-articles-link" onclick="window.location.href = rootPath + '/all-articles'" style="display: none;"><img id="header-articles" class="sg-icon">Articles</a>
+			<a id="header-decks-link" onclick="window.location.href = rootPath + '/decks'" style="display: none;"><img id="header-decks" class="sg-icon">Decks</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deckbuilder" class="sg-icon">Deckbuilder</a>
 			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
@@ -238,8 +240,22 @@
 			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
 			document.getElementById("header-search").src = rootPath + "/img/search.png";
 			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
-			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-articles").src = rootPath + "/img/articles.png";
+			document.getElementById("header-decks").src = rootPath + "/img/deck.png";
+			document.getElementById("header-deckbuilder").src = rootPath + "/img/deckbuilder.png";
 			document.getElementById("header-random").src = rootPath + "/img/random.png";
+
+			// Hide Articles if none exist
+			fetch(rootPath + '/all-articles.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-articles-link').style.display = 'flex';
+				}).catch(() => {});
+
+			// Hide Decks if none exist
+			fetch(rootPath + '/decks.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-decks-link').style.display = 'flex';
+				}).catch(() => {});
 		});
 
 		function goToSearch() {
@@ -690,15 +706,14 @@
 				<div class="container"><img loading="lazy" alt="img\er.png" id="SMK_er" data-flag="@E" onclick="openSidebar('SMK_er',false)"></div>
 				<div class="container"><img loading="lazy" alt="img\er.png" id="SMK_er" data-flag="@E" onclick="openSidebar('SMK_er',false)"></div>
 				<div id="RDR" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\33.png" id="RDR_33" data-flag="@X" onclick="openSidebar('RDR_33',false)"></div>
-				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\35.png" id="RDR_35" data-flag="@X" onclick="openSidebar('RDR_35',false)"></div>
-				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\7.png" id="RDR_7" data-flag="@X" onclick="openSidebar('RDR_7',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\14.png" id="RDR_14" data-flag="@X" onclick="openSidebar('RDR_14',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\6.png" id="RDR_6" data-flag="@X" onclick="openSidebar('RDR_6',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\35.png" id="RDR_35" data-flag="@X" onclick="openSidebar('RDR_35',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\10.png" id="RDR_10" data-flag="@X" onclick="openSidebar('RDR_10',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\1.png" id="RDR_1" data-flag="@X" onclick="openSidebar('RDR_1',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\2.png" id="RDR_2" data-flag="@X" onclick="openSidebar('RDR_2',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\34.png" id="RDR_34" data-flag="@X" onclick="openSidebar('RDR_34',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\7.png" id="RDR_7" data-flag="@X" onclick="openSidebar('RDR_7',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\3.png" id="RDR_3" data-flag="@X" onclick="openSidebar('RDR_3',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\8.png" id="RDR_8" data-flag="@X" onclick="openSidebar('RDR_8',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\15.png" id="RDR_15" data-flag="@X" onclick="openSidebar('RDR_15',false)"></div>
@@ -711,6 +726,8 @@
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\30.png" id="RDR_30" data-flag="@X" onclick="openSidebar('RDR_30',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\22.png" id="RDR_22" data-flag="@X" onclick="openSidebar('RDR_22',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\28.png" id="RDR_28" data-flag="@X" onclick="openSidebar('RDR_28',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\11.png" id="RDR_11" data-flag="@X" onclick="openSidebar('RDR_11',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\13.png" id="RDR_13" data-flag="@X" onclick="openSidebar('RDR_13',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\29.png" id="RDR_29" data-flag="@X" onclick="openSidebar('RDR_29',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\32.png" id="RDR_32" data-flag="@X" onclick="openSidebar('RDR_32',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\20.png" id="RDR_20" data-flag="@X" onclick="openSidebar('RDR_20',false)"></div>
@@ -718,14 +735,13 @@
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\27.png" id="RDR_27" data-flag="@X" onclick="openSidebar('RDR_27',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\0.png" id="RDR_0" data-flag="@X" onclick="openSidebar('RDR_0',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\21.png" id="RDR_21" data-flag="@X" onclick="openSidebar('RDR_21',false)"></div>
-				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\11.png" id="RDR_11" data-flag="@X" onclick="openSidebar('RDR_11',false)"></div>
-				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\13.png" id="RDR_13" data-flag="@X" onclick="openSidebar('RDR_13',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\31.png" id="RDR_31" data-flag="@X" onclick="openSidebar('RDR_31',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\25.png" id="RDR_25" data-flag="@X" onclick="openSidebar('RDR_25',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\24.png" id="RDR_24" data-flag="@X" onclick="openSidebar('RDR_24',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\19.png" id="RDR_19" data-flag="@X" onclick="openSidebar('RDR_19',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\18.png" id="RDR_18" data-flag="@X" onclick="openSidebar('RDR_18',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\23.png" id="RDR_23" data-flag="@X" onclick="openSidebar('RDR_23',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RDR-files\img\33.png" id="RDR_33" data-flag="@X" onclick="openSidebar('RDR_33',false)"></div>
 				<div class="container"><img loading="lazy" alt="img\e.png" id="SMK_e" data-flag="@E" onclick="openSidebar('SMK_e',false)"></div>
 				<div class="container"><img loading="lazy" alt="img\e.png" id="SMK_e" data-flag="@E" onclick="openSidebar('SMK_e',false)"></div>
 				<div class="container"><img loading="lazy" alt="img\e.png" id="SMK_e" data-flag="@E" onclick="openSidebar('SMK_e',false)"></div>
@@ -745,8 +761,6 @@
 				<div class="container"><img loading="lazy" alt="img\er.png" id="SMK_er" data-flag="@E" onclick="openSidebar('SMK_er',false)"></div>
 				<div class="container"><img loading="lazy" alt="img\er.png" id="SMK_er" data-flag="@E" onclick="openSidebar('SMK_er',false)"></div>
 				<div id="SPG" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\109.png" id="SPG_109" data-flag="@X" onclick="openSidebar('SPG_109',false)"></div>
-				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\106.png" id="SPG_106" data-flag="@X" onclick="openSidebar('SPG_106',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\102.png" id="SPG_102" data-flag="@X" onclick="openSidebar('SPG_102',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\105.png" id="SPG_105" data-flag="@X" onclick="openSidebar('SPG_105',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\104.png" id="SPG_104" data-flag="@X" onclick="openSidebar('SPG_104',false)"></div>
@@ -755,6 +769,8 @@
 				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\100.png" id="SPG_100" data-flag="@X" onclick="openSidebar('SPG_100',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\108.png" id="SPG_108" data-flag="@X" onclick="openSidebar('SPG_108',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\107.png" id="SPG_107" data-flag="@X" onclick="openSidebar('SPG_107',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\109.png" id="SPG_109" data-flag="@X" onclick="openSidebar('SPG_109',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\106.png" id="SPG_106" data-flag="@X" onclick="openSidebar('SPG_106',false)"></div>
 				<div class="container"><img loading="lazy" alt="img\er.png" id="SMK_er" data-flag="@E" onclick="openSidebar('SMK_er',false)"></div>
 				<div class="container"><img loading="lazy" alt="img\er.png" id="SMK_er" data-flag="@E" onclick="openSidebar('SMK_er',false)"></div>
 				<div class="container"><img loading="lazy" alt="img\er.png" id="SMK_er" data-flag="@E" onclick="openSidebar('SMK_er',false)"></div>
@@ -796,7 +812,7 @@
 					if (card.notes) {
 						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
 						for (const match of tagMatches) {
-							all_tags.add(match[1]);
+							all_tags.add(match[1].toLowerCase());
 						}
 					}
 				});

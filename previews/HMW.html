@@ -229,7 +229,9 @@
 				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
 			</div>
 			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
-			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a id="header-articles-link" onclick="window.location.href = rootPath + '/all-articles'" style="display: none;"><img id="header-articles" class="sg-icon">Articles</a>
+			<a id="header-decks-link" onclick="window.location.href = rootPath + '/decks'" style="display: none;"><img id="header-decks" class="sg-icon">Decks</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deckbuilder" class="sg-icon">Deckbuilder</a>
 			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
@@ -238,8 +240,22 @@
 			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
 			document.getElementById("header-search").src = rootPath + "/img/search.png";
 			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
-			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-articles").src = rootPath + "/img/articles.png";
+			document.getElementById("header-decks").src = rootPath + "/img/deck.png";
+			document.getElementById("header-deckbuilder").src = rootPath + "/img/deckbuilder.png";
 			document.getElementById("header-random").src = rootPath + "/img/random.png";
+
+			// Hide Articles if none exist
+			fetch(rootPath + '/all-articles.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-articles-link').style.display = 'flex';
+				}).catch(() => {});
+
+			// Hide Decks if none exist
+			fetch(rootPath + '/decks.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-decks-link').style.display = 'flex';
+				}).catch(() => {});
 		});
 
 		function goToSearch() {
@@ -590,11 +606,21 @@
 				<div class="container"><img loading="lazy" alt="img\er.png" id="HMW_er" data-flag="@E" onclick="openSidebar('HMW_er',false)"></div>
 				<div class="container"><img loading="lazy" alt="img\er.png" id="HMW_er" data-flag="@E" onclick="openSidebar('HMW_er',false)"></div>
 				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\HMW-files\img\2.png" id="HMW_2" data-flag="@X" onclick="openSidebar('HMW_2',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\HMW-files\img\278_back.png" alt="sets\HMW-files\img\278_front.png" id="HMW_278" data-flag="@XD" onclick="openSidebar('HMW_278',false)"><button class="flip-btn" onclick="imgFlip('HMW_278')"></button></div>
 				<div class="container"><img loading="lazy" alt="sets\HMW-files\img\9.png" id="HMW_9" data-flag="@X" onclick="openSidebar('HMW_9',false)"></div>
 				<div class="container"><img loading="lazy" data-alt_src="sets\HMW-files\img\274_back.png" alt="sets\HMW-files\img\274_front.png" id="HMW_274" data-flag="@XD" onclick="openSidebar('HMW_274',false)"><button class="flip-btn" onclick="imgFlip('HMW_274')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\HMW-files\img\210.png" id="HMW_210" data-flag="@X" onclick="openSidebar('HMW_210',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HMW-files\img\209.png" id="HMW_209" data-flag="@X" onclick="openSidebar('HMW_209',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\HMW-files\img\243_back.png" alt="sets\HMW-files\img\243_front.png" id="HMW_243" data-flag="@XD" onclick="openSidebar('HMW_243',false)"><button class="flip-btn" onclick="imgFlip('HMW_243')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\HMW-files\img\213.png" id="HMW_213" data-flag="@X" onclick="openSidebar('HMW_213',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\HMW-files\img\211.png" id="HMW_211" data-flag="@X" onclick="openSidebar('HMW_211',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\HMW-files\img\214.png" id="HMW_214" data-flag="@X" onclick="openSidebar('HMW_214',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\HMW-files\img\212.png" id="HMW_212" data-flag="@X" onclick="openSidebar('HMW_212',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HMW-files\img\204.png" id="HMW_204" data-flag="@X" onclick="openSidebar('HMW_204',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HMW-files\img\206.png" id="HMW_206" data-flag="@X" onclick="openSidebar('HMW_206',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HMW-files\img\205.png" id="HMW_205" data-flag="@X" onclick="openSidebar('HMW_205',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\HMW-files\img\228_back.png" alt="sets\HMW-files\img\228_front.png" id="HMW_228" data-flag="@XD" onclick="openSidebar('HMW_228',false)"><button class="flip-btn" onclick="imgFlip('HMW_228')"></button></div>
 				<div class="container"><img loading="lazy" alt="sets\HMW-files\img\207.png" id="HMW_207" data-flag="@X" onclick="openSidebar('HMW_207',false)"></div>
 				<div class="container"><img loading="lazy" alt="img\e.png" id="HMW_e" data-flag="@E" onclick="openSidebar('HMW_e',false)"></div>
 				<div class="container"><img loading="lazy" alt="img\e.png" id="HMW_e" data-flag="@E" onclick="openSidebar('HMW_e',false)"></div>
@@ -675,8 +701,6 @@
 				<div class="container"><img loading="lazy" alt="img\er.png" id="HMW_er" data-flag="@E" onclick="openSidebar('HMW_er',false)"></div>
 				<div class="container"><img loading="lazy" alt="img\er.png" id="HMW_er" data-flag="@E" onclick="openSidebar('HMW_er',false)"></div>
 				<div id="SPG" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\74.png" id="SPG_74" data-flag="@X" onclick="openSidebar('SPG_74',false)"></div>
-				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\79.png" id="SPG_79" data-flag="@X" onclick="openSidebar('SPG_79',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\76.png" id="SPG_76" data-flag="@X" onclick="openSidebar('SPG_76',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\71.png" id="SPG_71" data-flag="@X" onclick="openSidebar('SPG_71',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\77.png" id="SPG_77" data-flag="@X" onclick="openSidebar('SPG_77',false)"></div>
@@ -685,6 +709,8 @@
 				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\73.png" id="SPG_73" data-flag="@X" onclick="openSidebar('SPG_73',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\78.png" id="SPG_78" data-flag="@X" onclick="openSidebar('SPG_78',false)"></div>
 				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\75.png" id="SPG_75" data-flag="@X" onclick="openSidebar('SPG_75',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\74.png" id="SPG_74" data-flag="@X" onclick="openSidebar('SPG_74',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SPG-files\img\79.png" id="SPG_79" data-flag="@X" onclick="openSidebar('SPG_79',false)"></div>
 				<div class="container"><img loading="lazy" alt="img\er.png" id="HMW_er" data-flag="@E" onclick="openSidebar('HMW_er',false)"></div>
 				<div class="container"><img loading="lazy" alt="img\er.png" id="HMW_er" data-flag="@E" onclick="openSidebar('HMW_er',false)"></div>
 				<div class="container"><img loading="lazy" alt="img\er.png" id="HMW_er" data-flag="@E" onclick="openSidebar('HMW_er',false)"></div>
@@ -726,7 +752,7 @@
 					if (card.notes) {
 						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
 						for (const match of tagMatches) {
-							all_tags.add(match[1]);
+							all_tags.add(match[1].toLowerCase());
 						}
 					}
 				});
