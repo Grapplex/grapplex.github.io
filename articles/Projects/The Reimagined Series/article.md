@@ -2,9 +2,13 @@
 
 **<p style="text-align: center;">Revisit the shores of imagination.</p>**
 
+---
+
 The **Reimagined Series** is a collection of Magic: The Gathering sets spread across multiple blocks, a loose banner of premier sets with one aim in common—to recapture and reinterpret the feel of Magic's earliest years. Each Reimagined set tells, in its own way, the story of one of the eight pre-modern blocks in Magic's history—whether that means remaking its original story, telling new tales within that world, or setting the scene for what we know would come to pass. Using modern design principles and up-to-date approaches to set building, each Reimagined set straddles both the past and present to recapture a moment in time.
 
-##Reimagined Series
+---
+
+## Reimagined Series
 
 <img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/AGE-files/icon.png" alt="AGE"/>[**<font color="#004628">The Eternal Ice</font>**](https://grapplex.github.io/previews/AGE): Blood runs cold. In the depths of Terisiare's endless winter, Heidar's rime-mages vow never to let chaos disrupt the purity of ice. Telling the story of Dominaria's frozen past as seen in *Ice Age*, *Alliances*, and *Coldsnap*.
 
