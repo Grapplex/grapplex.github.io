@@ -5,29 +5,311 @@
 			<name>MRC</name>
 			<longname>Mercadia: Blood and Gold</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-02-23</releasedate>
+			<releasedate>2026-07-01</releasedate>
 		</set>
 	</sets>
 	<cards>
 		<card>
-			<name>Mox Nacre</name>
-			<text>As an additional cost to cast this spell, sacrifice an artifact.
-{T}: Add one mana of any color.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/MRC-files/img/9.png" num="249">MRC</set>
+			<name>Exotic Wares</name>
+			<text>When Exotic Wares enters the battlefield, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+Each creature you control enters the battlefield with an additional +1/+1 counter on it if mana from a nonland source was spent to cast it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/188.png" num="219">MRC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Artifact</type>
-				<maintype>Artifact</maintype>
-				<manacost>0</manacost>
-				<cmc>0</cmc>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
+			<name>A Well-Placed Bribe</name>
+			<text>Choose one —
+• Search your library for an artifact card, reveal it, put it into your hand, then shuffle.
+• Return up to two target artifact cards from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/197.png" num="211">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ethereal Magistrate</name>
+			<text>Menace
+Whenever Ethereal Magistrate attacks, you may discard a card. When you do, target creature you control gets +X/+X until end of turn, where X is the number of cards in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/198.png" num="212">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Spellshaper</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arabeka&apos;s Handmaid</name>
+			<text>Whenever Arabeka&apos;s Handmaid attacks, you may discard a card. When you do, draw a card and up to one target creature can&apos;t block this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/199.png" num="215">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Spellshaper</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Silverglade Piper</name>
+			<text>Whenever you cast a spell, if mana from a nonland source was spent to cast it, put a +1/+1 counter on Silverglade Piper.
+{T}: Add {R} or {G}.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/200.png" num="221">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dryad Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A Dirty Job</name>
+			<text>Create two 1/1 white Soldier creature tokens with lifelink.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/201.png" num="222">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hydraulic Haulier</name>
+			<text>Deathtouch
+When Hydraulic Haulier enters the battlefield, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/202.png" num="225">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Goblin</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aven Appraiser</name>
+			<text>Vigilance
+{T}: Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/204.png" num="237">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ruby Raptor</name>
+			<text>Flying
+When Ruby Raptor enters the battlefield, draw two cards, then discard two cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/205.png" num="230">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Griffin</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blacksmith&apos;s Guardian</name>
+			<text>Vigilance
+As long as you control three or more artifacts, Blacksmith&apos;s Guardian gets +2/+0 and has flying.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/206.png" num="209">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Profit and Loss</name>
+			<text>Whenever you discard one or more cards, put a +1/+1 counter on target creature you control. Until end of turn, that creature gains menace and &quot;Whenever this creature deals combat damage to a player, draw a card.&quot;</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/207.png" num="216">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Saprazzan Revelry</name>
+			<text>Creatures you control have menace.
+At the beginning of combat on your turn, if you&apos;ve spent five or more total mana this turn, distribute two +1/+1 counters among creatures you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/208.png" num="232">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3BG</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Extortion Patrol</name>
+			<text>If one or more tokens would be created under your control, those tokens plus an additional Treasure token are created instead. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/209.png" num="223">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jaded Sellsword</name>
+			<text>When Jaded Sellsword enters the battlefield or dies, if you control another creature with mana value 3 or less, you draw a card and you lose 1 life</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/210.png" num="226">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rishadan Commerce</name>
+			<text>When Rishadan Commerce enters the battlefield, draw a card, then you may put a basic land card from your hand onto the battlefield tapped.
+Whenever you cast a spell, if it was haggled for, you may return Rishadan Commerce to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/211.png" num="239">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Incendiary Bookkeeper</name>
+			<text>Menace
+Incendiary Bookkeeper&apos;s power is equal to the total number of instant and sorcery cards you own in exile and in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/212.png" num="228">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>*/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cunning Reeve</name>
+			<text>Lifelink
+Whenever you cast a noncreature spell, if it was haggled for, Cunning Reeve deals 1 damage to each opponent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/213.png" num="234">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Plains</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/MRC-files/img/229.png" num="262">MRC</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/MRC-files/img/225.png" num="262">MRC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -42,7 +324,7 @@
 		<card>
 			<name>Island</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/MRC-files/img/230.png" num="263">MRC</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/MRC-files/img/226.png" num="263">MRC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -57,7 +339,7 @@
 		<card>
 			<name>Swamp</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/MRC-files/img/231.png" num="264">MRC</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/MRC-files/img/227.png" num="264">MRC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -72,7 +354,7 @@
 		<card>
 			<name>Mountain</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/MRC-files/img/232.png" num="265">MRC</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/MRC-files/img/228.png" num="265">MRC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -87,7 +369,135 @@
 		<card>
 			<name>Forest</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/MRC-files/img/233.png" num="266">MRC</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/MRC-files/img/229.png" num="266">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Merchant of Malice</name>
+			<text>Flying
+Whenever you cast a noncreature spell, create a tapped Treasure token. This ability triggers only once each turn. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/236.png" num="235">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Harpy Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soul of the Henge</name>
+			<text>When Soul of the Henge enters the battlefield, create a Treasure token, then you may discard a card. If do you, search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/237.png" num="233">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Spellshaper</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pilfering Harpy</name>
+			<text>Flying
+When Pilfering Harpy enters the battlefield, return target instant, sorcery, or creature card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/MRC-files/img/238.png" num="213">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Harpy</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text>{T}: Add {W}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/MRC-files/img/278.png" num="280">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text>{T}: Add {U}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/MRC-files/img/279.png" num="281">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text>{T}: Add {B}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/MRC-files/img/280.png" num="282">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text>{T}: Add {R}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/MRC-files/img/281.png" num="283">MRC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text>{T}: Add {G}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/MRC-files/img/282.png" num="284">MRC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
