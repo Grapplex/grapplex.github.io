@@ -5,10 +5,256 @@
 			<name>GNT</name>
 			<longname>Gigantic</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-07-01</releasedate>
+			<releasedate>2026-07-04</releasedate>
 		</set>
 	</sets>
 	<cards>
+		<card>
+			<name>Lepidopteron</name>
+			<text>Flying
+Apex — {5}{WU}{WU}: Put three +1/+1 counters on Lepidopteron. (Activate only once. This costs {X} less to activate, where X is the greatest mana value among permanents put into graveyards this turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/26.png" num="236">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>W/U</manacost>
+				<cmc>1</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bounty Chaser</name>
+			<text>When Bounty Chaser enters the battlefield, put a +1/+1 counter on target creature you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/28.png" num="240">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>2G/W</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ascendant Harrier</name>
+			<text>Affinity for Plains (This spell costs {1} less to cast for each Plains you control.)
+Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/34.png" num="24">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dinosaur</type>
+				<maintype>Creature</maintype>
+				<manacost>5W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Industrial Operative</name>
+			<text>Industrial Operative can&apos;t be blocked by monsters. (Monsters are creatures with power, toughness, or mana value 5 or greater.)
+{2}, Sacrifice Industrial Operative: Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/63.png" num="237">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1U/B</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Silver Gharial</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/66.png" num="242">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>2U/R</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ascendant Snapper</name>
+			<text>Affinity for Islands (This spell costs {1} less to cast for each Island you control.)
+Vigilance</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/69.png" num="60">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Turtle Ogre</type>
+				<maintype>Creature</maintype>
+				<manacost>5U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ascendant Predator</name>
+			<text>Affinity for Swamps (This spell costs {1} less to cast for each Swamp you control.)
+Menace</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/107.png" num="96">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake Ape</type>
+				<maintype>Creature</maintype>
+				<manacost>6B</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sense of Scale</name>
+			<text>Destroy target non-monster creature. (A monster is a creature with power, toughness, or mana value 5 or greater.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/108.png" num="241">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W/B</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mortal Blow</name>
+			<text>Target creature gets +2/-2 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/109.png" num="238">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B/R</manacost>
+				<cmc>1</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ornery Volcanape</name>
+			<text>Reach
+When Ornery Volcanape enters the battlefield, if you control a monster, create a Treasure token. (A monster is a creature with power, toughness, or mana value 5 or greater. A Treasure token is an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/139.png" num="239">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Ape</type>
+				<maintype>Creature</maintype>
+				<manacost>2R/G</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ascendant Scuttler</name>
+			<text>Affinity for Mountains (This spell costs {1} less to cast for each Mountain you control.)
+Haste</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/144.png" num="132">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lobster Hydra</type>
+				<maintype>Creature</maintype>
+				<manacost>5R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tear to Shreds</name>
+			<text>Choose one —
+• Destroy target artifact.
+• Tear to Shreds deals 3 damage to target attacking or blocking creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/148.png" num="244">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R/W</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ascendant Demolisher</name>
+			<text>Affinity for Forests (This spell costs {1} less to cast for each Forest you control.)
+Trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/180.png" num="168">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Giant</type>
+				<maintype>Creature</maintype>
+				<manacost>6G</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Plated Goliath</name>
+			<text>Affinity for monsters (This spell costs {1} less to cast for each creature you control with power, toughness, or mana value 5 or greater.)
+Trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/181.png" num="243">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dinosaur Turtle</type>
+				<maintype>Creature</maintype>
+				<manacost>5B/GB/G</manacost>
+				<cmc>7</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
 		<card>
 			<name>Monster Mash</name>
 			<text>Create two 5/5 green Beast creature tokens.</text>
@@ -361,7 +607,7 @@ Whenever Technomechanicus or another creature you control with power 5 or greate
 		<card>
 			<name>Plains</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/256.png" num="262">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/256.png" num="267">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -376,7 +622,7 @@ Whenever Technomechanicus or another creature you control with power 5 or greate
 		<card>
 			<name>Island</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/257.png" num="263">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/257.png" num="268">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -391,7 +637,7 @@ Whenever Technomechanicus or another creature you control with power 5 or greate
 		<card>
 			<name>Swamp</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/258.png" num="264">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/258.png" num="269">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -406,7 +652,7 @@ Whenever Technomechanicus or another creature you control with power 5 or greate
 		<card>
 			<name>Mountain</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/259.png" num="265">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/259.png" num="270">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -421,7 +667,7 @@ Whenever Technomechanicus or another creature you control with power 5 or greate
 		<card>
 			<name>Forest</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/260.png" num="266">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/260.png" num="271">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -430,6 +676,104 @@ Whenever Technomechanicus or another creature you control with power 5 or greate
 				<manacost></manacost>
 				<cmc>0</cmc>
 				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Territorial Orcasaur</name>
+			<text>When Territorial Orcasaur enters the battlefield, draw a card.
+{2}{V}: Put a +1/+1 counter on Territorial Orcasaur. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/267.png" num="245">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dinosaur Whale</type>
+				<maintype>Creature</maintype>
+				<manacost>1G/UG/U</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Idyllic Beachfront</name>
+			<text>({T}: Add {W} or {U}.)
+Idyllic Beachfront enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/273.png" num="264">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Contaminated Aquifer</name>
+			<text>({T}: Add {U} or {B}.)
+Contaminated Aquifer enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/274.png" num="262">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Geothermal Bog</name>
+			<text>({T}: Add {B} or {R}.)
+Geothermal Bog enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/275.png" num="263">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Wooded Ridgeline</name>
+			<text>({T}: Add {R} or {G}.)
+Wooded Ridgeline enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/276.png" num="266">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Radiant Grove</name>
+			<text>({T}: Add {G} or {W}.)
+Radiant Grove enters the battlefield tapped.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/277.png" num="265">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
 		</card>
