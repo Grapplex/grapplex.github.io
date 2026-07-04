@@ -141,10 +141,10 @@
             "number": 220,
             "color_identity": "BG",
             "cost": "{1}{B}{G}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Choose a legendary permanent card name.\nSacrifice a nonland permanent.\nII \u2014 Search your library for a card with the chosen name, put it onto the battlefield, then shuffle.",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Choose a legendary permanent card name.\nSacrifice a nonland permanent.\nII, III \u2014 Search your library for a card with the chosen name, put it onto the battlefield, then shuffle.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Choose a legendary permanent card name.\nSacrifice a nonland permanent.\nII \u2014 Search your library for a card with the chosen name, put it onto the battlefield, then shuffle.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Choose a legendary permanent card name.\nSacrifice a nonland permanent.\nII, III \u2014 Search your library for a card with the chosen name, put it onto the battlefield, then shuffle.",
             "shape": "saga",
             "set": "APS",
             "loyalty": "",
@@ -425,7 +425,7 @@
             "alias": "",
             "position": "19",
             "rotated": false,
-            "notes": ""
+            "notes": "!group hybrid\n!sort 06\n!tag hybrid"
         },
         {
             "card_name": "Silent Paladin",
@@ -488,7 +488,7 @@
             "alias": "",
             "position": "22",
             "rotated": false,
-            "notes": ""
+            "notes": "!group hybrid\n!sort 01\n!tag hybrid"
         },
         {
             "card_name": "Hallowed Scartificer",
@@ -1076,7 +1076,7 @@
             "alias": "",
             "position": "50",
             "rotated": false,
-            "notes": "!tag spotlight"
+            "notes": "!tag spotlight\n!group hybrid\n!sort 02\n!tag hybrid"
         },
         {
             "card_name": "Sage of the Worm",
@@ -1097,7 +1097,7 @@
             "alias": "",
             "position": "51",
             "rotated": false,
-            "notes": ""
+            "notes": "!group hybrid\n!sort 09\n!tag hybrid"
         },
         {
             "card_name": "Keening Hormagaunt",
@@ -1464,10 +1464,10 @@
             "number": 59,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Each opponent mills cards until that player has milled a land card.\nEach opponent mills cards until that player has milled a creature card.\nII \u2014 Each opponent mills cards until that player has milled a noncreature, nonland card.",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Each opponent mills cards until that player has milled a land card.\nII \u2014 Each opponent mills cards until that player has milled a creature card.\nIII \u2014 Each opponent mills cards until that player has milled a noncreature, nonland card.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Each opponent mills cards until that player has milled a land card.\nEach opponent mills cards until that player has milled a creature card.\nII \u2014 Each opponent mills cards until that player has milled a noncreature, nonland card.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Each opponent mills cards until that player has milled a land card.\nII \u2014 Each opponent mills cards until that player has milled a creature card.\nIII \u2014 Each opponent mills cards until that player has milled a noncreature, nonland card.",
             "shape": "saga",
             "set": "APS",
             "loyalty": "",
@@ -1769,7 +1769,7 @@
             "alias": "",
             "position": "83",
             "rotated": false,
-            "notes": ""
+            "notes": "!group hybrid\n!sort 03\n!tag hybrid"
         },
         {
             "card_name": "Fleshmeld Expendable",
@@ -1874,7 +1874,7 @@
             "alias": "",
             "position": "88",
             "rotated": false,
-            "notes": ""
+            "notes": "!group hybrid\n!sort 07\n!tag hybrid"
         },
         {
             "card_name": "Breakbone Aspirant",
@@ -2546,7 +2546,7 @@
             "alias": "",
             "position": "120",
             "rotated": false,
-            "notes": ""
+            "notes": "!group hybrid\n!sort 10\n!tag hybrid"
         },
         {
             "card_name": "Grasping Spawn",
@@ -2588,7 +2588,7 @@
             "alias": "",
             "position": "122",
             "rotated": false,
-            "notes": ""
+            "notes": "!group hybrid\n!sort 04\n!tag hybrid"
         },
         {
             "card_name": "Sotak's Handmaid",
@@ -3323,7 +3323,7 @@
             "alias": "",
             "position": "157",
             "rotated": false,
-            "notes": ""
+            "notes": "!group hybrid\n!sort 05\n!tag hybrid"
         },
         {
             "card_name": "Mucktiller Spawn",
@@ -3386,7 +3386,7 @@
             "alias": "",
             "position": "160",
             "rotated": false,
-            "notes": ""
+            "notes": "!group hybrid\n!sort 08\n!tag hybrid"
         },
         {
             "card_name": "Famished Husk",
@@ -5867,5 +5867,5 @@
             "notes": "!group token\n!sort 01"
         }
     ],
-    "version": 6
+    "version": 7
 }
