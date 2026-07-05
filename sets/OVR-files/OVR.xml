@@ -5,7 +5,7 @@
 			<name>OVR</name>
 			<longname>Overlay</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-18</releasedate>
+			<releasedate>2026-07-05</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -4647,10 +4647,10 @@ Whenever a source deals damage to Phrexian Eviscerator, put that many +1/+1 coun
 			<token>1</token>
 		</card>
 		<card>
-			<name>Yawgmoth Father of Machines (bundle promo)</name>
+			<name>Yawgmoth, Father of Machines</name>
 			<text>Menace, trample, lifelink
 At the beginning of each player&apos;s upkeep, that player loses life equal to the number of artifacts they don&apos;t control. Then if each player has 5 or more life, Yawgmoth, Father of Machines becomes an artifact until end of turn.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OVR-files/img/270.png" num="277">OVR</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OVR-files/img/270.png" num="282">OVR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4894,6 +4894,81 @@ Whenever a creature you control attacks, add {R}.
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text>{T}: Add {W}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/OVR-files/img/285.png" num="277">OVR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text>{T}: Add {U}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/OVR-files/img/286.png" num="278">OVR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text>{T}: Add {B}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/OVR-files/img/287.png" num="279">OVR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text>{T}: Add {G}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/OVR-files/img/288.png" num="281">OVR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text>{T}: Add {R}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/OVR-files/img/289.png" num="280">OVR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
 		</card>
 	</cards>
 </cockatrice_carddatabase>
