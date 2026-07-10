@@ -5,7 +5,7 @@
 			<name>GNT</name>
 			<longname>Gigantic</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-07-09</releasedate>
+			<releasedate>2026-07-10</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -84,7 +84,7 @@ Apex — {5}{WU}{WU}: Put three +1/+1 counters on Lepidopteron. (Activate only o
 			<name>Deathzilla</name>
 			<text>Double strike
 Apex — {3}{W}{W}: Put a +1/+1 counter on Deathzilla. (Activate only once. This costs {X} less to activate, where X is the greatest mana value among permanents put into graveyards this turn.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/24.png" num="30">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/24.png" num="29">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -95,6 +95,24 @@ Apex — {3}{W}{W}: Put a +1/+1 counter on Deathzilla. (Activate only once. This
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
 				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elite Responder</name>
+			<text>Flying
+When Elite Responder dies, put a +1/+1 counter on a creature you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/25.png" num="30">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -127,6 +145,22 @@ Flying</text>
 				<maintype>Instant</maintype>
 				<manacost>1W</manacost>
 				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Titanic Turmoil</name>
+			<text>Destroy all creatures. Each player who controlled a monster destroyed this way creates a 5/5 green Beast creature token. (A monster is a creature with power, toughness, or mana value 5 or greater.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GNT-files/img/36.png" num="41">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
 			</prop>
@@ -193,7 +227,7 @@ Apex — {3}{U}{U}: Put a +1/+1 counter and a flying counter on Transdimensional
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Artifact Creature</type>
+				<type>Artifact Creature — Crocodile</type>
 				<maintype>Creature</maintype>
 				<manacost>2U/R</manacost>
 				<cmc>3</cmc>
@@ -222,10 +256,27 @@ Vigilance</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Fairly Secure Confinement</name>
+			<text>Enchant creature
+Enchanted creature loses all abilities and has base power and toughness 1/1 and &quot;Apex—{12}: Destroy all Auras attached to this creature.&quot; (Activate only once. This costs {X} less to activate, where X is the greatest mana value among permanents put into graveyards this turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/68.png" num="66">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
 			<name>Electroscopic Containment</name>
 			<text>Target creature&apos;s owner puts it on their choice of bottom of their library or into their library second from the top.
 Draw a card.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/69.png" num="66">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/69.png" num="65">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -256,7 +307,7 @@ Draw a card.</text>
 		</card>
 		<card>
 			<name>Gnawthrasher</name>
-			<text>({V} can be paid with 2 or with one mana from a nonland source. This card&apos;s mana value is 2.)
+			<text>({V} can be paid with {2} or with one mana from a nonland source. This card&apos;s mana value is 2.)
 Menace</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/93.png" num="102">GNT</set>
 			<prop>
@@ -276,7 +327,7 @@ Menace</text>
 			<name>Pleatherback</name>
 			<text>Deathtouch, lifelink
 Apex — {6}{B}: Put two +1/+1 counters on Pleatherback. (Activate only once. This costs {X} less to activate, where X is the greatest mana value among permanents put into graveyards this turn.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/94.png" num="105">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/94.png" num="106">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -287,6 +338,23 @@ Apex — {6}{B}: Put two +1/+1 counters on Pleatherback. (Activate only once. Th
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Licensed Professional</name>
+			<text>When Licensed Professional dies, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/95.png" num="103">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -358,6 +426,22 @@ Draw two cards. If the sacrificed creature was a monster, create two Treasure to
 			<tablerow>3</tablerow>
 		</card>
 		<card>
+			<name>Dubious Ethics</name>
+			<text>All creatures get -5/-5 until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GNT-files/img/116.png" num="100">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Slavering Yambag</name>
 			<text>When Slavering Yambag enters the battlefield, each player sacrifices a creature of their choice.
 Whenever a creature you control dies, add {B}. Until end of turn, you don&apos;t lose this mana as steps and phases end.</text>
@@ -394,6 +478,24 @@ When Ornery Volcanape enters the battlefield, if you control a monster, create a
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Wriggeeler</name>
+			<text>Haste
+When Wriggeeler enters the battlefield, creature a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/133.png" num="162">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Worm Fish</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Ascendant Scuttler</name>
 			<text>Affinity for Mountains (This spell costs {1} less to cast for each Mountain you control.)
 Haste</text>
@@ -415,7 +517,7 @@ Haste</text>
 			<name>Trod Upon</name>
 			<text>As an additional cost to cast Trod Upon, you may pay {V}{V}. ({V} can be paid with {2} or with one mana from a nonland source.)
 Trod Upon deals 2 damage to target creature, planeswalker, or battle. It deals 5 damage instead if the additional cost was paid.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/138.png" num="149">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/138.png" num="148">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -445,6 +547,23 @@ Trod Upon deals 2 damage to target creature, planeswalker, or battle. It deals 5
 				<coloridentity>WR</coloridentity>
 			</prop>
 			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lazarus Operative</name>
+			<text>{V}{V}{V}: Create a 3/3 red Dinosaur creature token. Activate only as a sorcery. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GNT-files/img/152.png" num="138">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Burnodactyl</name>
@@ -513,6 +632,39 @@ Target creature you control deals damage equal to its power to target creature o
 				<maintype>Instant</maintype>
 				<manacost>1G</manacost>
 				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bugazord Egg</name>
+			<text>Each monster you control enters the battlefield with an additional +1/+1 counter on it. (A monster is a creature with power, toughness, or mana value 5 or greater.)
+{T}: Add {G}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/177.png" num="164">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gigantic</name>
+			<text>Search your library for a creature card with mana value X or less, put it onto the battlefield with an additional X +1/+1 counters on it, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GNT-files/img/182.png" num="174">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XGGG</manacost>
+				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 			</prop>
@@ -887,7 +1039,7 @@ Whenever Technomechanicus or another creature you control with power 5 or greate
 		<card>
 			<name>Feline Ronin</name>
 			<text>When Feline Ronin enters the battlefield or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/232.png" num="244">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/232.png" num="243">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -896,6 +1048,21 @@ Whenever Technomechanicus or another creature you control with power 5 or greate
 				<manacost>2</manacost>
 				<cmc>2</cmc>
 				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mass-Produced Monster</name>
+			<text>Mass-Produced Monster can&apos;t be blocked by creatures with power 2 or less.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/233.png" num="245">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Dragon Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>5/5</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -934,7 +1101,7 @@ Apex — {10}, {T}: Destroy target nonland permanent. (Activate only once. This 
 			<name>Exobiological Remnant</name>
 			<text>{T}: Add one mana of any color.
 {V}{V}, {T}: Draw a card. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/236.png" num="243">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/236.png" num="242">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -949,7 +1116,7 @@ Apex — {10}, {T}: Destroy target nonland permanent. (Activate only once. This 
 			<name>Innocuous Device</name>
 			<text>When Innocuous Device enters the battlefield, you may search your library for a card with a basic land type, reveal it, then shuffle and put that card on top.
 {4}, {T}, Sacrifice Innocuous Device: Return target creature card from your graveyard to your hand.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/237.png" num="245">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/237.png" num="244">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1038,7 +1205,7 @@ Apex — {10}, {T}: Destroy target nonland permanent. (Activate only once. This 
 		<card>
 			<name>Saproling GNT</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/255.png" num="4">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/255.png" num="5">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1052,6 +1219,49 @@ Apex — {10}, {T}: Destroy target nonland permanent. (Activate only once. This 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
+		</card>
+		<card>
+			<name>GNT Draft Archetypes GNT</name>
+			<text>{W}{U} APEX CONTROL Get big. Sink your mana into game-changing apex abilities.
+{U}{B} APEX SACRIFICE The bigger they all, the more you take advantage of their fall.
+{B}{R} FOSSIL AGGRO Use nonland mana to race ahead of the curse aggressively.
+{R}{G} FOSSIL STOMPY Fossil mana fuels your beatdown as you outsize your foe.
+{G}{W} COUNTERS If big isn&apos;t big enough, +1/+1 counters can make it bigger.
+{W}{B} APEX GRIND Let your smaller creatures die to advance the mad science of your apex beasts.
+{B}{G} MONSTER TOUGHNESS Your monsters care specifically about toughness 5 or greater.
+{G}{U} FOSSIL RAMP Get big mana. Spend big mana. Fossil costs are a breeze with your varied mana sources.
+{U}{R} FOSSIL TEMPO Stay one step ahead of the game with cutting-edge mana sources saving you on costs.
+{R}{W} MONSTER POWER Big power. Bigger power, even. Power 5 and up is all you need.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/256.png" num="1">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Shipwrecker Spawn</name>
+			<text>Vigilance, ward {2}
+Apex — {X}{X}{U}: Draw X cards. (Activate only once. This costs {X} less to activate, where X is the greatest mana value among permanents put into graveyards this turn.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/GNT-files/img/257.png" num="75">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Kraken</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Chitinous Pummeler</name>
@@ -1093,7 +1303,7 @@ Apex — {7}{R}: Put three +1/+1 counters on Chitinous Pummeler. (Activate only 
 			<name>Hell&apos;s Shell</name>
 			<text>Apex — {8}{G}{G}: Put six +1/+1 counters on Hell&apos;s Shell. (Activate only once. This costs {X} less to activate, where X is the greatest mana value among permanents put into graveyards this turn.)
 Trample</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/260.png" num="174">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/260.png" num="175">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1110,7 +1320,7 @@ Trample</text>
 		<card>
 			<name>Beast GNT</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/261.png" num="3">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/261.png" num="4">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1163,7 +1373,7 @@ Trample</text>
 		<card>
 			<name>Treasure GNT</name>
 			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/264.png" num="5">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/264.png" num="6">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1339,7 +1549,7 @@ As Godless Shrine enters the battlefield, you may pay 2 life. If you don&apos;t,
 			<name>Deepsquirmer</name>
 			<text>({V} can be paid with {2} or with one mana from a nonland source. This card&apos;s mana value is 3.)
 Flying</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/275.png" num="65">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/275.png" num="64">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1357,7 +1567,7 @@ Flying</text>
 			<name>Studbasher</name>
 			<text>({V} can be paid with {2} or with one mana from a nonland source. This card&apos;s mana value is 3.)
 Haste</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/276.png" num="148">GNT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/276.png" num="147">GNT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1388,6 +1598,24 @@ Tyrannotyrant can&apos;t be blocked by creatures with power 2 or less.</text>
 				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dinosaur GNT</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/278.png" num="3">GNT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Dinosaur</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

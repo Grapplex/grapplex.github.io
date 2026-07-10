@@ -1,0 +1,23 @@
+<img src="https://grapplex.github.io/sets/GNT-files/logo.png" alt="Gigantic" width="450">
+
+**<p style="text-align: center;">Get big.</p>**
+
+The world of Puro is an isolated one, a small but advanced plane with a greater focus on technology than on magic. Life is not idyllic there, however, despite the success of its large zaibatsu megacorporations—for the average Puroresu salaryman, life is highly regimented, strict, and bound by narrow views of societal norms. So perhaps it was a blessing in disguise when The Incident shattered the rigid structure of their world.
+
+Inoki Genome, one of Puro's largest megacorps, was responsible for The Incident. Its research into genetic engineering, biotechnology, weapons development, and vending machines eventually lead to the creation of Big Particles, an unstable macroparticle capable of mutating anything they come into contact with. And they made a lot of contact. Now the seas surrounding Puro's islands roil with giant serpents, its mountains teem with lizard-apes, and its cities are routinely besieged by deathzillas and bugazords. Anything to break up the monotony of the salaryman.
+
+In the aftermath of their mistakes, Inoki Genome has been ordered by the Puro government to clean their act up. Deploying teams of crisis responders, and even fighting monsters with monsters, the megacorp is responding to each incursion rapidly—although as always, they are as eager to find a way to profit from the problem as they are to fix it. Everything can get bigger, even profit margins.
+
+**Gigantic** is a draftable premier set using Play Boosters, containing 271 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, 5 basic-rarity dual lands, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of SOME CARD, while all boosters have a chance of containing the Headliner  version of SOME OTHER CARD.
+
+###Mechanics
+
+<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/s9r3ztFp/booster.png "GNT booster"/>**Gigantic** features the following mechanics:
+
+**Apex:** Big is never big enough. Apex abilities are activated abilities that can be activated only once, representing creatures mutating into a higher form of bigness. The cost to activate an apex ability is reduced by the greatest mana value of among permanents put into graveyards during that turn—whether that means something sacrificed, destroyed, or put into a graveyard for any other reason. This will only reduce the generic portion of the cost, not any coloured mana requirements. Most apex abilities will grow the creature they're on but some may have other one-time effects.
+
+**Fossil mana:** Representing a primal kind of mana distinct from the world's leylines, fossil mana is a new mana symbol that represents a modal cost. Each fossil mana symbol can be paid with two mana of any kind, or with one mana from a nonland source—so mana dorks, Treasure tokens, ritual spells, and more will all pay for fossil costs. Fossil mana is not a colour nor a type of mana—effects that add "mana of any type" cannot add fossil mana, as the symbol is simply shorthand for a specific payment requirement. For the purposes of mana values, any cards with a fossil mana symbol in the cost see the symbol as one mana—meaning a cost of one fossil mana and one red man represents a mana value of 2.
+
+**Monsters:** The big boys are back in big town. The monster batch collates all creatures who have either mana value, power, or toughness five or greater—only one of these qualities is needed to be considered a monster, but a monster may have two or all three qualities too. As a batch, monsters are tracked by a number of different effects specific to the individual cards. 
+
+**Affinity:** Returning from *Mirrodin*, affinity is a cost reduction mechanic found on spells of any type. Affinity is always paired with a specific object to track, and reduces the spell's mana cost by 1 for each object of the specified type you control—so for example, Ancient Snapper has "affinity for Islands", costing 1 less for each Island you control. Cards in *Gigantic* will have different affinity abilities, so take care when deckbuilding to maximise your potential for discount. Affinity does not affect a card's mana value, only the cost to cast it, so affinity permanents will be especially useful for your apex abilities or for casting monsters ahead of schedule. 
