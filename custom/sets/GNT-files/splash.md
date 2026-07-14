@@ -8,7 +8,7 @@ Inoki Genome, one of Puro's largest megacorps, was responsible for The Incident.
 
 In the aftermath of their mistakes, Inoki Genome has been ordered by the Puro government to clean their act up. Deploying teams of crisis responders, and even fighting monsters with monsters, the megacorp is responding to each incursion rapidly—although as always, they are as eager to find a way to profit from the problem as they are to fix it. Everything can get bigger, even profit margins.
 
-**Gigantic** is a draftable premier set using Play Boosters, containing 271 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, 5 basic-rarity dual lands, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of SOME CARD, while all boosters have a chance of containing the Headliner  version of SOME OTHER CARD.
+**Gigantic** is a draftable premier set using Play Boosters, containing 271 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, 5 basic-rarity dual lands, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of SOME CARD, while all boosters have a chance of containing the Headliner toxic foil version of Powerbomb.
 
 ###Mechanics
 
