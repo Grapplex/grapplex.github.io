@@ -1,4 +1,103 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+
+
+Evangel of Mirth
+rules_text: When filter guy dies, you may pay {2}. If you do, draw a card.
+{2}, {T}: Add {G}{U}. => When Evangel of Mirth dies, you may pay {2}. If you do, draw a card.
+{2}, {T}: Add {G}{U}.
+
+Faithbound Confessor
+rules_text: When Faithbound Confessor enters the battlefield, create a Faith token attached to it. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i] => When Faithbound Confessor enters the battlefield, create a Faith token attached to it. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+
+Sacred Flock
+rules_text: Flying
+When Sacred Flock dies, create a Faith token attached to target creature you control. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i] => Flying
+When Sacred Flock dies, create a Faith token attached to target creature you control. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+
+Beacon of Hope
+rules_text: When Beacon of Hope enters the battlefield, create a 1/1 white Human creature token, then create a Faith token attached to it. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i] => When Beacon of Hope enters the battlefield, create a 1/1 white Human creature token, then create a Faith token attached to it. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+
+Backwater Inquisitor
+rules_text: When Backwater Inquisitor enters the battlefield, create a Faith token attached to each of up to two target creatures. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i] => When Backwater Inquisitor enters the battlefield, create a Faith token attached to each of up to two target creatures. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+
+Hold Resolute
+rules_text: Create a Faith token attached to target creature. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i]
+Draw a card. => Create a Faith token attached to target creature. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+Draw a card.
+
+Blessed Blade
+rules_text: Equipped creature has vigilance.
+Whenever Blessed Blade becomes attached to a creature, create a Faith token attached to that creature. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i]
+Equip {3} => Equipped creature has vigilance.
+Whenever Blessed Blade becomes attached to a creature, create a Faith token attached to that creature. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+Equip {3}
+
+The Eagle Provides
+rules_text: Create two 1/1 white Human creature tokens, then create a Faith token attached to one of them. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i] => Create two 1/1 white Human creature tokens, then create a Faith token attached to one of them. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+
+Ex Cathedra
+rules_text: When Ex Cathedra enters the battlefield, create a Faith token attached to each of up to two target creatures. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i]
+Enchanted creatures you control have lifelink. => When Ex Cathedra enters the battlefield, create a Faith token attached to each of up to two target creatures. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+Enchanted creatures you control have lifelink.
+
+Procession of Faith
+rules_text: Whenever an opponent casts a noncreature spell, create a Faith token attached to target creature you control. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i] => Whenever an opponent casts a noncreature spell, create a Faith token attached to target creature you control. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+
+Shadow of the Martyrs
+rules_text: Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. Create a Faith token attached to that creature. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i] => Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. Create a Faith token attached to that creature. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+
+Penitant's Crown
+rules_text: When Penitant's Crown enters the battlefield, create a Faith token attached to target creature. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i]
+Equipped creature gets +2/+0.
+Equip {3} => When Penitant's Crown enters the battlefield, create a Faith token attached to target creature. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+Equipped creature gets +2/+0.
+Equip {3}
+
+Shielded by Piety
+rules_text: Create two Faith tokens attached to target creature. [i](They're Auras with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i] => Create two Faith tokens attached to target creature. [i](They're Auras with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+
+Theonomarch's Chosen
+rules_text: Haste
+When Theonomarch's Chosen enters the battlefield, create two Faith tokens attached to it. [i](They're Auras with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i] => Haste
+When Theonomarch's Chosen enters the battlefield, create two Faith tokens attached to it. [i](They're Auras with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+
+Aspiring Martyr
+rules_text: Whenever another creature you control dies, create a Faith token attached to Aspiring Martyr. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i]
+Sacrifice Aspiring Martyr: It deals damage equal to its power to target player and you gain that much life. Activate only as a sorcery. => Whenever another creature you control dies, create a Faith token attached to Aspiring Martyr. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+Sacrifice Aspiring Martyr: It deals damage equal to its power to target player and you gain that much life. Activate only as a sorcery.
+
+Architecture of Piety
+rules_text: Whenever a nontoken creature you control attacks, if it isn't enchanted, create a Faith token attached to it. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i] => Whenever a nontoken creature you control attacks, if it isn't enchanted, create a Faith token attached to it. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+
+Hand of the Church
+rules_text: When Hand of the Church enters the battlefield, create a Faith token attached to it. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i]
+Auras attached to creatures you control have “Enchanted creature gets +1/+1.” => When Hand of the Church enters the battlefield, create a Faith token attached to it. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+Auras attached to creatures you control have “Enchanted creature gets +1/+1.”
+
+Ruthless Witchfinder
+rules_text: Haste
+When Ruthless Witchfinder deals combat damage to a player, that player may create a Faith token attached to a creature they control. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i] => Haste
+When Ruthless Witchfinder deals combat damage to a player, that player may create a Faith token attached to a creature they control. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+
+Zofiya Cek, Faith's Flame
+rules_text: Vigilance
+Whenever a nontoken creature you control dies, create a Faith token attached to each other creature you control. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i] => Vigilance
+Whenever a nontoken creature you control dies, create a Faith token attached to each other creature you control. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+
+Faith Renewed
+rules_text: At the beginning of combat on your turn, create a Faith token attached to target creature you control. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i] => At the beginning of combat on your turn, create a Faith token attached to target creature you control. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+
+Burning Miracle
+rules_text: Flying, haste
+When Burning Miracle enters the battlefield, create a Faith token attached to another target creature you control. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.” )[/i]
+Whenever an enchanted creature you control dies, you may return Burning Miracle from your graveyard to your hand. => Flying, haste
+When Burning Miracle enters the battlefield, create a Faith token attached to another target creature you control. [i](It's an Aura with “Enchanted creature gets +1/+1” and “When enchanted creature dies, create a tapped 1/1 white Human creature token.”)[/i]
+Whenever an enchanted creature you control dies, you may return Burning Miracle from your graveyard to your hand.
+
+
+VERSION 5 CHANGELOG
 ====================
 
 
