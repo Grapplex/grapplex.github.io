@@ -1,0 +1,209 @@
+<html>
+<head>
+    <title>RELEASE SCHEDULE</title>
+    <link rel="icon" type="image/x-icon" href="../../img/articles.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../resources/mana.css">
+    <link rel="stylesheet" href="../../resources/header.css">
+    <link rel="stylesheet" href="../../resources/card-text.css">
+</head>
+<script title="root">
+    const rootPath = "../..";
+</script>
+<style>
+    @font-face {
+        font-family: 'Beleren Small Caps';
+        src: url('../../resources/beleren-caps.ttf');
+    }
+    @font-face {
+        font-family: Beleren;
+        src: url('../../resources/beleren.ttf');
+    }
+    @font-face {
+        font-family: 'Gotham Narrow Black';
+        src: url('../../resources/gotham-narrow-black.otf');
+    }
+    @font-face {
+        font-family: 'Gotham Narrow Bold';
+        src: url('../../resources/gotham-narrow-bold.otf');
+    }
+    @font-face {
+        font-family: 'Gotham Narrow Medium';
+        src: url('../../resources/gotham-narrow-medium.otf');
+    }
+    body {
+        font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+        overscroll-behavior: none;
+        margin: 0px;
+        background-image: url('../../articles/Projects/Release%20Schedule/bg.png'); background-size: cover; background-attachment: fixed;
+    }
+    .article-container {
+        width: 80%;
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 40px;
+        background-color: rgba(255, 255, 255, 0.95);
+        border: 1px solid #d5d9d9;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .article-content img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+        object-fit: contain;
+        flex: 0 1 auto;
+        min-width: 0;
+    }
+    .article-content p.image-paragraph {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 80%;
+        margin: 20px auto;
+    }
+    /* Only hide BR tags that are immediately between images in a flex row */
+    .article-content p.image-paragraph img + br {
+        display: none;
+    }
+    h4 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: right;
+        width: 80%;
+        margin: -15px auto 30px auto;
+        color: #666;
+        font-style: italic;
+    }
+    h1, h2 {
+        margin: 0;
+    }
+    h1 {
+        font-family: "Gotham Narrow Bold", Arial, serif;
+        font-size: 36px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    h2 {
+        font-family: "Gotham Narrow Medium", Arial, serif;
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    p {
+        line-height: 1.6;
+        font-size: 16px;
+    }
+    hr {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border: 0;
+        border-top: 1px solid #d5d9d9;
+    }
+</style>
+<body>
+    <div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a id="header-articles-link" onclick="window.location.href = rootPath + '/all-articles'" style="display: none;"><img id="header-articles" class="sg-icon">Articles</a>
+			<a id="header-decks-link" onclick="window.location.href = rootPath + '/decks'" style="display: none;"><img id="header-decks" class="sg-icon">Decks</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deckbuilder" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-articles").src = rootPath + "/img/articles.png";
+			document.getElementById("header-decks").src = rootPath + "/img/deck.png";
+			document.getElementById("header-deckbuilder").src = rootPath + "/img/deckbuilder.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+
+			// Hide Articles if none exist
+			fetch(rootPath + '/all-articles.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-articles-link').style.display = 'flex';
+				}).catch(() => {});
+
+			// Hide Decks if none exist
+			fetch(rootPath + '/decks.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-decks-link').style.display = 'flex';
+				}).catch(() => {});
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+    <div class="article-container">
+        <div class="article-content">
+            <h1>Grappleverse set release schedule</h1>
+<hr />
+<p>The following table presents a chronological release schedule for all sets in the Grappleverse, along with accompanying information regarding the set structure, associated release block, et cetera. As is the case throughout the Hub, unfinished and unreleased sets are marked with a common expansion symbol, while finished and released sets are denoted with a mythic rare expansion symbol. Release years are provided as a reference point and the chronology of the table indicates release order, but no set is truly "finished" in that tweaks and polishes are still always possible, so this information represents only the initial stable release version.</p>
+<hr />
+<h2>Table</h2>
+<p class="image-paragraph"><img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/CYO-files/icon.png" alt="CYO"/></p>
+<p>| Icon      | Set name | Code | Block | Release year | Structure | Additional |<br />
+| :---:     |   :----  | :---:| :---  | :--- | :--- | :--- | :--- |<br />
+| <img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/TYT-files/icon.png" alt="TYT"/> | <a href="https://grapplex.github.io/previews/TYT"><strong><font color="#111111">Depths of Tytheus</font></strong></a> | TYT | | Qirauz Saga | 2024 | Play | |<br />
+| <img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/QYR-files/icon.png" alt="QYR"/> | <a href="https://grapplex.github.io/previews/QYR"><strong><font color="#111111">Dreams of Quyrash</font></strong></a> | QYR | | Qirauz Saga | 2022 | Draft | |<br />
+| <img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/GRU-files/icon.png" alt="GRU"/> | <a href="https://grapplex.github.io/previews/GRU"><strong><font color="#111111">Great Raid of Ulaith</font></strong></a> | GRU | |   | 2022 | Draft | |<br />
+| <img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/XSK-files/icon.png" alt="XSK"/> | <a href="https://grapplex.github.io/previews/XSK"><strong><font color="#111111">Experiments of Skand</font></strong></a> | XSK | |   | 2022 | Draft | |<br />
+| <img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/XCO-files/icon.png" alt="XCO"/> | <a href="https://grapplex.github.io/previews/XCO"><strong><font color="#111111">Skies over San Xalco</font></strong></a> | XCO | | Qirauz Saga | 2022 | Draft | |<br />
+| <img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/ELO-files/icon.png" alt="ELO"/> | <a href="https://grapplex.github.io/previews/ELO"><strong><font color="#111111">Eldraine: Sacred Oath</font></strong></a> | ELO | |  | 2022 | Draft | |<br />
+| <img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/SSF-files/icon.png" alt="SSF"/> | <a href="https://grapplex.github.io/previews/SSF"><strong><font color="#111111">Shamtar: Search for Fire</font></strong></a> | SSF | | Qirauz Saga | 2022 | Draft | |<br />
+| <img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/AKI-files/icon.png" alt="AKI"/> | <a href="https://grapplex.github.io/previews/AKI"><strong><font color="#111111">Akkadi: Empire's End</font></strong></a> | AKI | | Qirauz Saga | 2023 | Draft | |<br />
+| <img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/MHQ-files/icon.png" alt="MHQ"/> | <a href="https://grapplex.github.io/previews/MHQ"><strong><font color="#111111">Modern Horizons: Triumph of Qirauz</font></strong></a> | MHQ | | Qirauz Saga | 2023 | Draft | Nonstandard |</p>
+        </div>
+    </div>
+    <script>
+        document.getElementById("search").addEventListener("keypress", function(event) {
+          if (event.key === "Enter") {
+                event.preventDefault();
+                search();
+          }
+        });
+
+        function search() {
+            const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+            url.searchParams.append('search', document.getElementById("search").value);
+            window.location.href = url.pathname + url.search;
+        }
+
+        function randomCard() {
+            fetch(rootPath + '/lists/all-cards.json')
+                .then(response => response.json())
+                .then(data => {
+                    const cards = data.cards;
+                    const random_card = cards[Math.floor(Math.random() * cards.length)];
+                    const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+                    const params = {
+                        set: random_card.set,
+                        num: random_card.number,
+                        name: random_card.card_name
+                    }
+                    for (const key in params) {
+                        url.searchParams.append(key, params[key]);
+                    }
+                    window.location.href = url.pathname + url.search;
+                }).catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>
