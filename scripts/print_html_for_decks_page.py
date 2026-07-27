@@ -7,7 +7,7 @@ def generateHTML():
     with open(os.path.join('resources', 'site-config.json'), encoding='utf-8-sig') as f:
         config = json.load(f)
         base_url = config.get('base_url', '')
-        hub_name = base_url.split('https://')[1].split('.github.io')[0] if 'https://' in base_url else 'unknown'
+        hub_name = base_url.split('https://')[1].split('.github.io')[0].lower() if 'https://' in base_url else 'unknown'
 
     # Start creating the HTML file content
     html_content = f'''<html>
@@ -263,13 +263,6 @@ def generateHTML():
             </div>
             <select id="format-filter" onchange="handleFilterChange()">
                 <option value="">All Formats</option>
-                <option value="Standard">Standard</option>
-                <option value="Modern">Modern</option>
-                <option value="Legacy">Legacy</option>
-                <option value="Commander">Commander</option>
-                <option value="Pauper">Pauper</option>
-                <option value="Primordial">Primordial</option>
-                <option value="Other">Other</option>
             </select>
         </div>
         <div id="chip-container" class="chip-container"></div>
@@ -292,9 +285,11 @@ def generateHTML():
         let currentPage = 1;
         const itemsPerPage = 12;
         let cardLookup = {};
+        let cardLookupMap = new Map();
         let allCardsArray = [];
         let setConfigs = {};
         let selectedCards = [];
+        let specialchars = "";
 
         async function init() {
             // Show loading state
@@ -305,28 +300,137 @@ def generateHTML():
             // Load set configs to know naming conventions
             const setsResponse = await fetch('./lists/all-sets.json');
             const setsData = await setsResponse.json();
-            
-            for (const set of setsData.sets) {
+            sets_json = setsData; // Ensure sets_json is populated for the loops below
+'''
+
+    if os.path.exists(os.path.join('lists', 'external-hubs.txt')):
+        html_content += '''
+            try {
+                const hubResp = await fetch(rootPath + '/lists/external-hubs.txt');
+                if (hubResp.ok) {
+                    const hubsText = await hubResp.text();
+                    const hubURLs = hubsText.split(/\\r?\\n/).map(url => url.trim()).filter(url => url.length > 0);
+                    for (let url of hubURLs) {
+                        if (!url.startsWith('http')) {
+                            url = 'https://' + url;
+                        }
+                        try {
+                            const externalCardsResp = await fetch(url + '/lists/all-cards.json');
+                            if (externalCardsResp.ok) {
+                                const externalCardsJson = await externalCardsResp.json();
+                                externalCardsJson.cards.forEach(c => {
+                                    c.hubURL = url;
+                                    card_list_arrayified.push(c);
+                                });
+                            }
+                            const externalSetsResp = await fetch(url + '/lists/all-sets.json');
+                            if (externalSetsResp.ok) {
+                                const externalSetsJson = await externalSetsResp.json();
+                                externalSetsJson.sets.forEach(s => {
+                                    if (!sets_json.sets.some(existing => existing.set_code === s.set_code)) {
+                                        s.hubURL = url;
+                                        sets_json.sets.push(s);
+                                    }
+                                });
+                            }
+                        } catch (e) {
+                            console.error('Error fetching external hub:', url, e);
+                        }
+                    }
+                }
+            } catch (e) {
+                // No external hubs file or other error
+            }
+'''
+
+    html_content += '''
+            const setPromises = sets_json.sets.map(async (set) => {
                 try {
-                    const setConfResp = await fetch(`./sets/${set.set_code}-files/${set.set_code}.json`);
-                    setConfigs[set.set_code] = await setConfResp.json();
+                    const prefix = set.hubURL ? set.hubURL : ".";
+                    const setConfResp = await fetch(`${prefix}/sets/${set.set_code}-files/${set.set_code}.json`);
+                    const setConfig = await setConfResp.json();
+                    if (set.hubURL) {
+                        setConfig.hubURL = set.hubURL;
+                    }
+                    setConfigs[set.set_code] = setConfig;
                 } catch (e) {
                     console.error("Could not load config for set:", set.set_code);
                 }
-            }
+            });
+            await Promise.all(setPromises);
 
-            // Load card data for image lookup
-            const response = await fetch('./lists/all-cards.json');
-            const data = await response.json();
-            allCardsArray = data.cards;
-            data.cards.forEach(card => {
+            // Load formats dynamically
+            await fetch(rootPath + '/lists/formats.json')
+                .then(response => response.json())
+                .then(data => {
+                    const select = document.getElementById("format-filter");
+                    // Keep the first option (All Formats)
+                    const firstOption = select.options[0];
+                    select.innerHTML = '';
+                    select.appendChild(firstOption);
+                    
+                    data.formats.forEach(f => {
+                        const option = document.createElement("option");
+                        option.value = f;
+                        option.innerText = f;
+                        select.appendChild(option);
+                    });
+                }).catch(error => console.error('Error loading formats:', error));
+
+            // Initialize card data structures
+            allCardsArray = card_list_arrayified;
+            cardLookupMap.clear();
+            allCardsArray.forEach(card => {
+                const isToken = card.shape && card.shape.includes('token');
                 const key = `${card.set}-${card.number}`;
-                cardLookup[key] = card;
+                if (!cardLookup[key] || (!isToken && cardLookup[key].shape && cardLookup[key].shape.includes('token'))) {
+                    cardLookup[key] = card;
+                }
+                
+                if (!isToken) {
+                    const name = (card.card_name || "").trim().toLowerCase();
+                    cardLookupMap.set(`${card.set}:${card.number}`, card);
+                    cardLookupMap.set(`${card.set}:${name}`, card);
+                }
             });
 
             await fetchDecks();
         }
 
+        function getCardStats(item) {
+            const name = (item.name || item.card_name || "").trim().toLowerCase();
+            const num = item.num || item.number;
+            const set = item.set;
+
+            return cardLookupMap.get(`${set}:${num}`) || cardLookupMap.get(`${set}:${name}`);
+        }
+
+        document.addEventListener("DOMContentLoaded", async function () {
+'''
+
+    with open(os.path.join('scripts', 'snippets', 'load-files.txt'), encoding='utf-8-sig') as f:
+        html_content += f.read()
+
+    html_content += '''
+            init();
+        });
+
+        function goToSearch() {
+            window.location.href = rootPath + "/search?search=" + encodeURIComponent(document.getElementById("search").value);
+        }
+
+        document.getElementById("search").addEventListener("keypress", function(event) {
+            if (event.key === "Enter") {
+                event.preventDefault();
+                goToSearch();
+            }
+        });
+'''
+
+    with open(os.path.join('scripts', 'snippets', 'random-card.txt'), encoding='utf-8-sig') as f:
+        html_content += f.read()
+
+    html_content += '''
         async function fetchDecks() {
             const { data, error } = await _supabase
                 .from('decks')
@@ -448,7 +552,7 @@ def generateHTML():
                     const deckCards = (deck.mainboard || []).concat(deck.sideboard || []);
                     const deckCardNames = new Set();
                     deckCards.forEach(item => {
-                        const c = cardLookup[`${item.set}-${item.num}`];
+                        const c = getCardStats(item);
                         if (c) deckCardNames.add(c.card_name);
                     });
 
@@ -500,7 +604,8 @@ def generateHTML():
                         namePart = `${card.number}${connector}${card.card_name}${suffix}`;
                     }
                     
-                    imageUrl = `./sets/${card.set}-files/img/${namePart}.${imgType}`;
+                    const prefix = (setConf && setConf.hubURL) ? setConf.hubURL : ".";
+                    imageUrl = `${prefix}/sets/${card.set}-files/img/${namePart}.${imgType}`;
                 }
                 
                 const cardEl = document.createElement('a');
@@ -521,14 +626,14 @@ def generateHTML():
         }
 
         function getMostExpensiveCard(deck) {
-            const board = (deck.mainboard || []).concat(deck.sideboard || []);
+            const board = (deck.mainboard || []);
             if (board.length === 0) return null;
             
             let bestCard = null;
             let maxScore = -1;
 
             board.forEach(item => {
-                const card = cardLookup[`${item.set}-${item.num}`];
+                const card = getCardStats(item);
                 if (card) {
                     const mv = convertToMV(card.cost);
                     const rarities = { 'mythic': 4, 'rare': 3, 'uncommon': 2, 'common': 1, 'cube': 0 };
