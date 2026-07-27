@@ -9,7 +9,7 @@ The following table presents a chronological release schedule for all sets in th
 ## Table
 
 | Icon | Set name | Code | Block | Release year | Structure | Additional |
-| --- | ---- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | <img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/TYT-files/icon.png" alt="TYT"/> | [**<font color="#111111">Depths of Tytheus</font>**](https://grapplex.github.io/previews/TYT) | TYT | Qirauz Saga | 2024 | Play | |
 | <img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/QYR-files/icon.png" alt="QYR"/> | [**<font color="#111111">Dreams of Quyrash</font>**](https://grapplex.github.io/previews/QYR) | QYR | Qirauz Saga | 2022 | Draft | |
 | <img align="left" width="30" height="30" style="margin:2px" src="https://grapplex.github.io/sets/GRU-files/icon.png" alt="GRU"/> | [**<font color="#111111">Great Raid of Ulaith</font>**](https://grapplex.github.io/previews/GRU) | GRU |   | 2022 | Draft | |
