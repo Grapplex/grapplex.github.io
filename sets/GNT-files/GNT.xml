@@ -5,7 +5,7 @@
 			<name>GNT</name>
 			<longname>Gigantic</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-08-15</releasedate>
+			<releasedate>2026-08-23</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -156,7 +156,7 @@ Gokuaku, Primitive Isle enters the battlefield tapped.
 		</card>
 		<card>
 			<name>Shohei Inoki, Opportunist</name>
-			<text>Affinity for monsters (This spell costs {1} less to cast for each monster you control.)
+			<text>Affinity for monsters (This spell costs {1} less to cast for each creature you control with power, toughness, or mana value 5 or greater.)
 Monsters you control get +2/+2 and have trample and &quot;Whenever this creature attacks, you draw a card and you lose 1 life.&quot;</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GNT-files/img/8.png" num="213">GNT</set>
 			<prop>
@@ -338,7 +338,7 @@ At the beginning of your upkeep, create two 1/1 colorless Sliver creature tokens
 		</card>
 		<card>
 			<name>Bioblaster</name>
-			<text>({V} can be paid with {2} or with one mana from a nonland source. This card&apos;s mana value is 2.)
+			<text>({primal.png} can be paid with {2} or with one mana from a nonland source. This card&apos;s mana value is 2.)
 First strike</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/19.png" num="7">GNT</set>
 			<prop>
@@ -346,7 +346,7 @@ First strike</text>
 				<side>front</side>
 				<type>Creature — Mutant Construct</type>
 				<maintype>Creature</maintype>
-				<manacost>VW</manacost>
+				<manacost>p/r/i/m/a/l/./p/n/gW</manacost>
 				<cmc>2</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
@@ -550,7 +550,7 @@ Flying</text>
 		</card>
 		<card>
 			<name>Specimen Capture</name>
-			<text>Affinity for monsters (This spell costs {1} less to cast for each monster you control.)
+			<text>Affinity for monsters (This spell costs {1} less to cast for each creature you control with power, toughness, or mana value 5 or greater.)
 When Specimen Capture enters the battlefield, exile target nonland permanent an opponent controls until Specimen Capture leaves the battlefield.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/31.png" num="35">GNT</set>
 			<prop>
@@ -722,7 +722,7 @@ When Crisis Suit enters the battlefield, exile target creature an opponent contr
 		</card>
 		<card>
 			<name>Inoki Captor</name>
-			<text>When Inoki Captor enters the battlefield. look at target opponent&apos;s hand. You may exile a nonland card from it. For as long as that card remains exiled, its owner may play it. A spell cast this way costs {V} more to cast. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+			<text>When Inoki Captor enters the battlefield. look at target opponent&apos;s hand. You may exile a nonland card from it. For as long as that card remains exiled, its owner may play it. A spell cast this way costs {primal.png} more to cast. ({primal.png} can be paid with {2} or with one mana from a nonland source.)</text>
 			<set rarity="rare" picurl="https://grapplex.github.io/sets/GNT-files/img/41.png" num="17">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -1178,7 +1178,7 @@ Draw a card.</text>
 		</card>
 		<card>
 			<name>Colossal Discovery</name>
-			<text>Affinity for monsters (This spell costs {1} less to cast for each monster you control.)
+			<text>Affinity for monsters (This spell costs {1} less to cast for each creature you control with power, toughness, or mana value 5 or greater.)
 Draw two cards.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/67.png" num="48">GNT</set>
 			<prop>
@@ -1460,7 +1460,7 @@ Flying, vigilance</text>
 		</card>
 		<card>
 			<name>Doomscuttler</name>
-			<text>Affinity for monsters (This spell costs {1} less to cast for each monster you control.)
+			<text>Affinity for monsters (This spell costs {1} less to cast for each creature you control with power, toughness, or mana value 5 or greater.)
 When Doomscuttler enters the battlefield, if it was cast, draw three cards.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GNT-files/img/83.png" num="54">GNT</set>
 			<prop>
@@ -1580,7 +1580,7 @@ Apex — {8}: Put two +1/+1 counters on enchanted creature. (Activate only once.
 		</card>
 		<card>
 			<name>Bring Low</name>
-			<text>Counter target noncreature spell unless its controller pays {V}. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+			<text>Counter target noncreature spell unless its controller pays {primal.png}. ({primal.png} can be paid with {2} or with one mana from a nonland source.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GNT-files/img/90.png" num="45">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -1596,7 +1596,7 @@ Apex — {8}: Put two +1/+1 counters on enchanted creature. (Activate only once.
 		</card>
 		<card>
 			<name>It Came From the Sea</name>
-			<text>As an additional cost to cast It Came From the Sea, you may pay {V}. ({V} can be paid with {2} or with one mana from a nonland source.)
+			<text>As an additional cost to cast It Came From the Sea, you may pay {primal.png}. ({primal.png} can be paid with {2} or with one mana from a nonland source.)
 Return target nonland permanent to its owner&apos;s hand. If the additional cost was paid, draw a card.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GNT-files/img/91.png" num="62">GNT</set>
 			<prop>
@@ -1629,7 +1629,7 @@ Return target nonland permanent to its owner&apos;s hand. If the additional cost
 		</card>
 		<card>
 			<name>Gnawthrasher</name>
-			<text>({V} can be paid with {2} or with one mana from a nonland source. This card&apos;s mana value is 2.)
+			<text>({primal.png} can be paid with {2} or with one mana from a nonland source. This card&apos;s mana value is 2.)
 Menace</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/93.png" num="94">GNT</set>
 			<prop>
@@ -1637,7 +1637,7 @@ Menace</text>
 				<side>front</side>
 				<type>Creature — Dragon Hyena</type>
 				<maintype>Creature</maintype>
-				<manacost>VB</manacost>
+				<manacost>p/r/i/m/a/l/./p/n/gB</manacost>
 				<cmc>2</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
@@ -1683,7 +1683,7 @@ Apex — {6}{B}: Put two +1/+1 counters on Pleatherback. (Activate only once. Th
 		<card>
 			<name>Bosozuku Daredevil</name>
 			<text>Menace
-Whenever Bosozuku Daredevil attacks, you may pay {V}. If you do, it gains flying until end of turn. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+Whenever Bosozuku Daredevil attacks, you may pay {primal.png}. If you do, it gains flying until end of turn. ({primal.png} can be paid with {2} or with one mana from a nonland source.)</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/96.png" num="82">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -1700,7 +1700,7 @@ Whenever Bosozuku Daredevil attacks, you may pay {V}. If you do, it gains flying
 		</card>
 		<card>
 			<name>Siltstalker</name>
-			<text>{V}: Siltstalker gets +2/-1 until end of turn. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+			<text>{primal.png}: Siltstalker gets +2/-1 until end of turn. ({primal.png} can be paid with {2} or with one mana from a nonland source.)</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/97.png" num="108">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -1753,7 +1753,7 @@ When Knifewing Swarm enters the battlefield, each opponent loses 2 life and you 
 		</card>
 		<card>
 			<name>Roostersaurus</name>
-			<text>Affinity for monsters (This spell costs {1} less to cast for each monster you control.)
+			<text>Affinity for monsters (This spell costs {1} less to cast for each creature you control with power, toughness, or mana value 5 or greater.)
 Roostersaurus can&apos;t be blocked by creatures with power 2 or less.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/100.png" num="106">GNT</set>
 			<prop>
@@ -1838,7 +1838,7 @@ Draw two cards. If the sacrificed creature was a monster, create two Treasure to
 		</card>
 		<card>
 			<name>Primal Fear</name>
-			<text>As an additional cost to cast Primal Fear, you may pay {V}. ({V} can be paid with {2} or with one mana from a nonland source.)
+			<text>As an additional cost to cast Primal Fear, you may pay {primal.png}. ({primal.png} can be paid with {2} or with one mana from a nonland source.)
 Target player discards a card. If the additional cost was paid, instead that player reveals their hand, you choose a nonland card from it, then that player discards that card.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/105.png" num="104">GNT</set>
 			<prop>
@@ -1872,7 +1872,7 @@ Deadly Derision</name>
 		</card>
 		<card>
 			<name>Executive Sanction</name>
-			<text>Affinity for monsters (This spell costs {1} less to cast for each monster you control.)
+			<text>Affinity for monsters (This spell costs {1} less to cast for each creature you control with power, toughness, or mana value 5 or greater.)
 Destroy target creature. You gain 2 life.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/107.png" num="90">GNT</set>
 			<prop>
@@ -1979,7 +1979,7 @@ Whenever another creature enters the battlefield or dies, you lose 1 life and ad
 		<card>
 			<name>Quagmiser</name>
 			<text>Whenever you tap a Swamp for mana, add an additional {B}. (The additional mana is produced by the Quagmiser.)
-{V}{V}: Put a filth counter on target permanent. It becomes a Swamp land in addition to its other types. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+{primal.png}{primal.png}: Put a filth counter on target permanent. It becomes a Swamp land in addition to its other types. ({primal.png} can be paid with {2} or with one mana from a nonland source.)</text>
 			<set rarity="rare" picurl="https://grapplex.github.io/sets/GNT-files/img/113.png" num="105">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -2014,7 +2014,7 @@ Whenever Archnotronic Mastermind attacks, up to four target creatures each get -
 		</card>
 		<card>
 			<name>Confront Immensity</name>
-			<text>Affinity for monsters (This spell costs {1} less to cast for each monster you control.)
+			<text>Affinity for monsters (This spell costs {1} less to cast for each creature you control with power, toughness, or mana value 5 or greater.)
 Whenever a player loses life, you may draw that many cards. Do this only once each turn.</text>
 			<set rarity="rare" picurl="https://grapplex.github.io/sets/GNT-files/img/115.png" num="84">GNT</set>
 			<prop>
@@ -2082,7 +2082,7 @@ Creatures with flying have base toughness 1.</text>
 		</card>
 		<card>
 			<name>Inoki Vivisector</name>
-			<text>{T}, Sacrifice an artifact or creature: Add {B}{B}. Spend this mana only to cast monster spells or pay costs that contain {V}. (A monster is a creature with power, toughness, or mana value 5 or greater.)</text>
+			<text>{T}, Sacrifice an artifact or creature: Add {B}{B}. Spend this mana only to cast monster spells or pay costs that contain {primal.png}. (A monster is a creature with power, toughness, or mana value 5 or greater.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GNT-files/img/119.png" num="97">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -2118,7 +2118,7 @@ Whenever Flitterghoul deals combat damage to a player, you may sacrifice a creat
 		<card>
 			<name>Shadow Stomper</name>
 			<text>Menace
-{V}: Shadow Stomper gets +1/+1 until end of turn. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+{primal.png}: Shadow Stomper gets +1/+1 until end of turn. ({primal.png} can be paid with {2} or with one mana from a nonland source.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GNT-files/img/121.png" num="107">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -2239,7 +2239,7 @@ When enchanted creature is dealt damage, destroy it.</text>
 		</card>
 		<card>
 			<name>Feeding Time</name>
-			<text>As an additional cost to cast Feeding Time, you may pay ({V} can be paid with {2} or with one mana from a nonland source.)
+			<text>As an additional cost to cast Feeding Time, you may pay ({primal.png} can be paid with {2} or with one mana from a nonland source.)
 All creatures get -2/-2 until end of turn. If the additional cost was paid, instead all creatures get -3/-3 until end of turn.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GNT-files/img/128.png" num="92">GNT</set>
 			<prop>
@@ -2413,7 +2413,7 @@ Haste</text>
 		</card>
 		<card>
 			<name>Trod Upon</name>
-			<text>As an additional cost to cast Trod Upon, you may pay {V}{V}. ({V} can be paid with {2} or with one mana from a nonland source.)
+			<text>As an additional cost to cast Trod Upon, you may pay {primal.png}{primal.png}. ({primal.png} can be paid with {2} or with one mana from a nonland source.)
 Trod Upon deals 2 damage to target creature, planeswalker, or battle. It deals 5 damage instead if the additional cost was paid.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/138.png" num="147">GNT</set>
 			<prop>
@@ -2497,7 +2497,7 @@ Draw two cards. If the discarded card wasn&apos;t a land card, create a Treasure
 		</card>
 		<card>
 			<name>Atmospheric Crashout</name>
-			<text>Affinity for monsters (This spell costs {1} less to cast for each monster you control.)
+			<text>Affinity for monsters (This spell costs {1} less to cast for each creature you control with power, toughness, or mana value 5 or greater.)
 Atmospheric Crashout deals 6 damage to target creature, planeswalker, or battle.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/143.png" num="116">GNT</set>
 			<prop>
@@ -2653,7 +2653,7 @@ If a triggered ability of a monster you control triggers, that ability triggers 
 		</card>
 		<card>
 			<name>Lazarus Operative</name>
-			<text>{V}{V}{V}: Create a 5/5 red Dinosaur creature token. Activate only as a sorcery. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+			<text>{primal.png}{primal.png}{primal.png}: Create a 5/5 red Dinosaur creature token. Activate only as a sorcery. ({primal.png} can be paid with {2} or with one mana from a nonland source.)</text>
 			<set rarity="rare" picurl="https://grapplex.github.io/sets/GNT-files/img/152.png" num="139">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -2689,7 +2689,7 @@ Each other creature you control with power 5 or greater has menace.</text>
 		<card>
 			<name>Experimental Exosuit</name>
 			<text>At the beginning of your first main phase, add {R}{R}.
-{V}{V}: Experimental Exosuit becomes an artifact creature until end of turn. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+{primal.png}{primal.png}: Experimental Exosuit becomes an artifact creature until end of turn. ({primal.png} can be paid with {2} or with one mana from a nonland source.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GNT-files/img/154.png" num="128">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -2707,7 +2707,7 @@ Each other creature you control with power 5 or greater has menace.</text>
 		<card>
 			<name>Rescue Chopper</name>
 			<text>When Rescue Chopper enters the battlefield, create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
-{V}: Rescue Chopper becomes an artifact creature with flying until end of turn. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+{primal.png}: Rescue Chopper becomes an artifact creature with flying until end of turn. ({primal.png} can be paid with {2} or with one mana from a nonland source.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GNT-files/img/155.png" num="70">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -2827,7 +2827,7 @@ Apex — {7}{R}: Put two +1/+1 counters on Burnodactyl. (Activate only once. Thi
 		</card>
 		<card>
 			<name>Awaken the Egg</name>
-			<text>As an additional cost to cast Awaken the Egg, sacrifice a creature or pay {V}. ({V} can be paid with {2} or with one mana from a nonland source.)
+			<text>As an additional cost to cast Awaken the Egg, sacrifice a creature or pay {primal.png}. ({primal.png} can be paid with {2} or with one mana from a nonland source.)
 Exile the top two cards of your library. Until the end of your next turn, you may play those cards.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GNT-files/img/162.png" num="118">GNT</set>
 			<prop>
@@ -2961,7 +2961,7 @@ Apex — {7}{G}: Put two +1/+1 counters on Dragodile. (Activate only once. This 
 		</card>
 		<card>
 			<name>Spinotherium</name>
-			<text>Affinity for monsters (This spell costs {1} less to cast for each monster you control.)
+			<text>Affinity for monsters (This spell costs {1} less to cast for each creature you control with power, toughness, or mana value 5 or greater.)
 Vigilance</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/170.png" num="181">GNT</set>
 			<prop>
@@ -3015,7 +3015,7 @@ Trample</text>
 		</card>
 		<card>
 			<name>Plated Goliath</name>
-			<text>Affinity for monsters (This spell costs {1} less to cast for each monster you control.)
+			<text>Affinity for monsters (This spell costs {1} less to cast for each creature you control with power, toughness, or mana value 5 or greater.)
 Trample</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/173.png" num="234">GNT</set>
 			<prop>
@@ -3134,7 +3134,7 @@ Target creature gets +4/+4 until end of turn.</text>
 		</card>
 		<card>
 			<name>Alpha Deathzilla</name>
-			<text>Ward {V}{V} ({V} can be paid with {2} or with one mana from a nonland source.)
+			<text>Ward {primal.png}{primal.png} ({primal.png} can be paid with {2} or with one mana from a nonland source.)
 You may have creatures you control enter the battlefield as a copy of Alpha Deathzilla.
 Whenever a creature named Alpha Deathzilla enters the battlefield under your control, draw a card.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/GNT-files/img/180.png" num="40">GNT</set>
@@ -3662,7 +3662,7 @@ Whenever a creature you control dies, you gain 1 life and create a Treasure toke
 		</card>
 		<card>
 			<name>Impending Emergence</name>
-			<text>Once during each of your turns, you may cast an instant or sorcery spell from your hand by paying {V}{V}{V} instead of its mana cost. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+			<text>Once during each of your turns, you may cast an instant or sorcery spell from your hand by paying {primal.png}{primal.png}{primal.png} instead of its mana cost. ({primal.png} can be paid with {2} or with one mana from a nonland source.)</text>
 			<set rarity="rare" picurl="https://grapplex.github.io/sets/GNT-files/img/211.png" num="206">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -3818,7 +3818,7 @@ Apex — {6}{G}{W}: Put two +1/+1 counters on each creature you control. (Activa
 		<card>
 			<name>Specimen Wrangler</name>
 			<text>Whenever Specimen Wrangler deals combat damage to a player, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
-{V}: Specimen Wrangler can&apos;t be blocked this turn. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+{primal.png}: Specimen Wrangler can&apos;t be blocked this turn. ({primal.png} can be paid with {2} or with one mana from a nonland source.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GNT-files/img/220.png" num="208">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -3888,7 +3888,7 @@ Apex — {10}: Put three +1/+1 counters on Basal Churner. The next apex ability 
 		</card>
 		<card>
 			<name>Chitinous Skulker</name>
-			<text>As an additional cost to cast Chitinous Skulker, pay {V}{V}. ({V} can be paid with {2} or with one mana from a nonland source.)
+			<text>As an additional cost to cast Chitinous Skulker, pay {primal.png}{primal.png}. ({primal.png} can be paid with {2} or with one mana from a nonland source.)
 Chitinous Skulker can&apos;t be blocked except by monsters. (Monsters are creatures with power, toughness, or mana value 5 or greater.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GNT-files/img/224.png" num="195">GNT</set>
 			<prop>
@@ -3975,7 +3975,7 @@ Whenever you put one or more +1/+1 counters on a creature, you may create that m
 		</card>
 		<card>
 			<name>Inoki Operative</name>
-			<text>{V}{V}{V}: Draw a card. You may put a land card from your hand onto the battlefield. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+			<text>{primal.png}{primal.png}{primal.png}: Draw a card. You may put a land card from your hand onto the battlefield. ({primal.png} can be paid with {2} or with one mana from a nonland source.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GNT-files/img/229.png" num="220">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -4090,7 +4090,7 @@ Apex — {10}, {T}: Destroy target nonland permanent. (Activate only once. This 
 		<card>
 			<name>Exobiological Remnant</name>
 			<text>{T}: Add one mana of any color.
-{V}{V}, {T}: Draw a card. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+{primal.png}{primal.png}, {T}: Draw a card. ({primal.png} can be paid with {2} or with one mana from a nonland source.)</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/236.png" num="241">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -4121,7 +4121,7 @@ Apex — {10}, {T}: Destroy target nonland permanent. (Activate only once. This 
 		</card>
 		<card>
 			<name>Electronin</name>
-			<text>{T}: Add {C}. Spend this mana only to cast a creature spell, activate an ability of a creature, or on costs that contain {V}.</text>
+			<text>{T}: Add {C}. Spend this mana only to cast a creature spell, activate an ability of a creature, or on costs that contain {primal.png}.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/GNT-files/img/238.png" num="240">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -4459,7 +4459,7 @@ Apex — {7}{R}: Put three +1/+1 counters on Chitinous Pummeler. (Activate only 
 		<card>
 			<name>Territorial Orcasaur</name>
 			<text>When Territorial Orcasaur enters the battlefield, draw a card.
-{2}{V}: Put a +1/+1 counter on Territorial Orcasaur. ({V} can be paid with {2} or with one mana from a nonland source.)</text>
+{2}{primal.png}: Put a +1/+1 counter on Territorial Orcasaur. ({primal.png} can be paid with {2} or with one mana from a nonland source.)</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/259.png" num="236">GNT</set>
 			<prop>
 				<layout>normal</layout>
@@ -4722,7 +4722,7 @@ As Godless Shrine enters the battlefield, you may pay 2 life. If you don&apos;t,
 		</card>
 		<card>
 			<name>Deepsquirmer</name>
-			<text>({V} can be paid with {2} or with one mana from a nonland source. This card&apos;s mana value is 3.)
+			<text>({primal.png} can be paid with {2} or with one mana from a nonland source. This card&apos;s mana value is 3.)
 Flying</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/275.png" num="52">GNT</set>
 			<prop>
@@ -4730,7 +4730,7 @@ Flying</text>
 				<side>front</side>
 				<type>Creature — Jellyfish Insect</type>
 				<maintype>Creature</maintype>
-				<manacost>1VU</manacost>
+				<manacost>1p/r/i/m/a/l/./p/n/gU</manacost>
 				<cmc>3</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
@@ -4740,7 +4740,7 @@ Flying</text>
 		</card>
 		<card>
 			<name>Studbasher</name>
-			<text>({V} can be paid with {2} or with one mana from a nonland source. This card&apos;s mana value is 3.)
+			<text>({primal.png} can be paid with {2} or with one mana from a nonland source. This card&apos;s mana value is 3.)
 Haste</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/276.png" num="146">GNT</set>
 			<prop>
@@ -4748,7 +4748,7 @@ Haste</text>
 				<side>front</side>
 				<type>Creature — Rhino Golem</type>
 				<maintype>Creature</maintype>
-				<manacost>1VR</manacost>
+				<manacost>1p/r/i/m/a/l/./p/n/gR</manacost>
 				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
@@ -4758,7 +4758,7 @@ Haste</text>
 		</card>
 		<card>
 			<name>Snapraptor</name>
-			<text>({V} can be paid with {2} or with one mana from a nonland source. This card&apos;s mana value is 2.)
+			<text>({primal.png} can be paid with {2} or with one mana from a nonland source. This card&apos;s mana value is 2.)
 Snapraptor can&apos;t be blocked by creatures with power 2 or less.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/GNT-files/img/277.png" num="180">GNT</set>
 			<prop>
@@ -4766,7 +4766,7 @@ Snapraptor can&apos;t be blocked by creatures with power 2 or less.</text>
 				<side>front</side>
 				<type>Creature — Dinosaur Mutant</type>
 				<maintype>Creature</maintype>
-				<manacost>VG</manacost>
+				<manacost>p/r/i/m/a/l/./p/n/gG</manacost>
 				<cmc>2</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
