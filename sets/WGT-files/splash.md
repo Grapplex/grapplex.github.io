@@ -8,7 +8,7 @@ As understanding of planar geography grew, ancient legends of a third continent 
 
 But the pole is not an empty expanse of ice. Something stirs here. Warming climes, the insidious thrum of machinery, and the scent of prey in the air—all this and more is awakening something ancient. Amid the deafening polar winds and the bass crescendo of shearing ice, one question still lingers in the cold air: What goes there?
 
-**What Goes There?** is a draftable premier set using Play Boosters, containing 266 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of SOME CARD, while all boosters have a chance of containing the Headliner  version of SOME OTHER CARD.
+**What Goes There?** is a draftable premier set using Play Boosters, containing 266 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of In Stranger Eons, while all boosters have a chance of containing the Headliner ice foil version of Frozen Stargod.
 
 ###Mechanics
 
