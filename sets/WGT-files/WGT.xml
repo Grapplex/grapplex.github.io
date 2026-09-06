@@ -5,14 +5,3670 @@
 			<name>WGT</name>
 			<longname>What Goes There?</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-07-10</releasedate>
+			<releasedate>2026-09-06</releasedate>
 		</set>
 	</sets>
 	<cards>
 		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/0.png" num="262">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/1.png" num="263">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/2.png" num="264">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/3.png" num="265">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/4.png" num="266">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Trapped Under Ice</name>
+			<text>Creatures your opponents control get -1/-0.
+Thaw {3}{U}{U} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/5.png" num="79">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Awoken Stargod</name>
+			<text>Nonsnow creatures have base power and toughness 1/1.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/6.png" num="211">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3WB</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>What Goes There?</name>
+			<text>(As this enters, choose an opponent to protect it. You can attack it.)
+When What Goes There? enters the battlefield, search your library for a creature card, exile it, then shuffle.
+When What Goes There? is defeated, create X tokens that are copies of the exiled card, where X is the number of creatures you control.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/7.png" num="227">WGT</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Conflict</type>
+				<maintype>Battle</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<loyalty>6</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Altar of Dementia</name>
+			<text>Sacrifice a creature: Target player mills cards equal to the sacrificed creature&apos;s power.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/8.png" num="241">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Depth Charge</name>
+			<text>Whenever you discard a card, put a blast counter on Depth Charge.
+{1}, {T}: Draw a card, then discard a card.
+{T}, Exile Depth Charge: Exile each nonland permanent with mana value less than or equal to the number of blast counters on Depth Charge.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/9.png" num="194">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Althus Biotracker // Deathsprout</name>
+			<text>When Althus Biotracker enters the battlefield, return target card from your graveyard to your hand.
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Destroy target creature. Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/10.png" num="228">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>BRG // 1BBG</manacost>
+				<cmc>3</cmc>
+				<colors>BRG</colors>
+				<coloridentity>BRG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Teqeli Exemplar</name>
+			<text>({S} can be paid with one mana from a snow source.)
+Flying, trample
+Ward—Sacrifice a land.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/11.png" num="11">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2SS</manacost>
+				<cmc>4</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crucible of Worlds</name>
+			<text>You may play lands from your graveyard.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/12.png" num="244">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Time&apos;s Eye</name>
+			<text>Time&apos;s Eye enters the battlefield tapped with three stun counters on it.
+When Time&apos;s Eye becomes the target of an ability, sacrifice it.
+{T}: Take an extra turn after this one. Exile Time&apos;s Eye. Return it to the battlefield under its owner&apos;s control at the beginning of your next turn.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/13.png" num="251">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Snow Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Childers, Stargod Cultist</name>
+			<text>Costs of face-down cards you pay cost {1} less.
+Permanent cards in your hand have thaw. The thaw cost is equal to its mana cost. (You may play them face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/14.png" num="223">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>In Stranger Eons</name>
+			<text>You may pay six {S} rather than pay In Stranger Eons&apos;s mana cost. ({S} can be paid with one mana from a snow source.)
+Turn each nonland permanent your opponents control face down. They&apos;re colorless snow lands with &quot;{T}: Add {C}.&quot;</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/15.png" num="229">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WBR</manacost>
+				<cmc>6</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Arcane Vortex</name>
+			<text>Players can&apos;t untap more than two snow permanents during their untap steps.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/16.png" num="243">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Untouched Wilds</name>
+			<text>As Untouched Wilds enters the battlefield, choose a basic land type. Then you may pay 2 life. If you don&apos;t, it enters the battlefield tapped.
+Untouched Wilds is the chosen type.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/17.png" num="260">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Midnight Sun</name>
+			<text>({S} can be paid with one mana from a snow source.)
+Snow spells you cast cost {1} less to cast.
+Snow creatures you control get +1/+1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/18.png" num="7">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1S</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Frozen Stargod</name>
+			<text>({S} can be paid with one mana from a snow source.)
+You have no maximum hand size.
+At the beginning of your end step, if you have fewer cards in hand than the number of snow permanents you control, draw cards equal to the difference.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/19.png" num="6">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5SS</manacost>
+				<cmc>7</cmc>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Doomed Descent</name>
+			<text>({S} can be paid with one mana from a snow source.)
+Exile target nonland permanent with mana value less than or equal to the number of snow permanents you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/20.png" num="3">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1S</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stratotyrant</name>
+			<text>Flying
+Stratotyrant&apos;s power and toughness are each equal to the number of differently named lands you control plus the number of snow lands you control. (Thawed lands have no name.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/21.png" num="10">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Impact Crater</name>
+			<text>{T}: Add {C}.
+{X}{S}, {T}: Target creature you control gets +X/+0 until end of turn. If X is 5 or more, that creature gains double strike until end of turn. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/22.png" num="256">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Surveyor Colossus</name>
+			<text>Trample
+{1}, {T}, Discard a card: Create a tapped colorless snow land token named World&apos;s End that is all basic land types.
+Crew 3</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/23.png" num="250">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Pillars of Antiquity</name>
+			<text>Whenever a snow permanent enters the battlefield, you may have Pillars of Antiquity become a copy of that permanent until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/24.png" num="248">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Adaptive Saboteur</name>
+			<text>During your turn, Adaptive Saboteur has first strike.
+{2}, Sacrifice Adaptive Saboteur: Destroy target noncreature artifact or noncreature enchantment.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/25.png" num="14">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Altitude Jumper // Expedition Map</name>
+			<text>Flying, lifelink
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+{2}, {T}, Sacrifice Expedition Map: Search your library for a land card, reveal it, put it into your hand, then shuffle.
+
+---
+
+{2}, {T}, Sacrifice Expedition Map: Search your library for a land card, reveal it, put it into your hand, then shuffle.
+{2}, {T}, Sacrifice Expedition Map: Search your library for a land card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/26.png" num="16">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Pilot // Artifact</type>
+				<maintype>Creature</maintype>
+				<manacost>1W // 1</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Forward Expedition</name>
+			<text>Whenever Forward Expedition attacks, other creatures you control get +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/27.png" num="238">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1R/W</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chasm Descender</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it. If a permanent with a stun counter would become untapped, remove one from it instead.)
+Whenever Chasm Descender endeavors, target creature you control gets +1/+1 and gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/28.png" num="19">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dig Site Theorist</name>
+			<text>Landfall — Whenever a land enters the battlefield under your control, Dig Site Theorist gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/29.png" num="26">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hapless Researcher</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it. If a permanent with a stun counter would become untapped, remove one from it instead.)
+Whenever Hapless Researcher endeavors, creatures you control get +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/30.png" num="33">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Summit Claimant</name>
+			<text>When Summit Claimant enters the battlefield or dies, you may tap or untap target creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/31.png" num="47">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rescue Party</name>
+			<text>When Rescue Party enters the battlefield, you may return another target nonland permanent you control to its owner&apos;s hand. If you do, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/32.png" num="42">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grim Cetacean</name>
+			<text>Vigilance
+Whenever Grim Cetacean attacks, you may untap another target creature you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/33.png" num="32">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Whale</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Plasmatic Sentinel</name>
+			<text>Vigilance
+Thaw {3}{W}{W} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/34.png" num="40">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cargo Transporter</name>
+			<text>Flying, vigilance
+Landfall — As long as a land entered the battlefield under your control this turn, Cargo Transporter is an artifact creature.
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/35.png" num="18">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Expel</name>
+			<text>Exile target tapped creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/36.png" num="28">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Extraction Chopper</name>
+			<text>Flying
+When Extraction Chopper enters the battlefield, exile target creature an opponent controls until Extraction Chopper leaves the battlefield.
+Crew 1</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/37.png" num="29">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Midnight Warning</name>
+			<text>Target creature gets +1/+0 and gains shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/38.png" num="39">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Indomitable Nature</name>
+			<text>Destroy target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/39.png" num="234">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G/W</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Revelatory Trauma</name>
+			<text>Creatures you control get +1/+1.
+Gravestorm (When you cast this spell, copy it for each permanent put into a graveyard from the battlefield this turn. Copies become tokens.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/40.png" num="44">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Brink of Eternity</name>
+			<text>Choose one —
+• Creatures you control gain vigilance until end of turn. After this main phase, there is an additional combat phase followed by an additional main phase.
+• Destroy all nonland permanents.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/41.png" num="17">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WWW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Under a Pall of Ice</name>
+			<text>Choose one —
+• Destroy all snow permanents.
+• Destroy all nonsnow, nonland permanents.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/42.png" num="48">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WWW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cryptic Guardian</name>
+			<text>Flying, vigilance
+{1}{S}: Until end of turn, target snow creature gets +1/+1 and gains &quot;When this creature dies, return it to the battlefield under its owner&apos;s control.&quot;</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/43.png" num="23">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Formless End</name>
+			<text>Exile target nonland permanent with mana value X or less. If its mana value was less than the amount of {S} spent to cast Formless End, create a token that&apos;s a copy of it. ({S} is mana from a snow source.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/44.png" num="31">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XW</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Althus Requisitioner</name>
+			<text>First strike
+Endeavor (Whenever this becomes tapped, you may put a stun counter on it.)
+Whenever Althus Requisitioner endeavors, you may return target artifact or enchantment from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/45.png" num="15">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crisis of Faith</name>
+			<text>Destroy target nonland permanent with mana value 1 or less.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/46.png" num="21">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Signal Modulator</name>
+			<text>Your opponents can&apos;t cast spells from anywhere other than their hands.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/47.png" num="45">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Evacuation Team // Comply</name>
+			<text>Flash
+When Evacuation Team enters the battlefield, target creature gains shielded until end of turn. (Prevent all damage that would be dealt to it.)
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Choose a card name. Until your next turn, your opponents can&apos;t cast spells with the chosen name.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/48.png" num="27">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Scout // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>1W // W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Resplendent Starspawn</name>
+			<text>Flying, vigilance</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/49.png" num="43">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hazard Relay</name>
+			<text>Vigilance
+{1}{W}: Untap target creature. Activate only as a sorcery and only once each turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/50.png" num="35">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hardy Engineer</name>
+			<text>When Hardy Engineer enters the battlefield, create a 3/3 colorless Vehicle artifact token with crew 1.
+Endeavor (Whenever this becomes tapped, you may put a stun counter on it.)
+Whenever Hardy Engineer endeavors, any number of target vehicles you control become artifact creatures until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/51.png" num="34">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Floe Navigator</name>
+			<text>Landfall — Whenever a land enters the battlefield under your control, put a +1/+1 counter on Floe Navigator.
+Whenever Floe Navigator attacks, you may return a permanent you control to its owner&apos;s hand.
+Crew 2</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/52.png" num="30">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cryptic Entangler</name>
+			<text>Whenever Cryptic Entangler attacks, you may pay {2}{W}. If you tap target creature defending player controls. If {S}{S} was spent this way, put a stun counter on that creature. (If a permanent with a stun counter would become untapped, remove one from it instead. {S} is mana from a snow source.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/53.png" num="22">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Squid</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Daring Geologist // Flicker</name>
+			<text>During your turn, Daring Geologist has first strike.
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Exile target nontoken permanent, then return it to the battlefield under its owner&apos;s control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/54.png" num="24">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>1W // 1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Intrepid Outrider</name>
+			<text>Landfall — Whenever a land enters the battlefield under your control, Intrepid Outrider gets +2/+2 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/55.png" num="37">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Snowblind Loner</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it.)
+Whenever Snowblind Loner endeavors, exile another target creature. Return that card to the battlefield under its owner&apos;s control at the beginning of the next end step.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/56.png" num="46">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Recovery Climber</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it.)
+Whenever Recovery Climber endeavors, return target creature card with mana value 2 or less from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/57.png" num="109">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Voorman Trekker // Snow Prowler</name>
+			<text>Vigilance
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Create a 3/3 colorless Vehicle artifact token with crew 1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/58.png" num="49">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>1W // 2</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Difficult Navigation</name>
+			<text>Target creature you control gains double strike until end of turn. If it&apos;s snow, put a +1/+1 counter on it.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/59.png" num="25">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Limits of Endurance</name>
+			<text>As an additional cost to cast The Limits of Endurance, sacrifice a nonland permanent.
+Until end of turn, creatures you control get +2/+2 and gain vigilance and shielded from snow (Prevent all damage that would be dealt to them this turn by snow sources.) (Prevent all damage that would be dealt to it by snow sources.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/60.png" num="38">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Into the Light</name>
+			<text>Landfall — Into the Light costs {1} less to cast as long as you had a land enter the battlefield under your control this turn.
+Destroy target nonland permanent. Its controller creates a 1/1 black Horror snow creature token with menace.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/61.png" num="36">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Reconnaissance Craft</name>
+			<text>Flying, vigilance
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/62.png" num="41">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cautious Cartographer // Expedition Map</name>
+			<text>Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+{2}, {T}, Sacrifice Expedition Map: Search your library for a land card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/63.png" num="54">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Scout // Artifact</type>
+				<maintype>Creature</maintype>
+				<manacost>1U // 1</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unstable Formstealer</name>
+			<text>Reach
+{T}: Add {R} or {G}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/64.png" num="233">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1R/G</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Slithering Spawn</name>
+			<text>Slithering Spawn can&apos;t be blocked.
+Thaw {4}{U} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/65.png" num="69">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pallid Auk</name>
+			<text>Flying
+Whenever Pallid Auk enters the battlefield, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/66.png" num="65">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Teqeli Neophyte</name>
+			<text>Flying
+Teqeli Neophyte enters the battlefield with a +1/+1 counter on it if {S}{S} was spent to cast it. ({S} is mana from a snow source.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/67.png" num="76">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Althus Daredevil</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it. If a permanent with a stun counter would become untapped, remove one from it instead.)
+Whenever Althus Daredevil endeavors, it can&apos;t be blocked this turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/68.png" num="50">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rising Purity</name>
+			<text>Vigilance
+Rising Purity enters the battlefield with a flying counter on it if {S}{S}{S} was spent to cast it. ({S} can be paid with one mana from a snow source.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/69.png" num="67">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Starspawn Goliath</name>
+			<text>Starspawn Goliath can&apos;t be blocked except by snow creatures.
+Thaw {7}{U} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/70.png" num="72">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frozen in Time</name>
+			<text>Target permanent you control gains hexproof from the color of your choice until end of turn.
+Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/71.png" num="230">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W/U</manacost>
+				<cmc>1</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>What Came Before</name>
+			<text>Counter target spell. If it&apos;s your turn, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/72.png" num="85">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Strategic Planning</name>
+			<text>Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/73.png" num="73">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Uncover</name>
+			<text>Surveil 2, then draw two cards. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/74.png" num="80">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Buried by Time</name>
+			<text>Enchant permanent
+Enchanted permanent is a colorless snow land with &quot;{T}: Add {C}&quot; and loses all other card types and abilities.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/75.png" num="53">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Stark Isolation</name>
+			<text>Target creature&apos;s owner puts it on their choice of bottom of their library or into their library second from the top.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/76.png" num="70">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fateful Discovery</name>
+			<text>Whenever an artifact enters the battlefield under your control, draw a card.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/77.png" num="61">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Morbid Encounter</name>
+			<text>Create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)
+Gravestorm (When you cast this spell, copy it for each permanent put into a graveyard from the battlefield this turn.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/78.png" num="64">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ineffable Discovery</name>
+			<text>Draw X cards. Then for each {S} spent to cast Ineffable Discovery, create a Clue token. ({S} is mana from a snow source. A Clue token is an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/79.png" num="62">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XUU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unknowable Intelligence</name>
+			<text>Ward {S} ({S} can be paid with one mana from a snow source.)
+Flying
+Whenever another snow permanent enters the battlefield under your control or a permanent you control is turned face up, draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/80.png" num="82">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Astral Gaunt</name>
+			<text>Flying
+You may look at the top card of your library any time.
+You may cast spells from the top of your library. Only mana from snow sources can be used to cast spells this way.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/81.png" num="51">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Intrusive Intent</name>
+			<text>As an additional cost to cast Intrusive Intent, sacrifice an artifact.
+Search your library for a card, put that card into your hand, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/82.png" num="63">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Thrashing Formstealer</name>
+			<text>Whenever a face-down permanent enters the battlefield under you control or whenever a permanent you control is turned face up, put a +1/+1 counter on Thrashing Formstealer and draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/83.png" num="77">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Emergency Engineer // Tinker</name>
+			<text>When Emergency Engineer enters the battlefield or dies, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+As an additional cost to cast Tinker, sacrifice an artifact.
+Search your library for an artifact card, put that card onto the battlefield, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/84.png" num="60">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>1U // 2U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Teqeli Formstealer</name>
+			<text>You may have Teqeli Formstealer enter the battlefield as a copy of a creature or snow permanent you control, except it&apos;s still snow.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/85.png" num="75">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Diligent Pilot</name>
+			<text>When Diligent Pilot enters the battlefield, create a 3/3 colorless Vehicle artifact token with crew 1.
+Vehicles you control have flying.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/86.png" num="57">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Starkwater Diver</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it.)
+Whenever Starkwater Diver endeavors, return target artifact, instant, or sorcery card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/87.png" num="71">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Veteran Ice Climber</name>
+			<text>Vigilance
+Veteran Ice Climber can&apos;t be blocked.
+Whenever Veteran Ice Climber attacks, up to one target player mills cards equal to this creature&apos;s power. (They put that many cards from the top of their library into their graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/88.png" num="83">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Voorman Pioneer // Fatigue</name>
+			<text>Vigilance
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Target player skips their next draw step.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/89.png" num="84">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Scout // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU // 1U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tireless Engineer</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it.)
+Whenever Tireless Engineer endeavors, create a 3/3 colorless Vehicle artifact token with crew 1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/90.png" num="78">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seafloor Bathyscaphe</name>
+			<text>{3}, {T}: Draw two cards. Then discard a card unless Seafloor Bathyscaphe is a creature.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/91.png" num="68">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Unexplained Carving</name>
+			<text>At the beginning of your postcombat main phase, you may tap an untapped creature you control. If you do, target player mills cards equal to that creature&apos;s power.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/92.png" num="81">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Pry Through Wreckage</name>
+			<text>Look at the top five cards of your library. Put one of them into your hand and the rest into your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/93.png" num="66">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Distant Signal</name>
+			<text>Choose one —
+• Look at any number of face-down permanents. Draw a card.
+• Return target face-down permanent to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/94.png" num="58">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Beyond Safe Limits</name>
+			<text>Landfall — Beyond Safe Limits costs {1} less to cast as long as you had a land enter the battlefield under your control this turn.
+Surveil 1, then draw two cards. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/95.png" num="52">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deprive</name>
+			<text>As an additional cost to cast Deprive, return a land you control to its owner&apos;s hand.
+Counter target spell.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/96.png" num="56">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Drifting Ice</name>
+			<text>Counter target spell if it&apos;s snow or if {S} was spent to cast Drifting Ice.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/97.png" num="59">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blizzard Survivalist // Altitude Sickness</name>
+			<text>Deathtouch
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Each opponent loses 3 life and you gain 3 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/98.png" num="89">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>B // 5B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Althus Lookout</name>
+			<text>When Althus Lookout enters the battlefield, each player discards a card. If you discarded a snow card this way, put a +1/+1 counter on Althus Lookout.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/99.png" num="86">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Specimen Eradicator</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it. If a permanent with a stun counter would become untapped, remove one from it instead.)
+Whenever Specimen Eradicator endeavors, each opponent loses 2 life.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/100.png" num="113">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lone Adventurer // Expedition Map</name>
+			<text>Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+{2}, {T}, Sacrifice Expedition Map: Search your library for a land card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/101.png" num="103">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger // Artifact</type>
+				<maintype>Creature</maintype>
+				<manacost>2B // 1</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Voorman Pathcutter</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it. If a permanent with a stun counter would become untapped, remove one from it instead.)
+Whenever Voorman Pathcutter endeavors, target creature you control gets +1/+0 and gains menace until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/102.png" num="118">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Encroaching Purity</name>
+			<text>When Encroaching Purity enters the battlefield, you may sacrifice another creature. If you do, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/103.png" num="96">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Recovery Expedition</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it. If a permanent with a stun counter would become untapped, remove one from it instead.)
+Whenever Recovery Expedition endeavors, you may return target creature card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/104.png" num="110">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Exposed Formstealer</name>
+			<text>Menace
+Thaw {4}{B}{B} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/105.png" num="97">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Polar Goliath</name>
+			<text>Whenever Polar Goliath attacks, you may sacrifice another creature or artifact. If you do, draw a card and put a +1/+1 counter on Polar Goliath.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/106.png" num="108">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Serpent Whale</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mortal Chill</name>
+			<text>Destroy target nonsnow creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/107.png" num="105">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ancient Aegis</name>
+			<text>Put a +1/+1 counter on target creature. It gains shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/108.png" num="237">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B/G</manacost>
+				<cmc>1</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Slow Excavation</name>
+			<text>Target player mills three cards.
+Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/109.png" num="231">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>U/B</manacost>
+				<cmc>1</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wrench Sanity</name>
+			<text>Target player discards two cards unless they discard a snow card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/110.png" num="121">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>BB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Cold, Unfeeling Sea</name>
+			<text>Exile target creature or planeswalker.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/111.png" num="90">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stark Reminder</name>
+			<text>Destroy target creature or planeswalker.
+Create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/112.png" num="114">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bitter Ordeal</name>
+			<text>Search target player&apos;s library for a card and exile it. Then that player shuffles.
+Gravestorm (When you cast this spell, copy it for each permanent put into a graveyard from the battlefield this turn. You may choose new targets for the copies.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/113.png" num="88">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cyclopean Architecture</name>
+			<text>At the beginning of your end step, you lose life equal to the number of sanity counters on Cyclopean Architecture.
+{1}{S}: Draw a card and put a sanity counter on Cyclopean Architecture. ({S} can be paid with one mana from a snow source.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/114.png" num="92">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Teqeli Gestator</name>
+			<text>Flying
+Whenever a nontoken creature dies, you may pay 1 life. If you do, create a tapped 1/1 black Horror snow creature token with menace.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/115.png" num="116">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>What Comes After</name>
+			<text>Target player reveals their hand. You choose a nonland card from it. That player discards that card, then creates a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/116.png" num="119">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Forbidden Resurgence</name>
+			<text>Return any number of target nonartifact creature cards with total mana value X or less from your graveyard to the battlefield with a finality counter on them. Then for each {S} spent to cast Forbidden Resurgence, you may remove a counter from a permanent you control. ({S} is mana from a snow source.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/117.png" num="98">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XB</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Languish</name>
+			<text>All creatures get -4/-4 until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/118.png" num="102">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Digsite Dissector // Rise Again</name>
+			<text>{B}, {T}, Sacrifice a creature: Draw a card.
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Return target creature card from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/119.png" num="94">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>1B // 4B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unburied Secrets</name>
+			<text>Look at the top four cards of target opponent&apos;s library, exile one of them face down, then put the rest on the bottom of that library in a random order. You may cast that card for as long as it remains exiled, and you may spend mana from snow sources as though it were mana of any color to cast it.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/120.png" num="117">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Implacable Entity</name>
+			<text>Menace
+You may play Implacable Entity from your graveyard with its thaw ability.
+Thaw—{3}{B}, Pay 2 life (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/121.png" num="101">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ossified Watcher</name>
+			<text>Deathtouch
+{2}, Sacrifice a creature: Put a +1/+1 counter on each snow creature you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/122.png" num="106">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sinister Helminth</name>
+			<text>Pay 2 life: Sinister Helminth gets +2/+2 until end of turn. Activate only once each turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/123.png" num="112">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Worm</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Outpost&apos;s Bane</name>
+			<text>Menace
+{S}: Outpost&apos;s Bane gets +1/+1 until end of turn. ({S} can be paid with one mana from a snow source.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/124.png" num="107">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Steely Archaeologist // Unnerve</name>
+			<text>Menace
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Each opponent discards two cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/125.png" num="115">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>3B // 3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grim Surgeon // Urgent Necropsy</name>
+			<text>Deathtouch, lifelink
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+You may sacrifice a creature. When you do, create two Clue tokens. (They&apos;re artifacts with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/126.png" num="99">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Doctor // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB // B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crevasse Traverser</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it.)
+Whenever a creature you control endeavors, Crevasse Traverser gets +1/+1 and gains flying until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/127.png" num="20">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Discover the Past</name>
+			<text>Choose two. You may choose the same mode more than once.
+• Return target creature card from your graveyard to your hand.
+• Create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/128.png" num="95">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Desolate Grave</name>
+			<text>Whenever a creature you control dies, add {B}. Until end of turn, you don&apos;t lose this mana as steps and phases end.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/129.png" num="93">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ancient Vendetta</name>
+			<text>Choose a card name. Search target opponent&apos;s graveyard, hand, and library for up to four cards with that name and exile them. Then that player shuffles.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/130.png" num="87">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lost in the Dark</name>
+			<text>Landfall — Lost in the Dark costs {1} less to cast as long as you had a land enter the battlefield under your control this turn.
+Destroy target creature or planeswalker. You lose 2 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/131.png" num="104">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Icequake</name>
+			<text>Destroy target land. If that land was a snow land, Icequake deals 1 damage to that land&apos;s controller.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/132.png" num="100">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Restless Blood</name>
+			<text>As an additional cost to cast Restless Blood, sacrifice a creature.
+Return a creature card from your graveyard to the battlefield, then return another creature card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/133.png" num="111">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Withering Fatigue</name>
+			<text>Target creature gets -2/-2 until end of turn. If it&apos;s tapped, it gets -3/-3 until end of turn instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/134.png" num="120">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Expedition Security // Expedition Map</name>
+			<text>Haste
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+{2}, {T}, Sacrifice Expedition Map: Search your library for a land card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/135.png" num="129">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier // Artifact</type>
+				<maintype>Creature</maintype>
+				<manacost>R // 1</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Althus Scout</name>
+			<text>Landfall — Whenever a land enters the battlefield under your control, Althus Scout gets +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/136.png" num="123">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Resourceful Tracker</name>
+			<text>Whenever you cast a noncreature spell, put a +1/+1 counter on Resourceful Tracker.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/137.png" num="236">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1U/R</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Teqeli Predator</name>
+			<text>Whenever Teqeli Predator attacks, add {R}. Until end of turn, you don&apos;t lose this mana as steps and phases end.
+Thaw {3}{R}{R} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/138.png" num="149">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Althus Outrunner</name>
+			<text>When Althus Outrunner enters the battlefield, you may sacrifice a creature. When you do, Althus Outrunner deals 2 damage to any target.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/139.png" num="232">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2B/R</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Perilous Pathfinder</name>
+			<text>When Perilous Pathfinder enters the battlefield, target player sacrifices a nonbasic land of their choice. If they do, they may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/140.png" num="139">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Voorman Eradicator</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/141.png" num="154">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Goliath Frostclicker</name>
+			<text>Defender
+Whenever you cast a spell, Goliath Frostclicker loses defender until end of turn. If {S} was spent to cast that spell, put a +1/+1 counter on Goliath Frostclicker. ({S} is mana from a snow source.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/142.png" num="133">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Writhing Imposter</name>
+			<text>Reach
+Thaw {5}{R}{R} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/143.png" num="157">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frost Bite</name>
+			<text>Frost Bite deals 2 damage to target creature or planeswalker. If you control three or more snow permanents, it deals 3 damage instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/144.png" num="130">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sudden Metamorphosis</name>
+			<text>Target creature gains double strike until end of turn. If {S} was spent to cast Sudden Metamorphosis, that creature also gains trample until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/145.png" num="148">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Frozen Discovery</name>
+			<text>As an additional cost to cast Frozen Discovery, discard a card.
+Draw two cards. If {S}{S} was spent to cast Frozen Discovery, create a Clue token. ({S} is mana from a snow source. A Clue is an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/146.png" num="132">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Turmoil</name>
+			<text>Choose one —
+• Turmoil deals 3 damage to target creature. If that creature would die this turn, exile it instead.
+• Exile target artifact.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/147.png" num="151">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dig Too Deep</name>
+			<text>Dig Too Deep deals 4 damage to target creature or planeswalker. Create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/148.png" num="128">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Desperate Crash</name>
+			<text>Damage can&apos;t be prevented this turn.
+Desperate Crash deals 6 damage to target creature, planeswalker, or battle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/149.png" num="127">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cosmic Encounter</name>
+			<text>{3}{R}: You may put a snow permanent card from your hand onto the battlefield. If it isn&apos;t a land, sacrifice it at the beginning of the next end step.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/150.png" num="126">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Violent Potential</name>
+			<text>Exile target instant or sorcery card with mana value 3 or less from your graveyard. You may cast it without paying its mana cost. If that spell would be put into a graveyard, exile it instead.
+Gravestorm (When you cast this spell, copy it for each permanent put into a graveyard from the battlefield this turn. You may choose new targets for the copies.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/151.png" num="153">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Storm&apos;s Wrath</name>
+			<text>Storm&apos;s Wrath deals 4 damage to each creature and each planeswalker.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/152.png" num="145">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stormbreaker Teqeli</name>
+			<text>Flying
+When Stormbreaker Teqeli enters the battlefield, for each player, turn up to one target land that player controls face down. They&apos;re snow lands with &quot;{T}: Add {C}.&quot;</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/153.png" num="144">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Moonlight Witness</name>
+			<text>Nonbasic lands are snow, lose all other types and abilities, and have &quot;{T}, Pay 1 life: Add one mana of any color.&quot;</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/154.png" num="136">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Impossible Geometry</name>
+			<text>Exile target instant or sorcery card with mana value X or less from your graveyard and copy it. You may cast the copy without paying its mana cost. If its mana value is less than the amount of {S} spent to cast Impossible Geometry, you may copy it twice instead. ({S} is mana from a snow source.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/155.png" num="134">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XRR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Beneath the Ice</name>
+			<text>Losing unspent mana causes you to lose that much life.
+At the beginning of your upkeep, put a thermal counter on Beneath the Ice, then add {R} for each thermal counter on it.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/156.png" num="124">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cornered Mimic</name>
+			<text>Landfall — Whenever a land enters the battlefield under your control, exile the top card of your library face down. (You can&apos;t look at it.)
+Whenever Cornered Mimic deals combat damage to a player, you may discard your hand. If you do, put all cards exiled with Cornered Mimic into their owners&apos; hands.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/157.png" num="125">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Storm Surveyor // Skred</name>
+			<text>Landfall — Whenever a land enters the battlefield under your control, Storm Surveyor deals 1 damage to each opponent.
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Skred deals damage to target creature equal to the number of snow permanents you control.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/158.png" num="143">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>1R // R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Specimen Incisor</name>
+			<text>Haste
+When Specimen Incisor enters the battlefield, exile the top card of your library. Until end of turn, you may play that card, and you may play it face down as a snow land with &quot;{T}: Add {C}.&quot;</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/159.png" num="142">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Maddened Archivist</name>
+			<text>Haste
+Whenever you cast a noncreature spell, Maddened Archivist gets +1/+0 until end of turn for each {S} spent to cast that spell. ({S} is mana from a snow source.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/160.png" num="135">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stranded Survivor</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever you cast a noncreature spell, you may pay {S}. When you do, Stranded Survivor deals damage equal to its power to each opponent. ({S} can be paid with one mana from a snow source.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/161.png" num="147">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unspeakable Pursuer</name>
+			<text>Landfall — Whenever a land enters the battlefield under your control, exile the top card of your library. Until end of turn, you may play that card.
+Thaw {4}{R} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/162.png" num="152">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stranded Sledder // Dogpile</name>
+			<text>Haste
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Dogpile deals damage to any target equal to the number of attacking creatures you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/163.png" num="146">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Pilot // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR // 3R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Althus Marksman // Sizzle</name>
+			<text>Prowess
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Sizzle deals 3 damage to each opponent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/164.png" num="122">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>1R // 2R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frostmad Killer</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it.)
+Whenever Frostmad Killer endeavors, it deals 2 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/165.png" num="131">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Perilous Crossing</name>
+			<text>As an additional cost to cast Perilous Crossing, sacrifice a creature.
+Perilous Crossing deals damage equal to the sacrificed creature&apos;s power to any target. If the sacrificed creature was snow, Perilous Crossing can&apos;t be countered and damage can&apos;t be prevented this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/166.png" num="138">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Nebulous Horizon</name>
+			<text>Nonsnow creatures can&apos;t block this turn.
+Add {R}{R}.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/167.png" num="137">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Thrashing Wildness</name>
+			<text>Target creature you control fights target creature you don&apos;t control. Excess damage that would be dealt to the creature you don&apos;t control is dealt to that creature&apos;s controller instead.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/168.png" num="150">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Push Too Far</name>
+			<text>Landfall — Push Too Far costs {1} less to cast as long as you had a land enter the battlefield under your control this turn.
+Push Too Far deals 4 damage to target creature or planeswalker. If that creature or planeswalker would die this turn, exile it instead.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/169.png" num="141">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Winter Ritual</name>
+			<text>Add {R}{R}{R}. Spend this mana only to cast snow spells or pay costs that include {S}.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/170.png" num="156">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Purge with Fire</name>
+			<text>Purge with Fire deals 2 damage to each creature and an additional 1 damage to each snow creature.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/171.png" num="140">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>We Are Not Who We Are</name>
+			<text>Gain control of target creature until end of turn. Untap that creature. Until end of turn, it gains haste and is a snow Horror in addition to its other types.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/172.png" num="155">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gelid Specimen</name>
+			<text>When Gelid Specimen dies, create a 1/1 black Horror snow creature token with menace.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/173.png" num="235">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/B</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Summit Claimant // Eerie Discovery</name>
+			<text>Vigilance
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/174.png" num="187">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>1G // G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prismatic Remnant</name>
+			<text>{T}: Add one mana of any color.
+Thaw {3}{G} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/175.png" num="182">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sinister Morse</name>
+			<text>Landfall — Whenever a land enters the battlefield under your control, put a +1/+1 counter on Sinister Morse.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/176.png" num="184">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Walrus</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gestating Purity</name>
+			<text>As an additional cost to cast Gestating Purity, sacrifice a creature or pay {3}.
+Thaw {3}{G}{G} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/177.png" num="170">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Teqeli Protoplasm</name>
+			<text>Vigilance
+Thaw {4}{GU}{GU} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/178.png" num="239">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4G/U</manacost>
+				<cmc>5</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nebulous Gestator</name>
+			<text>Reach, trample
+Whenever Nebulous Gestator becomes the target of a spell or ability an opponent controls, you may draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/179.png" num="178">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>6G</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Formstealer&apos;s Bite</name>
+			<text>Target creature you control fights target creature an opponent controls. When the creature an opponent controls dies this turn, you may have a creature you control become a copy of it until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/180.png" num="168">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cosmic Confrontation</name>
+			<text>Target creature you control deals damage equal to its power to target creature or planeswalker you don&apos;t control. If the permanent you don&apos;t control would die this turn, exile it instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/181.png" num="164">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Eldritch Biology</name>
+			<text>Target creature gets +3/+3 until end of turn. If it&apos;s snow, it gains trample and reach until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/182.png" num="166">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Winter&apos;s Dominion</name>
+			<text>Enchant land
+Enchanted land is snow and has &quot;{T}: Add two mana of any one color.&quot;</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/183.png" num="191">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>In the Presence of Ages</name>
+			<text>Reveal the top four cards of your library. You may put a creature card and/or a land card from among them into your hand. Put the rest into your graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/184.png" num="175">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Icebreaker Cetacean</name>
+			<text>Whenever Icebreaker Cetacean enters the battlefield or attacks, you may sacrifice a land. If you do, create two tapped colorless snow land tokens named World&apos;s End that are all basic land types.
+Icebreaker Cetacean gets +1/+1 for each land you control and +1/+1 for each land card in your graveyard.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/185.png" num="174">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Whale</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Turbulent Terrain</name>
+			<text>Search your library for a land card, put that card onto the battlefield tapped, then shuffle.
+Gravestorm (When you cast this spell, copy it for each permanent put into a graveyard from the battlefield this turn.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/186.png" num="189">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ascendant Teqeli</name>
+			<text>Vigilance, reach, trample
+Ascendant Teqeli enters the battlefield with X +1/+1 counters on it. If {S}{S}{S} spent to cast it, it enters with twice X +1/+1 counters on it instead. ({S} is mana from a snow source.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/187.png" num="159">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>XG</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cosmic Evolution</name>
+			<text>Search your library for a green or snow creature card with mana value X or less, put it onto the battlefield, then shuffle. Put a number of +1/+1 counters on it equal to the amount of {S} spent to cast Cosmic Evolution. ({S} is mana from a snow source.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/188.png" num="165">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XGG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>History Uncovered</name>
+			<text>Return target card from your graveyard to your hand. Distribute X +1/+1 counters among creatures you control, where X is that card&apos;s mana value. Exile History Uncovered.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/189.png" num="173">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Snow Crash</name>
+			<text>Snow Crash deals 3 damage to each artifact creature and each creature with flying.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/190.png" num="185">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Synaptic Overseer</name>
+			<text>Other Horrors you control get +1/+1.
+{X}{S}: Create a token that&apos;s a copy of target nontoken creature you control with mana value X or less. Activate only as a sorcery. ({S} can be paid with one mana from a snow source.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/191.png" num="188">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Plissk, Ruthless Survivalist</name>
+			<text>Ward—Tap an untapped creature you control.
+Landfall — Whenever a land enters the battlefield under your control, create a 6/6 green Horror snow creature token with trample.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/192.png" num="180">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Voorman Sentry // Whirlwind</name>
+			<text>Voorman Sentry can&apos;t block.
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Destroy all creatures with flying.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/193.png" num="190">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>1G // 2GG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grave Witness</name>
+			<text>Whenever a nontoken creature you control dies, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/194.png" num="172">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frostbound Lurker</name>
+			<text>Frostbound Lurker can&apos;t be blocked by creatures with power 2 or less.
+Frostbound Lurker&apos;s power and toughness are each equal to the number of snow permanents you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/195.png" num="169">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Savage Orca</name>
+			<text>You may cast Savage Orca as though it had flash as long as a creature died this turn.
+Savage Orca can&apos;t be blocked by creatures with power 2 or less.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/196.png" num="183">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Whale</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bestial Formstealer</name>
+			<text>Whenever another snow creature enters the battlefield under your control or whenever a creature you control is turned face up, you may change Bestial Formstealer&apos;s base power and toughness to that creature&apos;s power and toughness until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/197.png" num="162">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ponderous Cachalot</name>
+			<text>Ponderous Cachalot costs {1} less to cast for each snow land you control.
+Vigilance, trample</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/198.png" num="181">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Whale</type>
+				<maintype>Creature</maintype>
+				<manacost>6GG</manacost>
+				<cmc>8</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Althus Pursuer</name>
+			<text>Whenever you cast a creature spell, if {S} was spent to cast it, that creature enters with an additional +1/+1 counter on it. ({S} is mana from a snow source.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/199.png" num="158">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Infected Examiner // Bifurcate</name>
+			<text>Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Search your library for a permanent card with the same name as target nontoken creature, put that card onto the battlefield, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/200.png" num="176">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Doctor // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG // 3G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Writhing Shambler</name>
+			<text>Writhing Shambler can&apos;t be blocked by creatures with power 2 or less.
+Landfall — Whenever a land enters the battlefield under your control, Writhing Shambler gets +4/+4 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/201.png" num="192">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Expedition Medic</name>
+			<text>Landfall — Whenever a land enters the battlefield under your control, put a +1/+1 counter on Expedition Medic.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/202.png" num="167">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>By No Mortal Hand</name>
+			<text>Return target permanent card from your graveyard to your hand.
+Create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/203.png" num="163">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Specimen Collection</name>
+			<text>Whenever a permanent you control is turned face up, create a 1/1 black Horror snow creature token with menace.
+Thaw {1}{G} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/204.png" num="186">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Overwhelming Vastness</name>
+			<text>Landfall — Overwhelming Vastness costs {1} less to cast as long as you had a land enter the battlefield under your control this turn.
+Target creature you control gets +4/+4 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/205.png" num="179">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Aurora&apos;s Glow</name>
+			<text>Snow lands you control have &quot;{T}: Add one mana of any color.&quot;
+Thaw {3} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/206.png" num="160">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Glacial Revelation</name>
+			<text>Reveal the top six cards of your library. You may put any number of snow permanent cards from among them into your hand. Put the rest into your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/207.png" num="171">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Eldritch Discovery</name>
+			<text>Put target permanent card from your graveyard onto the battlefield face down. It&apos;s a snow land with &quot;{T}: Add {C}.&quot; and has thaw. Its thaw cost is equal to its mana cost. (Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/208.png" num="225">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>It Wakes the Dogs</name>
 			<text>Whenever one or more counters are put on a permanent you control, you draw a card and you gain 1 life.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/205.png" num="203">WGT</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/209.png" num="199">WGT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -26,10 +3682,876 @@
 			<tablerow>1</tablerow>
 		</card>
 		<card>
+			<name>In the Shadow of Time</name>
+			<text>Landfall — Whenever a land enters the battlefield under your control, creatures you control get +2/+1 until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/210.png" num="221">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Stealth Craft</name>
+			<text>Flying
+Whenever Stealth Craft attacks, target permanent you control gains hexproof and indestructible until your next turn.
+Crew 2</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/211.png" num="196">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Eldritch Metamorph</name>
+			<text>Whenever another creature you control dies, return it to the battlefield face down. It&apos;s a snow land with &quot;{T}: Add {C}.&quot;
+{S}{S}: You draw a card and you lose 1 life. ({S} can be paid with one mana from a snow source.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/212.png" num="217">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Starspawn Hunter // Dreadbore</name>
+			<text>Creatures have base toughness 1.
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Destroy target creature or planeswalker.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/213.png" num="202">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR // BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Atmospheric Engineer</name>
+			<text>Menace
+Whenever Atmospheric Engineer deals combat damage to a player, you may search your library for a basic land card, put it onto the battlefield tapped with an ice counter on it, then shuffle. That land becomes snow (indefinitely).</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/214.png" num="204">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wages of Hubris</name>
+			<text>Landfall — Whenever a land enters the battlefield under your control, exile target permanent an opponent controls until Wages of Hubris leaves the battlefield.
+Thaw {4}{G}{W} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/215.png" num="209">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4GW</manacost>
+				<cmc>6</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bitter End</name>
+			<text>Exile target nonland permanent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/216.png" num="212">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ancient Fauna</name>
+			<text>Vigilance, prowess
+When Ancient Fauna dies, return an instant or sorcery card at random from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/217.png" num="214">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nautilus</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Farsight Craft</name>
+			<text>Flying
+Whenever Farsight Craft attacks or blocks, you may draw a card. If you do, discard a card.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/218.png" num="195">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Voorman Patrol</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it.)
+Whenever Voorman Patrol endeavors, untap each other creature you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/219.png" num="200">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Into a Mountain of Madness</name>
+			<text>At the beginning of each of your postcombat main phases, you may sacrifice a creature or discard a creature card. If you do, draw two cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/220.png" num="201">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Inconstant Starspawn</name>
+			<text>{T}: Add one mana of any color.
+Thaw {1}{R}{G} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/221.png" num="206">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Miasma of Flesh</name>
+			<text>When Miasma of Flesh enters the battlefield, return a creature or land you control to its owner&apos;s hand.
+Thaw {2}{G}{W} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/222.png" num="208">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Althus Survivalist</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it.)
+Whenever Althus Survivalist endeavors, you may return target creature card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/223.png" num="210">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Patient Hunter // From the Ice</name>
+			<text>Deathtouch
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Create two 1/1 black Horror snow creature tokens with menace.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/224.png" num="219">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>BG // 1BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chronoplasm</name>
+			<text>When Chronoplasm enters the battlefield or is turned face up, return up to one target nonland permanent to its owner&apos;s hand.
+Thaw {2}{G}{U} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/225.png" num="224">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Purity Host</name>
+			<text>Whenever you cast an instant or sorcery spell, Purity Host gets +1/+1 until end of turn. Put a +1/+1 counter on Purity Host instead if {S} was spent to cast that spell. ({S} is mana from a snow source.)
+Thaw {2}{U}{R} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/226.png" num="216">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Human Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Endless Midnight</name>
+			<text>Attacking creatures you control get +1/+0.
+Landfall — Whenever a land enters the battlefield under your control, creatures you control get +1/+1 until end of turn.
+Thaw {2}{R}{W} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/227.png" num="220">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Voorman Engineer</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it.)
+When Voorman Engineer endeavors, you may search your library for an artifact card, reveal it, then shuffle. Put that card into your hand if its mana value is 3 or less. Otherwise, put it on top of your library.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/228.png" num="197">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stranded Pilot // Snowblind Fugue</name>
+			<text>Sacrifice a creature: Stranded Pilot gains flying until end of turn.
+Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+Snowblind Fugue deals 1 damage to each creature and each player.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/229.png" num="203">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Pilot // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR // BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Enraptured Explorer</name>
+			<text>When Enraptured Explorer enters the battlefield, return target snow card from your graveyard to your hand.
+Enraptured Explorer gets +1/+1 for each snow permanent you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/230.png" num="205">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frozen Bivouac</name>
+			<text>Landfall — Whenever a land enters the battlefield under your control, create a 2/2 green Scout creature token. If that land was snow, put a +1/+1 counter on that token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/231.png" num="207">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3GW</manacost>
+				<cmc>5</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Impossible Discoveries</name>
+			<text>At the beginning of your end step, if a creature you controlled died this turn, you draw a card and you gain 1 life.
+{1}, Sacrifice a creature: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/232.png" num="213">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Moulting Starspawn</name>
+			<text>Flying, menace
+Whenever a creature enters the battlefield from your graveyard or whenever you cast a spell from your graveyard, put a +1/+1 counter on Moulting Starspawn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/233.png" num="218">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Protoplasmic Infestation</name>
+			<text>Face-down lands you control have &quot;{T}: Add one mana of any color.&quot;
+Whenever a permanent you control is turned face up, draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/234.png" num="226">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Protoplasmic Cavalcade</name>
+			<text>Draw two cards, then discard a card. For each {S} spent to cast Protoplasmic Cavalcade, create a tapped 1/1 black Horror snow creature token with menace. ({S} is mana from a snow source.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/235.png" num="215">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Teqeli Hatchling</name>
+			<text>Haste
+During your turn, Teqeli Hatchling has first strike.
+Landfall — Whenever a land enters the battlefield under your control, Teqeli Hatchling gets +2/+2 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/236.png" num="222">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elder Hatchling</name>
+			<text>Flying
+When Elder Hatchling enters the battlefield or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/237.png" num="4">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shifting Mass</name>
+			<text>Menace
+{1}: Add one mana of any color. Activate only once each turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/238.png" num="8">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cosmic Tyrant</name>
+			<text>Flying, vigilance
+Thaw {8} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/239.png" num="2">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fragment</name>
+			<text>Fragment costs {3} less to cast if it targets a permanent with mana value 3 or less.
+Destroy target nonland permanent.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/240.png" num="5">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Behold the City</name>
+			<text>Mill four cards, then you may return a land card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/241.png" num="1">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Teqeli Spawn</name>
+			<text>({S} can be paid with one mana from a snow source.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/242.png" num="12">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>S</manacost>
+				<cmc>1</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fragmentary Etchings</name>
+			<text>{1}: Add one mana of any color. Activate only once each turn.
+{1}{S}, {T}: Look at the top card of your library. If that card is snow, you may reveal it and put it into your hand. ({S} can be paid with one mana from a snow source.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/243.png" num="246">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Snarling Fleshtide</name>
+			<text>{S}, {T}: Target player mills three cards. ({S} can be paid with one mana from a snow source.)
+{2}: Put target card from a graveyard on the bottom of its owner&apos;s library.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/244.png" num="9">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ululating Progeny</name>
+			<text>Flying
+When Ululating Progeny enters the battlefield, you may return a land you control to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/245.png" num="13">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ancient Stele</name>
+			<text>{T}: Add one mana of any color.
+{7}, {T}, Sacrifice Ancient Stele: Draw X cards, where X is the number of snow lands you control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/246.png" num="242">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ice Harvester</name>
+			<text>As Ice Harvester enters the battlefield, exile an artifact or land card from your graveyard or hand.
+Ice Harvester has all activated abilities of the exiled card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/247.png" num="247">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Adventuring Gear</name>
+			<text>Landfall — Whenever a land enters the battlefield under your control, equipped creature gets +2/+2 until end of turn.
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/248.png" num="240">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Relentless Submersible</name>
+			<text>Whenever Relentless Submersible attacks or blocks, you may draw a card. If you do, discard a card.
+Crew 2 
+Thaw {3} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/249.png" num="249">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Uncovered Monument</name>
+			<text>Uncovered Monument enters the battlefield with a charge counter on it.
+{T}: Add {C}.
+{T}, Remove a charge counter from Uncovered Monument: Add one mana of any color.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/250.png" num="259">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Void Temple</name>
+			<text>Void Temple enters the battlefield tapped.
+When Void Temple enters the battlefield, sacrifice it unless you pay {1}.
+{T}: Add one mana of any color.
+Thaw {2} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/251.png" num="261">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>In Stranger Eons</name>
+			<text>You may pay six {S} rather than pay In Stranger Eons&apos;s mana cost.
+Turn each nonland permanent your opponents control face down. They&apos;re colorless snow lands with &quot;{T}: Add {C}.&quot;</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/252.png" num="267">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WBR</manacost>
+				<cmc>6</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Horror WGT</name>
+			<text>Menace</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/253.png" num="1">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>WGT Draft Archetypes WGT</name>
+			<text>{W}{U} VEHICLES Embrace the reliability of steel as all else freezes around you.
+{U}{B} ENDEAVOR Stun your creatures for additional benefit—Rouse them with blink or untap effects if you can.
+{B}{R} INNOVATION Your creatures may (and will) die, but their loss leaves behind new opportunities.
+{R}{G} SNOW Snow mana can fuel your permanents to embrace the cold of World&apos;s End.
+{G}{W} LANDFALL Your creatures are strengthened as you explore the frozen wilderness.
+{W}{B} ENDEAVOR Your tired underlings have been pushed too far. Just in time to sacrifice them.
+{B}{G} INNOVATION Pioneers of the pole leave behind a legacy of their breakthroughs to take advantage of.
+{G}{U} THAW Face-down lands can provide you with the eldritch power of the teqeli.
+{U}{R} SNOW Your spells are enhanced with the chill magic of World&apos;s End.
+{R}{W} LANDFALL Race to explore the hidden pole, buoyed by thawed lands.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/254.png" num="7">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Confident Explorer</name>
+			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it.)
+Whenever Confident Explorer endeavors, reveal the top card of your library and put that card into your hand. You lose life equal to its mana value.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/255.png" num="91">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Yesterday&apos;s Tyrant</name>
+			<text>Trample
+Thaw {5}{G}{G} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/256.png" num="193">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dour Floebreaker</name>
+			<text>Menace
+Whenever Dour Floebreaker attacks, exile another target permanent you control. Return it to the battlefield under its owner&apos;s control at the beginning of the next end step.
+Crew 2</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/257.png" num="198">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Explorer&apos;s Pick</name>
+			<text>{T}, Tap an untapped creature you control: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/258.png" num="245">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Uncovered Specimen</name>
+			<text>{3}, {T}: Draw a card. Put a +1/+1 counter on Uncovered Specimen.
+{S}: Uncovered Specimen becomes a 0/0 Dinosaur creature until end of turn. Activate only as a sorcery. ({S} can be paid with one mana from a snow source.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/259.png" num="252">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
 			<name>Ferrous Outflow</name>
 			<text>{T}: Add {C}.
 {T}, Pay 1 life: Add {U} or {R}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/262.png" num="256">WGT</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/260.png" num="254">WGT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -45,7 +4567,7 @@
 			<name>Thriving Outpost</name>
 			<text>{T}: Add {C}.
 {T}, Pay 1 life: Add {G} or {U}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/263.png" num="259">WGT</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/261.png" num="258">WGT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -61,7 +4583,7 @@
 			<name>Frozen Tomb</name>
 			<text>{T}: Add {C}.
 {T}, Pay 1 life: Add {W} or {B}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/264.png" num="257">WGT</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/262.png" num="255">WGT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -77,7 +4599,7 @@
 			<name>Derelict Hulk</name>
 			<text>{T}: Add {C}.
 {T}, Pay 1 life: Add {R} or {W}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/265.png" num="255">WGT</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/263.png" num="253">WGT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -93,7 +4615,7 @@
 			<name>Ominous Structure</name>
 			<text>{T}: Add {C}.
 {T}, Pay 1 life: Add {B} or {G}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/266.png" num="258">WGT</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/264.png" num="257">WGT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -104,6 +4626,177 @@
 				<coloridentity>BG</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Awoken Teqeli</name>
+			<text>{1}{S}: Awoken Teqeli gets +2/+2 until end of turn. Activate only once each turn. ({S} can be paid with one mana from a snow source.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/265.png" num="161">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Curious Surveyor</name>
+			<text>Curious Surveyor gets +1/+1 as long as you control a face-down permanent.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/266.png" num="55">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lost Scout // Expedition Map</name>
+			<text>Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
+
+---
+
+{2}, {T}, Sacrifice Expedition Map: Search your library for a land card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/267.png" num="177">WGT</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Scout // Artifact</type>
+				<maintype>Creature</maintype>
+				<manacost>G // 1</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scout WGT</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/268.png" num="3">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Scout</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Clue WGT</name>
+			<text>{2}, Sacrifice this artifact: Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/269.png" num="4">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Clue</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Vehicle WGT</name>
+			<text>Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/270.png" num="5">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Sturdy Icebreaker</name>
+			<text>Whenever Sturdy Icebreaker enters the battlefield or attacks, target creature can&apos;t be blocked this turn.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/271.png" num="74">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Frozen Stargod</name>
+			<text>You have no maximum hand size.
+At the beginning of your end step, if you have fewer cards in hand than the number of snow permanents you control, draw cards equal to the difference.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/WGT-files/img/272.png" num="268">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5SS</manacost>
+				<cmc>7</cmc>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Horror WGT</name>
+			<text>Trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/273.png" num="2">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Snow Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>World&apos;s End WGT</name>
+			<text>This land is a Plains, Island, Swamp, Mountain, and Forest. ({T}: Add {W}, {U}, {B}, {R}, or {G}.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/274.png" num="6">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<token>1</token>
 		</card>
 	</cards>
 </cockatrice_carddatabase>
