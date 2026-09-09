@@ -5,7 +5,7 @@
 			<name>WGT</name>
 			<longname>What Goes There?</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-06</releasedate>
+			<releasedate>2026-09-09</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -650,7 +650,7 @@ Crew 1</text>
 		</card>
 		<card>
 			<name>Midnight Warning</name>
-			<text>Target creature gets +1/+0 and gains shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
+			<text>Target creature gets +1/+0 and gains shielded until end of turn.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/38.png" num="39">WGT</set>
 			<prop>
 				<layout>normal</layout>
@@ -771,7 +771,7 @@ Gravestorm (When you cast this spell, copy it for each permanent put into a grav
 			<name>Althus Requisitioner</name>
 			<text>First strike
 Endeavor (Whenever this becomes tapped, you may put a stun counter on it.)
-Whenever Althus Requisitioner endeavors, you may return target artifact or enchantment from your graveyard to the battlefield.</text>
+Whenever Althus Requisitioner endeavors, you may return target artifact or enchantment card from your graveyard to the battlefield.</text>
 			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/45.png" num="15">WGT</set>
 			<prop>
 				<layout>normal</layout>
@@ -823,7 +823,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 		<card>
 			<name>Evacuation Team // Comply</name>
 			<text>Flash
-When Evacuation Team enters the battlefield, target creature gains shielded until end of turn. (Prevent all damage that would be dealt to it.)
+When Evacuation Team enters the battlefield, target creature gains shielded until end of turn.
 Innovation (You may cast a copy of this card&apos;s innovation from your graveyard. Then exile this card.)
 
 ---
@@ -918,7 +918,7 @@ Crew 2</text>
 		</card>
 		<card>
 			<name>Cryptic Entangler</name>
-			<text>Whenever Cryptic Entangler attacks, you may pay {2}{W}. If you tap target creature defending player controls. If {S}{S} was spent this way, put a stun counter on that creature. (If a permanent with a stun counter would become untapped, remove one from it instead. {S} is mana from a snow source.)</text>
+			<text>Whenever Cryptic Entangler attacks, you may pay {2}{W}. If you do, tap target creature defending player controls. If {S}{S} was spent this way, put a stun counter on that creature. (If a permanent with a stun counter would become untapped, remove one from it instead. {S} is mana from a snow source.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/53.png" num="22">WGT</set>
 			<prop>
 				<layout>normal</layout>
@@ -1049,7 +1049,7 @@ Create a 3/3 colorless Vehicle artifact token with crew 1.</text>
 		<card>
 			<name>The Limits of Endurance</name>
 			<text>As an additional cost to cast The Limits of Endurance, sacrifice a nonland permanent.
-Until end of turn, creatures you control get +2/+2 and gain vigilance and shielded from snow (Prevent all damage that would be dealt to them this turn by snow sources.) (Prevent all damage that would be dealt to it by snow sources.)</text>
+Until end of turn, creatures you control get +2/+2 and gain vigilance and shielded from snow (Prevent all damage that would be dealt to them this turn by snow sources.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/60.png" num="38">WGT</set>
 			<prop>
 				<layout>normal</layout>
@@ -1901,7 +1901,7 @@ Thaw {4}{B}{B} (You may play this face down as a snow land with &quot;{T}: Add {
 		</card>
 		<card>
 			<name>Ancient Aegis</name>
-			<text>Put a +1/+1 counter on target creature. It gains shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
+			<text>Put a +1/+1 counter on target creature. It gains shielded until end of turn.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/108.png" num="237">WGT</set>
 			<prop>
 				<layout>normal</layout>
@@ -3624,7 +3624,7 @@ Thaw {3} (You may play this face down as a snow land with &quot;{T}: Add {C}.&qu
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Enchantment</type>
+				<type>Snow Enchantment</type>
 				<maintype>Enchantment</maintype>
 				<manacost>1G</manacost>
 				<cmc>2</cmc>
@@ -4362,7 +4362,7 @@ Thaw {3} (You may play this face down as a snow land with &quot;{T}: Add {C}.&qu
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Artifact — Vehicle</type>
+				<type>Snow Artifact — Vehicle</type>
 				<maintype>Artifact</maintype>
 				<manacost>2</manacost>
 				<cmc>2</cmc>
@@ -4450,7 +4450,7 @@ Turn each nonland permanent your opponents control face down. They&apos;re color
 {G}{U} THAW Face-down lands can provide you with the eldritch power of the teqeli.
 {U}{R} SNOW Your spells are enhanced with the chill magic of World&apos;s End.
 {R}{W} LANDFALL Race to explore the hidden pole, buoyed by thawed lands.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/254.png" num="7">WGT</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/254.png" num="8">WGT</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4791,6 +4791,21 @@ At the beginning of your end step, if you have fewer cards in hand than the numb
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Token Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Thaw WGT</name>
+			<text>You can cover a face-down permanent with this reminder card. A thawed permanent has &quot;{T}: Add {C}.&quot;</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/275.png" num="7">WGT</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
 				<maintype>Land</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
