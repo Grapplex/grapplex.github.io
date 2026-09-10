@@ -5,7 +5,7 @@
 			<name>WGT</name>
 			<longname>What Goes There?</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-09</releasedate>
+			<releasedate>2026-09-10</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -650,7 +650,7 @@ Crew 1</text>
 		</card>
 		<card>
 			<name>Midnight Warning</name>
-			<text>Target creature gets +1/+0 and gains shielded until end of turn.</text>
+			<text>Target creature gets +1/+0 and gains shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/38.png" num="39">WGT</set>
 			<prop>
 				<layout>normal</layout>
@@ -1525,7 +1525,7 @@ Vehicles you control have flying.</text>
 		<card>
 			<name>Starkwater Diver</name>
 			<text>Endeavor (Whenever this becomes tapped, you may put a stun counter on it.)
-Whenever Starkwater Diver endeavors, return target artifact, instant, or sorcery card from your graveyard to your hand.</text>
+Whenever Starkwater Diver endeavors, exile target artifact, instant, or sorcery card from your graveyard and copy it. Until end of turn, you may cast the copy.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/87.png" num="71">WGT</set>
 			<prop>
 				<layout>normal</layout>
@@ -1901,7 +1901,7 @@ Thaw {4}{B}{B} (You may play this face down as a snow land with &quot;{T}: Add {
 		</card>
 		<card>
 			<name>Ancient Aegis</name>
-			<text>Put a +1/+1 counter on target creature. It gains shielded until end of turn.</text>
+			<text>Put a +1/+1 counter on target creature. It gains shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/108.png" num="237">WGT</set>
 			<prop>
 				<layout>normal</layout>
@@ -3826,9 +3826,9 @@ When Ancient Fauna dies, return an instant or sorcery card at random from your g
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Farsight Craft</name>
+			<name>Farsight Flier</name>
 			<text>Flying
-Whenever Farsight Craft attacks or blocks, you may draw a card. If you do, discard a card.
+Whenever Farsight Flier attacks or blocks, you may draw a card. If you do, discard a card.
 Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/218.png" num="195">WGT</set>
 			<prop>
@@ -4113,7 +4113,7 @@ Whenever a creature enters the battlefield from your graveyard or whenever you c
 				<cmc>2</cmc>
 				<colors>BG</colors>
 				<coloridentity>BG</coloridentity>
-				<pt>2/1</pt>
+				<pt>1/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
