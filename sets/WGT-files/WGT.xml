@@ -5,7 +5,7 @@
 			<name>WGT</name>
 			<longname>What Goes There?</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-10</releasedate>
+			<releasedate>2026-09-13</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -369,7 +369,7 @@ Stratotyrant&apos;s power and toughness are each equal to the number of differen
 		<card>
 			<name>Impact Crater</name>
 			<text>{T}: Add {C}.
-{X}{S}, {T}: Target creature you control gets +X/+0 until end of turn. If X is 5 or more, that creature gains double strike until end of turn. Activate only as a sorcery.</text>
+{X}{S}, {T}: Target creature you control gets +X/+0 until end of turn. If X is 5 or more, that creature gains double strike until end of turn. Activate only as a sorcery. ({S} can be paid with one mana from a snow source.)</text>
 			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/22.png" num="256">WGT</set>
 			<prop>
 				<layout>normal</layout>
@@ -543,7 +543,7 @@ Whenever Hapless Researcher endeavors, creatures you control get +1/+1 until end
 		</card>
 		<card>
 			<name>Rescue Party</name>
-			<text>When Rescue Party enters the battlefield, you may return another target nonland permanent you control to its owner&apos;s hand. If you do, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<text>When Rescue Party enters the battlefield, you may return another target creature or land you control to its owner&apos;s hand. If you do, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/WGT-files/img/32.png" num="42">WGT</set>
 			<prop>
 				<layout>normal</layout>
@@ -690,8 +690,8 @@ Gravestorm (When you cast this spell, copy it for each permanent put into a grav
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>2WW</manacost>
-				<cmc>4</cmc>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
 			</prop>
@@ -882,7 +882,7 @@ Choose a card name. Until your next turn, your opponents can&apos;t cast spells 
 			<name>Hardy Engineer</name>
 			<text>When Hardy Engineer enters the battlefield, create a 3/3 colorless Vehicle artifact token with crew 1.
 Endeavor (Whenever this becomes tapped, you may put a stun counter on it.)
-Whenever Hardy Engineer endeavors, any number of target vehicles you control become artifact creatures until end of turn.</text>
+Whenever Hardy Engineer endeavors, any number of target Vehicles you control become artifact creatures until end of turn.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/51.png" num="34">WGT</set>
 			<prop>
 				<layout>normal</layout>
@@ -1449,7 +1449,7 @@ Search your library for a card, put that card into your hand, then shuffle.</tex
 		</card>
 		<card>
 			<name>Thrashing Formstealer</name>
-			<text>Whenever a face-down permanent enters the battlefield under you control or whenever a permanent you control is turned face up, put a +1/+1 counter on Thrashing Formstealer and draw a card.</text>
+			<text>Whenever a face-down permanent enters the battlefield under your control or whenever a permanent you control is turned face up, put a +1/+1 counter on Thrashing Formstealer and draw a card.</text>
 			<set rarity="rare" picurl="https://grapplex.github.io/sets/WGT-files/img/83.png" num="77">WGT</set>
 			<prop>
 				<layout>normal</layout>
@@ -3583,7 +3583,7 @@ Create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artif
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Specimen Collection</name>
+			<name>Specimen Tanks</name>
 			<text>Whenever a permanent you control is turned face up, create a 1/1 black Horror snow creature token with menace.
 Thaw {1}{G} (You may play this face down as a snow land with &quot;{T}: Add {C}.&quot; Turn it face up for its thaw cost as a sorcery.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/WGT-files/img/204.png" num="186">WGT</set>
