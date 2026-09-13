@@ -21,3 +21,9 @@ But the pole is not an empty expanse of ice. Something stirs here. Warming clime
 **Thaw:** Frozen in time, originating before history began, the teqeli remain trapped in the ice of World's End. Cards with thaw can be played face down as a snow land that can tap for colourless mana—this functions exactly like a normal land play, so can only be done once per turn. The face-down lands can be turned up at sorcery speed for their thaw cost, so once you no longer need the source of snow mana, thaw out your ancient starspawn or their eldritch magicks to announce the awakening of the elder ones.
 
 **Landfall:** Returning from *Zendikar*, landfall represents the scramble for territory as expeditions race for the pole. Landfall triggers when a land enters the battlefield, with the effects varying from card to card. Landfall will also see thaw cards being played as lands, as these operate the same as normal land plays—make the most of your sequencing accordingly for maximum value.
+
+###Theme deck
+
+<img align="right" width="300" style="margin:15px" src="https://grapplex.github.io/custom/img/WGTdeck.png" "WGT theme deck"/>
+
+**What Goes There?** is accompanied by a preconstructed theme deck, aimed for casual kitchen-table play. [**<font color="#004628">The Madness of the Teqeli</font>**](https://grapplex.github.io/deck?id=ngJvucpW90) is blue-red deck that focuses on the thaw mechanic and snow mana in order to bury your opponent under an avalanche of protoplasm. Your creatures will benefit from casting noncreature spells like Frost Bite or Sudden Metamorphosis, and additional use of snow mana will empower cards like Protoplasmic Cavalcade and Stranded Survivor. Be aggressive with your creatures knowing that some of your lands may hide more bodies to thaw out, and when all else fails, one brutal combat phase is all it takes to turn Morbid Encounter into a huge card-drawing opportunity. 
