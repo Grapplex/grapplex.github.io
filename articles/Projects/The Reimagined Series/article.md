@@ -6,6 +6,8 @@
 
 The **Reimagined Series** is a collection of Magic: The Gathering sets spread across multiple blocks, a loose banner of premier sets with one aim in common—to recapture and reinterpret the feel of Magic's earliest years. Each Reimagined set tells, in its own way, the story of one of the eight pre-modern blocks in Magic's history—whether that means remaking its original story, telling new tales within that world, or setting the scene for what we know would come to pass. Using modern design principles and up-to-date approaches to set building, each Reimagined set straddles both the past and present to recapture a moment in time.
 
+The intention with each Reimagined set is to convey a feeling rather than directly recreating the cards from the original block in question. Mood, tone, mechanical gameplay, art direction, and more are chosen not to recreate the original sets with exact verisimilitude, but to create a feeling similar to that in air during the original release. Gameplay should feel modern and exciting, but the act of reading each card, scanning over the contents of a booster pack, or building a deck will be full of resonance for Magic's earliest blocks.
+
 ---
 
 ## Reimagined Series
