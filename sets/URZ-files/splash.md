@@ -8,7 +8,7 @@ These stones had sealed an ancient portal between Dominaria and the machine hell
 
 The chronicles of Urza's centuries-long struggle with Phyrexia would see the death of worlds, the lamentations of angels, and the manipulation of life and time—but would it be enough? Could anything prevent the inexorable evolution of the Ineffable himself? 
 
-**Urza's Chronicle** is a draftable premier set using Play Boosters, containing 269 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, 5 basic lands, and 3 basic-rarity Urza's lands). Bundle purchasers will also obtain a promotional alternate art copy of Karn, Legacy’s Steward, while all boosters have a chance of containing the Headliner legacy foil version of From Void Evolved Phyrexia. Boosters also have a chance of containing a Booster Fun old frame card, either a Saga or a basic land.
+**Urza's Chronicle** is a draftable premier set in the [**<font color="#004628">Reimagined Series</font>**](https://grapplex.github.io/articles/Projects/the-reimagined-series) using Play Boosters, containing 269 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, 5 basic lands, and 3 basic-rarity Urza's lands). Bundle purchasers will also obtain a promotional alternate art copy of Karn, Legacy’s Steward, while all boosters have a chance of containing the Headliner legacy foil version of From Void Evolved Phyrexia. Boosters also have a chance of containing a Booster Fun old frame card, either a Saga or a basic land.
 
 ###Mechanics
 

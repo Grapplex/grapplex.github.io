@@ -5,7 +5,7 @@
 			<name>FSH</name>
 			<longname>Morstad: City of Shadows</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-07-08</releasedate>
+			<releasedate>2026-09-19</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -185,7 +185,7 @@ When Leering Parapet enters the battlefield, target creature you control explore
 		<card>
 			<name>Prophet of Doom</name>
 			<text>Whenever you attack, you may sacrifice Prophet of Doom. If you do, creatures you control get +1/+1 until end of turn.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/10.png" num="33">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/10.png" num="32">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -370,7 +370,7 @@ Equip {2}</text>
 		</card>
 		<card>
 			<name>Accursed Scavenger</name>
-			<text>When Accursed Scavenger enters the battlefield, it explores, then it explores again. (To explore, reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
+			<text>When Accursed Scavenger enters the battlefield, it explores, then it explores again. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/21.png" num="154">FSH</set>
 			<prop>
 				<layout>normal</layout>
@@ -458,7 +458,7 @@ At the beginning of combat on your turn, Knight of Pirinen gets +X/+0 until end 
 		<card>
 			<name>Vision of Triumph</name>
 			<text>Vigilance, haste
-Trample over battles (This creature can deal excess combat damage to the protector of battles it attacks.)</text>
+Trample over battles (This creature can deal excess combat damage to the controller of battles blocking it.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/26.png" num="205">FSH</set>
 			<prop>
 				<layout>normal</layout>
@@ -778,25 +778,10 @@ Each creature you control has &quot;Whenever this creature explores, it explores
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>Map FSH</name>
-			<text>{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery. (To explore, reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/45.png" num="11">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Token Artifact — Map</type>
-				<maintype>Artifact</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-			</prop>
-			<tablerow>1</tablerow>
-			<token>1</token>
-		</card>
-		<card>
 			<name>The Immortal Throne</name>
 			<text>When you uncover this Relic, create an artifact token named Fragment of Glory with indestructible and &quot;At the beginning of your upkeep, if you control ten or more permanents named Fragment of Glory, you win the game.&quot;
 {T}, Sacrifice The Immortal Throne: Add one mana of any color.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/46.png" num="236">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/45.png" num="236">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -808,25 +793,9 @@ Each creature you control has &quot;Whenever this creature explores, it explores
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Fragment of Glory FSH</name>
-			<text>Indestructible
-At the beginning of your upkeep, if you control ten or more permanents named Fragment of Glory, you win the game.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/47.png" num="10">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Token Artifact</type>
-				<maintype>Artifact</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-			</prop>
-			<tablerow>1</tablerow>
-			<token>1</token>
-		</card>
-		<card>
 			<name>Peer into the Nightpit</name>
 			<text>Draw up to one hundred cards.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/48.png" num="66">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/46.png" num="66">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -844,7 +813,7 @@ At the beginning of your upkeep, if you control ten or more permanents named Fra
 			<text>Equipped creature gets +1/+3 and has hexproof from red and from green.
 Whenever equipped creature blocks or becomes blocked, create an Encounter token, a Map token, and a Treasure token.
 Equip {3}</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/49.png" num="241">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/47.png" num="241">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -859,7 +828,7 @@ Equip {3}</text>
 			<name>Night King&apos;s Crest</name>
 			<text>When you uncover this Relic, you gain 2 life.
 {1}{W}, {T}, Sacrifice Night King&apos;s Crest: Target creature gets +2/+2 and gains vigilance until end of turn. Activate only as a sorcery.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/50.png" num="28">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/48.png" num="27">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -873,47 +842,11 @@ Equip {3}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Fish FSH</name>
-			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/51.png" num="4">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Token Creature — Fish</type>
-				<maintype>Creature</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<colors>U</colors>
-				<coloridentity>U</coloridentity>
-				<pt>1/1</pt>
-			</prop>
-			<tablerow>2</tablerow>
-			<token>1</token>
-		</card>
-		<card>
-			<name>Skeleton FSH</name>
-			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/52.png" num="7">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Token Creature — Skeleton</type>
-				<maintype>Creature</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<colors>B</colors>
-				<coloridentity>B</coloridentity>
-				<pt>2/1</pt>
-			</prop>
-			<tablerow>2</tablerow>
-			<token>1</token>
-		</card>
-		<card>
 			<name>Nightpit Hellkite</name>
 			<text>Flying
 Whenever Nightpit Hellkite attacks, you may sacrifice an artifact. If you do, put a +1/+1 counter on Nightpit Hellkite.
 Whenever Nightpit Hellkite deals combat damage to a player or battle, uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/53.png" num="136">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/49.png" num="136">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -932,7 +865,7 @@ Whenever Nightpit Hellkite deals combat damage to a player or battle, uncover. (
 			<text>Flying
 Whenever Andulan Sky-Galleon becomes crewed for the first time during each of your turns, create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)
 Crew 2</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/54.png" num="230">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/50.png" num="230">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -948,7 +881,7 @@ Crew 2</text>
 			<name>Pirinen, Blood Merchant</name>
 			<text>Whenever you cast a noncreature spell, mill two cards, then you may return a creature card from your graveyard to your hand.
 Whenever another creature you control dies, Pirinen, Blood Merchant digs for a 2/1 black Skeleton creature token. (You may exile two cards that share a type from your graveyard. When you do, create a 2/1 black Skeleton creature token.)</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/55.png" num="223">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/51.png" num="223">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -965,7 +898,7 @@ Whenever another creature you control dies, Pirinen, Blood Merchant digs for a 2
 		<card>
 			<name>Nightstone Lich</name>
 			<text>{T}, Sacrifice an artifact or creature: Return target artifact or creature card with lesser mana value from your graveyard to the battlefield with a finality counter on it. Activate only as a sorcery. (If a permanent with a finality counter on it would be put into a graveyard, exile it instead.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/56.png" num="208">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/52.png" num="208">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -983,7 +916,7 @@ Whenever another creature you control dies, Pirinen, Blood Merchant digs for a 2
 			<name>Wretched Seraph</name>
 			<text>Flying, double strike, vigilance
 At the beginning of combat on your turn, if an opponent has more cards in hand than you, create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/57.png" num="41">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/53.png" num="41">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1001,7 +934,7 @@ At the beginning of combat on your turn, if an opponent has more cards in hand t
 			<name>Cursed City</name>
 			<text>{T}: Add {C}.
 {2}, {T}, Sacrifice Cursed City: Search your library for a land card, put it onto the battlefield tapped, then shuffle.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/58.png" num="251">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/54.png" num="251">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1016,7 +949,7 @@ At the beginning of combat on your turn, if an opponent has more cards in hand t
 			<name>Midnight Quarter</name>
 			<text>{T}: Add {C}.
 {5}: Midnight Quarter becomes a 3/3 Vampire creature until end of turn. During your turn, this ability costs {1} less to activate for each artifact card in your graveyard.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/59.png" num="254">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/55.png" num="254">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1030,7 +963,7 @@ At the beginning of combat on your turn, if an opponent has more cards in hand t
 		<card>
 			<name>Unsavoury Saviour</name>
 			<text>When Unsavoury Saviour enters the battlefield, create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/60.png" num="186">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/56.png" num="186">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1047,8 +980,8 @@ At the beginning of combat on your turn, if an opponent has more cards in hand t
 		<card>
 			<name>Encounter FSH</name>
 			<text>(As this enters, choose an opponent to protect it. You and others can attack it.)
-When this battle is defeated, draw a card and create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/61.png" num="1">FSH</set>
+When this battle is defeated, draw a card and create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/57.png" num="1">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1064,8 +997,8 @@ When this battle is defeated, draw a card and create a Treasure token. (It&apos;
 		<card>
 			<name>Encounter FSH</name>
 			<text>(As this enters, choose an opponent to protect it. You and others can attack it.)
-When this battle is defeated, draw a card and create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/62.png" num="2">FSH</set>
+When this battle is defeated, draw a card and create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/58.png" num="2">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1079,29 +1012,11 @@ When this battle is defeated, draw a card and create a Treasure token. (It&apos;
 			<token>1</token>
 		</card>
 		<card>
-			<name>Survivor FSH</name>
-			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/63.png" num="3">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Token Creature — Survivor</type>
-				<maintype>Creature</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<colors>W</colors>
-				<coloridentity>W</coloridentity>
-				<pt>2/2</pt>
-			</prop>
-			<tablerow>2</tablerow>
-			<token>1</token>
-		</card>
-		<card>
 			<name>Road to Damnation</name>
 			<text>Target creature you control explores.
 Target creature you control explores. 
 Target creature you control explores. (To explore, reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/64.png" num="191">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/59.png" num="191">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1118,7 +1033,7 @@ Target creature you control explores. (To explore, reveal the top card of your l
 			<name>Shard of Madness</name>
 			<text>When you uncover this Relic, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 {T}, Sacrifice Shard of Madness: Draw two cards, then discard a card. Activate only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/65.png" num="71">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/60.png" num="71">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1134,7 +1049,7 @@ Target creature you control explores. (To explore, reveal the top card of your l
 		<card>
 			<name>Restless Guardian</name>
 			<text>When Restless Guardian enters the battlefield, it digs for a 2/1 black Skeleton creature token. (You may exile two cards that share a type from your graveyard. When you do, create a 2/1 black Skeleton creature token.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/66.png" num="198">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/61.png" num="198">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1151,7 +1066,7 @@ Target creature you control explores. (To explore, reveal the top card of your l
 		<card>
 			<name>Champion of the Harvest</name>
 			<text>Whenever a creature you control digs for a token, create an additional one of those tokens. (This ability triggers even if you don&apos;t exile cards that share a type.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/67.png" num="200">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/62.png" num="200">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1169,7 +1084,7 @@ Target creature you control explores. (To explore, reveal the top card of your l
 			<name>Vie for Territory</name>
 			<text>Each of up to two target creatures you control get +1/+1 and gain trample until end of turn.
 Create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/68.png" num="204">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/63.png" num="204">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1185,7 +1100,7 @@ Create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense
 		<card>
 			<name>Jaded Hireling</name>
 			<text>When Jaded Hireling enters the battlefield or dies, if you control another creature with mana value 3 or less, you draw a card and you lose 1 life.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/69.png" num="207">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/64.png" num="207">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1202,7 +1117,7 @@ Create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense
 		<card>
 			<name>Wealth&apos;s Allure</name>
 			<text>Search your library for up to two artifact cards, reveal them, put one into your hand and the other into your graveyard, then shuffle.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/70.png" num="211">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/65.png" num="211">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1220,7 +1135,7 @@ Create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense
 			<text>Choose one—
 • Create two 1/1 black Rat creature tokens.
 • Sacrifice a creature. If you do, draw two cards.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/71.png" num="214">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/66.png" num="214">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1237,7 +1152,7 @@ Create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense
 			<name>Ostaad Hireling</name>
 			<text>Vigilance, menace
 When Ostaad Hireling enters the battlefield, create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/72.png" num="218">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/67.png" num="218">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1255,7 +1170,7 @@ When Ostaad Hireling enters the battlefield, create an Encounter token. (It&apos
 			<name>Backstreet Kingpin</name>
 			<text>Trample
 Whenever Backstreet Kingpin explores, it deals damage equal to its power to up to one target creature or battle.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/73.png" num="219">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/68.png" num="219">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1272,7 +1187,7 @@ Whenever Backstreet Kingpin explores, it deals damage equal to its power to up t
 		<card>
 			<name>Plains</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/74.png" num="272">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/69.png" num="272">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1287,7 +1202,7 @@ Whenever Backstreet Kingpin explores, it deals damage equal to its power to up t
 		<card>
 			<name>Island</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/75.png" num="273">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/70.png" num="273">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1302,7 +1217,7 @@ Whenever Backstreet Kingpin explores, it deals damage equal to its power to up t
 		<card>
 			<name>Swamp</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/76.png" num="274">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/71.png" num="274">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1317,7 +1232,7 @@ Whenever Backstreet Kingpin explores, it deals damage equal to its power to up t
 		<card>
 			<name>Mountain</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/77.png" num="275">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/72.png" num="275">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1332,7 +1247,7 @@ Whenever Backstreet Kingpin explores, it deals damage equal to its power to up t
 		<card>
 			<name>Forest</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/78.png" num="276">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/73.png" num="276">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1347,7 +1262,7 @@ Whenever Backstreet Kingpin explores, it deals damage equal to its power to up t
 		<card>
 			<name>Moment of Preparation</name>
 			<text>Creatures you control gain vigilance until end of turn. After this main phase, there is an additional combat phase followed by an additional main phase.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/79.png" num="26">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/74.png" num="25">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1364,7 +1279,7 @@ Whenever Backstreet Kingpin explores, it deals damage equal to its power to up t
 			<name>Thrashing Amalgam</name>
 			<text>When Thrashing Amalgam enters the battlefield, exile up to one target nonland permanent.
 Whenever a battle you control is defeated, create a token that&apos;s a copy of the exiled permanent.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/80.png" num="3">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/75.png" num="3">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1381,7 +1296,7 @@ Whenever a battle you control is defeated, create a token that&apos;s a copy of 
 			<text>({T}: Add {U} or {B}.)
 Voordronk, Head of the Stir enters the battlefield tapped.
 {UB}{UB}{UB}{UB}{UB}, {T}, Exile Voordronk: Search your library for up to one instant card and up to one sorcery card, reveal them, put them into your hand, then shuffle.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/81.png" num="261">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/76.png" num="261">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1397,7 +1312,7 @@ Voordronk, Head of the Stir enters the battlefield tapped.
 			<name>Gnawbone, Skurl Prophet</name>
 			<text>Ward—Sacrifice a land.
 At the beginning of each end step, create a number of Plague Rats tokens equal to the number of players who lost life this turn. (They&apos;re */* black Rat creature tokens with &quot;Plague Rats&apos;s power and toughness are each equal to the number of creatures named Plague Rats on the battlefield.&quot;)</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/82.png" num="212">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/77.png" num="212">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1415,7 +1330,7 @@ At the beginning of each end step, create a number of Plague Rats tokens equal t
 			<name>Prismatic Gate</name>
 			<text>{T}: Add {C}.
 {2}, {T}: Choose a color. Add an amount of mana of that color equal to the number of differently named lands you control.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/83.png" num="255">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/78.png" num="255">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1430,7 +1345,7 @@ At the beginning of each end step, create a number of Plague Rats tokens equal t
 			<name>The Night King</name>
 			<text>As long as you control three or fewer other nontoken artifacts, The Night King loses all other abilities and is an artifact with &quot;{T}: Add one mana of any color.&quot;
 Flying, trample, hexproof from battles</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/84.png" num="222">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/79.png" num="222">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1450,7 +1365,7 @@ Flying, trample, hexproof from battles</text>
 Ward—Discard a card.
 You control enchanted player during each of that player&apos;s first main phases.
 At the beginning of combat on enchanted player&apos;s turn, untap all lands that player controls.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/85.png" num="194">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/80.png" num="194">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1467,7 +1382,7 @@ At the beginning of combat on enchanted player&apos;s turn, untap all lands that
 			<name>Nightstone Glyph</name>
 			<text>When you uncover this Relic, you may discard a card. If you do, draw a card.
 {X}, {T}, Sacrifice Nightstone Glyph: Put X target cards in a single graveyard on the bottom of their owner&apos;s library in a random order. Draw a card.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/86.png" num="237">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/81.png" num="237">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1481,8 +1396,8 @@ At the beginning of combat on enchanted player&apos;s turn, untap all lands that
 		<card>
 			<name>Rijkspire Ruins</name>
 			<text>{T}: Add {C}.
-{T}, Exile two cards from your graveyard that share a card type: Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/87.png" num="256">FSH</set>
+{T}, Exile two cards from your graveyard that share a card type: Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/82.png" num="256">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1498,7 +1413,7 @@ At the beginning of combat on enchanted player&apos;s turn, untap all lands that
 			<text>({T}: Add {R} or {W}.)
 Elegant Parlor enters the battlefield tapped.
 When Elegant Parlor enters the battlefield, surveil 1.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/88.png" num="252">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/83.png" num="252">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1513,7 +1428,7 @@ When Elegant Parlor enters the battlefield, surveil 1.</text>
 		<card>
 			<name>Markthal Ghost</name>
 			<text>Markthal Ghost has flying as long as it&apos;s attacking a battle.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/89.png" num="25">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/84.png" num="24">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1530,7 +1445,7 @@ When Elegant Parlor enters the battlefield, surveil 1.</text>
 		<card>
 			<name>Bounty of the Stir</name>
 			<text>Create two 1/1 blue Fish creature tokens.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/90.png" num="6">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/85.png" num="6">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1547,7 +1462,7 @@ When Elegant Parlor enters the battlefield, surveil 1.</text>
 			<name>Ostaad Wayfinder</name>
 			<text>During your turn, Ostaad Wayfinder has first strike.
 When Ostaad Wayfinder enters the battlefield, create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/91.png" num="31">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/86.png" num="30">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1564,7 +1479,7 @@ When Ostaad Wayfinder enters the battlefield, create an Encounter token. (It&apo
 		<card>
 			<name>Lingering Ghost</name>
 			<text>When Lingering Ghost enters the battlefield, look at the top four cards of your library. You may reveal a creature card with mana value 3 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/92.png" num="24">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/87.png" num="23">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1582,7 +1497,7 @@ When Ostaad Wayfinder enters the battlefield, create an Encounter token. (It&apo
 			<name>Procession of the Damned</name>
 			<text>Vigilance
 When Procession of the Damned dies, create a 2/2 white Survivor creature token.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/93.png" num="32">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/88.png" num="31">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1599,7 +1514,7 @@ When Procession of the Damned dies, create a 2/2 white Survivor creature token.<
 		<card>
 			<name>Amphibious Wretch</name>
 			<text>Amphibious Wretch can&apos;t be blocked by Rats.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/94.png" num="4">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/89.png" num="4">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1618,7 +1533,7 @@ When Procession of the Damned dies, create a 2/2 white Survivor creature token.<
 			<text>This spell costs {1} less to cast as long as you control a token.
 Flying
 When Necromancer&apos;s Herald enters the battlefield, draw a card.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/95.png" num="27">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/90.png" num="26">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1635,7 +1550,7 @@ When Necromancer&apos;s Herald enters the battlefield, draw a card.</text>
 		<card>
 			<name>Nightpit Corpsestitcher</name>
 			<text>When Nightpit Corpsestitcher enters the battlefield, distribute up to two stun counters among creatures you don&apos;t control. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/96.png" num="30">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/91.png" num="29">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1653,7 +1568,7 @@ When Necromancer&apos;s Herald enters the battlefield, draw a card.</text>
 			<name>Tomb Scavenger</name>
 			<text>Flying
 When Tomb Scavenger enters the battlefield, return target creature card with mana value 3 or less from your graveyard to your hand.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/97.png" num="39">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/92.png" num="39">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1668,9 +1583,9 @@ When Tomb Scavenger enters the battlefield, return target creature card with man
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Haunted Crossroads</name>
-			<text>Haunted Crossroads deals 3 damage to target attacking or blocking creature. If that creature would die this turn, exile it instead.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/98.png" num="22">FSH</set>
+			<name>Sinister Crossroads</name>
+			<text>Sinister Crossroads deals 3 damage to target attacking or blocking creature. If that creature would die this turn, exile it instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/93.png" num="37">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1686,7 +1601,7 @@ When Tomb Scavenger enters the battlefield, return target creature card with man
 		<card>
 			<name>Constant Paranoia</name>
 			<text>When Constant Paranoia enters the battlefield, exile target nonland permanent an opponent controls until Constant Paranoia leaves the battlefield. Then create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/99.png" num="8">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/94.png" num="8">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1702,7 +1617,7 @@ When Tomb Scavenger enters the battlefield, return target creature card with man
 		<card>
 			<name>Fate Forgotten</name>
 			<text>Exile target artifact or enchantment.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/100.png" num="18">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/95.png" num="18">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1719,7 +1634,7 @@ When Tomb Scavenger enters the battlefield, return target creature card with man
 			<name>Restless Wretch</name>
 			<text>If an effect would create one or more noncreature tokens under your control, it creates twice that many of those tokens instead.
 Unearth {1}{W}{W} ({1}{W}{W}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/101.png" num="35">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/96.png" num="34">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1737,7 +1652,7 @@ Unearth {1}{W}{W} ({1}{W}{W}: Return this card from your graveyard to the battle
 			<name>Shadowed Archlich</name>
 			<text>When Shadowed Archlich enters the battlefield, it explores.
 Whenever a creature you control explores, you may return target nonland permanent card with mana value 3 or less from your graveyard to the battlefield tapped.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/102.png" num="36">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/97.png" num="35">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1755,7 +1670,7 @@ Whenever a creature you control explores, you may return target nonland permanen
 			<name>The Fall of the Night Star</name>
 			<text>Destroy all creatures.
 Uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/103.png" num="17">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/98.png" num="17">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1770,9 +1685,9 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 		</card>
 		<card>
 			<name>Skull of the Vessel</name>
-			<text>When you uncover this Relic, each opponent gets a poison counter. (A player with ten or more poison counters loses the game.)
+			<text>When you uncover this Relic, each opponent gets a poison counter.
 {3}, {T}, Sacrifice Skull of the Vessel: Until end of turn, whenever a creature you control deals combat damage to a player, that player gets a poison counter. Activate only as a sorcery.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/104.png" num="243">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/99.png" num="243">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1786,7 +1701,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 		<card>
 			<name>Cursed Hubris</name>
 			<text>Distribute a stun counter, a decayed counter, and a finality counter among creatures your opponents control. (A creature with a decayed counter on it can&apos;t block. When it attacks, sacrifice it at end of combat. If a creature with a finality counter on it would die, exile it instead.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/105.png" num="10">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/100.png" num="10">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1803,7 +1718,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 			<name>Cackling Doodsvogel</name>
 			<text>Flying
 During your turn, your opponents can&apos;t activate abilities. (This includes mana abilities.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/106.png" num="7">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/101.png" num="7">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1820,7 +1735,7 @@ During your turn, your opponents can&apos;t activate abilities. (This includes m
 		<card>
 			<name>Descend Upon the Ruins</name>
 			<text>At the beginning of combat on your turn, target creature you control explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/107.png" num="11">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/102.png" num="11">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1838,7 +1753,7 @@ During your turn, your opponents can&apos;t activate abilities. (This includes m
 			<text>Flying
 As Shadowspinner enters the battlefield, choose a nonland permanent type.
 Permanents of the chosen type have &quot;At the beginning of your upkeep, sacrifice this permanent unless you pay {1}.&quot;</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/108.png" num="37">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/103.png" num="36">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1856,7 +1771,7 @@ Permanents of the chosen type have &quot;At the beginning of your upkeep, sacrif
 			<name>Eikon of Scorn</name>
 			<text>When you uncover this Relic, create a tapped 1/1 blue Fish creature token.
 {1}{W}, {T}, Sacrifice Eikon of Scorn: Put a +1/+1 counter on each creature you control. Activate only as a sorcery.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/109.png" num="14">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/104.png" num="14">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1873,7 +1788,7 @@ Permanents of the chosen type have &quot;At the beginning of your upkeep, sacrif
 			<name>Crazed Phrenologist</name>
 			<text>When Crazed Phrenologist enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 Each creature you control with a +1/+1 counter on it has lifelink.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/110.png" num="9">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/105.png" num="9">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1891,7 +1806,7 @@ Each creature you control with a +1/+1 counter on it has lifelink.</text>
 			<name>Sickly Farrow</name>
 			<text>Flying
 When Sickly Farrow enters the battlefield, uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/111.png" num="224">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/106.png" num="224">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1909,7 +1824,7 @@ When Sickly Farrow enters the battlefield, uncover. (Reveal a Relic you own from
 			<name>Rambunctious Kalfater</name>
 			<text>Lifelink
 When Rambunctious Kalfater enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/112.png" num="34">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/107.png" num="33">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1927,7 +1842,7 @@ When Rambunctious Kalfater enters the battlefield, it explores. (Reveal the top 
 			<name>Guard Veteran</name>
 			<text>As long as it&apos;s your turn, Guard Veteran has first strike.
 Guard Veteran&apos;s power and toughness are each equal to the number of creatures you control with mana value 3 or less.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/113.png" num="21">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/108.png" num="21">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1944,7 +1859,7 @@ Guard Veteran&apos;s power and toughness are each equal to the number of creatur
 		<card>
 			<name>Spectral Pilgrim</name>
 			<text>Whenever a battle you control is defeated, put a +1/+1 counter on Spectral Pilgrim.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/114.png" num="38">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/109.png" num="38">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1962,7 +1877,7 @@ Guard Veteran&apos;s power and toughness are each equal to the number of creatur
 			<name>Fortune Seeker</name>
 			<text>Fortune Seeker enters the battlefield with a +1/+1 counter on it.
 Remove a +1/+1 counter from Fortune Seeker: Create an Encounter token. Activate only as a sorcery. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/115.png" num="19">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/110.png" num="19">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1979,7 +1894,7 @@ Remove a +1/+1 counter from Fortune Seeker: Create an Encounter token. Activate 
 		<card>
 			<name>Enter the Cursed City</name>
 			<text>Create two 2/2 white Survivor creature tokens and an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/116.png" num="15">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/111.png" num="15">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1996,7 +1911,7 @@ Remove a +1/+1 counter from Fortune Seeker: Create an Encounter token. Activate 
 			<name>Highway Ghoul</name>
 			<text>Double strike
 Whenever another creature you control attacks a battle, untap it.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/117.png" num="23">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/112.png" num="22">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2014,7 +1929,7 @@ Whenever another creature you control attacks a battle, untap it.</text>
 			<name>Freeblade Captain</name>
 			<text>Vigilance
 Other creatures you control with mana value 3 or less get +1/+1.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/118.png" num="20">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/113.png" num="20">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2032,7 +1947,7 @@ Other creatures you control with mana value 3 or less get +1/+1.</text>
 			<name>Night Watch</name>
 			<text>Lifelink
 When Night Watch enters the battlefield, if it wasn&apos;t cast, you may exile it. When you do, create two 2/1 black Skeleton creature tokens.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/119.png" num="29">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/114.png" num="28">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2050,7 +1965,7 @@ When Night Watch enters the battlefield, if it wasn&apos;t cast, you may exile i
 			<name>Descent into Madness</name>
 			<text>As an additional cost to cast this spell, sacrifice a nonland permanent.
 Creatures you control get +2/+2 and gain trample over battles until end of turn. (They can deal excess combat damage to the protector of battles they attack.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/120.png" num="12">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/115.png" num="12">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2068,7 +1983,7 @@ Creatures you control get +2/+2 and gain trample over battles until end of turn.
 			<text>When Expunge the Mind enters the battlefield, choose a nonland card name.
 Spells with the chosen name cost {2} more to cast.
 When a player casts a spell with the chosen name, sacrifice Expunge the Mind. When you do, draw a card.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/121.png" num="16">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/116.png" num="16">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2084,7 +1999,7 @@ When a player casts a spell with the chosen name, sacrifice Expunge the Mind. Wh
 		<card>
 			<name>Where Desperation Ends</name>
 			<text>Destroy target nonland permanent. Its controller creates an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/122.png" num="40">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/117.png" num="40">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2100,7 +2015,7 @@ When a player casts a spell with the chosen name, sacrifice Expunge the Mind. Wh
 		<card>
 			<name>Beacon to Nowhere</name>
 			<text>Exile target creature you control, then return that card to the battlefield under its owner&apos;s control with a +1/+1 counter on it.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/123.png" num="5">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/118.png" num="5">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2117,7 +2032,7 @@ When a player casts a spell with the chosen name, sacrifice Expunge the Mind. Wh
 			<name>Gnarled Warning</name>
 			<text>Vigilance
 Whenever you cast an artifact spell, Gnarled Warning gains flying until end of turn.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/124.png" num="53">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/119.png" num="53">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2134,7 +2049,7 @@ Whenever you cast an artifact spell, Gnarled Warning gains flying until end of t
 		<card>
 			<name>Andula Reaver</name>
 			<text>When Andula Reaver enters the battlefield, uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/125.png" num="43">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/120.png" num="43">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2151,7 +2066,7 @@ Whenever you cast an artifact spell, Gnarled Warning gains flying until end of t
 		<card>
 			<name>Mortuary Merchant</name>
 			<text>Vigilance</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/126.png" num="61">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/121.png" num="61">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2168,7 +2083,7 @@ Whenever you cast an artifact spell, Gnarled Warning gains flying until end of t
 		<card>
 			<name>Ossuary Guardian</name>
 			<text>When Ossuary Guardian dies, draw a card.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/127.png" num="65">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/122.png" num="65">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2186,7 +2101,7 @@ Whenever you cast an artifact spell, Gnarled Warning gains flying until end of t
 			<name>Animate Architecture</name>
 			<text>Flying
 When Animate Architecture enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/128.png" num="44">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/123.png" num="44">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2203,7 +2118,7 @@ When Animate Architecture enters the battlefield, it explores. (Reveal the top c
 		<card>
 			<name>Shattered Squire</name>
 			<text>When Shattered Squire enters the battlefield, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/129.png" num="72">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/124.png" num="72">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2220,7 +2135,7 @@ When Animate Architecture enters the battlefield, it explores. (Reveal the top c
 		<card>
 			<name>Cistern Stalker</name>
 			<text>This spell costs {1} less to cast for each artifact you control.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/130.png" num="49">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/125.png" num="49">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2236,9 +2151,9 @@ When Animate Architecture enters the battlefield, it explores. (Reveal the top c
 		</card>
 		<card>
 			<name>Stir&apos;s Bounty</name>
-			<text>Target creature you control gains hexproof and shielded until end of turn. (Prevent all damage that would be dealt to it.)
+			<text>Target creature you control gains hexproof and shielded until end of turn.
 Draw a card.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/131.png" num="75">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/126.png" num="75">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2255,7 +2170,7 @@ Draw a card.</text>
 			<name>Wisdom of the Stylites</name>
 			<text>Draw two cards.
 Create a Map token. (It&apos;s an artifact with &quot;{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.&quot;)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/132.png" num="77">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/127.png" num="77">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2273,7 +2188,7 @@ Create a Map token. (It&apos;s an artifact with &quot;{1}, {T}, Sacrifice this a
 			<text>Enchant creature
 When Lich&apos;s Call enters the battlefield, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 Enchanted creature loses all abilities and is a black Zombie creature with base power and toughness 1/1.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/133.png" num="56">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/128.png" num="56">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2289,7 +2204,7 @@ Enchanted creature loses all abilities and is a black Zombie creature with base 
 		<card>
 			<name>Stark Isolation</name>
 			<text>Target creature&apos;s owner puts it on their choice of bottom of their library or into their library second from the top.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/134.png" num="74">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/129.png" num="74">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2306,7 +2221,7 @@ Enchanted creature loses all abilities and is a black Zombie creature with base 
 			<name>Darkwater Tyrant</name>
 			<text>Whenever another Fish, Kraken, or Serpent you control deals combat damage to a player, create a token that&apos;s a copy of it.
 Unearth {3}{U}{U}{U} ({3}{U}{U}{U}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/135.png" num="50">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/130.png" num="50">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2324,7 +2239,7 @@ Unearth {3}{U}{U}{U} ({3}{U}{U}{U}: Return this card from your graveyard to the 
 			<name>Lord of Deepwater</name>
 			<text>Whenever an Island enters the battlefield under your control, target creature can&apos;t be blocked this turn.
 Other blue creatures you control get +1/+1.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/136.png" num="58">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/131.png" num="58">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2342,7 +2257,7 @@ Other blue creatures you control get +1/+1.</text>
 			<name>Northlands Cursewing</name>
 			<text>Flying
 Whenever Northlands Cursewing attacks, it digs for a token that&apos;s a copy of target artifact you control. (You may exile two cards that share a type from your graveyard. When you do, create a token that&apos;s a copy of target artifact you control.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/137.png" num="64">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/132.png" num="64">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2359,7 +2274,7 @@ Whenever Northlands Cursewing attacks, it digs for a token that&apos;s a copy of
 		<card>
 			<name>River&apos;s Rebuke</name>
 			<text>Return all nonland permanents target player controls to their owner&apos;s hand.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/138.png" num="67">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/133.png" num="67">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2376,7 +2291,7 @@ Whenever Northlands Cursewing attacks, it digs for a token that&apos;s a copy of
 			<name>Lost King of the Stir</name>
 			<text>At the beginning of your upkeep, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 Whenever you cast a noncreature spell, Lost King of the Stir digs for two 1/1 blue Fish creature tokens. (You may exile two cards that share a type from your graveyard. When you do, create two 1/1 blue Fish creature tokens.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/139.png" num="59">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/134.png" num="59">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2394,7 +2309,7 @@ Whenever you cast a noncreature spell, Lost King of the Stir digs for two 1/1 bl
 			<name>Deluge Shell</name>
 			<text>When you uncover this Relic, target player mills three cards.
 {3}{U}{U}, {T}, Sacrifice Deluge Shell: Draw a card for each instant and sorcery card in your graveyard.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/140.png" num="51">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/135.png" num="51">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2411,7 +2326,7 @@ Whenever you cast a noncreature spell, Lost King of the Stir digs for two 1/1 bl
 			<name>Intrusive Intent</name>
 			<text>As an additional cost to cast this spell, sacrifice an artifact.
 Search your library for a card, put that card into your hand, then shuffle.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/141.png" num="54">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/136.png" num="54">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2430,7 +2345,7 @@ Search your library for a card, put that card into your hand, then shuffle.</tex
 • If Tempted Penitent is a Cleric, put a +1/+1 counter on it and it becomes a Human Peasant.
 • If Tempted Penitent is a Peasant, put a +1/+1 counter on it and it becomes a Human Rogue.
 • If Tempted Penitent is a Rogue, return target nonland permanent an opponent controls to its owner&apos;s hand.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/142.png" num="76">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/137.png" num="76">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2447,7 +2362,7 @@ Search your library for a card, put that card into your hand, then shuffle.</tex
 		<card>
 			<name>Wretched Vessel</name>
 			<text>Flying, vigilance</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/143.png" num="78">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/138.png" num="78">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2464,7 +2379,7 @@ Search your library for a card, put that card into your hand, then shuffle.</tex
 		<card>
 			<name>Shambling Vessel</name>
 			<text>Whenever an artifact enters the battlefield under your control or is put into your graveyard from the battlefield, target player mills two cards.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/144.png" num="70">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/139.png" num="70">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2482,7 +2397,7 @@ Search your library for a card, put that card into your hand, then shuffle.</tex
 			<name>Nightpit Hybrid</name>
 			<text>Whenever a creature you control explores a land card, put a +1/+1 counter on Nightpit Hybrid.
 Whenever a creature you control explores a nonland card, target creature you control gains flying until end of turn.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/145.png" num="62">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/140.png" num="62">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2500,7 +2415,7 @@ Whenever a creature you control explores a nonland card, target creature you con
 			<name>Audacious Pilferer</name>
 			<text>Audacious Pilferer can&apos;t be blocked.
 When Audacious Pilferer enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/146.png" num="45">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/141.png" num="45">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2518,7 +2433,7 @@ When Audacious Pilferer enters the battlefield, it explores. (Reveal the top car
 			<name>Loathsome Manfly</name>
 			<text>Flying
 Whenever Loathsome Manfly deals combat damage to a player or battle, uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/147.png" num="57">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/142.png" num="57">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2536,7 +2451,7 @@ Whenever Loathsome Manfly deals combat damage to a player or battle, uncover. (R
 			<name>Karmijk&apos;s Coven</name>
 			<text>Karmijk&apos;s Coven can&apos;t be blocked.
 When Karmijk&apos;s Coven enters the battlefield, uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/148.png" num="225">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/143.png" num="225">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2552,8 +2467,8 @@ When Karmijk&apos;s Coven enters the battlefield, uncover. (Reveal a Relic you o
 		</card>
 		<card>
 			<name>Accursed Skyline</name>
-			<text>Exile two cards from your graveyard that share a card type: Target creature you control explores. Activate only as a sorcery. (To explore, reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/149.png" num="42">FSH</set>
+			<text>Exile two cards from your graveyard that share a card type: Target creature you control explores. Activate only as a sorcery. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/144.png" num="42">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2569,7 +2484,7 @@ When Karmijk&apos;s Coven enters the battlefield, uncover. (Reveal a Relic you o
 		<card>
 			<name>Midnight Pilfering</name>
 			<text>Mill three cards, then you may return an instant or sorcery card from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/150.png" num="60">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/145.png" num="60">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2585,7 +2500,7 @@ When Karmijk&apos;s Coven enters the battlefield, uncover. (Reveal a Relic you o
 		<card>
 			<name>Ruin&apos;s Wake</name>
 			<text>Counter target spell unless its controller pays {3} or exiles two cards that share a card type from their graveyard.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/151.png" num="68">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/146.png" num="68">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2602,7 +2517,7 @@ When Karmijk&apos;s Coven enters the battlefield, uncover. (Reveal a Relic you o
 			<name>Bones of the Righteous</name>
 			<text>When you uncover this Relic, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 {T}, Sacrifice an artifact: Target player mills three cards.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/152.png" num="47">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/147.png" num="47">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2619,7 +2534,7 @@ When Karmijk&apos;s Coven enters the battlefield, uncover. (Reveal a Relic you o
 			<name>Nightstone Visions</name>
 			<text>Draw a card.
 Uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/153.png" num="63">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/148.png" num="63">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2635,7 +2550,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 		<card>
 			<name>Buried Wealth</name>
 			<text>Search your library for up to three artifact cards, put them into your graveyard, then shuffle.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/154.png" num="48">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/149.png" num="48">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2651,7 +2566,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 		<card>
 			<name>Nightstone Revenant</name>
 			<text>Whenever an artifact you control is put into a graveyard from the battlefield, each opponent loses 1 life.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/155.png" num="195">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/150.png" num="195">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2669,7 +2584,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 			<name>Sickly Hatchling</name>
 			<text>Flying
 {1}, {T}, Sacrifice Sickly Hatchling: Uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/156.png" num="106">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/151.png" num="106">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2686,7 +2601,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 		<card>
 			<name>Leering Skyshadow</name>
 			<text>Flying, deathtouch, lifelink</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/157.png" num="95">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/152.png" num="95">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2703,7 +2618,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 		<card>
 			<name>Gnawbone&apos;s Ratspaw</name>
 			<text>When Gnawbone&apos;s Ratspaw enters the battlefield, mill two cards and you gain 2 life.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/158.png" num="90">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/153.png" num="90">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2720,7 +2635,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 		<card>
 			<name>Inexorable Tide of the Dead</name>
 			<text>When Inexorable Tide of the Dead enters the battlefield, each opponent loses 2 life and you gain 2 life.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/159.png" num="93">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/154.png" num="93">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2737,7 +2652,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 		<card>
 			<name>Ambling Architecture</name>
 			<text>This spell costs {1} less to cast for each artifact card in your graveyard.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/160.png" num="79">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/155.png" num="79">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2754,7 +2669,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 		<card>
 			<name>By the Light of the Moon</name>
 			<text>Target creature gets +2/-2 until end of turn.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/161.png" num="82">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/156.png" num="82">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2770,7 +2685,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 		<card>
 			<name>Theft in the Shadows</name>
 			<text>Target opponent reveals their hand. You choose a nonland, nonartifact card from it. That player discards that card. Create a 1/1 black Rat creature token.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/162.png" num="112">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/157.png" num="112">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2787,7 +2702,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 			<name>Bog Offering</name>
 			<text>As an additional cost to cast this spell, sacrifice an artifact or creature.
 Exile target creature or planeswalker.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/163.png" num="80">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/158.png" num="80">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2803,7 +2718,7 @@ Exile target creature or planeswalker.</text>
 		<card>
 			<name>Burning Nightstone</name>
 			<text>Destroy target creature or land.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/164.png" num="81">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/159.png" num="81">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2820,7 +2735,7 @@ Exile target creature or planeswalker.</text>
 			<name>Sludge Maggot</name>
 			<text>Whenever Sludge Maggot deals combat damage to a player, you pay up to that much life. If you do, draw that many cards.
 Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/165.png" num="110">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/160.png" num="110">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2839,7 +2754,7 @@ Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield.
 			<text>(As this enters, choose an opponent to protect it. You can attack it.)
 When To Defy Death Itself enters the battlefield, search your library for a nonlegendary card, put that card into your graveyard, then shuffle.
 When To Defy Death Itself is defeated, return target card from your graveyard to your hand.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/166.png" num="113">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/161.png" num="113">FSH</set>
 			<prop>
 				<layout>battle</layout>
 				<side>front</side>
@@ -2856,7 +2771,7 @@ When To Defy Death Itself is defeated, return target card from your graveyard to
 		<card>
 			<name>Skurl Warpseer</name>
 			<text>At the beginning of your upkeep, you may exile two cards that share a card type from your graveyard. If you do, draw a card. Otherwise, you lose 2 life.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/167.png" num="109">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/162.png" num="109">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2875,7 +2790,7 @@ When To Defy Death Itself is defeated, return target card from your graveyard to
 			<text>When Nightpit Spawn enters the battlefield, it digs for a colorless Swamp land token. (You may exile two cards that share a type from your graveyard. When you do, create a colorless Swamp land token.)
 Whenever you tap a Swamp for mana, add an additional {B}.
 {B}{B}: Nightpit Spawn gets +2/+2 until end of turn.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/168.png" num="98">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/163.png" num="98">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2892,7 +2807,7 @@ Whenever you tap a Swamp for mana, add an additional {B}.
 		<card>
 			<name>Mocking Laughter of the Dead</name>
 			<text>Until end of turn, all creatures get +1/+0 and gain &quot;Whenever this creature is dealt damage, you draw that many cards and lose that much life.&quot;</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/169.png" num="96">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/164.png" num="96">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2909,7 +2824,7 @@ Whenever you tap a Swamp for mana, add an additional {B}.
 			<name>Karmijk, Cult Magister</name>
 			<text>At the beginning of your end step, if a creature died under an opponent&apos;s control this turn, create a tapped 2/2 white Survivor creature token.
 Tap five untapped creatures you control: Search your library for a Demon creature card, put it onto the battlefield, then shuffle. Activate only as a sorcery.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/170.png" num="94">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/165.png" num="94">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2926,7 +2841,7 @@ Tap five untapped creatures you control: Search your library for a Demon creatur
 		<card>
 			<name>Filthy, Wretched, and Vile</name>
 			<text>At the beginning of your upkeep, you lose 1 life and create a tapped Plague Rats token. (It&apos;s a */* black Rat creature token with &quot;Plague Rats&apos;s power and toughness are each equal to the number of creatures named Plague Rats on the battlefield.&quot;)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/171.png" num="86">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/166.png" num="86">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2943,7 +2858,7 @@ Tap five untapped creatures you control: Search your library for a Demon creatur
 			<name>A Shadow Descends</name>
 			<text>As an additional cost to cast this spell, pay {B} or exile two cards that share a card type from your graveyard.
 All creatures get -3/-3 until end of turn.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/172.png" num="104">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/167.png" num="104">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2960,7 +2875,7 @@ All creatures get -3/-3 until end of turn.</text>
 			<name>Corpse Sphere</name>
 			<text>When you uncover this Relic, exile up to one target card from each player&apos;s graveyard.
 {X}{B}, {T}, Sacrifice Corpse Sphere: Choose a creature card with mana value X or less exiled with a card named Corpse Sphere and put it onto the battlefield under your control.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/173.png" num="83">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/168.png" num="83">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2977,7 +2892,7 @@ All creatures get -3/-3 until end of turn.</text>
 			<name>Onerous Wight</name>
 			<text>Deathtouch
 Whenever one or more cards leave your graveyard, each opponent loses 1 life. This ability triggers only once each turn.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/174.png" num="99">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/169.png" num="99">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2994,8 +2909,8 @@ Whenever one or more cards leave your graveyard, each opponent loses 1 life. Thi
 		<card>
 			<name>Shadow of Glory</name>
 			<text>{B}: Shadow of Glory gets +1/+1 until end of turn.
-When Shadow of Glory dies, if its power was 5 or greater, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/175.png" num="105">FSH</set>
+When Shadow of Glory dies, if its power was 5 or greater, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/170.png" num="105">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3013,7 +2928,7 @@ When Shadow of Glory dies, if its power was 5 or greater, create a Treasure toke
 			<name>Plague Flagellants</name>
 			<text>Menace
 When Plague Flagellants enters the battlefield, each opponent loses X life and you gain X life, where X is the number of Rats you control.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/176.png" num="100">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/171.png" num="100">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3031,7 +2946,7 @@ When Plague Flagellants enters the battlefield, each opponent loses X life and y
 			<name>Scrabbling Kabouter</name>
 			<text>When Scrabbling Kabouter enters the battlefield, return target creature card from your graveyard to your hand.
 Whenever one or more cards leave your graveyard, put a +1/+1 counter on Scrabbling Kabouter.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/177.png" num="103">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/172.png" num="103">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3049,7 +2964,7 @@ Whenever one or more cards leave your graveyard, put a +1/+1 counter on Scrabbli
 			<name>Skurl Nightblade</name>
 			<text>Deathtouch
 When Skurl Nightblade enters the battlefield, you may sacrifice an artifact or creature. If you do, target creature an opponent controls gets -2/-2 until end of turn.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/178.png" num="108">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/173.png" num="108">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3066,7 +2981,7 @@ When Skurl Nightblade enters the battlefield, you may sacrifice an artifact or c
 		<card>
 			<name>Savage Magister</name>
 			<text>{1}, Sacrifice an artifact or creature: Savage Magister digs for a tapped 2/1 black Skeleton creature token. (You may exile two cards that share a type from your graveyard. When you do, create a tapped 2/1 black Skeleton creature token. You may exile the sacrificed card this way.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/179.png" num="102">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/174.png" num="102">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3084,7 +2999,7 @@ When Skurl Nightblade enters the battlefield, you may sacrifice an artifact or c
 			<name>Necroballista</name>
 			<text>Defender
 {B}, Sacrifice an artifact: Put a +1/+1 counter on Necroballista. Until end of turn, it gains menace and can attack as though it didn&apos;t have defender. Activate only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/180.png" num="97">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/175.png" num="97">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3101,7 +3016,7 @@ When Skurl Nightblade enters the battlefield, you may sacrifice an artifact or c
 		<card>
 			<name>Illness in the Ranks</name>
 			<text>Creature tokens get -1/-1.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/181.png" num="92">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/176.png" num="92">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3118,7 +3033,7 @@ When Skurl Nightblade enters the battlefield, you may sacrifice an artifact or c
 			<name>When a Body Meets a Body</name>
 			<text>Target creature gets +3/-3 until end of turn.
 Uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/182.png" num="226">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/177.png" num="226">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3134,7 +3049,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 		<card>
 			<name>Strategic Betrayal</name>
 			<text>Target opponent exiles a creature they control and their graveyard.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/183.png" num="111">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/178.png" num="111">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3151,7 +3066,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 			<name>Glory&apos;s Ruin</name>
 			<text>All creatures get -2/-2 until end of turn.
 Uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/184.png" num="89">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/179.png" num="89">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3168,7 +3083,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 			<name>Witchfinder&apos;s Heart</name>
 			<text>When you uncover this Relic, each opponent loses 1 life.
 {2}{B}{B}, {T}, Sacrifice Witchfinder&apos;s Heart: Return target creature card from your graveyard to the battlefield. Activate only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/185.png" num="114">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/180.png" num="114">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3185,7 +3100,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 			<name>The Graves of Curious Men</name>
 			<text>{1}{B}, Sacrifice a creature: You draw a card and you lose 1 life. Put a soul counter on The Graves of Curious Men.
 At the beginning of your end step, if The Graves of Curious Men has three or more soul counters on it, sacrifice it and each opponent loses 3 life.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/186.png" num="91">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/181.png" num="91">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3202,7 +3117,7 @@ At the beginning of your end step, if The Graves of Curious Men has three or mor
 			<name>Encamped Survivor</name>
 			<text>Menace, haste
 When Encamped Survivor dies, uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/187.png" num="128">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/182.png" num="128">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3220,7 +3135,7 @@ When Encamped Survivor dies, uncover. (Reveal a Relic you own from outside the g
 			<name>Deathless Rider</name>
 			<text>When Deathless Rider enters the battlefield, create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)
 {T}: Target creature you control gains menace until end of turn.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/188.png" num="122">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/183.png" num="122">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3238,7 +3153,7 @@ When Encamped Survivor dies, uncover. (Reveal a Relic you own from outside the g
 			<name>Cathedral Guardian</name>
 			<text>Menace
 When Cathedral Guardian enters the battlefield, create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/189.png" num="119">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/184.png" num="119">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3255,7 +3170,7 @@ When Cathedral Guardian enters the battlefield, create an Encounter token. (It&a
 		<card>
 			<name>Wicked Tempter</name>
 			<text>Wicked Tempter has menace as long as one or more cards left your graveyard this turn.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/190.png" num="151">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/185.png" num="151">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3272,7 +3187,7 @@ When Cathedral Guardian enters the battlefield, create an Encounter token. (It&a
 		<card>
 			<name>Execrable Throng</name>
 			<text>When Execrable Throng enters the battlefield, uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/191.png" num="129">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/186.png" num="129">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3290,7 +3205,7 @@ When Cathedral Guardian enters the battlefield, create an Encounter token. (It&a
 			<name>Gilt-Wreathed Idol</name>
 			<text>Trample
 When Gilt-Wreathed Idol enters the battlefield, it digs for a Treasure token. (You may exile two cards that share a type from your graveyard. When you do, create a Treasure token.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/192.png" num="132">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/187.png" num="132">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3307,7 +3222,7 @@ When Gilt-Wreathed Idol enters the battlefield, it digs for a Treasure token. (Y
 		<card>
 			<name>Nightwarped Wretch</name>
 			<text>Menace, reach</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/193.png" num="140">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/188.png" num="140">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3325,7 +3240,7 @@ When Gilt-Wreathed Idol enters the battlefield, it digs for a Treasure token. (Y
 			<name>Dockside Fire</name>
 			<text>Damage can&apos;t be prevented this turn. Dockside Fire deals 2 damage to any target.
 Create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/194.png" num="126">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/189.png" num="126">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3341,7 +3256,7 @@ Create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense
 		<card>
 			<name>And Death Rode With Them</name>
 			<text>And Death Rode With Them deals 6 damage to target creature. If excess damage was dealt this way, create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/195.png" num="116">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/190.png" num="116">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3358,7 +3273,7 @@ Create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense
 			<name>Nightpit Kuilhond</name>
 			<text>Whenever a source you control deals noncombat damage, you may add that much {R}. Do this only once each turn.
 Unearth {2}{R} ({2}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/196.png" num="137">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/191.png" num="137">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3375,7 +3290,7 @@ Unearth {2}{R} ({2}{R}: Return this card from your graveyard to the battlefield.
 		<card>
 			<name>Fall of Ghazuz</name>
 			<text>Fall of Ghazuz deals X damage to each creature. Until end of turn, whenever a creature dealt damage this way dies, create a tapped Treasure token.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/197.png" num="130">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/192.png" num="130">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3391,7 +3306,7 @@ Unearth {2}{R} ({2}{R}: Return this card from your graveyard to the battlefield.
 		<card>
 			<name>A Storm of Fish</name>
 			<text>A Storm of Fish deals 4 damage to each creature and each planeswalker, and 2 damage to each battle you control.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/198.png" num="146">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/193.png" num="146">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3407,7 +3322,7 @@ Unearth {2}{R} ({2}{R}: Return this card from your graveyard to the battlefield.
 		<card>
 			<name>Cataclysmic Landslide</name>
 			<text>Destroy all artifacts, then Cataclysmic Landslide deals damage to each opponent equal to the number of nontoken artifacts that were put into graveyards from the battlefield this turn.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/199.png" num="118">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/194.png" num="118">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3424,7 +3339,7 @@ Unearth {2}{R} ({2}{R}: Return this card from your graveyard to the battlefield.
 			<name>Feckless Pilferer</name>
 			<text>Haste
 Whenever Feckless Pilferer attacks, defending player may create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/200.png" num="131">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/195.png" num="131">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3442,7 +3357,7 @@ Whenever Feckless Pilferer attacks, defending player may create an Encounter tok
 			<name>Vortex Brooch</name>
 			<text>When you uncover this Relic, it deals 1 damage to any target.
 {1}{R}{R}, {T}, Sacrifice Vortex Brooch: When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/201.png" num="150">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/196.png" num="150">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3458,7 +3373,7 @@ Whenever Feckless Pilferer attacks, defending player may create an Encounter tok
 		<card>
 			<name>Scrap Mastery</name>
 			<text>Each player exiles all artifact cards from their graveyard, then sacrifices all artifacts they control, then puts all cards they exiled this way onto the battlefield.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/202.png" num="144">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/197.png" num="144">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3475,7 +3390,7 @@ Whenever Feckless Pilferer attacks, defending player may create an Encounter tok
 			<name>Supperating Mass</name>
 			<text>Menace
 Whenever Supperating Mass attacks, you may discard a card. If you do, uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/203.png" num="147">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/198.png" num="147">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3492,7 +3407,7 @@ Whenever Supperating Mass attacks, you may discard a card. If you do, uncover. (
 		<card>
 			<name>Grasping Corpse</name>
 			<text>Whenever an artifact enters the battlefield under your control or is put into your graveyard from the battlefield, Grasping Corpse gets +1/+1 until end of turn.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/204.png" num="133">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/199.png" num="133">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3510,7 +3425,7 @@ Whenever Supperating Mass attacks, you may discard a card. If you do, uncover. (
 			<name>Nightpit Skulker</name>
 			<text>Trample
 At the beginning of combat on your turn, if one or more cards left your graveyard this turn, distribute two +1/+1 counters among creatures you control.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/205.png" num="139">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/200.png" num="139">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3528,7 +3443,7 @@ At the beginning of combat on your turn, if one or more cards left your graveyar
 			<name>Hellfire Nightling</name>
 			<text>Menace, haste
 Whenever Hellfire Nightling attacks, you may discard a card. If you do, draw a card.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/206.png" num="134">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/201.png" num="134">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3546,7 +3461,7 @@ Whenever Hellfire Nightling attacks, you may discard a card. If you do, draw a c
 			<name>Wretched Spawn</name>
 			<text>When Wretched Spawn enters the battlefield, it digs for a 1/1 blue Fish creature token. (You may exile two cards that share a type from your graveyard. When you do, create a 1/1 blue Fish creature token.)
 Whenever one or more cards leave your graveyard, put a +1/+1 counter on Wretched Spawn. This ability triggers only once each turn.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/207.png" num="152">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/202.png" num="152">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3563,8 +3478,8 @@ Whenever one or more cards leave your graveyard, put a +1/+1 counter on Wretched
 		<card>
 			<name>Misshapen Marauder</name>
 			<text>When Misshapen Marauder enters the battlefield, it digs for a Treasure token. (You may exile two cards that share a type from your graveyard. When you do, create a Treasure token.)
-{R}, Exile Misshapen Marauder from your graveyard: Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/208.png" num="135">FSH</set>
+{R}, Exile Misshapen Marauder from your graveyard: Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/203.png" num="135">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3583,7 +3498,7 @@ Whenever one or more cards leave your graveyard, put a +1/+1 counter on Wretched
 			<text>Choose one —
 • Things Fall Apart deals 2 damage to each creature.
 • Uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/209.png" num="148">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/204.png" num="148">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3600,7 +3515,7 @@ Whenever one or more cards leave your graveyard, put a +1/+1 counter on Wretched
 			<name>Edge of Civilization</name>
 			<text>Edge of Civilization deals 5 damage to target artifact creature or creature with flying.
 Uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/210.png" num="227">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/205.png" num="227">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3616,7 +3531,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 		<card>
 			<name>Ritual of the Pit</name>
 			<text>Gain control of target creature until end of turn. Untap that creature. It gains haste and double strike until end of turn.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/211.png" num="142">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/206.png" num="142">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3634,7 +3549,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 			<text>Choose one —
 • Exile target artifact.
 • Disastrous Impact deals 3 damage to target creature. If that creature would die this turn, exile it instead.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/212.png" num="125">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/207.png" num="125">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3652,7 +3567,7 @@ Uncover. (Reveal a Relic you own from outside the game within this card&apos;s c
 			<text>When Coveted Riteknife enters the battlefield, create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)
 Equipped creature gets +1/+0 and has menace.
 Equip {R}</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/213.png" num="121">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/208.png" num="121">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3669,7 +3584,7 @@ Equip {R}</text>
 			<name>Bloodstone Trinket</name>
 			<text>When you uncover this Relic, up to one target creature can&apos;t block this turn.
 When Bloodstone Trinket enters the battlefield or is put into a graveyard from the battlefield, create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/214.png" num="117">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/209.png" num="117">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3686,7 +3601,7 @@ When Bloodstone Trinket enters the battlefield or is put into a graveyard from t
 			<name>Desperate Strike</name>
 			<text>Desperate Strike deals 2 damage to any target.
 {2}, Discard a card, exile Desperate Strike from your graveyard: Draw a card.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/215.png" num="124">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/210.png" num="124">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3702,7 +3617,7 @@ When Bloodstone Trinket enters the battlefield or is put into a graveyard from t
 		<card>
 			<name>Sewerwagg</name>
 			<text>{2}{G}: Sewerwagg gets +2/+2 until end of turn. Activate only once each turn. This ability costs {2} less to activate as long as Sewerwagg is blocked.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/216.png" num="178">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/211.png" num="178">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3719,7 +3634,7 @@ When Bloodstone Trinket enters the battlefield or is put into a graveyard from t
 		<card>
 			<name>Scrabble Rouser</name>
 			<text>When Scrabble Rouser enters the battlefield, mill three cards. You may put a creature or land card from among the cards milled this way into your hand.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/217.png" num="177">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/212.png" num="177">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3736,7 +3651,7 @@ When Bloodstone Trinket enters the battlefield or is put into a graveyard from t
 		<card>
 			<name>Ruin Skulker</name>
 			<text>When Ruin Skulker enters the battlefield, you may have it deal damage equal to its power to target battle, artifact creature, or creature with flying.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/218.png" num="175">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/213.png" num="175">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3754,7 +3669,7 @@ When Bloodstone Trinket enters the battlefield or is put into a graveyard from t
 			<name>Catch of the Day</name>
 			<text>Vigilance
 {2}, Discard Catch of the Day: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/219.png" num="157">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/214.png" num="157">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3772,7 +3687,7 @@ When Bloodstone Trinket enters the battlefield or is put into a graveyard from t
 			<name>Skurl Abomination</name>
 			<text>As an additional cost to cast this spell, sacrifice a Rat or pay {2}{G}
 Trample</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/220.png" num="181">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/215.png" num="181">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3790,7 +3705,7 @@ Trample</text>
 			<name>Scourge of the Hinterlands</name>
 			<text>Scourge of the Hinterlands can&apos;t be blocked by creatures with power 2 or less.
 When Scourge of the Hinterlands enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/221.png" num="176">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/216.png" num="176">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3808,7 +3723,7 @@ When Scourge of the Hinterlands enters the battlefield, it explores. (Reveal the
 			<name>Undead Titan</name>
 			<text>Trample
 When Undead Titan enters the battlefield, it digs for a 2/2 white Survivor creature token. (You may exile two cards that share a type from your graveyard. When you do, create a 2/2 white Survivor creature token.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/222.png" num="185">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/217.png" num="185">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3824,8 +3739,8 @@ When Undead Titan enters the battlefield, it digs for a 2/2 white Survivor creat
 		</card>
 		<card>
 			<name>Violent Roots</name>
-			<text>Target creature you control explores. Then it fights target creature you don&apos;t control. (To explore, reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/223.png" num="188">FSH</set>
+			<text>Target creature you control explores. Then it fights target creature you don&apos;t control. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/218.png" num="188">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3842,7 +3757,7 @@ When Undead Titan enters the battlefield, it digs for a 2/2 white Survivor creat
 			<name>Hinterland Savagery</name>
 			<text>Target creature you control deals damage equal to its power to another target creature, planeswalker, or battle.
 Create a Map token. (It&apos;s an artifact with &quot;{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.&quot;)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/224.png" num="165">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/219.png" num="165">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3857,8 +3772,8 @@ Create a Map token. (It&apos;s an artifact with &quot;{1}, {T}, Sacrifice this a
 		</card>
 		<card>
 			<name>Sinister Drumbeat</name>
-			<text>Target creature gets +3/+3 and gains shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/225.png" num="180">FSH</set>
+			<text>Target creature gets +3/+3 and gains shielded until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/220.png" num="180">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3876,7 +3791,7 @@ Create a Map token. (It&apos;s an artifact with &quot;{1}, {T}, Sacrifice this a
 			<text>Enchant land
 When Shadow of Damnation enters the battlefield, create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)
 Enchanted land has &quot;{T}: Add {G}{G}.&quot;</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/226.png" num="179">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/221.png" num="179">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3893,7 +3808,7 @@ Enchanted land has &quot;{T}: Add {G}{G}.&quot;</text>
 			<name>Walking Wormwood</name>
 			<text>Whenever you cast a creature spell, copy it. (The copy becomes a token.)
 Unearth {3}{G} ({3}{G}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/227.png" num="189">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/222.png" num="189">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3910,7 +3825,7 @@ Unearth {3}{G} ({3}{G}: Return this card from your graveyard to the battlefield.
 		<card>
 			<name>Vermin Lord</name>
 			<text>Whenever Vermin Lord enters the battlefield or attacks, mill two cards, then it digs for a Plague Rats token. (You may exile two cards that share a type from your graveyard. When you do, create a */* black Rat creature token with &quot;Plague Rats&apos;s power and toughness are each equal to the number of creatures named Plague Rats on the battlefield.&quot;)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/228.png" num="187">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/223.png" num="187">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3926,9 +3841,9 @@ Unearth {3}{G} ({3}{G}: Return this card from your graveyard to the battlefield.
 		</card>
 		<card>
 			<name>Primordial Chaos</name>
-			<text>Vigilance, haste; trample over battles (This creature can deal excess combat damage to the protector of battles it attacks.)
+			<text>Vigilance, haste; trample over battles (This creature can deal excess combat damage to the controller of battles blocking it.)
 Primordial Chaos enters the battlefield with X +1/+1 counters on it. When it does, create X Encounter tokens. (They&apos;re colorless Conflict battles with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/229.png" num="173">FSH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/224.png" num="173">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3945,7 +3860,7 @@ Primordial Chaos enters the battlefield with X +1/+1 counters on it. When it doe
 		<card>
 			<name>From the Maw of Madness</name>
 			<text>Search your library for a green creature card with mana value X or less, put it onto the battlefield, then shuffle. When a creature enters the battlefield this way, it digs for a token that&apos;s a copy of it. (You may exile two cards that share a type from your graveyard. When you do, create a token that&apos;s a copy of it.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/230.png" num="163">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/225.png" num="163">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3962,7 +3877,7 @@ Primordial Chaos enters the battlefield with X +1/+1 counters on it. When it doe
 			<name>Catacomb Worms</name>
 			<text>When Catacomb Worms enters the battlefield, create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)
 Whenever a battle you control is defeated, put a +1/+1 counter on Catacomb Worms.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/231.png" num="156">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/226.png" num="156">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3980,7 +3895,7 @@ Whenever a battle you control is defeated, put a +1/+1 counter on Catacomb Worms
 			<name>Accursed Choir</name>
 			<text>When Accursed Choir enters the battlefield, mill four cards.
 Whenever a land enters the battlefield under your control, Accursed Choir digs for a Treasure token. (You may exile two cards that share a type from your graveyard. When you do, create a Treasure token.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/232.png" num="153">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/227.png" num="153">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3997,7 +3912,7 @@ Whenever a land enters the battlefield under your control, Accursed Choir digs f
 		<card>
 			<name>Epic Struggle</name>
 			<text>At the beginning of your upkeep, if you control twenty or more creatures, you win the game.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/233.png" num="160">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/228.png" num="160">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4014,7 +3929,7 @@ Whenever a land enters the battlefield under your control, Accursed Choir digs f
 			<name>Primal Nightshard</name>
 			<text>When you uncover this Relic, you may put a basic land card from your hand onto the battlefield tapped.
 {X}, {T}, Sacrifice Primal Nightshard: Untap up to X target lands.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/234.png" num="172">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/229.png" num="172">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4030,7 +3945,7 @@ Whenever a land enters the battlefield under your control, Accursed Choir digs f
 		<card>
 			<name>Hinterland Witch</name>
 			<text>{T}: Hinterland Witch digs for a colorless Forest land token. (You may exile two cards that share a type from your graveyard. When you do, create a colorless Forest land token.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/235.png" num="166">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/230.png" num="166">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4047,7 +3962,7 @@ Whenever a land enters the battlefield under your control, Accursed Choir digs f
 		<card>
 			<name>Molder Away</name>
 			<text>Destroy up to two target artifacts.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/236.png" num="169">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/231.png" num="169">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4063,7 +3978,7 @@ Whenever a land enters the battlefield under your control, Accursed Choir digs f
 		<card>
 			<name>Woodland Prowler</name>
 			<text>When Woodland Prowler enters the battlefield, uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/237.png" num="228">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/232.png" num="228">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4080,7 +3995,7 @@ Whenever a land enters the battlefield under your control, Accursed Choir digs f
 		<card>
 			<name>Lord of the Grave</name>
 			<text>Whenever a creature you control digs for a token, put a +1/+1 counter on that creature. (This ability triggers even if you don&apos;t exile cards that share a type.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/238.png" num="168">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/233.png" num="168">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4097,7 +4012,7 @@ Whenever a land enters the battlefield under your control, Accursed Choir digs f
 		<card>
 			<name>Cemetery Shepherd</name>
 			<text>When Cemetery Shepherd enters the battlefield, it digs for a token that&apos;s a copy of target creature you control. (You may exile two cards that share a type from your graveyard. When you do, create a token that&apos;s a copy of target creature you control.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/239.png" num="158">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/234.png" num="158">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4115,7 +4030,7 @@ Whenever a land enters the battlefield under your control, Accursed Choir digs f
 			<name>Traveling Troubador</name>
 			<text>When Traveling Troubador enters the battlefield, create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)
 Whenever a battle you control is defeated, put a +1/+1 counter on Traveling Troubador.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/240.png" num="184">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/235.png" num="184">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4133,7 +4048,7 @@ Whenever a battle you control is defeated, put a +1/+1 counter on Traveling Trou
 			<name>Skurl Warlord</name>
 			<text>When Skurl Warlord enters the battlefield, create a 1/1 black Rat creature token.
 Whenever Skurl Warlord attacks, you may sacrifice another Rat. If you do, Rats you control get +1/+1 and gain trample until end of turn.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/241.png" num="182">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/236.png" num="182">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4150,7 +4065,7 @@ Whenever Skurl Warlord attacks, you may sacrifice another Rat. If you do, Rats y
 		<card>
 			<name>Rat King</name>
 			<text>When Rat King dies, create a number of 1/1 black Rat creature tokens equal to its power.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/242.png" num="174">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/237.png" num="174">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4167,7 +4082,7 @@ Whenever Skurl Warlord attacks, you may sacrifice another Rat. If you do, Rats y
 		<card>
 			<name>The Hour of the Rat</name>
 			<text>Mill five cards, then you may return a permanent card from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/243.png" num="167">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/238.png" num="167">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4183,7 +4098,7 @@ Whenever Skurl Warlord attacks, you may sacrifice another Rat. If you do, Rats y
 		<card>
 			<name>Fear in the Undercity</name>
 			<text>Target creature you control deals damage equal to its power to up to one target creature and damage equal to its toughness to up to one other target creature.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/244.png" num="161">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/239.png" num="161">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4199,7 +4114,7 @@ Whenever Skurl Warlord attacks, you may sacrifice another Rat. If you do, Rats y
 		<card>
 			<name>Pave Over</name>
 			<text>Search your library for a basic land card and up to one other card with a mana ability and reveal them. Put all land cards revealed this way onto the battlefield tapped and any other cards revealed this way into your hand. Then shuffle.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/245.png" num="171">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/240.png" num="171">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4216,7 +4131,7 @@ Whenever Skurl Warlord attacks, you may sacrifice another Rat. If you do, Rats y
 			<name>Enter the Unknown</name>
 			<text>Target creature you control explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)
 You may play an additional land this turn.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/246.png" num="159">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/241.png" num="159">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4234,7 +4149,7 @@ You may play an additional land this turn.</text>
 			<text>Flash
 Lifelink
 Whenever a nonland permanent enters the battlefield, if it wasn&apos;t cast, Ostaad Beasthunter deals 1 damage to each opponent.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/247.png" num="217">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/242.png" num="217">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4250,8 +4165,8 @@ Whenever a nonland permanent enters the battlefield, if it wasn&apos;t cast, Ost
 		</card>
 		<card>
 			<name>Splendor of the Night King</name>
-			<text>Whenever a land enters the battlefield under your control, create a 1/1 white and blue Wizard creature token with &quot;When this creature enters the battlefield, it explores.&quot; (To explore, reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/248.png" num="192">FSH</set>
+			<text>Whenever a land enters the battlefield under your control, create a 1/1 white and blue Wizard creature token with &quot;When this creature enters the battlefield, it explores.&quot; (To have this creature explore, reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/243.png" num="192">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4267,7 +4182,7 @@ Whenever a nonland permanent enters the battlefield, if it wasn&apos;t cast, Ost
 		<card>
 			<name>Something Sickly Awakens</name>
 			<text>Choose a card type. When you do, target player mills eight cards. Draw a card for each card of the chosen type milled this way.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/249.png" num="196">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/244.png" num="196">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4284,7 +4199,7 @@ Whenever a nonland permanent enters the battlefield, if it wasn&apos;t cast, Ost
 			<name>Rijkspire Tyrant</name>
 			<text>Flying, trample
 Whenever Rijkspire Tyrant deals combat damage to a player or battle, it digs for a 5/5 red Dragon creature token with flying and trample. (You may exile two cards that share a type from your graveyard. When you do, create a 5/5 red Dragon creature token with flying and trample.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/250.png" num="202">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/245.png" num="202">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4302,7 +4217,7 @@ Whenever Rijkspire Tyrant deals combat damage to a player or battle, it digs for
 			<name>Champion of Muck</name>
 			<text>Champion of Muck has double strike as long as it&apos;s attacking a battle.
 At the beginning of combat on your turn, if you control no battles, create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/251.png" num="203">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/246.png" num="203">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4322,7 +4237,7 @@ At the beginning of combat on your turn, if you control no battles, create an En
 • Counter target noncreature spell.
 • Map of the Cursed City deals 2 damage to any target.
 • Uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/252.png" num="209">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/247.png" num="209">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4339,7 +4254,7 @@ At the beginning of combat on your turn, if you control no battles, create an En
 			<name>Riders of Ruin</name>
 			<text>Whenever Riders of Ruin or another creature enters the battlefield under your control, you may discard a card. If you do, draw a card.
 Whenever Riders of Ruin attacks, it digs for a 2/1 black Skeleton creature token. (You may exile two cards that share a type from your graveyard. When you do, create a 2/1 black Skeleton creature token.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/253.png" num="199">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/248.png" num="199">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4357,7 +4272,7 @@ Whenever Riders of Ruin attacks, it digs for a 2/1 black Skeleton creature token
 			<name>Shadow of the Empire</name>
 			<text>Whenever a creature enters the battlefield under your control, it explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)
 {2}, Discard a land card: Draw a card.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/254.png" num="221">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/249.png" num="221">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4375,7 +4290,7 @@ Whenever Riders of Ruin attacks, it digs for a 2/1 black Skeleton creature token
 			<text>When Warp Cannon enters the battlefield, create a 1/1 black Rat creature token.
 Tap an untapped Rat you control: Put a charge counter on Warp Cannon.
 {T}, Sacrifice Warp Cannon: Destroy each nonland permanent with mana value equal to the number of charge counters on Warp Cannon.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/255.png" num="215">FSH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/250.png" num="215">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4390,8 +4305,8 @@ Tap an untapped Rat you control: Put a charge counter on Warp Cannon.
 		</card>
 		<card>
 			<name>Pilfered Monument</name>
-			<text>When Pilfered Monument enters the battlefield or dies, create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/256.png" num="239">FSH</set>
+			<text>When Pilfered Monument enters the battlefield or dies, create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/251.png" num="239">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4406,7 +4321,7 @@ Tap an untapped Rat you control: Put a charge counter on Warp Cannon.
 		<card>
 			<name>Gore Titan</name>
 			<text>Vigilance, reach, trample</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/257.png" num="234">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/252.png" num="234">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4422,7 +4337,7 @@ Tap an untapped Rat you control: Put a charge counter on Warp Cannon.
 			<name>Fragment</name>
 			<text>This spell costs {3} less to cast if it targets a permanent with mana value 3 or less.
 Destroy target nonland permanent.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/258.png" num="1">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/253.png" num="1">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4437,7 +4352,7 @@ Destroy target nonland permanent.</text>
 			<name>Haughty Hireling</name>
 			<text>Haughty Hireling is all colors.
 When Haughty Hireling enters the battlefield, uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/259.png" num="2">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/254.png" num="2">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4454,7 +4369,7 @@ When Haughty Hireling enters the battlefield, uncover. (Reveal a Relic you own f
 			<name>Alchemist&apos;s Apogee</name>
 			<text>Alchemist&apos;s Apogee can&apos;t be blocked by creatures with power 2 or less.
 When Alchemist&apos;s Apogee enters the battlefield, create an Encounter token. (It&apos;s a colorless Conflict battle with 2 defense and &quot;When this is defeated, draw a card and create a Treasure token.&quot;)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/260.png" num="229">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/255.png" num="229">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4470,7 +4385,7 @@ When Alchemist&apos;s Apogee enters the battlefield, create an Encounter token. 
 			<name>Soapstone Sellsword</name>
 			<text>Soapstone Sellsword can&apos;t block.
 When Soapstone Sellsword dies, uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand. It can uncover itself.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/261.png" num="244">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/256.png" num="244">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4485,7 +4400,7 @@ When Soapstone Sellsword dies, uncover. (Reveal a Relic you own from outside the
 		<card>
 			<name>Watcher of the Wayside</name>
 			<text>When Watcher of the Wayside enters the battlefield, target player mills two cards. You gain 2 life.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/262.png" num="245">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/257.png" num="245">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4501,7 +4416,7 @@ When Soapstone Sellsword dies, uncover. (Reveal a Relic you own from outside the
 			<name>Goblet of Hubris</name>
 			<text>When you uncover this Relic, you may discard a card. If you do, draw a card.
 {6}, {T}, Sacrifice Goblet of Hubris: Destroy target artifact or creature. If that permanent&apos;s mana value is 3 or less, exile it instead.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/263.png" num="233">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/258.png" num="233">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4516,7 +4431,7 @@ When Soapstone Sellsword dies, uncover. (Reveal a Relic you own from outside the
 			<name>Skull of the Nightchild</name>
 			<text>When you uncover this Relic, you may discard a card. If you do, draw a card.
 {5}, {T}, Sacrifice Skull of the Nightchild: Draw a card for each differently named token you control.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/264.png" num="242">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/259.png" num="242">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4532,7 +4447,7 @@ When Soapstone Sellsword dies, uncover. (Reveal a Relic you own from outside the
 			<text>When Nightstone Ingot enters the battlefield, uncover. (Reveal a Relic you own from outside the game within this card&apos;s color identity and put it into your hand, or return an artifact card from your graveyard to your hand.)
 {T}: Add {C}.
 {W}{U}{B}{R}{G}, Exile Nightstone Ingot: Draw three cards.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/265.png" num="238">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/260.png" num="238">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4547,7 +4462,7 @@ When Soapstone Sellsword dies, uncover. (Reveal a Relic you own from outside the
 		<card>
 			<name>Shadowed Cathedral</name>
 			<text>{T}, Sacrifice Shadowed Cathedral: Search your library for up to two basic land cards, put one onto the battlefield tapped and the other into your graveyard, then shuffle.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/266.png" num="257">FSH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/261.png" num="257">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4559,9 +4474,396 @@ When Soapstone Sellsword dies, uncover. (Reveal a Relic you own from outside the
 			<tablerow>0</tablerow>
 		</card>
 		<card>
+			<name>Seer&apos;s Crystal</name>
+			<text>When you uncover this Relic, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+{U}, {T}, Sacrifice Seer&apos;s Crystal: Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/262.png" num="69">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Relic</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hidden Sigil</name>
+			<text>When you uncover this Relic, you may discard a card. If you do, draw a card.
+{1}, {T}: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/263.png" num="235">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Relic</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bone Totem</name>
+			<text>When you uncover this Relic, put a +1/+1 counter on a creature you control.
+{1}{G}, {T}, Sacrifice Bone Totem: Reveal the top four cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/264.png" num="155">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Relic</type>
+				<maintype>Artifact</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Chaos Medallion</name>
+			<text>When you uncover this Relic, up to one target creature can&apos;t block this turn.
+{1}{R}, {T}, Sacrifice Chaos Medallion: Creatures you control get +1/+0 until end of turn. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/265.png" num="120">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Relic</type>
+				<maintype>Artifact</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fleshcrafter&apos;s Orb</name>
+			<text>When you uncover this Relic, each opponent loses 1 life.
+{1}{B}, {T}, Sacrifice Fleshcrafter&apos;s Orb: Target creature gets -2/-2 until end of turn. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/266.png" num="88">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Relic</type>
+				<maintype>Artifact</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Profane Portal</name>
+			<text>Profane Portal enters the battlefield tapped.
+{T}: Add {W} or {B}.
+{2}, Discard Profane Portal: Put a +1/+1 counter on target creature you control. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/267.png" num="268">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Moldering Market</name>
+			<text>Moldering Market enters the battlefield tapped.
+{T}: Add {B} or {G}.
+{2}, Discard Moldering Market: Put a +1/+1 counter on target creature you control. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/268.png" num="267">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Hazardous Hulk</name>
+			<text>Hazardous Hulk enters the battlefield tapped.
+{T}: Add {G} or {U}.
+{2}, Discard Hazardous Hulk: Put a +1/+1 counter on target creature you control. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/269.png" num="266">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Broken Beacon</name>
+			<text>Broken Beacon enters the battlefield tapped.
+{T}: Add {U} or {R}.
+{2}, Discard Broken Beacon: Put a +1/+1 counter on target creature you control. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/270.png" num="262">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Treacherous Tower</name>
+			<text>Treacherous Tower enters the battlefield tapped.
+{T}: Add {R} or {W}.
+{2}, Discard Treacherous Tower: Put a +1/+1 counter on target creature you control. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/271.png" num="270">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Peer into the Nightpit</name>
+			<text>Draw up to one hundred cards.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/272.png" num="278">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>6UUU</manacost>
+				<cmc>9</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fool&apos;s Crown</name>
+			<text>When you uncover this Relic, you may discard a card. If you do, draw a card.
+At the beginning of combat on your turn, you may sacrifice Fool&apos;s Crown. If you do, until your next turn, no more than one creature can attack each combat and no more than one creature can block each combat.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/273.png" num="231">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Relic</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gnawbone, Skurl Prophet</name>
+			<text>Ward—Sacrifice a land.
+At the beginning of each end step, create a number of Plague Rats tokens equal to the number of players who lost life this turn.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/274.png" num="277">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Rat Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hedge Maze</name>
+			<text>({T}: Add {G} or {U}.)
+Hedge Maze enters the battlefield tapped.
+When Hedge Maze enters the battlefield, surveil 1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/275.png" num="253">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Underground Mortuary</name>
+			<text>({T}: Add {B} or {G}.)
+Underground Mortuary enters the battlefield tapped.
+When Underground Mortuary enters the battlefield, surveil 1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/276.png" num="260">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Thundering Falls</name>
+			<text>({T}: Add {U} or {R}.)
+Thundering Falls enters the battlefield tapped.
+When Thundering Falls enters the battlefield, surveil 1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/277.png" num="259">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Shadowy Backstreet</name>
+			<text>({T}: Add {W} or {B}.)
+Shadowy Backstreet enters the battlefield tapped.
+When Shadowy Backstreet enters the battlefield, surveil 1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/278.png" num="258">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Effigy of Agony</name>
+			<text>When you uncover this Relic, target creature can&apos;t block this turn.
+{R}, {T}, Sacrifice Effigy of Agony and another artifact: Search your library for an artifact card with mana value equal to 1 plus the other sacrificed artifact&apos;s mana value, put that card onto the battlefield, then shuffle. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/279.png" num="127">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Relic</type>
+				<maintype>Artifact</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Map FSH</name>
+			<text>{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery. (To have this creature explore, reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/280.png" num="11">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Map</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Fragment of Glory FSH</name>
+			<text>Indestructible
+At the beginning of your upkeep, if you control ten or more permanents named Fragment of Glory, you win the game.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/281.png" num="10">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Fish FSH</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/282.png" num="4">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Fish</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Skeleton FSH</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/283.png" num="7">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Skeleton</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Survivor FSH</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/284.png" num="3">FSH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Survivor</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
 			<name>Plague Rats FSH</name>
 			<text>Plague Rats&apos;s power and toughness are each equal to the number of creatures named Plague Rats on the battlefield.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/267.png" num="5">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/285.png" num="5">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4588,7 +4890,7 @@ When Soapstone Sellsword dies, uncover. (Reveal a Relic you own from outside the
 {G}{U} EXPLORE Comb through the ruins of Morstad and make your lands matter.
 {U}{R} ARTIFACTS Uncover new Relics and return them from the grave.
 {R}{W} TOKENS Encounters, Treasure, and the dig mechanic will bring you victory.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/268.png" num="13">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/286.png" num="13">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4602,177 +4904,9 @@ When Soapstone Sellsword dies, uncover. (Reveal a Relic you own from outside the
 			<token>1</token>
 		</card>
 		<card>
-			<name>Seer&apos;s Crystal</name>
-			<text>When you uncover this Relic, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
-{U}, {T}, Sacrifice Seer&apos;s Crystal: Draw a card.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/269.png" num="69">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Artifact — Relic</type>
-				<maintype>Artifact</maintype>
-				<manacost>1U</manacost>
-				<cmc>2</cmc>
-				<colors>U</colors>
-				<coloridentity>U</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Hidden Sigil</name>
-			<text>When you uncover this Relic, you may discard a card. If you do, draw a card.
-{1}, {T}: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/270.png" num="235">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Artifact — Relic</type>
-				<maintype>Artifact</maintype>
-				<manacost>1</manacost>
-				<cmc>1</cmc>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Bone Totem</name>
-			<text>When you uncover this Relic, put a +1/+1 counter on a creature you control.
-{1}{G}, {T}, Sacrifice Bone Totem: Reveal the top four cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/271.png" num="155">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Artifact — Relic</type>
-				<maintype>Artifact</maintype>
-				<manacost>G</manacost>
-				<cmc>1</cmc>
-				<colors>G</colors>
-				<coloridentity>G</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Chaos Medallion</name>
-			<text>When you uncover this Relic, up to one target creature can&apos;t block this turn.
-{1}{R}, {T}, Sacrifice Chaos Medallion: Creatures you control get +1/+0 until end of turn. Activate only as a sorcery.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/272.png" num="120">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Artifact — Relic</type>
-				<maintype>Artifact</maintype>
-				<manacost>R</manacost>
-				<cmc>1</cmc>
-				<colors>R</colors>
-				<coloridentity>R</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Fleshcrafter&apos;s Orb</name>
-			<text>When you uncover this Relic, each opponent loses 1 life.
-{1}{B}, {T}, Sacrifice Fleshcrafter&apos;s Orb: Target creature gets -2/-2 until end of turn. Activate only as a sorcery.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/273.png" num="88">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Artifact — Relic</type>
-				<maintype>Artifact</maintype>
-				<manacost>B</manacost>
-				<cmc>1</cmc>
-				<colors>B</colors>
-				<coloridentity>B</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Profane Portal</name>
-			<text>Profane Portal enters the battlefield tapped.
-{T}: Add {W} or {B}.
-{2}, Discard Profane Portal: Put a +1/+1 counter on target creature you control. Activate only as a sorcery.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/274.png" num="268">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Land</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>WB</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
-		</card>
-		<card>
-			<name>Moldering Market</name>
-			<text>Moldering Market enters the battlefield tapped.
-{T}: Add {B} or {G}.
-{2}, Discard Moldering Market: Put a +1/+1 counter on target creature you control. Activate only as a sorcery.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/275.png" num="267">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Land</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>BG</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
-		</card>
-		<card>
-			<name>Hazardous Hulk</name>
-			<text>Hazardous Hulk enters the battlefield tapped.
-{T}: Add {G} or {U}.
-{2}, Discard Hazardous Hulk: Put a +1/+1 counter on target creature you control. Activate only as a sorcery.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/276.png" num="266">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Land</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>UG</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
-		</card>
-		<card>
-			<name>Broken Beacon</name>
-			<text>Broken Beacon enters the battlefield tapped.
-{T}: Add {U} or {R}.
-{2}, Discard Broken Beacon: Put a +1/+1 counter on target creature you control. Activate only as a sorcery.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/277.png" num="262">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Land</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>UR</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
-		</card>
-		<card>
-			<name>Treacherous Tower</name>
-			<text>Treacherous Tower enters the battlefield tapped.
-{T}: Add {R} or {W}.
-{2}, Discard Treacherous Tower: Put a +1/+1 counter on target creature you control. Activate only as a sorcery.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/278.png" num="270">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Land</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>WR</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
-		</card>
-		<card>
 			<name>Treasure FSH</name>
 			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/279.png" num="12">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/287.png" num="12">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4787,7 +4921,7 @@ When Soapstone Sellsword dies, uncover. (Reveal a Relic you own from outside the
 		<card>
 			<name>Rat FSH</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/280.png" num="6">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/288.png" num="6">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4803,25 +4937,9 @@ When Soapstone Sellsword dies, uncover. (Reveal a Relic you own from outside the
 			<token>1</token>
 		</card>
 		<card>
-			<name>Peer into the Nightpit</name>
-			<text>Draw up to one hundred cards.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/281.png" num="278">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Sorcery</type>
-				<maintype>Sorcery</maintype>
-				<manacost>6UUU</manacost>
-				<cmc>9</cmc>
-				<colors>U</colors>
-				<coloridentity>U</coloridentity>
-			</prop>
-			<tablerow>3</tablerow>
-		</card>
-		<card>
 			<name>Wizard FSH</name>
 			<text>When this creature enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/282.png" num="9">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/289.png" num="9">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4837,24 +4955,9 @@ When Soapstone Sellsword dies, uncover. (Reveal a Relic you own from outside the
 			<token>1</token>
 		</card>
 		<card>
-			<name>Fool&apos;s Crown</name>
-			<text>When you uncover this Relic, you may discard a card. If you do, draw a card.
-At the beginning of combat on your turn, you may sacrifice Fool&apos;s Crown. If you do, until your next turn, no more than one creature can attack each combat and no more than one creature can block each combat.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/FSH-files/img/283.png" num="231">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Artifact — Relic</type>
-				<maintype>Artifact</maintype>
-				<manacost>2</manacost>
-				<cmc>2</cmc>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
 			<name>Dragon FSH</name>
 			<text>Flying, trample</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/284.png" num="8">FSH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/FSH-files/img/290.png" num="8">FSH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4868,109 +4971,6 @@ At the beginning of combat on your turn, you may sacrifice Fool&apos;s Crown. If
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-		</card>
-		<card>
-			<name>Gnawbone, Skurl Prophet</name>
-			<text>Ward—Sacrifice a land.
-At the beginning of each end step, create a number of Plague Rats tokens equal to the number of players who lost life this turn.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/FSH-files/img/285.png" num="277">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Legendary Creature — Rat Warrior</type>
-				<maintype>Creature</maintype>
-				<manacost>1BG</manacost>
-				<cmc>3</cmc>
-				<colors>BG</colors>
-				<coloridentity>BG</coloridentity>
-				<pt>2/3</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Hedge Maze</name>
-			<text>({T}: Add {G} or {U}.)
-Hedge Maze enters the battlefield tapped.
-When Hedge Maze enters the battlefield, surveil 1.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/286.png" num="253">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Land — Forest Island</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>UG</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
-		</card>
-		<card>
-			<name>Underground Mortuary</name>
-			<text>({T}: Add {B} or {G}.)
-Underground Mortuary enters the battlefield tapped.
-When Underground Mortuary enters the battlefield, surveil 1.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/287.png" num="260">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Land — Swamp Forest</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>BG</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
-		</card>
-		<card>
-			<name>Thundering Falls</name>
-			<text>({T}: Add {U} or {R}.)
-Thundering Falls enters the battlefield tapped.
-When Thundering Falls enters the battlefield, surveil 1.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/288.png" num="259">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Land — Island Mountain</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>UR</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
-		</card>
-		<card>
-			<name>Shadowy Backstreet</name>
-			<text>({T}: Add {W} or {B}.)
-Shadowy Backstreet enters the battlefield tapped.
-When Shadowy Backstreet enters the battlefield, surveil 1.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/289.png" num="258">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Land — Plains Swamp</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>WB</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
-		</card>
-		<card>
-			<name>Effigy of Agony</name>
-			<text>When you uncover this Relic, target creature can&apos;t block this turn.
-{R}, {T}, Sacrifice Effigy of Agony and another artifact: Search your library for an artifact card with mana value equal to 1 plus the other sacrificed artifact&apos;s mana value, put that card onto the battlefield, then shuffle. Activate only as a sorcery.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/FSH-files/img/290.png" num="127">FSH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Artifact — Relic</type>
-				<maintype>Artifact</maintype>
-				<manacost>2R</manacost>
-				<cmc>3</cmc>
-				<colors>R</colors>
-				<coloridentity>R</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

@@ -1,0 +1,19 @@
+<img src="https://grapplex.github.io/sets/MRC-files/logo.png" alt="Mercadia: Blood and Gold" width="400">
+
+**<p style="text-align: center;">Life is cheap—but nothing else is.</p>**
+
+Mercadia is an unpleasant little plane, best likened to the pallid underbelly of some overfed pet. Small in size, its rich blue seas and lush green forests are overlooked by many of its inhabitants, who thrive in its bustling cities—chief among them, the semi-aquatic Saprazzo, the cutthroat port of Rishada, and the metropolis of Mercadia City itself, perched atop an inverted mountain of mysterious origin. Valued above all else on the plane is simply the pursuit of gold, a driving lust for pure capital that greases every palm and every wheel of society—truly a world of exaggerated fantasy that could never come to pass.
+
+Those at the top of the heap on Mercadia are content to fiddle before the world has even begun to burn, either unaware or unconcerned with its place as a staging post for an ancient interplanar grudge—and those too close to the truth have learnt that ignorance is bliss. Not all are willing to allow such a cruel system to operate without a fight, and rebels gather in all corners of the plane to oppose the machination of the Magistrate of Mercadia. The Cho-Arrim people of the forests hold a religious zeal that sees such greed as a sin against the unity of their god Ramos, but every tavern-house and warehouse between Mount Mercadia and the Outer Sea counts renegades and activists in its number. The Magistrate hides behind a growing mercenary force funded with the material wealth of a distant evincar, but how much longer can these caterans hold the righteous tide of revolution at bay?
+
+**Mercadia: Blood and Gold** is a draftable premier set in the [**<font color="#004628">Reimagined Series</font>**](https://grapplex.github.io/articles/Projects/the-reimagined-series) using Play Boosters, containing 266 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of [SOME CARD], while all boosters have a chance of containing the Headliner version of [ANOTHER CARD]. Boosters also have a chance of containing a Booster Fun old frame card.
+
+###Mechanics
+
+<img align="left" width="200" height="353" style="margin:15px" src="https://grapplex.github.io/custom/img/MRCbooster.png "MRC booster"/>**Mercadia: Blood and Gold** features the following mechanic:
+
+**Haggle:** Never take the asking price without a fight. Spells with haggle can be negotiated to have an additional bonus effect—by paying either an additional one mana, or by casting the spell using mana from a Treasure, you will unlock the "haggled" bonus for the spell. Paying extra is optional, as you may not always need the upgraded effect, but it will always be enabled if Treasure mana is spent—a little extra for having the cash up front.
+
+**Swindle:** Not everything is worth paying full price for. Swindle is an alternate cost mechanic—rather than paying a spell's mana cost, if it has swindle, you can exile some number of cards from your graveyard to cast it for a reduced cost instead. Each spell with swindle will have an associated number of cards to exile—a spell with swindle 3 needs three exiled cards in addition to paying its swindle cost, for example.
+
+**Spellshapers:** Returning from the original *Mercadian Masques* set, Spellshaper is a creature type which indicate creatures who can trade a card in your hand for an additional spell effect. Unlike the previous iterations seen in *Mercadian Masques* and *Time Spiral*, not all of these Spellshapers use discard as a cost associated with an activated ability—some will have an enter-the-battlefield effect, an attack trigger, or other means, but the clear throughline is discarding a card to turn it into a new effect through your spellshaper—and perhaps to cash it in for a future swindle as well. 
