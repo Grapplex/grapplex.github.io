@@ -5,7 +5,7 @@
 			<name>HTL</name>
 			<longname>Heartland of the Real</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-19</releasedate>
+			<releasedate>2026-09-25</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -205,7 +205,7 @@ Other Drones you control get +1/+1.</text>
 		</card>
 		<card>
 			<name>Colonize</name>
-			<text>Gain control of target land unless its controller sacrifices two creatures.</text>
+			<text>Gain control of target land unless its controller sacrifices two creatures of their choice.</text>
 			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/12.png" num="215">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -238,7 +238,7 @@ Other Drones you control get +1/+1.</text>
 		</card>
 		<card>
 			<name>Black-Op Vanguard</name>
-			<text>Whenever Black-Op Vanguard attacks a player or permanent, if no other creatures are attacking that player or permanent, put a +1/+1 counter on Black-Op Vanguard.</text>
+			<text>Whenever Black-Op Vanguard attacks a player or permanent alone, put a +1/+1 counter on Black-Op Vanguard.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/14.png" num="18">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -272,7 +272,7 @@ Other Drones you control get +1/+1.</text>
 		</card>
 		<card>
 			<name>Consummate Thief</name>
-			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)</text>
+			<text>Lone wolf (Whenever a creature you control attacks a player or permanent alone, it gets +1/+1 until end of turn.)</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/16.png" num="21">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -290,7 +290,7 @@ Other Drones you control get +1/+1.</text>
 		<card>
 			<name>Aerial Operative</name>
 			<text>Flying
-Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)</text>
+Lone wolf (Whenever a creature you control attacks a player or permanent alone, it gets +1/+1 until end of turn.)</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/17.png" num="13">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -476,7 +476,7 @@ Battle spells you cast cost {1} less to cast.</text>
 		</card>
 		<card>
 			<name>Protracted Occupation</name>
-			<text>Whenever a creature you control dies, if it was attacking a player or permanent that no other creature was attacking, create a token that&apos;s a copy of it.</text>
+			<text>Whenever a creature you control dies, if it was attacking a player or permanent alone, create a token that&apos;s a copy of it.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/28.png" num="39">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -597,7 +597,7 @@ Whenever you cast a battle spell, create two 1/1 white Advisor creature tokens w
 		<card>
 			<name>Twin-Rotor Transport</name>
 			<text>Flying, vigilance
-Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)</text>
+Lone wolf (Whenever a creature you control attacks a player or permanent alone, it gets +1/+1 until end of turn.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/35.png" num="49">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -632,7 +632,7 @@ When Corporate Cut-Out enters the battlefield, look at the top four cards of you
 		</card>
 		<card>
 			<name>Radiological Observer</name>
-			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
+			<text>Lone wolf (Whenever a creature you control attacks a player or permanent alone, it gets +1/+1 until end of turn.)
 Whenever a player casts a noncreature spell, put a +1/+1 counter on Radiological Observer.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/37.png" num="40">HTL</set>
 			<prop>
@@ -650,7 +650,7 @@ Whenever a player casts a noncreature spell, put a +1/+1 counter on Radiological
 		</card>
 		<card>
 			<name>Grizzled Wardog</name>
-			<text>Whenever Grizzled Wardog attacks a player or permanent, if no other creatures are attacking that player or permanent, return target battle card from your graveyard to your hand.</text>
+			<text>Whenever Grizzled Wardog attacks a player or permanent alone, return target battle card from your graveyard to your hand.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/38.png" num="32">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -667,8 +667,8 @@ Whenever a player casts a noncreature spell, put a +1/+1 counter on Radiological
 		</card>
 		<card>
 			<name>Embedded Observer</name>
-			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
-{T}: Target creature you control gains shielded until end of turn. Activate only as a sorcery.</text>
+			<text>Lone wolf (Whenever a creature you control attacks a player or permanent alone, it gets +1/+1 until end of turn.)
+{T}: Target creature you control gains shielded until end of turn. Activate only as a sorcery. (Prevent all damage that would be dealt to it.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/39.png" num="30">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -685,7 +685,7 @@ Whenever a player casts a noncreature spell, put a +1/+1 counter on Radiological
 		</card>
 		<card>
 			<name>Controlled Opposition</name>
-			<text>Whenever a creature you control attacks a player or permanent, if no other creatures are attacking that player or permanent, create a 1/1 white Advisor creature token with first strike and &quot;This creature can&apos;t block.&quot;</text>
+			<text>Whenever a creature you control attacks a player or permanent alone, create a 1/1 white Advisor creature token with first strike and &quot;This creature can&apos;t block.&quot;</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/40.png" num="23">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -806,7 +806,7 @@ Whenever another creature you control attacks a battle, untap it.</text>
 		<card>
 			<name>X-Open Harrier</name>
 			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
-Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)</text>
+Lone wolf (Whenever a creature you control attacks a player or permanent alone, it gets +1/+1 until end of turn.)</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/47.png" num="90">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -1187,7 +1187,7 @@ Tap two untapped creatures you control: Inexorable Ironclad can&apos;t be blocke
 		</card>
 		<card>
 			<name>Subject Suppressor</name>
-			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
+			<text>Lone wolf (Whenever a creature you control attacks a player or permanent alone, it gets +1/+1 until end of turn.)
 Whenever a battle you control is defeated, draw a card.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/69.png" num="84">HTL</set>
 			<prop>
@@ -1223,7 +1223,7 @@ Foretell {1}{U} (During your turn, you may pay {2} and exile this card from your
 		</card>
 		<card>
 			<name>Anticontaminator</name>
-			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
+			<text>Lone wolf (Whenever a creature you control attacks a player or permanent alone, it gets +1/+1 until end of turn.)
 Whenever Anticontaminator attacks, draw a card, then discard a card.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/71.png" num="52">HTL</set>
 			<prop>
@@ -1429,7 +1429,7 @@ Interference Drone enters the battlefield tapped.</text>
 		</card>
 		<card>
 			<name>Eager Conscript</name>
-			<text>Whenever Eager Conscript attacks a player or permanent, if no other creatures are attacking that player or permanent, Eager Conscript gains lifelink until end of turn.</text>
+			<text>Whenever Eager Conscript attacks a player or permanent alone, Eager Conscript gains lifelink until end of turn.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/83.png" num="101">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -1653,8 +1653,8 @@ Whenever you cast a spell with mana value greater than the exiled card, you draw
 		</card>
 		<card>
 			<name>Massacre Chamber</name>
-			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
-When Massacre Chamber enters the battlefield, each opponent sacrifices a creature.</text>
+			<text>Lone wolf (Whenever a creature you control attacks a player or permanent alone, it gets +1/+1 until end of turn.)
+When Massacre Chamber enters the battlefield, each opponent sacrifices a creature of their choice.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/96.png" num="113">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -1761,7 +1761,7 @@ Whenever you cast a spell, each opponent loses 1 life. If that spell was cast fr
 		</card>
 		<card>
 			<name>Starlight Colonist</name>
-			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
+			<text>Lone wolf (Whenever a creature you control attacks a player or permanent alone, it gets +1/+1 until end of turn.)
 Starlight Colonist can&apos;t be blocked as long as a creature died this turn.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/102.png" num="124">HTL</set>
 			<prop>
@@ -1779,7 +1779,7 @@ Starlight Colonist can&apos;t be blocked as long as a creature died this turn.</
 		</card>
 		<card>
 			<name>Disappearancer</name>
-			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
+			<text>Lone wolf (Whenever a creature you control attacks a player or permanent alone, it gets +1/+1 until end of turn.)
 Whenever Disappearancer deals combat damage to a player or battle, you may sacrifice another creature. If you do, draw a card.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/103.png" num="98">HTL</set>
 			<prop>
@@ -1849,7 +1849,7 @@ Foretell {1}{B} (During your turn, you may pay {2} and exile this card from your
 		</card>
 		<card>
 			<name>Paraphysical Research</name>
-			<text>Target creature you control gains deathtouch, lifelink, and shielded until end of turn.</text>
+			<text>Target creature you control gains deathtouch, lifelink, and shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/107.png" num="117">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -1914,7 +1914,7 @@ Foretell {1}{B} (During your turn, you may pay {2} and exile this card from your
 		</card>
 		<card>
 			<name>Cleanup Specialist</name>
-			<text>Whenever a creature you control attacks a player or permanent, if no other creatures are attacking that player or permanent, you gain 1 life and surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<text>Whenever a creature you control attacks a player or permanent alone, you gain 1 life and surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/111.png" num="224">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -2173,7 +2173,7 @@ You may discard a card. If you do, draw a card.</text>
 		</card>
 		<card>
 			<name>The World That Was</name>
-			<text>Each player sacrifices four lands. Then each player discards their hand and draws cards equal to the number of basic lands they sacrificed this way.</text>
+			<text>Each player sacrifices four lands of their choice. Then each player discards their hand and draws cards equal to the number of basic lands they sacrificed this way.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/126.png" num="166">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -2311,7 +2311,7 @@ Whenever Stealth Agent attacks a player, it gets -1/-1 until end of turn.</text>
 		<card>
 			<name>Sabotage Specialist</name>
 			<text>When Sabotage Specialist enters the battlefield, choose one. If it was cast from exile, you may choose both instead.
-• Each opponent sacrifices an artifact.
+• Each opponent sacrifices an artifact of their choice.
 • Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/134.png" num="160">HTL</set>
 			<prop>
@@ -2384,7 +2384,7 @@ When Vengeful Repressor enters the battlefield, you may discard a card or put a 
 		<card>
 			<name>Frantic Witness</name>
 			<text>Haste
-Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)</text>
+Lone wolf (Whenever a creature you control attacks a player or permanent alone, it gets +1/+1 until end of turn.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/138.png" num="139">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -2809,7 +2809,7 @@ Whenever a battle you control is defeated, each opponent gets a poison counter.<
 			<name>Relentless Engine</name>
 			<text>Trample
 Relentless Engine enters the battlefield with X +1/+1 counters on it.
-Whenever Relentless Engine attacks a player or permanent, if no other creatures are attacking that player or permanent, double the number of +1/+1 counters on Relentless Engine.</text>
+Whenever Relentless Engine attacks a player or permanent alone, double the number of +1/+1 counters on Relentless Engine.</text>
 			<set rarity="rare" picurl="https://grapplex.github.io/sets/HTL-files/img/163.png" num="195">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -3256,7 +3256,7 @@ If it&apos;s your turn, end the turn.</text>
 		<card>
 			<name>Nightbird Prototype</name>
 			<text>Flying
-Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)</text>
+Lone wolf (Whenever a creature you control attacks a player or permanent alone, it gets +1/+1 until end of turn.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/189.png" num="209">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -3310,7 +3310,7 @@ Foretell {R}{G} (During your turn, you may pay {2} and exile this card from your
 		</card>
 		<card>
 			<name>Scornful Agent</name>
-			<text>Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)
+			<text>Lone wolf (Whenever a creature you control attacks a player or permanent alone, it gets +1/+1 until end of turn.)
 At the beginning of combat on your turn, another target creature you control gains lone wolf until end of turn. (Each instance triggers separately.)</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/192.png" num="221">HTL</set>
 			<prop>
@@ -3467,7 +3467,7 @@ Whenever you cast a spell, Anomaly Extractor gets +1/+1 until end of turn. If th
 		</card>
 		<card>
 			<name>You Were Never Here</name>
-			<text>Whenever a creature you control attacks a player or permanent, if no other creatures are attacking that player or permanent, choose one —
+			<text>Whenever a creature you control attacks a player or permanent alone, choose one —
 • Put a +1/+1 counter on that creature.
 • That creature gains double strike until end of turn.</text>
 			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/HTL-files/img/201.png" num="222">HTL</set>
@@ -3588,7 +3588,7 @@ Whenever you cast a noncreature spell, you may pay {RW}. If you do, create a 1/1
 		<card>
 			<name>Invasive Hunter</name>
 			<text>Flying
-Lone wolf (Whenever you attack, target creature gets +1/+1 until end of turn if it&apos;s attacking a player or permanent that no other creatures are attacking.)</text>
+Lone wolf (Whenever a creature you control attacks a player or permanent alone, it gets +1/+1 until end of turn.)</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/HTL-files/img/208.png" num="246">HTL</set>
 			<prop>
 				<layout>normal</layout>
@@ -4268,7 +4268,10 @@ Whenever you draw a card, you lose 1 life.</text>
 		</card>
 		<card>
 			<name>Urban Legend</name>
-			<text>[3/3]</text>
+			<text>Regression {3}{G}{G} (If you cast this for its regression cost, it has haste. Sacrifice it at the beginning of your next upkeep and create a 1/1 copy of it with haste.)
+When Urban Legend enters the battlefield, distribute a number of +1/+1 counters equal to its power among creatures you control.
+
+ [3/3]</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/HTL-files/img/250.png" num="12">HTL</set>
 			<prop>
 				<layout>leveler</layout>
@@ -4278,6 +4281,7 @@ Whenever you draw a card, you lose 1 life.</text>
 				<manacost>6</manacost>
 				<cmc>6</cmc>
 				<colors>G</colors>
+				<coloridentity>G</coloridentity>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
