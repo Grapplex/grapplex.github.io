@@ -1,6 +1,6 @@
 <img src="https://grapplex.github.io/sets/MRC-files/logo.png" alt="Mercadia: Blood and Gold" width="400">
 
-**<p style="text-align: center;">Life is cheap—but nothing else is.</p>**
+**<p style="text-align: center;">Greed is good.</p>**
 
 Mercadia is an unpleasant little plane, best likened to the pallid underbelly of some overfed pet. Small in size, its rich blue seas and lush green forests are overlooked by many of its inhabitants, who thrive in its bustling cities—chief among them, the semi-aquatic Saprazzo, the cutthroat port of Rishada, and the metropolis of Mercadia City itself, perched atop an inverted mountain of mysterious origin. Valued above all else on the plane is simply the pursuit of gold, a driving lust for pure capital that greases every palm and every wheel of society—truly a world of exaggerated fantasy that could never come to pass.
 
