@@ -5,7 +5,7 @@
 			<name>ASH</name>
 			<longname>Arkoph: Seeds of Heresy</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-30</releasedate>
+			<releasedate>2026-10-03</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -102,9 +102,114 @@ Somber Vault enters the battlefield tapped.
 			<tablerow>0</tablerow>
 		</card>
 		<card>
+			<name>Judicious Disciple</name>
+			<text>Lifelink
+Plainscycling {WB}, Swampcycling {WB} ({WB}, Discard this card: Search your library for a Plains or Swamp card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/27.png" num="232">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/B</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scoured Spire</name>
+			<text>Scoured Spire enters the battlefield tapped.
+{T}, Sacrifice Scoured Spire: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/28.png" num="257">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mirthful Disciple</name>
+			<text>Vigilance
+Forestcycling {GU}, Islandcycling {GU} ({GU}, Discard this card: Search your library for a Forest or Island card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/63.png" num="236">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Clown</type>
+				<maintype>Creature</maintype>
+				<manacost>1G/U</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ferocious Disciple</name>
+			<text>Deathtouch
+Swampcycling {BG}, Forestcycling {BG} ({BG}, Discard this card: Search your library for a Swamp or Forest card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/101.png" num="234">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Nomad</type>
+				<maintype>Creature</maintype>
+				<manacost>1B/G</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pious Disciple</name>
+			<text>During your turn, Pious Disciple has first strike.
+Mountaincycling {RW}, Plainscycling {RW} ({RW}, Discard this card: Search your library for a Mountain or Plains card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/136.png" num="235">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Inquisitor</type>
+				<maintype>Creature</maintype>
+				<manacost>1R/W</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Esoteric Disciple</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Islandcycling {UR}, Mountaincycling {UR}, ({UR}, Discard this card: Search your library for an Island or Mountain card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/172.png" num="233">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U/R</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Gnarled Heretic</name>
 			<text>When Gnarled Heretic enters the battlefield or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/239.png" num="1">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/239.png" num="2">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -117,11 +222,86 @@ Somber Vault enters the battlefield tapped.
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Fragment</name>
+			<text>Fragment costs {3} less to cast if it targets a permanent with mana value 3 or less.
+Destroy target nonland permanent.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/242.png" num="1">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sacred Tomb</name>
+			<text>Sacred Tomb enters the battlefield tapped.
+{T}, Sacrifice Sacred Tomb: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/259.png" num="255">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sheer Coast</name>
+			<text>Sheer Coast enters the battlefield tapped.
+{T}, Sacrifice Sheer Coast: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/260.png" num="258">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Overgrown Wreck</name>
+			<text>Overgrown Wreck enters the battlefield tapped.
+{T}, Sacrifice Overgrown Wreck: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/261.png" num="254">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gloomy Clearing</name>
+			<text>Gloomy Clearing enters the battlefield tapped.
+{T}, Sacrifice Gloomy Clearing: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/262.png" num="251">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
 			<name>Bridged Riptide</name>
 			<text>({T}: Add {U} or {R}.)
 Bridged Riptide enters the battlefield tapped.
 {1}, {T}: Add {U}{R}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/263.png" num="249">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/263.png" num="248">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -138,7 +318,7 @@ Bridged Riptide enters the battlefield tapped.
 			<text>({T}: Add {G} or {U}.)
 Moldering Port enters the battlefield tapped.
 {1}, {T}: Add {G}{U}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/264.png" num="253">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/264.png" num="252">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -155,7 +335,7 @@ Moldering Port enters the battlefield tapped.
 			<text>({T}: Add {B} or {G}.)
 Murky Grave enters the battlefield tapped.
 {1}, {T}: Add {B}{G}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/265.png" num="254">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/265.png" num="253">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -172,7 +352,7 @@ Murky Grave enters the battlefield tapped.
 			<text>({T}: Add {R} or {W}.)
 Carved Edifice enters the battlefield tapped.
 {1}, {T}: Add {R}{W}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/266.png" num="250">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/266.png" num="249">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>

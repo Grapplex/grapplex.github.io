@@ -5,7 +5,7 @@
 			<name>SPG</name>
 			<longname>Special Guests</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-07-02</releasedate>
+			<releasedate>2026-10-03</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -1126,7 +1126,7 @@ Xantcha attacks each combat if able and can&apos;t attack its owner or planeswal
 			<name>Greven, Predator Captain</name>
 			<text>Menace
 Greven, Predator Captain gets +X/+0, where X is the amount of life you&apos;ve lost this turn.
-Whenever Greven attacks, you may sacrifice another creature. If you do, you draw cards equal to that creature&apos;s power and you lose life equal to that creature&apos;s toughness.</text>
+Whenever GrevenPredator Captain attacks, you may sacrifice another creature. If you do, you draw cards equal to that creature&apos;s power and you lose life equal to that creature&apos;s toughness.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/65.png" num="65">SPG</set>
 			<prop>
 				<layout>normal</layout>
@@ -1890,7 +1890,7 @@ If a source you control would deal noncombat damage to a creature an opponent co
 		<card>
 			<name>Deadly Dispute</name>
 			<text>As an additional cost to cast this spell, sacrifice an artifact or creature.
-Draw two cards and create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+Draw two cards and create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/110.png" num="112">SPG</set>
 			<prop>
 				<layout>normal</layout>
@@ -3041,7 +3041,7 @@ IV — Draw a card. If a graveyard has twenty or more cards in it, draw three ca
 		</card>
 		<card>
 			<name>City of Death</name>
-			<text>I — Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+			<text>I — Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)
 II, III, IV, V, VI — Create a token that&apos;s a copy of target non-Saga token you control.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/179.png" num="175">SPG</set>
 			<prop>
@@ -3549,6 +3549,167 @@ At the beginning of your upkeep, if you control ten or more Treasures, you win t
 				<cmc>4</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nature&apos;s Lore</name>
+			<text>Search your library for a Forest card, put that card onto the battlefield, then shuffle.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/211.png" num="218">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fabricate</name>
+			<text>Search your library for an artifact card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/212.png" num="213">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Open the Armory</name>
+			<text>Search your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/213.png" num="211">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dragon&apos;s Rage Channeler</name>
+			<text>Whenever you cast a noncreature spell, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+Delirium — As long as there are four or more card types among cards in your graveyard, Dragon&apos;s Rage Channeler gets +2/+2, has flying, and attacks each combat if able.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/214.png" num="216">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Weathered Wayfarer</name>
+			<text>{W}, {T}: Search your library for a land card, reveal it, put it into your hand, then shuffle. Activate only if an opponent controls more lands than you.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/217.png" num="212">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Nomad Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Muddle the Mixture</name>
+			<text>Counter target instant or sorcery spell.
+Transmute {1}{U}{U} ({1}{U}{U}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/218.png" num="214">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Isolated Watchtower</name>
+			<text>{T}: Add {C}.
+{2}, {T}: Scry 1, then you may reveal the top card of your library. If a basic land card is revealed this way, put it onto the battlefield tapped. Activate only if an opponent controls at least two more lands than you.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/219.png" num="220">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Entomb</name>
+			<text>Search your library for a card, put that card into your graveyard, then shuffle.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/220.png" num="215">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fabled Passage</name>
+			<text>{T}, Sacrifice Fabled Passage: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/221.png" num="219">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Defense of the Heart</name>
+			<text>At the beginning of your upkeep, if an opponent controls three or more creatures, sacrifice Defense of the Heart, search your library for up to two creature cards, put those cards onto the battlefield, then shuffle.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/222.png" num="217">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
