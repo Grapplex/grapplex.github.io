@@ -113,11 +113,32 @@
             "notes": ""
         },
         {
+            "card_name": "Sailor's Grave",
+            "color": "",
+            "rarity": "rare",
+            "type": "Land",
+            "number": 256,
+            "color_identity": "C",
+            "cost": "",
+            "rules_text": "{T}: Add {C}.\n{3}: Until end of turn, Sailor's Grave becomes a 3/3 Serpent Horror creature with \u201cWhenever Sailor's Grave deals combat damage to a player, surveil X, where X is the amount of damage dealt.\u201d It's still a land.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ASH",
+            "loyalty": "",
+            "artist": "Anthony Avon",
+            "alias": "",
+            "position": "16",
+            "rotated": false,
+            "notes": "!group otherland"
+        },
+        {
             "card_name": "Somber Vault",
             "color": "",
             "rarity": "rare",
             "type": "Land \u2014 Plains Swamp",
-            "number": 259,
+            "number": 260,
             "color_identity": "WB",
             "cost": "",
             "rules_text": "[i]({T}: Add {W} or {B}.)[/i]\nSomber Vault enters the battlefield tapped.\n{1}, {T}: Add {W}{B}.",
@@ -138,7 +159,7 @@
             "color": "WB",
             "rarity": "common",
             "type": "Creature \u2014 Human Cleric",
-            "number": 232,
+            "number": 222,
             "color_identity": "WB",
             "cost": "{1}{WB}",
             "rules_text": "Lifelink\nPlainscycling {WB}, Swampcycling {WB} [i]({WB}, Discard this card: Search your library for a Plains or Swamp card, reveal it, put it into your hand, then shuffle.)[/i]",
@@ -152,7 +173,7 @@
             "alias": "",
             "position": "27",
             "rotated": false,
-            "notes": ""
+            "notes": "!group hybrid"
         },
         {
             "card_name": "Scoured Spire",
@@ -173,14 +194,14 @@
             "alias": "",
             "position": "28",
             "rotated": false,
-            "notes": ""
+            "notes": "!tag greprint\n!group fetch\n!sort 05"
         },
         {
             "card_name": "Mirthful Disciple",
             "color": "UG",
             "rarity": "common",
             "type": "Creature \u2014 Human Clown",
-            "number": 236,
+            "number": 235,
             "color_identity": "UG",
             "cost": "{1}{GU}",
             "rules_text": "Vigilance\nForestcycling {GU}, Islandcycling {GU} [i]({GU}, Discard this card: Search your library for a Forest or Island card, reveal it, put it into your hand, then shuffle.)[/i]",
@@ -194,14 +215,14 @@
             "alias": "",
             "position": "63",
             "rotated": false,
-            "notes": ""
+            "notes": "!group hybrid"
         },
         {
             "card_name": "Ferocious Disciple",
             "color": "BG",
             "rarity": "common",
             "type": "Creature \u2014 Human Nomad",
-            "number": 234,
+            "number": 228,
             "color_identity": "BG",
             "cost": "{1}{BG}",
             "rules_text": "Deathtouch\nSwampcycling {BG}, Forestcycling {BG} [i]({BG}, Discard this card: Search your library for a Swamp or Forest card, reveal it, put it into your hand, then shuffle.)[/i]",
@@ -215,14 +236,14 @@
             "alias": "",
             "position": "101",
             "rotated": false,
-            "notes": ""
+            "notes": "!group hybrid"
         },
         {
             "card_name": "Pious Disciple",
             "color": "WR",
             "rarity": "common",
             "type": "Creature \u2014 Human Inquisitor",
-            "number": 235,
+            "number": 231,
             "color_identity": "WR",
             "cost": "{1}{RW}",
             "rules_text": "During your turn, Pious Disciple has first strike.\nMountaincycling {RW}, Plainscycling {RW} [i]({RW}, Discard this card: Search your library for a Mountain or Plains card, reveal it, put it into your hand, then shuffle.)[/i]",
@@ -236,14 +257,14 @@
             "alias": "",
             "position": "136",
             "rotated": false,
-            "notes": ""
+            "notes": "!group hybrid"
         },
         {
             "card_name": "Esoteric Disciple",
             "color": "UR",
             "rarity": "common",
             "type": "Creature \u2014 Human Wizard",
-            "number": 233,
+            "number": 225,
             "color_identity": "UR",
             "cost": "{1}{UR}",
             "rules_text": "Prowess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]\nIslandcycling {UR}, Mountaincycling {UR}, [i]({UR}, Discard this card: Search your library for an Island or Mountain card, reveal it, put it into your hand, then shuffle.)[/i]",
@@ -257,7 +278,7 @@
             "alias": "",
             "position": "172",
             "rotated": false,
-            "notes": ""
+            "notes": "!group hybrid"
         },
         {
             "card_name": "Gnarled Heretic",
@@ -278,7 +299,7 @@
             "alias": "",
             "position": "239",
             "rotated": false,
-            "notes": ""
+            "notes": "!group clear"
         },
         {
             "card_name": "Fragment",
@@ -302,6 +323,69 @@
             "notes": "!tag greprint\n!group clear"
         },
         {
+            "card_name": "Witch Bottle",
+            "color": "",
+            "rarity": "common",
+            "type": "Artifact",
+            "number": 247,
+            "color_identity": "C",
+            "cost": "{3}",
+            "rules_text": "Witch Bottle costs {1} less to cast as long as you've read forbidden lore this turn. [i](You read forbidden lore when you look at one or more cards in your library for the first time each turn.)[/i]\n{T}: Add one mana of any color.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ASH",
+            "loyalty": "",
+            "artist": "Yuchen Wang",
+            "alias": "",
+            "position": "243",
+            "rotated": false,
+            "notes": ""
+        },
+        {
+            "card_name": "Evolving Wilds",
+            "color": "",
+            "rarity": "common",
+            "type": "Land",
+            "number": 250,
+            "color_identity": "C",
+            "cost": "",
+            "rules_text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+            "flavor_text": "[i]\u201cI fear the darkness the Eagle delivered us from has followed us to this paradise.\u201d\n\u2014Theonomarch Kosimus II[/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ASH",
+            "loyalty": "",
+            "artist": "Chris Cold",
+            "alias": "",
+            "position": "244",
+            "rotated": false,
+            "notes": "!tag reprint\n!group otherland"
+        },
+        {
+            "card_name": "Sheltered Mausoleum",
+            "color": "",
+            "rarity": "uncommon",
+            "type": "Land",
+            "number": 259,
+            "color_identity": "C",
+            "cost": "",
+            "rules_text": "{T}: Add {C}.\n{T}: Add one mana of any color. Activate only if you've read forbidden lore this turn. [i](You read forbidden lore when you look at one or more cards in your library for the first time each turn.)[/i]",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "ASH",
+            "loyalty": "",
+            "artist": "Darren Benton",
+            "alias": "",
+            "position": "254",
+            "rotated": false,
+            "notes": "!group otherland"
+        },
+        {
             "card_name": "Sacred Tomb",
             "color": "",
             "rarity": "common",
@@ -320,7 +404,7 @@
             "alias": "",
             "position": "259",
             "rotated": false,
-            "notes": "!tag greprint"
+            "notes": "!tag greprint\n!group fetch\n!sort 01"
         },
         {
             "card_name": "Sheer Coast",
@@ -341,7 +425,7 @@
             "alias": "",
             "position": "260",
             "rotated": false,
-            "notes": "!tag greprint"
+            "notes": "!tag greprint\n!group fetch\n!sort 04"
         },
         {
             "card_name": "Overgrown Wreck",
@@ -362,7 +446,7 @@
             "alias": "",
             "position": "261",
             "rotated": false,
-            "notes": "!tag greprint"
+            "notes": "!tag greprint\n!group fetch\n!sort 03"
         },
         {
             "card_name": "Gloomy Clearing",
@@ -383,7 +467,7 @@
             "alias": "",
             "position": "262",
             "rotated": false,
-            "notes": "!tag greprint"
+            "notes": "!tag greprint\n!group fetch\n!sort 02"
         },
         {
             "card_name": "Bridged Riptide",
