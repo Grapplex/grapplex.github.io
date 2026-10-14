@@ -5,7 +5,7 @@
 			<name>OPH</name>
 			<longname>Arkoph: Crisis of Faith</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-02</releasedate>
+			<releasedate>2026-10-14</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -3670,9 +3670,758 @@ Equip {3}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
+			<name>Delowe&apos;s Last Joke</name>
+			<text>Draw a card for each kind of counter among players and permanents.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/212.png" num="215">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Phyrexian Dominator</name>
+			<text>Menace
+When Phyrexian Dominator is dealt damage, it deals that much damage to each creature you don&apos;t control.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/213.png" num="122">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Phyrexian Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>RRRR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Martyr&apos;s Pyre</name>
+			<text>Destroy all creatures, then create X 1/1 white Human creature tokens.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/214.png" num="21">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>X3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Iskanter, Priest of Progress</name>
+			<text>Lifelink, deathtouch
+Whenever a creature you control enters the battlefield or dies, Iskanter, Priest of Progress deal 1 damage to each opponent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/215.png" num="172">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Phyrexian Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Encroaching Corruption</name>
+			<text>Destroy target nonland permanent. Search your library for a card, put that card into your graveyard, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/216.png" num="193">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Kotrates, Gilded Scholar</name>
+			<text>Whenever you cast a spell with mana value greater than Kotrates, Gilded Scholar&apos;s power, put a +1/+1 counter on Kotrates.
+Exile Kotrates: If Kotrates had six or more counters on it, take an extra turn after this one.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/217.png" num="183">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Avidim, Broken Cirque</name>
+			<text>Noxious 3 (Whenever this creature becomes blocked, defending player gets three poison counters.)
+Whenever Avidim, Broken Cirque attacks, you may sacrifice a creature. If you do, proliferate, then proliferate again. (To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/218.png" num="213">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Phyrexian Clown</type>
+				<maintype>Creature</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thread Cutter</name>
+			<text>{T}, Sacrifice Thread Cutter: Return target creature card not named Thread Cutter with mana value 3 or less from your graveyard to the battlefield. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/OPH-files/img/219.png" num="31">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Goustun, Evincar of Arkoph</name>
+			<text>Whenever another nontoken creature you control dies, create a token that&apos;s a copy of it, except it&apos;s a Phyrexian artifact in addition to its other types.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/220.png" num="170">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Phyrexian Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>3WB</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Predatory Necroship</name>
+			<text>Flying, vigilance
+Whenever Predatory Necroship becomes crewed for the first time each turn, target opponent gets a poison counter.
+Crew 3</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/221.png" num="57">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Geesh&apos;s Troubadour</name>
+			<text>Noxious 3 (Whenever this creature becomes blocked, defending player gets three poison counters.)
+Whenever Geesh&apos;s Troubadour deals combat damage to a player, draw a card.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/222.png" num="216">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Opportunistic Merchant</name>
+			<text>Whenever Opportunistic Merchant becomes tapped, you may cast target instant or sorcery card with mana value less than or equal to Opportunistic Merchant&apos;s power from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/223.png" num="186">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cathedral Guard</name>
+			<text>When Cathedral Guard enters the battlefield, exile target nonland permanent until Cathedral Guard leaves the battlefield.
+Whenever an opponent casts a spell that shares a name with a card exiled with Cathedral Guard, Cathedral Guard deals 2 damage to that player.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/224.png" num="204">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glory of the Dead</name>
+			<text>Until end of turn, noncreature sources you control gain lifelink.
+Glory of the Dead deals 2 damage to each creature.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/225.png" num="206">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Incompleat Flesh</name>
+			<text>At the beginning of each opponent&apos;s upkeep, that player may get a poison counter. If they don&apos;t, mill three cards, then you may return a card from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/226.png" num="195">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mask of Tears</name>
+			<text>When Mask of Tears enters the battlefield, each opponent gets a poison counter.
+At the beginning of each opponent&apos;s upkeep, that player loses life equal to the number of poison counters they have, and you gain that much life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/227.png" num="173">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Thedokia, Sea&apos;s Empress</name>
+			<text>Whenever you cast a noncreature spell, create an X/X green and blue Phyrexian Leviathan creature token, where X is that spell&apos;s mana value.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/228.png" num="221">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3GU</manacost>
+				<cmc>5</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Infected Beastman</name>
+			<text>Noxious 1 (Whenever this creature becomes blocked, defending player gets a poison counter.)
+When Infected Beastman dies, each opponent gets a poison counter.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/229.png" num="196">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Mutant Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ritual of the Sea</name>
+			<text>Alchemy (As an additional cost to cast this, you may tap a creature you control. Reduce this spell&apos;s mana cost by that creature&apos;s power.)
+Counter target spell. Ritual of the Sea deals 4 damage to that spell&apos;s controller.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/230.png" num="187">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4UR</manacost>
+				<cmc>6</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Prophet of Vindication</name>
+			<text>Exploit (When this creature enters, you may sacrifice a creature.)
+Whenever Prophet of Vindication exploits a creature, destroy target nonland permanent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/231.png" num="175">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Phyrexian Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relic of Potential</name>
+			<text>Each spell you cast costs either {U} or {R} less to cast. This effect reduces only the amount of colored mana you pay. 
+{1}{U}{R}: Relic of Potential becomes a 2/2 blue and red Incarnation creature with prowess until end of turn. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/232.png" num="240">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Relic of Martyrdom</name>
+			<text>Each spell you cast costs either {R} or {W} less to cast. This effect reduces only the amount of colored mana you pay. 
+{1}{R}{W}: Relic of Martyrdom becomes a 2/2 red and white Incarnation creature with double strike until end of turn. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/233.png" num="239">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Unskinned Potential</name>
+			<text>When Unskinned Potential enters the battlefield, exile your graveyard.
+Whenever you cast an instant or sorcery spell, you may put an instant or sorcery card exiled with Unskinned Potential into its owner&apos;s graveyard. If you do, copy that card. You may cast the copy without paying its mana cost.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/234.png" num="190">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Soul of Arkoph</name>
+			<text>Menace
+{5}: Target player mills five cards, then you may cast a spell with mana value 5 or less from that player&apos;s graveyard without paying its mana cost. Exile it if you do.
+{5}, Exile Soul of Arkoph from your graveyard: Target player mills five cards, then you may cast a spell with mana value 5 or less from that player&apos;s graveyard without paying its mana cost. Exile it if you do.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/235.png" num="3">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Essence of Alchemy</name>
+			<text>Flying
+Whenever you cast a noncreature spell, you may have Essence of Alchemy&apos;s base power and toughness become equal to that spell&apos;s mana value until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/236.png" num="41">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Paligos, Implacable Arbiter</name>
+			<text>Haste
+When Paligos, Implacable Arbiter enters the battlefield, each opponent chooses two nonland permanents they control. Exile those permanents until Paligos, Implacable Arbiter leaves the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/237.png" num="208">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Inquistor</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>History of Conflict</name>
+			<text>Whenever a creature enters the battlefield under an opponent&apos;s control, put a number of conflict counters on History of Conflict equal to that creature&apos;s power.
+At the beginning of your end step, if there are ten or more conflict counters on History of Conflict, sacrifice it and destroy all creatures.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/238.png" num="17">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lifebane Stag</name>
+			<text>Whenever you sacrifice a creature, exile it.
+Lifebane Stag has all activated abilities of all creature cards you own in exile.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/239.png" num="84">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kristana, Blood Aflame</name>
+			<text>Noncreature spells you cast have alchemy. (As an additional cost to cast them, you may tap a creature you control. Reduce the spell&apos;s mana cost by that creature&apos;s power.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/240.png" num="184">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3UR</manacost>
+				<cmc>5</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Black Goat in the Night</name>
+			<text>Whenever a creature card enters your graveyard for the first time each turn or leaves your graveyard for the first time each turn, put a +1/+1 counter on The Black Goat in the Night and each opponent loses 2 life.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/241.png" num="191">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Beast Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glistening Oak</name>
+			<text>{T}: Add {C}.
+{2}, {T}: Choose a color. Add an amount of mana of that color equal to the greatest number of poison counters an opponent has.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/242.png" num="252">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Scourge of Flesh</name>
+			<text>Deathtouch, lifelink
+Exploit (When this creature enters, you may sacrifice a creature.)
+Whenever Scourge of Flesh exploits a creature, non-Phyrexian creatures get -X/-X until end of turn, where X is that creature&apos;s power.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/243.png" num="177">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Phyrexian Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spiral of Predation</name>
+			<text>Search your library for any number of cards that don&apos;t share a card type, put them into your graveyard, then shuffle.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/244.png" num="199">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Glistening Inevitability</name>
+			<text>Whenever you put one or more counters on another permanent or player, put that many oil counters on Glistening Inevitability.
+At the beginning of your upkeep, if there are 100 or more oil counters on Glistening Inevitability, each opponent&apos;s life total becomes 0.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/245.png" num="2">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Test of Piety</name>
+			<text>Creatures you control get +1/+1.
+Whenever a nontoken creature you control dies, create a 1/1 white Human creature token.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/246.png" num="211">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Faith</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Relic of Change</name>
+			<text>Each spell you cast costs either {G} or {U} less to cast. This effect reduces only the amount of colored mana you pay. 
+{1}{G}{U}: Relic of Change becomes a 3/1 green and blue Incarnation creature with noxious 2 until end of turn. Activate only as a sorcery. (Whenever it becomes blocked, defending player gets two poison counters.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/247.png" num="238">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Relic of Strength</name>
+			<text>Each spell you cast costs either {B} or {G} less to cast. This effect reduces only the amount of colored mana you pay. 
+{1}{B}{G}: Relic of Strength becomes a 3/3 black and green Incarnation creature with trample until end of turn. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/248.png" num="241">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Relic of Balance</name>
+			<text>Each spell you cast costs either {W} or {B} less to cast. This effect reduces only the amount of colored mana you pay. 
+{1}{W}{B}: Relic of Balance becomes a 3/2 white and black Incarnation creature with lifelink until end of turn. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/249.png" num="237">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fall of Gevangis</name>
+			<text>(As this enters, choose an opponent to protect it. You and others can attack it.)
+When Fall of Gevangis enters the battlefield, search your library for a permanent card, exile it face down, then shuffle.
+When Fall of Gevangis is defeated, put the exiled card onto the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/250.png" num="1">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Battle — Conflict</type>
+				<maintype>Battle</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Exhumed Boneyard</name>
+			<text>Exhumed Boneyard enters the battlefield tapped.
+{T}: Add {W} or {B}.
+{W}{B}, {T}, Discard a card, sacrifice Exhumed Boneyard: Draw two cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/251.png" num="250">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Withered Woodland</name>
+			<text>Withered Woodland enters the battlefield tapped.
+{T}: Add {B} or {G}.
+{B}{G}, {T}, Discard a card, sacrifice Withered Woodland: Draw two cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/252.png" num="261">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Hopeless Waters</name>
+			<text>Hopeless Waters enters the battlefield tapped.
+{T}: Add {G} or {U}.
+{G}{U}, {T}, Discard a card, sacrifice Hopeless Waters: Draw two cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/253.png" num="253">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Crumbling Library</name>
+			<text>Crumbling Library enters the battlefield tapped.
+{T}: Add {U} or {R}.
+{U}{R}, {T}, Discard a card, sacrifice Crumbling Library: Draw two cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/254.png" num="248">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Shattered Basilica</name>
+			<text>Shattered Basilica enters the battlefield tapped.
+{T}: Add {R} or {W}.
+{R}{W}, {T}, Discard a card, sacrifice Shattered Basilica: Draw two cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/255.png" num="258">OPH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
 			<name>Human OPH</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/OPH-files/img/212.png" num="3">OPH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/OPH-files/img/256.png" num="3">OPH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3692,7 +4441,7 @@ Equip {3}</text>
 			<text>Enchant creature
 Enchanted creature gets +1/+1.
 When enchanted creature dies, create a tapped 1/1 white Human creature token.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/OPH-files/img/213.png" num="2">OPH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/OPH-files/img/257.png" num="2">OPH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3705,25 +4454,9 @@ When enchanted creature dies, create a tapped 1/1 white Human creature token.</t
 			<token>1</token>
 		</card>
 		<card>
-			<name>Delowe&apos;s Last Joke</name>
-			<text>Draw a card for each kind of counter among players and permanents.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/214.png" num="215">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
-				<manacost>1GU</manacost>
-				<cmc>3</cmc>
-				<colors>UG</colors>
-				<coloridentity>UG</coloridentity>
-			</prop>
-			<tablerow>3</tablerow>
-		</card>
-		<card>
 			<name>Phyrexian Horror OPH</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/OPH-files/img/215.png" num="5">OPH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/OPH-files/img/258.png" num="5">OPH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3739,147 +4472,9 @@ When enchanted creature dies, create a tapped 1/1 white Human creature token.</t
 			<token>1</token>
 		</card>
 		<card>
-			<name>Phyrexian Dominator</name>
-			<text>Menace
-When Phyrexian Dominator is dealt damage, it deals that much damage to each creature you don&apos;t control.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/216.png" num="122">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Creature — Phyrexian Horror</type>
-				<maintype>Creature</maintype>
-				<manacost>RRRR</manacost>
-				<cmc>4</cmc>
-				<colors>R</colors>
-				<coloridentity>R</coloridentity>
-				<pt>5/5</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Martyr&apos;s Pyre</name>
-			<text>Destroy all creatures, then create X 1/1 white Human creature tokens.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/217.png" num="21">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Sorcery</type>
-				<maintype>Sorcery</maintype>
-				<manacost>X3WW</manacost>
-				<cmc>5</cmc>
-				<colors>W</colors>
-				<coloridentity>W</coloridentity>
-			</prop>
-			<tablerow>3</tablerow>
-		</card>
-		<card>
-			<name>Iskanter, Priest of Progress</name>
-			<text>Lifelink, deathtouch
-Whenever a creature you control enters the battlefield or dies, Iskanter, Priest of Progress deal 1 damage to each opponent.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/218.png" num="172">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Legendary Creature — Phyrexian Cleric</type>
-				<maintype>Creature</maintype>
-				<manacost>1WB</manacost>
-				<cmc>3</cmc>
-				<colors>WB</colors>
-				<coloridentity>WB</coloridentity>
-				<pt>3/1</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Encroaching Corruption</name>
-			<text>Destroy target nonland permanent. Search your library for a card, put that card into your graveyard, then shuffle.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/219.png" num="193">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Sorcery</type>
-				<maintype>Sorcery</maintype>
-				<manacost>2BG</manacost>
-				<cmc>4</cmc>
-				<colors>BG</colors>
-				<coloridentity>BG</coloridentity>
-			</prop>
-			<tablerow>3</tablerow>
-		</card>
-		<card>
-			<name>Kotrates, Gilded Scholar</name>
-			<text>Whenever you cast a spell with mana value greater than Kotrates, Gilded Scholar&apos;s power, put a +1/+1 counter on Kotrates.
-Exile Kotrates: If Kotrates had six or more counters on it, take an extra turn after this one.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/220.png" num="183">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Legendary Creature — Human Wizard</type>
-				<maintype>Creature</maintype>
-				<manacost>UR</manacost>
-				<cmc>2</cmc>
-				<colors>UR</colors>
-				<coloridentity>UR</coloridentity>
-				<pt>1/3</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Avidim, Broken Cirque</name>
-			<text>Noxious 3 (Whenever this creature becomes blocked, defending player gets three poison counters.)
-Whenever Avidim, Broken Cirque attacks, you may sacrifice a creature. If you do, proliferate, then proliferate again. (To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/221.png" num="213">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Legendary Creature — Phyrexian Clown</type>
-				<maintype>Creature</maintype>
-				<manacost>2GU</manacost>
-				<cmc>4</cmc>
-				<colors>UG</colors>
-				<coloridentity>UG</coloridentity>
-				<pt>4/4</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Thread Cutter</name>
-			<text>{T}, Sacrifice Thread Cutter: Return target creature card not named Thread Cutter with mana value 3 or less from your graveyard to the battlefield. Activate only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/OPH-files/img/222.png" num="31">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Creature — Human Mystic</type>
-				<maintype>Creature</maintype>
-				<manacost>W</manacost>
-				<cmc>1</cmc>
-				<colors>W</colors>
-				<coloridentity>W</coloridentity>
-				<pt>1/2</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Goustun, Evincar of Arkoph</name>
-			<text>Whenever another nontoken creature you control dies, create a token that&apos;s a copy of it, except it&apos;s a Phyrexian artifact in addition to its other types.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/223.png" num="170">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Legendary Creature — Phyrexian Mystic</type>
-				<maintype>Creature</maintype>
-				<manacost>3WB</manacost>
-				<cmc>5</cmc>
-				<colors>WB</colors>
-				<coloridentity>WB</coloridentity>
-				<pt>3/3</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
 			<name>Wizard OPH</name>
 			<text>Vigilance</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/OPH-files/img/224.png" num="4">OPH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/OPH-files/img/259.png" num="4">OPH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3895,28 +4490,9 @@ Whenever Avidim, Broken Cirque attacks, you may sacrifice a creature. If you do,
 			<token>1</token>
 		</card>
 		<card>
-			<name>Predatory Necroship</name>
-			<text>Flying, vigilance
-Whenever Predatory Necroship becomes crewed for the first time each turn, target opponent gets a poison counter.
-Crew 3</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/225.png" num="57">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Artifact — Vehicle</type>
-				<maintype>Artifact</maintype>
-				<manacost>1U</manacost>
-				<cmc>2</cmc>
-				<colors>U</colors>
-				<coloridentity>U</coloridentity>
-				<pt>4/4</pt>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
 			<name>Compleat OPH</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/OPH-files/img/226.png" num="1">OPH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/OPH-files/img/260.png" num="1">OPH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3929,24 +4505,6 @@ Crew 3</text>
 			<token>1</token>
 		</card>
 		<card>
-			<name>Geesh&apos;s Troubadour</name>
-			<text>Noxious 3 (Whenever this creature becomes blocked, defending player gets three poison counters.)
-Whenever Geesh&apos;s Troubadour deals combat damage to a player, draw a card.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/227.png" num="216">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Creature — Human Performer</type>
-				<maintype>Creature</maintype>
-				<manacost>1GU</manacost>
-				<cmc>3</cmc>
-				<colors>UG</colors>
-				<coloridentity>UG</coloridentity>
-				<pt>2/2</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
 			<name>Rediscover // Reinvent</name>
 			<text>Exile target creature. At the beginning of the next end step, return that card to the battlefield under its owner&apos;s control with a +1/+1 counter on it.
 Fuse (You may cast one or both halves of this card from your hand.)
@@ -3955,7 +4513,7 @@ Fuse (You may cast one or both halves of this card from your hand.)
 
 Exile the top card of your library. Until end of turn, you may play cards exiled with this spell.
 Fuse (You may cast one or both halves of this card from your hand.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/228.png" num="231">OPH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/261.png" num="231">OPH</set>
 			<prop>
 				<layout>split</layout>
 				<side>front</side>
@@ -3969,417 +4527,9 @@ Fuse (You may cast one or both halves of this card from your hand.)</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Opportunistic Merchant</name>
-			<text>Whenever Opportunistic Merchant becomes tapped, you may cast target instant or sorcery card with mana value less than or equal to Opportunistic Merchant&apos;s power from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/229.png" num="186">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Creature — Human Advisor</type>
-				<maintype>Creature</maintype>
-				<manacost>1UR</manacost>
-				<cmc>3</cmc>
-				<colors>UR</colors>
-				<coloridentity>UR</coloridentity>
-				<pt>2/2</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Cathedral Guard</name>
-			<text>When Cathedral Guard enters the battlefield, exile target nonland permanent until Cathedral Guard leaves the battlefield.
-Whenever an opponent casts a spell that shares a name with a card exiled with Cathedral Guard, Cathedral Guard deals 2 damage to that player.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/230.png" num="204">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Creature — Human Soldier</type>
-				<maintype>Creature</maintype>
-				<manacost>2RW</manacost>
-				<cmc>4</cmc>
-				<colors>WR</colors>
-				<coloridentity>WR</coloridentity>
-				<pt>3/2</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Glory of the Dead</name>
-			<text>Until end of turn, noncreature sources you control gain lifelink.
-Glory of the Dead deals 2 damage to each creature.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/231.png" num="206">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Sorcery</type>
-				<maintype>Sorcery</maintype>
-				<manacost>2RW</manacost>
-				<cmc>4</cmc>
-				<colors>WR</colors>
-				<coloridentity>WR</coloridentity>
-			</prop>
-			<tablerow>3</tablerow>
-		</card>
-		<card>
-			<name>Incompleat Flesh</name>
-			<text>At the beginning of each opponent&apos;s upkeep, that player may get a poison counter. If they don&apos;t, mill three cards, then you may return a card from your graveyard to your hand.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/232.png" num="195">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Enchantment</type>
-				<maintype>Enchantment</maintype>
-				<manacost>BG</manacost>
-				<cmc>2</cmc>
-				<colors>BG</colors>
-				<coloridentity>BG</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Mask of Tears</name>
-			<text>When Mask of Tears enters the battlefield, each opponent gets a poison counter.
-At the beginning of each opponent&apos;s upkeep, that player loses life equal to the number of poison counters they have, and you gain that much life.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/233.png" num="173">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Enchantment</type>
-				<maintype>Enchantment</maintype>
-				<manacost>WB</manacost>
-				<cmc>2</cmc>
-				<colors>WB</colors>
-				<coloridentity>WB</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Thedokia, Sea&apos;s Empress</name>
-			<text>Whenever you cast a noncreature spell, create an X/X green and blue Phyrexian Leviathan creature token, where X is that spell&apos;s mana value.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/234.png" num="221">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Legendary Creature — Human Wizard</type>
-				<maintype>Creature</maintype>
-				<manacost>3GU</manacost>
-				<cmc>5</cmc>
-				<colors>UG</colors>
-				<coloridentity>UG</coloridentity>
-				<pt>2/2</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Infected Beastman</name>
-			<text>Noxious 1 (Whenever this creature becomes blocked, defending player gets a poison counter.)
-When Infected Beastman dies, each opponent gets a poison counter.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/235.png" num="196">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Creature — Beast Mutant Warrior</type>
-				<maintype>Creature</maintype>
-				<manacost>BG</manacost>
-				<cmc>2</cmc>
-				<colors>BG</colors>
-				<coloridentity>BG</coloridentity>
-				<pt>3/2</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Ritual of the Sea</name>
-			<text>Alchemy (As an additional cost to cast this, you may tap a creature you control. Reduce this spell&apos;s mana cost by that creature&apos;s power.)
-Counter target spell. Ritual of the Sea deals 4 damage to that spell&apos;s controller.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/236.png" num="187">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
-				<manacost>4UR</manacost>
-				<cmc>6</cmc>
-				<colors>UR</colors>
-				<coloridentity>UR</coloridentity>
-			</prop>
-			<tablerow>3</tablerow>
-		</card>
-		<card>
-			<name>Prophet of Vindication</name>
-			<text>Exploit (When this creature enters, you may sacrifice a creature.)
-Whenever Prophet of Vindication exploits a creature, destroy target nonland permanent.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/237.png" num="175">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Creature — Phyrexian Cleric</type>
-				<maintype>Creature</maintype>
-				<manacost>2WB</manacost>
-				<cmc>4</cmc>
-				<colors>WB</colors>
-				<coloridentity>WB</coloridentity>
-				<pt>2/2</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Relic of Potential</name>
-			<text>Each spell you cast costs either {U} or {R} less to cast. This effect reduces only the amount of colored mana you pay. 
-{1}{U}{R}: Relic of Potential becomes a 2/2 blue and red Incarnation creature with prowess until end of turn. Activate only as a sorcery.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/238.png" num="240">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Artifact</type>
-				<maintype>Artifact</maintype>
-				<manacost>3</manacost>
-				<cmc>3</cmc>
-				<coloridentity>UR</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Relic of Martyrdom</name>
-			<text>Each spell you cast costs either {R} or {W} less to cast. This effect reduces only the amount of colored mana you pay. 
-{1}{R}{W}: Relic of Martyrdom becomes a 2/2 red and white Incarnation creature with double strike until end of turn. Activate only as a sorcery.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/239.png" num="239">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Artifact</type>
-				<maintype>Artifact</maintype>
-				<manacost>3</manacost>
-				<cmc>3</cmc>
-				<coloridentity>WR</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Unskinned Potential</name>
-			<text>When Unskinned Potential enters the battlefield, exile your graveyard.
-Whenever you cast an instant or sorcery spell, you may put an instant or sorcery card exiled with Unskinned Potential into its owner&apos;s graveyard. If you do, copy that card. You may cast the copy without paying its mana cost.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/240.png" num="190">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Enchantment</type>
-				<maintype>Enchantment</maintype>
-				<manacost>2UR</manacost>
-				<cmc>4</cmc>
-				<colors>UR</colors>
-				<coloridentity>UR</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Soul of Arkoph</name>
-			<text>Menace
-{5}: Target player mills five cards, then you may cast a spell with mana value 5 or less from that player&apos;s graveyard without paying its mana cost. Exile it if you do.
-{5}, Exile Soul of Arkoph from your graveyard: Target player mills five cards, then you may cast a spell with mana value 5 or less from that player&apos;s graveyard without paying its mana cost. Exile it if you do.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/241.png" num="3">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Creature — Avatar</type>
-				<maintype>Creature</maintype>
-				<manacost>6</manacost>
-				<cmc>6</cmc>
-				<pt>6/6</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Essence of Alchemy</name>
-			<text>Flying
-Whenever you cast a noncreature spell, you may have Essence of Alchemy&apos;s base power and toughness become equal to that spell&apos;s mana value until end of turn.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/242.png" num="41">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Creature — Spirit</type>
-				<maintype>Creature</maintype>
-				<manacost>3U</manacost>
-				<cmc>4</cmc>
-				<colors>U</colors>
-				<coloridentity>U</coloridentity>
-				<pt>3/3</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Paligos, Implacable Arbiter</name>
-			<text>Haste
-When Paligos, Implacable Arbiter enters the battlefield, each opponent chooses two nonland permanents they control. Exile those permanents until Paligos, Implacable Arbiter leaves the battlefield.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/243.png" num="208">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Legendary Creature — Human Inquistor</type>
-				<maintype>Creature</maintype>
-				<manacost>2RW</manacost>
-				<cmc>4</cmc>
-				<colors>WR</colors>
-				<coloridentity>WR</coloridentity>
-				<pt>3/1</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>History of Conflict</name>
-			<text>Whenever a creature enters the battlefield under an opponent&apos;s control, put a number of conflict counters on History of Conflict equal to that creature&apos;s power.
-At the beginning of your end step, if there are ten or more conflict counters on History of Conflict, sacrifice it and destroy all creatures.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/244.png" num="17">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Enchantment</type>
-				<maintype>Enchantment</maintype>
-				<manacost>W</manacost>
-				<cmc>1</cmc>
-				<colors>W</colors>
-				<coloridentity>W</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Lifebane Stag</name>
-			<text>Whenever you sacrifice a creature, exile it.
-Lifebane Stag has all activated abilities of all creature cards you own in exile.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/245.png" num="84">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Creature — Elk Horror</type>
-				<maintype>Creature</maintype>
-				<manacost>2B</manacost>
-				<cmc>3</cmc>
-				<colors>B</colors>
-				<coloridentity>B</coloridentity>
-				<pt>3/3</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Kristana, Blood Aflame</name>
-			<text>Noncreature spells you cast have alchemy. (As an additional cost to cast them, you may tap a creature you control. Reduce the spell&apos;s mana cost by that creature&apos;s power.)</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/246.png" num="184">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Legendary Creature — Human Wizard</type>
-				<maintype>Creature</maintype>
-				<manacost>3UR</manacost>
-				<cmc>5</cmc>
-				<colors>UR</colors>
-				<coloridentity>UR</coloridentity>
-				<pt>3/1</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>The Black Goat in the Night</name>
-			<text>Whenever a creature card enters your graveyard for the first time each turn or leaves your graveyard for the first time each turn, put a +1/+1 counter on The Black Goat in the Night and each opponent loses 2 life.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/247.png" num="191">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Legendary Creature — Beast Mutant</type>
-				<maintype>Creature</maintype>
-				<manacost>2BG</manacost>
-				<cmc>4</cmc>
-				<colors>BG</colors>
-				<coloridentity>BG</coloridentity>
-				<pt>3/3</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Glistening Oak</name>
-			<text>{T}: Add {C}.
-{2}, {T}: Choose a color. Add an amount of mana of that color equal to the greatest number of poison counters an opponent has.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/248.png" num="252">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Land</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-			</prop>
-			<tablerow>0</tablerow>
-		</card>
-		<card>
-			<name>Scourge of Flesh</name>
-			<text>Deathtouch, lifelink
-Exploit (When this creature enters, you may sacrifice a creature.)
-Whenever Scourge of Flesh exploits a creature, non-Phyrexian creatures get -X/-X until end of turn, where X is that creature&apos;s power.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/249.png" num="177">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Creature — Phyrexian Knight</type>
-				<maintype>Creature</maintype>
-				<manacost>2WB</manacost>
-				<cmc>4</cmc>
-				<colors>WB</colors>
-				<coloridentity>WB</coloridentity>
-				<pt>3/3</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
-			<name>Spiral of Predation</name>
-			<text>Search your library for any number of cards that don&apos;t share a card type, put them into your graveyard, then shuffle.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/250.png" num="199">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Sorcery</type>
-				<maintype>Sorcery</maintype>
-				<manacost>2BG</manacost>
-				<cmc>4</cmc>
-				<colors>BG</colors>
-				<coloridentity>BG</coloridentity>
-			</prop>
-			<tablerow>3</tablerow>
-		</card>
-		<card>
-			<name>Glistening Inevitability</name>
-			<text>Whenever you put one or more counters on another permanent or player, put that many oil counters on Glistening Inevitability.
-At the beginning of your upkeep, if there are 100 or more oil counters on Glistening Inevitability, each opponent&apos;s life total becomes 0.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/251.png" num="2">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Legendary Enchantment</type>
-				<maintype>Enchantment</maintype>
-				<manacost>3</manacost>
-				<cmc>3</cmc>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Test of Piety</name>
-			<text>Creatures you control get +1/+1.
-Whenever a nontoken creature you control dies, create a 1/1 white Human creature token.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/252.png" num="211">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Enchantment — Faith</type>
-				<maintype>Enchantment</maintype>
-				<manacost>1RW</manacost>
-				<cmc>3</cmc>
-				<colors>WR</colors>
-				<coloridentity>WR</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
 			<name>Phyrexian Leviathan OPH</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/OPH-files/img/253.png" num="6">OPH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/OPH-files/img/262.png" num="6">OPH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4393,156 +4543,6 @@ Whenever a nontoken creature you control dies, create a 1/1 white Human creature
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-		</card>
-		<card>
-			<name>Relic of Change</name>
-			<text>Each spell you cast costs either {G} or {U} less to cast. This effect reduces only the amount of colored mana you pay. 
-{1}{G}{U}: Relic of Change becomes a 3/1 green and blue Incarnation creature with noxious 2 until end of turn. Activate only as a sorcery. (Whenever it becomes blocked, defending player gets two poison counters.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/254.png" num="238">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Artifact</type>
-				<maintype>Artifact</maintype>
-				<manacost>3</manacost>
-				<cmc>3</cmc>
-				<coloridentity>UG</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Relic of Strength</name>
-			<text>Each spell you cast costs either {B} or {G} less to cast. This effect reduces only the amount of colored mana you pay. 
-{1}{B}{G}: Relic of Strength becomes a 3/3 black and green Incarnation creature with trample until end of turn. Activate only as a sorcery.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/255.png" num="241">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Artifact</type>
-				<maintype>Artifact</maintype>
-				<manacost>3</manacost>
-				<cmc>3</cmc>
-				<coloridentity>BG</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Relic of Balance</name>
-			<text>Each spell you cast costs either {W} or {B} less to cast. This effect reduces only the amount of colored mana you pay. 
-{1}{W}{B}: Relic of Balance becomes a 3/2 white and black Incarnation creature with lifelink until end of turn. Activate only as a sorcery.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/256.png" num="237">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Artifact</type>
-				<maintype>Artifact</maintype>
-				<manacost>3</manacost>
-				<cmc>3</cmc>
-				<coloridentity>WB</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Fall of Gevangis</name>
-			<text>(As this enters, choose an opponent to protect it. You and others can attack it.)
-When Fall of Gevangis enters the battlefield, search your library for a permanent card, exile it face down, then shuffle.
-When Fall of Gevangis is defeated, put the exiled card onto the battlefield.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/OPH-files/img/257.png" num="1">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Battle — Conflict</type>
-				<maintype>Battle</maintype>
-				<manacost>4</manacost>
-				<cmc>4</cmc>
-				<loyalty>5</loyalty>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>Exhumed Boneyard</name>
-			<text>Exhumed Boneyard enters the battlefield tapped.
-{T}: Add {W} or {B}.
-{W}{B}, {T}, Discard a card, sacrifice Exhumed Boneyard: Draw two cards.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/258.png" num="250">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Land</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>WB</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
-		</card>
-		<card>
-			<name>Withered Woodland</name>
-			<text>Withered Woodland enters the battlefield tapped.
-{T}: Add {B} or {G}.
-{B}{G}, {T}, Discard a card, sacrifice Withered Woodland: Draw two cards.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/259.png" num="261">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Land</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>BG</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
-		</card>
-		<card>
-			<name>Hopeless Waters</name>
-			<text>Hopeless Waters enters the battlefield tapped.
-{T}: Add {G} or {U}.
-{G}{U}, {T}, Discard a card, sacrifice Hopeless Waters: Draw two cards.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/260.png" num="253">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Land</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>UG</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
-		</card>
-		<card>
-			<name>Crumbling Library</name>
-			<text>Crumbling Library enters the battlefield tapped.
-{T}: Add {U} or {R}.
-{U}{R}, {T}, Discard a card, sacrifice Crumbling Library: Draw two cards.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/261.png" num="248">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Land</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>UR</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
-		</card>
-		<card>
-			<name>Shattered Basilica</name>
-			<text>Shattered Basilica enters the battlefield tapped.
-{T}: Add {R} or {W}.
-{R}{W}, {T}, Discard a card, sacrifice Shattered Basilica: Draw two cards.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/OPH-files/img/262.png" num="258">OPH</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Land</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>WR</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
 		</card>
 		<card>
 			<name>Remonstrate // Remembrance</name>
