@@ -1,0 +1,768 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>INC</name>
+			<longname>Arkoph Incantations</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-10-15</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Fiend Artisan</name>
+			<text>Fiend Artisan gets +1/+1 for each creature card in your graveyard.
+{X}{BG}, {T}, Sacrifice another creature: Search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle. Activate only as a sorcery.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/INC-files/img/0.png" num="43">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>B/GB/G</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vindicate</name>
+			<text>Destroy target permanent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/INC-files/img/1.png" num="8">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Expressive Iteration</name>
+			<text>Look at the top three cards of your library. Put one of them into your hand, put one of them on the bottom of your library, and exile one of them. You may play the exiled card this turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/INC-files/img/2.png" num="10">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mystic Snake</name>
+			<text>Flash
+When Mystic Snake enters the battlefield, counter target spell.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/INC-files/img/3.png" num="36">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake</type>
+				<maintype>Creature</maintype>
+				<manacost>1GUU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rip Apart</name>
+			<text>Choose one —
+• Rip Apart deals 3 damage to target creature or planeswalker.
+• Destroy target artifact or enchantment</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/4.png" num="30">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lightning Helix</name>
+			<text>Lightning Helix deals 3 damage to any target and you gain 3 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/5.png" num="28">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ashen Rider</name>
+			<text>Flying
+When Ashen Rider enters the battlefield or dies, exile target permanent.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/INC-files/img/6.png" num="1">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Archon</type>
+				<maintype>Creature</maintype>
+				<manacost>4WWBB</manacost>
+				<cmc>8</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thousand-Year Storm</name>
+			<text>Whenever you cast an instant or sorcery spell, copy it for each other instant and sorcery spell you&apos;ve cast before it this turn. You may choose new targets for the copies</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/INC-files/img/7.png" num="16">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4UR</manacost>
+				<cmc>6</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bring to Light</name>
+			<text>Search your library for a creature, instant, or sorcery card with mana value less than or equal to the number of colors of mana spent to cast this spell, exile that card, then shuffle. You may cast that card without paying its mana cost.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/INC-files/img/8.png" num="33">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GU</manacost>
+				<cmc>5</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mind Roots</name>
+			<text>Target player discards two cards. Put up to one land card discarded this way onto the battlefield tapped under your control.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/9.png" num="21">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Murkfiend Liege</name>
+			<text>Other green creatures you control get +1/+1.
+Other blue creatures you control get +1/+1.
+Untap all green and/or blue creatures you control during each other player&apos;s untap step.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/INC-files/img/10.png" num="45">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2G/UG/UG/U</manacost>
+				<cmc>5</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Consume Strength</name>
+			<text>Target creature gets +2/+2 until end of turn. Another target creature gets -2/-2 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/11.png" num="18">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Edgewalker</name>
+			<text>Cleric spells you cast cost {W}{B} less to cast. This effect reduces only the amount of colored mana you pay.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/12.png" num="5">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rapturous Moment</name>
+			<text>Draw three cards, then discard two cards. Add {U}{U}{R}{R}{R}.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/13.png" num="15">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4UR</manacost>
+				<cmc>6</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Skull Prophet</name>
+			<text>{T}: Add {B} or {G}.
+{T}: Mill two cards.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/14.png" num="23">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ride Down</name>
+			<text>Destroy target blocking creature. Creatures that were blocked by that creature this combat gain trample until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/15.png" num="29">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rogue Refiner</name>
+			<text>When Rogue Refiner enters the battlefield, draw a card and you get {E}{E} (two energy counters).</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/16.png" num="39">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Exterminatus</name>
+			<text>Nonland permanents your opponents control lose indestructible until end of turn.
+Destroy all nonland permanents.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/INC-files/img/17.png" num="6">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5WB</manacost>
+				<cmc>7</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deadbridge Chant</name>
+			<text>When Deadbridge Chant enters the battlefield, mill ten cards.
+At the beginning of your upkeep, choose a card at random in your graveyard. If it&apos;s a creature card, put it onto the battlefield. Otherwise, put it into your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/INC-files/img/18.png" num="19">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4BG</manacost>
+				<cmc>6</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Assassin&apos;s Trophy</name>
+			<text>Destroy target permanent an opponent controls. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/INC-files/img/19.png" num="17">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deafening Clarion</name>
+			<text>Choose one or both —
+• Deafening Clarion deals 3 damage to each creature.
+• Creatures you control gain lifelink until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/INC-files/img/20.png" num="26">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Voidslime</name>
+			<text>Counter target spell, activated ability, or triggered ability. (Mana abilities can&apos;t be targeted.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/INC-files/img/21.png" num="40">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>GUU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Corpse Knight</name>
+			<text>Whenever another creature enters the battlefield under you control, each opponent loses 1 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/22.png" num="3">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Practical Research</name>
+			<text>Draw four cards. Then discard two cards unless you discard an instant or sorcery card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/23.png" num="13">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3UR</manacost>
+				<cmc>5</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deathreap Ritual</name>
+			<text>Morbid — At the beginning of each end step, if a creature died this turn, you may draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/24.png" num="20">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Intimidation Bolt</name>
+			<text>Intimidation Bolt deals 3 damage to target creature. Other creatures can&apos;t attack this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/25.png" num="27">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Growth Spiral</name>
+			<text>Draw a card. You may put a land card from your hand onto the battlefield.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/26.png" num="35">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Despark</name>
+			<text>Exile target permanent with mana value 4 or greater.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/27.png" num="4">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bloodwater Entity</name>
+			<text>Flying, prowess 
+When Bloodwater Entity enters the battlefield, you may put target instant or sorcery card from your graveyard on top of your library.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/28.png" num="9">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Neoform</name>
+			<text>As an additional cost to cast Neoform, sacrifice a creature.
+Search your library for a creature card with mana value equal to 1 plus the sacrificed creature&apos;s mana value, put that card onto the battlefield with an additional +1/+1 counter on it, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/29.png" num="37">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Castigate</name>
+			<text>Target opponent reveals their hand. You choose a nonland card from it and exile that card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/30.png" num="2">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Prophetic Bolt</name>
+			<text>Prophetic Bolt deals 4 damage to any target. Look at the top four cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/31.png" num="14">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3UR</manacost>
+				<cmc>5</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Spiritmonger</name>
+			<text>Whenever Spiritmonger deals damage to a creature, put a +1/+1 counter on Spiritmonger.
+{B}: Regenerate Spiritmonger.
+{G}: Spiritmonger becomes the color of your choice until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/INC-files/img/32.png" num="24">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>3BG</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Doppelgang</name>
+			<text>For each of X target permanents, create X tokens that are copies of that permanent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/INC-files/img/33.png" num="34">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XXXGU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Warleader&apos;s Call</name>
+			<text>Creatures you control get +1/+1.
+Whenever a creature enters the battlefield under your control, Warleader&apos;s Call deals 1 damage to each opponent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/INC-files/img/34.png" num="32">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Chance for Glory</name>
+			<text>Creatures you control gain indestructible. Take an extra turn after this one. At the beginning of that turn&apos;s end step, you lose the game.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/INC-files/img/35.png" num="25">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Planar Genesis</name>
+			<text>Look at the top four cards of your library. You may put a land card from among them onto the battlefield tapped. If you don&apos;t, put a card from among them into your hand. Put the rest on the bottom of your library in a random order.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/INC-files/img/36.png" num="38">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Lost and the Damned</name>
+			<text>Whenever a land enters the battlefield under your control from anywhere other than your hand or you cast a spell from anywhere other than your hand, create a 3/3 red Spawn creature token.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/INC-files/img/37.png" num="12">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Priest of Fell Rites</name>
+			<text>{T}, Pay 3 life, Sacrifice Priest of Fell Rites: Return target creature card from your graveyard to the battlefield. Activate only as a sorcery.
+Unearth {3}{W}{B} ({3}{W}{B}: Return this card from your graveyard to the battlefield. Exile it at the beginning of the end step or if it would leave the battlefield. Unearth only as a sorcery.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/INC-files/img/38.png" num="7">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fevered Visions</name>
+			<text>At the beginning of each player&apos;s end step, that player draws a card. If the player is your opponent and has four or more cards in hand, Fevered Visions deals 2 damage to that player.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/INC-files/img/39.png" num="11">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Divinity of Pride</name>
+			<text>Flying, lifelink
+Divinity of Pride gets +4/+4 as long as you have 25 or more life.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/INC-files/img/40.png" num="41">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>W/BW/BW/BW/BW/B</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mindwrack Liege</name>
+			<text>Other blue creatures you control get +1/+1.
+Other red creatures you control get +1/+1.
+{UR}{UR}{UR}{UR}: You may put a blue or red creature card from your hand onto the battlefield.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/INC-files/img/41.png" num="42">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3U/RU/RU/R</manacost>
+				<cmc>6</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blade Historian</name>
+			<text>Attacking creatures you control have double strike.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/INC-files/img/42.png" num="44">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>R/WR/WR/WR/W</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wake the Past</name>
+			<text>Return all artifact cards from your graveyard to the battlefield. They gain haste until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/INC-files/img/43.png" num="31">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5RW</manacost>
+				<cmc>7</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pernicious Deed</name>
+			<text>{X}, Sacrifice Pernicious Deed: Destroy each artifact, creature, and enchantment with mana value X or less.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/INC-files/img/44.png" num="22">INC</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>
