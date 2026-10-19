@@ -5,27 +5,25 @@
 			<name>NZH</name>
 			<longname>Nezahual: The Flower War</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-30</releasedate>
+			<releasedate>2026-10-19</releasedate>
 		</set>
 	</sets>
 	<cards>
 		<card>
-			<name>Cipactli Clutch-Leader</name>
-			<text>Trample over battles (This creature can deal excess combat damage to the protector of battles it attacks.)
-Whenever a battle enters the battlefield under you control or whenever a battle you control is defeated, you draw a card and you lose 1 life.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/NZH-files/img/236.png" num="233">NZH</set>
+			<name>Into the Heart of Darkness</name>
+			<text>(As this enters, choose an opponent to protect it. You can attack it.)
+When Into the Heart of Darkness enters the battlefield or is defeated, search your library for a basic land card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/NZH-files/img/245.png" num="3">NZH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
-				<type>Creature — Viashino Warrior</type>
-				<maintype>Creature</maintype>
-				<manacost>1BG</manacost>
-				<cmc>3</cmc>
-				<colors>BG</colors>
-				<coloridentity>BG</coloridentity>
-				<pt>3/3</pt>
+				<type>Battle — Conflict</type>
+				<maintype>Battle</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<loyalty>2</loyalty>
 			</prop>
-			<tablerow>2</tablerow>
+			<tablerow>1</tablerow>
 		</card>
 		<card>
 			<name>Plains</name>
