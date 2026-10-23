@@ -1,4 +1,41 @@
-﻿VERSION 11 CHANGELOG
+﻿VERSION 12 CHANGELOG
+====================
+
+
+
+Encounter
+rules_text: [i](As this enters, choose an opponent to protect it. You and others can attack it.)[/i]
+When this battle is defeated, draw a card and create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i] => [i](As this enters, choose an opponent to protect it. You and others can attack it.)[/i]
+When this battle is defeated, draw a card and create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Encounter
+rules_text: [i](As this enters, choose an opponent to protect it. You and others can attack it.)[/i]
+When this battle is defeated, draw a card and create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i] => [i](As this enters, choose an opponent to protect it. You and others can attack it.)[/i]
+When this battle is defeated, draw a card and create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Rijkspire Ruins
+rules_text: {T}: Add {C}.
+{T}, Exile two cards from your graveyard that share a card type: Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i] => {T}: Add {C}.
+{T}, Exile two cards from your graveyard that share a card type: Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Where Desperation Ends
+flavor_text: [i][/i] => [i]To look upon the crawling chaos of the Cursed City is to invite the madness that destroyed it.[/i]
+
+Shadow of Glory
+rules_text: {B}: Shadow of Glory gets +1/+1 until end of turn.
+When Shadow of Glory dies, if its power was 5 or greater, create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i] => {B}: Shadow of Glory gets +1/+1 until end of turn.
+When Shadow of Glory dies, if its power was 5 or greater, create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Misshapen Marauder
+rules_text: When Misshapen Marauder enters the battlefield, it digs for a Treasure token. [i](You may exile two cards that share a type from your graveyard. When you do, create a Treasure token.)[/i]
+{R}, Exile Misshapen Marauder from your graveyard: Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i] => When Misshapen Marauder enters the battlefield, it digs for a Treasure token. [i](You may exile two cards that share a type from your graveyard. When you do, create a Treasure token.)[/i]
+{R}, Exile Misshapen Marauder from your graveyard: Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+Pilfered Monument
+rules_text: When Pilfered Monument enters the battlefield or dies, create a tapped Treasure token. [i](It's an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)[/i] => When Pilfered Monument enters the battlefield or dies, create a tapped Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+
+
+VERSION 11 CHANGELOG
 ====================
 
 Sinister Crossroads added.

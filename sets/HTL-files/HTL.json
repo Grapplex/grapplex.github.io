@@ -187,7 +187,7 @@
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
-            "shape": "normal",
+            "shape": "battle",
             "set": "HTL",
             "loyalty": "5",
             "artist": "RenderDock Studio",
@@ -2787,7 +2787,7 @@
             "number": 151,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Whenever you cast a spell, add {R}. If that spell was cast from anywhere other than your hand, create a Treasure token instead. [i](It's an artifact with \u201c{T}, Sacrifice this token: Add one mana of any color.\u201d)[/i]",
+            "rules_text": "Whenever you cast a spell, add {R}. If that spell was cast from anywhere other than your hand, create a Treasure token instead. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2829,7 +2829,7 @@
             "number": 160,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "When Sabotage Specialist enters the battlefield, choose one. If it was cast from exile, you may choose both instead.\n\u2022 Each opponent sacrifices an artifact of their choice.\n\u2022 Create a Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this token: Add one mana of any color.\u201d)[/i]",
+            "rules_text": "When Sabotage Specialist enters the battlefield, choose one. If it was cast from exile, you may choose both instead.\n\u2022 Each opponent sacrifices an artifact of their choice.\n\u2022 Create a Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -2850,7 +2850,7 @@
             "number": 149,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
-            "rules_text": "Menace, reach\nWhenever a spell or ability causes an opponent to shuffle their library, create a Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this token: Add one mana of any color.\u201d)[/i]",
+            "rules_text": "Menace, reach\nWhenever a spell or ability causes an opponent to shuffle their library, create a Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -3228,7 +3228,7 @@
             "number": 184,
             "color_identity": "G",
             "cost": "{3}{G}",
-            "rules_text": "Trample\nWhen Hardwired Experiment dies, create a Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this token: Add one mana of any color.\u201d)[/i]",
+            "rules_text": "Trample\nWhen Hardwired Experiment dies, create a Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]",
             "flavor_text": "[i]With human life valued so little, experimentation ran rife.[/i]",
             "pt": "4/3",
             "special_text": "",
@@ -4614,7 +4614,7 @@
             "number": 241,
             "color_identity": "C",
             "cost": "{3}",
-            "rules_text": "Whenever a battle you control is dealt combat damage, create a Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this token: Add one mana of any color.\u201d)[/i]",
+            "rules_text": "Whenever a battle you control is dealt combat damage, create a Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]",
             "flavor_text": "[i]Recovered from the site of Entity X's arrival, it hums with the energy of many worlds. [/i]",
             "pt": "",
             "special_text": "",
@@ -5804,5 +5804,5 @@
             "notes": "!exportname Drone (flying)\n!group token\n!sort"
         }
     ],
-    "version": 21
+    "version": 22
 }
