@@ -10,7 +10,7 @@ But Kushab's society is experiencing schism as heresy takes hold. Freed from the
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/APSbooster.png "APS booster"/>**The Apostate of Kushab** features the following mechanics:
+<img align="left" width="200" height="353" style="margin:15px" src="https://grapplex.github.io/custom/img/APSbooster.png "APS booster"/>**The Apostate of Kushab** features the following mechanics:
 
 **Communion:** Not all can achieve true immortality through divinity, but faith persists forever. Creatures with communion can be cast from your graveyard for their communion cost, returning to the battlefield as noncreature permanents with a finality counter on them. Every creature in **The Apostate of Kushab** with communion is an enchantment creature, which will mean their returned forms are noncreature enchantments.
 

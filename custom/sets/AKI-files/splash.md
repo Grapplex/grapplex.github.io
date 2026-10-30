@@ -10,7 +10,7 @@ This is the story of Akaddi, and of how all things fall.
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/AKIbooster.png "AKI booster"/>**Akaddi: Empire's End** features the following mechanics:
+<img align="left" width="200" height="353" style="margin:15px" src="https://grapplex.github.io/custom/img/AKIbooster.png "AKI booster"/>**Akaddi: Empire's End** features the following mechanics:
 
 **Judgment counters:** The edicts of Qamurab are represented in gameplay by the introduction of judgment counters, a new kind of player counter used for a variety of purposes. On their own, judgment counters represent a slow bleed on the opponent—once your opponent has been given a judgment counter, they face a choice on each of their upkeeps, to pay penance or pay a tithe. For each counter, you will choose between losing 1 life or choosing an opponent to create a Treasure. You might find each turn that your choice seems simple, but those who are judged are marked for life, and choice will matter as the game proceeds. 
 

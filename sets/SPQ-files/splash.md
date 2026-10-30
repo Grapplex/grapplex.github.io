@@ -10,7 +10,7 @@ All roads lead to Avicta, but some are paved with marbled glory. Others, with no
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/SPQbooster.png "SPQ booster"/>The mechanics of **Avicta: Ave Imperator** include:
+<img align="left" width="200" height="353" style="margin:15px" src="https://grapplex.github.io/custom/img/SPQbooster.png "SPQ booster"/>The mechanics of **Avicta: Ave Imperator** include:
 
 **Imperium:** Take control of the empire and pursue your enemies with the strength of the legions. When a card instructs you to take imperium, you assume a game state which continues until the next time you end a turn without either casting a creature spell or attacking. While you hold imperium, each creature you cast enters the battlefield with an additional +1/+1 counter, pressing your advantage ever further; additionally, some other cards will power up during this state in a threshold effect. Grab the reins of power and command the empire.
 

@@ -12,7 +12,7 @@ The chronicles of Urza's centuries-long struggle with Phyrexia would see the dea
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/URZbooster.png "URZ booster"/>**Urza's Chronicle** features the following mechanics:
+<img align="left" width="200" height="353" style="margin:15px" src="https://grapplex.github.io/custom/img/URZbooster.png "URZ booster"/>**Urza's Chronicle** features the following mechanics:
 
 **Historic:** Returning from *Dominaria*, the historic batch represents the breadth of history spanned by Urza's story, combining artifacts, legendary cards, and Sagas. As a batch, historic merely collates several kinds of card together in order to care about them on a card-by-card basis, with different effects possible when focusing on the history of Urza's chronicles.
 

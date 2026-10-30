@@ -10,7 +10,7 @@ Three great civilisations span the continent—the militant might of Zhalfir, sh
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/JMRbooster.png "JMR booster"/>**Jamuraa: The Mirage War** features the following mechanic:
+<img align="left" width="200" height="353" style="margin:15px" src="https://grapplex.github.io/custom/img/JMRbooster.png "JMR booster"/>**Jamuraa: The Mirage War** features the following mechanic:
 
 **Conflicts:** The empires of Jamuraa are embroiled in war on many fronts. Conflicts are a battle subtype, a no-frills approach to the card type with no additional wrinkles. Most Conflicts have an effect when the battle enters the battlefield and again when it is defeated, although a few will specify different effects to explore. Each booster pack of *Jamuraa: The Mirage War* contains at least one Conflict.
 

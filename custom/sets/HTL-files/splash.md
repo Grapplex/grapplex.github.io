@@ -11,7 +11,7 @@ The only solution is to shelter their society behind ferrocrete and adamantium a
 *Heartland of the Real* is a draftable premier set using Play Boosters, containing 266 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of Sickly Gestation, while boosters have a chance to contain the promotional headliner card, a redacted-foil Yury Belyik, Astralnaut.
 
 ###Mechanics
-<img align="left" width="200" height="353" style="margin:10px" src="src="https://grapplex.github.io/custom/img/HTLbooster.png "HTL booster"/>The mechanics of *Heartland of the Real* include:
+<img align="left" width="200" height="353" style="margin:10px" src="https://grapplex.github.io/custom/img/HTLbooster.png "HTL booster"/>The mechanics of *Heartland of the Real* include:
 
 **Operations**: Secretive psyops and black-bag missions abound in the shadows of St. Cahand. Operations are a new subtype of battle, which offer an effect when the Operation enters the battlefield and again when it is defeated. Additionally, attacking an Operation with a single creature will grant that attacker menace, making it easier for lone operatives to complete their goals.
 

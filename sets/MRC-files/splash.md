@@ -10,7 +10,7 @@ Those at the top of the heap on Mercadia are content to fiddle before the world 
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="https://grapplex.github.io/custom/img/MRCbooster.png "MRC booster"/>**Mercadia: Blood and Gold** features the following mechanic:
+<img align="left" width="200" height="353" style="margin:15px" src="https://grapplex.github.io/img/MRCbooster.png "MRC booster"/>**Mercadia: Blood and Gold** features the following mechanic:
 
 **Haggle:** Never take the asking price without a fight. Spells with haggle can be negotiated to have an additional bonus effect—by paying either an additional one mana, or by casting the spell using mana from a Treasure, you will unlock the "haggled" bonus for the spell. Paying extra is optional, as you may not always need the upgraded effect, but it will always be enabled if Treasure mana is spent—a little extra for having the cash up front.
 

@@ -12,7 +12,7 @@ But this was no ordinary star, and the coming of its fiery impact changed someth
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/FSHbooster.png "FSH booster"/>**Morstad: City of Shadows** features the following mechanics:
+<img align="left" width="200" height="353" style="margin:15px" src="https://grapplex.github.io/custom/img/FSHbooster.png "FSH booster"/>**Morstad: City of Shadows** features the following mechanics:
 
 **Encounters:** The ruins of the Cursed City are highly contested, with fortune-seekers and mercenaries clashing over precious nightstone and looted gold. Encounter tokens represent these sudden skirmishes—they're colourless Conflict battle tokens with 2 starting defence, which will allow you to draw a card and create a Treasure token upon defeat, representing the spoils looted from your rival scavengers. Encounters can be created through a variety of means—keep an evasive attacker handy to reap the spoils.
 

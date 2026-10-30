@@ -12,7 +12,7 @@ But the pole is not an empty expanse of ice. Something stirs here. Warming clime
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/WGTbooster.png "WGT booster"/>**What Goes There?** features the following mechanics:
+<img align="left" width="200" height="353" style="margin:15px" src="https://grapplex.github.io/custom/img/WGTbooster.png "WGT booster"/>**What Goes There?** features the following mechanics:
 
 **Endeavor:** The rush to World's End is not for the faint of heart, but those who dare, win. Whenever you tap a creature with endeavor, you may put a stun counter on it. If you do, it will trigger its endeavor effect, which varies card to card. It doesn't matter why the card became tapped, so take advantage of things like Vehicles or other tap effects, or simply launch into combat.
 

@@ -12,7 +12,7 @@ Containing 81 commons, 100 uncommons, 60 rares, 20 mythic rares, and 25 basic la
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/OVRbooster.png "OPH booster"/>**Overlay** is a heavily multicolour-focused set, and in addition to its themes of colours working together, includes the following mechanics:
+<img align="left" width="200" height="353" style="margin:15px" src="https://grapplex.github.io/custom/img/OVRbooster.png "OPH booster"/>**Overlay** is a heavily multicolour-focused set, and in addition to its themes of colours working together, includes the following mechanics:
 
 **Defiance:** The races of Dominaria will not give up without a fight, always capable of rising to the challenge in front of them. Whenever you cast a spell, if its mana value is greater than the power of a creature with defiance, put a +1/+1 counter on that creature. The longer the battle rages, the more defiant your creatures may prove to be.
 
@@ -20,4 +20,4 @@ Containing 81 commons, 100 uncommons, 60 rares, 20 mythic rares, and 25 basic la
 
 **Grand evolution:** The Phyrexian Scriptures have spoken of this day. Lowly machines will rise in the glory of the Ineffable, and things will walk which ought to crawl. Artifacts with grand evolution can become creatures for an additional cost, their size indicated by the grand evolution value of the card. Marked with +1/+1 counters, your newly-animated artifacts may find further synergy in the set.
 
-<img align="center" width="500" height="714" style="margin:15px" src="src="https://grapplex.github.io/custom/img/OVRposter.png "OVR poster"/>
+<img align="center" width="500" height="714" style="margin:15px" src="https://grapplex.github.io/custom/img/OVRposter.png "OVR poster"/>
