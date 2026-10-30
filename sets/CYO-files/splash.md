@@ -8,7 +8,7 @@ Welcome, traveler, to the lands of Yor-Om. A realm beset by peril but rich in op
 
 ##Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/Rzch1W8/Booster.png "CYO booster"/>In addition to its focus on three-colour "arcs", the mechanics of **Chronicles of Yor-Om** include:
+<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/CYObooster.png "CYO booster"/>In addition to its focus on three-colour "arcs", the mechanics of **Chronicles of Yor-Om** include:
 
 **Foreshadow:** Threats loom large in Yor-Om, and early pages will hint at the challenges yet to come in your adventure. A creature cast for its foreshadow cost is telegraphing its inevitable and dramatic arrival--it enters the battlefield as a noncreature artifact and will not be a creature until you remove the last time counter from it, one per turn, until its chapter of the story opens.
 

@@ -17,7 +17,7 @@ It is into this dichotomy of a world that the warrior planeswalker Orflaith Ó N
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/yVsrj4X/Booster.png "XCO booster"/>The mechanics of **Skies Over San Xalco** include:
+<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/XCObooster.png "XCO booster"/>The mechanics of **Skies Over San Xalco** include:
 
 **Homestead:** Spells with Homestead can be cast for an alternate cost. Exile it from your hand for its Homestead cost, and on a later turn, cast it without paying its mana cost by tapping creatures you control with total power equal to or greater than its mana value. Leave your mana open to follow up your Homestead spells with one-two punch to control your destiny.
 

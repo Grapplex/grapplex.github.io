@@ -10,7 +10,7 @@ But our story follows the put-upon Gleeb, greatest (and only) cleric of the anci
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/CpSL5VF5/Booster.png "CLG booster"/>**Children of Lesser Gods** is focused on three-colour "wedge" factions, features the following mechanics. Each mechanic exists in a two-colour enemy pair, and each faction focuses on the two mechanics its constituent colours cover.
+<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/CLGbooster.png "CLG booster"/>**Children of Lesser Gods** is focused on three-colour "wedge" factions, features the following mechanics. Each mechanic exists in a two-colour enemy pair, and each faction focuses on the two mechanics its constituent colours cover.
 
 **Beckon the Moon:** The moon is a beautiful thing to the people of Balb; a coy and furtive mistress who none have yet kissed. Beckoning the moon is a keyword action that presents you with two choices; you may put a +1/+1 counter on a creature you control, or remove two existing counters from among creatures you control to create a 3/3 Spirit token with flying. The choice is yours; are the moon's blessings upon you? Beckon the moon is the white-black mechanic.
 

@@ -10,7 +10,7 @@ However, cracks are beginning to seep into these ancient foundations. Across the
 
 ##Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/WB6LdYs/booster.png" "666 booster"/>The mechanics of **Circles of Bocacius** include:
+<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/666booster.png" "666 booster"/>The mechanics of **Circles of Bocacius** include:
 
 **The Underworld:** Descending through the circles of the Underworld, the damned discover fresh and agonising punishments at every turn. When a card instructs you to journey into the Underworld, create the Underworld as an object in your command zone similar to dungeons or emblems, and put a damnation counter on it. Every time you place a damnation counter on the Underworld, choose one of its effects to trigger, so long as that effect's value is equal to or less than the number of counters on the Underworld. Some cards will care about when you journey into the Underworld, and others may upgrade if you've done so a certain number of times.
 

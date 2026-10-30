@@ -13,7 +13,7 @@ There is no storm such as this. There is no malice quite like Rath.
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/gWdWnmD/Booster.png "90S booster"/>**Rath and Storm** features the following mechanics, in addition to its storyline-oriented focus:
+<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/90Sbooster.png "90S booster"/>**Rath and Storm** features the following mechanics, in addition to its storyline-oriented focus:
 
 **Reprocess:** Phyrexia leaves nothing to waste. Everything is repurposed back within its spiralling food chain. Creatures with reprocess can be reborn again, grease-stained and glorious. Reprocess is an activated ability found on some Phyrexian creatures that allows you to pay a cost and exile that card from your graveyard to create an artifact copy of it--the body dies but the abilities live on.
 

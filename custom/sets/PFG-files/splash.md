@@ -10,7 +10,7 @@ As such, Cibavo's civilisation has been built around the exorcism of this dreamw
 
 ##Mechanics
 
-<img align="right" width="200" height="353" style="margin:15px" src="https://i.ibb.co/Z1HjSPVN/booster.png" alt="PFG booster"/>The mechanics of **Profondo Giallo** include:
+<img align="right" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/PFGbooster.png" alt="PFG booster"/>The mechanics of **Profondo Giallo** include:
 
 **Throwback:** Cinema is nothing without the allure of the sequel. Throwback is an additional cost that can be paid on some instants and sorceries, allowing you to copy that spell once—use it with cards that care about casting or copying spells in order to double up your bonuses as well as your spell effects.
 

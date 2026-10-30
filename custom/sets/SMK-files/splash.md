@@ -10,7 +10,7 @@ It wasn't always like this. The woolloo orcs remember a dreamtime, before the ri
 
 ##Mechanics
 
-<img align="right" width="200" height="353" style="margin:15px" src="https://i.ibb.co/mVRXXgx1/booster.png" alt="SMK booster"/>The mechanics of **The Big Smoko** include:
+<img align="right" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/SMKbooster.png" alt="SMK booster"/>The mechanics of **The Big Smoko** include:
 
 **Races:** True battle is contested on the highway. Race is a new battle subtype. Like all battles, a Race is protected by one of your opponents and defeated when you attack or otherwise damage it until its last defence counter is removed. A race will always tell you what effect it has when the battle enters the battlefield and/or when it is defeated, and may be attacked as though creatures attacking it had haste. Enter the raceway as soon as your creatures hit the table for victory.
 

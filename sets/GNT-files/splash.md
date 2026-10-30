@@ -12,7 +12,7 @@ In the aftermath of their mistakes, Inoki Genome has been ordered by the Puro go
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/s9r3ztFp/booster.png "GNT booster"/>**Gigantic** features the following mechanics:
+<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/GNTbooster.png "GNT booster"/>**Gigantic** features the following mechanics:
 
 **Apex:** Big is never big enough. Apex abilities are activated abilities that can be activated only once, representing creatures mutating into a higher form of bigness. The cost to activate an apex ability is reduced by the greatest mana value of among permanents put into graveyards during that turn—whether that means something sacrificed, destroyed, or put into a graveyard for any other reason. This will only reduce the generic portion of the cost, not any coloured mana requirements. Most apex abilities will grow the creature they're on but some may have other one-time effects.
 

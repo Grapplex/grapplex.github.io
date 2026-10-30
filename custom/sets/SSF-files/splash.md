@@ -14,7 +14,7 @@ All hope may not be lost, however. The presence of Qirauz, and his theft of fire
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/YNjVvWW/Booster.png "SSF booster"/>The mechanics of **Shamtar: Search for Fire** include:
+<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/SSFbooster.png "SSF booster"/>The mechanics of **Shamtar: Search for Fire** include:
 
 **Toolcraft:** Crafting a tool is a keyword action presenting you with a choice—hunt, or gather. Your tools may be simple equipment to arm your creatures with, or mana sources giving you a boost of colorless mana. Each time you craft a tool you can choose which of two tokens to create. Do you want to store colorless mana or arm your tribe for aggression?
 

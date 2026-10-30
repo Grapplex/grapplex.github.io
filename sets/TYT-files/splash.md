@@ -12,7 +12,7 @@ In the midst of this delicate balance, drowned bones and rusted weapons stir. Th
 
 ##Mechanics
 
-<img align="right" width="200" height="353" style="margin:15px" src="https://i.ibb.co/GCx8zS0/booster.png" "TYT booster"/>The mechanics of **Depths of Tytheus** include:
+<img align="right" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/TYTbooster.png" "TYT booster"/>The mechanics of **Depths of Tytheus** include:
 
 **Energy**: Previously seen in *Kaladesh*, *Aether Revolt*, and *Modern Horizons 3*, energy counters return to depict the fecund and resource-rich nature of the oceans of Tytheus. Maintain an ecosystem of energy counters to your advantage and drown your foes in a trophic cascade as you spend your energy wisely.
 

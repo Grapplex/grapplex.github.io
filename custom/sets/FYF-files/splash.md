@@ -8,7 +8,7 @@ Welcome back, traveller, to the land of Yor-Om. A land of adventure, danger, and
 
 ###Mechanics
 
-<img align="left" width="200" height="353" style="margin:15px" src="https://i.ibb.co/FjJhdw1/booster.png "FYF booster"/>In addition to its focus on three-colour "wedges", **Yor-Om: Find Your Fate** features the following mechanics:
+<img align="left" width="200" height="353" style="margin:15px" src="src="https://grapplex.github.io/custom/img/FYFbooster.png "FYF booster"/>In addition to its focus on three-colour "wedges", **Yor-Om: Find Your Fate** features the following mechanics:
 
 **Experience:** As you wind your way through the lands of Yor-Om, you may need to test your mettle, your wits, or your strength in order to proceed. Will you fail ignominiously or thrust forward in victory? For a creature to make an experience check, you have the choice to exile a card from your graveyard with mana value greater than that creature's power. If you can't, nothing happens. If you can, and choose to, then put a +1/+1 counter on the creature to represent its improved prowess.
 
