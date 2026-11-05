@@ -1,0 +1,25 @@
+<img src="https://grapplex.github.io/sets/ASH-files/logo.png" alt="Arkoph: Seeds of Heresy" width="400">
+
+**<p style="text-align: center;">Innocence proves nothing.</p>**
+
+A gilded cage safe from the ravages of a planar overlay, Arkoph is a sanctuary, a safe haven, a respite from invasion. Created in the wake the invasion of his home world, the aven planeswalker Akhillos took as many refugees as possible and created the pocket world of Arkoph as their shelter, giving his life and his spark to seal them away safely. To this day, the people of Arkoph—those who have survived the long dark of its creation—still revere the Eagle as their saviour and deity, confident he will one day return.
+
+But a cage of any sort will always be a prison. Worship of the Eagle is not always a willing devotion, and the formal church that has risen to rule the plane enforces it with unerring brutality. Centred on the vast sprawling city of Gevangis, the Church of the Eagle governs a thousand outlying hamlets and townships, its holy inquisition keeping watch for signs of heresy. And signs and wonders there are in abundance, for Arkoph is riddled with echoes of the cataclysm it escaped, its people frequently turning to old ways and old gods, discontent with the absence of their supposed saviour. Half-remembered gods are venerated in the darkness, and cults begin to grow across the perfect prison that is Arkoph.
+
+**Arkoph: Seeds of Heresy** is a draftable premier set using Play Boosters, containing 266 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of Perfect Fool, while all boosters have a chance of containing the Headliner fobidden scroll version of Ineffable Idol. Boosters also have a chance of containing a card from the Arkoph Incantations bonus sheet, collecting enemy-coloured reprints from canon Magic's past.
+
+###Mechanics
+
+<img align="left" width="200" height="353" style="margin:15px" src="https://grapplex.github.io/img/ASHbooster.png "ASH booster"/>**Arkoph: Seeds of Heresy** features the following mechanic:
+
+**Forbidden lore:** Not all truths are meant to be known. Forbidden lore represents the heretical and blasphemous teachings of the cults of Arkoph, and is a batched action that tracks the first time each turn you look at cards in your library—this can be through searching your library, using scry or surveil effects, or from effects which allow you to look at the top of your library. Forbidden lore is commonly tied to triggers but may also turn on static bonus effects.
+
+**Persecute:** Salvation does not come freely. The Church of the Eagle ensures piety through the mortification of the flesh—usually not its own. Persecute is a keyword action that allows you to trade damage to a creature or planeswalker you control for a bonus. To persecute N, a card will deal N damage to a creature or planeswalker you control—by itself, a downside, but these effects unlock additional rewards for you, and with careful use, the damage itself may be a source of additional triggers.
+
+**Prayers:** The Eagle is dead, but the old gods are not, and Father Yog is listening. Prayers are an enchantment subtype similar to Classes, with a base ability and additional levels to be unlocked. A Prayer gains faith counters as creatures you control enter the battlefield or die, unlocking new levels with thresholds of faith counters. Let the cycle of birth and death reward you.
+
+**Dogma:** Corvash, the Self-Evident, relies only on the purity of strength, needing no scripture or apocrypha to spread his blessings. Dogma is a cost-reduction ability, reducing the cost of spells by one generic mana for each card type among cards in your graveyard. Filling your graveyard through death, discard, or surveilling can open you up to greater discounts going forward.
+
+**Juggle:** The jesters of Geesh are experts in sleight of hand and distraction, making merry in the open and spreading their faith in the darkness. Juggling is a keyword action carried out by your creatures—to juggle, look at the top two cards of your library and mill one of them into your graveyard. If that card's mana value is higher than that of the juggling creature, put a +1/+1 counter on the creature. Perhaps card selection is more important than size, perhaps juggling a specific card into your graveyard is the ideal way to discount a dogma spell next turn, or perhaps your clown just needs to grow. Juggling will also trigger forbidden lore effects.
+
+**Consult the flames:** The Cult of the Shifting Flame revere fire, and the infinite potential of its formless shape. To consult the flames, look at the top card of your library, then make a choice—you can draw the card or mill it. If you draw it, discard a card, shaping your hand to better suit your needs. If you mill it, the flames augur well, unlocking bonus effects from the initial ability. Decide for yourself if the trade-off is worth it at each given moment, and enjoy the forbidden lore effects this will open up as well. 

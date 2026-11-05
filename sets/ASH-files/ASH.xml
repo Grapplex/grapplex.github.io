@@ -5,7 +5,7 @@
 			<name>ASH</name>
 			<longname>Arkoph: Seeds of Heresy</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-10-18</releasedate>
+			<releasedate>2026-11-05</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -85,11 +85,161 @@
 			<tablerow>0</tablerow>
 		</card>
 		<card>
+			<name>Occult Sacrament</name>
+			<text>Whenever you read forbidden lore, put a sin counter on Occult Sacrament. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)
+You may cast spells with mana value less than or equal to the number of sin counters on Occult Sacrament from your hand without paying their mana costs.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/5.png" num="8">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Prismatic Gate</name>
+			<text>{T}: Add {C}.
+{2}, {T}: Choose a color. Add an amount of mana of that color equal to the number of differently named lands you control.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/6.png" num="255">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Ineffable Idol</name>
+			<text>You may cast creature spells from your graveyard.
+If a creature you control would die, exile it instead.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/7.png" num="235">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Creation Myth</name>
+			<text>Each player chooses up to five permanents they control, then shuffles the rest, their hands, and their graveyards into their library, then draws five cards. Each player&apos;s life total becomes 10. Exile Creation Myth.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/8.png" num="206">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>WUBRG</manacost>
+				<cmc>5</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Theonomarch Kosimus II</name>
+			<text>Vigilance, menace
+Whenever one or more other creatures you control are dealt damage, put a +1/+1 counter on Theonomarch Kosimus II.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/9.png" num="198">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kristana, Cult Apprentice</name>
+			<text>Flash
+Haste
+When Kristana, Cult Apprentice enters the battlefield, choose an instant or sorcery card in your graveyard. You may cast it this turn. If that spell would be put into your graveyard, exile it instead.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/10.png" num="179">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Perfect Fool</name>
+			<text>You may have Perfect Fool enter the battlefield as a copy of any permanent on the battlefield, except it&apos;s a 4/4 green and blue Clown in addition to its other types.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/11.png" num="202">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shapeshifter Clown</type>
+				<maintype>Creature</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hymn of the Damned</name>
+			<text>Your life total becomes the number of creatures you control plus the number of creature cards in your graveyard. When you lose life this way, each opponent loses that much life.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/12.png" num="173">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4WB</manacost>
+				<cmc>6</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Black Mass</name>
+			<text>(As this enters, choose an opponent to protect it. You can attack it.)
+When Black Mass enters the battlefield, exile target creature.
+Whenever one or more defense counters are removed from Black Mass, create a token that&apos;s a copy of the exiled card, except it&apos;s 0/0. Put that many +1/+1 counters on it.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/13.png" num="186">ASH</set>
+			<prop>
+				<layout>battle</layout>
+				<side>front</side>
+				<type>Battle — Conflict</type>
+				<maintype>Battle</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
 			<name>Gamalgous, the Soul Gallery</name>
 			<text>({T}: Add {W} or {B}.)
 Gamalgous, the Soul Gallery enters the battlefield tapped.
 {WB}{WB}{WB}{WB}{WB}, {T}, Exile Gamalgous: Exile target creature or planeswalker with mana value 4 or less. Activate only as a sorcery.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/14.png" num="249">ASH</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/14.png" num="248">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -100,6 +250,21 @@ Gamalgous, the Soul Gallery enters the battlefield tapped.
 				<coloridentity>WB</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Communion of Grief</name>
+			<text>As Communion of Grief enters the battlefield, choose a nonland card name.
+Permanents with the chosen name have &quot;{T}, Sacrifice this permanent: Add one mana of any color.&quot; and lose all other activated abilities.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/15.png" num="2">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
 		</card>
 		<card>
 			<name>Sailor&apos;s Grave</name>
@@ -117,10 +282,54 @@ Gamalgous, the Soul Gallery enters the battlefield tapped.
 			<tablerow>0</tablerow>
 		</card>
 		<card>
+			<name>Hidden Heretic</name>
+			<text>{X}, {T}, Sacrifice a Peasant: Search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/17.png" num="7">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Peasant</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fabled Passage</name>
+			<text>{T}, Sacrifice Fabled Passage: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/18.png" num="247">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Edge of Innocence</name>
+			<text>{T}: Add {C}.
+Whenever you read forbidden lore, you may pay {2}. If you do, create a 2/1 green Horror creature token. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/19.png" num="245">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
 			<name>Penitent Chamber</name>
 			<text>At the beginning of combat on your turn, put a pain counter on Penitent Chamber, then Penitent Chamber deals damage to each player equal to the number of pain counters on it.
 {R}{W}: Put a pain counter on Penitent Chamber or remove one from it.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/20.png" num="242">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/20.png" num="239">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -135,7 +344,7 @@ Gamalgous, the Soul Gallery enters the battlefield tapped.
 		<card>
 			<name>Alchemist&apos;s Study</name>
 			<text>The first instant or sorcery spell you cast each turn costs {U}{R} (or {2}) less to cast.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/21.png" num="236">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/21.png" num="232">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -151,7 +360,7 @@ Gamalgous, the Soul Gallery enters the battlefield tapped.
 			<name>Geesh&apos;s Claw</name>
 			<text>Whenever one or more cards are put into your graveyard from your library, you may put that many +1/+1 counters on target creature you control. Do this only once each turn.
 {1}{G}{U}: Surveil 2. Activate only as a sorcery. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/22.png" num="238">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/22.png" num="234">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -168,7 +377,7 @@ Gamalgous, the Soul Gallery enters the battlefield tapped.
 			<text>Equipped creature gets +1/+1 for each card type among cards in your graveyard.
 Whenever equipped creature attacks, you may pay {1}{B}{G}. If you do, return target permanent card from your graveyard to your hand.
 Equip {4}</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/23.png" num="244">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/23.png" num="241">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -184,7 +393,7 @@ Equip {4}</text>
 			<name>Emptiness Signet</name>
 			<text>{T} or {W}{B}: Put a void counter on Emptiness Signet.
 {T}, Exile Emptiness Signet: Destroy each nonland permanent with mana value less than or equal to the number of void counters on Emptiness Signet.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/24.png" num="237">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/24.png" num="233">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -217,7 +426,7 @@ Somber Vault enters the battlefield tapped.
 			<name>Graveyard Skulker</name>
 			<text>Graveyard Skulker enters the battlefield with a +1/+1 counter on it.
 When Graveyard Skulker dies, put its counters on target creature you control.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/26.png" num="27">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/26.png" num="19">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -235,7 +444,7 @@ When Graveyard Skulker dies, put its counters on target creature you control.</t
 			<name>Judicious Disciple</name>
 			<text>Lifelink
 Plainscycling {WB}, Swampcycling {WB} ({WB}, Discard this card: Search your library for a Plains or Swamp card, reveal it, put it into your hand, then shuffle.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/27.png" num="221">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/27.png" num="208">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -267,7 +476,7 @@ Plainscycling {WB}, Swampcycling {WB} ({WB}, Discard this card: Search your libr
 		<card>
 			<name>Schismatic Preacher</name>
 			<text>When Schismatic Preacher enters the battlefield, create a 1/1 black Cleric creature token with &quot;When this creature dies, surveil 1.&quot; (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/29.png" num="44">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/29.png" num="36">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -284,7 +493,7 @@ Plainscycling {WB}, Swampcycling {WB} ({WB}, Discard this card: Search your libr
 		<card>
 			<name>Inquisitor&apos;s Shadow</name>
 			<text>{1}{B}, {T}, Sacrifice Inquisitor&apos;s Shadow: Mill four cards. You may put a creature card from among them into your hand.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/30.png" num="30">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/30.png" num="23">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -304,7 +513,7 @@ Plainscycling {WB}, Swampcycling {WB} ({WB}, Discard this card: Search your libr
 When Corpse Synod enters the battlefield, return target creature card with mana value 3 or less from your graveyard to the battlefield.
 Faith 4+
 Sacrifice Corpse Synod: Return target creature card with mana value 3 or less from your graveyard to the battlefield. Activate only as a sorcery.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/31.png" num="191">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/31.png" num="172">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -318,9 +527,27 @@ Sacrifice Corpse Synod: Return target creature card with mana value 3 or less fr
 			<tablerow>1</tablerow>
 		</card>
 		<card>
+			<name>Folk Witch</name>
+			<text>Flying
+Folk Witch gets +1/+0 as long as you control an enchantment.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/32.png" num="17">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Sacred Castigator</name>
 			<text>When Sacred Castigator enters the battlefield, you may have it persecute 3. If you do, destroy target artifact or enchantment. (To have this creature persecute 3, it deals 3 damage to a creature or planeswalker you control.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/33.png" num="43">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/33.png" num="35">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -338,7 +565,7 @@ Sacrifice Corpse Synod: Return target creature card with mana value 3 or less fr
 			<name>Hulking Entertainer</name>
 			<text>Hulking Entertainer costs {2} less to cast as long as you&apos;ve read forbidden lore this turn. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)
 Vigilance</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/34.png" num="215">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/34.png" num="199">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -353,9 +580,76 @@ Vigilance</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Midnight Rider</name>
+			<text>Vigilance</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/35.png" num="27">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Peasant</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Armored Eagle</name>
+			<text>Flying
+Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/36.png" num="12">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>5W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Offering to the Old Gods</name>
+			<text>Offering to the Old Gods deals 3 damage to target attacking or blocking creature. If that creature would die this turn, exile it instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/37.png" num="29">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Profane Haze</name>
+			<text>Untap target creature. It gets +1/+1 and gains shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/38.png" num="30">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Righteous Scourge</name>
 			<text>Destroy target artifact or enchantment. Righteous Scourge deals 2 damage to that permanent&apos;s controller if {R} was spent to cast it.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/39.png" num="37">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/39.png" num="33">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -369,9 +663,47 @@ Vigilance</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
+			<name>Gift of the Weepwood</name>
+			<text>Dogma (This spell costs {1} less to cast for each card type among cards in your graveyard.)
+For each card type, return up to one target card of that type from your graveyard to your hand. Exile Gift of the Weepwood.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/40.png" num="153">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>7GG</manacost>
+				<cmc>9</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Yog&apos;s Scriptures</name>
+			<text>(Whenever a creature you control enters the battlefield or dies, put a faith counter on this. Gain abilities through faith.)
+Creatures you control get +1/+1.
+Faith 4+
+Creatures you control have vigilance.
+Faith 7+
+At the beginning of your end step, create two 1/1 white Peasant creature tokens.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/41.png" num="41">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Prayer</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
 			<name>Lost at Sea</name>
 			<text>Destroy all creatures and enchantments.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/42.png" num="32">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/42.png" num="26">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -385,10 +717,97 @@ Vigilance</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
+			<name>Fading Seraph</name>
+			<text>Flash
+Flying
+Whenever Fading Seraph enters the battlefield or attacks, another target creature you control gains shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/43.png" num="16">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Shade</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zofiya Cek, Blade of the Eagle</name>
+			<text>When Zofiya Cek, Blade of the Eagle enters the battlefield, destroy up to one target permanent with mana value 1 or 2.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/44.png" num="42">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Abhor</name>
+			<text>Exile target creature. Its controller creates a token that&apos;s a copy of it, except it&apos;s 2/2 and has decayed. (It can&apos;t block. When it attacks, sacrifice it at end of combat.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/45.png" num="11">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Strata Inversion</name>
+			<text>For each permanent card in your graveyard that was put there from the battlefield this turn, create a token that&apos;s a copy of it. Then exile all graveyards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/46.png" num="210">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W/BW/B</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Solemn Pilgrimage</name>
+			<text>(Whenever a creature you control enters the battlefield or dies, put a faith counter on this. Gain abilities through faith.)
+When Solemn Pilgrimage enters the battlefield, create X 1/1 white Peasant creature tokens.
+Faith 7+
+Creatures you control get +1/+1.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/47.png" num="37">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Prayer</type>
+				<maintype>Enchantment</maintype>
+				<manacost>XW</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
 			<name>Vision of Akhillos</name>
 			<text>Flying
 Whenever Vision attacks, it persecutes 2. When it does, exile target creature an opponent controls until Vision of Akhillos leaves the battlefield. (To have this creature persecute 2, it deals 2 damage to a creature or planeswalker you control.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/48.png" num="54">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/48.png" num="39">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -403,10 +822,116 @@ Whenever Vision attacks, it persecutes 2. When it does, exile target creature an
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Auramancer</name>
+			<text>When Auramancer enters the battlefield, you may return target enchantment card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/49.png" num="13">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gevangis Watchman</name>
+			<text>Vigilance
+When Gevangis Watchman enters the battlefield, you may sacrifice another creature. When you do, exile target creature an opponent controls until Gevangis Watchman leaves the battlefield.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/50.png" num="18">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ravensong Occultist</name>
+			<text>Vigilance, lifelink
+During your turn, Ravensong Occultist has first strike.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/51.png" num="31">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Griffon Flock</name>
+			<text>Flying
+When Griffon Flock dies, create a 2/2 white Griffon creature token with flying.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/52.png" num="20">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Griffon</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scornful Confessor</name>
+			<text>During your turn, Scornful Confessor has first strike.
+Whenever Scornful Confessor attacks, you may have it persecute 2. If you do, create a 1/1 white Peasant creature token. (To have this creature persecute 2, it deals 2 damage to a creature or planeswalker you control.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/53.png" num="225">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Inquisitor</type>
+				<maintype>Creature</maintype>
+				<manacost>1R/W</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Confessor of Vice</name>
+			<text>When Confessor of Vice enters the battlefield, exile another target nonland permanent until Confessor of Vice leaves the battlefield. Then Confessor of Vice persecutes 2. (It deals 2 damage to a creature or planeswalker you control.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/54.png" num="14">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Inquisitor</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Hungering Nocnitsiya</name>
 			<text>Flying
 When Hungering Nocnitsiya dies, return target enchantment card from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/55.png" num="28">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/55.png" num="21">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -424,7 +949,7 @@ When Hungering Nocnitsiya dies, return target enchantment card from your graveya
 			<name>Noisome Vexer</name>
 			<text>Flying
 Noisome Vexer has haste and menace as long as you control a black or red permanent.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/56.png" num="35">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/56.png" num="28">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -441,7 +966,7 @@ Noisome Vexer has haste and menace as long as you control a black or red permane
 		<card>
 			<name>Jubilant Man-at-Arms</name>
 			<text>{4}{W}: Creatures you control get +1/+1 until end of turn. This ability costs {1} less to activate for each token you control.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/57.png" num="31">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/57.png" num="25">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -459,7 +984,7 @@ Noisome Vexer has haste and menace as long as you control a black or red permane
 			<name>Studious Scribe</name>
 			<text>Vigilance
 When Studious Scribe enters the battlefield, look at the top four cards of your library. You may reveal an enchantment card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/58.png" num="45">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/58.png" num="38">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -474,13 +999,45 @@ When Studious Scribe enters the battlefield, look at the top four cards of your 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Rite of Return</name>
+			<text>Return up to two target creature cards each with mana value 2 or less from your graveyard to the battlefield. If you&apos;ve read forbidden lore this turn, instead return up to three target creature cards each with mana value 2 or less from your graveyard to the battlefield. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/59.png" num="34">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Inter</name>
+			<text>Destroy target nonland permanent if its mana value is 1 or less. If you&apos;ve sacrificed a permanent this turn, instead destroy that permanent if its mana value is 3 or less.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/60.png" num="24">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Ineffable Communion</name>
 			<text>(Whenever a creature you control enters the battlefield or dies, put a faith counter on this. Gain abilities through faith.)
 Flash
 When Ineffable Communion enters the battlefield, target creature you control gets +1/+1 until end of turn for each enchantment you control.
 Faith 3+
 At the beginning of combat on your turn, target creature you control gets +1/+1 until end of turn for each enchantment you control.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/61.png" num="29">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/61.png" num="22">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -496,7 +1053,7 @@ At the beginning of combat on your turn, target creature you control gets +1/+1 
 		<card>
 			<name>Refute Destiny</name>
 			<text>Exile target creature or planeswalker that&apos;s green or blue. Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/62.png" num="36">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/62.png" num="32">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -513,7 +1070,7 @@ At the beginning of combat on your turn, target creature you control gets +1/+1 
 			<name>Mirthful Disciple</name>
 			<text>Vigilance
 Forestcycling {GU}, Islandcycling {GU} ({GU}, Discard this card: Search your library for a Forest or Island card, reveal it, put it into your hand, then shuffle.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/63.png" num="235">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/63.png" num="230">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -531,7 +1088,7 @@ Forestcycling {GU}, Islandcycling {GU} ({GU}, Discard this card: Search your lib
 			<name>Fleeting Fury</name>
 			<text>Flying
 {2}{R}: Fleeting Fury gets +2/+0 until end of turn.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/64.png" num="66">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/64.png" num="59">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -549,7 +1106,7 @@ Forestcycling {GU}, Islandcycling {GU} ({GU}, Discard this card: Search your lib
 			<name>Gaunt Trickster</name>
 			<text>Vigilance
 When Gaunt Trickster enters the battlefield, it juggles. (Look at the top two cards of your library. Put one into your graveyard. Put a +1/+1 counter on this creature if the juggled card has greater mana value than it.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/65.png" num="68">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/65.png" num="62">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -564,9 +1121,26 @@ When Gaunt Trickster enters the battlefield, it juggles. (Look at the top two ca
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Exultant Cultist</name>
+			<text>When Exultant Cultist dies, draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/66.png" num="57">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Solemn Cenobite</name>
 			<text>Whenever Solemn Cenobite enters or attacks, you may draw a card. If you do, discard a card.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/67.png" num="201">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/67.png" num="183">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -584,7 +1158,7 @@ When Gaunt Trickster enters the battlefield, it juggles. (Look at the top two ca
 			<name>Midnight Haunter</name>
 			<text>Flying
 When Midnight Haunter enters the battlefield, consult the flames. If they augur well, put a +1/+1 counter on Midnight Haunter. (Look at the top card of your library. You may draw it. If you do, discard a card. If you don&apos;t, mill it and the flames augur well.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/68.png" num="71">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/68.png" num="68">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -599,9 +1173,43 @@ When Midnight Haunter enters the battlefield, consult the flames. If they augur 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Tyrant of Land&apos;s End</name>
+			<text>Vigilance
+When Tyrant of Land&apos;s End enters the battlefield, if there are seven or more cards in your graveyard, return target creature an opponent controls to its owner&apos;s hand.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/69.png" num="74">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Leviathan</type>
+				<maintype>Creature</maintype>
+				<manacost>6U</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sea&apos;s Grace</name>
+			<text>Target creature gains hexproof and shielded until end of turn. (Prevent all damage that would be dealt to it.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/70.png" num="71">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Ominous Thunderbolt</name>
 			<text>Counter target noncreature spell. Ominous Thunderbolt deals 3 damage equal to that spell&apos;s controller.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/71.png" num="198">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/71.png" num="181">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -615,9 +1223,25 @@ When Midnight Haunter enters the battlefield, consult the flames. If they augur 
 			<tablerow>3</tablerow>
 		</card>
 		<card>
+			<name>Anticipate</name>
+			<text>Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/72.png" num="45">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Step Right Up</name>
 			<text>Draw two cards. If {G} was spent to cast Step Right Up, create a 1/1 black Cleric creature token with &quot;When this creature dies, surveil 1.&quot; (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/73.png" num="80">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/73.png" num="72">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -635,7 +1259,7 @@ When Midnight Haunter enters the battlefield, consult the flames. If they augur 
 			<text>Enchant creature
 When Come Into the Coven enters the battlefield, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 Enchanted creature loses all abilities and is a colorless Warlock creature with base power and toughness 1/1.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/74.png" num="56">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/74.png" num="47">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -652,7 +1276,7 @@ Enchanted creature loses all abilities and is a colorless Warlock creature with 
 			<name>In the Thrall of the Wretched</name>
 			<text>As an additional cost to cast In the Thrall of the Wretched, you may discard a card. If you do, In the Thrall of the Wretched costs {2} less to cast
 The owner of target spell or creature puts it on their choice of the top or bottom of their library.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/75.png" num="69">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/75.png" num="64">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -666,11 +1290,77 @@ The owner of target spell or creature puts it on their choice of the top or bott
 			<tablerow>3</tablerow>
 		</card>
 		<card>
+			<name>Fearful Discovery</name>
+			<text>Surveil 2, then create a Clue token. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order. A Clue token is an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/76.png" num="58">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Jurodivye, the Holy Fools</name>
+			<text>When Jurodivye, the Holy Fools enters the battlefield, if it isn&apos;t a token, create two tokens that are copies of it, except they&apos;re not legendary.
+When Jurodivye enters the battlefield, target creature you control juggles. (Look at the top two cards of your library. Put one into your graveyard. Put a +1/+1 counter on this creature if the juggled card has greater mana value than it.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/77.png" num="65">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Mutability of Shadows</name>
+			<text>Take an extra turn after this one. Consult the flames. If they augur well, shuffle The Mutability of Shadows into its owner&apos;s library, then exile the top six cards of your library. (Look at the top card of your library. You may draw it. If you do, discard a card. If you don&apos;t, mill it and the flames augur well.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/78.png" num="69">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crystallized Destiny</name>
+			<text>Consult the flames X times. Create a 0/0 blue Elemental creature token with flying and put a number of +1/+1 counters on it equal to the number of times the flames augured well. (Look at the top X cards of your library. You may draw any number of them. If you do, discard that many cards. Mill the rest, and the flames augur well that many times.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/79.png" num="51">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XU</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Confounding Wretch</name>
 			<text>Flying, vigilance
 Ward {2}
 If you would draw one or more cards, instead surveil 1, then draw that many cards. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/80.png" num="57">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/80.png" num="49">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -685,9 +1375,76 @@ If you would draw one or more cards, instead surveil 1, then draw that many card
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Lunar Whisper</name>
+			<text>Draw six cards.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/81.png" num="66">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3UUU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Alchemical Vessel</name>
+			<text>When Alchemical Vessel dies, search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/82.png" num="44">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heresy&apos;s Allure</name>
+			<text>Enchant nonland permament
+You control enchanted permanent.
+At the beginning of your end step, if you haven&apos;t read forbidden lore this turn, sacrifice Heresy&apos;s Allure. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/83.png" num="63">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Shifting Fates</name>
+			<text>Discard your hand. When you do, surveil 2, then draw a card for each card put into your graveyard from your library this turn. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/84.png" num="215">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U/RU/R</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Cunning Harlequin</name>
 			<text>Whenever you draw your second card each turn, each creature you controls juggles. (Look at the top two cards of your library. Put one into your graveyard. Put a +1/+1 counter on that creature if the juggled card has greater mana value than it.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/85.png" num="63">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/85.png" num="52">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -704,7 +1461,7 @@ If you would draw one or more cards, instead surveil 1, then draw that many card
 		<card>
 			<name>Mercurial Reaver</name>
 			<text>When Mercurial Reaver enters the battlefield, create a 1/1 black Cleric creature token with &quot;When this creature dies, surveil 1.&quot; If there are seven or more cards in your graveyard, create two of those tokens instead. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/86.png" num="70">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/86.png" num="67">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -719,10 +1476,64 @@ If you would draw one or more cards, instead surveil 1, then draw that many card
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Flitwing Pipistrelle</name>
+			<text>Flying
+When Flitwing Pipistrelle enters the battlefield, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/87.png" num="61">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bat</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eldritch Entity</name>
+			<text>Flying
+When Eldritch Entity enters the battlefield, you may search your library and/or graveyard for up to three cards named Fearful Discovery and exile them. You may cast those cards without paying their mana costs. If you search your library this way, shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/88.png" num="56">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Confident Trickster</name>
+			<text>Confident Trickster can&apos;t be blocked.
+When Confident Trickster enters the battlefield, it juggles. (Look at the top two cards of your library. Put one into your graveyard. Put a +1/+1 counter on this creature if the juggled card has greater mana value than it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/89.png" num="48">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Roving Man-at-Arms</name>
 			<text>When Roving Man-at-Arms enters the battlefield, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)
 Roving Man-at-Arms gets +1/+1 for each token you control.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/90.png" num="74">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/90.png" num="70">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -740,7 +1551,7 @@ Roving Man-at-Arms gets +1/+1 for each token you control.</text>
 			<name>Diligent Guardsman</name>
 			<text>When Diligent Guardsman enters the battlefield, surveil 3. (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 Diligent Guardsman can&apos;t be blocked as long as there are seven or more cards in your graveyard.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/91.png" num="65">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/91.png" num="54">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -755,9 +1566,90 @@ Diligent Guardsman can&apos;t be blocked as long as there are seven or more card
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Transmute into Flesh</name>
+			<text>Look at the top two cards of your library. Put one of them into your hand and exile the other. Create a 0/0 blue Elemental creature token with flying and put a number of +1/+1 counters on it equal to the mana value of the exiled card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/92.png" num="73">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dream</name>
+			<text>Look at the top three cards of your library, then put them back in any order. You may shuffle.
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/93.png" num="55">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cryptic Gathering</name>
+			<text>Whenever you read forbidden lore, draw a card. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/94.png" num="50">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>That&apos;s Entertainment</name>
+			<text>Target creature you control gains hexproof until end of turn. You may have it juggle. (To have a creature juggle, look at the top two cards of your library. Put one into your graveyard. Put a +1/+1 counter on that creature if the juggled card has greater mana value than it.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/95.png" num="231">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G/U</manacost>
+				<cmc>1</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blasphemous Ritual</name>
+			<text>Whenever one or more creatures you control attack, consult the flames. If they augur well, target creature can&apos;t be blocked this turn. (Look at the top card of your library. You may draw it. If you do, discard a card. If you don&apos;t, mill it and the flames augur well.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/96.png" num="46">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
 			<name>Flesh Puppetry</name>
 			<text>Create a token that&apos;s a copy of target creature you control. If that creature had any +1/+1 counters on it, put that many +1/+1 counters on the token.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/97.png" num="67">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/97.png" num="60">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -773,7 +1665,7 @@ Diligent Guardsman can&apos;t be blocked as long as there are seven or more card
 		<card>
 			<name>Abstract Ideation</name>
 			<text>Counter target spell unless its controller pays {2}. If you control a red or green permanent, instead counter that spell unless its controller pays {3}.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/98.png" num="55">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/98.png" num="43">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -789,7 +1681,7 @@ Diligent Guardsman can&apos;t be blocked as long as there are seven or more card
 		<card>
 			<name>Cutting Remark</name>
 			<text>Choose target spell or permanent that&apos;s white or black. Its owner puts it on their choice of the top or bottom of their library.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/99.png" num="64">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/99.png" num="53">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -805,7 +1697,7 @@ Diligent Guardsman can&apos;t be blocked as long as there are seven or more card
 		<card>
 			<name>Savage Witch</name>
 			<text>{2}{G}: Savage Witch gets +2/+2 until end of turn and must be blocked this turn if able. Activate only once each turn.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/100.png" num="111">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/100.png" num="99">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -823,7 +1715,7 @@ Diligent Guardsman can&apos;t be blocked as long as there are seven or more card
 			<name>Ferocious Disciple</name>
 			<text>Deathtouch
 Swampcycling {BG}, Forestcycling {BG} ({BG}, Discard this card: Search your library for a Swamp or Forest card, reveal it, put it into your hand, then shuffle.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/101.png" num="228">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/101.png" num="218">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -841,7 +1733,7 @@ Swampcycling {BG}, Forestcycling {BG} ({BG}, Discard this card: Search your libr
 			<name>Impious Ghast</name>
 			<text>Flying
 {WB}, Sacrifice another creature: Put a +1/+1 counter on Impious Ghast. Activate only as a sorcery.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/102.png" num="192">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/102.png" num="174">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -856,10 +1748,63 @@ Swampcycling {BG}, Forestcycling {BG} ({BG}, Discard this card: Search your libr
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Gnarled Remnant</name>
+			<text>Menace
+When Gnarled Remnant dies, up to one target creature gets -2/-2 until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/103.png" num="87">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mewling Thing</name>
+			<text>When Mewling Thing dies, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/104.png" num="92">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pallid Corpsegrinder</name>
+			<text>Menace
+Pallid Corpsegrinder gets +2/+0 as long as seven or more cards are in your graveyard.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/105.png" num="95">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Wretched Harrier</name>
 			<text>Flying
 When Wretched Harrier enters the battlefield, each opponent loses 2 life and you gain 2 life. Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/106.png" num="122">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/106.png" num="106">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -874,9 +1819,42 @@ When Wretched Harrier enters the battlefield, each opponent loses 2 life and you
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Blasphemous Necromass</name>
+			<text>As an additional cost to cast Blasphemous Necromass, pay {2} or sacrifice a creature.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/107.png" num="77">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>By the Light of the Moon</name>
 			<text>Target creature gets +2/-2 until end of turn.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/108.png" num="91">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/108.png" num="80">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blasphemous Howl</name>
+			<text>Until end of turn, target creature gains &quot;When this creature dies, return it to the battlefield tapped under its owner&apos;s control. When you do, each opponent loses 2 life.&quot;</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/109.png" num="76">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -893,7 +1871,7 @@ When Wretched Harrier enters the battlefield, each opponent loses 2 life and you
 			<name>The Wages of Sin</name>
 			<text>As an additional cost to cast The Wages of Sin, sacrifice a creature.
 Draw two cards. If {W} was spent to cast The Wages of Sin, you may return to your hand a creature card in your graveyard that wasn&apos;t put there from the battlefield this turn.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/110.png" num="121">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/110.png" num="105">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -910,7 +1888,7 @@ Draw two cards. If {W} was spent to cast The Wages of Sin, you may return to you
 			<name>Brutal Isolation</name>
 			<text>Dogma (This spell costs {1} less to cast for each card type among cards in your graveyard.)
 Destroy target creature or planeswalker.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/111.png" num="90">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/111.png" num="79">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -926,7 +1904,7 @@ Destroy target creature or planeswalker.</text>
 		<card>
 			<name>Grapple with Power</name>
 			<text>Destroy target creature or enchantment. You gain 1 life.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/112.png" num="206">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/112.png" num="190">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -940,9 +1918,116 @@ Destroy target creature or planeswalker.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Dour Soothsayer</name>
-			<text>Whenever you read forbidden lore, you draw a card and you lose 1 life. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/120.png" num="99">ASH</set>
+			<name>Sacred Agenda</name>
+			<text>(Whenever a creature you control enters the battlefield or dies, put a faith counter on this. Gain abilities through faith.)
+{3}{B}, Pay 2 life: Draw a card.
+Faith 3+
+{1}{B}, Pay 2 life: Draw a card.
+Faith 6+
+Pay 2 life: Draw a card.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/113.png" num="98">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Prayer</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fear&apos;s Shadow</name>
+			<text>Dogma (This spell costs {1} less to cast for each card type among cards in your graveyard.)
+Fear&apos;s Shadow gets -X/-X, where X is your life total.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/114.png" num="86">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>20/20</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sorrowful Dregs</name>
+			<text>Dogma (This spell costs {1} less to cast for each card type among cards in your graveyard.)
+Trample, menace
+When Sorrowful Dregs enters the battlefield, you draw X cards and you lose X life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/115.png" num="102">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>X4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Harrow the Mind</name>
+			<text>Target player reveals their hand. You choose a card from it. That player discards that card. That player may search their library for a basic land card, reveal it, put it into their hand, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/116.png" num="88">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bleed the Freak</name>
+			<text>Bleed the Freak deals 3 damage to each battle you control, each creature, and each planeswalker. You gain 3 life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/117.png" num="78">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>An Immortal Duel</name>
+			<text>Whenever you cast a noncreature spell, return target creature card from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/118.png" num="219">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B/GB/G</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Noisome Pestbringer</name>
+			<text>Flash
+When Noisome Pestbringer enters the battlefield, search your library for a nonland card and reveal it. Each opponent who cast a spell this turn with the same name as that card loses 6 life. Then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/119.png" num="94">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -957,10 +2042,100 @@ Destroy target creature or planeswalker.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Dour Soothsayer</name>
+			<text>Whenever you read forbidden lore, you draw a card and you lose 1 life. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/120.png" num="85">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Liminal Witch</name>
+			<text>Flying, lifelink</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/121.png" num="90">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vile Mutilator</name>
+			<text>As an additional cost to cast Vile Mutilator, sacrifice a creature or enchantment.
+Flying, trample
+When Vile Mutilator enters the battlefield, each opponent sacrifices a nontoken enchantment of their choice, then sacrifices a nontoken creature of their choice.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/122.png" num="104">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>5BB</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cloistered Wight</name>
+			<text>Flying
+Whenever Cloistered Wight deals combat damage to a player, you may pay 1 life. If you do, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/123.png" num="81">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Slavering Ewe</name>
+			<text>Dogma (This spell costs {1} less to cast for each card type among cards in your graveyard.)
+Menace
+Whenever one or more permanent cards are put into a graveyard from anywhere, you may have each opponent lose that much life. Do this only once each turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/124.png" num="100">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>5BB</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Prowling Scourge</name>
 			<text>Prowling Scourge enters the battlefield tapped.
 You may cast Prowling Scourge from your graveyard as long as you control a green or white permanent.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/125.png" num="104">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/125.png" num="96">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -978,7 +2153,7 @@ You may cast Prowling Scourge from your graveyard as long as you control a green
 			<name>Solitary Deckhand</name>
 			<text>Whenever a creature you control dies, put a +1/+1 counter on Solitary Deckhand.
 {1}{B}, Sacrifice a creature: Draw a card.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/126.png" num="112">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/126.png" num="101">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -996,7 +2171,7 @@ You may cast Prowling Scourge from your graveyard as long as you control a green
 			<name>Corrupt Guardsman</name>
 			<text>Whenever Corrupt Guardsman enters the battlefield or attacks, mill a card.
 Corrupt Guardsman gets +1/+1 and has menace as long as there are seven or more cards in your graveyard.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/127.png" num="97">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/127.png" num="82">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1011,9 +2186,60 @@ Corrupt Guardsman gets +1/+1 and has menace as long as there are seven or more c
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Cruel Penance</name>
+			<text>(Whenever a creature you control enters the battlefield or dies, put a faith counter on this. Gain abilities through faith.)
+When Cruel Penance enters the battlefield, destroy target creature.
+Faith 5+
+At the beginning of combat on your turn, target creature you control gains deathtouch and lifelink until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/128.png" num="207">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Prayer</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W/BW/B</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Make Demands</name>
+			<text>Search your library for two cards, put one of them into your hand, one of them into your graveyard, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/129.png" num="91">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Disturb</name>
+			<text>Target opponent reveals their hand. You choose a creature or enchantment card from it. That player discards that card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/130.png" num="84">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Corrupting Smog</name>
 			<text>Destroy target creature or planeswalker if its mana value is less than or equal to the number of creature cards in your graveyard.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/131.png" num="98">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/131.png" num="83">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1027,12 +2253,29 @@ Corrupt Guardsman gets +1/+1 and has menace as long as there are seven or more c
 			<tablerow>3</tablerow>
 		</card>
 		<card>
+			<name>Traitor&apos;s Road</name>
+			<text>When Traitor&apos;s Road enters the battlefield, all creatures get -2/-2 until end of turn.
+{3}{B}, Sacrifice Traitor&apos;s Road: Return up to two target creature cards from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/132.png" num="103">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
 			<name>Harvest-Tide Bounty</name>
 			<text>(Whenever a creature you control enters the battlefield or dies, put a faith counter on this. Gain abilities through faith.)
 When Harvest-Tide Bounty enters the battlefield, target opponent sacrifices a creature of their choice. If they didn&apos;t sacrifice a creature with the greatest mana value among creatures they control, put three faith counters on Harvest-Tide Bounty.
 Faith 4+
 {1}{B}, Sacrifice a creature: Return Harvest-Tide Bounty to its owner&apos;s hand.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/133.png" num="100">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/133.png" num="89">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1048,7 +2291,7 @@ Faith 4+
 		<card>
 			<name>Quash Dissent</name>
 			<text>Target opponent sacrifices a blue or red creature of their choice. If that player does, they lose 2 life.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/134.png" num="105">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/134.png" num="97">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1064,7 +2307,7 @@ Faith 4+
 		<card>
 			<name>Zealous Truthfinder</name>
 			<text>{R}, Discard a card: Draw a card. Zealous Truthfinder persecutes 1. (It deals 1 damage to a creature or planeswalker you control.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/135.png" num="156">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/135.png" num="138">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1082,7 +2325,7 @@ Faith 4+
 			<name>Pious Disciple</name>
 			<text>During your turn, Pious Disciple has first strike.
 Mountaincycling {RW}, Plainscycling {RW} ({RW}, Discard this card: Search your library for a Mountain or Plains card, reveal it, put it into your hand, then shuffle.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/136.png" num="231">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/136.png" num="223">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1100,7 +2343,7 @@ Mountaincycling {RW}, Plainscycling {RW} ({RW}, Discard this card: Search your l
 			<name>Lay Courier</name>
 			<text>Haste
 When Lay Courier dies, exile the top card of your library. You may play it until the end of your next turn.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/137.png" num="133">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/137.png" num="118">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1117,7 +2360,7 @@ When Lay Courier dies, exile the top card of your library. You may play it until
 		<card>
 			<name>Blood Diviner</name>
 			<text>When Blood Diviner enters the battlefield, consult the flames. If they augur well, Blood Diviner deals 2 damage to each opponent. (Look at the top card of your library. You may draw it. If you do, discard a card. If you don&apos;t, mill it and the flames augur well.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/138.png" num="125">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/138.png" num="110">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1135,7 +2378,7 @@ When Lay Courier dies, exile the top card of your library. You may play it until
 			<name>Sundown Patrol</name>
 			<text>During your turn, Sundown Patrol has first strike.
 {4}{W}: Creatures you control get +1/+1 until end of turn.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/139.png" num="147">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/139.png" num="133">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1150,9 +2393,79 @@ When Lay Courier dies, exile the top card of your library. You may play it until
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Gaunt Scrivener</name>
+			<text>Menace (This creature can&apos;t be blocked except by two or more creatures.)
+When Gaunt Scrivener enters the battlefield, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/140.png" num="115">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unseen Magus</name>
+			<text>Reach
+When Unseen Magus enters the battlefield, create a 1/1 black Cleric creature token with &quot;When this creature dies, surveil 1.&quot; (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/141.png" num="137">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tormented Penitent</name>
+			<text>Tormented Penitent costs {2} less to cast as long as you&apos;ve read forbidden lore this turn. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)
+Trample, reach</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/142.png" num="136">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Overzealous Edict</name>
+			<text>Overzealous Edict deals 2 damage to any target. Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/143.png" num="120">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Into the Fray</name>
 			<text>Target creature gets +3/+0 and gains first strike and lifelink until end of turn.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/144.png" num="211">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/144.png" num="195">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1168,7 +2481,7 @@ When Lay Courier dies, exile the top card of your library. You may play it until
 		<card>
 			<name>Prophecy Circle</name>
 			<text>Look at the top two cards of your library. Put one into your graveyard and exile the other. You may play the exiled card until the end of your next turn.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/145.png" num="137">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/145.png" num="123">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1184,7 +2497,7 @@ When Lay Courier dies, exile the top card of your library. You may play it until
 		<card>
 			<name>Bonfire of Curiosities</name>
 			<text>Exile target artifact or enchantment.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/146.png" num="210">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/146.png" num="193">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1198,9 +2511,27 @@ When Lay Courier dies, exile the top card of your library. You may play it until
 			<tablerow>3</tablerow>
 		</card>
 		<card>
+			<name>A Swift and Holy Blade</name>
+			<text>Choose one —
+• A Swift and Holy Blade deals 4 damage to target creature or planeswalker.
+• A Swift and Holy Blade deals 2 damage to target creature or planeswalker and 2 damage to that permanent&apos;s controller.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/147.png" num="134">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Searing Insight</name>
 			<text>Searing Insight deals 6 damage to target creature or planeswalker. If {U} was spent to cast Searing Insight, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/148.png" num="144">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/148.png" num="130">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1214,11 +2545,64 @@ When Lay Courier dies, exile the top card of your library. You may play it until
 			<tablerow>3</tablerow>
 		</card>
 		<card>
+			<name>Demogogue of Flame</name>
+			<text>Whenever a creature you control attacks, consult the flames. If they augur well, that creature gets +1/+1 until end of turn. (Look at the top card of your library. You may draw it. If you do, discard a card. If you don&apos;t, mill it and the flames augur well.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/149.png" num="113">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Minister of Purgation</name>
+			<text>If a creature you control would deal damage to a player or permanent, it deals double that damage instead.
+Whenever Minister of Purgation or another creature you control enters the battlefield, it persecutes 1. (It deals 1 damage to a creature or planeswalker you control.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/150.png" num="119">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Inquisitor</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Purge the Impure</name>
+			<text>Choose one —
+• Purge the Impure deals 5 damage to each creature and each planeswalker.
+• Create three 1/1 black Cleric creature tokens with &quot;When this creature dies, surveil 1.&quot; (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/151.png" num="124">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Last of a Dying Breed</name>
 			<text>Flying
 {1}{R}: Consult the flames. (Look at the top card of your library. You may draw it. If you do, discard a card. If you don&apos;t, mill it and the flames augur well.)
 Whenever the flames augur well, Last of a Dying Breed gets +2/+0 until end of turn.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/152.png" num="132">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/152.png" num="117">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1233,10 +2617,78 @@ Whenever the flames augur well, Last of a Dying Breed gets +2/+0 until end of tu
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Refute the Truth</name>
+			<text>Refute the Truth costs {2} less to cast if it targets a spell or ability that targets you.
+Change the target of target spell or ability with a single target.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/153.png" num="125">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Eerie Threshold</name>
+			<text>When Eerie Threshold enters the battlefield, destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Whenever a spell or ability causes an opponent to shuffle their library, Eerie Threshold deals 2 damage to that player.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/154.png" num="114">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Relentless Assault</name>
+			<text>Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/155.png" num="224">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R/WR/W</manacost>
+				<cmc>5</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scion of Akhillos</name>
+			<text>Flying, haste
+Whenever Scion of Akhillos attacks, creatures you control gain prowess until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/156.png" num="129">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Griffin</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Resentful Novitiate</name>
 			<text>Haste
 Whenever Resentful Novitiate attacks, it persecutes 1. (It deals 1 damage to a creature or planeswalker you control.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/157.png" num="138">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/157.png" num="126">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1251,10 +2703,45 @@ Whenever Resentful Novitiate attacks, it persecutes 1. (It deals 1 damage to a c
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Curious Hellsmith</name>
+			<text>When Curious Hellsmith enters the battlefield, choose target instant or sorcery card in your graveyard, then flip a coin. If you win the flip, return that card to your hand. Otherwise, exile it and you may cast it this turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/158.png" num="112">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Roving Witchfinder</name>
+			<text>Menace (This creature can&apos;t be blocked except by two or more creatures.)
+Whenever another creature enters the battlefield under you control, it gets +1/+1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/159.png" num="128">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Inquisitor</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Shambling Pyre</name>
 			<text>Reach, haste
 Whenever you read forbidden lore, Shambling Pyre deals 1 damage to any target. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/160.png" num="146">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/160.png" num="132">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1272,7 +2759,7 @@ Whenever you read forbidden lore, Shambling Pyre deals 1 damage to any target. (
 			<name>Backwoods Butcher</name>
 			<text>Double strike
 Backwoods Butcher gets +1/+0 as long as you control a white or blue permanent.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/161.png" num="124">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/161.png" num="109">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1289,7 +2776,7 @@ Backwoods Butcher gets +1/+0 as long as you control a white or blue permanent.</
 		<card>
 			<name>Ardent Architect</name>
 			<text>Whenever you read forbidden lore, Ardent Architect deals 2 damage to each opponent. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/162.png" num="123">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/162.png" num="107">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1306,7 +2793,7 @@ Backwoods Butcher gets +1/+0 as long as you control a white or blue permanent.</
 		<card>
 			<name>Callous Deckhand</name>
 			<text>When Callous Deckhand enters the battlefield, you may sacrifice a creature. When you do, Callous Deckhand deals damage equal to that creature&apos;s power to any target.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/163.png" num="126">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/163.png" num="111">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1324,7 +2811,7 @@ Backwoods Butcher gets +1/+0 as long as you control a white or blue permanent.</
 			<name>Seething Amalgam</name>
 			<text>Trample, haste
 At the beginning of your end step, consult the flames. Sacrifice Seething Amalgam if they don&apos;t augur well. (Look at the top card of your library. You may draw it. If you do, discard a card. If you don&apos;t, mill it and the flames augur well.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/164.png" num="145">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/164.png" num="131">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1339,10 +2826,109 @@ At the beginning of your end step, consult the flames. Sacrifice Seething Amalga
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Riddle of Fire</name>
+			<text>Choose any target. Surveil 3, then reveal the top card of your library. Riddle of Fire deals damage equal to that card&apos;s mana value to that permanent or player. (To surveil 3, look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/165.png" num="127">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gaze into the Sun</name>
+			<text>Look at the top X cards of your library. You may cast a red or colorless spell from among them with mana value X or less without paying its mana cost. Exile the rest.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/166.png" num="116">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XR</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Portent of Heresy</name>
+			<text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/167.png" num="121">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Torches at Midnight</name>
+			<text>Torches at Midnight deals 2 damage to each creature.
+Create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/168.png" num="135">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Occult Truths</name>
+			<text>As an additional cost to cast Occult Truths, discard a card.
+Consult the flames. If they augur well, draw two cards. Otherwise, draw a card. (Look at the top card of your library. You may draw it. If you do, discard a card. If you don&apos;t, mill it and the flames augur well.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/169.png" num="214">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>U/R</manacost>
+				<cmc>1</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ascribe Penance</name>
+			<text>As an additional cost to cast Ascribe Penance, you may have a creature you control persecute 3. (It deals 3 damage to a creature or planeswalker you control.)
+Ascribe Penance deals 4 damage to target creature or planeswalker. If the additional cost was paid, instead Ascribe Penance deals 4 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/170.png" num="108">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Profane Mystery</name>
 			<text>Profane Mystery can&apos;t be countered.
 Profane Mystery deals 5 damage to target black or green creature. The damage can&apos;t be prevented.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/171.png" num="136">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/171.png" num="122">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1359,7 +2945,7 @@ Profane Mystery deals 5 damage to target black or green creature. The damage can
 			<name>Esoteric Disciple</name>
 			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 Islandcycling {UR}, Mountaincycling {UR}, ({UR}, Discard this card: Search your library for an Island or Mountain card, reveal it, put it into your hand, then shuffle.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/172.png" num="224">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/172.png" num="212">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1376,7 +2962,7 @@ Islandcycling {UR}, Mountaincycling {UR}, ({UR}, Discard this card: Search your 
 		<card>
 			<name>Furtive Puppeteer</name>
 			<text>When Furtive Puppeteer enters the battlefield, it juggles. (Look at the top two cards of your library. Put one into your graveyard. Put a +1/+1 counter on this creature if the juggled card has greater mana value than it.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/173.png" num="165">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/173.png" num="152">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1393,7 +2979,7 @@ Islandcycling {UR}, Mountaincycling {UR}, ({UR}, Discard this card: Search your 
 		<card>
 			<name>Backwoods Traditionalist</name>
 			<text>When Backwoods Traditionalist enters the battlefield or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/174.png" num="158">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/174.png" num="141">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1410,7 +2996,7 @@ Islandcycling {UR}, Mountaincycling {UR}, ({UR}, Discard this card: Search your 
 		<card>
 			<name>Sullen Harlequin</name>
 			<text>{3}{U}: Sullen Harlequin can&apos;t be blocked this turn.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/175.png" num="177">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/175.png" num="164">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1425,10 +3011,27 @@ Islandcycling {UR}, Mountaincycling {UR}, ({UR}, Discard this card: Search your 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Inhuman Evangel</name>
+			<text>Inhuman Evangel gets +1/+0 and has trample as long as you control an enchantment.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/176.png" num="155">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Walking Wilderness</name>
 			<text>Walking Wilderness costs {1} less to cast as long as you control an Island or a Swamp.
 Reach</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/177.png" num="187">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/177.png" num="166">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1443,10 +3046,27 @@ Reach</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Weepwood Raiders</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/178.png" num="168">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Mutant Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Sanguine Abominant</name>
 			<text>Reach
 When Sanguine Abominant enters the battlefield, if {B} was spent to cast it, you draw a card and you lose 1 life.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/179.png" num="176">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/179.png" num="162">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1464,7 +3084,7 @@ When Sanguine Abominant enters the battlefield, if {B} was spent to cast it, you
 			<name>Weepwood Colossus</name>
 			<text>Dogma (This spell costs {1} less to cast for each card type among cards in your graveyard.)
 Trample</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/180.png" num="188">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/180.png" num="167">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1481,7 +3101,7 @@ Trample</text>
 		<card>
 			<name>Entangle</name>
 			<text>Target creature you control fights target creature you don&apos;t control. When the creature you don&apos;t control dies this turn, draw a card.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/181.png" num="205">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/181.png" num="189">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1495,9 +3115,62 @@ Trample</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
+			<name>Strangling Growth</name>
+			<text>Choose one —
+• Destroy target enchantment.
+• Target creature you control deals damage equal to its power to target creature, planeswalker, or battle.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/182.png" num="163">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Frantic Strength</name>
+			<text>Flash
+Enchant creature
+Enchanted creature gets +2/+2 and has trample.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/183.png" num="151">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lost and Far Away</name>
+			<text>Enchant land
+Whenever enchanted land is tapped for mana, its controller adds an additional {U} or {B}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/184.png" num="158">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>UBG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
 			<name>Macabre Timing</name>
 			<text>Surveil 3, then draw a card. (To surveil 3, look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/185.png" num="217">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/185.png" num="201">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1511,11 +3184,46 @@ Trample</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
+			<name>War Shepherd</name>
+			<text>At the beginning of combat on your turn, exile target creature an opponent controls until War Shepherd leaves the battlefield. Then War Shepherd persecutes 3. (It deals 3 damage to a creature or planeswalker you control.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/186.png" num="40">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Inquisitor</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jester&apos;s Privilege</name>
+			<text>Whenever equipped creature attacks, it juggles. (Look at the top two cards of your library. Put one into your graveyard. Put a +1/+1 counter on that creature if the juggled card has greater mana value than it.)
+During your turn, each creature you control with a +1/+1 counter on it has shielded. (Prevent all damage that would be dealt to it.)
+Equip {2}</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/187.png" num="157">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
 			<name>Wheatfield Abomination</name>
 			<text>Dogma (This spell costs {1} less to cast for each card type among cards in your graveyard.)
 Wheatfield Abomination enters the battlefield with X +1/+1 counters on it.
 At the beginning of your upkeep, you may exile four cards from your graveyard. If you do, return Wheatfield Abomination from your graveyard to your hand.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/188.png" num="190">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/188.png" num="170">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1530,9 +3238,91 @@ At the beginning of your upkeep, you may exile four cards from your graveyard. I
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Eldritch Event</name>
+			<text>As an additional cost to cast Eldritch Event, sacrifice a creature and a land.
+Search your library for land card and a creature card with mana value X or less, where X is 2 plus the sacrificed creature&apos;s mana value. Put those cards onto the battlefield, then shuffle.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/189.png" num="149">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Communion of Might</name>
+			<text>Put two +1/+1 counters on each creature you control. Those creatures gain trample and vigilance until end of turn.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/190.png" num="145">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crawling Carrion</name>
+			<text>Whenever you read forbidden lore, create a 2/1 green Horror creature token. If you control five or more Horrors, instead create a token that&apos;s a copy of Crawling Carrion. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/191.png" num="146">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wurm</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Maddening Laughter</name>
+			<text>Draw a card for each creature card in your graveyard.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/192.png" num="228">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G/UG/U</manacost>
+				<cmc>5</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Comedic Timing</name>
+			<text>Whenever a land enters the battlefield under your control, target creature you control juggles. (Look at the top two cards of your library. Put one into your graveyard. Put a +1/+1 counter on that creature if the juggled card has greater mana value than it.)</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/193.png" num="144">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
 			<name>Weepwood Revenant</name>
 			<text>When Weepwood Revenant enters the battlefield, create your choice of a Breeding Pool token or an Overgrown Tomb token. (They&apos;re lands with &quot;As this land enters the battlefield, you may pay 2 life. If you don&apos;t, it enters the battlefield tapped.&quot; Breeding Pool is a Forest Island. Overgrown Tomb is a Swamp Forest.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/194.png" num="189">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/194.png" num="169">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1547,10 +3337,98 @@ At the beginning of your upkeep, you may exile four cards from your graveyard. I
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Mendicant Wretch</name>
+			<text>Whenever you read forbidden lore, each opponent gets a poison counter. (You read forbidden lore when you look at one or more cards in your library for the first time each turn. A player with ten or more poison counters loses the game.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/195.png" num="160">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Amalgamated Coven</name>
+			<text>When Amalgamated Coven dies, create a number of 1/1 white Peasant creature tokens equal to its toughness.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/196.png" num="139">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ooze</type>
+				<maintype>Creature</maintype>
+				<manacost>4GGG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>8/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mockery of Faith</name>
+			<text>Flash
+When Mockery of Faith enters the battlefield, another target creature you control gets +2/+2 and gains trample, hexproof, and indestructible until end of turn.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/197.png" num="161">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tattered Packbeast</name>
+			<text>Dogma (This spell costs {1} less to cast for each card type among cards in your graveyard.)
+Tattered Packbeast can&apos;t be blocked by creatures with power 2 or less.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/198.png" num="221">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5B/GB/G</manacost>
+				<cmc>7</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Carnival Freak</name>
+			<text>When Carnival Freak enters the battlefield, it juggles. (Look at the top two cards of your library. Put one into your graveyard. Put a +1/+1 counter on this creature if the juggled card has greater mana value than it.)
+Carnival Freak can&apos;t be blocked by creatures with power less than the number of card types among cards in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/199.png" num="143">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Clown</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Lumbering Plaguepit</name>
 			<text>Lumbering Plaguepit gets +4/+4 as long as you&apos;ve read forbidden lore this turn. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)
 {1}{G}, Discard Lumbering Plaguepit: Look at the top three cards of your library. You may reveal a land card from among them and put it into your hand. Put the rest into your graveyard.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/200.png" num="168">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/200.png" num="159">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1568,7 +3446,7 @@ At the beginning of your upkeep, you may exile four cards from your graveyard. I
 			<name>Sylvan Witch</name>
 			<text>Reach
 Sylvan Witch has flying as long as you control a blue or black permanent.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/201.png" num="178">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/201.png" num="165">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1585,7 +3463,7 @@ Sylvan Witch has flying as long as you control a blue or black permanent.</text>
 		<card>
 			<name>Inspired Scribe</name>
 			<text>Whenever an enchantment enters the battlefield under your control, look at the top three cards of your library. You may reveal a land card from among them and put it onto the battlefield tapped. Put the rest on the bottom of your library in a random order.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/202.png" num="167">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/202.png" num="156">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1602,7 +3480,7 @@ Sylvan Witch has flying as long as you control a blue or black permanent.</text>
 		<card>
 			<name>Grizzled Architect</name>
 			<text>Whenever you read forbidden lore, put a +1/+1 counter on Grizzled Architect. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/203.png" num="166">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/203.png" num="154">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1617,10 +3495,59 @@ Sylvan Witch has flying as long as you control a blue or black permanent.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Creeping Mold</name>
+			<text>Destroy target artifact, enchantment, or land.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/204.png" num="147">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fecund Gestation</name>
+			<text>Whenever a land enters the battlefield under your control, create a 2/1 green Horror creature token. If that land could produce {U} or {B}, put a +1/+1 counter on the token.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/205.png" num="150">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>UBG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Danger in the Dark</name>
+			<text>Dogma (This spell costs {1} less to cast for each card type among cards in your graveyard.)
+Target creature you control deals damage equal to its power to each of two other target creatures.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/206.png" num="148">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Ancient Wildness</name>
 			<text>When Ancient Wildness enters the battlefield, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
 Lands you control enter the battlefield untapped.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/207.png" num="157">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/207.png" num="140">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1636,7 +3563,7 @@ Lands you control enter the battlefield untapped.</text>
 		<card>
 			<name>Basal Primacy</name>
 			<text>Destroy target noncreature permanent that&apos;s red or white.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/208.png" num="159">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/208.png" num="142">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1650,9 +3577,25 @@ Lands you control enter the battlefield untapped.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
+			<name>Surprise Party</name>
+			<text>Destroy target noncreature permanent. Create a 0/0 blue Elemental creature token with flying. Put a number of +1/+1 counters on it equal to the destroyed permanent&apos;s mana value.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/209.png" num="204">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Encroaching Corruption</name>
 			<text>Destroy target nonland permanent. Search your library for a card, put that card into your graveyard, then shuffle.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/210.png" num="204">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/210.png" num="188">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1669,7 +3612,7 @@ Lands you control enter the battlefield untapped.</text>
 			<name>Yog&apos;s Excisor</name>
 			<text>Menace
 When Yog&apos;s Excisor enters, look at target opponent&apos;s hand. You may exile a nonland card from it. For as long as that card remains exiled, its owner may cast it by paying life equal to its mana value rather than paying its mana cost.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/211.png" num="196">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/211.png" num="177">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1684,10 +3627,60 @@ When Yog&apos;s Excisor enters, look at target opponent&apos;s hand. You may exi
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Ambush Mimic</name>
+			<text>You may have Ambush Mimic enters the battlefield as a copy of any creature on the battlefield, except it has haste.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/212.png" num="178">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shapeshifter</type>
+				<maintype>Creature</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Artless Revival</name>
+			<text>Choose target nonlegendary creature you control or target nonlegendary creature card in a graveyard. Create a token that&apos;s a copy of it, except it&apos;s legendary.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/213.png" num="185">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hardened Novitiate</name>
+			<text>Other creatures you control have lifelink and haste.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/214.png" num="194">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Inquisitor</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Jumbleskin</name>
 			<text>When Jumbleskin attacks, it juggles. (Look at the top two cards of your library. Put one into your graveyard. Put a +1/+1 counter on this creature if the juggled card has greater mana value than it.)
 Whenever you juggle a creature card into your graveyard, you may have Jumbleskin become a copy of that card until end of turn.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/215.png" num="216">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/215.png" num="200">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1702,11 +3695,28 @@ Whenever you juggle a creature card into your graveyard, you may have Jumbleskin
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Bitter Rebuke</name>
+			<text>When Bitter Rebuke enters the battlefield, each opponent sacrifices a creature of their choice.
+Whenever a creature dies, each opponent loses 1 life and you gain 1 life.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/216.png" num="171">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
 			<name>Truth in Fire</name>
 			<text>At the beginning of combat on your turn, surveil 1, then exile the top card of your library. When you do, choose one —
 • You may play that card this turn.
 • Truth in Fire deals 2 damage to each opponent.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/217.png" num="202">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/217.png" num="184">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1723,7 +3733,7 @@ Whenever you juggle a creature card into your graveyard, you may have Jumbleskin
 			<name>Lingering Dead</name>
 			<text>When Lingering Dead enters the battlefield or dies, you gain 1 life.
 {2}{WB}: Return Lingering Dead from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/218.png" num="222">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/218.png" num="209">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1740,7 +3750,7 @@ Whenever you juggle a creature card into your graveyard, you may have Jumbleskin
 		<card>
 			<name>Spawn of Vo&apos;Radh</name>
 			<text>When Spawn of Vo&apos;Radh enters the battlefield, you may put target instant or sorcery card from your graveyard on top of your library.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/219.png" num="226">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/219.png" num="216">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1757,7 +3767,7 @@ Whenever you juggle a creature card into your graveyard, you may have Jumbleskin
 		<card>
 			<name>Loping Braycaller</name>
 			<text>When Loping Braycaller enters the battlefield, mill three cards, then you may return a creature card from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/220.png" num="229">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/220.png" num="220">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1774,7 +3784,7 @@ Whenever you juggle a creature card into your graveyard, you may have Jumbleskin
 		<card>
 			<name>Witchfinder Novitiate</name>
 			<text>When Witchfinder Novitiate enters the battlefield or dies, create a 1/1 black Cleric creature token with &quot;When this creature dies, surveil 1.&quot; (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/221.png" num="232">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/221.png" num="226">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1792,7 +3802,7 @@ Whenever you juggle a creature card into your graveyard, you may have Jumbleskin
 			<name>Mendicant Mirthmaker</name>
 			<text>Vigilance
 {T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/222.png" num="234">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/222.png" num="229">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1809,7 +3819,7 @@ Whenever you juggle a creature card into your graveyard, you may have Jumbleskin
 		<card>
 			<name>Wordless Procession</name>
 			<text>Create two 1/1 black Cleric creature tokens with &quot;When this creature dies, surveil 1.&quot; (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/223.png" num="195">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/223.png" num="176">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1825,7 +3835,7 @@ Whenever you juggle a creature card into your graveyard, you may have Jumbleskin
 		<card>
 			<name>Unspeakable Churn</name>
 			<text>Look at the top five cards of your library. You may put a card from among them into your hand. Put the rest into your graveyard.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/224.png" num="208">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/224.png" num="191">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1842,7 +3852,7 @@ Whenever you juggle a creature card into your graveyard, you may have Jumbleskin
 			<name>Savage Acrobat</name>
 			<text>Flying
 Whenever Savage Acrobat attacks, it juggles. (Look at the top two cards of your library. Put one into your graveyard. Put a +1/+1 counter on this creature if the juggled card has greater mana value than it.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/225.png" num="219">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/225.png" num="203">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1859,7 +3869,7 @@ Whenever Savage Acrobat attacks, it juggles. (Look at the top two cards of your 
 		<card>
 			<name>Mindrazer Adept</name>
 			<text>When Mindrazer Adept enters the battlefield, draw three cards, then put two cards from your hand on top of your library in any order.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/226.png" num="197">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/226.png" num="180">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1876,7 +3886,7 @@ Whenever Savage Acrobat attacks, it juggles. (Look at the top two cards of your 
 		<card>
 			<name>Punished Martyr</name>
 			<text>Whenever Punished Martyr is dealt damage, create that many 1/1 black Cleric creature tokens with &quot;When this creature dies, surveil 1.&quot; (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/227.png" num="212">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/227.png" num="196">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1895,7 +3905,7 @@ Whenever Savage Acrobat attacks, it juggles. (Look at the top two cards of your 
 			<text>As an additional cost to cast Straussus, Yog&apos;s Devourer, sacrifice a creature.
 Flying
 When Straussus dies, create three 1/1 black Cleric creature tokens with &quot;When this creature dies, surveil 1.&quot; (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/228.png" num="223">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/228.png" num="211">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1912,7 +3922,7 @@ When Straussus dies, create three 1/1 black Cleric creature tokens with &quot;Wh
 		<card>
 			<name>Metryus, Grand Magister</name>
 			<text>Whenever you cast an instant or sorcery spell, you may exile a nonland card from your hand. If you do, put that spell on top of your library instead of anywhere else as it resolves.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/229.png" num="225">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/229.png" num="213">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1931,7 +3941,7 @@ When Straussus dies, create three 1/1 black Cleric creature tokens with &quot;Wh
 			<text>Whenever Black Chornaja enters the battlefield or attacks, mill three cards. When you do, choose one —
 • Put a +1/+1 counter on Black Chornaja.
 • Return target land card from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/230.png" num="227">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/230.png" num="217">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1949,7 +3959,7 @@ When Straussus dies, create three 1/1 black Cleric creature tokens with &quot;Wh
 			<name>Gensis, Witch Hunter</name>
 			<text>Lifelink
 Whenever Gensis, Witch Hunter is dealt damage, it deals that much damage to any other target.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/231.png" num="230">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/231.png" num="222">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1967,7 +3977,7 @@ Whenever Gensis, Witch Hunter is dealt damage, it deals that much damage to any 
 			<name>Jull, Mendicant Minstrel</name>
 			<text>Whenever you cast a creature spell, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 Whenever a creature you control becomes the target of a spell or ability, you may pay {2}. If you do, put that creature on top of its owner&apos;s library.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/232.png" num="233">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/232.png" num="227">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1988,7 +3998,7 @@ When Visceral Gift enters the battlefield, each opponent sacrifices a nontoken c
 Faith 4+
 Whenever a creature enters the battlefield or dies, each opponent loses 1 life and you gain 1 life.
 Faith</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/233.png" num="194">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/233.png" num="175">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2004,7 +4014,7 @@ Faith</text>
 		<card>
 			<name>Corrupting Touch</name>
 			<text>Destroy up to one target nonland permanent with mana value X or less, where X is the number of card types among cards in your graveyard. Return up to one target creature card from your graveyard to the battlefield.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/234.png" num="203">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/234.png" num="187">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2021,7 +4031,7 @@ Faith</text>
 			<name>Tragic Jester</name>
 			<text>When Tragic Jester enters the battlefield, it juggles. (Look at the top two cards of your library. Put one into your graveyard. Put a +1/+1 counter on this creature if the juggled card has greater mana value than it.)
 Whenever you juggle a land card into your graveyard, you may put it onto the battlefield tapped.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/235.png" num="220">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/235.png" num="205">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2039,7 +4049,7 @@ Whenever you juggle a land card into your graveyard, you may put it onto the bat
 			<name>Shifting Chorus</name>
 			<text>When Shifting Chorus enters the battlefield, consult the flames. (Look at the top card of your library. You may draw it. If you do, discard a card. If you don&apos;t, mill it and the flames augur well.)
 Whenever the flames augur well, create a 1/1 black Cleric creature token with &quot;When this creature dies, surveil 1.&quot; (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/236.png" num="200">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/236.png" num="182">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2057,7 +4067,7 @@ Whenever the flames augur well, create a 1/1 black Cleric creature token with &q
 			<name>Scourge of the Dark</name>
 			<text>When Scourge of the Dark enters the battlefield, you may have it persecute 2. When you do, it deals 3 damage to any target. (To have this creature persecute 2, it deals 2 damage to a creature or planeswalker you control.)
 During your turn, Scourge of the Dark has first strike.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/237.png" num="214">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/237.png" num="197">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2074,7 +4084,7 @@ During your turn, Scourge of the Dark has first strike.</text>
 		<card>
 			<name>Gnarled Heretic</name>
 			<text>When Gnarled Heretic enters the battlefield or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/238.png" num="5">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/238.png" num="6">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2089,7 +4099,7 @@ During your turn, Scourge of the Dark has first strike.</text>
 		<card>
 			<name>Weepwood Hybrid</name>
 			<text>When Weepwood Hybrid enters the battlefield, draw a card. Then discard a card unless you&apos;ve read forbidden lore this turn. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/239.png" num="20">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/239.png" num="10">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2103,8 +4113,8 @@ During your turn, Scourge of the Dark has first strike.</text>
 		</card>
 		<card>
 			<name>Occult Eikon</name>
-			<text>When Occult Eikon enters the battlefield or dies, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/240.png" num="241">ASH</set>
+			<text>When Occult Eikon enters the battlefield or dies, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/240.png" num="238">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2120,7 +4130,7 @@ During your turn, Scourge of the Dark has first strike.</text>
 			<name>Fragment</name>
 			<text>Fragment costs {3} less to cast if it targets a permanent with mana value 3 or less.
 Destroy target nonland permanent.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/241.png" num="3">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/241.png" num="4">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2135,7 +4145,7 @@ Destroy target nonland permanent.</text>
 			<name>Witch Bottle</name>
 			<text>Witch Bottle costs {1} less to cast as long as you&apos;ve read forbidden lore this turn. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)
 {T}: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/242.png" num="245">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/242.png" num="242">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2149,7 +4159,7 @@ Destroy target nonland permanent.</text>
 		<card>
 			<name>Evolving Wilds</name>
 			<text>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/243.png" num="248">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/243.png" num="246">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2164,7 +4174,7 @@ Destroy target nonland permanent.</text>
 			<name>Lurking Crowcatcher</name>
 			<text>Flash
 When Lurking Crowcatcher enters the battlefield or dies, you may tap or untap target permanent.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/244.png" num="240">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/244.png" num="237">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2180,7 +4190,7 @@ When Lurking Crowcatcher enters the battlefield or dies, you may tap or untap ta
 			<name>Ghost of Vengeance</name>
 			<text>Flying, vigilance
 When Ghost of Vengeance enters the battlefield, target opponent sacrifices a noncreature, nonland permanent of their choice.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/245.png" num="4">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/245.png" num="5">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2196,7 +4206,7 @@ When Ghost of Vengeance enters the battlefield, target opponent sacrifices a non
 			<name>Coven Acolyte</name>
 			<text>When Coven Acolyte enters the battlefield or dies, create a 1/1 black Cleric creature token with &quot;When this creature dies, surveil 1.&quot; (To surveil 1, look at the top card of your library. You may put it into your graveyard.)
 When Coven Acolyte dies, surveil 1.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/246.png" num="2">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/246.png" num="3">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2212,7 +4222,7 @@ When Coven Acolyte dies, surveil 1.</text>
 			<name>Vengeful Revenant</name>
 			<text>Whenever you read forbidden lore, put a +1/+1 counter on Vengeful Revenant. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)
 Vengeful Revenant has flying as long as it has three or more counters on it.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/247.png" num="19">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/247.png" num="9">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2242,7 +4252,7 @@ Lands you control are the chosen types in addition to their others types.</text>
 		<card>
 			<name>Prophetic Talisman</name>
 			<text>{2}, {T}, Sacrifice Prophetic Talisman: Look at the top three cards of your library. Put one of those cards into your hand, one on top of your library, and one on the bottom of your library.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/249.png" num="243">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/249.png" num="240">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2257,7 +4267,7 @@ Lands you control are the chosen types in addition to their others types.</text>
 			<name>Inquisitor&apos;s Mask</name>
 			<text>Equipped creature gets +2/+2.
 Equip {3}. This ability costs {3} less to activate as long as you&apos;ve read forbidden lore this turn. (You read forbidden lore when you look at one or more cards in your library for the first time each turn.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/250.png" num="239">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/250.png" num="236">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2272,7 +4282,7 @@ Equip {3}. This ability costs {3} less to activate as long as you&apos;ve read f
 			<name>Isolated Hamlet</name>
 			<text>{T}: Add {C}.
 {3}, {T}, Sacrifice Isolated Hamlet: Search your library for up to two land cards with basic land types, put them onto the battlefield tapped, then shuffle.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/251.png" num="252">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/251.png" num="251">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2288,7 +4298,7 @@ Equip {3}. This ability costs {3} less to activate as long as you&apos;ve read f
 			<text>When Hidden Grotto enters the battlefield, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 {T}: Add {C}.
 {1}, {T}: Add one mana of any color.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/252.png" num="251">ASH</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/ASH-files/img/252.png" num="250">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2315,6 +4325,38 @@ Equip {3}. This ability costs {3} less to activate as long as you&apos;ve read f
 			<tablerow>0</tablerow>
 		</card>
 		<card>
+			<name>Perfect Fool</name>
+			<text>You may have Perfect Fool enter the battlefield as a copy of any permanent on the battlefield, except it&apos;s a 4/4 green and blue Clown in addition to its other types.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/254.png" num="267">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shapeshift Clown</type>
+				<maintype>Creature</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ineffable Idol</name>
+			<text>You may cast creature spells from your graveyard.
+If a creature you control would die, exile it instead.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/ASH-files/img/255.png" num="268">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
 			<name>ASH Draft Archetypes ASH</name>
 			<text>CULTS [/b]
 {W}{B} YOG Gather a flock to worship and to die, as the Father of All answers your Prayer enchantments.
@@ -2329,7 +4371,7 @@ TOWNSFOLK
 {B}{R} CRATS Life on Arkoph is brutish and short. Make the most of these fragile lifespans.
 {R}{G} FORBIDDEN LORE Surveil, fetch, consult your library and more; as you view cards you shouldn&apos;t see, your power grows.
 {G}{W} ENCHANTMENTS Folk magic may alarm the inquisitors, but it will safeguard your path to victory.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/257.png" num="5">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/256.png" num="8">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2346,7 +4388,7 @@ TOWNSFOLK
 			<name>Sacred Tomb</name>
 			<text>Sacred Tomb enters the battlefield tapped.
 {T}, Sacrifice Sacred Tomb: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/258.png" num="256">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/257.png" num="256">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2361,7 +4403,7 @@ TOWNSFOLK
 			<name>Sheer Coast</name>
 			<text>Sheer Coast enters the battlefield tapped.
 {T}, Sacrifice Sheer Coast: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/259.png" num="259">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/258.png" num="259">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2376,7 +4418,7 @@ TOWNSFOLK
 			<name>Overgrown Wreck</name>
 			<text>Overgrown Wreck enters the battlefield tapped.
 {T}, Sacrifice Overgrown Wreck: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/260.png" num="255">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/259.png" num="254">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2391,7 +4433,7 @@ TOWNSFOLK
 			<name>Gloomy Clearing</name>
 			<text>Gloomy Clearing enters the battlefield tapped.
 {T}, Sacrifice Gloomy Clearing: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/261.png" num="250">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/260.png" num="249">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2407,7 +4449,7 @@ TOWNSFOLK
 			<text>({T}: Add {U} or {R}.)
 Bridged Riptide enters the battlefield tapped.
 {1}, {T}: Add {U}{R}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/262.png" num="246">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/261.png" num="243">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2424,7 +4466,7 @@ Bridged Riptide enters the battlefield tapped.
 			<text>({T}: Add {G} or {U}.)
 Moldering Port enters the battlefield tapped.
 {1}, {T}: Add {G}{U}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/263.png" num="253">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/262.png" num="252">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2441,7 +4483,7 @@ Moldering Port enters the battlefield tapped.
 			<text>({T}: Add {B} or {G}.)
 Murky Grave enters the battlefield tapped.
 {1}, {T}: Add {B}{G}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/264.png" num="254">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/263.png" num="253">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2458,7 +4500,7 @@ Murky Grave enters the battlefield tapped.
 			<text>({T}: Add {R} or {W}.)
 Carved Edifice enters the battlefield tapped.
 {1}, {T}: Add {R}{W}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/265.png" num="247">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/264.png" num="244">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2476,7 +4518,7 @@ Carved Edifice enters the battlefield tapped.
 When Noisome Offering enters the battlefield, target opponent reveals their hand. You choose a nonland card from it. That player discards that card.
 Faith 3+
 At the beginning of your end step, each opponent with one or fewer cards in their hand loses 1 life.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/266.png" num="103">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/265.png" num="93">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2497,7 +4539,7 @@ Faith 2+
 At the beginning of your upkeep, you lose 1 life.
 Faith 5+
 At the beginning of your upkeep, you lose an additional 1 life.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/267.png" num="89">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/266.png" num="75">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2516,7 +4558,7 @@ At the beginning of your upkeep, you lose an additional 1 life.</text>
 When Entreat the Darkness enters the battlefield, exile target creature an opponent controls until Entreat the Darkness leaves the battlefield.
 Faith 2+
 {2}, Sacrifice Entreat the Darkness: Draw a card.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/268.png" num="26">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/267.png" num="15">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2530,19 +4572,19 @@ Faith 2+
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Cleric ASH</name>
-			<text>When this creature dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/269.png" num="2">ASH</set>
+			<name>Griffon ASH</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/268.png" num="1">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Token Creature — Cleric</type>
+				<type>Token Creature — Griffon</type>
 				<maintype>Creature</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
-				<colors>B</colors>
-				<coloridentity>B</coloridentity>
-				<pt>1/1</pt>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
@@ -2551,7 +4593,7 @@ Faith 2+
 			<name>Anointed Martyr</name>
 			<text>Double strike
 Whenever Anointed Martyr is dealt damage, put a +1/+1 counter on it.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/270.png" num="209">ASH</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/ASH-files/img/269.png" num="192">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2568,7 +4610,7 @@ Whenever Anointed Martyr is dealt damage, put a +1/+1 counter on it.</text>
 		<card>
 			<name>Clue ASH</name>
 			<text>{2}, Sacrifice this artifact: Draw a card.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/271.png" num="3">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/270.png" num="6">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2583,7 +4625,7 @@ Whenever Anointed Martyr is dealt damage, put a +1/+1 counter on it.</text>
 		<card>
 			<name>Treasure ASH</name>
 			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/272.png" num="4">ASH</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/271.png" num="7">ASH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2593,6 +4635,78 @@ Whenever Anointed Martyr is dealt damage, put a +1/+1 counter on it.</text>
 				<cmc>0</cmc>
 			</prop>
 			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Cleric ASH</name>
+			<text>When this creature dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/272.png" num="4">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Peasant ASH</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/273.png" num="2">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Peasant</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Elemental ASH</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/274.png" num="3">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Horror ASH</name>
+			<text></text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/ASH-files/img/275.png" num="5">ASH</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
 			<token>1</token>
 		</card>
 	</cards>
