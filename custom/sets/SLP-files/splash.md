@@ -1,0 +1,21 @@
+<img src="https://grapplex.github.io/sets/SLP-files/logo.png" alt="The Sleep of Reason" width="400">
+
+**<p style="text-align: center;">If you should die before you wake</p>**
+
+The dreamer awoke, and the dream ended. But for one embittered soul, this was not the release that was so eagerly awaited. Following the events of [*<font color="#004628">Dreams of Quyrash</font>*](https://grapplex.github.io/previews/QYR), Lursk did not find the bliss of oblivion as his home plane collapsed—instead, his latent spark awoke, sending the new planeswalker deeper into a realm he is desperate to escape. 
+
+Beneath the multiverse, beyond time, a collective unconscious links the minds of the sleeping. Not real in any true sense of the word, the dream realm exists only as long as sleepers do. Ordinarily, waking will dispel the figments and nightmares gathering in a sleeping mind, erasing part of this realm entirely—it is a constantly shifting fabric of archetypes and memetic shapes not beholden to any one mind. Lursk alone can comprehend it in its entirety; it is not a place a sentient mind can usually enter, nor leave, and the circumstances of his sparking have trapped him here for what may have been days, or what may have been millennia. It is Lursk's singular desire to escape—to wake, to sleep, and to die, knowing the rest forever denied to him.
+
+**The Sleep of Reason** is a draftable premier set using Play Boosters, containing 266 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of [SOME CARD], while all boosters have a chance of containing the Headliner version of [SOME CARD]
+
+###Mechanics
+
+<img align="left" width="200" height="353" style="margin:15px" src="https://grapplex.github.io/img/SLPbooster.png "SLP booster"/>**The Sleep of Reason** features the following mechanic:
+
+**Dream:** In the deepest reaches of the collective unconscious, ideas germinate and grow in ways the waking mind could never fathom. Dreaming is a batched action that represents these strokes of inspiration—you dream whenever you put a card into your hand from any zone other than your library. Cards that began on the battlefield, graveyard, or exile will count towards dreaming, and dream effects may vary between individual triggers, static abilities, or one-time checks. 
+
+**Sneak:** Though Lursk yearns to leave the world of dreams and finally know peace, most other denizens of this realm tread lightly so as to not disturb their sleeper. Sneak is an alternate cost mechanic, representing the subterfuge of nightmares and illusions. To cast a spell for its sneak cost, you will need to return an unblocked attacking creature you control to its owner's hand—this must be done after blocks are declared but before combat damage is assigned, but a creature cast this way will enter the battlefield attacking. Trade your attackers for surprise spells, or upgrade them into larger sneak threats. Remember, too, that sneak will turn on your dream effects by putting a card into your hand from the battlefield.
+
+**Kicker:** In the realm of dreams, forgotten memories grow and take new forms, rising once more in slumber. Kicker is an alternate cost mechanic, which allows you to pay an optional extra cost when casting a spell—when "kicked" this way, the spell will gain additional effects or enhanced abilities. Be judicious in casting your kicker creatures early, knowing that they can sneak their way back to your hand to be recast later in the game at full power.
+
+**Forecast:** Recurring nightmares wrack the mind night after night until their true meaning becomes clear. Existing on a cycle of potent mythic rares, forecast is an ability which can only be activated from your hand—paying a card's forecast cost once per turn allows you to access its forecast ability, which is separate from casting it. Balance the needs of these powerful enchantments to know when to keep them in hand and when to deploy their abilities on the battlefield.
