@@ -5,32 +5,14 @@
 			<name>AGE</name>
 			<longname>The Eternal Ice</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-02-23</releasedate>
+			<releasedate>2026-11-21</releasedate>
 		</set>
 	</sets>
 	<cards>
 		<card>
-			<name>Necrosapience</name>
-			<text>Skip your draw step.
-If a card would be put into your graveyard from anywhere, exile it instead
-You may cast instant and sorcery cards from your graveyard.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AGE-files/img/74.png" num="75">AGE</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Enchantment</type>
-				<maintype>Enchantment</maintype>
-				<manacost>UUU</manacost>
-				<cmc>3</cmc>
-				<colors>U</colors>
-				<coloridentity>U</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
 			<name>Plains</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/AGE-files/img/255.png" num="262">AGE</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AGE-files/img/0.png" num="262">AGE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -45,7 +27,7 @@ You may cast instant and sorcery cards from your graveyard.</text>
 		<card>
 			<name>Island</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/AGE-files/img/256.png" num="263">AGE</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AGE-files/img/1.png" num="263">AGE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -60,7 +42,7 @@ You may cast instant and sorcery cards from your graveyard.</text>
 		<card>
 			<name>Swamp</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/AGE-files/img/257.png" num="264">AGE</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AGE-files/img/2.png" num="264">AGE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -75,7 +57,7 @@ You may cast instant and sorcery cards from your graveyard.</text>
 		<card>
 			<name>Mountain</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/AGE-files/img/258.png" num="265">AGE</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AGE-files/img/3.png" num="265">AGE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -90,7 +72,7 @@ You may cast instant and sorcery cards from your graveyard.</text>
 		<card>
 			<name>Forest</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/AGE-files/img/259.png" num="266">AGE</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AGE-files/img/4.png" num="266">AGE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -99,6 +81,259 @@ You may cast instant and sorcery cards from your graveyard.</text>
 				<manacost></manacost>
 				<cmc>0</cmc>
 				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text>{T}: Add {W}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AGE-files/img/6.png" num="277">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text>{T}: Add {U}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AGE-files/img/7.png" num="278">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text>{T}: Add {B}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AGE-files/img/8.png" num="279">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text>{T}: Add {R}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AGE-files/img/9.png" num="280">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text>{T}: Add {G}.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/AGE-files/img/10.png" num="281">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Necrosapience</name>
+			<text>Skip your draw step.
+If a card would be put into your graveyard from anywhere, exile it instead.
+You may cast instant and sorcery cards from your graveyard.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/AGE-files/img/85.png" num="76">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>UUU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Treacherous Falls</name>
+			<text>{T}: Add {C}.
+{T}, Pay 1 life: Add {B} or {R}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AGE-files/img/269.png" num="260">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Frozen Krummholz</name>
+			<text>{T}: Add {C}.
+{T}, Pay 1 life: Add {G} or {W}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AGE-files/img/270.png" num="273">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gelid Stream</name>
+			<text>{T}: Add {C}.
+{T}, Pay 1 life: Add {W} or {U}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AGE-files/img/271.png" num="258">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Stark Ridgeline</name>
+			<text>{T}: Add {C}.
+{T}, Pay 1 life: Add {R} or {G}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AGE-files/img/272.png" num="259">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Brackish Floe</name>
+			<text>{T}: Add {C}.
+{T}, Pay 1 life: Add {U} or {B}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AGE-files/img/273.png" num="255">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Brackish Floe</name>
+			<text>{T}: Add {C}.
+{T}, Pay 1 life: Add {U} or {B}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AGE-files/img/275.png" num="272">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Frozen Krummholz</name>
+			<text>{T}: Add {C}.
+{T}, Pay 1 life: Add {G} or {W}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AGE-files/img/276.png" num="257">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gelid Stream</name>
+			<text>{T}: Add {C}.
+{T}, Pay 1 life: Add {W} or {U}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AGE-files/img/277.png" num="274">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Stark Ridgeline</name>
+			<text>{T}: Add {C}.
+{T}, Pay 1 life: Add {R} or {G}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AGE-files/img/278.png" num="275">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Treacherous Falls</name>
+			<text>{T}: Add {C}.
+{T}, Pay 1 life: Add {B} or {R}.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/AGE-files/img/279.png" num="276">AGE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Snow Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
 		</card>
