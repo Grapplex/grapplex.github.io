@@ -5,7 +5,7 @@
 			<name>SPG</name>
 			<longname>Special Guests</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-10-03</releasedate>
+			<releasedate>2026-11-22</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -1890,7 +1890,7 @@ If a source you control would deal noncombat damage to a creature an opponent co
 		<card>
 			<name>Deadly Dispute</name>
 			<text>As an additional cost to cast this spell, sacrifice an artifact or creature.
-Draw two cards and create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+Draw two cards and create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/110.png" num="112">SPG</set>
 			<prop>
 				<layout>normal</layout>
@@ -3041,7 +3041,7 @@ IV — Draw a card. If a graveyard has twenty or more cards in it, draw three ca
 		</card>
 		<card>
 			<name>City of Death</name>
-			<text>I — Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)
+			<text>I — Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
 II, III, IV, V, VI — Create a token that&apos;s a copy of target non-Saga token you control.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/179.png" num="175">SPG</set>
 			<prop>
@@ -3619,6 +3619,24 @@ Delirium — As long as there are four or more card types among cards in your gr
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>North Wind Avatar</name>
+			<text>Flying
+When North Wind Avatar enters the battlefield, if you cast it, you may put a card you own from outside the game into your hand.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/215.png" num="229">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Spirit Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>2UUR</manacost>
+				<cmc>5</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Weathered Wayfarer</name>
 			<text>{W}, {T}: Search your library for a land card, reveal it, put it into your hand, then shuffle. Activate only if an opponent controls more lands than you.</text>
 			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/217.png" num="212">SPG</set>
@@ -3712,6 +3730,155 @@ Transmute {1}{U}{U} ({1}{U}{U}, Discard this card: Search your library for a car
 				<coloridentity>G</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cloudstone Curio</name>
+			<text>Whenever a nonartifact permanent you control enters the battlefield, you may return another permanent you control that shares a permanent type with it to its owner&apos;s hand.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/224.png" num="230">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tortured Existence</name>
+			<text>{B}, Discard a creature card: Return target creature card from your graveyard to your hand.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/225.png" num="224">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Time Wipe</name>
+			<text>Return a creature you control to its owner&apos;s hand, then destroy all creatures.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/226.png" num="228">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2WWU</manacost>
+				<cmc>5</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Life from the Loam</name>
+			<text>Return up to three target land cards from your graveyard to your hand.
+Dredge 3 (If you would draw a card, you may mill three cards instead. If you do, return this card from your graveyard to your hand.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/227.png" num="227">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ripples of Undeath</name>
+			<text>At the beginning of your first main phase, mill three cards. Then you may pay {1} and 3 life. If you do, put a card from among those cards into your hand.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/228.png" num="223">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Eternal Dragon</name>
+			<text>Flying
+{3}{W}{W}: Return this card from your graveyard to your hand. Activate only during your upkeep.
+Plainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/229.png" num="221">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>5WW</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Volcanic Vision</name>
+			<text>Return target instant or sorcery card from your graveyard to your hand. Volcanic Vision deals damage equal to that card&apos;s mana value to each creature your opponents control. Exile Volcanic Vision.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/230.png" num="225">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5RR</manacost>
+				<cmc>7</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Archaeomancer</name>
+			<text>When Archaeomancer enters the battlefield, return target instant or sorcery card from your graveyard to your hand.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/231.png" num="222">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Evolution Witness</name>
+			<text>{1}{G}: Adapt 2. (If this creature has no +1/+1 counters on it, put two +1/+1 counters on it.)
+Whenever one or more +1/+1 counters are put on Evolution Witness, return target permanent card from your graveyard to your hand.</text>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SPG-files/img/232.png" num="226">SPG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Shaman Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
 		</card>
 	</cards>
 </cockatrice_carddatabase>
