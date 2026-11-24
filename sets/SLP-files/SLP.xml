@@ -5,7 +5,7 @@
 			<name>SLP</name>
 			<longname>The Sleep of Reason</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-11-21</releasedate>
+			<releasedate>2026-11-24</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -13,7 +13,7 @@
 			<name>Hypnic Lotus</name>
 			<text>Whenever you dream, put a petal counter on Hypnic Lotus. (Putting a card into your hand from anywhere other than your library is dreaming.)
 {T}, Sacrifice Hypnic Lotus: Add X mana of any one color, where X is the number of petal counters on Hypnic Lotus.</text>
-			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SLP-files/img/8.png" num="246">SLP</set>
+			<set rarity="mythic" picurl="https://grapplex.github.io/sets/SLP-files/img/8.png" num="248">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -59,9 +59,23 @@
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Quyrashi Gate</name>
+			<text>At the beginning of your upkeep, you may sacrifice a permanent. If you do, return target card from your graveyard to the battlefield if it shares a type with the sacrificed permanent.</text>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/18.png" num="253">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
 			<name>Ossified Observer</name>
 			<text>{T}: Put three target cards in the same graveyard on the bottom of their owner&apos;s library. When you do, return target card from your graveyard to your hand.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/19.png" num="250">SLP</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/19.png" num="252">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -74,9 +88,27 @@
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Prowling Patience</name>
+			<text>During your turn, Prowling Patience has first strike.
+When Prowling Patience leaves the battlefield, put a +1/+1 counter on a creature you control.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/20.png" num="39">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Glimmer</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Formless Divinity</name>
 			<text>Whenever another creature you control leaves the battlefield, put a +1/+1 counter on Formless Divinity.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/22.png" num="35">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/22.png" num="33">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -129,7 +161,7 @@ When August Charger enters the battlefield, return up to one other target perman
 		<card>
 			<name>Girded Starlight</name>
 			<text>When Girded Starlight enters the battlefield, may search your library for a card named Girded Starlight, reveal it, put it into your hand, then shuffle.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/26.png" num="36">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/26.png" num="34">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -161,6 +193,24 @@ When August Charger enters the battlefield, return up to one other target perman
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Legion of Ivory</name>
+			<text>Kicker {2}{W} (You may pay an additional {2}{W} as you cast this spell.)
+When Legion of Ivory enters the battlefield, if it was kicked, create two 1/1 white Nightmare creature tokens.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/29.png" num="35">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Cloud Shredder</name>
 			<text>Flying
 When Cloud Shredder enters the battlefield, destroy target artifact or enchantment an opponent controls.</text>
@@ -182,7 +232,7 @@ When Cloud Shredder enters the battlefield, destroy target artifact or enchantme
 			<name>Mired in Doubt</name>
 			<text>Sneak {W} (You may cast this spell for {W} if you also return an unblocked attacker you control to hand during the declare blockers step.)
 When Mired in Doubt enters the battlefield, exile target nonland permanent an opponent controls until Mired in Doubt leaves the battlefield.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/32.png" num="38">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/32.png" num="37">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -208,6 +258,22 @@ When Mired in Doubt enters the battlefield, exile target nonland permanent an op
 				<cmc>1</cmc>
 				<colors>WU</colors>
 				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Disenchant</name>
+			<text>Destroy target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/34.png" num="29">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
 			</prop>
 			<tablerow>3</tablerow>
 		</card>
@@ -263,10 +329,27 @@ Flying, double strike, lifelink</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
+			<name>Stoic Lancer</name>
+			<text>When Stoic Lancer attacks, you may tap another untapped creature you control. When you do, tap target creature an opponent controls.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/49.png" num="49">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Drifting Remorse</name>
 			<text>Flying, vigilance
 When Drifting Remorse enters the battlefield, return target creature card with mana value 3 or less from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/50.png" num="33">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/50.png" num="31">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -284,7 +367,7 @@ When Drifting Remorse enters the battlefield, return target creature card with m
 			<name>Martial Psychopomp</name>
 			<text>Flying
 Whenever another creature you control leaves the battlefield without dying, put a +1/+1 counter on target creature you control.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/51.png" num="37">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/51.png" num="36">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -320,7 +403,7 @@ Tap an untapped creature you control: Resolute Knightmare gains flying until end
 			<name>Figment of Retribution</name>
 			<text>Sneak {3}{W} (You may cast this spell for {3}{W} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)
 Double strike</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/53.png" num="34">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/53.png" num="32">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -338,7 +421,7 @@ Double strike</text>
 			<name>A Dream of Duty</name>
 			<text>When A Dream of Duty enters the battlefield, create two 2/2 green Illusion creature tokens.
 At the beginning of your end step, if four or more creatures entered the battlefield under your control this turn, return A Dream of Duty to its owner&apos;s hand.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/57.png" num="32">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/57.png" num="30">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -369,6 +452,24 @@ At the beginning of your end step, if four or more creatures entered the battlef
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Feeling of Falling</name>
+			<text>Flying
+Whenever Feeling of Falling attacks, target creature an opponent controls loses flying until end of turn.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/60.png" num="68">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Glimmer</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Ardent Knightmare</name>
 			<text>Whenever you cast a noncreature spell, put a +1/+1 counter on Ardent Knightmare.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/61.png" num="239">SLP</set>
@@ -386,10 +487,28 @@ At the beginning of your end step, if four or more creatures entered the battlef
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Moonsilver Knave</name>
+			<text>Kicker—Return a land you control to its owner&apos;s hand. (You may return a land you control to its owner&apos;s hand in addition to any other costs as you cast this spell.)
+When Moonsilver Knave enters the battlefield, tap target creature an opponent controls and put a stun counter on it. If Moonsilver Knave was kicked, put two stun counters on that creature instead.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/62.png" num="70">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Moonrise Occultist</name>
 			<text>Sneak {1}{U} (You may cast this spell for {1}{U} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)
 When Moonrise Occultist deals combat damage to a player, draw a card.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/63.png" num="70">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/63.png" num="69">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -442,6 +561,23 @@ When Lurking Mardröm enters the battlefield, surveil 2. (Look at the top two ca
 			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
 Counter target spell if its mana value is 2 or less. If Prohibit was kicked, counter that spell if its mana value is 4 or less instead.</text>
 			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/67.png" num="73">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dream</name>
+			<text>Look at the top three cards of your library, then put them back in any order. You may shuffle.
+Draw a card.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/68.png" num="66">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -579,10 +715,26 @@ Whenever another creature you control leaves the battlefield without dying, put 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Thirst for Discovery</name>
+			<text>Draw three cards. Then discard two cards unless you discard a basic land card.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/92.png" num="84">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>A Dream of Tranquility</name>
 			<text>When A Dream of Tranquility enters the battlefield, draw two cards, then discard a card.
 At the beginning of your end step, if you&apos;ve drawn four or more cards this turn, return A Dream of Tranquility to its owner&apos;s hand.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/93.png" num="69">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/93.png" num="67">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -617,7 +769,7 @@ Whenever you cast a kicked spell, create a 2/2 blue Drake creature token with fl
 			<name>Touch the Barrier</name>
 			<text>Sneak {U} (You may cast this spell for {U} if you also return an unblocked attacker you control to hand during the declare blockers step.)
 Draw two cards.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/95.png" num="84">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/95.png" num="85">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -634,7 +786,7 @@ Draw two cards.</text>
 			<name>Forgotten Name</name>
 			<text>Deathtouch
 When Forgotten Name enters the battlefield, each player loses 1 life.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/96.png" num="104">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/96.png" num="102">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -651,7 +803,7 @@ When Forgotten Name enters the battlefield, each player loses 1 life.</text>
 		<card>
 			<name>Somber Sentinel</name>
 			<text>When Somber Sentinel leaves the battlefield, target creature an opponent controls gets -1/-1 until end of turn.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/97.png" num="118">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/97.png" num="117">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -666,9 +818,27 @@ When Forgotten Name enters the battlefield, each player loses 1 life.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Moonrise Blackguard</name>
+			<text>Flying
+{2}: Moonrise Blackguard gets +1/+1 until end of turn. Sacrifice it at the beginning of the next end step.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/98.png" num="107">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Illusion Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Shadow of Lursk</name>
 			<text>Whenever you dream, each opponent loses 1 life and you gain 1 life. (Putting a card into your hand from anywhere other than your library is dreaming.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/99.png" num="117">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/99.png" num="116">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -679,6 +849,24 @@ When Forgotten Name enters the battlefield, each player loses 1 life.</text>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rider on the Cusp of Shadow</name>
+			<text>Sneak—{B}{B} (You may cast this spell for {B}{B} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)
+Flying</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/101.png" num="115">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -702,7 +890,7 @@ When Forgotten Name enters the battlefield, each player loses 1 life.</text>
 		<card>
 			<name>Intrusive Engram</name>
 			<text>Sneak {2}{B}{B} (You may cast this spell for {2}{B}{B} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/104.png" num="107">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/104.png" num="105">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -751,10 +939,27 @@ Target opponent reveals their hand. You choose a nonland card from it. That play
 			<tablerow>3</tablerow>
 		</card>
 		<card>
+			<name>Wither in the Light</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Destroy target creature if it&apos;s tapped or if Wither in the Light was kicked.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/109.png" num="128">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
 			<name>Gnawing Remorse</name>
 			<text>Sneak {1}{B} (You may cast this spell for {1}{B} if you also return an unblocked attacker you control to hand during the declare blockers step.)
 Exile target creature or planeswalker.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/110.png" num="105">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/110.png" num="103">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -787,7 +992,7 @@ Forecast — {1}{B}, Discard a Swamp card, Reveal Archetype of Emptiness from yo
 		<card>
 			<name>In the Thrall of Self-Reflection</name>
 			<text>Whenever you dream, you draw a card and you lose 1 life. (Putting a card into your hand from anywhere other than your library is dreaming.)</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/113.png" num="106">SLP</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/113.png" num="104">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -803,7 +1008,7 @@ Forecast — {1}{B}, Discard a Swamp card, Reveal Archetype of Emptiness from yo
 		<card>
 			<name>Oversold Cemetery</name>
 			<text>At the beginning of your upkeep, if you have four or more creature cards in your graveyard, you may return target creature card from your graveyard to your hand.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/119.png" num="111">SLP</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/119.png" num="109">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -817,10 +1022,27 @@ Forecast — {1}{B}, Discard a Swamp card, Reveal Archetype of Emptiness from yo
 			<tablerow>1</tablerow>
 		</card>
 		<card>
+			<name>Trace of Misery</name>
+			<text>At the beginning of your end step, you lose 2 life.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/124.png" num="119">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Glimmer</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Sullen Duskrider</name>
 			<text>Whenever you dream, put a +1/+1 counter on Sullen Duskrider. (Putting a card into your hand from anywhere other than your library is dreaming.)
 Whenever Sullen Duskrider attacks, you may remove two counters from it. When you do, target creature gets -2/-2 until end of turn.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/125.png" num="119">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/125.png" num="118">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -838,7 +1060,7 @@ Whenever Sullen Duskrider attacks, you may remove two counters from it. When you
 			<name>Liminal Guardian</name>
 			<text>Sneak {2}{B}{B} (You may cast this spell for {2}{B}{B} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)
 When Liminal Guardian enters the battlefield, choose target creature an opponent controls. Destroy it if it was dealt damage this turn or if Liminal Guardian&apos;s sneak cost was paid.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/126.png" num="108">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/126.png" num="106">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -856,7 +1078,7 @@ When Liminal Guardian enters the battlefield, choose target creature an opponent
 			<name>Buried in the Id</name>
 			<text>Sneak {1}{B} (You may cast this spell for {1}{B} if you also return an unblocked attacker you control to hand during the declare blockers step.)
 Search your library for a card, put that card into your hand, then shuffle.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/131.png" num="95">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/131.png" num="96">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -873,7 +1095,7 @@ Search your library for a card, put that card into your hand, then shuffle.</tex
 			<name>A Dream of Silence</name>
 			<text>When A Dream of Silence enters the battlefield, each opponent loses 2 life and you gain 2 life.
 At the beginning of your end step, if you&apos;ve gained 5 or more life this turn, return A Dream of Silence to its owner&apos;s hand</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/132.png" num="103">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/132.png" num="101">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -890,7 +1112,7 @@ At the beginning of your end step, if you&apos;ve gained 5 or more life this tur
 			<name>Outrider of Dusk</name>
 			<text>Sneak {1}{B}{B} (You may cast this spell for {1}{B}{B} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)
 Whenever a creature enters the battlefield under your control, if its sneak cost was paid, you draw a card and you lose 1 life.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/133.png" num="110">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/133.png" num="108">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -909,7 +1131,7 @@ Whenever a creature enters the battlefield under your control, if its sneak cost
 			<text>Kicker {3}{R} (You may pay an additional {3}{R} as you cast this spell.)
 Haste
 If Rider of Keras was kicked, it enters the battlefield with two +1/+1 counters on it.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/134.png" num="149">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/134.png" num="150">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -928,7 +1150,7 @@ If Rider of Keras was kicked, it enters the battlefield with two +1/+1 counters 
 			<text>When Expressive Figment enters the battlefield, mill three cards. When you do, choose one —
 • Discard a card, then put one of the milled cards into your hand.
 • Expressive Figment deals 2 damage to target opponent.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/135.png" num="145">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/135.png" num="143">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -946,7 +1168,7 @@ If Rider of Keras was kicked, it enters the battlefield with two +1/+1 counters 
 			<name>Hand of Keras</name>
 			<text>Menace
 Whenever Hand of Keras deals combat damage to a player, you may discard a card. If you do, draw a card.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/136.png" num="147">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/136.png" num="146">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -979,10 +1201,61 @@ When Avaricious Knightmare enters the battlefield, create a Treasure token. If A
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Fleeting Sorrow</name>
+			<text>Whenever you cast a kicked spell, Fleeting Sorrow gets +1/+1 and gains menace until end of turn. (It can&apos;t be blocked except by two or more creatures.)</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/138.png" num="144">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Glimmer</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pyroclastic Hellion</name>
+			<text>When Pyroclastic Hellion enters the battlefield, you may return a land you control to its owner&apos;s hand. When you do, this creature deals 2 damage to each opponent.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/141.png" num="149">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hellion</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mardröm Predator</name>
+			<text>Trample</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/142.png" num="147">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Debilitating Pain</name>
 			<text>Kicker {4} (You may pay an additional {4} as you cast this spell.)
 Debilitating Pain deals 2 damage to target creature, planeswalker, or battle. If Debilitating Pain was kicked, it deals 4 damage instead.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/143.png" num="141">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/143.png" num="139">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1033,7 +1306,7 @@ Debilitating Pain deals 2 damage to target creature, planeswalker, or battle. If
 			<name>Deepdream Turmoil</name>
 			<text>Sneak {1}{R}{R} (You may cast this spell for {1}{R}{R} if you also return an unblocked attacker you control to hand during the declare blockers step.)
 Deepdream Turmoil deals 6 damage to target creature or planeswalker.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/148.png" num="143">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/148.png" num="141">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1067,7 +1340,7 @@ Forecast — {1}{R}, Discard a Mountain card, Reveal Archetype of Desire from yo
 			<name>A Dangerous Offering</name>
 			<text>Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)
 A Dangerous Offering deals 3 damage to each creature and each planeswalker. If it was kicked, it also deals 3 damage to each opponent.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/151.png" num="140">SLP</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/151.png" num="138">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1085,7 +1358,7 @@ A Dangerous Offering deals 3 damage to each creature and each planeswalker. If i
 			<text>Flying
 Whenever you dream, Furnace Dreamkite deals 2 damage to any target. (Putting a card into your hand from anywhere other than your library is dreaming.)
 Whenever Furnace Dreamkite attacks, return target card from your graveyard to your hand unless any player has Furnace Dreamkite deal 4 damage to them.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/152.png" num="146">SLP</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/152.png" num="145">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1100,10 +1373,29 @@ Whenever Furnace Dreamkite attacks, return target card from your graveyard to yo
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Bound Skizzik</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Haste
+At the beginning of the end step, if Bound Skizzik wasn&apos;t kicked, return it to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/162.png" num="132">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Thorn of Guilt</name>
 			<text>Haste
 When Thorn of Guilt leaves the battlefield, it deals damage equal to its power to any target.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/163.png" num="155">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/163.png" num="156">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1122,7 +1414,7 @@ When Thorn of Guilt leaves the battlefield, it deals damage equal to its power t
 			<text>Kicker {R} (You may pay an additional {R} as you cast this spell.)
 Haste
 When Deceptive Masque enters the battlefield, if it was kicked destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/164.png" num="142">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/164.png" num="140">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1140,7 +1432,7 @@ When Deceptive Masque enters the battlefield, if it was kicked destroy target la
 			<name>Colossal Mardröm</name>
 			<text>Menace
 Attacking creatures you control get +1/+0.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/169.png" num="132">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/169.png" num="133">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1158,7 +1450,7 @@ Attacking creatures you control get +1/+0.</text>
 			<name>A Dream of Fire</name>
 			<text>When A Dream of Fire enters the battlefield, it deals 3 damage to any target.
 At the beginning of your end step, if an opponent has been dealt 5 or more noncombat damage this turn, return A Dream of Fire to its owner&apos;s hand.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/170.png" num="144">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/170.png" num="142">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1209,7 +1501,7 @@ Brittle Figment gets +1/+1 as long as you&apos;ve dreamed this turn. (Putting a 
 		<card>
 			<name>Latent Courage</name>
 			<text>At the beginning of combat on your turn, if you&apos;ve dreamed this turn, put a +1/+1 counter on Latent Courage. (Putting a card into your hand from anywhere other than your library is dreaming.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/173.png" num="179">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/173.png" num="178">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1228,7 +1520,7 @@ Brittle Figment gets +1/+1 as long as you&apos;ve dreamed this turn. (Putting a 
 			<text>Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)
 Trample
 If Moonshadow Paladin was kicked, it enters the battlefield with three +1/+1 counters on it.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/174.png" num="182">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/174.png" num="183">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1239,6 +1531,23 @@ If Moonshadow Paladin was kicked, it enters the battlefield with three +1/+1 cou
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wistful Dancer</name>
+			<text>Vigilance, reach</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/176.png" num="201">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Glimmer</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1262,10 +1571,45 @@ Sightless Seer enters the battlefield with three +1/+1 counters on it if it was 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Doubtwader</name>
+			<text>Vigilance
+When Doubtwader enters the battlefield, you may return a creature you control to its owner&apos;s hand. If that creature had a kicker ability, put a +1/+1 counter on Doubtwader.</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/180.png" num="174">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mardröm Barghest</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/181.png" num="179">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Moonrise Aspirant</name>
 			<text>Kicker {G} (You may pay an additional {G} as you cast this spell.)
 When Moonrise Aspirant enters the battlefield, if it was kicked, destroy target artifact or enchantment.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/182.png" num="181">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/182.png" num="182">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1367,7 +1711,7 @@ Basal Predator enters the battlefield with X +1/+1 counters on it. If it was kic
 			<name>Ravenous Mardröm</name>
 			<text>Trample, haste
 When Ravenous Mardröm enters the battlefield, distribute three +1/+1 counters among one, two, or three target creatures.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/194.png" num="183">SLP</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/194.png" num="184">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1382,10 +1726,28 @@ When Ravenous Mardröm enters the battlefield, distribute three +1/+1 counters a
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Mardröm Mindstalker</name>
+			<text>Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)
+When Mardröm Mindstalker enters the battlefield, if it was kicked, it fights target creature an opponent controls.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/201.png" num="180">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
 			<name>Lambent Glimmer</name>
 			<text>{T}: Add one mana of any color.
 Whenever you dream, untap Lambent Glimmer. (Putting a card into your hand from anywhere other than your library is dreaming.)</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/202.png" num="178">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/202.png" num="177">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1439,7 +1801,7 @@ If Thunderous Instinct was kicked, it enters the battlefield with five +1/+1 cou
 			<name>A Dream of Fury</name>
 			<text>When A Dream of Fury enters the battlefield, target creature you control deals damage equal to its power to another target creature, planeswalker, or battle.
 At the beginning of your end step, if three or more creatures died this turn, return A Dream of Fury to its owner&apos;s hand.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/208.png" num="177">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/208.png" num="175">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1456,7 +1818,7 @@ At the beginning of your end step, if three or more creatures died this turn, re
 			<name>Turbulent Growth</name>
 			<text>Kicker {1}{G} (You may pay an additional {1}{G} as you cast this spell.)
 Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle. If Turbulent Growth was kicked, search your library for three basic land cards instead of two.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/209.png" num="191">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/209.png" num="192">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1826,7 +2188,7 @@ Indolent Caprice has double strike as long as it has three or more counters on i
 		<card>
 			<name>Metal Militia</name>
 			<text>When Metal Militia enters the battlefield, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/240.png" num="248">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/240.png" num="250">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1890,7 +2252,7 @@ Destroy target nonland permanent.</text>
 			<text>You may pay {1} and return a land you control to its owner&apos;s hand rather than pay Horn and Ivory&apos;s mana cost.
 Horn and Ivory enters the battlefield tapped.
 {T}: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/244.png" num="245">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/244.png" num="247">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1914,6 +2276,21 @@ Horn and Ivory enters the battlefield tapped.
 				<cmc>2</cmc>
 			</prop>
 			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Potential</name>
+			<text>Other creatures you control get +1/+1.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/246.png" num="13">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Dour Driftblade</name>
@@ -1950,7 +2327,7 @@ When Fragment of Potential leaves the battlefield, draw a card.</text>
 		<card>
 			<name>Iron Witness</name>
 			<text>When Iron Witness dies, you may exile it. When you do, return target creature card from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/249.png" num="247">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/249.png" num="249">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1963,9 +2340,23 @@ When Fragment of Potential leaves the battlefield, draw a card.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
+			<name>Gilded Angst</name>
+			<text>Whenever you dream, target player mills four cards. (Putting a card into your hand from anywhere other than your library is dreaming.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/250.png" num="246">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
 			<name>Repression Vault</name>
 			<text>{T}, Return another permanent you control to its owner&apos;s hand: Add one mana of any color. Activate only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/251.png" num="251">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/251.png" num="254">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1981,7 +2372,7 @@ When Fragment of Potential leaves the battlefield, draw a card.</text>
 			<text>Whenever you dream, put a charge counter on Oblivion Helm. (Putting a card into your hand from anywhere other than your library is dreaming.)
 {T}: Add {C}.
 {T}, Sacrifice Oblivion Helm: Destroy target nonland permanent with mana value less than or equal to the number of charge counters on Oblivion Helm.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/252.png" num="249">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/252.png" num="251">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1993,10 +2384,40 @@ When Fragment of Potential leaves the battlefield, draw a card.</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
+			<name>Gates of Truth</name>
+			<text>When Gates of Truth enters the battlefield, you may exile a land card from your hand or graveyard. When you do, Gates of Truth becomes a copy of the exiled card.
+When Gates of Truth leaves the battlefield, return the exiled card to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/253.png" num="245">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Buried Hope</name>
+			<text>{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to pay an additional or alternate cost while casting a spell. (An additional cost is paid in addition to its mana cost; an alternate cost is paid instead of its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/254.png" num="255">SLP</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
 			<name>Grave of the Self</name>
 			<text>{T}: Add {C}.
 {2}, {T}, Sacrifice Grave of the Self: Return an instant or sorcery card at random from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/255.png" num="256">SLP</set>
+			<set rarity="uncommon" picurl="https://grapplex.github.io/sets/SLP-files/img/255.png" num="257">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2085,7 +2506,7 @@ When Fragment of Potential leaves the battlefield, draw a card.</text>
 		<card>
 			<name>Nightmare SLP</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/263.png" num="2">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/263.png" num="1">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2104,7 +2525,7 @@ When Fragment of Potential leaves the battlefield, draw a card.</text>
 			<name>Gilded Preconscious</name>
 			<text>Gilded Preconscious enters the battlefield tapped. When it enters the battlefield, if you played it, you may return target creature you control to its owner&apos;s hand.
 {T}: Add {G} or {W}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/265.png" num="255">SLP</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/264.png" num="256">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2120,7 +2541,7 @@ When Fragment of Potential leaves the battlefield, draw a card.</text>
 			<name>Hallowed Spur</name>
 			<text>Hallowed Spur enters the battlefield tapped. When it enters the battlefield, if you played it, you may return target creature you control to its owner&apos;s hand.
 {T}: Add {W} or {U}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/266.png" num="257">SLP</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/265.png" num="258">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2136,7 +2557,7 @@ When Fragment of Potential leaves the battlefield, draw a card.</text>
 			<name>Liminal Growth</name>
 			<text>Liminal Growth enters the battlefield tapped. When it enters the battlefield, if you played it, you may return target creature you control to its owner&apos;s hand.
 {T}: Add {R} or {G}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/267.png" num="259">SLP</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/266.png" num="260">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2152,7 +2573,7 @@ When Fragment of Potential leaves the battlefield, draw a card.</text>
 			<name>Shimmering Cathexis</name>
 			<text>Shimmering Cathexis enters the battlefield tapped. When it enters the battlefield, if you played it, you may return target creature you control to its owner&apos;s hand.
 {T}: Add {U} or {B}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/268.png" num="260">SLP</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/267.png" num="261">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2169,7 +2590,7 @@ When Fragment of Potential leaves the battlefield, draw a card.</text>
 			<text>Burnished Lake enters the battlefield tapped.
 When Burnished Lake enters the battlefield, return a land you control to its owner&apos;s hand.
 {T}: Add {W}{U}.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/269.png" num="262">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/268.png" num="262">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2185,7 +2606,7 @@ When Burnished Lake enters the battlefield, return a land you control to its own
 			<name>Latent Strife</name>
 			<text>Latent Strife enters the battlefield tapped. When it enters the battlefield, if you played it, you may return target creature you control to its owner&apos;s hand.
 {T}: Add {B} or {R}.</text>
-			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/270.png" num="258">SLP</set>
+			<set rarity="rare" picurl="https://grapplex.github.io/sets/SLP-files/img/269.png" num="259">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2202,7 +2623,7 @@ When Burnished Lake enters the battlefield, return a land you control to its own
 			<text>Slumbering Township enters the battlefield tapped.
 When Slumbering Township enters the battlefield, return a land you control to its owner&apos;s hand.
 {T}: Add {G}{W}.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/271.png" num="266">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/270.png" num="266">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2219,7 +2640,7 @@ When Slumbering Township enters the battlefield, return a land you control to it
 			<text>Rugged Nothingness enters the battlefield tapped.
 When Rugged Nothingness enters the battlefield, return a land you control to its owner&apos;s hand.
 {T}: Add {R}{G}.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/272.png" num="264">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/271.png" num="264">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2236,7 +2657,7 @@ When Rugged Nothingness enters the battlefield, return a land you control to its
 			<text>Nightrise Vista enters the battlefield tapped.
 When Nightrise Vista enters the battlefield, return a land you control to its owner&apos;s hand.
 {T}: Add {B}{R}.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/273.png" num="263">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/272.png" num="263">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2253,7 +2674,7 @@ When Nightrise Vista enters the battlefield, return a land you control to its ow
 			<text>Shores of Dusk enters the battlefield tapped.
 When Shores of Dusk enters the battlefield, return a land you control to its owner&apos;s hand.
 {T}: Add {U}{B}.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/274.png" num="265">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/273.png" num="265">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2268,7 +2689,7 @@ When Shores of Dusk enters the battlefield, return a land you control to its own
 		<card>
 			<name>Illusion SLP</name>
 			<text>Flying</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/275.png" num="4">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/274.png" num="3">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2286,7 +2707,7 @@ When Shores of Dusk enters the battlefield, return a land you control to its own
 		<card>
 			<name>Drake SLP</name>
 			<text>Flying</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/276.png" num="3">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/275.png" num="2">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2304,7 +2725,7 @@ When Shores of Dusk enters the battlefield, return a land you control to its own
 		<card>
 			<name>Treasure SLP</name>
 			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/277.png" num="6">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/276.png" num="5">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2319,7 +2740,7 @@ When Shores of Dusk enters the battlefield, return a land you control to its own
 		<card>
 			<name>Illusion SLP</name>
 			<text></text>
-			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/278.png" num="5">SLP</set>
+			<set rarity="common" picurl="https://grapplex.github.io/sets/SLP-files/img/277.png" num="4">SLP</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
