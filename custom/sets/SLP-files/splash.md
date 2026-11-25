@@ -6,7 +6,7 @@ The dreamer awoke, and the dream ended. But for one embittered soul, this was no
 
 Beneath the multiverse, beyond time, a collective unconscious links the minds of the sleeping. Not real in any true sense of the word, the dream realm exists only as long as sleepers do. Ordinarily, waking will dispel the figments and nightmares gathering in a sleeping mind, erasing part of this realm entirely—it is a constantly shifting fabric of archetypes and memetic shapes not beholden to any one mind. Lursk alone can comprehend it in its entirety; it is not a place a sentient mind can usually enter, nor leave, and the circumstances of his sparking have trapped him here for what may have been days, or what may have been millennia. It is Lursk's singular desire to escape—to wake, to sleep, and to die, knowing the rest forever denied to him.
 
-**The Sleep of Reason** is a draftable premier set using Play Boosters, containing 266 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of [SOME CARD], while all boosters have a chance of containing the Headliner version of [SOME CARD]
+**The Sleep of Reason** is a draftable premier set using Play Boosters, containing 266 cards (20 mythic rares, 60 rares, 100 uncommons, 81 commons, and 5 basic lands). Bundle purchasers will also obtain a promotional alternate art copy of [SOME CARD], while all boosters have a chance of containing the Headliner lucid foil version of Hypnic Lotus.
 
 ###Mechanics
 
